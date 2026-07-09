@@ -23,6 +23,7 @@ const state = {
   selectedVoiceURI: prefs.selectedVoiceURI || "",
   quiz: null,
   modalIndex: -1,
+  mistakeFilter: prefs.mistakeFilter === "all" ? "all" : "topic",
 };
 
 const topicList = document.querySelector("#topicList");
@@ -47,6 +48,7 @@ const examBoard = document.querySelector("#examBoard");
 const examScore = document.querySelector("#examScore");
 const mistakeList = document.querySelector("#mistakeList");
 const mistakeClear = document.querySelector("#mistakeClear");
+const mistakeFilter = document.querySelector("#mistakeFilter");
 const mistakeRetake = document.querySelector("#mistakeRetake");
 const examDrawer = document.querySelector("#examDrawer");
 const examBackdrop = document.querySelector("#examBackdrop");
@@ -463,14 +465,35 @@ function removeMistake(word) {
   renderMistakes();
 }
 
+// 错题范围：跟随当前话题，或全部。在"全部话题"浏览时两者等价
+function visibleMistakes() {
+  const list = readMistakes();
+  if (state.mistakeFilter === "all" || state.activeTopic === "all") return list;
+  const topic = topics.find((item) => item.slug === state.activeTopic);
+  if (!topic) return list;
+  return list.filter((item) => item.topicTitle === topic.title);
+}
+
 function renderMistakes() {
   if (!mistakeList) return;
-  const list = readMistakes();
+  const all = readMistakes();
+  const list = visibleMistakes();
+
+  mistakeFilter.querySelectorAll("button").forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.filter === state.mistakeFilter);
+  });
+
   mistakeRetake.disabled = !list.length;
-  examEntryBadge.hidden = !list.length;
-  examEntryBadge.textContent = list.length ? `错题 ${list.length}` : "";
+  mistakeClear.disabled = !list.length;
+  examEntryBadge.hidden = !all.length;
+  examEntryBadge.textContent = all.length ? `错题 ${all.length}` : "";
+
   if (!list.length) {
-    mistakeList.innerHTML = `<p class="mistake-empty">还没有错题，考一轮试试。答对错题会自动移出错题本。</p>`;
+    const hint =
+      all.length && state.mistakeFilter === "topic"
+        ? `当前话题没有错题，其他话题还有 ${all.length} 条，切"全部话题"查看。`
+        : "还没有错题，考一轮试试。答对错题会自动移出错题本。";
+    mistakeList.innerHTML = `<p class="mistake-empty">${hint}</p>`;
   } else {
     mistakeList.innerHTML = list
       .map(
@@ -490,8 +513,9 @@ function renderMistakes() {
   renderStats();
 }
 
-function clearAllMistakes() {
-  writeMistakes([]);
+function clearVisibleMistakes() {
+  const remaining = new Set(visibleMistakes().map((item) => normalizeAnswer(item.word)));
+  writeMistakes(readMistakes().filter((item) => !remaining.has(normalizeAnswer(item.word))));
   renderMistakes();
 }
 
@@ -552,9 +576,9 @@ function startExam() {
 }
 
 function startMistakeExam() {
-  const mistakes = readMistakes();
+  const mistakes = visibleMistakes();
   if (!mistakes.length) {
-    showToast("错题本是空的，先考一轮吧");
+    showToast("这个范围内没有错题");
     return;
   }
   // 干扰项从全部话题的词库里抽，错题本身作为考题
@@ -589,7 +613,7 @@ function renderExamQuestion() {
         <span>答对 ${quiz.score} / ${quiz.questions.length} 题${wrongCount ? `，${wrongCount} 个错词已记入错题本` : "，全对！"}</span>
         <div class="exam-result-actions">
           <button class="exam-start" type="button" data-exam-restart>再考一次</button>
-          ${readMistakes().length ? `<button class="exam-start" type="button" data-exam-retake-mistakes>重考错题</button>` : ""}
+          ${visibleMistakes().length ? `<button class="exam-start" type="button" data-exam-retake-mistakes>重考错题</button>` : ""}
         </div>
       </div>
     `;
@@ -732,6 +756,7 @@ function attachEvents() {
     savePrefs({ activeTopic: state.activeTopic });
     render();
     renderExamIntro();
+    renderMistakes();
   });
 
   let searchTimer;
@@ -761,7 +786,15 @@ function attachEvents() {
     speakExamWord(item.dataset.word);
   });
 
-  mistakeClear.addEventListener("click", clearAllMistakes);
+  mistakeClear.addEventListener("click", clearVisibleMistakes);
+
+  mistakeFilter.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-filter]");
+    if (!button || button.dataset.filter === state.mistakeFilter) return;
+    state.mistakeFilter = button.dataset.filter;
+    savePrefs({ mistakeFilter: state.mistakeFilter });
+    renderMistakes();
+  });
 
   examBoard.addEventListener("click", (event) => {
     const option = event.target.closest(".exam-option");
