@@ -56,6 +56,8 @@ button {
 .sidebar {
   position: sticky;
   top: 0;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   overflow: auto;
   padding: 24px 18px;
@@ -107,8 +109,7 @@ h1 {
   font-size: 13px;
 }
 
-.search,
-.topic-picker {
+.search {
   display: grid;
   gap: 8px;
   margin-bottom: 14px;
@@ -117,7 +118,6 @@ h1 {
 }
 
 .search input,
-.topic-picker select,
 .voice-control select {
   width: 100%;
   border: 1px solid var(--line);
@@ -132,16 +132,76 @@ h1 {
   padding: 0 12px;
 }
 
-.topic-picker select {
-  min-height: 44px;
-  padding: 0 12px;
+.search input:focus,
+.voice-control select:focus {
+  border-color: rgba(68, 96, 78, 0.55);
+  box-shadow: 0 0 0 4px rgba(68, 96, 78, 0.1);
 }
 
-.search input:focus,
-.topic-picker select:focus,
-.voice-control select:focus {
-  border-color: rgba(95, 142, 150, 0.62);
-  box-shadow: 0 0 0 4px rgba(95, 142, 150, 0.12);
+.topic-nav {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 160px;
+  margin: 16px 0 0;
+}
+
+.topic-nav-label {
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.topic-list {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  border-top: 1px solid var(--line);
+  padding-right: 2px;
+}
+
+.topic-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  background: transparent;
+  color: #4b453a;
+  cursor: pointer;
+  font-size: 13.5px;
+  padding: 9px 8px 9px 10px;
+  text-align: left;
+  transition: background 140ms ease, color 140ms ease;
+}
+
+.topic-link:hover {
+  background: rgba(33, 29, 23, 0.045);
+  color: var(--ink);
+}
+
+.topic-link em {
+  color: var(--muted);
+  font-size: 12px;
+  font-style: normal;
+  font-variant-numeric: tabular-nums;
+}
+
+.topic-link.is-active {
+  background: rgba(68, 96, 78, 0.1);
+  color: var(--ink);
+  font-weight: 700;
+  box-shadow: inset 2px 0 0 var(--accent);
+}
+
+.topic-link.is-active em {
+  color: var(--accent);
+  font-weight: 700;
 }
 
 .stats {
@@ -1223,6 +1283,10 @@ body.is-exam-active .gallery {
     max-height: none;
     border-right: 0;
     border-bottom: 1px solid var(--line);
+  }
+
+  .topic-list {
+    max-height: 280px;
   }
 
   .toolbar {

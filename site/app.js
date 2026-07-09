@@ -25,7 +25,7 @@ const state = {
   modalIndex: -1,
 };
 
-const topicSelect = document.querySelector("#topicSelect");
+const topicList = document.querySelector("#topicList");
 const gallery = document.querySelector("#gallery");
 const searchInput = document.querySelector("#searchInput");
 const pageTitle = document.querySelector("#pageTitle");
@@ -133,22 +133,27 @@ function renderStats() {
   `;
 }
 
+// 列表里只显示中文名；标题里的英文部分有 "（…）"、"(…)"、"| …" 几种写法
 function topicLabel(topic) {
-  return topic.title || topic.shortTitle;
+  const title = topic.title || topic.shortTitle || "";
+  return title.split(/（|\(|\|/)[0].trim();
 }
 
 function renderTopics() {
   const options = [
-    { slug: "all", title: "全部话题（All Topics）", count: allCards().length },
+    { slug: "all", title: "全部话题", count: allCards().length },
     ...topics.map((topic) => ({ slug: topic.slug, title: topicLabel(topic), count: topic.cards.length })),
   ];
 
-  topicSelect.innerHTML = options
+  topicList.innerHTML = options
     .map(
       (topic) => `
-        <option value="${escapeHtml(topic.slug)}" ${topic.slug === state.activeTopic ? "selected" : ""}>
-          ${escapeHtml(topic.title)} · ${topic.count} 张
-        </option>
+        <button class="topic-link ${topic.slug === state.activeTopic ? "is-active" : ""}" type="button" data-topic="${escapeHtml(
+          topic.slug,
+        )}">
+          <span>${escapeHtml(topic.title)}</span>
+          <em>${topic.count}</em>
+        </button>
       `,
     )
     .join("");
@@ -718,8 +723,10 @@ function closeExamDrawer() {
 }
 
 function attachEvents() {
-  topicSelect.addEventListener("change", (event) => {
-    state.activeTopic = event.target.value;
+  topicList.addEventListener("click", (event) => {
+    const link = event.target.closest(".topic-link");
+    if (!link || link.dataset.topic === state.activeTopic) return;
+    state.activeTopic = link.dataset.topic;
     state.quiz = null;
     setExamActive(false);
     savePrefs({ activeTopic: state.activeTopic });

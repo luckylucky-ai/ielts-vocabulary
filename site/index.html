@@ -22,15 +22,15 @@
           <input id="searchInput" type="search" placeholder="输入 topic / word / 中文" autocomplete="off" />
         </label>
 
-        <label class="topic-picker">
-          <span>话题</span>
-          <select id="topicSelect" aria-label="选择话题"></select>
-        </label>
-
         <button class="exam-entry" id="examEntry" type="button">
           <span>单词考试</span>
           <em id="examEntryBadge" hidden></em>
         </button>
+
+        <nav class="topic-nav" aria-label="选择话题">
+          <p class="topic-nav-label">话题</p>
+          <div class="topic-list" id="topicList"></div>
+        </nav>
 
         <div class="stats" id="stats"></div>
       </aside>
