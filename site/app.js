@@ -395,17 +395,32 @@ function hideMagnifier() {
   magnifier.classList.remove("is-visible");
 }
 
+// object-fit: contain 会在 img 元素框内留白边，这里算出画面实际占据的矩形
+function modalImageContentRect() {
+  const box = modalImage.getBoundingClientRect();
+  const naturalRatio = modalImage.naturalWidth / modalImage.naturalHeight;
+  if (!naturalRatio || !box.width || !box.height) return null;
+  const boxRatio = box.width / box.height;
+  if (naturalRatio > boxRatio) {
+    const height = box.width / naturalRatio;
+    return { left: box.left, top: box.top + (box.height - height) / 2, width: box.width, height };
+  }
+  const width = box.height * naturalRatio;
+  return { left: box.left + (box.width - width) / 2, top: box.top, width, height: box.height };
+}
+
 function updateMagnifier(event) {
-  if (!modalImage.src) {
+  if (!modalImage.src || !modalImage.naturalWidth) {
     hideMagnifier();
     return;
   }
-  const imgRect = modalImage.getBoundingClientRect();
+  const imgRect = modalImageContentRect();
   const inside =
+    imgRect &&
     event.clientX >= imgRect.left &&
-    event.clientX <= imgRect.right &&
+    event.clientX <= imgRect.left + imgRect.width &&
     event.clientY >= imgRect.top &&
-    event.clientY <= imgRect.bottom;
+    event.clientY <= imgRect.top + imgRect.height;
   if (!inside) {
     hideMagnifier();
     return;
