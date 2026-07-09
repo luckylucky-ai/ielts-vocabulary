@@ -959,6 +959,13 @@ function attachEvents() {
   modalPrev.addEventListener("click", () => stepModal(-1));
   modalNext.addEventListener("click", () => stepModal(1));
 
+  // 舞台贴合图片真实比例，避免不同屏幕比例下图片两侧留白
+  modalImage.addEventListener("load", () => {
+    if (modalImage.naturalWidth && modalImage.naturalHeight) {
+      modalStage.style.aspectRatio = `${modalImage.naturalWidth} / ${modalImage.naturalHeight}`;
+    }
+  });
+
   modalWords.addEventListener("click", (event) => {
     const button = event.target.closest(".modal-word");
     if (!button) return;
