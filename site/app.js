@@ -57,6 +57,7 @@ const examEntry = document.querySelector("#examEntry");
 const examEntryBadge = document.querySelector("#examEntryBadge");
 const modalPrev = document.querySelector("#modalPrev");
 const modalNext = document.querySelector("#modalNext");
+const magnifier = document.querySelector("#magnifier");
 
 function allCards() {
   return topics.flatMap((topic) =>
@@ -357,7 +358,7 @@ function openImageModalByIndex(index) {
   imageModal.classList.add("is-open");
   imageModal.setAttribute("aria-hidden", "false");
   document.body.classList.add("has-modal");
-  setZoomOrigin(50, 50);
+  hideMagnifier();
 }
 
 function stepModal(delta) {
@@ -372,6 +373,7 @@ function closeImageModal() {
   modalImage.removeAttribute("src");
   modalWords.innerHTML = "";
   modalWordZoom.classList.remove("is-visible");
+  hideMagnifier();
   state.modalIndex = -1;
 }
 
@@ -386,9 +388,38 @@ function showModalWord(button) {
   speakExamWord(button.dataset.word);
 }
 
-function setZoomOrigin(xPercent, yPercent) {
-  modalStage.style.setProperty("--spot-x", `${xPercent}%`);
-  modalStage.style.setProperty("--spot-y", `${yPercent}%`);
+// 放大镜泡泡：镜片背景用同一张图，按缩放比例反向偏移，露出鼠标所在的局部
+const magnifierZoom = 2.2;
+
+function hideMagnifier() {
+  magnifier.classList.remove("is-visible");
+}
+
+function updateMagnifier(event) {
+  if (!modalImage.src) {
+    hideMagnifier();
+    return;
+  }
+  const imgRect = modalImage.getBoundingClientRect();
+  const inside =
+    event.clientX >= imgRect.left &&
+    event.clientX <= imgRect.right &&
+    event.clientY >= imgRect.top &&
+    event.clientY <= imgRect.bottom;
+  if (!inside) {
+    hideMagnifier();
+    return;
+  }
+  const stageRect = modalStage.getBoundingClientRect();
+  const radius = magnifier.offsetWidth / 2;
+  const x = event.clientX - imgRect.left;
+  const y = event.clientY - imgRect.top;
+  magnifier.style.left = `${event.clientX - stageRect.left}px`;
+  magnifier.style.top = `${event.clientY - stageRect.top}px`;
+  magnifier.style.backgroundImage = `url("${modalImage.src}")`;
+  magnifier.style.backgroundSize = `${imgRect.width * magnifierZoom}px ${imgRect.height * magnifierZoom}px`;
+  magnifier.style.backgroundPosition = `${radius - x * magnifierZoom}px ${radius - y * magnifierZoom}px`;
+  magnifier.classList.add("is-visible");
 }
 
 
@@ -923,14 +954,8 @@ function attachEvents() {
     if (event.target === imageModal) closeImageModal();
   });
 
-  imageModal.addEventListener("mousemove", (event) => {
-    const rect = modalStage.getBoundingClientRect();
-    const x = ((event.clientX - rect.left) / rect.width) * 100;
-    const y = ((event.clientY - rect.top) / rect.height) * 100;
-    setZoomOrigin(Math.max(0, Math.min(100, x)), Math.max(0, Math.min(100, y)));
-  });
-
-  imageModal.addEventListener("mouseleave", () => setZoomOrigin(50, 50));
+  imageModal.addEventListener("mousemove", updateMagnifier);
+  imageModal.addEventListener("mouseleave", hideMagnifier);
 
   document.addEventListener("keydown", (event) => {
     if (imageModal.classList.contains("is-open")) {

@@ -543,8 +543,6 @@ h2 {
 }
 
 .modal-stage {
-  --spot-x: 50%;
-  --spot-y: 50%;
   position: relative;
   display: grid;
   place-items: center;
@@ -553,7 +551,7 @@ h2 {
   border-radius: 8px;
   background: rgba(255, 250, 238, 0.96);
   box-shadow: 0 28px 80px rgba(0, 0, 0, 0.42);
-  cursor: zoom-in;
+  cursor: crosshair;
 }
 
 .modal-stage img {
@@ -562,13 +560,29 @@ h2 {
   max-width: 100%;
   max-height: calc(100vh - 44px);
   object-fit: contain;
-  transform-origin: var(--spot-x) var(--spot-y);
-  transition: transform 220ms ease;
 }
 
-/* 悬停时以鼠标位置为中心放大，移动鼠标即可"巡视"卡片细节 */
-.modal-stage:hover img {
-  transform: scale(1.85);
+/* 放大镜泡泡：整图保持可见，镜片内是鼠标位置的局部放大 */
+.magnifier {
+  position: absolute;
+  z-index: 2;
+  width: 220px;
+  aspect-ratio: 1;
+  border: 2px solid rgba(255, 255, 255, 0.92);
+  border-radius: 50%;
+  background-color: #fffdf7;
+  background-repeat: no-repeat;
+  box-shadow:
+    0 12px 44px rgba(20, 16, 10, 0.38),
+    inset 0 0 3px rgba(0, 0, 0, 0.18);
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: opacity 140ms ease;
+}
+
+.magnifier.is-visible {
+  opacity: 1;
 }
 
 .modal-close {
