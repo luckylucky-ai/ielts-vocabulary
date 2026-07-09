@@ -10026,6 +10026,1692 @@ window.IELTS_VOCAB_TOPICS = [
     ]
   },
   {
+    "slug": "27-energy-and-resources",
+    "title": "能源与资源（Energy & Resources）",
+    "shortTitle": "Energy And Resources",
+    "cards": [
+      {
+        "cardNumber": 1,
+        "subtitle": "化石能源与开采（Fossil Fuels & Extraction）",
+        "words": [
+          {
+            "word": "extraction",
+            "ipa": "/ɪkˈstrækʃn/",
+            "pos": "n",
+            "meaning": "开采"
+          },
+          {
+            "word": "drilling",
+            "ipa": "/ˈdrɪlɪŋ/",
+            "pos": "n",
+            "meaning": "钻探"
+          },
+          {
+            "word": "reserve",
+            "ipa": "/rɪˈzɜːv/",
+            "pos": "n",
+            "meaning": "储量"
+          },
+          {
+            "word": "deposit",
+            "ipa": "/dɪˈpɒzɪt/",
+            "pos": "n",
+            "meaning": "矿藏"
+          },
+          {
+            "word": "crude",
+            "ipa": "/kruːd/",
+            "pos": "adj",
+            "meaning": "未提炼的"
+          },
+          {
+            "word": "excavate",
+            "ipa": "/ˈekskəveɪt/",
+            "pos": "v",
+            "meaning": "挖掘"
+          },
+          {
+            "word": "extract",
+            "ipa": "/ɪkˈstrækt/",
+            "pos": "v",
+            "meaning": "提取"
+          },
+          {
+            "word": "non-renewable",
+            "ipa": "/ˌnɒn rɪˈnjuːəbl/",
+            "pos": "adj",
+            "meaning": "不可再生的"
+          },
+          {
+            "word": "refinery",
+            "ipa": "/rɪˈfaɪnəri/",
+            "pos": "n",
+            "meaning": "炼油厂"
+          },
+          {
+            "word": "combustion",
+            "ipa": "/kəmˈbʌstʃən/",
+            "pos": "n",
+            "meaning": "燃烧"
+          },
+          {
+            "word": "emission",
+            "ipa": "/ɪˈmɪʃn/",
+            "pos": "n",
+            "meaning": "排放"
+          },
+          {
+            "word": "byproduct",
+            "ipa": "/ˈbaɪprɒdʌkt/",
+            "pos": "n",
+            "meaning": "副产品"
+          },
+          {
+            "word": "hazardous",
+            "ipa": "/ˈhæzədəs/",
+            "pos": "adj",
+            "meaning": "危险的"
+          },
+          {
+            "word": "subsidence",
+            "ipa": "/səbˈsaɪdns/",
+            "pos": "n",
+            "meaning": "地面沉降"
+          },
+          {
+            "word": "carbon-intensive",
+            "ipa": "/ˌkɑːbən ɪnˈtensɪv/",
+            "pos": "adj",
+            "meaning": "高碳排放的"
+          },
+          {
+            "word": "deplete",
+            "ipa": "/dɪˈpliːt/",
+            "pos": "v",
+            "meaning": "耗尽"
+          },
+          {
+            "word": "finite",
+            "ipa": "/ˈfaɪnaɪt/",
+            "pos": "adj",
+            "meaning": "有限的"
+          }
+        ],
+        "image": "../outputs/27-energy-and-resources/generated-with-text/27-card-01-generated-text.png"
+      },
+      {
+        "cardNumber": 2,
+        "subtitle": "可再生能源（Renewable Energy）",
+        "words": [
+          {
+            "word": "renewable",
+            "ipa": "/rɪˈnjuːəbl/",
+            "pos": "adj",
+            "meaning": "可再生的"
+          },
+          {
+            "word": "solar",
+            "ipa": "/ˈsəʊlə/",
+            "pos": "adj",
+            "meaning": "太阳能的"
+          },
+          {
+            "word": "photovoltaic",
+            "ipa": "/ˌfəʊtəʊvɒlˈteɪɪk/",
+            "pos": "adj",
+            "meaning": "光伏的"
+          },
+          {
+            "word": "turbine",
+            "ipa": "/ˈtɜːbaɪn/",
+            "pos": "n",
+            "meaning": "涡轮机"
+          },
+          {
+            "word": "wind farm",
+            "ipa": "/wɪnd fɑːm/",
+            "pos": "n",
+            "meaning": "风电场"
+          },
+          {
+            "word": "hydropower",
+            "ipa": "/ˈhaɪdrəʊpaʊə/",
+            "pos": "n",
+            "meaning": "水力发电"
+          },
+          {
+            "word": "geothermal",
+            "ipa": "/ˌdʒiːəʊˈθɜːml/",
+            "pos": "adj",
+            "meaning": "地热的"
+          },
+          {
+            "word": "biomass",
+            "ipa": "/ˈbaɪəʊmæs/",
+            "pos": "n",
+            "meaning": "生物质能"
+          },
+          {
+            "word": "sustainable",
+            "ipa": "/səˈsteɪnəbl/",
+            "pos": "adj",
+            "meaning": "可持续的"
+          },
+          {
+            "word": "harness",
+            "ipa": "/ˈhɑːnɪs/",
+            "pos": "v",
+            "meaning": "利用(能量)"
+          },
+          {
+            "word": "generate",
+            "ipa": "/ˈdʒenəreɪt/",
+            "pos": "v",
+            "meaning": "发电，产生"
+          },
+          {
+            "word": "grid",
+            "ipa": "/ɡrɪd/",
+            "pos": "n",
+            "meaning": "电网"
+          },
+          {
+            "word": "capacity",
+            "ipa": "/kəˈpæsəti/",
+            "pos": "n",
+            "meaning": "容量"
+          },
+          {
+            "word": "intermittent",
+            "ipa": "/ˌɪntəˈmɪtənt/",
+            "pos": "adj",
+            "meaning": "间歇性的"
+          },
+          {
+            "word": "efficient",
+            "ipa": "/ɪˈfɪʃnt/",
+            "pos": "adj",
+            "meaning": "高效的"
+          },
+          {
+            "word": "eco-friendly",
+            "ipa": "/ˌiːkəʊ ˈfrendli/",
+            "pos": "adj",
+            "meaning": "环保的"
+          },
+          {
+            "word": "clean",
+            "ipa": "/kliːn/",
+            "pos": "adj",
+            "meaning": "清洁的"
+          }
+        ],
+        "image": "../outputs/27-energy-and-resources/generated-with-text/27-card-02-generated-text.png"
+      },
+      {
+        "cardNumber": 3,
+        "subtitle": "能源转型与政策（Energy Transition & Policy）",
+        "words": [
+          {
+            "word": "transition",
+            "ipa": "/trænˈzɪʃn/",
+            "pos": "n",
+            "meaning": "转型"
+          },
+          {
+            "word": "subsidy",
+            "ipa": "/ˈsʌbsədi/",
+            "pos": "n",
+            "meaning": "补贴"
+          },
+          {
+            "word": "incentive",
+            "ipa": "/ɪnˈsentɪv/",
+            "pos": "n",
+            "meaning": "激励措施"
+          },
+          {
+            "word": "legislation",
+            "ipa": "/ˌledʒɪsˈleɪʃn/",
+            "pos": "n",
+            "meaning": "立法"
+          },
+          {
+            "word": "regulation",
+            "ipa": "/ˌreɡjuˈleɪʃn/",
+            "pos": "n",
+            "meaning": "监管"
+          },
+          {
+            "word": "carbon tax",
+            "ipa": "/ˈkɑːbən tæks/",
+            "pos": "n",
+            "meaning": "碳税"
+          },
+          {
+            "word": "target",
+            "ipa": "/ˈtɑːɡɪt/",
+            "pos": "n",
+            "meaning": "(排放)目标"
+          },
+          {
+            "word": "phase out",
+            "ipa": "/feɪz aʊt/",
+            "pos": "v",
+            "meaning": "逐步淘汰"
+          },
+          {
+            "word": "investment",
+            "ipa": "/ɪnˈvestmənt/",
+            "pos": "n",
+            "meaning": "投资"
+          },
+          {
+            "word": "infrastructure",
+            "ipa": "/ˈɪnfrəstrʌktʃə/",
+            "pos": "n",
+            "meaning": "基础设施"
+          },
+          {
+            "word": "decarbonize",
+            "ipa": "/diːˈkɑːbənaɪz/",
+            "pos": "v",
+            "meaning": "去碳化"
+          },
+          {
+            "word": "mandate",
+            "ipa": "/ˈmændeɪt/",
+            "pos": "n",
+            "meaning": "法令，强制令"
+          },
+          {
+            "word": "tariff",
+            "ipa": "/ˈtærɪf/",
+            "pos": "n",
+            "meaning": "电价，关税"
+          },
+          {
+            "word": "feasible",
+            "ipa": "/ˈfiːzəbl/",
+            "pos": "adj",
+            "meaning": "可行的"
+          },
+          {
+            "word": "viable",
+            "ipa": "/ˈvaɪəbl/",
+            "pos": "adj",
+            "meaning": "可行的"
+          },
+          {
+            "word": "implement",
+            "ipa": "/ˈɪmplɪment/",
+            "pos": "v",
+            "meaning": "实施"
+          },
+          {
+            "word": "accelerate",
+            "ipa": "/əkˈseləreɪt/",
+            "pos": "v",
+            "meaning": "加速"
+          }
+        ],
+        "image": "../outputs/27-energy-and-resources/generated-with-text/27-card-03-generated-text.png"
+      },
+      {
+        "cardNumber": 4,
+        "subtitle": "资源稀缺与保护（Resource Scarcity & Conservation）",
+        "words": [
+          {
+            "word": "scarcity",
+            "ipa": "/ˈskeəsəti/",
+            "pos": "n",
+            "meaning": "稀缺"
+          },
+          {
+            "word": "depletion",
+            "ipa": "/dɪˈpliːʃn/",
+            "pos": "n",
+            "meaning": "枯竭"
+          },
+          {
+            "word": "mining",
+            "ipa": "/ˈmaɪnɪŋ/",
+            "pos": "n",
+            "meaning": "采矿"
+          },
+          {
+            "word": "mineral",
+            "ipa": "/ˈmɪnərəl/",
+            "pos": "n",
+            "meaning": "矿产"
+          },
+          {
+            "word": "resource-rich",
+            "ipa": "/rɪˈzɔːs rɪtʃ/",
+            "pos": "adj",
+            "meaning": "资源丰富的"
+          },
+          {
+            "word": "stockpile",
+            "ipa": "/ˈstɒkpaɪl/",
+            "pos": "n",
+            "meaning": "储备"
+          },
+          {
+            "word": "strategic",
+            "ipa": "/strəˈtiːdʒɪk/",
+            "pos": "adj",
+            "meaning": "战略性的"
+          },
+          {
+            "word": "import-dependent",
+            "ipa": "/ˈɪmpɔːt dɪˈpendənt/",
+            "pos": "adj",
+            "meaning": "依赖进口的"
+          },
+          {
+            "word": "self-sufficient",
+            "ipa": "/ˌself səˈfɪʃnt/",
+            "pos": "adj",
+            "meaning": "自给自足的"
+          },
+          {
+            "word": "conserve",
+            "ipa": "/kənˈsɜːv/",
+            "pos": "v",
+            "meaning": "节约，保护"
+          },
+          {
+            "word": "dwindle",
+            "ipa": "/ˈdwɪndl/",
+            "pos": "v",
+            "meaning": "逐渐减少"
+          },
+          {
+            "word": "ration",
+            "ipa": "/ˈræʃn/",
+            "pos": "v",
+            "meaning": "配给"
+          },
+          {
+            "word": "overconsumption",
+            "ipa": "/ˌəʊvəkənˈsʌmpʃn/",
+            "pos": "n",
+            "meaning": "过度消耗"
+          },
+          {
+            "word": "exhaustible",
+            "ipa": "/ɪɡˈzɔːstəbl/",
+            "pos": "adj",
+            "meaning": "可耗尽的"
+          },
+          {
+            "word": "allocate",
+            "ipa": "/ˈæləkeɪt/",
+            "pos": "v",
+            "meaning": "分配"
+          },
+          {
+            "word": "equitable",
+            "ipa": "/ˈekwɪtəbl/",
+            "pos": "adj",
+            "meaning": "公平的"
+          },
+          {
+            "word": "hoard",
+            "ipa": "/hɔːd/",
+            "pos": "v",
+            "meaning": "囤积"
+          }
+        ],
+        "image": "../outputs/27-energy-and-resources/generated-with-text/27-card-04-generated-text.png"
+      },
+      {
+        "cardNumber": 5,
+        "subtitle": "能源消耗与效率（Energy Consumption & Efficiency）",
+        "words": [
+          {
+            "word": "consumption",
+            "ipa": "/kənˈsʌmpʃn/",
+            "pos": "n",
+            "meaning": "消耗"
+          },
+          {
+            "word": "efficiency",
+            "ipa": "/ɪˈfɪʃnsi/",
+            "pos": "n",
+            "meaning": "效率"
+          },
+          {
+            "word": "insulation",
+            "ipa": "/ˌɪnsjuˈleɪʃn/",
+            "pos": "n",
+            "meaning": "隔热保温"
+          },
+          {
+            "word": "retrofit",
+            "ipa": "/ˈretrəʊfɪt/",
+            "pos": "v",
+            "meaning": "改造升级"
+          },
+          {
+            "word": "appliance",
+            "ipa": "/əˈplaɪəns/",
+            "pos": "n",
+            "meaning": "电器"
+          },
+          {
+            "word": "thermostat",
+            "ipa": "/ˈθɜːməstæt/",
+            "pos": "n",
+            "meaning": "恒温器"
+          },
+          {
+            "word": "household",
+            "ipa": "/ˈhaʊshəʊld/",
+            "pos": "n",
+            "meaning": "家庭"
+          },
+          {
+            "word": "footprint",
+            "ipa": "/ˈfʊtprɪnt/",
+            "pos": "n",
+            "meaning": "(碳)足迹"
+          },
+          {
+            "word": "surge",
+            "ipa": "/sɜːdʒ/",
+            "pos": "n",
+            "meaning": "(需求)激增"
+          },
+          {
+            "word": "off-grid",
+            "ipa": "/ˌɒf ˈɡrɪd/",
+            "pos": "adj",
+            "meaning": "离网的"
+          },
+          {
+            "word": "offset",
+            "ipa": "/ˈɒfset/",
+            "pos": "v",
+            "meaning": "抵消"
+          },
+          {
+            "word": "curb",
+            "ipa": "/kɜːb/",
+            "pos": "v",
+            "meaning": "抑制，控制"
+          },
+          {
+            "word": "wasteful",
+            "ipa": "/ˈweɪstfl/",
+            "pos": "adj",
+            "meaning": "浪费的"
+          },
+          {
+            "word": "optimize",
+            "ipa": "/ˈɒptɪmaɪz/",
+            "pos": "v",
+            "meaning": "优化"
+          },
+          {
+            "word": "prudent",
+            "ipa": "/ˈpruːdnt/",
+            "pos": "adj",
+            "meaning": "审慎的"
+          },
+          {
+            "word": "monitor",
+            "ipa": "/ˈmɒnɪtə/",
+            "pos": "v",
+            "meaning": "监测"
+          },
+          {
+            "word": "minimize",
+            "ipa": "/ˈmɪnɪmaɪz/",
+            "pos": "v",
+            "meaning": "最小化"
+          }
+        ],
+        "image": "../outputs/27-energy-and-resources/generated-with-text/27-card-05-generated-text.png"
+      }
+    ]
+  },
+  {
+    "slug": "28-ocean-and-water",
+    "title": "海洋与水资源（Ocean & Water）",
+    "shortTitle": "Ocean And Water",
+    "cards": [
+      {
+        "cardNumber": 1,
+        "subtitle": "海洋地形与深海（Ocean Topography & Deep Sea）",
+        "words": [
+          {
+            "word": "coastline",
+            "ipa": "/ˈkəʊstlaɪn/",
+            "pos": "n",
+            "meaning": "海岸线"
+          },
+          {
+            "word": "cliff",
+            "ipa": "/klɪf/",
+            "pos": "n",
+            "meaning": "悬崖"
+          },
+          {
+            "word": "tide",
+            "ipa": "/taɪd/",
+            "pos": "n",
+            "meaning": "潮汐"
+          },
+          {
+            "word": "current",
+            "ipa": "/ˈkʌrənt/",
+            "pos": "n",
+            "meaning": "洋流"
+          },
+          {
+            "word": "reef",
+            "ipa": "/riːf/",
+            "pos": "n",
+            "meaning": "礁石"
+          },
+          {
+            "word": "trench",
+            "ipa": "/trentʃ/",
+            "pos": "n",
+            "meaning": "海沟"
+          },
+          {
+            "word": "abyss",
+            "ipa": "/əˈbɪs/",
+            "pos": "n",
+            "meaning": "深渊"
+          },
+          {
+            "word": "submerge",
+            "ipa": "/səbˈmɜːdʒ/",
+            "pos": "v",
+            "meaning": "淹没"
+          },
+          {
+            "word": "depth",
+            "ipa": "/depθ/",
+            "pos": "n",
+            "meaning": "深度"
+          },
+          {
+            "word": "shoreline",
+            "ipa": "/ˈʃɔːlaɪn/",
+            "pos": "n",
+            "meaning": "海岸"
+          },
+          {
+            "word": "erosion",
+            "ipa": "/ɪˈrəʊʒn/",
+            "pos": "n",
+            "meaning": "侵蚀"
+          },
+          {
+            "word": "sediment",
+            "ipa": "/ˈsedɪmənt/",
+            "pos": "n",
+            "meaning": "沉积物"
+          },
+          {
+            "word": "vast",
+            "ipa": "/vɑːst/",
+            "pos": "adj",
+            "meaning": "广阔的"
+          },
+          {
+            "word": "turbulent",
+            "ipa": "/ˈtɜːbjələnt/",
+            "pos": "adj",
+            "meaning": "汹涌的"
+          },
+          {
+            "word": "buoyant",
+            "ipa": "/ˈbɔɪənt/",
+            "pos": "adj",
+            "meaning": "有浮力的"
+          },
+          {
+            "word": "undulate",
+            "ipa": "/ˈʌndjuleɪt/",
+            "pos": "v",
+            "meaning": "起伏"
+          },
+          {
+            "word": "vessel",
+            "ipa": "/ˈvesl/",
+            "pos": "n",
+            "meaning": "船只"
+          }
+        ],
+        "image": "../outputs/28-ocean-and-water/generated-with-text/28-card-01-generated-text.png"
+      },
+      {
+        "cardNumber": 2,
+        "subtitle": "海洋生态与生物多样性（Marine Ecosystems & Biodiversity）",
+        "words": [
+          {
+            "word": "ecosystem",
+            "ipa": "/ˈiːkəʊsɪstəm/",
+            "pos": "n",
+            "meaning": "生态系统"
+          },
+          {
+            "word": "species",
+            "ipa": "/ˈspiːʃiːz/",
+            "pos": "n",
+            "meaning": "物种"
+          },
+          {
+            "word": "coral",
+            "ipa": "/ˈkɒrəl/",
+            "pos": "n",
+            "meaning": "珊瑚"
+          },
+          {
+            "word": "bleaching",
+            "ipa": "/ˈbliːtʃɪŋ/",
+            "pos": "n",
+            "meaning": "白化"
+          },
+          {
+            "word": "habitat",
+            "ipa": "/ˈhæbɪtæt/",
+            "pos": "n",
+            "meaning": "栖息地"
+          },
+          {
+            "word": "migratory",
+            "ipa": "/maɪˈɡreɪtəri/",
+            "pos": "adj",
+            "meaning": "迁徙的"
+          },
+          {
+            "word": "predator",
+            "ipa": "/ˈpredətə/",
+            "pos": "n",
+            "meaning": "捕食者"
+          },
+          {
+            "word": "plankton",
+            "ipa": "/ˈplæŋktən/",
+            "pos": "n",
+            "meaning": "浮游生物"
+          },
+          {
+            "word": "biodiversity",
+            "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+            "pos": "n",
+            "meaning": "生物多样性"
+          },
+          {
+            "word": "extinction",
+            "ipa": "/ɪkˈstɪŋkʃn/",
+            "pos": "n",
+            "meaning": "灭绝"
+          },
+          {
+            "word": "thrive",
+            "ipa": "/θraɪv/",
+            "pos": "v",
+            "meaning": "繁荣生长"
+          },
+          {
+            "word": "endangered",
+            "ipa": "/ɪnˈdeɪndʒəd/",
+            "pos": "adj",
+            "meaning": "濒危的"
+          },
+          {
+            "word": "symbiotic",
+            "ipa": "/ˌsɪmbaɪˈɒtɪk/",
+            "pos": "adj",
+            "meaning": "共生的"
+          },
+          {
+            "word": "camouflage",
+            "ipa": "/ˈkæməflɑːʒ/",
+            "pos": "n",
+            "meaning": "伪装"
+          },
+          {
+            "word": "spawn",
+            "ipa": "/spɔːn/",
+            "pos": "v",
+            "meaning": "产卵"
+          },
+          {
+            "word": "fragile",
+            "ipa": "/ˈfrædʒaɪl/",
+            "pos": "adj",
+            "meaning": "脆弱的"
+          },
+          {
+            "word": "proliferate",
+            "ipa": "/prəˈlɪfəreɪt/",
+            "pos": "v",
+            "meaning": "大量繁殖"
+          }
+        ],
+        "image": "../outputs/28-ocean-and-water/generated-with-text/28-card-02-generated-text.png"
+      },
+      {
+        "cardNumber": 3,
+        "subtitle": "水资源短缺与淡水（Water Scarcity & Freshwater）",
+        "words": [
+          {
+            "word": "scarcity",
+            "ipa": "/ˈskeəsəti/",
+            "pos": "n",
+            "meaning": "短缺"
+          },
+          {
+            "word": "reservoir",
+            "ipa": "/ˈrezəvwɑː/",
+            "pos": "n",
+            "meaning": "水库"
+          },
+          {
+            "word": "drought",
+            "ipa": "/draʊt/",
+            "pos": "n",
+            "meaning": "干旱"
+          },
+          {
+            "word": "aquifer",
+            "ipa": "/ˈækwɪfə/",
+            "pos": "n",
+            "meaning": "含水层"
+          },
+          {
+            "word": "groundwater",
+            "ipa": "/ˈɡraʊndwɔːtə/",
+            "pos": "n",
+            "meaning": "地下水"
+          },
+          {
+            "word": "irrigation",
+            "ipa": "/ˌɪrɪˈɡeɪʃn/",
+            "pos": "n",
+            "meaning": "灌溉"
+          },
+          {
+            "word": "desalination",
+            "ipa": "/diːˌsælɪˈneɪʃn/",
+            "pos": "n",
+            "meaning": "海水淡化"
+          },
+          {
+            "word": "potable",
+            "ipa": "/ˈpəʊtəbl/",
+            "pos": "adj",
+            "meaning": "可饮用的"
+          },
+          {
+            "word": "contaminate",
+            "ipa": "/kənˈtæmɪneɪt/",
+            "pos": "v",
+            "meaning": "污染"
+          },
+          {
+            "word": "deplete",
+            "ipa": "/dɪˈpliːt/",
+            "pos": "v",
+            "meaning": "耗尽"
+          },
+          {
+            "word": "ration",
+            "ipa": "/ˈræʃn/",
+            "pos": "v",
+            "meaning": "配给"
+          },
+          {
+            "word": "arid",
+            "ipa": "/ˈærɪd/",
+            "pos": "adj",
+            "meaning": "干旱的"
+          },
+          {
+            "word": "dwindling",
+            "ipa": "/ˈdwɪndlɪŋ/",
+            "pos": "adj",
+            "meaning": "逐渐减少的"
+          },
+          {
+            "word": "sanitation",
+            "ipa": "/ˌsænɪˈteɪʃn/",
+            "pos": "n",
+            "meaning": "卫生设施"
+          },
+          {
+            "word": "accessible",
+            "ipa": "/əkˈsesəbl/",
+            "pos": "adj",
+            "meaning": "可获取的"
+          },
+          {
+            "word": "conserve",
+            "ipa": "/kənˈsɜːv/",
+            "pos": "v",
+            "meaning": "节约"
+          },
+          {
+            "word": "distribution",
+            "ipa": "/ˌdɪstrɪˈbjuːʃn/",
+            "pos": "n",
+            "meaning": "分配"
+          }
+        ],
+        "image": "../outputs/28-ocean-and-water/generated-with-text/28-card-03-generated-text.png"
+      },
+      {
+        "cardNumber": 4,
+        "subtitle": "海洋污染与保护（Ocean Pollution & Conservation）",
+        "words": [
+          {
+            "word": "pollutant",
+            "ipa": "/pəˈluːtənt/",
+            "pos": "n",
+            "meaning": "污染物"
+          },
+          {
+            "word": "plastic",
+            "ipa": "/ˈplæstɪk/",
+            "pos": "n",
+            "meaning": "塑料"
+          },
+          {
+            "word": "debris",
+            "ipa": "/ˈdebriː/",
+            "pos": "n",
+            "meaning": "碎片，垃圾"
+          },
+          {
+            "word": "oil spill",
+            "ipa": "/ɔɪl spɪl/",
+            "pos": "n",
+            "meaning": "石油泄漏"
+          },
+          {
+            "word": "toxic",
+            "ipa": "/ˈtɒksɪk/",
+            "pos": "adj",
+            "meaning": "有毒的"
+          },
+          {
+            "word": "acidification",
+            "ipa": "/əˌsɪdɪfɪˈkeɪʃn/",
+            "pos": "n",
+            "meaning": "酸化"
+          },
+          {
+            "word": "marine reserve",
+            "ipa": "/məˈriːn rɪˈzɜːv/",
+            "pos": "n",
+            "meaning": "海洋保护区"
+          },
+          {
+            "word": "sustainable",
+            "ipa": "/səˈsteɪnəbl/",
+            "pos": "adj",
+            "meaning": "可持续的"
+          },
+          {
+            "word": "overfishing",
+            "ipa": "/ˌəʊvəˈfɪʃɪŋ/",
+            "pos": "n",
+            "meaning": "过度捕捞"
+          },
+          {
+            "word": "quota",
+            "ipa": "/ˈkwəʊtə/",
+            "pos": "n",
+            "meaning": "配额"
+          },
+          {
+            "word": "regulate",
+            "ipa": "/ˈreɡjuleɪt/",
+            "pos": "v",
+            "meaning": "监管"
+          },
+          {
+            "word": "restore",
+            "ipa": "/rɪˈstɔː/",
+            "pos": "v",
+            "meaning": "恢复"
+          },
+          {
+            "word": "degrade",
+            "ipa": "/dɪˈɡreɪd/",
+            "pos": "v",
+            "meaning": "降解，恶化"
+          },
+          {
+            "word": "mitigate",
+            "ipa": "/ˈmɪtɪɡeɪt/",
+            "pos": "v",
+            "meaning": "缓解"
+          },
+          {
+            "word": "legislation",
+            "ipa": "/ˌledʒɪsˈleɪʃn/",
+            "pos": "n",
+            "meaning": "立法"
+          },
+          {
+            "word": "accumulate",
+            "ipa": "/əˈkjuːmjəleɪt/",
+            "pos": "v",
+            "meaning": "累积"
+          },
+          {
+            "word": "hazardous",
+            "ipa": "/ˈhæzədəs/",
+            "pos": "adj",
+            "meaning": "有害的"
+          }
+        ],
+        "image": "../outputs/28-ocean-and-water/generated-with-text/28-card-04-generated-text.png"
+      },
+      {
+        "cardNumber": 5,
+        "subtitle": "水利用与管理（Water Usage & Management）",
+        "words": [
+          {
+            "word": "consumption",
+            "ipa": "/kənˈsʌmpʃn/",
+            "pos": "n",
+            "meaning": "消耗"
+          },
+          {
+            "word": "utility",
+            "ipa": "/juːˈtɪləti/",
+            "pos": "n",
+            "meaning": "公用事业"
+          },
+          {
+            "word": "infrastructure",
+            "ipa": "/ˈɪnfrəstrʌktʃə/",
+            "pos": "n",
+            "meaning": "基础设施"
+          },
+          {
+            "word": "pipeline",
+            "ipa": "/ˈpaɪplaɪn/",
+            "pos": "n",
+            "meaning": "管道"
+          },
+          {
+            "word": "treatment",
+            "ipa": "/ˈtriːtmənt/",
+            "pos": "n",
+            "meaning": "处理"
+          },
+          {
+            "word": "filtration",
+            "ipa": "/fɪlˈtreɪʃn/",
+            "pos": "n",
+            "meaning": "过滤"
+          },
+          {
+            "word": "recycle",
+            "ipa": "/riːˈsaɪkl/",
+            "pos": "v",
+            "meaning": "回收利用"
+          },
+          {
+            "word": "leakage",
+            "ipa": "/ˈliːkɪdʒ/",
+            "pos": "n",
+            "meaning": "泄漏"
+          },
+          {
+            "word": "tariff",
+            "ipa": "/ˈtærɪf/",
+            "pos": "n",
+            "meaning": "水价"
+          },
+          {
+            "word": "subsidize",
+            "ipa": "/ˈsʌbsɪdaɪz/",
+            "pos": "v",
+            "meaning": "补贴"
+          },
+          {
+            "word": "efficient",
+            "ipa": "/ɪˈfɪʃnt/",
+            "pos": "adj",
+            "meaning": "高效的"
+          },
+          {
+            "word": "wasteful",
+            "ipa": "/ˈweɪstfl/",
+            "pos": "adj",
+            "meaning": "浪费的"
+          },
+          {
+            "word": "household",
+            "ipa": "/ˈhaʊshəʊld/",
+            "pos": "n",
+            "meaning": "家庭"
+          },
+          {
+            "word": "monitor",
+            "ipa": "/ˈmɒnɪtə/",
+            "pos": "v",
+            "meaning": "监测"
+          },
+          {
+            "word": "allocate",
+            "ipa": "/ˈæləkeɪt/",
+            "pos": "v",
+            "meaning": "分配"
+          },
+          {
+            "word": "equitable",
+            "ipa": "/ˈekwɪtəbl/",
+            "pos": "adj",
+            "meaning": "公平的"
+          },
+          {
+            "word": "prioritize",
+            "ipa": "/praɪˈɒrɪtaɪz/",
+            "pos": "v",
+            "meaning": "优先考虑"
+          }
+        ],
+        "image": "../outputs/28-ocean-and-water/generated-with-text/28-card-05-generated-text.png"
+      }
+    ]
+  },
+  {
+    "slug": "29-fashion-and-consumerism",
+    "title": "时尚与消费（Fashion & Consumerism）",
+    "shortTitle": "Fashion And Consumerism",
+    "cards": [
+      {
+        "cardNumber": 1,
+        "subtitle": "快时尚产业与生产（Fast Fashion & Production）",
+        "words": [
+          {
+            "word": "garment",
+            "ipa": "/ˈɡɑːmənt/",
+            "pos": "n",
+            "meaning": "服装"
+          },
+          {
+            "word": "textile",
+            "ipa": "/ˈtekstaɪl/",
+            "pos": "n",
+            "meaning": "纺织品"
+          },
+          {
+            "word": "fabric",
+            "ipa": "/ˈfæbrɪk/",
+            "pos": "n",
+            "meaning": "布料"
+          },
+          {
+            "word": "assembly line",
+            "ipa": "/əˈsembli laɪn/",
+            "pos": "n",
+            "meaning": "流水线"
+          },
+          {
+            "word": "mass-produced",
+            "ipa": "/ˌmæs prəˈdjuːst/",
+            "pos": "adj",
+            "meaning": "大规模生产的"
+          },
+          {
+            "word": "churn out",
+            "ipa": "/tʃɜːn aʊt/",
+            "pos": "v",
+            "meaning": "大量生产"
+          },
+          {
+            "word": "sweatshop",
+            "ipa": "/ˈswetʃɒp/",
+            "pos": "n",
+            "meaning": "血汗工厂"
+          },
+          {
+            "word": "exploit",
+            "ipa": "/ɪkˈsplɔɪt/",
+            "pos": "v",
+            "meaning": "剥削"
+          },
+          {
+            "word": "labor-intensive",
+            "ipa": "/ˈleɪbər ɪnˈtensɪv/",
+            "pos": "adj",
+            "meaning": "劳动密集型的"
+          },
+          {
+            "word": "disposable",
+            "ipa": "/dɪˈspəʊzəbl/",
+            "pos": "adj",
+            "meaning": "一次性的"
+          },
+          {
+            "word": "outsource",
+            "ipa": "/ˌaʊtˈsɔːs/",
+            "pos": "v",
+            "meaning": "外包"
+          },
+          {
+            "word": "synthetic",
+            "ipa": "/sɪnˈθetɪk/",
+            "pos": "adj",
+            "meaning": "合成的"
+          },
+          {
+            "word": "overproduction",
+            "ipa": "/ˌəʊvəprəˈdʌkʃn/",
+            "pos": "n",
+            "meaning": "生产过剩"
+          },
+          {
+            "word": "wholesale",
+            "ipa": "/ˈhəʊlseɪl/",
+            "pos": "n",
+            "meaning": "批发"
+          },
+          {
+            "word": "markup",
+            "ipa": "/ˈmɑːkʌp/",
+            "pos": "n",
+            "meaning": "加价"
+          },
+          {
+            "word": "supply chain",
+            "ipa": "/səˈplaɪ tʃeɪn/",
+            "pos": "n",
+            "meaning": "供应链"
+          },
+          {
+            "word": "cut corners",
+            "ipa": "/kʌt ˈkɔːnəz/",
+            "pos": "v",
+            "meaning": "偷工减料"
+          },
+          {
+            "word": "shoddy",
+            "ipa": "/ˈʃɒdi/",
+            "pos": "adj",
+            "meaning": "劣质的"
+          }
+        ],
+        "image": "../outputs/29-fashion-and-consumerism/generated-with-text/29-card-01-generated-text.png"
+      },
+      {
+        "cardNumber": 2,
+        "subtitle": "消费主义与购物心理（Consumerism & Shopping Psychology）",
+        "words": [
+          {
+            "word": "consumerism",
+            "ipa": "/kənˈsjuːmərɪzəm/",
+            "pos": "n",
+            "meaning": "消费主义"
+          },
+          {
+            "word": "impulse buying",
+            "ipa": "/ˈɪmpʌls ˈbaɪɪŋ/",
+            "pos": "n",
+            "meaning": "冲动购物"
+          },
+          {
+            "word": "materialism",
+            "ipa": "/məˈtɪəriəlɪzəm/",
+            "pos": "n",
+            "meaning": "物质主义"
+          },
+          {
+            "word": "retail therapy",
+            "ipa": "/ˈriːteɪl ˈθerəpi/",
+            "pos": "n",
+            "meaning": "购物疗法"
+          },
+          {
+            "word": "gratification",
+            "ipa": "/ˌɡrætɪfɪˈkeɪʃn/",
+            "pos": "n",
+            "meaning": "满足感"
+          },
+          {
+            "word": "indulge",
+            "ipa": "/ɪnˈdʌldʒ/",
+            "pos": "v",
+            "meaning": "放纵"
+          },
+          {
+            "word": "splurge",
+            "ipa": "/splɜːdʒ/",
+            "pos": "v",
+            "meaning": "挥霍"
+          },
+          {
+            "word": "bargain",
+            "ipa": "/ˈbɑːɡɪn/",
+            "pos": "n",
+            "meaning": "便宜货"
+          },
+          {
+            "word": "discount",
+            "ipa": "/ˈdɪskaʊnt/",
+            "pos": "n",
+            "meaning": "折扣"
+          },
+          {
+            "word": "loyalty",
+            "ipa": "/ˈlɔɪəlti/",
+            "pos": "n",
+            "meaning": "忠诚度"
+          },
+          {
+            "word": "brand-conscious",
+            "ipa": "/brænd ˈkɒnʃəs/",
+            "pos": "adj",
+            "meaning": "品牌意识强的"
+          },
+          {
+            "word": "status symbol",
+            "ipa": "/ˈsteɪtəs ˈsɪmbl/",
+            "pos": "n",
+            "meaning": "身份象征"
+          },
+          {
+            "word": "peer pressure",
+            "ipa": "/pɪə ˈpreʃə/",
+            "pos": "n",
+            "meaning": "同辈压力"
+          },
+          {
+            "word": "accumulate",
+            "ipa": "/əˈkjuːmjəleɪt/",
+            "pos": "v",
+            "meaning": "积累"
+          },
+          {
+            "word": "clutter",
+            "ipa": "/ˈklʌtə/",
+            "pos": "n",
+            "meaning": "杂乱堆积物"
+          },
+          {
+            "word": "hoarding",
+            "ipa": "/ˈhɔːdɪŋ/",
+            "pos": "n",
+            "meaning": "囤积"
+          },
+          {
+            "word": "debt",
+            "ipa": "/det/",
+            "pos": "n",
+            "meaning": "债务"
+          },
+          {
+            "word": "overspend",
+            "ipa": "/ˌəʊvəˈspend/",
+            "pos": "v",
+            "meaning": "超支消费"
+          }
+        ],
+        "image": "../outputs/29-fashion-and-consumerism/generated-with-text/29-card-02-generated-text.png"
+      },
+      {
+        "cardNumber": 3,
+        "subtitle": "可持续时尚与环保（Sustainable Fashion & Environmental Impact）",
+        "words": [
+          {
+            "word": "secondhand",
+            "ipa": "/ˌsekənd ˈhænd/",
+            "pos": "adj",
+            "meaning": "二手的"
+          },
+          {
+            "word": "thrift store",
+            "ipa": "/θrɪft stɔː/",
+            "pos": "n",
+            "meaning": "二手商店"
+          },
+          {
+            "word": "upcycle",
+            "ipa": "/ˈʌpsaɪkl/",
+            "pos": "v",
+            "meaning": "升级再造"
+          },
+          {
+            "word": "recycle",
+            "ipa": "/ˌriːˈsaɪkl/",
+            "pos": "v",
+            "meaning": "回收利用"
+          },
+          {
+            "word": "sustainable",
+            "ipa": "/səˈsteɪnəbl/",
+            "pos": "adj",
+            "meaning": "可持续的"
+          },
+          {
+            "word": "eco-friendly",
+            "ipa": "/ˌiːkəʊ ˈfrendli/",
+            "pos": "adj",
+            "meaning": "环保的"
+          },
+          {
+            "word": "biodegradable",
+            "ipa": "/ˌbaɪəʊdɪˈɡreɪdəbl/",
+            "pos": "adj",
+            "meaning": "可生物降解的"
+          },
+          {
+            "word": "dye",
+            "ipa": "/daɪ/",
+            "pos": "n/v",
+            "meaning": "染料，染色"
+          },
+          {
+            "word": "contaminate",
+            "ipa": "/kənˈtæmɪneɪt/",
+            "pos": "v",
+            "meaning": "污染"
+          },
+          {
+            "word": "carbon footprint",
+            "ipa": "/ˈkɑːbən ˈfʊtprɪnt/",
+            "pos": "n",
+            "meaning": "碳足迹"
+          },
+          {
+            "word": "landfill",
+            "ipa": "/ˈlændfɪl/",
+            "pos": "n",
+            "meaning": "垃圾填埋场"
+          },
+          {
+            "word": "ethical",
+            "ipa": "/ˈeθɪkl/",
+            "pos": "adj",
+            "meaning": "道德的"
+          },
+          {
+            "word": "transparency",
+            "ipa": "/trænsˈpærənsi/",
+            "pos": "n",
+            "meaning": "透明度"
+          },
+          {
+            "word": "circular economy",
+            "ipa": "/ˈsɜːkjələ ɪˈkɒnəmi/",
+            "pos": "n",
+            "meaning": "循环经济"
+          },
+          {
+            "word": "durable",
+            "ipa": "/ˈdjʊərəbl/",
+            "pos": "adj",
+            "meaning": "耐用的"
+          },
+          {
+            "word": "capsule wardrobe",
+            "ipa": "/ˈkæpsjuːl ˈwɔːdrəʊb/",
+            "pos": "n",
+            "meaning": "精简衣橱"
+          },
+          {
+            "word": "minimalism",
+            "ipa": "/ˈmɪnɪməlɪzəm/",
+            "pos": "n",
+            "meaning": "极简主义"
+          },
+          {
+            "word": "mindful",
+            "ipa": "/ˈmaɪndfl/",
+            "pos": "adj",
+            "meaning": "有意识的"
+          }
+        ],
+        "image": "../outputs/29-fashion-and-consumerism/generated-with-text/29-card-03-generated-text.png"
+      },
+      {
+        "cardNumber": 4,
+        "subtitle": "个人风格与身份表达（Personal Style & Identity Expression）",
+        "words": [
+          {
+            "word": "self-expression",
+            "ipa": "/self ɪkˈspreʃn/",
+            "pos": "n",
+            "meaning": "自我表达"
+          },
+          {
+            "word": "individuality",
+            "ipa": "/ˌɪndɪvɪdʒuˈæləti/",
+            "pos": "n",
+            "meaning": "个性"
+          },
+          {
+            "word": "aesthetic",
+            "ipa": "/iːsˈθetɪk/",
+            "pos": "adj/n",
+            "meaning": "审美(的)"
+          },
+          {
+            "word": "trendsetter",
+            "ipa": "/ˈtrendsetə/",
+            "pos": "n",
+            "meaning": "潮流引领者"
+          },
+          {
+            "word": "subculture",
+            "ipa": "/ˈsʌbkʌltʃə/",
+            "pos": "n",
+            "meaning": "亚文化"
+          },
+          {
+            "word": "flamboyant",
+            "ipa": "/flæmˈbɔɪənt/",
+            "pos": "adj",
+            "meaning": "张扬的"
+          },
+          {
+            "word": "understated",
+            "ipa": "/ˌʌndəˈsteɪtɪd/",
+            "pos": "adj",
+            "meaning": "低调的"
+          },
+          {
+            "word": "versatile",
+            "ipa": "/ˈvɜːsətaɪl/",
+            "pos": "adj",
+            "meaning": "百搭的"
+          },
+          {
+            "word": "iconic",
+            "ipa": "/aɪˈkɒnɪk/",
+            "pos": "adj",
+            "meaning": "标志性的"
+          },
+          {
+            "word": "conformity",
+            "ipa": "/kənˈfɔːmɪti/",
+            "pos": "n",
+            "meaning": "从众"
+          },
+          {
+            "word": "nonconformist",
+            "ipa": "/ˌnɒnkənˈfɔːmɪst/",
+            "pos": "n",
+            "meaning": "不墨守成规的人"
+          },
+          {
+            "word": "accessorize",
+            "ipa": "/əkˈsesəraɪz/",
+            "pos": "v",
+            "meaning": "搭配饰品"
+          },
+          {
+            "word": "silhouette",
+            "ipa": "/ˌsɪluˈet/",
+            "pos": "n",
+            "meaning": "轮廓，剪影"
+          },
+          {
+            "word": "tailor",
+            "ipa": "/ˈteɪlə/",
+            "pos": "v/n",
+            "meaning": "剪裁，裁缝"
+          },
+          {
+            "word": "stereotype",
+            "ipa": "/ˈsteriətaɪp/",
+            "pos": "n",
+            "meaning": "刻板印象"
+          },
+          {
+            "word": "authenticity",
+            "ipa": "/ˌɔːθenˈtɪsəti/",
+            "pos": "n",
+            "meaning": "真实性"
+          },
+          {
+            "word": "embody",
+            "ipa": "/ɪmˈbɒdi/",
+            "pos": "v",
+            "meaning": "体现"
+          },
+          {
+            "word": "persona",
+            "ipa": "/pəˈsəʊnə/",
+            "pos": "n",
+            "meaning": "人设，形象"
+          }
+        ],
+        "image": "../outputs/29-fashion-and-consumerism/generated-with-text/29-card-04-generated-text.png"
+      },
+      {
+        "cardNumber": 5,
+        "subtitle": "广告营销与消费者行为（Advertising, Marketing & Consumer Behavior）",
+        "words": [
+          {
+            "word": "advertisement",
+            "ipa": "/ədˈvɜːtɪsmənt/",
+            "pos": "n",
+            "meaning": "广告"
+          },
+          {
+            "word": "endorsement",
+            "ipa": "/ɪnˈdɔːsmənt/",
+            "pos": "n",
+            "meaning": "代言"
+          },
+          {
+            "word": "influencer",
+            "ipa": "/ˈɪnfluənsə/",
+            "pos": "n",
+            "meaning": "网红，意见领袖"
+          },
+          {
+            "word": "target audience",
+            "ipa": "/ˈtɑːɡɪt ˈɔːdiəns/",
+            "pos": "n",
+            "meaning": "目标受众"
+          },
+          {
+            "word": "persuasive",
+            "ipa": "/pəˈsweɪsɪv/",
+            "pos": "adj",
+            "meaning": "有说服力的"
+          },
+          {
+            "word": "subliminal",
+            "ipa": "/sʌbˈlɪmɪnl/",
+            "pos": "adj",
+            "meaning": "潜意识的"
+          },
+          {
+            "word": "campaign",
+            "ipa": "/kæmˈpeɪn/",
+            "pos": "n",
+            "meaning": "营销活动"
+          },
+          {
+            "word": "gimmick",
+            "ipa": "/ˈɡɪmɪk/",
+            "pos": "n",
+            "meaning": "噱头"
+          },
+          {
+            "word": "entice",
+            "ipa": "/ɪnˈtaɪs/",
+            "pos": "v",
+            "meaning": "诱使"
+          },
+          {
+            "word": "disposable income",
+            "ipa": "/dɪˈspəʊzəbl ˈɪnkʌm/",
+            "pos": "n",
+            "meaning": "可支配收入"
+          },
+          {
+            "word": "purchasing power",
+            "ipa": "/ˈpɜːtʃəsɪŋ ˈpaʊə/",
+            "pos": "n",
+            "meaning": "购买力"
+          },
+          {
+            "word": "brand loyalty",
+            "ipa": "/brænd ˈlɔɪəlti/",
+            "pos": "n",
+            "meaning": "品牌忠诚度"
+          },
+          {
+            "word": "planned obsolescence",
+            "ipa": "/plænd ˌɒbsəˈlesns/",
+            "pos": "n",
+            "meaning": "计划性淘汰"
+          },
+          {
+            "word": "manipulate",
+            "ipa": "/məˈnɪpjʊleɪt/",
+            "pos": "v",
+            "meaning": "操纵"
+          },
+          {
+            "word": "commodify",
+            "ipa": "/kəˈmɒdɪfaɪ/",
+            "pos": "v",
+            "meaning": "商品化"
+          },
+          {
+            "word": "affluent",
+            "ipa": "/ˈæfluənt/",
+            "pos": "adj",
+            "meaning": "富裕的"
+          },
+          {
+            "word": "scrutinize",
+            "ipa": "/ˈskruːtɪnaɪz/",
+            "pos": "v",
+            "meaning": "仔细审查"
+          },
+          {
+            "word": "discern",
+            "ipa": "/dɪˈsɜːn/",
+            "pos": "v",
+            "meaning": "辨别"
+          }
+        ],
+        "image": "../outputs/29-fashion-and-consumerism/generated-with-text/29-card-05-generated-text.png"
+      }
+    ]
+  },
+  {
     "slug": "SP01-artificial-intelligence",
     "title": "人工智能（Artificial Intelligence）",
     "shortTitle": "Artificial Intelligence",

@@ -357,7 +357,7 @@ function openImageModalByIndex(index) {
   imageModal.classList.add("is-open");
   imageModal.setAttribute("aria-hidden", "false");
   document.body.classList.add("has-modal");
-  updateSpotlight(50, 50);
+  setZoomOrigin(50, 50);
 }
 
 function stepModal(delta) {
@@ -386,7 +386,7 @@ function showModalWord(button) {
   speakExamWord(button.dataset.word);
 }
 
-function updateSpotlight(xPercent, yPercent) {
+function setZoomOrigin(xPercent, yPercent) {
   modalStage.style.setProperty("--spot-x", `${xPercent}%`);
   modalStage.style.setProperty("--spot-y", `${yPercent}%`);
 }
@@ -927,10 +927,10 @@ function attachEvents() {
     const rect = modalStage.getBoundingClientRect();
     const x = ((event.clientX - rect.left) / rect.width) * 100;
     const y = ((event.clientY - rect.top) / rect.height) * 100;
-    updateSpotlight(Math.max(0, Math.min(100, x)), Math.max(0, Math.min(100, y)));
+    setZoomOrigin(Math.max(0, Math.min(100, x)), Math.max(0, Math.min(100, y)));
   });
 
-  imageModal.addEventListener("mouseleave", () => updateSpotlight(50, 50));
+  imageModal.addEventListener("mouseleave", () => setZoomOrigin(50, 50));
 
   document.addEventListener("keydown", (event) => {
     if (imageModal.classList.contains("is-open")) {
