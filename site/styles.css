@@ -1,15 +1,17 @@
 :root {
-  --paper: #fbf7ee;
-  --ink: #26221c;
-  --muted: #766f64;
-  --line: rgba(58, 47, 35, 0.14);
+  --paper: #f8f4eb;
+  --ink: #211d16;
+  --muted: #837b6d;
+  --line: rgba(33, 29, 22, 0.12);
   --sage: #7a8d72;
   --teal: #5f8e96;
-  --clay: #b66c55;
+  --clay: #a8653f;
   --amber: #d7a444;
   --plum: #806a8b;
-  --card: rgba(255, 252, 244, 0.84);
+  --accent: #44604e;
+  --card: #fffdf7;
   --shadow: 0 24px 70px rgba(52, 42, 29, 0.16);
+  --serif: "Iowan Old Style", Georgia, "Times New Roman", "Songti SC", "Noto Serif SC", serif;
 }
 
 * {
@@ -19,8 +21,8 @@
 html {
   color: var(--ink);
   background:
-    linear-gradient(rgba(91, 114, 93, 0.055) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(91, 114, 93, 0.055) 1px, transparent 1px),
+    linear-gradient(rgba(91, 114, 93, 0.026) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(91, 114, 93, 0.026) 1px, transparent 1px),
     var(--paper);
   background-size: 28px 28px;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -75,13 +77,14 @@ button {
   place-items: center;
   width: 58px;
   aspect-ratio: 1;
-  border: 1px solid rgba(122, 141, 114, 0.32);
+  border: 1px solid var(--ink);
   border-radius: 8px;
-  background: #edf1e5;
-  color: #41573e;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--serif);
   font-size: 13px;
-  font-weight: 850;
-  letter-spacing: 0;
+  font-weight: 700;
+  letter-spacing: 0.04em;
 }
 
 h1,
@@ -91,7 +94,10 @@ p {
 }
 
 h1 {
-  font-size: 18px;
+  font-family: var(--serif);
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
   line-height: 1.15;
 }
 
@@ -141,20 +147,22 @@ h1 {
 .stats {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
-  margin: 14px 0 18px;
+  gap: 0 18px;
+  margin: 22px 0 18px;
+  border-top: 1px solid var(--line);
 }
 
 .stat {
-  padding: 10px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.46);
+  padding: 12px 2px;
+  border-bottom: 1px solid var(--line);
 }
 
 .stat strong {
   display: block;
-  font-size: 20px;
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 .stat span {
@@ -172,19 +180,25 @@ h1 {
   align-items: end;
   justify-content: space-between;
   gap: 18px;
-  margin-bottom: 24px;
+  margin-bottom: 30px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--line);
 }
 
 .eyebrow {
-  color: var(--clay);
-  font-size: 12px;
-  font-weight: 850;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
 }
 
 h2 {
-  margin-top: 5px;
-  font-size: clamp(24px, 3vw, 42px);
+  margin-top: 8px;
+  font-family: var(--serif);
+  font-size: clamp(26px, 3vw, 44px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
   line-height: 1.06;
 }
 
@@ -210,10 +224,9 @@ h2 {
 
 .vocab-card {
   position: relative;
-  border: 1px solid rgba(62, 52, 38, 0.12);
+  border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--card);
-  box-shadow: 0 14px 38px rgba(58, 45, 31, 0.11);
   overflow: clip;
   transform-style: preserve-3d;
   transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
@@ -221,7 +234,7 @@ h2 {
 
 .vocab-card:hover,
 .vocab-card:focus-within {
-  border-color: rgba(95, 142, 150, 0.38);
+  border-color: rgba(33, 29, 22, 0.24);
   box-shadow: var(--shadow);
 }
 
@@ -354,7 +367,9 @@ h2 {
 
 .card-title h3 {
   margin: 0;
-  font-size: 15px;
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .card-title span {
@@ -377,29 +392,30 @@ h2 {
   display: inline-flex;
   align-items: center;
   min-height: 32px;
-  border: 1px solid rgba(95, 142, 150, 0.24);
+  border: 1px solid rgba(33, 29, 22, 0.2);
   border-radius: 999px;
-  background: rgba(237, 243, 239, 0.78);
-  padding: 6px 10px;
-  color: #263c3f;
+  background: transparent;
+  padding: 6px 12px;
+  color: #38332a;
   font-size: 13px;
-  font-weight: 760;
+  font-weight: 620;
   cursor: pointer;
   transition: transform 160ms ease, background 160ms ease, color 160ms ease, border-color 160ms ease;
 }
 
 .word-button:hover,
 .word-button:focus {
-  border-color: rgba(182, 108, 85, 0.52);
-  background: rgba(255, 238, 214, 0.96);
-  color: #65382d;
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
   transform: translateY(-2px);
   outline: none;
 }
 
 .word-button.is-speaking {
-  border-color: rgba(215, 164, 68, 0.7);
-  background: rgba(255, 244, 198, 0.96);
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--paper);
 }
 
 .empty {
@@ -582,8 +598,9 @@ h2 {
 
 .modal-caption {
   color: #2f281f;
-  font-size: 15px;
-  font-weight: 850;
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 700;
   line-height: 1.35;
 }
 
@@ -693,13 +710,34 @@ h2 {
 }
 
 
+.exam-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 24;
+  background: rgba(28, 24, 19, 0.38);
+}
+
+.exam-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 25;
+  width: min(560px, 94vw);
+  overflow: auto;
+  border-left: 1px solid var(--line);
+  background: var(--paper);
+  box-shadow: -24px 0 80px rgba(38, 30, 20, 0.22);
+  transform: translateX(103%);
+  transition: transform 260ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.exam-drawer.is-open {
+  transform: none;
+}
+
 .exam-panel {
-  margin: 0 0 24px;
-  padding: 18px;
-  border: 1px solid rgba(62, 52, 38, 0.12);
-  border-radius: 8px;
-  background: rgba(255, 252, 244, 0.78);
-  box-shadow: 0 14px 38px rgba(58, 45, 31, 0.08);
+  padding: 26px 24px 32px;
 }
 
 .exam-head {
@@ -707,15 +745,7 @@ h2 {
   align-items: start;
   justify-content: space-between;
   gap: 14px;
-  margin-bottom: 14px;
-}
-
-.exam-panel.is-collapsed .exam-head {
-  margin-bottom: 0;
-}
-
-.exam-panel.is-collapsed .exam-body {
-  display: none;
+  margin-bottom: 18px;
 }
 
 .exam-head-actions {
@@ -724,27 +754,66 @@ h2 {
   gap: 8px;
 }
 
-.exam-toggle {
-  min-height: 36px;
-  border: 1px solid rgba(95, 142, 150, 0.32);
-  border-radius: 8px;
-  background: rgba(237, 243, 239, 0.72);
-  color: #30464a;
+.exam-close {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  aspect-ratio: 1;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--ink);
   cursor: pointer;
-  font-size: 13px;
-  font-weight: 820;
-  padding: 0 12px;
-  transition: background 160ms ease, border-color 160ms ease;
+  font-size: 22px;
+  line-height: 1;
+  transition: background 160ms ease;
 }
 
-.exam-toggle:hover {
-  border-color: rgba(95, 142, 150, 0.62);
-  background: rgba(225, 239, 235, 0.95);
+.exam-close:hover {
+  background: rgba(33, 29, 23, 0.06);
+}
+
+.exam-entry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  min-height: 46px;
+  margin-bottom: 4px;
+  border: 1px solid var(--ink);
+  border-radius: 8px;
+  background: var(--ink);
+  color: var(--paper);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 0 14px;
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.exam-entry:hover {
+  background: #3a342a;
+  transform: translateY(-1px);
+}
+
+.exam-entry em {
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.16);
+  color: #f3d9a6;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 3px 9px;
 }
 
 .exam-head h3 {
-  margin: 4px 0 0;
-  font-size: 20px;
+  margin: 6px 0 0;
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
   line-height: 1.2;
 }
 
@@ -794,24 +863,41 @@ h2 {
 }
 
 .exam-start,
-.exam-next,
-.listen-button {
+.exam-next {
   min-height: 42px;
-  border: 1px solid rgba(182, 108, 85, 0.28);
+  border: 1px solid var(--ink);
   border-radius: 8px;
-  background: rgba(255, 238, 214, 0.9);
-  color: #65382d;
-  font-weight: 820;
+  background: var(--ink);
+  color: var(--paper);
+  font-weight: 700;
+  letter-spacing: 0.04em;
   cursor: pointer;
-  padding: 0 14px;
+  padding: 0 16px;
   transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
 }
 
 .exam-start:hover,
-.exam-next:hover,
+.exam-next:hover {
+  background: #3a342a;
+  transform: translateY(-1px);
+}
+
+.listen-button {
+  min-height: 42px;
+  margin-bottom: 12px;
+  border: 1px solid rgba(33, 29, 22, 0.28);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--ink);
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0 16px;
+  transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
+}
+
 .listen-button:hover {
-  border-color: rgba(182, 108, 85, 0.52);
-  background: rgba(255, 229, 194, 0.98);
+  border-color: var(--ink);
+  background: rgba(33, 29, 23, 0.05);
   transform: translateY(-1px);
 }
 
@@ -841,8 +927,10 @@ h2 {
 
 .exam-question h4 {
   margin: 0 0 14px;
-  font-size: clamp(18px, 2vw, 28px);
-  line-height: 1.25;
+  font-family: var(--serif);
+  font-size: clamp(18px, 2vw, 26px);
+  font-weight: 700;
+  line-height: 1.3;
 }
 
 .exam-progress {
@@ -857,7 +945,7 @@ h2 {
   display: block;
   height: 100%;
   border-radius: 999px;
-  background: linear-gradient(90deg, var(--teal), var(--sage));
+  background: var(--accent);
   transition: width 260ms ease;
 }
 
@@ -906,11 +994,11 @@ body.is-exam-active .gallery {
 
 .exam-option {
   min-height: 46px;
-  border: 1px solid rgba(95, 142, 150, 0.24);
+  border: 1px solid rgba(33, 29, 22, 0.2);
   border-radius: 8px;
-  background: rgba(237, 243, 239, 0.78);
-  color: #263c3f;
-  font-weight: 820;
+  background: transparent;
+  color: var(--ink);
+  font-weight: 640;
   cursor: pointer;
   padding: 10px 12px;
   text-align: left;
@@ -918,8 +1006,8 @@ body.is-exam-active .gallery {
 }
 
 .exam-option:hover:not(:disabled) {
-  border-color: rgba(95, 142, 150, 0.5);
-  background: rgba(225, 239, 235, 0.95);
+  border-color: var(--ink);
+  background: rgba(33, 29, 23, 0.05);
   transform: translateY(-1px);
 }
 
@@ -977,7 +1065,8 @@ body.is-exam-active .gallery {
 }
 
 .exam-result strong {
-  font-size: 38px;
+  font-family: var(--serif);
+  font-size: 42px;
   line-height: 1;
 }
 
@@ -1004,7 +1093,9 @@ body.is-exam-active .gallery {
 
 .mistake-head h4 {
   margin: 4px 0 0;
-  font-size: 18px;
+  font-family: var(--serif);
+  font-size: 19px;
+  font-weight: 700;
 }
 
 .mistake-actions {

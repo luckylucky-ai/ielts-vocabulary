@@ -27,6 +27,11 @@
           <select id="topicSelect" aria-label="选择话题"></select>
         </label>
 
+        <button class="exam-entry" id="examEntry" type="button">
+          <span>单词考试</span>
+          <em id="examEntryBadge" hidden></em>
+        </button>
+
         <div class="stats" id="stats"></div>
       </aside>
 
@@ -43,19 +48,25 @@
         </div>
 
 
-        <section class="exam-panel" id="examPanel" aria-label="单词考试">
-          <div class="exam-head">
-            <div>
-              <p class="eyebrow">Vocabulary exam</p>
-              <h3>话题单词考试</h3>
-            </div>
-            <div class="exam-head-actions">
-              <div class="exam-score" id="examScore">未开始</div>
-              <button class="exam-toggle" id="examToggle" type="button" aria-expanded="false">展开考试 ▾</button>
-            </div>
-          </div>
+        <div class="gallery" id="gallery" aria-live="polite"></div>
+      </section>
+    </main>
 
-          <div class="exam-body" id="examBody">
+    <div class="exam-backdrop" id="examBackdrop" hidden></div>
+    <aside class="exam-drawer" id="examDrawer" aria-label="单词考试" aria-hidden="true">
+      <section class="exam-panel" id="examPanel">
+        <div class="exam-head">
+          <div>
+            <p class="eyebrow">Vocabulary exam</p>
+            <h3>话题单词考试</h3>
+          </div>
+          <div class="exam-head-actions">
+            <div class="exam-score" id="examScore">未开始</div>
+            <button class="exam-close" id="examClose" type="button" aria-label="关闭考试面板">×</button>
+          </div>
+        </div>
+
+        <div class="exam-body" id="examBody">
             <div class="exam-controls">
               <label>
                 <span>形式</span>
@@ -96,11 +107,8 @@
               <div class="mistake-list" id="mistakeList"></div>
             </div>
           </div>
-        </section>
-
-        <div class="gallery" id="gallery" aria-live="polite"></div>
       </section>
-    </main>
+    </aside>
 
     <div class="word-tooltip" id="wordTooltip" role="tooltip"></div>
     <div class="image-modal" id="imageModal" aria-hidden="true">

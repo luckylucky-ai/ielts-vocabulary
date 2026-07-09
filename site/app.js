@@ -48,8 +48,11 @@ const examScore = document.querySelector("#examScore");
 const mistakeList = document.querySelector("#mistakeList");
 const mistakeClear = document.querySelector("#mistakeClear");
 const mistakeRetake = document.querySelector("#mistakeRetake");
-const examPanel = document.querySelector("#examPanel");
-const examToggle = document.querySelector("#examToggle");
+const examDrawer = document.querySelector("#examDrawer");
+const examBackdrop = document.querySelector("#examBackdrop");
+const examClose = document.querySelector("#examClose");
+const examEntry = document.querySelector("#examEntry");
+const examEntryBadge = document.querySelector("#examEntryBadge");
 const modalPrev = document.querySelector("#modalPrev");
 const modalNext = document.querySelector("#modalNext");
 
@@ -459,6 +462,8 @@ function renderMistakes() {
   if (!mistakeList) return;
   const list = readMistakes();
   mistakeRetake.disabled = !list.length;
+  examEntryBadge.hidden = !list.length;
+  examEntryBadge.textContent = list.length ? `错题 ${list.length}` : "";
   if (!list.length) {
     mistakeList.innerHTML = `<p class="mistake-empty">还没有错题，考一轮试试。答对错题会自动移出错题本。</p>`;
   } else {
@@ -693,11 +698,23 @@ function nextExamQuestion() {
   renderExamQuestion();
 }
 
-function setExamCollapsed(collapsed) {
-  examPanel.classList.toggle("is-collapsed", collapsed);
-  examToggle.setAttribute("aria-expanded", String(!collapsed));
-  examToggle.textContent = collapsed ? "展开考试 ▾" : "收起 ▴";
-  savePrefs({ examCollapsed: collapsed });
+function examDrawerOpen() {
+  return examDrawer.classList.contains("is-open");
+}
+
+function openExamDrawer() {
+  examDrawer.classList.add("is-open");
+  examDrawer.setAttribute("aria-hidden", "false");
+  examBackdrop.hidden = false;
+  // 有进行中的考试就恢复画廊虚化
+  setExamActive(state.quiz && state.quiz.index < state.quiz.questions.length);
+}
+
+function closeExamDrawer() {
+  examDrawer.classList.remove("is-open");
+  examDrawer.setAttribute("aria-hidden", "true");
+  examBackdrop.hidden = true;
+  setExamActive(false);
 }
 
 function attachEvents() {
@@ -719,9 +736,9 @@ function attachEvents() {
     }, 180);
   });
 
-  examToggle.addEventListener("click", () => {
-    setExamCollapsed(!examPanel.classList.contains("is-collapsed"));
-  });
+  examEntry.addEventListener("click", openExamDrawer);
+  examClose.addEventListener("click", closeExamDrawer);
+  examBackdrop.addEventListener("click", closeExamDrawer);
 
   examStart.addEventListener("click", startExam);
   mistakeRetake.addEventListener("click", startMistakeExam);
@@ -883,6 +900,11 @@ function attachEvents() {
       return;
     }
 
+    if (event.key === "Escape" && examDrawerOpen()) {
+      closeExamDrawer();
+      return;
+    }
+
     const quiz = state.quiz;
     if (!quiz || quiz.index >= quiz.questions.length) return;
     const typing = event.target instanceof Element && event.target.matches("input, textarea, select");
@@ -910,7 +932,6 @@ function attachEvents() {
 }
 
 migrateLegacyMistakes();
-setExamCollapsed(prefs.examCollapsed !== false);
 renderStats();
 renderTopics();
 renderGallery();
