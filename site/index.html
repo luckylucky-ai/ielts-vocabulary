@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IELTS Visual Vocabulary</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <aside class="sidebar" aria-label="话题导航">
+        <div class="brand">
+          <span class="brand-mark">IELTS</span>
+          <div>
+            <h1>Visual Vocabulary</h1>
+            <p>看图记高级词汇</p>
+          </div>
+        </div>
+
+        <label class="search">
+          <span>搜索</span>
+          <input id="searchInput" type="search" placeholder="输入 topic / word / 中文" autocomplete="off" />
+        </label>
+
+        <label class="topic-picker">
+          <span>话题</span>
+          <select id="topicSelect" aria-label="选择话题"></select>
+        </label>
+
+        <div class="stats" id="stats"></div>
+      </aside>
+
+      <section class="content">
+        <div class="toolbar">
+          <div>
+            <p class="eyebrow">Interactive gallery</p>
+            <h2 id="pageTitle">雅思话题词汇卡片</h2>
+          </div>
+          <div class="voice-control">
+            <label for="voiceSelect">发音</label>
+            <select id="voiceSelect" aria-label="选择发音"></select>
+          </div>
+        </div>
+
+
+        <section class="exam-panel" id="examPanel" aria-label="单词考试">
+          <div class="exam-head">
+            <div>
+              <p class="eyebrow">Vocabulary exam</p>
+              <h3>话题单词考试</h3>
+            </div>
+            <div class="exam-head-actions">
+              <div class="exam-score" id="examScore">未开始</div>
+              <button class="exam-toggle" id="examToggle" type="button" aria-expanded="false">展开考试 ▾</button>
+            </div>
+          </div>
+
+          <div class="exam-body" id="examBody">
+            <div class="exam-controls">
+              <label>
+                <span>形式</span>
+                <select id="examMode">
+                  <option value="meaning">看中文选英文</option>
+                  <option value="pronunciation">听读音选英文</option>
+                  <option value="spelling">拼写填空</option>
+                  <option value="mixed">混合模式</option>
+                </select>
+              </label>
+              <label>
+                <span>题数</span>
+                <select id="examCount">
+                  <option value="10">10 题</option>
+                  <option value="15">15 题</option>
+                  <option value="20">20 题</option>
+                  <option value="all">全部</option>
+                </select>
+              </label>
+              <button class="exam-start" id="examStart" type="button">开始考试</button>
+            </div>
+
+            <div class="exam-board" id="examBoard">
+              <p>选择一个话题后开始，系统会从该话题抽词。</p>
+            </div>
+
+            <div class="mistake-book" id="mistakeBook" aria-label="错题本">
+              <div class="mistake-head">
+                <div>
+                  <p class="eyebrow">Mistake book</p>
+                  <h4>错题本</h4>
+                </div>
+                <div class="mistake-actions">
+                  <button class="mistake-retake" id="mistakeRetake" type="button">重考错题</button>
+                  <button class="mistake-clear" id="mistakeClear" type="button">清空错题本</button>
+                </div>
+              </div>
+              <div class="mistake-list" id="mistakeList"></div>
+            </div>
+          </div>
+        </section>
+
+        <div class="gallery" id="gallery" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <div class="word-tooltip" id="wordTooltip" role="tooltip"></div>
+    <div class="image-modal" id="imageModal" aria-hidden="true">
+      <button class="modal-close" id="modalClose" type="button" aria-label="关闭放大卡片">×</button>
+      <button class="modal-nav modal-prev" id="modalPrev" type="button" aria-label="上一张">‹</button>
+      <button class="modal-nav modal-next" id="modalNext" type="button" aria-label="下一张">›</button>
+      <div class="modal-card-view">
+        <div class="modal-stage" id="modalStage">
+          <img id="modalImage" alt="" />
+          <div class="spotlight" id="spotlight"></div>
+          <div class="modal-word-zoom" id="modalWordZoom" aria-live="polite">
+            <strong></strong>
+            <span></span>
+          </div>
+        </div>
+        <aside class="modal-study-panel" aria-label="卡片单词">
+          <div class="modal-caption" id="modalCaption"></div>
+          <div class="modal-words" id="modalWords"></div>
+        </aside>
+      </div>
+    </div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
