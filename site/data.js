@@ -489,7 +489,211 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/08-space-and-astronomy/font-weight-adjusted/08-card-05-text-heavier.png"
       }
-    ]
+    ],
+    "reading": {
+      "title": "The Hunt for a Second Earth",
+      "meta": "742 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "For centuries, humans have gazed at the night sky and wondered whether life exists beyond our own planet. Ancient civilisations mapped **constellations** and tracked the **celestial** movements of stars, yet the idea that other worlds might be **habitable** remained pure speculation. It was not until the development of modern **astrophysics** and the construction of powerful **telescopes** at mountaintop **observatories** that scientists could begin to answer this question with empirical evidence."
+        },
+        {
+          "label": "B",
+          "text": "The first breakthrough came through **spectroscopy** — the analysis of light's **spectrum** to determine the chemical composition of distant objects. When a star **emits** light, each element in its **atmospheric** layers absorbs specific **wavebands**, leaving dark lines in the **spectral** pattern. By studying these **emissions**, astronomers can **detect** not only what a star is made of, but also whether **planetary** bodies are present in its system. This technique, refined throughout the twentieth century, transformed astronomy from a purely observational science into a rigorous analytical discipline."
+        },
+        {
+          "label": "C",
+          "text": "The discovery of **exoplanets** — planets **orbiting** stars other than our sun — accelerated dramatically after the **launch** of the Kepler space **telescope** in 2009. Kepler monitored the **luminosity** of over 150,000 stars simultaneously, watching for the tiny dip in brightness that occurs when a planet transits across its host star's face — not unlike a miniature **eclipse**. The mission's **resolution** was extraordinary: it could **detect** changes in brightness as small as 0.01 percent. By the time the mission ended, Kepler had identified over 2,600 confirmed exoplanets, including several **terrestrial** worlds within the **habitable** zone — the narrow band around a star where liquid water could theoretically exist on a planet's surface."
+        },
+        {
+          "label": "D",
+          "text": "Yet finding a planet in the habitable zone is only the first step. To determine whether a world could truly support life, scientists must analyse its atmosphere in detail. The James Webb Space **Telescope** (JWST), **launched** in 2021, was designed precisely for this purpose. Operating primarily in the **infrared** **waveband**, JWST can peer through **cosmic** dust clouds that block visible light, examining the **spectral** signatures of exoplanet atmospheres with unprecedented clarity. Its instruments must be painstakingly **calibrated** to distinguish genuine atmospheric signals from background **radiation** and **interstellar** noise."
+        },
+        {
+          "label": "E",
+          "text": "One of JWST's most significant early findings involved a **terrestrial** exoplanet approximately 40 light-years away. **Spectroscopy** revealed traces of carbon dioxide and water vapour in the planet's atmosphere — molecules essential for life as we know it. However, researchers caution against premature excitement. The planet's **orbit** places it close to a red **dwarf** star, which **radiates** intense bursts of ultraviolet radiation that could strip away any protective atmosphere over time. Furthermore, the **gravitational** forces exerted by such proximity may have locked the planet's **rotation**, meaning one **hemisphere** permanently faces the star while the other remains in perpetual darkness."
+        },
+        {
+          "label": "F",
+          "text": "Meanwhile, within our own **solar** system, the search for life continues through **interplanetary** missions. NASA's Perseverance **rover**, which landed on Mars in 2021, has been collecting rock samples that may contain evidence of ancient microbial life. The **probe** analyses **meteorite** **impact** craters and dried riverbeds, seeking chemical biosignatures preserved in the geological record. Future missions plan to return these samples to Earth inside a sealed **capsule** for laboratory analysis — a complex operation involving precise **trajectory** calculations, orbital **docking**, and atmospheric **reentry** at extreme **velocities**, during which the **capsule** must withstand temperatures exceeding 2,000 degrees Celsius as **debris** burns away from its heat shield."
+        },
+        {
+          "label": "G",
+          "text": "The ultimate question — whether we are alone in the universe — may not be answered in our lifetime. But each new discovery narrows the **void** between speculation and knowledge. As telescope technology improves and **spacecraft** venture deeper into **interstellar** space, the probability of finding definitive evidence grows. What was once the domain of science fiction is rapidly becoming the **zenith** of scientific achievement."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage? - **TRUE** — if the statement agrees with the information - **FALSE** — if the statement contradicts the information - **NOT GIVEN** — if there is no information on this",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Ancient civilisations had scientific evidence that other planets could support life.",
+              "answer": "FALSE",
+              "explanation": "Paragraph A: \"the idea that other worlds might be habitable remained **pure speculation**\" · 纯粹的推测 ≠ 科学证据。原文明确说是 speculation，直接否定了 \"scientific evidence\"。"
+            },
+            {
+              "number": 2,
+              "text": "Spectroscopy allows scientists to determine the chemical composition of distant stars.",
+              "answer": "TRUE",
+              "explanation": "Paragraph B: \"spectroscopy — the analysis of light's spectrum to **determine the chemical composition** of distant objects\" · 原文直接说明光谱学可以确定化学成分，与题目一致。"
+            },
+            {
+              "number": 3,
+              "text": "The Kepler telescope observed more than 150,000 stars at the same time.",
+              "answer": "TRUE",
+              "explanation": "Paragraph C: \"Kepler monitored the luminosity of **over 150,000 stars simultaneously**\" · simultaneously = at the same time，原文完全匹配。"
+            },
+            {
+              "number": 4,
+              "text": "JWST operates exclusively in the infrared waveband.",
+              "answer": "FALSE",
+              "explanation": "Paragraph D: \"Operating **primarily** in the infrared waveband\" · primarily（主要地）≠ exclusively（完全地）。原文说\"主要\"用红外，题目说\"完全\"用红外，矛盾。"
+            },
+            {
+              "number": 5,
+              "text": "The Perseverance rover has already confirmed the existence of ancient life on Mars.",
+              "answer": "FALSE",
+              "explanation": "Paragraph F: \"has been collecting rock samples that **may contain** evidence\" + \"**seeking** chemical biosignatures\" · \"may contain\"（可能含有）+ \"seeking\"（寻找中）= 还没确认。与 \"has already confirmed\" 直接矛盾。注意：NOT GIVEN 是原文**完全没提到**这个话题；这里原文提到了火星生命搜索，只是说还没找到 → 所以是 FALSE 不是 NG。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "headings",
+          "title": "Questions 6-9: Matching Headings",
+          "instruction": "Choose the correct heading for each paragraph from the list below.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph B",
+              "answer": "ii",
+              "explanation": "Paragraph B 的主体是 spectroscopy（光谱分析）→ 通过分析光来揭示恒星的化学成分。\"unlock stellar secrets\" 对应 \"determine the chemical composition\"。"
+            },
+            {
+              "number": 7,
+              "text": "Paragraph C",
+              "answer": "iii",
+              "explanation": "Paragraph C 讲 Kepler 望远镜如何彻底改变了系外行星的发现方式：监测 15 万颗恒星 → 发现 2600+ 行星。\"revolutionises\" 对应 \"accelerated dramatically\"。"
+            },
+            {
+              "number": 8,
+              "text": "Paragraph D",
+              "answer": "vi",
+              "explanation": "Paragraph D 的主体（3/4 句）是 JWST 的红外技术细节：infrared waveband / peer through cosmic dust / calibrated。虽然开头提到\"挑战\"，但那只是引出 JWST 的过渡句，不是段落主旨。**匹配标题要看整段的重心，不是只看第一句。**"
+            },
+            {
+              "number": 9,
+              "text": "Paragraph F",
+              "answer": "v",
+              "explanation": "Paragraph F 讲火星探测：Perseverance rover 采集样本 → 未来任务将样本装入 capsule 送回地球。段落后半部分详细描述了返回地球的复杂过程（trajectory / docking / reentry）。"
+            }
+          ],
+          "headings": [
+            {
+              "key": "i",
+              "text": "The limitations of early astronomical knowledge"
+            },
+            {
+              "key": "ii",
+              "text": "Analysing light to unlock stellar secrets"
+            },
+            {
+              "key": "iii",
+              "text": "A space telescope revolutionises planet-hunting"
+            },
+            {
+              "key": "iv",
+              "text": "The challenges of confirming habitability"
+            },
+            {
+              "key": "v",
+              "text": "Returning Martian samples to Earth"
+            },
+            {
+              "key": "vi",
+              "text": "Looking deeper with next-generation infrared technology"
+            },
+            {
+              "key": "vii",
+              "text": "The future of the search for extraterrestrial life"
+            },
+            {
+              "key": "viii",
+              "text": "The role of gravitational forces in planetary formation"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose **ONE WORD ONLY** from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "waveband",
+              "explanation": "Paragraph D: \"Operating primarily in the infrared **waveband**\" · \"works mainly in the infrared ___\" 直接对应 \"operating primarily in the infrared waveband\"。mainly = primarily。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "calibrated",
+              "explanation": "Paragraph D: \"must be painstakingly **calibrated**\" · \"require careful ___\" 对应 \"must be painstakingly calibrated\"。careful = painstakingly。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "dwarf",
+              "explanation": "Paragraph E: \"a red **dwarf** star\" · 直接定位，\"a red ___ star\" 完全匹配。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "hemisphere",
+              "explanation": "Paragraph E: \"one **hemisphere** permanently faces the star while the other remains in perpetual darkness\" · \"leaving one ___ in permanent darkness\" 对应 \"the other remains in perpetual darkness\"。permanent = perpetual。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "The James Webb Space Telescope works mainly in the infrared"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": ", enabling it to see through cosmic dust. Its instruments require careful"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "to separate real atmospheric signals from background interference. An early discovery found carbon dioxide and water vapour around a planet orbiting a red"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "star. However, the planet's rotation may be locked, leaving one"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "in permanent darkness. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
   },
   {
     "slug": "09-education-and-school",
@@ -981,7 +1185,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/09-education-and-school/09-card-05.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "10-work-and-career",
@@ -1503,7 +1708,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/10-work-and-career/generated-with-text/10-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "11-health-and-medicine",
@@ -2025,7 +2231,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/11-health-and-medicine/11-card-05.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "12-psychology-and-emotions",
@@ -2553,7 +2760,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/12-psychology-and-emotions/12-card-05.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "13-city-and-architecture",
@@ -3105,7 +3313,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/13-city-and-architecture/generated-with-text/13-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "14-transportation-and-transit",
@@ -3627,7 +3836,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/14-transportation-and-transit/generated-with-text/14-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "15-law-and-crime",
@@ -4131,7 +4341,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/15-law-and-crime/generated-with-text/15-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "16-economics-business",
@@ -4683,7 +4894,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/16-economics-business/generated-with-text/16-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "17-government-and-politics",
@@ -5211,7 +5423,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/17-government-and-politics/generated-with-text/17-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "18-media-and-communication",
@@ -5733,7 +5946,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/18-media-and-communication/generated-with-text/18-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "19-culture-and-traditions",
@@ -6225,7 +6439,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/19-culture-and-traditions/generated-with-text/19-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "20-art-and-music",
@@ -6747,7 +6962,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/20-art-and-music/generated-with-text/20-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "21-sports-and-fitness",
@@ -7281,7 +7497,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/21-sports-and-fitness/generated-with-text/21-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "22-food-and-diet",
@@ -7833,7 +8050,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/22-food-and-diet/generated-with-text/22-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "23-family-and-social-relationships",
@@ -8391,7 +8609,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/23-family-and-social-relationships/generated-with-text/23-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "24-history-and-archaeology",
@@ -8919,7 +9138,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/24-history-and-archaeology/generated-with-text/24-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "25-language-and-communication",
@@ -9471,7 +9691,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/25-language-and-communication/generated-with-text/25-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "26-tourism-and-leisure",
@@ -10023,7 +10244,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/26-tourism-and-leisure/generated-with-text/26-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "27-energy-and-resources",
@@ -10575,7 +10797,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/27-energy-and-resources/generated-with-text/27-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "28-ocean-and-water",
@@ -11127,7 +11350,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/28-ocean-and-water/generated-with-text/28-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "29-fashion-and-consumerism",
@@ -11709,7 +11933,591 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/29-fashion-and-consumerism/generated-with-text/29-card-05-generated-text.png"
       }
-    ]
+    ],
+    "reading": null
+  },
+  {
+    "slug": "30-social-issues",
+    "title": "社会问题（Social Issues）",
+    "shortTitle": "Social Issues",
+    "cards": [
+      {
+        "cardNumber": 1,
+        "subtitle": "贫困与阶层不平等（Poverty & Social Inequality）",
+        "words": [
+          {
+            "word": "poverty",
+            "ipa": "/ˈpɒvəti/",
+            "pos": "n",
+            "meaning": "贫困"
+          },
+          {
+            "word": "deprivation",
+            "ipa": "/ˌdeprɪˈveɪʃn/",
+            "pos": "n",
+            "meaning": "匮乏"
+          },
+          {
+            "word": "destitute",
+            "ipa": "/ˈdestɪtjuːt/",
+            "pos": "adj",
+            "meaning": "一贫如洗的"
+          },
+          {
+            "word": "welfare",
+            "ipa": "/ˈwelfeə/",
+            "pos": "n",
+            "meaning": "福利"
+          },
+          {
+            "word": "subsidy",
+            "ipa": "/ˈsʌbsɪdi/",
+            "pos": "n",
+            "meaning": "补贴"
+          },
+          {
+            "word": "income gap",
+            "ipa": "/ˈɪnkʌm ɡæp/",
+            "pos": "n",
+            "meaning": "收入差距"
+          },
+          {
+            "word": "wealth disparity",
+            "ipa": "/welθ dɪˈspærəti/",
+            "pos": "n",
+            "meaning": "财富差距"
+          },
+          {
+            "word": "underprivileged",
+            "ipa": "/ˌʌndəˈprɪvɪlɪdʒd/",
+            "pos": "adj",
+            "meaning": "弱势的"
+          },
+          {
+            "word": "marginalize",
+            "ipa": "/ˈmɑːdʒɪnəlaɪz/",
+            "pos": "v",
+            "meaning": "边缘化"
+          },
+          {
+            "word": "social mobility",
+            "ipa": "/ˈsəʊʃl məʊˈbɪləti/",
+            "pos": "n",
+            "meaning": "社会流动性"
+          },
+          {
+            "word": "redistribute",
+            "ipa": "/ˌriːdɪˈstrɪbjuːt/",
+            "pos": "v",
+            "meaning": "再分配"
+          },
+          {
+            "word": "prosperity",
+            "ipa": "/prɒˈsperəti/",
+            "pos": "n",
+            "meaning": "繁荣"
+          },
+          {
+            "word": "entrenched",
+            "ipa": "/ɪnˈtrentʃt/",
+            "pos": "adj",
+            "meaning": "根深蒂固的"
+          },
+          {
+            "word": "vulnerable",
+            "ipa": "/ˈvʌlnərəbl/",
+            "pos": "adj",
+            "meaning": "脆弱的"
+          },
+          {
+            "word": "charity",
+            "ipa": "/ˈtʃærəti/",
+            "pos": "n",
+            "meaning": "慈善"
+          },
+          {
+            "word": "sustenance",
+            "ipa": "/ˈsʌstɪnəns/",
+            "pos": "n",
+            "meaning": "生计"
+          },
+          {
+            "word": "bridge the gap",
+            "ipa": "/brɪdʒ ðə ɡæp/",
+            "pos": "v",
+            "meaning": "缩小差距"
+          },
+          {
+            "word": "plight",
+            "ipa": "/plaɪt/",
+            "pos": "n",
+            "meaning": "困境"
+          }
+        ],
+        "image": "../outputs/30-social-issues/generated-with-text/30-card-01-generated-text.png"
+      },
+      {
+        "cardNumber": 2,
+        "subtitle": "老龄化与代际问题（Aging Population & Intergenerational Issues）",
+        "words": [
+          {
+            "word": "aging population",
+            "ipa": "/ˈeɪdʒɪŋ ˌpɒpjuˈleɪʃn/",
+            "pos": "n",
+            "meaning": "老龄化人口"
+          },
+          {
+            "word": "longevity",
+            "ipa": "/lɒnˈdʒevəti/",
+            "pos": "n",
+            "meaning": "长寿"
+          },
+          {
+            "word": "pension",
+            "ipa": "/ˈpenʃn/",
+            "pos": "n",
+            "meaning": "养老金"
+          },
+          {
+            "word": "retirement",
+            "ipa": "/rɪˈtaɪəmənt/",
+            "pos": "n",
+            "meaning": "退休"
+          },
+          {
+            "word": "dependency ratio",
+            "ipa": "/dɪˈpendənsi ˈreɪʃiəʊ/",
+            "pos": "n",
+            "meaning": "抚养比"
+          },
+          {
+            "word": "caregiver",
+            "ipa": "/ˈkeəɡɪvə/",
+            "pos": "n",
+            "meaning": "照顾者"
+          },
+          {
+            "word": "isolation",
+            "ipa": "/ˌaɪsəˈleɪʃn/",
+            "pos": "n",
+            "meaning": "孤独，隔离"
+          },
+          {
+            "word": "generational gap",
+            "ipa": "/ˌdʒenəˈreɪʃənl ɡæp/",
+            "pos": "n",
+            "meaning": "代沟"
+          },
+          {
+            "word": "filial",
+            "ipa": "/ˈfɪliəl/",
+            "pos": "adj",
+            "meaning": "孝顺的"
+          },
+          {
+            "word": "nursing home",
+            "ipa": "/ˈnɜːsɪŋ həʊm/",
+            "pos": "n",
+            "meaning": "养老院"
+          },
+          {
+            "word": "workforce shortage",
+            "ipa": "/ˈwɜːkfɔːs ˈʃɔːtɪdʒ/",
+            "pos": "n",
+            "meaning": "劳动力短缺"
+          },
+          {
+            "word": "birth rate",
+            "ipa": "/bɜːθ reɪt/",
+            "pos": "n",
+            "meaning": "出生率"
+          },
+          {
+            "word": "demographic",
+            "ipa": "/ˌdeməˈɡræfɪk/",
+            "pos": "adj",
+            "meaning": "人口的"
+          },
+          {
+            "word": "burden",
+            "ipa": "/ˈbɜːdn/",
+            "pos": "n",
+            "meaning": "负担"
+          },
+          {
+            "word": "frail",
+            "ipa": "/freɪl/",
+            "pos": "adj",
+            "meaning": "体弱的"
+          },
+          {
+            "word": "dignity",
+            "ipa": "/ˈdɪɡnəti/",
+            "pos": "n",
+            "meaning": "尊严"
+          },
+          {
+            "word": "intergenerational",
+            "ipa": "/ˌɪntəˌdʒenəˈreɪʃənl/",
+            "pos": "adj",
+            "meaning": "代际的"
+          },
+          {
+            "word": "sustainable pension system",
+            "ipa": "/səˈsteɪnəbl ˈpenʃn ˈsɪstəm/",
+            "pos": "n",
+            "meaning": "可持续养老体系"
+          }
+        ],
+        "image": "../outputs/30-social-issues/generated-with-text/30-card-02-generated-text.png"
+      },
+      {
+        "cardNumber": 3,
+        "subtitle": "性别与种族平等（Gender & Racial Equality）",
+        "words": [
+          {
+            "word": "discrimination",
+            "ipa": "/dɪˌskrɪmɪˈneɪʃn/",
+            "pos": "n",
+            "meaning": "歧视"
+          },
+          {
+            "word": "prejudice",
+            "ipa": "/ˈpredʒʊdɪs/",
+            "pos": "n",
+            "meaning": "偏见"
+          },
+          {
+            "word": "inequality",
+            "ipa": "/ˌɪnɪˈkwɒləti/",
+            "pos": "n",
+            "meaning": "不平等"
+          },
+          {
+            "word": "gender gap",
+            "ipa": "/ˈdʒendə ɡæp/",
+            "pos": "n",
+            "meaning": "性别差距"
+          },
+          {
+            "word": "glass ceiling",
+            "ipa": "/ɡlɑːs ˈsiːlɪŋ/",
+            "pos": "n",
+            "meaning": "玻璃天花板"
+          },
+          {
+            "word": "empower",
+            "ipa": "/ɪmˈpaʊə/",
+            "pos": "v",
+            "meaning": "赋权"
+          },
+          {
+            "word": "equity",
+            "ipa": "/ˈekwəti/",
+            "pos": "n",
+            "meaning": "公平"
+          },
+          {
+            "word": "affirmative action",
+            "ipa": "/əˈfɜːmətɪv ˈækʃn/",
+            "pos": "n",
+            "meaning": "平权行动"
+          },
+          {
+            "word": "systemic",
+            "ipa": "/sɪˈstemɪk/",
+            "pos": "adj",
+            "meaning": "系统性的"
+          },
+          {
+            "word": "bias",
+            "ipa": "/ˈbaɪəs/",
+            "pos": "n",
+            "meaning": "偏见倾向"
+          },
+          {
+            "word": "marginalized group",
+            "ipa": "/ˈmɑːdʒɪnəlaɪzd ɡruːp/",
+            "pos": "n",
+            "meaning": "边缘群体"
+          },
+          {
+            "word": "advocacy",
+            "ipa": "/ˈædvəkəsi/",
+            "pos": "n",
+            "meaning": "倡导"
+          },
+          {
+            "word": "tokenism",
+            "ipa": "/ˈtəʊkənɪzəm/",
+            "pos": "n",
+            "meaning": "象征性举措"
+          },
+          {
+            "word": "inclusive",
+            "ipa": "/ɪnˈkluːsɪv/",
+            "pos": "adj",
+            "meaning": "包容的"
+          },
+          {
+            "word": "diversity",
+            "ipa": "/daɪˈvɜːsəti/",
+            "pos": "n",
+            "meaning": "多样性"
+          },
+          {
+            "word": "underrepresented",
+            "ipa": "/ˌʌndəˌreprɪˈzentɪd/",
+            "pos": "adj",
+            "meaning": "代表性不足的"
+          },
+          {
+            "word": "racial profiling",
+            "ipa": "/ˈreɪʃl ˈprəʊfaɪlɪŋ/",
+            "pos": "n",
+            "meaning": "种族定性"
+          },
+          {
+            "word": "solidarity",
+            "ipa": "/ˌsɒlɪˈdærəti/",
+            "pos": "n",
+            "meaning": "团结"
+          }
+        ],
+        "image": "../outputs/30-social-issues/generated-with-text/30-card-03-generated-text.png"
+      },
+      {
+        "cardNumber": 4,
+        "subtitle": "无家可归与住房危机（Homelessness & Housing Crisis）",
+        "words": [
+          {
+            "word": "homelessness",
+            "ipa": "/ˈhəʊmləsnəs/",
+            "pos": "n",
+            "meaning": "无家可归"
+          },
+          {
+            "word": "shelter",
+            "ipa": "/ˈʃeltə/",
+            "pos": "n",
+            "meaning": "收容所"
+          },
+          {
+            "word": "eviction",
+            "ipa": "/ɪˈvɪkʃn/",
+            "pos": "n",
+            "meaning": "驱逐"
+          },
+          {
+            "word": "affordable housing",
+            "ipa": "/əˈfɔːdəbl ˈhaʊzɪŋ/",
+            "pos": "n",
+            "meaning": "经济适用房"
+          },
+          {
+            "word": "gentrification",
+            "ipa": "/ˌdʒentrɪfɪˈkeɪʃn/",
+            "pos": "n",
+            "meaning": "士绅化"
+          },
+          {
+            "word": "skyrocket",
+            "ipa": "/ˈskaɪrɒkɪt/",
+            "pos": "v",
+            "meaning": "飙升"
+          },
+          {
+            "word": "tenant",
+            "ipa": "/ˈtenənt/",
+            "pos": "n",
+            "meaning": "租户"
+          },
+          {
+            "word": "landlord",
+            "ipa": "/ˈlændlɔːd/",
+            "pos": "n",
+            "meaning": "房东"
+          },
+          {
+            "word": "squalid",
+            "ipa": "/ˈskwɒlɪd/",
+            "pos": "adj",
+            "meaning": "肮脏破败的"
+          },
+          {
+            "word": "displaced",
+            "ipa": "/dɪˈspleɪst/",
+            "pos": "adj",
+            "meaning": "流离失所的"
+          },
+          {
+            "word": "slum",
+            "ipa": "/slʌm/",
+            "pos": "n",
+            "meaning": "贫民窟"
+          },
+          {
+            "word": "subsidized housing",
+            "ipa": "/ˈsʌbsɪdaɪzd ˈhaʊzɪŋ/",
+            "pos": "n",
+            "meaning": "补贴住房"
+          },
+          {
+            "word": "precarious",
+            "ipa": "/prɪˈkeəriəs/",
+            "pos": "adj",
+            "meaning": "不稳定的"
+          },
+          {
+            "word": "transient",
+            "ipa": "/ˈtrænziənt/",
+            "pos": "adj",
+            "meaning": "临时的，流动的"
+          },
+          {
+            "word": "destitution",
+            "ipa": "/ˌdestɪˈtjuːʃn/",
+            "pos": "n",
+            "meaning": "赤贫"
+          },
+          {
+            "word": "outreach",
+            "ipa": "/ˈaʊtriːtʃ/",
+            "pos": "n",
+            "meaning": "外展服务"
+          },
+          {
+            "word": "rough sleeper",
+            "ipa": "/rʌf ˈsliːpə/",
+            "pos": "n",
+            "meaning": "露宿者"
+          },
+          {
+            "word": "resettle",
+            "ipa": "/ˌriːˈsetl/",
+            "pos": "v",
+            "meaning": "重新安置"
+          }
+        ],
+        "image": "../outputs/30-social-issues/generated-with-text/30-card-04-generated-text.png"
+      },
+      {
+        "cardNumber": 5,
+        "subtitle": "社会运动与公民行动（Social Movements & Civic Action）",
+        "words": [
+          {
+            "word": "activism",
+            "ipa": "/ˈæktɪvɪzəm/",
+            "pos": "n",
+            "meaning": "行动主义"
+          },
+          {
+            "word": "protest",
+            "ipa": "/ˈprəʊtest/",
+            "pos": "n",
+            "meaning": "抗议"
+          },
+          {
+            "word": "rally",
+            "ipa": "/ˈræli/",
+            "pos": "n",
+            "meaning": "集会"
+          },
+          {
+            "word": "petition",
+            "ipa": "/pəˈtɪʃn/",
+            "pos": "n",
+            "meaning": "请愿书"
+          },
+          {
+            "word": "grassroots",
+            "ipa": "/ˈɡrɑːsruːts/",
+            "pos": "adj",
+            "meaning": "草根的"
+          },
+          {
+            "word": "mobilize",
+            "ipa": "/ˈməʊbəlaɪz/",
+            "pos": "v",
+            "meaning": "动员"
+          },
+          {
+            "word": "civil disobedience",
+            "ipa": "/ˈsɪvl ˌdɪsəˈbiːdiəns/",
+            "pos": "n",
+            "meaning": "公民不服从"
+          },
+          {
+            "word": "reform",
+            "ipa": "/rɪˈfɔːm/",
+            "pos": "n",
+            "meaning": "改革"
+          },
+          {
+            "word": "advocate",
+            "ipa": "/ˈædvəkeɪt/",
+            "pos": "v",
+            "meaning": "倡导"
+          },
+          {
+            "word": "solidarity march",
+            "ipa": "/ˌsɒlɪˈdærəti mɑːtʃ/",
+            "pos": "n",
+            "meaning": "团结游行"
+          },
+          {
+            "word": "boycott",
+            "ipa": "/ˈbɔɪkɒt/",
+            "pos": "v/n",
+            "meaning": "抵制"
+          },
+          {
+            "word": "accountability",
+            "ipa": "/əˌkaʊntəˈbɪləti/",
+            "pos": "n",
+            "meaning": "问责"
+          },
+          {
+            "word": "grassroots campaign",
+            "ipa": "/ˈɡrɑːsruːts kæmˈpeɪn/",
+            "pos": "n",
+            "meaning": "草根运动"
+          },
+          {
+            "word": "legislation",
+            "ipa": "/ˌledʒɪsˈleɪʃn/",
+            "pos": "n",
+            "meaning": "立法"
+          },
+          {
+            "word": "lobby",
+            "ipa": "/ˈlɒbi/",
+            "pos": "v",
+            "meaning": "游说"
+          },
+          {
+            "word": "dissent",
+            "ipa": "/dɪˈsent/",
+            "pos": "n",
+            "meaning": "异议"
+          },
+          {
+            "word": "empowerment",
+            "ipa": "/ɪmˈpaʊəmənt/",
+            "pos": "n",
+            "meaning": "赋权"
+          },
+          {
+            "word": "collective action",
+            "ipa": "/kəˈlektɪv ˈækʃn/",
+            "pos": "n",
+            "meaning": "集体行动"
+          }
+        ],
+        "image": "../outputs/30-social-issues/generated-with-text/30-card-05-generated-text.png"
+      }
+    ],
+    "reading": null
   },
   {
     "slug": "SP01-artificial-intelligence",
@@ -12231,7 +13039,8 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/SP01-artificial-intelligence/font-size-adjusted/SP01-card-05-font-slightly-larger.png"
       }
-    ]
+    ],
+    "reading": null
   },
   {
     "slug": "SP02-dragon-boat-festival",
@@ -12723,6 +13532,7 @@ window.IELTS_VOCAB_TOPICS = [
         ],
         "image": "../outputs/SP02-dragon-boat-festival/SP02-card-05.png"
       }
-    ]
+    ],
+    "reading": null
   }
 ];

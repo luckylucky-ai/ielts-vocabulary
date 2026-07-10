@@ -1312,6 +1312,339 @@ body.is-exam-active .gallery {
   font-size: 13px;
 }
 
+.reading-entry {
+  margin-top: 8px;
+  border-color: var(--accent);
+  background: var(--accent);
+}
+
+.reading-entry:hover {
+  background: #37503f;
+}
+
+/* ---------- 阅读练习 ---------- */
+
+.reading-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  display: grid;
+  place-items: center;
+  padding: 22px;
+  background: rgba(28, 24, 19, 0.82);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease;
+}
+
+.reading-modal.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.reading-view {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(360px, 0.85fr);
+  gap: 18px;
+  width: min(1280px, calc(100vw - 44px));
+  height: calc(100vh - 44px);
+}
+
+.reading-passage,
+.reading-panel {
+  min-height: 0;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--card);
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.32);
+}
+
+.reading-passage {
+  overflow: auto;
+  padding: 30px clamp(20px, 3vw, 42px);
+}
+
+.reading-passage-head {
+  margin-bottom: 18px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.reading-passage-head h2 {
+  margin-top: 6px;
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.4vw, 30px);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.reading-meta {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.reading-para {
+  margin: 0 0 15px;
+  font-size: 15.5px;
+  line-height: 1.75;
+}
+
+.reading-para-label {
+  display: inline-grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  vertical-align: 1px;
+}
+
+.reading-term {
+  background: rgba(68, 96, 78, 0.12);
+  border-radius: 3px;
+  padding: 0 2px;
+  color: #35503d;
+  font-weight: 650;
+}
+
+.reading-panel {
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+}
+
+.reading-panel-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.reading-panel-head h3 {
+  margin: 4px 0 0;
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.reading-score {
+  padding: 8px 12px;
+  border: 1px solid rgba(68, 96, 78, 0.3);
+  border-radius: 8px;
+  background: rgba(68, 96, 78, 0.08);
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.reading-questions {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.reading-group {
+  margin-bottom: 22px;
+}
+
+.reading-group h4 {
+  margin: 0 0 6px;
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.reading-instruction {
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+
+.reading-q {
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.reading-q-text {
+  margin: 0 0 9px;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.reading-choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.reading-choice {
+  border: 1px solid rgba(33, 29, 22, 0.2);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 12.5px;
+  font-weight: 700;
+  padding: 7px 14px;
+  transition: background 140ms ease, border-color 140ms ease, color 140ms ease;
+}
+
+.reading-choice:hover:not(:disabled) {
+  border-color: var(--ink);
+}
+
+.reading-choice.is-picked {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.reading-choice.is-correct {
+  border-color: rgba(68, 96, 78, 0.8);
+  background: rgba(68, 96, 78, 0.16);
+  color: #35503d;
+}
+
+.reading-choice.is-wrong {
+  border-color: rgba(168, 101, 63, 0.8);
+  background: rgba(168, 101, 63, 0.16);
+  color: #8a4f2f;
+}
+
+.reading-q-row {
+  display: grid;
+  gap: 8px;
+}
+
+.reading-select {
+  width: 100%;
+  min-height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  color: var(--ink);
+  padding: 0 10px;
+}
+
+.reading-select.is-correct {
+  border-color: rgba(68, 96, 78, 0.8);
+  background: rgba(68, 96, 78, 0.12);
+}
+
+.reading-select.is-wrong {
+  border-color: rgba(168, 101, 63, 0.8);
+  background: rgba(168, 101, 63, 0.12);
+}
+
+.reading-heading-ref {
+  margin: 0 0 14px;
+  padding: 12px 14px 12px 30px;
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  color: #4b453a;
+  font-size: 12.5px;
+  line-height: 1.7;
+}
+
+.reading-summary {
+  margin: 0 0 12px;
+  font-size: 14.5px;
+  line-height: 2.1;
+}
+
+.reading-blank-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.reading-blank {
+  width: 120px;
+  border: 0;
+  border-bottom: 2px solid var(--accent);
+  background: rgba(68, 96, 78, 0.06);
+  color: var(--ink);
+  font-weight: 700;
+  padding: 2px 6px;
+  text-align: center;
+}
+
+.reading-blank:focus {
+  outline: none;
+  background: rgba(68, 96, 78, 0.12);
+}
+
+.reading-blank.is-correct {
+  border-color: #4c7a58;
+  color: #35503d;
+}
+
+.reading-blank.is-wrong {
+  border-color: #a8653f;
+  color: #8a4f2f;
+}
+
+.reading-blank-num {
+  position: absolute;
+  top: -9px;
+  left: -4px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.reading-explain {
+  display: grid;
+  gap: 4px;
+  margin-top: 9px;
+  padding: 9px 11px;
+  border-radius: 7px;
+  background: rgba(33, 29, 22, 0.045);
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+
+.reading-explain-summary {
+  margin-top: 6px;
+}
+
+.reading-verdict {
+  font-weight: 800;
+}
+
+.reading-verdict.right {
+  color: #3f6349;
+}
+
+.reading-verdict.wrong {
+  color: #9a5732;
+}
+
+.reading-explain-text {
+  color: #554e42;
+}
+
+.reading-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.reading-actions .exam-start {
+  flex: 1;
+}
+
 @media (max-width: 860px) {
   .shell {
     display: block;
@@ -1327,6 +1660,13 @@ body.is-exam-active .gallery {
 
   .topic-list {
     max-height: 280px;
+  }
+
+  .reading-view {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+    width: calc(100vw - 24px);
+    height: calc(100vh - 24px);
   }
 
   .toolbar {

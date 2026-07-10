@@ -24,6 +24,7 @@ const state = {
   quiz: null,
   modalIndex: -1,
   mistakeFilter: prefs.mistakeFilter === "all" ? "all" : "topic",
+  reading: null,
 };
 
 const topicList = document.querySelector("#topicList");
@@ -58,6 +59,16 @@ const examEntryBadge = document.querySelector("#examEntryBadge");
 const modalPrev = document.querySelector("#modalPrev");
 const modalNext = document.querySelector("#modalNext");
 const magnifier = document.querySelector("#magnifier");
+const readingEntry = document.querySelector("#readingEntry");
+const readingEntryBadge = document.querySelector("#readingEntryBadge");
+const readingModal = document.querySelector("#readingModal");
+const readingClose = document.querySelector("#readingClose");
+const readingPassage = document.querySelector("#readingPassage");
+const readingHeading = document.querySelector("#readingHeading");
+const readingScore = document.querySelector("#readingScore");
+const readingQuestions = document.querySelector("#readingQuestions");
+const readingSubmit = document.querySelector("#readingSubmit");
+const readingReset = document.querySelector("#readingReset");
 
 function allCards() {
   return topics.flatMap((topic) =>
@@ -222,6 +233,24 @@ function renderGallery() {
 function render() {
   renderTopics();
   renderGallery();
+  updateReadingEntry();
+}
+
+// 阅读练习是话题专属的：只在选中某个带阅读的话题时提供入口
+function currentReading() {
+  const topic = topics.find((item) => item.slug === state.activeTopic);
+  return topic?.reading || null;
+}
+
+function updateReadingEntry() {
+  const reading = currentReading();
+  readingEntry.hidden = !reading;
+  if (reading) readingEntryBadge.textContent = `${reading.questionCount} 题`;
+}
+
+// 文章里的 **词** 是话题词汇，转成高亮
+function markdownBold(text) {
+  return escapeHtml(text).replace(/\*\*(.+?)\*\*/g, '<mark class="reading-term">$1</mark>');
 }
 
 function pickDefaultVoice(voices) {
@@ -792,6 +821,192 @@ function closeExamDrawer() {
   setExamActive(false);
 }
 
+// ---------- 阅读练习 ----------
+
+function renderReadingPassage(reading) {
+  const paragraphs = reading.paragraphs
+    .map(
+      (para) =>
+        `<p class="reading-para"><span class="reading-para-label">${escapeHtml(para.label)}</span>${markdownBold(
+          para.text,
+        )}</p>`,
+    )
+    .join("");
+  readingPassage.innerHTML = `
+    <div class="reading-passage-head">
+      <p class="eyebrow">Passage</p>
+      <h2>${escapeHtml(reading.title)}</h2>
+      ${reading.meta ? `<p class="reading-meta">${escapeHtml(reading.meta)}</p>` : ""}
+    </div>
+    ${paragraphs}
+  `;
+}
+
+function renderReadingQuestions(reading) {
+  readingQuestions.innerHTML = reading.groups
+    .map((group) => {
+      let body = "";
+      if (group.type === "tfng") {
+        body = group.questions
+          .map(
+            (q) => `
+              <div class="reading-q" data-qnum="${q.number}">
+                <p class="reading-q-text"><b>${q.number}.</b> ${escapeHtml(q.text)}</p>
+                <div class="reading-choices">
+                  ${group.options
+                    .map(
+                      (opt) =>
+                        `<button class="reading-choice" type="button" data-value="${escapeHtml(opt)}">${escapeHtml(
+                          opt,
+                        )}</button>`,
+                    )
+                    .join("")}
+                </div>
+                <div class="reading-explain" hidden></div>
+              </div>`,
+          )
+          .join("");
+      } else if (group.type === "headings") {
+        const headingRef = group.headings
+          .map((h) => `<li><b>${escapeHtml(h.key)}.</b> ${escapeHtml(h.text)}</li>`)
+          .join("");
+        const options = group.headings
+          .map((h) => `<option value="${escapeHtml(h.key)}">${escapeHtml(h.key)}. ${escapeHtml(h.text)}</option>`)
+          .join("");
+        body = `
+          <ul class="reading-heading-ref">${headingRef}</ul>
+          ${group.questions
+            .map(
+              (q) => `
+              <div class="reading-q reading-q-row" data-qnum="${q.number}">
+                <p class="reading-q-text"><b>${q.number}.</b> ${escapeHtml(q.text)}</p>
+                <select class="reading-select">
+                  <option value="">选择标题…</option>
+                  ${options}
+                </select>
+                <div class="reading-explain" hidden></div>
+              </div>`,
+            )
+            .join("")}
+        `;
+      } else if (group.type === "summary") {
+        const inline = group.segments
+          .map((seg) =>
+            seg.blank
+              ? `<span class="reading-blank-wrap" data-qnum="${seg.blank}"><input class="reading-blank" type="text" autocomplete="off" data-qnum="${seg.blank}" /><span class="reading-blank-num">${seg.blank}</span></span>`
+              : `<span>${markdownBold(seg.text)}</span>`,
+          )
+          .join(" ");
+        const explains = group.questions
+          .map((q) => `<div class="reading-explain reading-explain-summary" data-qnum="${q.number}" hidden></div>`)
+          .join("");
+        body = `<p class="reading-summary">${inline}</p>${explains}`;
+      }
+
+      return `
+        <section class="reading-group">
+          <h4>${escapeHtml(group.title)}</h4>
+          ${group.instruction ? `<p class="reading-instruction">${escapeHtml(group.instruction)}</p>` : ""}
+          ${body}
+        </section>
+      `;
+    })
+    .join("");
+}
+
+function openReading() {
+  const reading = currentReading();
+  if (!reading) return;
+  state.reading = { data: reading, submitted: false };
+  readingHeading.textContent = reading.title;
+  readingScore.textContent = `${reading.questionCount} 题 · 未提交`;
+  renderReadingPassage(reading);
+  renderReadingQuestions(reading);
+  readingSubmit.hidden = false;
+  readingModal.classList.add("is-open");
+  readingModal.setAttribute("aria-hidden", "false");
+  document.body.classList.add("has-modal");
+  readingPassage.scrollTop = 0;
+  readingQuestions.scrollTop = 0;
+}
+
+function closeReading() {
+  readingModal.classList.remove("is-open");
+  readingModal.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("has-modal");
+  state.reading = null;
+}
+
+function collectReadingAnswer(qnum) {
+  const scope = readingQuestions;
+  const tfngBtn = scope.querySelector(`.reading-q[data-qnum="${qnum}"] .reading-choice.is-picked`);
+  if (tfngBtn) return tfngBtn.dataset.value;
+  const select = scope.querySelector(`.reading-q[data-qnum="${qnum}"] .reading-select`);
+  if (select) return select.value;
+  const blank = scope.querySelector(`.reading-blank[data-qnum="${qnum}"]`);
+  if (blank) return blank.value;
+  return "";
+}
+
+function answersMatch(a, b) {
+  return normalizeAnswer(a) === normalizeAnswer(b);
+}
+
+function submitReading() {
+  const reading = state.reading?.data;
+  if (!reading || state.reading.submitted) return;
+  let correctCount = 0;
+  const total = reading.questionCount;
+
+  reading.groups.forEach((group) => {
+    group.questions.forEach((q) => {
+      const given = collectReadingAnswer(q.number);
+      const isCorrect = given !== "" && answersMatch(given, q.answer || "");
+      if (isCorrect) correctCount += 1;
+
+      // 标记选择题/下拉/填空的对错
+      const qBlock = readingQuestions.querySelector(`.reading-q[data-qnum="${q.number}"]`);
+      if (group.type === "tfng" && qBlock) {
+        qBlock.querySelectorAll(".reading-choice").forEach((btn) => {
+          btn.disabled = true;
+          if (answersMatch(btn.dataset.value, q.answer)) btn.classList.add("is-correct");
+          else if (btn.classList.contains("is-picked")) btn.classList.add("is-wrong");
+        });
+      } else if (group.type === "headings" && qBlock) {
+        const select = qBlock.querySelector(".reading-select");
+        select.disabled = true;
+        select.classList.add(isCorrect ? "is-correct" : "is-wrong");
+      } else if (group.type === "summary") {
+        const blank = readingQuestions.querySelector(`.reading-blank[data-qnum="${q.number}"]`);
+        if (blank) {
+          blank.disabled = true;
+          blank.classList.add(isCorrect ? "is-correct" : "is-wrong");
+        }
+      }
+
+      // 解析（填空的解析块在段落下方，其余在题内）
+      const explain =
+        (qBlock && qBlock.querySelector(".reading-explain")) ||
+        readingQuestions.querySelector(`.reading-explain-summary[data-qnum="${q.number}"]`);
+      if (explain) {
+        explain.hidden = false;
+        explain.innerHTML = `
+          <span class="reading-verdict ${isCorrect ? "right" : "wrong"}">${
+            isCorrect ? "✓ 正确" : "✕ 正确答案：" + escapeHtml(q.answer || "—")
+          }</span>
+          ${q.explanation ? `<span class="reading-explain-text">${escapeHtml(q.explanation)}</span>` : ""}
+        `;
+      }
+    });
+  });
+
+  state.reading.submitted = true;
+  const percent = Math.round((correctCount / total) * 100);
+  readingScore.textContent = `${correctCount}/${total} · ${percent} 分`;
+  readingSubmit.hidden = true;
+  showToast(`阅读批改完成：答对 ${correctCount}/${total}`);
+}
+
 function attachEvents() {
   topicList.addEventListener("click", (event) => {
     const link = event.target.closest(".topic-link");
@@ -817,6 +1032,23 @@ function attachEvents() {
   examEntry.addEventListener("click", openExamDrawer);
   examClose.addEventListener("click", closeExamDrawer);
   examBackdrop.addEventListener("click", closeExamDrawer);
+
+  readingEntry.addEventListener("click", openReading);
+  readingClose.addEventListener("click", closeReading);
+  readingSubmit.addEventListener("click", submitReading);
+  readingReset.addEventListener("click", () => openReading());
+
+  // TFNG 选项单选
+  readingQuestions.addEventListener("click", (event) => {
+    if (state.reading?.submitted) return;
+    const choice = event.target.closest(".reading-choice");
+    if (!choice) return;
+    choice
+      .closest(".reading-choices")
+      .querySelectorAll(".reading-choice")
+      .forEach((btn) => btn.classList.remove("is-picked"));
+    choice.classList.add("is-picked");
+  });
 
   examStart.addEventListener("click", startExam);
   mistakeRetake.addEventListener("click", startMistakeExam);
@@ -979,7 +1211,16 @@ function attachEvents() {
   imageModal.addEventListener("mousemove", updateMagnifier);
   imageModal.addEventListener("mouseleave", hideMagnifier);
 
+  readingModal.addEventListener("click", (event) => {
+    if (event.target === readingModal) closeReading();
+  });
+
   document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && readingModal.classList.contains("is-open")) {
+      closeReading();
+      return;
+    }
+
     if (imageModal.classList.contains("is-open")) {
       if (event.key === "Escape") closeImageModal();
       if (event.key === "ArrowLeft") stepModal(-1);
@@ -1022,6 +1263,7 @@ migrateLegacyMistakes();
 renderStats();
 renderTopics();
 renderGallery();
+updateReadingEntry();
 renderExamIntro();
 renderMistakes();
 loadVoices();

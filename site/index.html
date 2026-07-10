@@ -27,6 +27,11 @@
           <em id="examEntryBadge" hidden></em>
         </button>
 
+        <button class="exam-entry reading-entry" id="readingEntry" type="button" hidden>
+          <span>阅读练习</span>
+          <em id="readingEntryBadge"></em>
+        </button>
+
         <nav class="topic-nav" aria-label="选择话题">
           <p class="topic-nav-label">话题</p>
           <div class="topic-list" id="topicList"></div>
@@ -131,6 +136,26 @@
         <aside class="modal-study-panel" aria-label="卡片单词">
           <div class="modal-caption" id="modalCaption"></div>
           <div class="modal-words" id="modalWords"></div>
+        </aside>
+      </div>
+    </div>
+    <div class="reading-modal" id="readingModal" aria-hidden="true">
+      <button class="modal-close" id="readingClose" type="button" aria-label="关闭阅读练习">×</button>
+      <div class="reading-view">
+        <article class="reading-passage" id="readingPassage"></article>
+        <aside class="reading-panel">
+          <div class="reading-panel-head">
+            <div>
+              <p class="eyebrow">Reading practice</p>
+              <h3 id="readingHeading">阅读理解</h3>
+            </div>
+            <div class="reading-score" id="readingScore">未提交</div>
+          </div>
+          <div class="reading-questions" id="readingQuestions"></div>
+          <div class="reading-actions">
+            <button class="exam-start" id="readingSubmit" type="button">提交批改</button>
+            <button class="mistake-clear" id="readingReset" type="button">重做</button>
+          </div>
         </aside>
       </div>
     </div>

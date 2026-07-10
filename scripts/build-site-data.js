@@ -90,6 +90,139 @@ function findCardImages(topicSlug) {
   return selected;
 }
 
+function cleanInline(value) {
+  return value.replace(/\s+/g, " ").trim();
+}
+
+// 从答案区的表格里提取 题号 → { answer, explanation }
+function parseAnswerTable(answersText) {
+  const map = {};
+  for (const line of answersText.split("\n")) {
+    const cells = line.split("|").map((cell) => cell.trim());
+    if (cells.length < 4) continue;
+    // 去掉首尾因 | 分割产生的空串
+    const inner = cells.slice(1, -1);
+    const number = Number(inner[0]);
+    if (!Number.isInteger(number)) continue;
+    let answer = inner[1].replace(/\*\*/g, "").trim();
+    // Matching Headings 答案形如 "ii — Analysing..."，只取罗马数字键
+    const dashSplit = answer.split(/\s+[—–-]\s+/);
+    answer = dashSplit[0].trim();
+    const explanation = cleanInline(inner.slice(2).join(" · "));
+    map[number] = { answer, explanation };
+  }
+  return map;
+}
+
+function detectQuestionType(title) {
+  if (/true\s*\/?\s*false|t\s*\/\s*f|not\s*given/i.test(title)) return "tfng";
+  if (/matching\s*headings|headings/i.test(title)) return "headings";
+  if (/summary|completion/i.test(title)) return "summary";
+  return "unsupported";
+}
+
+function collectInstruction(block) {
+  return cleanInline(
+    block
+      .split("\n")
+      .filter((line) => line.trim().startsWith(">"))
+      .map((line) => line.replace(/^>\s?/, ""))
+      .join(" "),
+  );
+}
+
+function parseReading(topicSlug) {
+  const topicDir = path.join(outputsDir, topicSlug);
+  if (!fs.existsSync(topicDir)) return null;
+  const mdFile = fs.readdirSync(topicDir).find((name) => /reading.*\.md$/i.test(name));
+  if (!mdFile) return null;
+
+  const text = fs.readFileSync(path.join(topicDir, mdFile), "utf8");
+  const sections = text.split(/\n(?=##\s)/);
+  const sectionByKind = { passage: "", questions: "", answers: "" };
+  for (const section of sections) {
+    const heading = section.match(/^##\s+(.+)/)?.[1] || "";
+    if (/passage/i.test(heading)) sectionByKind.passage = section;
+    else if (/answers|explanation/i.test(heading)) sectionByKind.answers = section;
+    else if (/questions/i.test(heading)) sectionByKind.questions = section;
+  }
+  if (!sectionByKind.passage || !sectionByKind.questions) return null;
+
+  // 文章：标题、元信息、A-G 段落（保留 **加粗** 供前端高亮话题词汇）
+  const passageTitle = cleanInline(sectionByKind.passage.match(/Passage[:：]\s*(.+)/)?.[1] || "");
+  const meta = cleanInline(sectionByKind.passage.match(/\*\((.+?)\)\*/)?.[1] || "");
+  const paragraphs = [];
+  for (const line of sectionByKind.passage.split("\n")) {
+    const match = line.match(/^\*\*([A-Z])\.\*\*\s*(.+)$/);
+    if (match) paragraphs.push({ label: match[1], text: match[2].trim() });
+  }
+
+  const answerMap = parseAnswerTable(sectionByKind.answers);
+
+  // 题目：按 ### 子块拆分，逐块识别题型
+  const groups = [];
+  const blocks = sectionByKind.questions.split(/\n(?=###\s)/).slice(1);
+  for (const block of blocks) {
+    const head = block.match(/###\s*Questions?\s*(\d+)\s*[-–—]\s*(\d+)\s*[:：]\s*(.+)/i);
+    if (!head) continue;
+    const type = detectQuestionType(head[3]);
+    if (type === "unsupported") continue;
+    const instruction = collectInstruction(block);
+    const group = { type, title: cleanInline(`Questions ${head[1]}-${head[2]}: ${head[3]}`), instruction, questions: [] };
+
+    if (type === "tfng") {
+      for (const line of block.split("\n")) {
+        const q = line.match(/^(\d+)\.\s+(.+)/);
+        if (q) group.questions.push({ number: Number(q[1]), text: cleanInline(q[2]) });
+      }
+      group.options = ["TRUE", "FALSE", "NOT GIVEN"];
+    } else if (type === "headings") {
+      group.headings = [];
+      for (const line of block.split("\n")) {
+        const h = line.match(/^\|\s*([ivx]+)\s*\|\s*(.+?)\s*\|/i);
+        if (h) group.headings.push({ key: h[1].toLowerCase(), text: cleanInline(h[2]) });
+        const q = line.match(/^(\d+)\.\s*(?:Paragraph\s*)?([A-Z])\s*(?:→|->|:)/);
+        if (q) group.questions.push({ number: Number(q[1]), text: `Paragraph ${q[2]}` });
+      }
+    } else if (type === "summary") {
+      // 摘要正文：非引用、非表格、含填空下划线的行
+      const bodyLines = block
+        .split("\n")
+        .filter((line) => line.trim() && !line.trim().startsWith(">") && !line.trim().startsWith("|") && !line.trim().startsWith("###"));
+      const raw = bodyLines.join(" ");
+      // 拆成 文本 / 填空 交替的片段
+      const segments = [];
+      const regex = /\((\d+)\)\s*_+/g;
+      let lastIndex = 0;
+      let m;
+      while ((m = regex.exec(raw)) !== null) {
+        const before = raw.slice(lastIndex, m.index);
+        if (before.trim()) segments.push({ text: cleanInline(before) });
+        segments.push({ blank: Number(m[1]) });
+        group.questions.push({ number: Number(m[1]), text: "" });
+        lastIndex = regex.lastIndex;
+      }
+      const tail = raw.slice(lastIndex);
+      if (tail.trim()) segments.push({ text: cleanInline(tail) });
+      group.segments = segments;
+    }
+
+    // 回填答案与解析
+    for (const question of group.questions) {
+      const found = answerMap[question.number];
+      if (found) {
+        question.answer = found.answer;
+        question.explanation = found.explanation;
+      }
+    }
+    if (group.questions.length) groups.push(group);
+  }
+
+  if (!paragraphs.length || !groups.length) return null;
+  const questionCount = groups.reduce((sum, group) => sum + group.questions.length, 0);
+  return { title: passageTitle, meta, paragraphs, groups, questionCount };
+}
+
 const topics = fs
   .readdirSync(root)
   .filter((name) => /\.md$/i.test(name) && !name.includes("text-heavier"))
@@ -110,6 +243,7 @@ const topics = fs
       title: parsed.heading || titleCase(slug),
       shortTitle: titleCase(slug),
       cards,
+      reading: parseReading(slug),
     };
   })
   .filter((topic) => topic.cards.length);
@@ -119,4 +253,5 @@ fs.mkdirSync(siteDir, { recursive: true });
 fs.writeFileSync(path.join(siteDir, "data.js"), payload);
 
 const imageCount = topics.reduce((total, topic) => total + topic.cards.length, 0);
-console.log(`Built ${topics.length} topics and ${imageCount} cards.`);
+const readingCount = topics.filter((topic) => topic.reading).length;
+console.log(`Built ${topics.length} topics, ${imageCount} cards, ${readingCount} reading passages.`);
