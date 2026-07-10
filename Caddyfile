@@ -2,8 +2,13 @@
 :{$PORT:8080}
 
 root * /srv
-file_server
 encode gzip
+file_server
+
+# HTML 永不缓存：保证用户每次都拿到最新的 index.html，
+# 它引用的 css/js/data 都带 ?v=<内容哈希>，内容变了浏览器就会重新下载。
+@html path *.html /site/ /
+header @html Cache-Control "no-cache, must-revalidate"
 
 # 访问根路径直接进入单词网站
 redir / /site/ 302
