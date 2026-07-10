@@ -636,7 +636,7 @@ function startMistakeExam() {
 function modeLabel(mode) {
   return {
     meaning: "看中文选英文",
-    pronunciation: "听读音选英文",
+    pronunciation: "听读音选中文",
     spelling: "拼写填空",
   }[mode];
 }
@@ -673,7 +673,7 @@ function renderExamQuestion() {
 
   const prompt = {
     meaning: `“${question.word.meaning}” 对应哪个英文单词？`,
-    pronunciation: "听发音，选择你听到的英文单词。",
+    pronunciation: "听发音，选择正确的中文词义。",
     spelling: `根据中文和音标拼写单词：${question.word.meaning} · ${question.word.ipa}`,
   }[question.mode];
 
@@ -691,7 +691,7 @@ function renderExamQuestion() {
             (option, optionIndex) =>
               `<button class="exam-option" type="button" data-answer="${escapeHtml(option.word)}"><kbd>${
                 optionIndex + 1
-              }</kbd>${escapeHtml(option.word)}</button>`,
+              }</kbd>${escapeHtml(question.mode === "pronunciation" ? option.meaning : option.word)}</button>`,
           )
           .join("")}
       </div>
