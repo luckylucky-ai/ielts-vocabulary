@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const crypto = require("crypto");
 
 const root = path.resolve(__dirname, "..");
 const outputsDir = path.join(root, "outputs");
@@ -251,6 +252,25 @@ const topics = fs
 const payload = `window.IELTS_VOCAB_TOPICS = ${JSON.stringify(topics, null, 2)};\n`;
 fs.mkdirSync(siteDir, { recursive: true });
 fs.writeFileSync(path.join(siteDir, "data.js"), payload);
+
+// 缓存刷新：给 index.html 里的 css/js 引用加内容哈希版本号，
+// 内容一变哈希就变，浏览器自动拉取新文件，用户不必手动强刷。
+function bustCache() {
+  const indexPath = path.join(siteDir, "index.html");
+  if (!fs.existsSync(indexPath)) return;
+  let html = fs.readFileSync(indexPath, "utf8");
+  for (const asset of ["styles.css", "data.js", "app.js"]) {
+    const assetPath = path.join(siteDir, asset);
+    if (!fs.existsSync(assetPath)) continue;
+    const hash = crypto.createHash("sha1").update(fs.readFileSync(assetPath)).digest("hex").slice(0, 8);
+    const escaped = asset.replace(/\./g, "\\.");
+    const regex = new RegExp(`(\\./${escaped})(\\?v=[a-f0-9]+)?`, "g");
+    html = html.replace(regex, `./${asset}?v=${hash}`);
+  }
+  fs.writeFileSync(indexPath, html);
+}
+
+bustCache();
 
 const imageCount = topics.reduce((total, topic) => total + topic.cards.length, 0);
 const readingCount = topics.filter((topic) => topic.reading).length;
