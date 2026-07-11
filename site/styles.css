@@ -577,7 +577,8 @@ h2 {
 .image-modal {
   position: fixed;
   inset: 0;
-  z-index: 30;
+  /* 大图可从范文/阅读弹窗内唤起，需盖在它们（30）之上 */
+  z-index: 50;
   display: grid;
   place-items: center;
   padding: 22px;
@@ -645,6 +646,16 @@ h2 {
 
 .magnifier.is-visible {
   opacity: 1;
+}
+
+.image-modal .modal-close,
+.modal-nav {
+  z-index: 51;
+}
+
+/* display:grid 会盖掉 hidden 属性，单图查看时需真正隐藏翻页箭头 */
+.modal-nav[hidden] {
+  display: none;
 }
 
 .modal-close {
