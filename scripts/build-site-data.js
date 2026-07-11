@@ -290,7 +290,25 @@ const topics = fs
   })
   .filter((topic) => topic.cards.length);
 
-const payload = `window.IELTS_VOCAB_TOPICS = ${JSON.stringify(topics, null, 2)};\n`;
+// 两级话题分组：读取 topic-groups.json，给每个话题打上主话题 key
+const groupConfig = JSON.parse(fs.readFileSync(path.join(root, "topic-groups.json"), "utf8")).groups;
+const slugToGroup = new Map();
+for (const group of groupConfig) for (const slug of group.slugs) slugToGroup.set(slug, group.key);
+
+const unmapped = [];
+for (const topic of topics) {
+  topic.group = slugToGroup.get(topic.slug) || "other";
+  if (topic.group === "other") unmapped.push(topic.slug);
+}
+const groupList = groupConfig.map(({ key, title }) => ({ key, title }));
+if (unmapped.length) {
+  groupList.push({ key: "other", title: "其他" });
+  console.warn(`⚠ 未分组话题（已归入「其他」，请补充 topic-groups.json）: ${unmapped.join(", ")}`);
+}
+
+const payload =
+  `window.IELTS_TOPIC_GROUPS = ${JSON.stringify(groupList, null, 2)};\n` +
+  `window.IELTS_VOCAB_TOPICS = ${JSON.stringify(topics, null, 2)};\n`;
 fs.mkdirSync(siteDir, { recursive: true });
 fs.writeFileSync(path.join(siteDir, "data.js"), payload);
 

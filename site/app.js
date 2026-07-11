@@ -25,7 +25,14 @@ const state = {
   modalIndex: -1,
   mistakeFilter: prefs.mistakeFilter === "all" ? "all" : "topic",
   reading: null,
+  expandedGroup: prefs.expandedGroup || "",
 };
+
+// 恢复上次话题时展开它所在的主话题
+if (state.activeTopic !== "all") {
+  const activeGroup = topics.find((topic) => topic.slug === state.activeTopic)?.group;
+  if (activeGroup) state.expandedGroup = activeGroup;
+}
 
 const topicList = document.querySelector("#topicList");
 const gallery = document.querySelector("#gallery");
@@ -150,27 +157,56 @@ function renderStats() {
 // 列表里只显示中文名；标题里的英文部分有 "（…）"、"(…)"、"| …" 几种写法
 function topicLabel(topic) {
   const title = topic.title || topic.shortTitle || "";
-  return title.split(/（|\(|\|/)[0].trim();
+  // 英文部分的分隔方式有（、(、| 和纯空格四种
+  const base = title.split(/（|\(|\||\s+[A-Za-z]/)[0].trim();
+  // 第二轮进阶批次与第一轮同名，加 Ⅱ 区分
+  return /round2$/i.test(topic.slug) ? `${base} Ⅱ` : base;
+}
+
+function topicGroupOf(slug) {
+  return topics.find((topic) => topic.slug === slug)?.group || "";
+}
+
+function renderTopicLink(topic) {
+  return `
+    <button class="topic-link ${topic.slug === state.activeTopic ? "is-active" : ""}" type="button" data-topic="${escapeHtml(
+      topic.slug,
+    )}">
+      <span>${escapeHtml(topic.title)}</span>
+      <em>${topic.count}</em>
+    </button>
+  `;
 }
 
 function renderTopics() {
-  const options = [
-    { slug: "all", title: "全部话题", count: allCards().length },
-    ...topics.map((topic) => ({ slug: topic.slug, title: topicLabel(topic), count: topic.cards.length })),
-  ];
+  const groups = window.IELTS_TOPIC_GROUPS || [];
+  const allRow = renderTopicLink({ slug: "all", title: "全部话题", count: allCards().length });
 
-  topicList.innerHTML = options
-    .map(
-      (topic) => `
-        <button class="topic-link ${topic.slug === state.activeTopic ? "is-active" : ""}" type="button" data-topic="${escapeHtml(
-          topic.slug,
-        )}">
-          <span>${escapeHtml(topic.title)}</span>
-          <em>${topic.count}</em>
-        </button>
-      `,
-    )
+  const groupRows = groups
+    .map((group) => {
+      const groupTopics = topics
+        .filter((topic) => topic.group === group.key)
+        .sort((a, b) => a.slug.localeCompare(b.slug)); // 第一轮排在 round2 前
+      if (!groupTopics.length) return "";
+      const cardCount = groupTopics.reduce((sum, topic) => sum + topic.cards.length, 0);
+      const expanded = state.expandedGroup === group.key;
+      const links = groupTopics
+        .map((topic) => renderTopicLink({ slug: topic.slug, title: topicLabel(topic), count: topic.cards.length }))
+        .join("");
+      return `
+        <div class="topic-group ${expanded ? "is-expanded" : ""}" data-group="${escapeHtml(group.key)}">
+          <button class="topic-group-head" type="button" data-group-toggle="${escapeHtml(group.key)}" aria-expanded="${expanded}">
+            <i class="topic-group-caret" aria-hidden="true"></i>
+            <span>${escapeHtml(group.title)}</span>
+            <em>${groupTopics.length} 个话题 · ${cardCount} 卡</em>
+          </button>
+          <div class="topic-group-body" ${expanded ? "" : "hidden"}>${links}</div>
+        </div>
+      `;
+    })
     .join("");
+
+  topicList.innerHTML = allRow + groupRows;
 }
 
 function renderGallery() {
@@ -1053,6 +1089,15 @@ function submitReading() {
 
 function attachEvents() {
   topicList.addEventListener("click", (event) => {
+    const toggle = event.target.closest("[data-group-toggle]");
+    if (toggle) {
+      const key = toggle.dataset.groupToggle;
+      state.expandedGroup = state.expandedGroup === key ? "" : key;
+      savePrefs({ expandedGroup: state.expandedGroup });
+      renderTopics();
+      return;
+    }
+
     const link = event.target.closest(".topic-link");
     if (!link || link.dataset.topic === state.activeTopic) return;
     state.activeTopic = link.dataset.topic;

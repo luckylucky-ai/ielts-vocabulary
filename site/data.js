@@ -1,3 +1,29 @@
+window.IELTS_TOPIC_GROUPS = [
+  {
+    "key": "nature",
+    "title": "自然与环境"
+  },
+  {
+    "key": "tech",
+    "title": "科技与数字"
+  },
+  {
+    "key": "education",
+    "title": "教育与成长"
+  },
+  {
+    "key": "society",
+    "title": "社会与经济"
+  },
+  {
+    "key": "city",
+    "title": "城市与交通"
+  },
+  {
+    "key": "culture",
+    "title": "文化与生活"
+  }
+];
 window.IELTS_VOCAB_TOPICS = [
   {
     "slug": "01-natural-geography-round2",
@@ -783,7 +809,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "nature"
   },
   {
     "slug": "02-weather-and-climate-round2",
@@ -1348,7 +1375,8 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/02-weather-and-climate-round2/generated-with-text/02-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": null,
+    "group": "nature"
   },
   {
     "slug": "02-weather-and-climate",
@@ -2142,7 +2170,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "nature"
   },
   {
     "slug": "03-animals-and-wildlife-round2",
@@ -2695,7 +2724,8 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/03-animals-and-wildlife-round2/generated-with-text/03-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": null,
+    "group": "nature"
   },
   {
     "slug": "03-animals-and-wildlife",
@@ -3445,7 +3475,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "nature"
   },
   {
     "slug": "04-plants-and-agriculture",
@@ -3720,7 +3751,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "nature"
   },
   {
     "slug": "05-environment-and-pollution",
@@ -4448,7 +4480,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "nature"
   },
   {
     "slug": "06-technology-and-innovation",
@@ -4556,7 +4589,7 @@ window.IELTS_VOCAB_TOPICS = [
             "meaning": "试验"
           }
         ],
-        "image": "../outputs/06-technology-and-innovation/generated-with-text/06-card-01-generated-text.png"
+        "image": "../outputs/06-technology-and-innovation/generated-with-text-ref29/06-card-01-generated-text.png"
       },
       {
         "cardNumber": 2,
@@ -4659,7 +4692,7 @@ window.IELTS_VOCAB_TOPICS = [
             "meaning": "装置"
           }
         ],
-        "image": "../outputs/06-technology-and-innovation/generated-with-text/06-card-02-generated-text.png"
+        "image": "../outputs/06-technology-and-innovation/generated-with-text-ref29/06-card-02-generated-text.png"
       },
       {
         "cardNumber": 3,
@@ -4762,7 +4795,7 @@ window.IELTS_VOCAB_TOPICS = [
             "meaning": "信号"
           }
         ],
-        "image": "../outputs/06-technology-and-innovation/generated-with-text/06-card-03-generated-text.png"
+        "image": "../outputs/06-technology-and-innovation/generated-with-text-ref29/06-card-03-generated-text.png"
       },
       {
         "cardNumber": 4,
@@ -4865,7 +4898,7 @@ window.IELTS_VOCAB_TOPICS = [
             "meaning": "样本"
           }
         ],
-        "image": "../outputs/06-technology-and-innovation/generated-with-text/06-card-04-generated-text.png"
+        "image": "../outputs/06-technology-and-innovation/generated-with-text-ref29/06-card-04-generated-text.png"
       },
       {
         "cardNumber": 5,
@@ -4968,10 +5001,11 @@ window.IELTS_VOCAB_TOPICS = [
             "meaning": "机械化"
           }
         ],
-        "image": "../outputs/06-technology-and-innovation/generated-with-text/06-card-05-generated-text.png"
+        "image": "../outputs/06-technology-and-innovation/generated-with-text-ref29/06-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": null,
+    "group": "tech"
   },
   {
     "slug": "07-internet-and-digital-life",
@@ -5714,7 +5748,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "tech"
   },
   {
     "slug": "08-space-and-astronomy",
@@ -6410,7 +6445,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "tech"
   },
   {
     "slug": "09-education-and-school",
@@ -7102,7 +7138,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "education"
   },
   {
     "slug": "10-work-and-career",
@@ -7798,7 +7835,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "society"
   },
   {
     "slug": "11-health-and-medicine",
@@ -8558,7 +8596,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "culture"
   },
   {
     "slug": "12-psychology-and-emotions",
@@ -9286,7 +9325,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "education"
   },
   {
     "slug": "13-city-and-architecture",
@@ -10042,7 +10082,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "city"
   },
   {
     "slug": "14-transportation-and-transit",
@@ -10806,7 +10847,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "city"
   },
   {
     "slug": "15-law-and-crime",
@@ -11514,7 +11556,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "society"
   },
   {
     "slug": "16-economics-business",
@@ -12308,7 +12351,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "society"
   },
   {
     "slug": "17-government-and-politics",
@@ -13040,7 +13084,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "society"
   },
   {
     "slug": "18-media-and-communication",
@@ -13804,7 +13849,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "society"
   },
   {
     "slug": "19-culture-and-traditions",
@@ -14500,7 +14546,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "culture"
   },
   {
     "slug": "20-art-and-music",
@@ -15260,7 +15307,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 13
-    }
+    },
+    "group": "culture"
   },
   {
     "slug": "21-sports-and-fitness",
@@ -15913,7 +15961,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 9
-    }
+    },
+    "group": "culture"
   },
   {
     "slug": "22-food-and-diet",
@@ -16593,7 +16642,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 9
-    }
+    },
+    "group": "culture"
   },
   {
     "slug": "23-family-and-social-relationships",
@@ -17265,7 +17315,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 9
-    }
+    },
+    "group": "society"
   },
   {
     "slug": "24-history-and-archaeology",
@@ -17921,7 +17972,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 9
-    }
+    },
+    "group": "culture"
   },
   {
     "slug": "25-language-and-communication",
@@ -18655,7 +18707,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 9
-    }
+    },
+    "group": "education"
   },
   {
     "slug": "26-tourism-and-leisure",
@@ -19347,7 +19400,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 9
-    }
+    },
+    "group": "culture"
   },
   {
     "slug": "27-energy-and-resources",
@@ -20081,7 +20135,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 9
-    }
+    },
+    "group": "nature"
   },
   {
     "slug": "28-ocean-and-water",
@@ -20773,7 +20828,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 9
-    }
+    },
+    "group": "nature"
   },
   {
     "slug": "29-fashion-and-consumerism",
@@ -21499,7 +21555,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 9
-    }
+    },
+    "group": "culture"
   },
   {
     "slug": "30-social-issues",
@@ -22255,7 +22312,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 9
-    }
+    },
+    "group": "society"
   },
   {
     "slug": "SP01-artificial-intelligence",
@@ -22905,7 +22963,8 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 9
-    }
+    },
+    "group": "tech"
   },
   {
     "slug": "SP02-dragon-boat-festival",
@@ -23571,6 +23630,7 @@ window.IELTS_VOCAB_TOPICS = [
         }
       ],
       "questionCount": 9
-    }
+    },
+    "group": "culture"
   }
 ];

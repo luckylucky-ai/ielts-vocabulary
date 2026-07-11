@@ -1,0 +1,76 @@
+{
+  "_说明": "话题两级分组配置。新增话题后把 slug 加进对应主话题的 slugs；没配的会自动归入「其他」并在构建时提示。",
+  "groups": [
+    {
+      "key": "nature",
+      "title": "自然与环境",
+      "slugs": [
+        "01-natural-geography",
+        "01-natural-geography-round2",
+        "02-weather-and-climate",
+        "02-weather-and-climate-round2",
+        "03-animals-and-wildlife",
+        "03-animals-and-wildlife-round2",
+        "04-plants-and-agriculture",
+        "05-environment-and-pollution",
+        "27-energy-and-resources",
+        "28-ocean-and-water"
+      ]
+    },
+    {
+      "key": "tech",
+      "title": "科技与数字",
+      "slugs": [
+        "06-technology-and-innovation",
+        "07-internet-and-digital-life",
+        "08-space-and-astronomy",
+        "SP01-artificial-intelligence"
+      ]
+    },
+    {
+      "key": "education",
+      "title": "教育与成长",
+      "slugs": [
+        "09-education-and-school",
+        "12-psychology-and-emotions",
+        "25-language-and-communication"
+      ]
+    },
+    {
+      "key": "society",
+      "title": "社会与经济",
+      "slugs": [
+        "10-work-and-career",
+        "15-law-and-crime",
+        "16-economics-business",
+        "17-government-and-politics",
+        "18-media-and-communication",
+        "23-family-and-social-relationships",
+        "30-social-issues"
+      ]
+    },
+    {
+      "key": "city",
+      "title": "城市与交通",
+      "slugs": [
+        "13-city-and-architecture",
+        "14-transportation-and-transit"
+      ]
+    },
+    {
+      "key": "culture",
+      "title": "文化与生活",
+      "slugs": [
+        "11-health-and-medicine",
+        "19-culture-and-traditions",
+        "20-art-and-music",
+        "21-sports-and-fitness",
+        "22-food-and-diet",
+        "24-history-and-archaeology",
+        "26-tourism-and-leisure",
+        "29-fashion-and-consumerism",
+        "SP02-dragon-boat-festival"
+      ]
+    }
+  ]
+}
