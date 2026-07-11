@@ -116,20 +116,27 @@ function parseAnswerTable(answersText) {
 }
 
 function detectQuestionType(title) {
-  if (/true\s*\/?\s*false|t\s*\/\s*f|not\s*given/i.test(title)) return "tfng";
-  if (/matching\s*headings|headings/i.test(title)) return "headings";
-  if (/summary|completion/i.test(title)) return "summary";
+  if (/true\s*\/?\s*false|not\s*given|t\s*\/\s*f/i.test(title)) return "tfng";
+  if (/heading/i.test(title)) return "headings";
+  if (/matching\s*information|which\s*paragraph/i.test(title)) return "matching-info";
+  if (/multiple\s*choice|choose.*letter/i.test(title)) return "mcq";
+  if (/summary|completion|note|table/i.test(title)) return "summary";
   return "unsupported";
 }
 
+// 题目/说明里题号有 `1.` 与 `**1.**` 两种写法；行首统一剥离
+const NUMBERED = /^\s*(?:\*\*)?(\d+)[.．](?:\*\*)?\s+(.+)/;
+
+// 说明文字有 `> 引用` 和 `*斜体*` 两种写法
 function collectInstruction(block) {
-  return cleanInline(
-    block
-      .split("\n")
-      .filter((line) => line.trim().startsWith(">"))
-      .map((line) => line.replace(/^>\s?/, ""))
-      .join(" "),
-  );
+  const parts = [];
+  for (const raw of block.split("\n")) {
+    const line = raw.trim();
+    if (line.startsWith(">")) parts.push(line.replace(/^>\s?/, ""));
+    else if (line.startsWith("*") && !line.startsWith("**") && line.endsWith("*") && !line.endsWith("**"))
+      parts.push(line.replace(/^\*+|\*+$/g, ""));
+  }
+  return cleanInline(parts.join(" "));
 }
 
 function parseReading(topicSlug) {
@@ -154,7 +161,8 @@ function parseReading(topicSlug) {
   const meta = cleanInline(sectionByKind.passage.match(/\*\((.+?)\)\*/)?.[1] || "");
   const paragraphs = [];
   for (const line of sectionByKind.passage.split("\n")) {
-    const match = line.match(/^\*\*([A-Z])\.\*\*\s*(.+)$/);
+    // 段落标签两种写法都支持：**A.** 或 **A**
+    const match = line.match(/^\*\*([A-Z])\.?\*\*\s*(.+)$/);
     if (match) paragraphs.push({ label: match[1], text: match[2].trim() });
   }
 
@@ -171,29 +179,62 @@ function parseReading(topicSlug) {
     const instruction = collectInstruction(block);
     const group = { type, title: cleanInline(`Questions ${head[1]}-${head[2]}: ${head[3]}`), instruction, questions: [] };
 
+    const lines = block.split("\n");
+    // 题目/选项/标题可能整体处在 > 引用块里，匹配前剥离引用符（摘要除外，见下）
+    const qlines = lines.map((line) => line.replace(/^\s*>\s?/, ""));
+
     if (type === "tfng") {
-      for (const line of block.split("\n")) {
-        const q = line.match(/^(\d+)\.\s+(.+)/);
+      for (const line of qlines) {
+        const q = line.match(NUMBERED);
         if (q) group.questions.push({ number: Number(q[1]), text: cleanInline(q[2]) });
       }
       group.options = ["TRUE", "FALSE", "NOT GIVEN"];
     } else if (type === "headings") {
+      // 标题列表两种写法：表格 | i | 文本 | 或 列表 i. 文本
       group.headings = [];
-      for (const line of block.split("\n")) {
-        const h = line.match(/^\|\s*([ivx]+)\s*\|\s*(.+?)\s*\|/i);
+      for (const line of qlines) {
+        const table = line.match(/^\|\s*([ivx]+)\s*\|\s*(.+?)\s*\|/i);
+        const list = line.match(/^\s*([ivx]+)[.．)]\s+(.+)/i);
+        const h = table || list;
         if (h) group.headings.push({ key: h[1].toLowerCase(), text: cleanInline(h[2]) });
-        const q = line.match(/^(\d+)\.\s*(?:Paragraph\s*)?([A-Z])\s*(?:→|->|:)/);
+        // 题目：6. Paragraph B → ___ / **6.** ... / 6. Paragraph B ______
+        const q = line.match(/^\s*(?:\*\*)?(\d+)[.．](?:\*\*)?\s*(?:Paragraph|段落)?\s*([A-Z])\b/);
         if (q) group.questions.push({ number: Number(q[1]), text: `Paragraph ${q[2]}` });
       }
+    } else if (type === "matching-info") {
+      // "以下信息出现在哪一段"：选项是文章段落字母
+      for (const line of qlines) {
+        const q = line.match(NUMBERED);
+        if (q) group.questions.push({ number: Number(q[1]), text: cleanInline(q[2]) });
+      }
+      group.paragraphOptions = paragraphs.map((para) => para.label);
+    } else if (type === "mcq") {
+      // 题干 + 缩进的 A/B/C/D 选项（选项前可能有 - 或 * 列表符号）
+      let current = null;
+      for (const line of qlines) {
+        const opt = line.match(/^\s*[-*]?\s*([A-D])[.．)]\s+(.+)/);
+        if (opt && current) {
+          current.options.push({ key: opt[1].toUpperCase(), text: cleanInline(opt[2]) });
+          continue;
+        }
+        const q = line.match(NUMBERED);
+        if (q) {
+          current = { number: Number(q[1]), text: cleanInline(q[2]), options: [] };
+          group.questions.push(current);
+        }
+      }
     } else if (type === "summary") {
-      // 摘要正文：非引用、非表格、含填空下划线的行
-      const bodyLines = block
-        .split("\n")
-        .filter((line) => line.trim() && !line.trim().startsWith(">") && !line.trim().startsWith("|") && !line.trim().startsWith("###"));
+      // 摘要正文：排除引用/表格/标题/整行斜体说明，保留含填空的正文
+      const bodyLines = lines.filter((line) => {
+        const t = line.trim();
+        if (!t || t.startsWith(">") || t.startsWith("|") || t.startsWith("###")) return false;
+        if (t.startsWith("*") && !t.startsWith("**") && t.endsWith("*") && !t.endsWith("**")) return false;
+        return true;
+      });
       const raw = bodyLines.join(" ");
-      // 拆成 文本 / 填空 交替的片段
       const segments = [];
-      const regex = /\((\d+)\)\s*_+/g;
+      // 填空标记：(10) ___ / 10 ___ / **10** ___
+      const regex = /(?:\*\*)?\(?(\d+)\)?(?:\*\*)?\s*_{2,}/g;
       let lastIndex = 0;
       let m;
       while ((m = regex.exec(raw)) !== null) {

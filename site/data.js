@@ -1,5 +1,5722 @@
 window.IELTS_VOCAB_TOPICS = [
   {
+    "slug": "01-natural-geography-round2",
+    "title": "自然地理（Natural Geography）— 第二轮·进阶版",
+    "shortTitle": "Natural Geography Round2",
+    "cards": [
+      {
+        "cardNumber": 1,
+        "subtitle": "山地地貌（Mountain Terrain）",
+        "words": [
+          {
+            "word": "peak",
+            "ipa": "/piːk/",
+            "pos": "n",
+            "meaning": "山峰"
+          },
+          {
+            "word": "ridge",
+            "ipa": "/rɪdʒ/",
+            "pos": "n",
+            "meaning": "山脊"
+          },
+          {
+            "word": "summit",
+            "ipa": "/ˈsʌmɪt/",
+            "pos": "n",
+            "meaning": "峰顶"
+          },
+          {
+            "word": "plateau",
+            "ipa": "/ˈplætəʊ/",
+            "pos": "n",
+            "meaning": "高原"
+          },
+          {
+            "word": "slope",
+            "ipa": "/sləʊp/",
+            "pos": "n",
+            "meaning": "斜坡"
+          },
+          {
+            "word": "gorge",
+            "ipa": "/ɡɔːdʒ/",
+            "pos": "n",
+            "meaning": "峡谷"
+          },
+          {
+            "word": "cliff",
+            "ipa": "/klɪf/",
+            "pos": "n",
+            "meaning": "悬崖"
+          },
+          {
+            "word": "rugged",
+            "ipa": "/ˈrʌɡɪd/",
+            "pos": "adj",
+            "meaning": "崎岖的"
+          },
+          {
+            "word": "steep",
+            "ipa": "/stiːp/",
+            "pos": "adj",
+            "meaning": "陡峭的"
+          },
+          {
+            "word": "altitude",
+            "ipa": "/ˈæltɪtjuːd/",
+            "pos": "n",
+            "meaning": "海拔"
+          },
+          {
+            "word": "elevation",
+            "ipa": "/ˌelɪˈveɪʃn/",
+            "pos": "n",
+            "meaning": "海拔高度"
+          },
+          {
+            "word": "terrain",
+            "ipa": "/təˈreɪn/",
+            "pos": "n",
+            "meaning": "地形"
+          },
+          {
+            "word": "ascend",
+            "ipa": "/əˈsend/",
+            "pos": "v",
+            "meaning": "攀登"
+          },
+          {
+            "word": "descend",
+            "ipa": "/dɪˈsend/",
+            "pos": "v",
+            "meaning": "下降"
+          },
+          {
+            "word": "precipice",
+            "ipa": "/ˈpresɪpɪs/",
+            "pos": "n",
+            "meaning": "悬崖峭壁"
+          },
+          {
+            "word": "foothill",
+            "ipa": "/ˈfʊthɪl/",
+            "pos": "n",
+            "meaning": "山麓"
+          },
+          {
+            "word": "barren",
+            "ipa": "/ˈbærən/",
+            "pos": "adj",
+            "meaning": "贫瘠的"
+          },
+          {
+            "word": "remote",
+            "ipa": "/rɪˈməʊt/",
+            "pos": "adj",
+            "meaning": "偏远的"
+          }
+        ],
+        "image": "../outputs/01-natural-geography-round2/generated-with-text/01-card-01-generated-text.png"
+      },
+      {
+        "cardNumber": 2,
+        "subtitle": "河流与水文地貌（Rivers & Fluvial Landforms）",
+        "words": [
+          {
+            "word": "tributary",
+            "ipa": "/ˈtrɪbjətri/",
+            "pos": "n",
+            "meaning": "支流"
+          },
+          {
+            "word": "meander",
+            "ipa": "/miˈændə/",
+            "pos": "v",
+            "meaning": "蜿蜒流动"
+          },
+          {
+            "word": "delta",
+            "ipa": "/ˈdeltə/",
+            "pos": "n",
+            "meaning": "三角洲"
+          },
+          {
+            "word": "basin",
+            "ipa": "/ˈbeɪsn/",
+            "pos": "n",
+            "meaning": "流域，盆地"
+          },
+          {
+            "word": "erosion",
+            "ipa": "/ɪˈrəʊʒn/",
+            "pos": "n",
+            "meaning": "侵蚀"
+          },
+          {
+            "word": "sediment",
+            "ipa": "/ˈsedɪmənt/",
+            "pos": "n",
+            "meaning": "沉积物"
+          },
+          {
+            "word": "floodplain",
+            "ipa": "/ˈflʌdpleɪn/",
+            "pos": "n",
+            "meaning": "泛滥平原"
+          },
+          {
+            "word": "watershed",
+            "ipa": "/ˈwɔːtəʃed/",
+            "pos": "n",
+            "meaning": "分水岭"
+          },
+          {
+            "word": "confluence",
+            "ipa": "/ˈkɒnfluəns/",
+            "pos": "n",
+            "meaning": "汇流处"
+          },
+          {
+            "word": "cascade",
+            "ipa": "/kæˈskeɪd/",
+            "pos": "n",
+            "meaning": "小瀑布"
+          },
+          {
+            "word": "torrent",
+            "ipa": "/ˈtɒrənt/",
+            "pos": "n",
+            "meaning": "激流"
+          },
+          {
+            "word": "irrigate",
+            "ipa": "/ˈɪrɪɡeɪt/",
+            "pos": "v",
+            "meaning": "灌溉"
+          },
+          {
+            "word": "fertile",
+            "ipa": "/ˈfɜːtaɪl/",
+            "pos": "adj",
+            "meaning": "肥沃的"
+          },
+          {
+            "word": "deposit",
+            "ipa": "/dɪˈpɒzɪt/",
+            "pos": "v",
+            "meaning": "沉积"
+          },
+          {
+            "word": "submerge",
+            "ipa": "/səbˈmɜːdʒ/",
+            "pos": "v",
+            "meaning": "淹没"
+          },
+          {
+            "word": "downstream",
+            "ipa": "/ˌdaʊnˈstriːm/",
+            "pos": "adv",
+            "meaning": "顺流而下"
+          },
+          {
+            "word": "upstream",
+            "ipa": "/ˌʌpˈstriːm/",
+            "pos": "adv",
+            "meaning": "逆流而上"
+          },
+          {
+            "word": "navigable",
+            "ipa": "/ˈnævɪɡəbl/",
+            "pos": "adj",
+            "meaning": "可通航的"
+          }
+        ],
+        "image": "../outputs/01-natural-geography-round2/generated-with-text/01-card-02-generated-text.png"
+      },
+      {
+        "cardNumber": 3,
+        "subtitle": "荒漠地貌（Desert & Arid Landforms）",
+        "words": [
+          {
+            "word": "arid",
+            "ipa": "/ˈærɪd/",
+            "pos": "adj",
+            "meaning": "干旱的"
+          },
+          {
+            "word": "dune",
+            "ipa": "/djuːn/",
+            "pos": "n",
+            "meaning": "沙丘"
+          },
+          {
+            "word": "oasis",
+            "ipa": "/əʊˈeɪsɪs/",
+            "pos": "n",
+            "meaning": "绿洲"
+          },
+          {
+            "word": "parched",
+            "ipa": "/pɑːtʃt/",
+            "pos": "adj",
+            "meaning": "干裂的"
+          },
+          {
+            "word": "desolate",
+            "ipa": "/ˈdesələt/",
+            "pos": "adj",
+            "meaning": "荒芜的"
+          },
+          {
+            "word": "sparse",
+            "ipa": "/spɑːs/",
+            "pos": "adj",
+            "meaning": "稀疏的"
+          },
+          {
+            "word": "vast",
+            "ipa": "/vɑːst/",
+            "pos": "adj",
+            "meaning": "广袤的"
+          },
+          {
+            "word": "expanse",
+            "ipa": "/ɪkˈspæns/",
+            "pos": "n",
+            "meaning": "广阔区域"
+          },
+          {
+            "word": "drought",
+            "ipa": "/draʊt/",
+            "pos": "n",
+            "meaning": "干旱"
+          },
+          {
+            "word": "scorching",
+            "ipa": "/ˈskɔːtʃɪŋ/",
+            "pos": "adj",
+            "meaning": "灼热的"
+          },
+          {
+            "word": "mirage",
+            "ipa": "/mɪˈrɑːʒ/",
+            "pos": "n",
+            "meaning": "海市蜃楼"
+          },
+          {
+            "word": "nomadic",
+            "ipa": "/nəʊˈmædɪk/",
+            "pos": "adj",
+            "meaning": "游牧的"
+          },
+          {
+            "word": "vegetation",
+            "ipa": "/ˌvedʒɪˈteɪʃn/",
+            "pos": "n",
+            "meaning": "植被"
+          },
+          {
+            "word": "withstand",
+            "ipa": "/wɪðˈstænd/",
+            "pos": "v",
+            "meaning": "承受，经受住"
+          },
+          {
+            "word": "harsh",
+            "ipa": "/hɑːʃ/",
+            "pos": "adj",
+            "meaning": "严酷的"
+          },
+          {
+            "word": "relentless",
+            "ipa": "/rɪˈlentləs/",
+            "pos": "adj",
+            "meaning": "无情的，持续不断的"
+          },
+          {
+            "word": "shimmer",
+            "ipa": "/ˈʃɪmə/",
+            "pos": "v",
+            "meaning": "闪烁"
+          },
+          {
+            "word": "endure",
+            "ipa": "/ɪnˈdjʊə/",
+            "pos": "v",
+            "meaning": "忍受，持续存在"
+          }
+        ],
+        "image": "../outputs/01-natural-geography-round2/generated-with-text/01-card-03-generated-text.png"
+      },
+      {
+        "cardNumber": 4,
+        "subtitle": "火山与地质构造（Volcanic & Tectonic Activity）",
+        "words": [
+          {
+            "word": "volcanic",
+            "ipa": "/vɒlˈkænɪk/",
+            "pos": "adj",
+            "meaning": "火山的"
+          },
+          {
+            "word": "eruption",
+            "ipa": "/ɪˈrʌpʃn/",
+            "pos": "n",
+            "meaning": "喷发"
+          },
+          {
+            "word": "magma",
+            "ipa": "/ˈmæɡmə/",
+            "pos": "n",
+            "meaning": "岩浆"
+          },
+          {
+            "word": "seismic",
+            "ipa": "/ˈsaɪzmɪk/",
+            "pos": "adj",
+            "meaning": "地震的"
+          },
+          {
+            "word": "tectonic",
+            "ipa": "/tekˈtɒnɪk/",
+            "pos": "adj",
+            "meaning": "构造的"
+          },
+          {
+            "word": "crater",
+            "ipa": "/ˈkreɪtə/",
+            "pos": "n",
+            "meaning": "火山口"
+          },
+          {
+            "word": "fault",
+            "ipa": "/fɔːlt/",
+            "pos": "n",
+            "meaning": "断层"
+          },
+          {
+            "word": "dormant",
+            "ipa": "/ˈdɔːmənt/",
+            "pos": "adj",
+            "meaning": "休眠的"
+          },
+          {
+            "word": "molten",
+            "ipa": "/ˈməʊltən/",
+            "pos": "adj",
+            "meaning": "熔融的"
+          },
+          {
+            "word": "crust",
+            "ipa": "/krʌst/",
+            "pos": "n",
+            "meaning": "地壳"
+          },
+          {
+            "word": "tremor",
+            "ipa": "/ˈtremə/",
+            "pos": "n",
+            "meaning": "震颤，微震"
+          },
+          {
+            "word": "magnitude",
+            "ipa": "/ˈmæɡnɪtjuːd/",
+            "pos": "n",
+            "meaning": "震级"
+          },
+          {
+            "word": "devastate",
+            "ipa": "/ˈdevəsteɪt/",
+            "pos": "v",
+            "meaning": "摧毁"
+          },
+          {
+            "word": "ash",
+            "ipa": "/æʃ/",
+            "pos": "n",
+            "meaning": "火山灰"
+          },
+          {
+            "word": "lava",
+            "ipa": "/ˈlɑːvə/",
+            "pos": "n",
+            "meaning": "熔岩"
+          },
+          {
+            "word": "unpredictable",
+            "ipa": "/ˌʌnprɪˈdɪktəbl/",
+            "pos": "adj",
+            "meaning": "不可预测的"
+          },
+          {
+            "word": "subside",
+            "ipa": "/səbˈsaɪd/",
+            "pos": "v",
+            "meaning": "平息，减退"
+          },
+          {
+            "word": "catastrophic",
+            "ipa": "/ˌkætəˈstrɒfɪk/",
+            "pos": "adj",
+            "meaning": "灾难性的"
+          }
+        ],
+        "image": "../outputs/01-natural-geography-round2/generated-with-text/01-card-04-generated-text.png"
+      },
+      {
+        "cardNumber": 5,
+        "subtitle": "海岸与地下地貌（Coastal & Underground Landforms）",
+        "words": [
+          {
+            "word": "cavern",
+            "ipa": "/ˈkævən/",
+            "pos": "n",
+            "meaning": "大洞穴"
+          },
+          {
+            "word": "stalactite",
+            "ipa": "/ˈstæləktaɪt/",
+            "pos": "n",
+            "meaning": "钟乳石"
+          },
+          {
+            "word": "subterranean",
+            "ipa": "/ˌsʌbtəˈreɪniən/",
+            "pos": "adj",
+            "meaning": "地下的"
+          },
+          {
+            "word": "coastline",
+            "ipa": "/ˈkəʊstlaɪn/",
+            "pos": "n",
+            "meaning": "海岸线"
+          },
+          {
+            "word": "peninsula",
+            "ipa": "/pəˈnɪnsjələ/",
+            "pos": "n",
+            "meaning": "半岛"
+          },
+          {
+            "word": "promontory",
+            "ipa": "/ˈprɒməntri/",
+            "pos": "n",
+            "meaning": "海角"
+          },
+          {
+            "word": "headland",
+            "ipa": "/ˈhedlənd/",
+            "pos": "n",
+            "meaning": "岬角"
+          },
+          {
+            "word": "archipelago",
+            "ipa": "/ˌɑːkɪˈpeləɡəʊ/",
+            "pos": "n",
+            "meaning": "群岛"
+          },
+          {
+            "word": "inlet",
+            "ipa": "/ˈɪnlet/",
+            "pos": "n",
+            "meaning": "小海湾"
+          },
+          {
+            "word": "lagoon",
+            "ipa": "/ləˈɡuːn/",
+            "pos": "n",
+            "meaning": "潟湖"
+          },
+          {
+            "word": "jagged",
+            "ipa": "/ˈdʒæɡɪd/",
+            "pos": "adj",
+            "meaning": "参差不齐的"
+          },
+          {
+            "word": "secluded",
+            "ipa": "/sɪˈkluːdɪd/",
+            "pos": "adj",
+            "meaning": "僻静的"
+          },
+          {
+            "word": "carve",
+            "ipa": "/kɑːv/",
+            "pos": "v",
+            "meaning": "冲刷形成，雕刻"
+          },
+          {
+            "word": "labyrinth",
+            "ipa": "/ˈlæbərɪnθ/",
+            "pos": "n",
+            "meaning": "迷宫"
+          },
+          {
+            "word": "enclose",
+            "ipa": "/ɪnˈkləʊz/",
+            "pos": "v",
+            "meaning": "围住"
+          },
+          {
+            "word": "picturesque",
+            "ipa": "/ˌpɪktʃəˈresk/",
+            "pos": "adj",
+            "meaning": "风景如画的"
+          },
+          {
+            "word": "pristine",
+            "ipa": "/ˈprɪstiːn/",
+            "pos": "adj",
+            "meaning": "原始的"
+          },
+          {
+            "word": "panoramic",
+            "ipa": "/ˌpænəˈræmɪk/",
+            "pos": "adj",
+            "meaning": "全景的"
+          }
+        ],
+        "image": "../outputs/01-natural-geography-round2/generated-with-text/01-card-05-generated-text.png"
+      }
+    ],
+    "reading": {
+      "title": "The Living Landscape — How Earth's Surface Shapes Human Civilisation",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The relationship between human societies and the physical **terrain** they inhabit has long been a central concern of geographers and anthropologists alike. From the earliest **nomadic** communities that traversed **vast** **expanses** of **arid** desert to the settlers who built permanent dwellings along **navigable** rivers, the nature of the land has profoundly influenced where and how people live. Understanding the forces that **carve** and reshape the Earth's surface remains essential to comprehending patterns of migration, agriculture, and urban development across the globe."
+        },
+        {
+          "label": "B",
+          "text": "Mountain landscapes, with their **rugged** surfaces and **steep** **slopes**, present some of the most formidable challenges to human settlement. At high **altitude**, the air thins and temperatures plummet, making permanent habitation difficult above certain **elevations**. Yet communities have long **ascended** into highland regions in search of refuge or resources. The **foothills** at the base of major ranges often serve as transitional zones, where the relatively gentle gradients allow for farming and trade routes. In contrast, the sheer faces of **cliffs** and **precipices** higher up remain largely uninhabited, their **barren** rock faces too exposed to sustain agriculture or shelter."
+        },
+        {
+          "label": "C",
+          "text": "River systems have arguably exerted an even greater influence on the trajectory of civilisation. A single **basin** may encompass thousands of square kilometres, collecting water from dozens of **tributaries** that **meander** through valleys before reaching a **confluence**. The movement of water from **upstream** headwaters to **downstream** plains carries **sediment** that is gradually **deposited** along riverbanks, creating **fertile** **floodplains** ideal for cultivation. Ancient peoples quickly learned to **irrigate** these plains, channelling water to **crops** in an innovation that would prove transformative. The concept of a **watershed** — the boundary dividing adjacent drainage areas — became critical to understanding water distribution and territorial claims."
+        },
+        {
+          "label": "D",
+          "text": "Where rivers approach the sea, they frequently fan out into broad **deltas**, depositing layers of fine silt that build new land over millennia. These **deltas** support some of the world's most densely populated regions, though they are vulnerable to flooding. Further along the coast, the **coastline** itself displays remarkable diversity. Rocky **headlands** and **promontories** jut into the ocean, battered by waves that exploit weaknesses in the rock. Sheltered **inlets** and **lagoons** form behind natural barriers, while offshore, chains of islands create **archipelagos** that have fostered distinct maritime cultures. The **peninsula**, extending from the mainland yet surrounded on three sides by water, occupies a unique geographical position that has historically conferred strategic advantages."
+        },
+        {
+          "label": "E",
+          "text": "Beneath the surface, **subterranean** landscapes offer their own wonders. Limestone regions often contain extensive **caverns** adorned with **stalactites** that grow incrementally as mineral-rich water drips from ceilings over centuries. These underground networks can form a **labyrinth** of passages that challenge even experienced explorers. Meanwhile, the dynamic forces originating deep within the Earth's **crust** manifest as **volcanic** and **seismic** activity. Where **tectonic** plates collide, **faults** develop, producing **tremors** of varying **magnitude**. A **dormant** volcano, quiet for centuries, may suddenly produce a **catastrophic** **eruption**, sending **molten** **lava** and clouds of **ash** across the landscape and threatening to **devastate** entire communities."
+        },
+        {
+          "label": "F",
+          "text": "Equally dramatic are the **harsh** conditions found in the world's great deserts. **Scorching** daytime temperatures and **relentless** sun create an environment where only **sparse** **vegetation** can survive. Wind-sculpted **dunes** **shimmer** in the heat, occasionally producing the optical illusion known as a **mirage**. **Drought** can persist for years, leaving the ground **parched** and **desolate**. Yet even here, life finds a way: **oases** — fed by underground water sources — sustain communities that have learned to **endure** and **withstand** the extremes, developing strategies that allow them to persist where others cannot."
+        },
+        {
+          "label": "G",
+          "text": "Whether one stands on a **summit** surveying the **panoramic** vista of a **picturesque** mountain **ridge**, explores the **pristine** waters of a **secluded** coastal **lagoon**, or descends into the silent depths of a **remote** underground **cavern**, the diversity of Earth's landscapes is staggering. Each landform tells a story of geological processes operating over timescales that dwarf human history, and each has shaped — and continues to shape — the societies that call these **terrains** home. As populations grow and climate patterns shift, understanding these natural features becomes not merely an academic exercise but an urgent practical necessity."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage? - **TRUE** — if the statement agrees with the information - **FALSE** — if the statement contradicts the information - **NOT GIVEN** — if there is no information on this",
+          "questions": [
+            {
+              "number": 1,
+              "text": "The foothills of mountain ranges are generally unsuitable for farming due to their steep gradients.",
+              "answer": "FALSE",
+              "explanation": "\"The foothills at the base of major ranges often serve as transitional zones, where the relatively gentle gradients allow for farming and trade routes.\" · 文章说山麓的坡度\"relatively gentle\"且\"allow for farming\"，而题目说\"unsuitable for farming due to steep gradients\"，与原文矛盾。注意 steep 和 gentle 是反义词。"
+            },
+            {
+              "number": 2,
+              "text": "Ancient civilisations developed irrigation techniques to channel water to their agricultural land.",
+              "answer": "TRUE",
+              "explanation": "\"Ancient peoples quickly learned to irrigate these plains, channelling water to crops in an innovation that would prove transformative.\" · 文章明确提到古代人学会了灌溉（irrigate），将水引向农作物（channelling water to crops），与题目表述一致。"
+            },
+            {
+              "number": 3,
+              "text": "Delta regions are among the most densely populated areas in the world but face risks from flooding.",
+              "answer": "TRUE",
+              "explanation": "\"These deltas support some of the world's most densely populated regions, though they are vulnerable to flooding.\" · 原文说三角洲是\"most densely populated regions\"且\"vulnerable to flooding\"，题目用了\"face risks from flooding\"替换了\"vulnerable to flooding\"，意思一致。"
+            },
+            {
+              "number": 4,
+              "text": "All volcanic eruptions are impossible to predict with current scientific technology.",
+              "answer": "NOT GIVEN",
+              "explanation": "文章提到 \"A dormant volcano... may suddenly produce a catastrophic eruption\"，但并未讨论现代科学预测火山爆发的能力。题目中\"current scientific technology\"在文中完全没有提及。 · 文章只说了火山爆发可能\"突然\"发生，但并未评论是否所有火山爆发都\"无法预测\"。注意 NOT GIVEN 与 FALSE 的区别：文章没有提供相关信息，而非与之矛盾。"
+            },
+            {
+              "number": 5,
+              "text": "Oases in desert regions are exclusively supplied by rainfall rather than underground water.",
+              "answer": "FALSE",
+              "explanation": "\"oases — fed by underground water sources — sustain communities\" · 文章说绿洲由\"underground water sources\"（地下水源）供给，而题目说\"exclusively supplied by rainfall\"（完全由降雨供给），直接矛盾。注意\"exclusively\"是绝对词，遇到这类词要格外小心。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "headings",
+          "title": "Questions 6-9: Matching Headings",
+          "instruction": "Choose the correct heading for each paragraph from the list of headings below. **List of Headings** i. The strategic importance of coastal defence systems ii. Underground formations and geological instability iii. Desert extremes and the persistence of life iv. The influence of terrain on early human settlement v. Mountain challenges and highland habitation vi. River systems as drivers of agricultural civilisation vii. Coastal diversity and maritime geography viii. The future of landscape conservation",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph B",
+              "answer": "v",
+              "explanation": "段落B讨论了山地地貌对人类定居的挑战，包括高海拔、陡坡、悬崖等，以及山麓地区作为过渡区域的作用，完全对应\"Mountain challenges and highland habitation\"。"
+            },
+            {
+              "number": 7,
+              "text": "Paragraph D",
+              "answer": "vii",
+              "explanation": "段落D描述了海岸线的多样性，包括三角洲、岬角、海角、潟湖、群岛和半岛等各种海岸地貌，对应\"Coastal diversity and maritime geography\"。"
+            },
+            {
+              "number": 8,
+              "text": "Paragraph E",
+              "answer": "ii",
+              "explanation": "段落E涵盖了地下溶洞、钟乳石等地下地貌，以及火山和地震等地质不稳定性，对应\"Underground formations and geological instability\"。"
+            },
+            {
+              "number": 9,
+              "text": "Paragraph F",
+              "answer": "iii",
+              "explanation": "段落F描述了沙漠的极端环境（灼热、无情的阳光、干旱），同时强调了绿洲和生命的顽强存在，完全对应\"Desert extremes and the persistence of life\"。"
+            }
+          ],
+          "headings": [
+            {
+              "key": "i",
+              "text": "The strategic importance of coastal defence systems"
+            },
+            {
+              "key": "ii",
+              "text": "Underground formations and geological instability"
+            },
+            {
+              "key": "iii",
+              "text": "Desert extremes and the persistence of life"
+            },
+            {
+              "key": "iv",
+              "text": "The influence of terrain on early human settlement"
+            },
+            {
+              "key": "v",
+              "text": "Mountain challenges and highland habitation"
+            },
+            {
+              "key": "vi",
+              "text": "River systems as drivers of agricultural civilisation"
+            },
+            {
+              "key": "vii",
+              "text": "Coastal diversity and maritime geography"
+            },
+            {
+              "key": "viii",
+              "text": "The future of landscape conservation"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose **ONE WORD ONLY** from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "basin",
+              "explanation": "\"A single basin may encompass thousands of square kilometres, collecting water from dozens of tributaries\" · 原文用\"basin\"来描述收集多条支流的排水区域，即\"drainage area\"的同义替换。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "sediment",
+              "explanation": "\"The movement of water from upstream headwaters to downstream plains carries sediment\" · 题目中的\"carries\"直接对应原文，水流携带的物质是\"sediment\"（沉积物）。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "fertile",
+              "explanation": "\"creating fertile floodplains ideal for cultivation\" · 形容泛滥平原适合种植的形容词是\"fertile\"（肥沃的），题目用\"suitable for growing crops\"替换了\"ideal for cultivation\"。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "irrigate",
+              "explanation": "\"Ancient peoples quickly learned to irrigate these plains\" · 原文使用\"irrigate\"描述古人引水灌溉的行为，与题目中\"channelling river water to the land\"意思一致。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "Rivers collect water from multiple tributaries across a single drainage area known as a **__"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "**. As water flows downstream, it carries **__"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "** that is deposited along the banks, forming floodplains that are highly **__"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "** and suitable for growing crops. Early communities used these plains for agriculture by learning to **__"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "** the land with river water. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
+  },
+  {
+    "slug": "02-weather-and-climate-round2",
+    "title": "天气与气候（Weather & Climate）— 第二轮·进阶版",
+    "shortTitle": "Weather And Climate Round2",
+    "cards": [
+      {
+        "cardNumber": 1,
+        "subtitle": "云层与降水机制（Clouds & Precipitation Mechanics）",
+        "words": [
+          {
+            "word": "cumulus",
+            "ipa": "/ˈkjuːmjələs/",
+            "pos": "n",
+            "meaning": "积云"
+          },
+          {
+            "word": "cirrus",
+            "ipa": "/ˈsɪrəs/",
+            "pos": "n",
+            "meaning": "卷云"
+          },
+          {
+            "word": "stratus",
+            "ipa": "/ˈstrɑːtəs/",
+            "pos": "n",
+            "meaning": "层云"
+          },
+          {
+            "word": "cumulonimbus",
+            "ipa": "/ˌkjuːmjələʊˈnɪmbəs/",
+            "pos": "n",
+            "meaning": "积雨云"
+          },
+          {
+            "word": "condensation",
+            "ipa": "/ˌkɒndenˈseɪʃn/",
+            "pos": "n",
+            "meaning": "凝结"
+          },
+          {
+            "word": "evaporation",
+            "ipa": "/ɪˌvæpəˈreɪʃn/",
+            "pos": "n",
+            "meaning": "蒸发"
+          },
+          {
+            "word": "vapor",
+            "ipa": "/ˈveɪpər/",
+            "pos": "n",
+            "meaning": "水汽"
+          },
+          {
+            "word": "saturate",
+            "ipa": "/ˈsætʃəreɪt/",
+            "pos": "v",
+            "meaning": "使饱和，浸透"
+          },
+          {
+            "word": "torrential",
+            "ipa": "/təˈrenʃl/",
+            "pos": "adj",
+            "meaning": "倾盆的"
+          },
+          {
+            "word": "intermittent",
+            "ipa": "/ˌɪntəˈmɪtənt/",
+            "pos": "adj",
+            "meaning": "间歇性的"
+          },
+          {
+            "word": "sporadic",
+            "ipa": "/spəˈrædɪk/",
+            "pos": "adj",
+            "meaning": "零星的"
+          },
+          {
+            "word": "dissipate",
+            "ipa": "/ˈdɪsɪpeɪt/",
+            "pos": "v",
+            "meaning": "消散"
+          },
+          {
+            "word": "moisture",
+            "ipa": "/ˈmɔɪstʃər/",
+            "pos": "n",
+            "meaning": "水分"
+          },
+          {
+            "word": "updraft",
+            "ipa": "/ˈʌpdrɑːft/",
+            "pos": "n",
+            "meaning": "上升气流"
+          },
+          {
+            "word": "downdraft",
+            "ipa": "/ˈdaʊndrɑːft/",
+            "pos": "n",
+            "meaning": "下沉气流"
+          },
+          {
+            "word": "squall",
+            "ipa": "/skwɔːl/",
+            "pos": "n",
+            "meaning": "飑，突起的狂风"
+          },
+          {
+            "word": "gauge",
+            "ipa": "/ɡeɪdʒ/",
+            "pos": "n",
+            "meaning": "测量仪"
+          },
+          {
+            "word": "billowing",
+            "ipa": "/ˈbɪləʊɪŋ/",
+            "pos": "adj",
+            "meaning": "（云层）翻滚的"
+          }
+        ],
+        "image": "../outputs/02-weather-and-climate-round2/generated-with-text/02-card-01-generated-text.png"
+      },
+      {
+        "cardNumber": 2,
+        "subtitle": "气压系统与风（Pressure Systems & Wind Patterns）",
+        "words": [
+          {
+            "word": "anticyclone",
+            "ipa": "/ˌæntiˈsaɪkləʊn/",
+            "pos": "n",
+            "meaning": "反气旋"
+          },
+          {
+            "word": "cyclone",
+            "ipa": "/ˈsaɪkləʊn/",
+            "pos": "n",
+            "meaning": "气旋"
+          },
+          {
+            "word": "isobar",
+            "ipa": "/ˈaɪsəbɑːr/",
+            "pos": "n",
+            "meaning": "等压线"
+          },
+          {
+            "word": "front",
+            "ipa": "/frʌnt/",
+            "pos": "n",
+            "meaning": "（气象）锋面"
+          },
+          {
+            "word": "jet stream",
+            "ipa": "/dʒet striːm/",
+            "pos": "n",
+            "meaning": "急流"
+          },
+          {
+            "word": "trade wind",
+            "ipa": "/treɪd wɪnd/",
+            "pos": "n",
+            "meaning": "信风"
+          },
+          {
+            "word": "headwind",
+            "ipa": "/ˈhedwɪnd/",
+            "pos": "n",
+            "meaning": "逆风"
+          },
+          {
+            "word": "tailwind",
+            "ipa": "/ˈteɪlwɪnd/",
+            "pos": "n",
+            "meaning": "顺风"
+          },
+          {
+            "word": "crosswind",
+            "ipa": "/ˈkrɒswɪnd/",
+            "pos": "n",
+            "meaning": "侧风"
+          },
+          {
+            "word": "gale",
+            "ipa": "/ɡeɪl/",
+            "pos": "n",
+            "meaning": "大风"
+          },
+          {
+            "word": "doldrums",
+            "ipa": "/ˈdɒldrəmz/",
+            "pos": "n",
+            "meaning": "赤道无风带"
+          },
+          {
+            "word": "vortex",
+            "ipa": "/ˈvɔːteks/",
+            "pos": "n",
+            "meaning": "涡旋"
+          },
+          {
+            "word": "convection",
+            "ipa": "/kənˈvekʃn/",
+            "pos": "n",
+            "meaning": "对流"
+          },
+          {
+            "word": "stagnant",
+            "ipa": "/ˈstæɡnənt/",
+            "pos": "adj",
+            "meaning": "停滞不动的"
+          },
+          {
+            "word": "brisk",
+            "ipa": "/brɪsk/",
+            "pos": "adj",
+            "meaning": "（风）轻快的"
+          },
+          {
+            "word": "equatorial",
+            "ipa": "/ˌekwəˈtɔːriəl/",
+            "pos": "adj",
+            "meaning": "赤道的"
+          },
+          {
+            "word": "westerly",
+            "ipa": "/ˈwestəli/",
+            "pos": "adj",
+            "meaning": "西风的"
+          }
+        ],
+        "image": "../outputs/02-weather-and-climate-round2/generated-with-text/02-card-02-generated-text.png"
+      },
+      {
+        "cardNumber": 3,
+        "subtitle": "气候类型与区域（Climate Zones & Regions）",
+        "words": [
+          {
+            "word": "arid",
+            "ipa": "/ˈærɪd/",
+            "pos": "adj",
+            "meaning": "干旱的"
+          },
+          {
+            "word": "semi-arid",
+            "ipa": "/ˌsemi ˈærɪd/",
+            "pos": "adj",
+            "meaning": "半干旱的"
+          },
+          {
+            "word": "tropical",
+            "ipa": "/ˈtrɒpɪkl/",
+            "pos": "adj",
+            "meaning": "热带的"
+          },
+          {
+            "word": "subtropical",
+            "ipa": "/sʌbˈtrɒpɪkl/",
+            "pos": "adj",
+            "meaning": "亚热带的"
+          },
+          {
+            "word": "continental",
+            "ipa": "/ˌkɒntɪˈnentl/",
+            "pos": "adj",
+            "meaning": "大陆性的"
+          },
+          {
+            "word": "maritime",
+            "ipa": "/ˈmærɪtaɪm/",
+            "pos": "adj",
+            "meaning": "海洋性的"
+          },
+          {
+            "word": "alpine",
+            "ipa": "/ˈælpaɪn/",
+            "pos": "adj",
+            "meaning": "高山的"
+          },
+          {
+            "word": "tundra",
+            "ipa": "/ˈtʌndrə/",
+            "pos": "n",
+            "meaning": "苔原"
+          },
+          {
+            "word": "savanna",
+            "ipa": "/səˈvænə/",
+            "pos": "n",
+            "meaning": "热带草原"
+          },
+          {
+            "word": "subarctic",
+            "ipa": "/sʌbˈɑːktɪk/",
+            "pos": "adj",
+            "meaning": "亚北极的"
+          },
+          {
+            "word": "oasis",
+            "ipa": "/əʊˈeɪsɪs/",
+            "pos": "n",
+            "meaning": "绿洲"
+          },
+          {
+            "word": "desertification",
+            "ipa": "/dɪˌzɜːtɪfɪˈkeɪʃn/",
+            "pos": "n",
+            "meaning": "沙漠化"
+          },
+          {
+            "word": "microclimate",
+            "ipa": "/ˈmaɪkrəʊklaɪmət/",
+            "pos": "n",
+            "meaning": "小气候"
+          },
+          {
+            "word": "biome",
+            "ipa": "/ˈbaɪəʊm/",
+            "pos": "n",
+            "meaning": "生物群落"
+          },
+          {
+            "word": "arable",
+            "ipa": "/ˈærəbl/",
+            "pos": "adj",
+            "meaning": "可耕种的"
+          },
+          {
+            "word": "vegetation",
+            "ipa": "/ˌvedʒɪˈteɪʃn/",
+            "pos": "n",
+            "meaning": "植被"
+          },
+          {
+            "word": "rainforest",
+            "ipa": "/ˈreɪnfɒrɪst/",
+            "pos": "n",
+            "meaning": "雨林"
+          }
+        ],
+        "image": "../outputs/02-weather-and-climate-round2/generated-with-text/02-card-03-generated-text.png"
+      },
+      {
+        "cardNumber": 4,
+        "subtitle": "极端天气应对与韧性（Weather Resilience & Adaptation）",
+        "words": [
+          {
+            "word": "resilience",
+            "ipa": "/rɪˈzɪliəns/",
+            "pos": "n",
+            "meaning": "韧性"
+          },
+          {
+            "word": "resilient",
+            "ipa": "/rɪˈzɪliənt/",
+            "pos": "adj",
+            "meaning": "有韧性的"
+          },
+          {
+            "word": "preparedness",
+            "ipa": "/prɪˈpeərɪdnəs/",
+            "pos": "n",
+            "meaning": "准备状态"
+          },
+          {
+            "word": "contingency",
+            "ipa": "/kənˈtɪndʒənsi/",
+            "pos": "n",
+            "meaning": "应急预案"
+          },
+          {
+            "word": "infrastructure",
+            "ipa": "/ˈɪnfrəstrʌktʃər/",
+            "pos": "n",
+            "meaning": "基础设施"
+          },
+          {
+            "word": "vulnerable",
+            "ipa": "/ˈvʌlnərəbl/",
+            "pos": "adj",
+            "meaning": "脆弱的"
+          },
+          {
+            "word": "adapt",
+            "ipa": "/əˈdæpt/",
+            "pos": "v",
+            "meaning": "适应"
+          },
+          {
+            "word": "adaptation",
+            "ipa": "/ˌædæpˈteɪʃn/",
+            "pos": "n",
+            "meaning": "适应"
+          },
+          {
+            "word": "reinforce",
+            "ipa": "/ˌriːɪnˈfɔːs/",
+            "pos": "v",
+            "meaning": "加固"
+          },
+          {
+            "word": "retrofit",
+            "ipa": "/ˈretrəʊfɪt/",
+            "pos": "v",
+            "meaning": "改造加固"
+          },
+          {
+            "word": "displacement",
+            "ipa": "/dɪsˈpleɪsmənt/",
+            "pos": "n",
+            "meaning": "流离失所"
+          },
+          {
+            "word": "relief",
+            "ipa": "/rɪˈliːf/",
+            "pos": "n",
+            "meaning": "救援"
+          },
+          {
+            "word": "threshold",
+            "ipa": "/ˈθreʃhəʊld/",
+            "pos": "n",
+            "meaning": "临界值"
+          },
+          {
+            "word": "unprecedented",
+            "ipa": "/ʌnˈpresɪdentɪd/",
+            "pos": "adj",
+            "meaning": "前所未有的"
+          },
+          {
+            "word": "susceptible",
+            "ipa": "/səˈseptəbl/",
+            "pos": "adj",
+            "meaning": "易受影响的"
+          },
+          {
+            "word": "robust",
+            "ipa": "/rəʊˈbʌst/",
+            "pos": "adj",
+            "meaning": "坚固的"
+          },
+          {
+            "word": "shelter",
+            "ipa": "/ˈʃeltər/",
+            "pos": "n",
+            "meaning": "避难所"
+          },
+          {
+            "word": "early warning",
+            "ipa": "/ˈɜːli ˈwɔːnɪŋ/",
+            "pos": "n",
+            "meaning": "预警"
+          }
+        ],
+        "image": "../outputs/02-weather-and-climate-round2/generated-with-text/02-card-04-generated-text.png"
+      },
+      {
+        "cardNumber": 5,
+        "subtitle": "天气习语与描述性表达（Weather Idioms & Descriptive Language）",
+        "words": [
+          {
+            "word": "balmy",
+            "ipa": "/ˈbɑːmi/",
+            "pos": "adj",
+            "meaning": "温和宜人的"
+          },
+          {
+            "word": "gloomy",
+            "ipa": "/ˈɡluːmi/",
+            "pos": "adj",
+            "meaning": "阴沉的"
+          },
+          {
+            "word": "dreary",
+            "ipa": "/ˈdrɪəri/",
+            "pos": "adj",
+            "meaning": "沉闷阴郁的"
+          },
+          {
+            "word": "bleak",
+            "ipa": "/bliːk/",
+            "pos": "adj",
+            "meaning": "荒凉阴冷的"
+          },
+          {
+            "word": "torrid",
+            "ipa": "/ˈtɒrɪd/",
+            "pos": "adj",
+            "meaning": "酷热的"
+          },
+          {
+            "word": "arctic",
+            "ipa": "/ˈɑːktɪk/",
+            "pos": "adj",
+            "meaning": "极寒的（非正式）"
+          },
+          {
+            "word": "stifling",
+            "ipa": "/ˈstaɪflɪŋ/",
+            "pos": "adj",
+            "meaning": "闷热难耐的"
+          },
+          {
+            "word": "oppressive",
+            "ipa": "/əˈpresɪv/",
+            "pos": "adj",
+            "meaning": "压抑闷热的"
+          },
+          {
+            "word": "inclement",
+            "ipa": "/ɪnˈklemənt/",
+            "pos": "adj",
+            "meaning": "（天气）恶劣的"
+          },
+          {
+            "word": "unsettled",
+            "ipa": "/ʌnˈsetld/",
+            "pos": "adj",
+            "meaning": "不稳定的"
+          },
+          {
+            "word": "changeable",
+            "ipa": "/ˈtʃeɪndʒəbl/",
+            "pos": "adj",
+            "meaning": "多变的"
+          },
+          {
+            "word": "patchy",
+            "ipa": "/ˈpætʃi/",
+            "pos": "adj",
+            "meaning": "局部的，斑驳的"
+          },
+          {
+            "word": "spell",
+            "ipa": "/spel/",
+            "pos": "n",
+            "meaning": "（天气）一段时期"
+          },
+          {
+            "word": "freak",
+            "ipa": "/friːk/",
+            "pos": "adj",
+            "meaning": "反常的"
+          },
+          {
+            "word": "clammy",
+            "ipa": "/ˈklæmi/",
+            "pos": "adj",
+            "meaning": "潮湿黏腻的"
+          },
+          {
+            "word": "nippy",
+            "ipa": "/ˈnɪpi/",
+            "pos": "adj",
+            "meaning": "微寒刺骨的"
+          },
+          {
+            "word": "hazy",
+            "ipa": "/ˈheɪzi/",
+            "pos": "adj",
+            "meaning": "朦胧有薄雾的"
+          }
+        ],
+        "image": "../outputs/02-weather-and-climate-round2/generated-with-text/02-card-05-generated-text.png"
+      }
+    ],
+    "reading": null
+  },
+  {
+    "slug": "02-weather-and-climate",
+    "title": "天气与气候（Weather & Climate）",
+    "shortTitle": "Weather And Climate",
+    "cards": [
+      {
+        "cardNumber": 1,
+        "subtitle": "日常天气现象",
+        "words": [
+          {
+            "word": "overcast",
+            "ipa": "/ˌəʊvəˈkɑːst/",
+            "pos": "adj",
+            "meaning": "阴天的"
+          },
+          {
+            "word": "drizzle",
+            "ipa": "/ˈdrɪzl/",
+            "pos": "n/v",
+            "meaning": "毛毛雨"
+          },
+          {
+            "word": "downpour",
+            "ipa": "/ˈdaʊnpɔːr/",
+            "pos": "n",
+            "meaning": "倾盆大雨"
+          },
+          {
+            "word": "gust",
+            "ipa": "/ɡʌst/",
+            "pos": "n",
+            "meaning": "阵风"
+          },
+          {
+            "word": "breeze",
+            "ipa": "/briːz/",
+            "pos": "n",
+            "meaning": "微风"
+          },
+          {
+            "word": "humidity",
+            "ipa": "/hjuːˈmɪdəti/",
+            "pos": "n",
+            "meaning": "湿度"
+          },
+          {
+            "word": "scorching",
+            "ipa": "/ˈskɔːtʃɪŋ/",
+            "pos": "adj",
+            "meaning": "灼热的"
+          },
+          {
+            "word": "muggy",
+            "ipa": "/ˈmʌɡi/",
+            "pos": "adj",
+            "meaning": "闷热的"
+          },
+          {
+            "word": "hail",
+            "ipa": "/heɪl/",
+            "pos": "n/v",
+            "meaning": "冰雹"
+          },
+          {
+            "word": "frost",
+            "ipa": "/frɒst/",
+            "pos": "n",
+            "meaning": "霜"
+          },
+          {
+            "word": "dew",
+            "ipa": "/djuː/",
+            "pos": "n",
+            "meaning": "露水"
+          },
+          {
+            "word": "foggy",
+            "ipa": "/ˈfɒɡi/",
+            "pos": "adj",
+            "meaning": "有雾的"
+          },
+          {
+            "word": "thunder",
+            "ipa": "/ˈθʌndər/",
+            "pos": "n",
+            "meaning": "雷声"
+          },
+          {
+            "word": "lightning",
+            "ipa": "/ˈlaɪtnɪŋ/",
+            "pos": "n",
+            "meaning": "闪电"
+          },
+          {
+            "word": "sleet",
+            "ipa": "/sliːt/",
+            "pos": "n",
+            "meaning": "雨夹雪"
+          },
+          {
+            "word": "precipitation",
+            "ipa": "/prɪˌsɪpɪˈteɪʃn/",
+            "pos": "n",
+            "meaning": "降水量"
+          },
+          {
+            "word": "sunshine",
+            "ipa": "/ˈsʌnʃaɪn/",
+            "pos": "n",
+            "meaning": "阳光"
+          }
+        ],
+        "image": "../outputs/02-weather-and-climate/generated-with-text/02-card-01-generated-text.png"
+      },
+      {
+        "cardNumber": 2,
+        "subtitle": "极端天气与灾害",
+        "words": [
+          {
+            "word": "hurricane",
+            "ipa": "/ˈhʌrɪkən/",
+            "pos": "n",
+            "meaning": "飓风"
+          },
+          {
+            "word": "typhoon",
+            "ipa": "/taɪˈfuːn/",
+            "pos": "n",
+            "meaning": "台风"
+          },
+          {
+            "word": "tornado",
+            "ipa": "/tɔːˈneɪdəʊ/",
+            "pos": "n",
+            "meaning": "龙卷风"
+          },
+          {
+            "word": "blizzard",
+            "ipa": "/ˈblɪzəd/",
+            "pos": "n",
+            "meaning": "暴风雪"
+          },
+          {
+            "word": "drought",
+            "ipa": "/draʊt/",
+            "pos": "n",
+            "meaning": "干旱"
+          },
+          {
+            "word": "flood",
+            "ipa": "/flʌd/",
+            "pos": "n/v",
+            "meaning": "洪水"
+          },
+          {
+            "word": "devastate",
+            "ipa": "/ˈdevəsteɪt/",
+            "pos": "v",
+            "meaning": "摧毁"
+          },
+          {
+            "word": "catastrophic",
+            "ipa": "/ˌkætəˈstrɒfɪk/",
+            "pos": "adj",
+            "meaning": "灾难性的"
+          },
+          {
+            "word": "evacuate",
+            "ipa": "/ɪˈvækjueɪt/",
+            "pos": "v",
+            "meaning": "疏散"
+          },
+          {
+            "word": "casualty",
+            "ipa": "/ˈkæʒuəlti/",
+            "pos": "n",
+            "meaning": "伤亡人员"
+          },
+          {
+            "word": "aftermath",
+            "ipa": "/ˈɑːftəmæθ/",
+            "pos": "n",
+            "meaning": "后果"
+          },
+          {
+            "word": "famine",
+            "ipa": "/ˈfæmɪn/",
+            "pos": "n",
+            "meaning": "饥荒"
+          },
+          {
+            "word": "landslide",
+            "ipa": "/ˈlændslaɪd/",
+            "pos": "n",
+            "meaning": "山体滑坡"
+          },
+          {
+            "word": "submerge",
+            "ipa": "/səbˈmɜːdʒ/",
+            "pos": "v",
+            "meaning": "淹没"
+          },
+          {
+            "word": "turbulent",
+            "ipa": "/ˈtɜːbjələnt/",
+            "pos": "adj",
+            "meaning": "狂暴的"
+          },
+          {
+            "word": "relentless",
+            "ipa": "/rɪˈlentləs/",
+            "pos": "adj",
+            "meaning": "无情的"
+          }
+        ],
+        "image": "../outputs/02-weather-and-climate/generated-with-text/02-card-02-generated-text.png"
+      },
+      {
+        "cardNumber": 3,
+        "subtitle": "气候变化与温室效应",
+        "words": [
+          {
+            "word": "greenhouse",
+            "ipa": "/ˈɡriːnhaʊs/",
+            "pos": "n",
+            "meaning": "温室"
+          },
+          {
+            "word": "emission",
+            "ipa": "/ɪˈmɪʃn/",
+            "pos": "n",
+            "meaning": "排放"
+          },
+          {
+            "word": "carbon dioxide",
+            "ipa": "/ˌkɑːbən daɪˈɒksaɪd/",
+            "pos": "n",
+            "meaning": "二氧化碳"
+          },
+          {
+            "word": "ozone",
+            "ipa": "/ˈəʊzəʊn/",
+            "pos": "n",
+            "meaning": "臭氧"
+          },
+          {
+            "word": "deplete",
+            "ipa": "/dɪˈpliːt/",
+            "pos": "v",
+            "meaning": "消耗，耗尽"
+          },
+          {
+            "word": "fossil fuel",
+            "ipa": "/ˌfɒsl ˈfjuːəl/",
+            "pos": "n",
+            "meaning": "化石燃料"
+          },
+          {
+            "word": "polar",
+            "ipa": "/ˈpəʊlər/",
+            "pos": "adj",
+            "meaning": "极地的"
+          },
+          {
+            "word": "glacier",
+            "ipa": "/ˈɡlæsiər/",
+            "pos": "n",
+            "meaning": "冰川"
+          },
+          {
+            "word": "melt",
+            "ipa": "/melt/",
+            "pos": "v",
+            "meaning": "融化"
+          },
+          {
+            "word": "sea level",
+            "ipa": "/ˈsiː ˌlevl/",
+            "pos": "n",
+            "meaning": "海平面"
+          },
+          {
+            "word": "deforestation",
+            "ipa": "/diːˌfɒrɪˈsteɪʃn/",
+            "pos": "n",
+            "meaning": "滥伐森林"
+          },
+          {
+            "word": "sustainable",
+            "ipa": "/səˈsteɪnəbl/",
+            "pos": "adj",
+            "meaning": "可持续的"
+          },
+          {
+            "word": "deteriorate",
+            "ipa": "/dɪˈtɪəriəreɪt/",
+            "pos": "v",
+            "meaning": "恶化"
+          },
+          {
+            "word": "irreversible",
+            "ipa": "/ˌɪrɪˈvɜːsəbl/",
+            "pos": "adj",
+            "meaning": "不可逆的"
+          },
+          {
+            "word": "mitigate",
+            "ipa": "/ˈmɪtɪɡeɪt/",
+            "pos": "v",
+            "meaning": "缓解"
+          },
+          {
+            "word": "carbon footprint",
+            "ipa": "/ˌkɑːbən ˈfʊtprɪnt/",
+            "pos": "n",
+            "meaning": "碳足迹"
+          },
+          {
+            "word": "ecological",
+            "ipa": "/ˌiːkəˈlɒdʒɪkl/",
+            "pos": "adj",
+            "meaning": "生态的"
+          }
+        ],
+        "image": "../outputs/02-weather-and-climate/generated-with-text/02-card-03-generated-text.png"
+      },
+      {
+        "cardNumber": 4,
+        "subtitle": "天气预报与气象学",
+        "words": [
+          {
+            "word": "forecast",
+            "ipa": "/ˈfɔːkɑːst/",
+            "pos": "n/v",
+            "meaning": "预报"
+          },
+          {
+            "word": "meteorology",
+            "ipa": "/ˌmiːtiəˈrɒlədʒi/",
+            "pos": "n",
+            "meaning": "气象学"
+          },
+          {
+            "word": "barometer",
+            "ipa": "/bəˈrɒmɪtər/",
+            "pos": "n",
+            "meaning": "气压计"
+          },
+          {
+            "word": "thermometer",
+            "ipa": "/θəˈmɒmɪtər/",
+            "pos": "n",
+            "meaning": "温度计"
+          },
+          {
+            "word": "Celsius",
+            "ipa": "/ˈselsiəs/",
+            "pos": "n",
+            "meaning": "摄氏度"
+          },
+          {
+            "word": "Fahrenheit",
+            "ipa": "/ˈfærənhaɪt/",
+            "pos": "n",
+            "meaning": "华氏度"
+          },
+          {
+            "word": "atmospheric",
+            "ipa": "/ˌætməsˈferɪk/",
+            "pos": "adj",
+            "meaning": "大气的"
+          },
+          {
+            "word": "circulation",
+            "ipa": "/ˌsɜːkjəˈleɪʃn/",
+            "pos": "n",
+            "meaning": "环流"
+          },
+          {
+            "word": "satellite",
+            "ipa": "/ˈsætəlaɪt/",
+            "pos": "n",
+            "meaning": "卫星"
+          },
+          {
+            "word": "fluctuate",
+            "ipa": "/ˈflʌktʃueɪt/",
+            "pos": "v",
+            "meaning": "波动"
+          },
+          {
+            "word": "prevailing",
+            "ipa": "/prɪˈveɪlɪŋ/",
+            "pos": "adj",
+            "meaning": "盛行的"
+          },
+          {
+            "word": "moderate",
+            "ipa": "/ˈmɒdərət/",
+            "pos": "adj",
+            "meaning": "适中的"
+          },
+          {
+            "word": "visibility",
+            "ipa": "/ˌvɪzəˈbɪləti/",
+            "pos": "n",
+            "meaning": "能见度"
+          },
+          {
+            "word": "radar",
+            "ipa": "/ˈreɪdɑːr/",
+            "pos": "n",
+            "meaning": "雷达"
+          },
+          {
+            "word": "hemisphere",
+            "ipa": "/ˈhemɪsfɪər/",
+            "pos": "n",
+            "meaning": "半球"
+          },
+          {
+            "word": "latitude",
+            "ipa": "/ˈlætɪtjuːd/",
+            "pos": "n",
+            "meaning": "纬度"
+          },
+          {
+            "word": "altitude",
+            "ipa": "/ˈæltɪtjuːd/",
+            "pos": "n",
+            "meaning": "海拔"
+          }
+        ],
+        "image": "../outputs/02-weather-and-climate/generated-with-text/02-card-04-generated-text.png"
+      },
+      {
+        "cardNumber": 5,
+        "subtitle": "季节与气候描述",
+        "words": [
+          {
+            "word": "blossom",
+            "ipa": "/ˈblɒsəm/",
+            "pos": "n/v",
+            "meaning": "花朵；开花"
+          },
+          {
+            "word": "harvest",
+            "ipa": "/ˈhɑːvɪst/",
+            "pos": "n/v",
+            "meaning": "收获"
+          },
+          {
+            "word": "wither",
+            "ipa": "/ˈwɪðər/",
+            "pos": "v",
+            "meaning": "枯萎"
+          },
+          {
+            "word": "biting",
+            "ipa": "/ˈbaɪtɪŋ/",
+            "pos": "adj",
+            "meaning": "刺骨的"
+          },
+          {
+            "word": "mild",
+            "ipa": "/maɪld/",
+            "pos": "adj",
+            "meaning": "温和的"
+          },
+          {
+            "word": "crisp",
+            "ipa": "/krɪsp/",
+            "pos": "adj",
+            "meaning": "清爽的"
+          },
+          {
+            "word": "sweltering",
+            "ipa": "/ˈsweltərɪŋ/",
+            "pos": "adj",
+            "meaning": "酷热的"
+          },
+          {
+            "word": "chilly",
+            "ipa": "/ˈtʃɪli/",
+            "pos": "adj",
+            "meaning": "寒冷的"
+          },
+          {
+            "word": "bloom",
+            "ipa": "/bluːm/",
+            "pos": "v/n",
+            "meaning": "绽放"
+          },
+          {
+            "word": "foliage",
+            "ipa": "/ˈfəʊliɪdʒ/",
+            "pos": "n",
+            "meaning": "树叶"
+          },
+          {
+            "word": "solstice",
+            "ipa": "/ˈsɒlstɪs/",
+            "pos": "n",
+            "meaning": "至日"
+          },
+          {
+            "word": "equinox",
+            "ipa": "/ˈiːkwɪnɒks/",
+            "pos": "n",
+            "meaning": "春/秋分"
+          },
+          {
+            "word": "hibernate",
+            "ipa": "/ˈhaɪbəneɪt/",
+            "pos": "v",
+            "meaning": "冬眠"
+          },
+          {
+            "word": "evergreen",
+            "ipa": "/ˈevəɡriːn/",
+            "pos": "adj/n",
+            "meaning": "常绿的"
+          },
+          {
+            "word": "monsoon",
+            "ipa": "/mɒnˈsuːn/",
+            "pos": "n",
+            "meaning": "季风"
+          },
+          {
+            "word": "temperate",
+            "ipa": "/ˈtempərət/",
+            "pos": "adj",
+            "meaning": "温带的"
+          },
+          {
+            "word": "perennial",
+            "ipa": "/pəˈreniəl/",
+            "pos": "adj",
+            "meaning": "常年的"
+          },
+          {
+            "word": "clement",
+            "ipa": "/ˈklemənt/",
+            "pos": "adj",
+            "meaning": "温暖宜人的"
+          }
+        ],
+        "image": "../outputs/02-weather-and-climate/generated-with-text/02-card-05-generated-text.png"
+      }
+    ],
+    "reading": {
+      "title": "Weathering the Storm — Climate Science from Observation to Action",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Throughout history, human beings have sought to understand and **forecast** the weather. Early agrarian societies relied on observing natural signs — the behaviour of animals, the colour of the sky at dawn — to anticipate changes in conditions. Today, **meteorology** has evolved into a rigorous scientific discipline, employing sophisticated instruments such as the **barometer** to measure **atmospheric** pressure and the **thermometer** to record temperature in both **Celsius** and **Fahrenheit** scales. Weather **satellites** orbiting the planet and ground-based **radar** systems provide continuous streams of data that allow meteorologists to track storms, map **precipitation** patterns, and issue warnings with unprecedented accuracy."
+        },
+        {
+          "label": "B",
+          "text": "Despite these advances, the atmosphere remains a system of extraordinary complexity. Temperatures **fluctuate** significantly between day and night, and **prevailing** wind patterns can shift with little warning, altering **visibility** and bringing unexpected conditions. In **temperate** regions, the change of seasons follows a broadly predictable rhythm. Spring brings **mild** weather as trees begin to **blossom** and **bloom**, while **foliage** turns golden and red during the **crisp** autumn months before **withering** in the approach of winter. The **solstice** and **equinox** mark critical astronomical transitions, influencing the length of daylight at different **latitudes** across each **hemisphere**. Yet within these seasonal frameworks, daily weather remains highly variable, shaped by **atmospheric** **circulation** patterns that interact across **moderate** to extreme temperature gradients and varying **altitudes**."
+        },
+        {
+          "label": "C",
+          "text": "At one extreme lie the gentle conditions that characterise calm periods: a light **breeze** rippling through grass, morning **dew** glistening on leaves, or a thin **drizzle** falling from an **overcast** sky. Such **clement** weather is often associated with stable high-pressure systems and is particularly welcomed in regions accustomed to harsher conditions. **Sunshine** and **moderate** warmth encourage outdoor activity and agricultural productivity. At the other extreme, however, the atmosphere can generate terrifying power. A **muggy**, oppressive afternoon may give way to violent **thunder** and **lightning**, with sudden **gusts** of wind and **hail** pounding the ground. When temperatures drop sharply, **frost** coats exposed surfaces, and mixed **precipitation** may fall as **sleet**, making travel hazardous. In the most **sweltering** summer months, prolonged heat can create **scorching** conditions that strain water supplies and threaten public health, while **biting** winter cold drives many animal **species** to **hibernate** until conditions improve."
+        },
+        {
+          "label": "D",
+          "text": "Extreme weather events represent the most destructive manifestation of atmospheric forces. **Hurricanes** and **typhoons** — essentially the same phenomenon occurring in different ocean basins — generate **turbulent** winds exceeding 250 kilometres per hour, capable of **devastating** coastal communities within hours. **Tornadoes**, though smaller in scale, concentrate their destructive energy along narrow paths, levelling buildings and uprooting **evergreen** and **deciduous** trees alike. **Blizzards** bring **relentless** snowfall and near-zero **visibility**, paralysing transportation networks. When excessive **precipitation** overwhelms drainage systems, rivers burst their banks: the resulting **floods** can **submerge** entire towns, triggering **landslides** on saturated hillsides and forcing authorities to **evacuate** thousands. In the **aftermath** of such disasters, **casualties** may number in the hundreds, and prolonged **drought** in other regions can trigger **famine** affecting millions, with **catastrophic** consequences for food security and social stability."
+        },
+        {
+          "label": "E",
+          "text": "Behind these immediate weather phenomena lies a longer-term crisis. The burning of **fossil fuels** releases vast quantities of **carbon dioxide** and other **greenhouse** gases, intensifying the natural **greenhouse** effect and causing global temperatures to rise. **Glaciers** in **polar** regions are **melting** at accelerating rates, contributing to rising **sea levels** that threaten low-lying nations. The **ozone** layer, which shields life from harmful ultraviolet radiation, has been **depleted** by industrial chemicals. Widespread **deforestation** removes natural carbon sinks, further increasing each nation's **carbon footprint**. Scientists warn that environmental conditions will continue to **deteriorate** unless decisive action is taken, and that some changes may prove **irreversible**."
+        },
+        {
+          "label": "F",
+          "text": "The **monsoon** systems of South and Southeast Asia illustrate how **perennial** climate patterns can bring both sustenance and destruction in equal measure. These seasonal wind reversals deliver the **precipitation** on which billions of people depend for agriculture, yet increasingly erratic **monsoon** behaviour — linked to broader climate disruption — has produced both devastating **floods** and prolonged **droughts** in recent years."
+        },
+        {
+          "label": "G",
+          "text": "Responding to this challenge requires a combination of **mitigation** and adaptation strategies. Transitioning to **sustainable** energy sources, reducing **emissions**, and restoring **ecological** balance through reforestation are essential steps. International cooperation and advances in climate science offer hope, but the window for meaningful action continues to narrow. The question is no longer whether the climate is changing, but whether humanity can change quickly enough to **mitigate** its most damaging effects."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage? - **TRUE** — if the statement agrees with the information - **FALSE** — if the statement contradicts the information - **NOT GIVEN** — if there is no information on this",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Early agricultural communities used scientific instruments to predict weather changes.",
+              "answer": "FALSE",
+              "explanation": "\"Early agrarian societies relied on observing natural signs — the behaviour of animals, the colour of the sky at dawn — to anticipate changes in conditions.\" · 文章说早期农业社会依靠\"观察自然迹象\"来预测天气，而非使用\"scientific instruments\"（科学仪器）。科学仪器（如气压计、温度计）是现代气象学的工具。题目与原文矛盾。"
+            },
+            {
+              "number": 2,
+              "text": "Hurricanes and typhoons are fundamentally different meteorological phenomena that occur in the same ocean basins.",
+              "answer": "FALSE",
+              "explanation": "\"Hurricanes and typhoons — essentially the same phenomenon occurring in different ocean basins\" · 文章明确说飓风和台风\"essentially the same phenomenon\"（本质上是同一现象），但发生在\"different ocean basins\"（不同的海洋盆地）。题目说它们是\"fundamentally different\"且发生在\"the same ocean basins\"，两处都与原文矛盾。"
+            },
+            {
+              "number": 3,
+              "text": "Blizzards cause near-zero visibility and can disrupt transportation systems.",
+              "answer": "TRUE",
+              "explanation": "\"Blizzards bring relentless snowfall and near-zero visibility, paralysing transportation networks.\" · 原文的\"near-zero visibility\"直接对应题目，\"paralysing transportation networks\"（使交通网络瘫痪）与\"disrupt transportation systems\"是同义替换。"
+            },
+            {
+              "number": 4,
+              "text": "The ozone layer has been damaged primarily by carbon dioxide emissions from vehicles.",
+              "answer": "NOT GIVEN",
+              "explanation": "\"The ozone layer... has been depleted by industrial chemicals.\" · 文章只说臭氧层被\"industrial chemicals\"（工业化学品）破坏，并未具体说是\"carbon dioxide emissions from vehicles\"（车辆排放的二氧化碳）。题目的具体归因在原文中找不到依据。"
+            },
+            {
+              "number": 5,
+              "text": "Monsoon systems in Asia provide water that is essential for agricultural production.",
+              "answer": "TRUE",
+              "explanation": "\"These seasonal wind reversals deliver the precipitation on which billions of people depend for agriculture\" · 原文说季风带来的降水\"billions of people depend for agriculture\"（数十亿人依赖于农业），题目说\"essential for agricultural production\"，是同义改写。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "mcq",
+          "title": "Questions 6-9: Multiple Choice",
+          "instruction": "Choose the correct letter, **A**, **B**, **C** or **D**.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "According to paragraph B, what determines the length of daylight hours in a given location?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "The prevailing wind patterns and atmospheric circulation"
+                },
+                {
+                  "key": "B",
+                  "text": "The latitude of the location and its position in a hemisphere"
+                },
+                {
+                  "key": "C",
+                  "text": "The altitude and temperature gradients of the region"
+                },
+                {
+                  "key": "D",
+                  "text": "The proximity of the location to the nearest ocean"
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落B原文说\"The solstice and equinox mark critical astronomical transitions, influencing the length of daylight at different latitudes across each hemisphere.\"——决定日照时长的是\"latitudes\"（纬度）和\"hemisphere\"（半球位置），对应选项B。其他选项提到的wind patterns、altitude、ocean proximity都不是原文中影响日照时长的因素。"
+            },
+            {
+              "number": 7,
+              "text": "The passage states that gentle weather conditions are typically associated with:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "low-pressure weather systems moving across a region"
+                },
+                {
+                  "key": "B",
+                  "text": "the interaction of cold and warm atmospheric fronts"
+                },
+                {
+                  "key": "C",
+                  "text": "stable high-pressure systems in the atmosphere"
+                },
+                {
+                  "key": "D",
+                  "text": "seasonal monsoon patterns in temperate climates"
+                }
+              ],
+              "answer": "C",
+              "explanation": "段落C原文说\"Such clement weather is often associated with stable high-pressure systems.\"——温和天气与\"stable high-pressure systems\"（稳定的高压系统）相关，直接对应选项C。注意\"associated with\"和选项中的语义一致。"
+            },
+            {
+              "number": 8,
+              "text": "Which of the following does the passage identify as a consequence of excessive precipitation?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Increased salinity in river water and soil degradation"
+                },
+                {
+                  "key": "B",
+                  "text": "Rivers overflowing, flooding of towns, and landslides on hillsides"
+                },
+                {
+                  "key": "C",
+                  "text": "Accelerated melting of polar glaciers and rising sea levels"
+                },
+                {
+                  "key": "D",
+                  "text": "Depletion of the ozone layer and increased ultraviolet radiation"
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落D原文说\"When excessive precipitation overwhelms drainage systems, rivers burst their banks: the resulting floods can submerge entire towns, triggering landslides on saturated hillsides.\"——过量降水导致河流溃堤、城镇被淹、山体滑坡，直接对应选项B。选项A、C、D虽然在文中有提及，但不是\"excessive precipitation\"的直接后果。"
+            },
+            {
+              "number": 9,
+              "text": "What does the passage suggest about the future of climate change?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "International cooperation has already resolved the most urgent issues."
+                },
+                {
+                  "key": "B",
+                  "text": "Technological advances will automatically reverse all environmental damage."
+                },
+                {
+                  "key": "C",
+                  "text": "Some changes may be permanent if action is not taken promptly."
+                },
+                {
+                  "key": "D",
+                  "text": "Sustainable energy sources have fully replaced fossil fuels globally."
+                }
+              ],
+              "answer": "C",
+              "explanation": "段落G原文说\"some changes may prove irreversible\"，段落E也提到\"conditions will continue to deteriorate unless decisive action is taken.\"——如果不及时行动，一些变化可能是永久性的，对应选项C。选项A、B、D都过于绝对，与原文不符。"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose **ONE WORD ONLY** from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "glaciers",
+              "explanation": "\"Glaciers in polar regions are melting at accelerating rates\" · 题目的\"melting faster than before\"对应原文的\"melting at accelerating rates\"，正在加速融化的是\"glaciers\"（冰川）。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "sea",
+              "explanation": "\"contributing to rising sea levels that threaten low-lying nations\" · 冰川融化导致\"sea levels\"上升。题目空格后已有\"levels\"，因此答案是\"sea\"。注意：Summary Completion要求填ONE WORD ONLY。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "deforestation",
+              "explanation": "\"Widespread deforestation removes natural carbon sinks\" · 题目用\"the clearing of forests\"（森林砍伐）来释义，原文对应词就是\"deforestation\"（滥伐森林）。这是典型的同义替换考法：clearing of forests = deforestation。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "mitigate",
+              "explanation": "\"whether humanity can change quickly enough to mitigate its most damaging effects\" · 题目中\"work together to __(13)__ the most harmful consequences\"对应原文\"mitigate its most damaging effects\"。注意 consequences = effects，harmful = damaging 的同义替换。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "The burning of fossil fuels has increased the concentration of greenhouse gases, causing global warming. In polar regions, **__"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "** are melting faster than before, which raises **__"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "** levels around the world. Meanwhile, the clearing of forests, known as **__"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "**, removes natural systems that absorb carbon. Experts caution that environmental conditions will keep getting worse unless countries work together to **__"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "** the most harmful consequences. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
+  },
+  {
+    "slug": "03-animals-and-wildlife-round2",
+    "title": "动物与野生动物（Animals & Wildlife）— 第二轮·进阶版",
+    "shortTitle": "Animals And Wildlife Round2",
+    "cards": [
+      {
+        "cardNumber": 1,
+        "subtitle": "动物认知与交流（Animal Cognition & Communication）",
+        "words": [
+          {
+            "word": "sentient",
+            "ipa": "/ˈsentiənt/",
+            "pos": "adj",
+            "meaning": "有知觉的"
+          },
+          {
+            "word": "cognition",
+            "ipa": "/kɒɡˈnɪʃn/",
+            "pos": "n",
+            "meaning": "认知"
+          },
+          {
+            "word": "echolocation",
+            "ipa": "/ˌekəʊləʊˈkeɪʃn/",
+            "pos": "n",
+            "meaning": "回声定位"
+          },
+          {
+            "word": "vocalization",
+            "ipa": "/ˌvəʊkəlaɪˈzeɪʃn/",
+            "pos": "n",
+            "meaning": "发声"
+          },
+          {
+            "word": "pheromone",
+            "ipa": "/ˈferəməʊn/",
+            "pos": "n",
+            "meaning": "信息素"
+          },
+          {
+            "word": "mimicry",
+            "ipa": "/ˈmɪmɪkri/",
+            "pos": "n",
+            "meaning": "拟态"
+          },
+          {
+            "word": "altruism",
+            "ipa": "/ˈæltruɪzəm/",
+            "pos": "n",
+            "meaning": "利他行为"
+          },
+          {
+            "word": "empathy",
+            "ipa": "/ˈempəθi/",
+            "pos": "n",
+            "meaning": "共情"
+          },
+          {
+            "word": "self-awareness",
+            "ipa": "/self əˈweənəs/",
+            "pos": "n",
+            "meaning": "自我意识"
+          },
+          {
+            "word": "dexterity",
+            "ipa": "/dekˈsterəti/",
+            "pos": "n",
+            "meaning": "灵巧"
+          },
+          {
+            "word": "innate",
+            "ipa": "/ɪˈneɪt/",
+            "pos": "adj",
+            "meaning": "天生的"
+          },
+          {
+            "word": "acquired",
+            "ipa": "/əˈkwaɪəd/",
+            "pos": "adj",
+            "meaning": "后天习得的"
+          },
+          {
+            "word": "cooperative",
+            "ipa": "/kəʊˈɒpərətɪv/",
+            "pos": "adj",
+            "meaning": "合作的"
+          },
+          {
+            "word": "solitary",
+            "ipa": "/ˈsɒlətri/",
+            "pos": "adj",
+            "meaning": "独居的"
+          },
+          {
+            "word": "anthropomorphize",
+            "ipa": "/ˌænθrəpəˈmɔːfaɪz/",
+            "pos": "v",
+            "meaning": "拟人化"
+          },
+          {
+            "word": "sociable",
+            "ipa": "/ˈsəʊʃəbl/",
+            "pos": "adj",
+            "meaning": "社会性的"
+          },
+          {
+            "word": "deceptive",
+            "ipa": "/dɪˈseptɪv/",
+            "pos": "adj",
+            "meaning": "欺骗性的"
+          }
+        ],
+        "image": "../outputs/03-animals-and-wildlife-round2/generated-with-text/03-card-01-generated-text.png"
+      },
+      {
+        "cardNumber": 2,
+        "subtitle": "生理与解剖进阶（Advanced Physiology & Anatomy）",
+        "words": [
+          {
+            "word": "exoskeleton",
+            "ipa": "/ˌeksəʊˈskelɪtn/",
+            "pos": "n",
+            "meaning": "外骨骼"
+          },
+          {
+            "word": "appendage",
+            "ipa": "/əˈpendɪdʒ/",
+            "pos": "n",
+            "meaning": "附肢"
+          },
+          {
+            "word": "gestation",
+            "ipa": "/dʒeˈsteɪʃn/",
+            "pos": "n",
+            "meaning": "妊娠期"
+          },
+          {
+            "word": "incubate",
+            "ipa": "/ˈɪŋkjəbeɪt/",
+            "pos": "v",
+            "meaning": "孵化"
+          },
+          {
+            "word": "molt",
+            "ipa": "/məʊlt/",
+            "pos": "v",
+            "meaning": "蜕皮"
+          },
+          {
+            "word": "regenerate",
+            "ipa": "/rɪˈdʒenəreɪt/",
+            "pos": "v",
+            "meaning": "再生"
+          },
+          {
+            "word": "dormant",
+            "ipa": "/ˈdɔːmənt/",
+            "pos": "adj",
+            "meaning": "休眠的"
+          },
+          {
+            "word": "ectothermic",
+            "ipa": "/ˌektəʊˈθɜːmɪk/",
+            "pos": "adj",
+            "meaning": "变温的"
+          },
+          {
+            "word": "endothermic",
+            "ipa": "/ˌendəʊˈθɜːmɪk/",
+            "pos": "adj",
+            "meaning": "恒温的"
+          },
+          {
+            "word": "bioluminescence",
+            "ipa": "/ˌbaɪəʊˌluːmɪˈnesns/",
+            "pos": "n",
+            "meaning": "生物发光"
+          },
+          {
+            "word": "secrete",
+            "ipa": "/sɪˈkriːt/",
+            "pos": "v",
+            "meaning": "分泌"
+          },
+          {
+            "word": "gland",
+            "ipa": "/ɡlænd/",
+            "pos": "n",
+            "meaning": "腺体"
+          },
+          {
+            "word": "metabolism",
+            "ipa": "/məˈtæbəlɪzəm/",
+            "pos": "n",
+            "meaning": "新陈代谢"
+          },
+          {
+            "word": "physiology",
+            "ipa": "/ˌfɪziˈɒlədʒi/",
+            "pos": "n",
+            "meaning": "生理学"
+          },
+          {
+            "word": "keratin",
+            "ipa": "/ˈkerətɪn/",
+            "pos": "n",
+            "meaning": "角蛋白"
+          },
+          {
+            "word": "cartilage",
+            "ipa": "/ˈkɑːtəlɪdʒ/",
+            "pos": "n",
+            "meaning": "软骨"
+          },
+          {
+            "word": "vestigial",
+            "ipa": "/veˈstɪdʒiəl/",
+            "pos": "adj",
+            "meaning": "退化的"
+          },
+          {
+            "word": "anatomy",
+            "ipa": "/əˈnætəmi/",
+            "pos": "n",
+            "meaning": "解剖学"
+          }
+        ],
+        "image": "../outputs/03-animals-and-wildlife-round2/generated-with-text/03-card-02-generated-text.png"
+      },
+      {
+        "cardNumber": 3,
+        "subtitle": "人类与野生动物的冲突与共存（Human-Wildlife Conflict & Coexistence）",
+        "words": [
+          {
+            "word": "livestock",
+            "ipa": "/ˈlaɪvstɒk/",
+            "pos": "n",
+            "meaning": "牲畜"
+          },
+          {
+            "word": "crop-raiding",
+            "ipa": "/krɒp ˈreɪdɪŋ/",
+            "pos": "n",
+            "meaning": "农作物侵扰"
+          },
+          {
+            "word": "buffer zone",
+            "ipa": "/ˈbʌfər zəʊn/",
+            "pos": "n",
+            "meaning": "缓冲区"
+          },
+          {
+            "word": "compensation",
+            "ipa": "/ˌkɒmpenˈseɪʃn/",
+            "pos": "n",
+            "meaning": "补偿"
+          },
+          {
+            "word": "coexistence",
+            "ipa": "/ˌkəʊɪɡˈzɪstəns/",
+            "pos": "n",
+            "meaning": "共存"
+          },
+          {
+            "word": "mitigate",
+            "ipa": "/ˈmɪtɪɡeɪt/",
+            "pos": "v",
+            "meaning": "减轻"
+          },
+          {
+            "word": "translocate",
+            "ipa": "/ˌtrænsləʊˈkeɪt/",
+            "pos": "v",
+            "meaning": "易地放归"
+          },
+          {
+            "word": "tolerance",
+            "ipa": "/ˈtɒlərəns/",
+            "pos": "n",
+            "meaning": "容忍度"
+          },
+          {
+            "word": "livelihood",
+            "ipa": "/ˈlaɪvlihʊd/",
+            "pos": "n",
+            "meaning": "生计"
+          },
+          {
+            "word": "retaliatory",
+            "ipa": "/rɪˈtæliətri/",
+            "pos": "adj",
+            "meaning": "报复性的"
+          },
+          {
+            "word": "deterrent",
+            "ipa": "/dɪˈterənt/",
+            "pos": "n",
+            "meaning": "威慑物"
+          },
+          {
+            "word": "overpopulation",
+            "ipa": "/ˌəʊvəpɒpjuˈleɪʃn/",
+            "pos": "n",
+            "meaning": "过度繁殖"
+          },
+          {
+            "word": "relocation",
+            "ipa": "/ˌriːləʊˈkeɪʃn/",
+            "pos": "n",
+            "meaning": "迁移安置"
+          },
+          {
+            "word": "resentment",
+            "ipa": "/rɪˈzentmənt/",
+            "pos": "n",
+            "meaning": "憎恨情绪"
+          },
+          {
+            "word": "friction",
+            "ipa": "/ˈfrɪkʃn/",
+            "pos": "n",
+            "meaning": "摩擦冲突"
+          },
+          {
+            "word": "cull",
+            "ipa": "/kʌl/",
+            "pos": "v",
+            "meaning": "捕杀（控制数量）"
+          },
+          {
+            "word": "stakeholder",
+            "ipa": "/ˈsteɪkhəʊldər/",
+            "pos": "n",
+            "meaning": "利益相关者"
+          }
+        ],
+        "image": "../outputs/03-animals-and-wildlife-round2/generated-with-text/03-card-03-generated-text.png"
+      },
+      {
+        "cardNumber": 4,
+        "subtitle": "濒危物种与遗传危机（Extinction Risk & Genetic Crisis）",
+        "words": [
+          {
+            "word": "inbreeding",
+            "ipa": "/ˈɪnbriːdɪŋ/",
+            "pos": "n",
+            "meaning": "近亲繁殖"
+          },
+          {
+            "word": "genetic diversity",
+            "ipa": "/dʒəˈnetɪk daɪˈvɜːsəti/",
+            "pos": "n",
+            "meaning": "基因多样性"
+          },
+          {
+            "word": "bottleneck",
+            "ipa": "/ˈbɒtlnek/",
+            "pos": "n",
+            "meaning": "瓶颈（种群）"
+          },
+          {
+            "word": "fragmentation",
+            "ipa": "/ˌfræɡmenˈteɪʃn/",
+            "pos": "n",
+            "meaning": "破碎化（栖息地）"
+          },
+          {
+            "word": "keystone species",
+            "ipa": "/ˈkiːstəʊn ˈspiːʃiːz/",
+            "pos": "n",
+            "meaning": "关键种"
+          },
+          {
+            "word": "apex predator",
+            "ipa": "/ˈeɪpeks ˈpredətər/",
+            "pos": "n",
+            "meaning": "顶级捕食者"
+          },
+          {
+            "word": "trophic cascade",
+            "ipa": "/ˈtrɒfɪk kæˈskeɪd/",
+            "pos": "n",
+            "meaning": "营养级联"
+          },
+          {
+            "word": "umbrella species",
+            "ipa": "/ʌmˈbrelə ˈspiːʃiːz/",
+            "pos": "n",
+            "meaning": "伞护种"
+          },
+          {
+            "word": "viable",
+            "ipa": "/ˈvaɪəbl/",
+            "pos": "adj",
+            "meaning": "可存活的"
+          },
+          {
+            "word": "vulnerability",
+            "ipa": "/ˌvʌlnərəˈbɪləti/",
+            "pos": "n",
+            "meaning": "脆弱性"
+          },
+          {
+            "word": "irreversible",
+            "ipa": "/ˌɪrɪˈvɜːsəbl/",
+            "pos": "adj",
+            "meaning": "不可逆转的"
+          },
+          {
+            "word": "tipping point",
+            "ipa": "/ˈtɪpɪŋ pɔɪnt/",
+            "pos": "n",
+            "meaning": "临界点"
+          },
+          {
+            "word": "gene pool",
+            "ipa": "/dʒiːn puːl/",
+            "pos": "n",
+            "meaning": "基因库"
+          },
+          {
+            "word": "genetic drift",
+            "ipa": "/dʒəˈnetɪk drɪft/",
+            "pos": "n",
+            "meaning": "基因漂变"
+          },
+          {
+            "word": "biodiversity hotspot",
+            "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti ˈhɒtspɒt/",
+            "pos": "n",
+            "meaning": "生物多样性热点"
+          },
+          {
+            "word": "extirpate",
+            "ipa": "/ˈekstɜːpeɪt/",
+            "pos": "v",
+            "meaning": "局部灭绝"
+          },
+          {
+            "word": "functional extinction",
+            "ipa": "/ˈfʌŋkʃənl ɪkˈstɪŋkʃn/",
+            "pos": "n",
+            "meaning": "功能性灭绝"
+          }
+        ],
+        "image": "../outputs/03-animals-and-wildlife-round2/generated-with-text/03-card-04-generated-text.png"
+      },
+      {
+        "cardNumber": 5,
+        "subtitle": "动物园与圈养动物伦理（Zoos, Captivity Ethics & Animal Welfare）",
+        "words": [
+          {
+            "word": "welfare",
+            "ipa": "/ˈwelfeər/",
+            "pos": "n",
+            "meaning": "福利"
+          },
+          {
+            "word": "enclosure",
+            "ipa": "/ɪnˈkləʊʒər/",
+            "pos": "n",
+            "meaning": "围栏"
+          },
+          {
+            "word": "husbandry",
+            "ipa": "/ˈhʌzbəndri/",
+            "pos": "n",
+            "meaning": "饲养管理"
+          },
+          {
+            "word": "veterinary",
+            "ipa": "/ˈvetrɪnri/",
+            "pos": "adj",
+            "meaning": "兽医的"
+          },
+          {
+            "word": "enrichment",
+            "ipa": "/ɪnˈrɪtʃmənt/",
+            "pos": "n",
+            "meaning": "（行为）丰容"
+          },
+          {
+            "word": "stereotypic behavior",
+            "ipa": "/ˌsteriəˈtɪpɪk bɪˈheɪvjər/",
+            "pos": "n",
+            "meaning": "刻板行为"
+          },
+          {
+            "word": "confinement",
+            "ipa": "/kənˈfaɪnmənt/",
+            "pos": "n",
+            "meaning": "圈禁"
+          },
+          {
+            "word": "exhibit",
+            "ipa": "/ɪɡˈzɪbɪt/",
+            "pos": "n",
+            "meaning": "展区"
+          },
+          {
+            "word": "ethology",
+            "ipa": "/iːˈθɒlədʒi/",
+            "pos": "n",
+            "meaning": "动物行为学"
+          },
+          {
+            "word": "sedate",
+            "ipa": "/sɪˈdeɪt/",
+            "pos": "v",
+            "meaning": "使镇静"
+          },
+          {
+            "word": "tranquilize",
+            "ipa": "/ˈtræŋkwɪlaɪz/",
+            "pos": "v",
+            "meaning": "使镇定（麻醉）"
+          },
+          {
+            "word": "microchip",
+            "ipa": "/ˈmaɪkrəʊtʃɪp/",
+            "pos": "v",
+            "meaning": "植入芯片"
+          },
+          {
+            "word": "neuter",
+            "ipa": "/ˈnjuːtər/",
+            "pos": "v",
+            "meaning": "绝育"
+          },
+          {
+            "word": "wean",
+            "ipa": "/wiːn/",
+            "pos": "v",
+            "meaning": "断奶"
+          },
+          {
+            "word": "surrogate",
+            "ipa": "/ˈsʌrəɡət/",
+            "pos": "n",
+            "meaning": "代养"
+          },
+          {
+            "word": "anthropocentric",
+            "ipa": "/ˌænθrəpəʊˈsentrɪk/",
+            "pos": "adj",
+            "meaning": "人类中心的"
+          }
+        ],
+        "image": "../outputs/03-animals-and-wildlife-round2/generated-with-text/03-card-05-generated-text.png"
+      }
+    ],
+    "reading": null
+  },
+  {
+    "slug": "03-animals-and-wildlife",
+    "title": "动物与野生动物（Animals & Wildlife）",
+    "shortTitle": "Animals And Wildlife",
+    "cards": [
+      {
+        "cardNumber": 1,
+        "subtitle": "草原生态与食物链",
+        "words": [
+          {
+            "word": "graze",
+            "ipa": "/ɡreɪz/",
+            "pos": "v",
+            "meaning": "吃草"
+          },
+          {
+            "word": "herbivore",
+            "ipa": "/ˈhɜːbɪvɔːr/",
+            "pos": "n",
+            "meaning": "食草动物"
+          },
+          {
+            "word": "aquatic",
+            "ipa": "/əˈkwætɪk/",
+            "pos": "adj",
+            "meaning": "水生的"
+          },
+          {
+            "word": "predator",
+            "ipa": "/ˈpredətər/",
+            "pos": "n",
+            "meaning": "捕食者"
+          },
+          {
+            "word": "prey",
+            "ipa": "/preɪ/",
+            "pos": "n",
+            "meaning": "猎物"
+          },
+          {
+            "word": "camouflage",
+            "ipa": "/ˈkæməflɑːʒ/",
+            "pos": "n",
+            "meaning": "伪装"
+          },
+          {
+            "word": "mammal",
+            "ipa": "/ˈmæml/",
+            "pos": "n",
+            "meaning": "哺乳动物"
+          },
+          {
+            "word": "migration",
+            "ipa": "/maɪˈɡreɪʃn/",
+            "pos": "n",
+            "meaning": "迁徙"
+          },
+          {
+            "word": "territory",
+            "ipa": "/ˈterətri/",
+            "pos": "n",
+            "meaning": "领地"
+          },
+          {
+            "word": "species",
+            "ipa": "/ˈspiːʃiːz/",
+            "pos": "n",
+            "meaning": "物种"
+          },
+          {
+            "word": "reptile",
+            "ipa": "/ˈreptaɪl/",
+            "pos": "n",
+            "meaning": "爬行动物"
+          },
+          {
+            "word": "adapt",
+            "ipa": "/əˈdæpt/",
+            "pos": "v",
+            "meaning": "适应"
+          },
+          {
+            "word": "habitat",
+            "ipa": "/ˈhæbɪtæt/",
+            "pos": "n",
+            "meaning": "栖息地"
+          },
+          {
+            "word": "nurture",
+            "ipa": "/ˈnɜːtʃər/",
+            "pos": "v",
+            "meaning": "养育"
+          },
+          {
+            "word": "extinct",
+            "ipa": "/ɪkˈstɪŋkt/",
+            "pos": "adj",
+            "meaning": "灭绝的"
+          },
+          {
+            "word": "endangered",
+            "ipa": "/ɪnˈdeɪndʒəd/",
+            "pos": "adj",
+            "meaning": "濒危的"
+          },
+          {
+            "word": "conservation",
+            "ipa": "/ˌkɒnsəˈveɪʃn/",
+            "pos": "n",
+            "meaning": "保育"
+          }
+        ],
+        "image": "../outputs/03-animals-and-wildlife/generated-with-text/03-card-01-generated-text.png"
+      },
+      {
+        "cardNumber": 2,
+        "subtitle": "海洋生物",
+        "words": [
+          {
+            "word": "marine",
+            "ipa": "/məˈriːn/",
+            "pos": "adj",
+            "meaning": "海洋的"
+          },
+          {
+            "word": "dolphin",
+            "ipa": "/ˈdɒlfɪn/",
+            "pos": "n",
+            "meaning": "海豚"
+          },
+          {
+            "word": "whale",
+            "ipa": "/weɪl/",
+            "pos": "n",
+            "meaning": "鲸鱼"
+          },
+          {
+            "word": "shark",
+            "ipa": "/ʃɑːk/",
+            "pos": "n",
+            "meaning": "鲨鱼"
+          },
+          {
+            "word": "coral",
+            "ipa": "/ˈkɒrəl/",
+            "pos": "n",
+            "meaning": "珊瑚"
+          },
+          {
+            "word": "tentacle",
+            "ipa": "/ˈtentəkl/",
+            "pos": "n",
+            "meaning": "触手"
+          },
+          {
+            "word": "invertebrate",
+            "ipa": "/ɪnˈvɜːtɪbrət/",
+            "pos": "n",
+            "meaning": "无脊椎动物"
+          },
+          {
+            "word": "plankton",
+            "ipa": "/ˈplæŋktən/",
+            "pos": "n",
+            "meaning": "浮游生物"
+          },
+          {
+            "word": "fin",
+            "ipa": "/fɪn/",
+            "pos": "n",
+            "meaning": "鳍"
+          },
+          {
+            "word": "gill",
+            "ipa": "/ɡɪl/",
+            "pos": "n",
+            "meaning": "鳃"
+          },
+          {
+            "word": "spawn",
+            "ipa": "/spɔːn/",
+            "pos": "v",
+            "meaning": "产卵"
+          },
+          {
+            "word": "shoal",
+            "ipa": "/ʃəʊl/",
+            "pos": "n",
+            "meaning": "鱼群"
+          },
+          {
+            "word": "predatory",
+            "ipa": "/ˈpredətri/",
+            "pos": "adj",
+            "meaning": "掠食性的"
+          },
+          {
+            "word": "symbiosis",
+            "ipa": "/ˌsɪmbaɪˈəʊsɪs/",
+            "pos": "n",
+            "meaning": "共生"
+          },
+          {
+            "word": "ecosystem",
+            "ipa": "/ˈiːkəʊsɪstəm/",
+            "pos": "n",
+            "meaning": "生态系统"
+          },
+          {
+            "word": "biodiversity",
+            "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+            "pos": "n",
+            "meaning": "生物多样性"
+          }
+        ],
+        "image": "../outputs/03-animals-and-wildlife/generated-with-text/03-card-02-generated-text.png"
+      },
+      {
+        "cardNumber": 3,
+        "subtitle": "鸟类与昆虫",
+        "words": [
+          {
+            "word": "avian",
+            "ipa": "/ˈeɪviən/",
+            "pos": "adj",
+            "meaning": "鸟类的"
+          },
+          {
+            "word": "plumage",
+            "ipa": "/ˈpluːmɪdʒ/",
+            "pos": "n",
+            "meaning": "羽毛"
+          },
+          {
+            "word": "beak",
+            "ipa": "/biːk/",
+            "pos": "n",
+            "meaning": "喙"
+          },
+          {
+            "word": "flock",
+            "ipa": "/flɒk/",
+            "pos": "n",
+            "meaning": "鸟群"
+          },
+          {
+            "word": "migratory",
+            "ipa": "/ˈmaɪɡrətri/",
+            "pos": "adj",
+            "meaning": "迁徙的"
+          },
+          {
+            "word": "wingspan",
+            "ipa": "/ˈwɪŋspæn/",
+            "pos": "n",
+            "meaning": "翼展"
+          },
+          {
+            "word": "nocturnal",
+            "ipa": "/nɒkˈtɜːnl/",
+            "pos": "adj",
+            "meaning": "夜行的"
+          },
+          {
+            "word": "hibernate",
+            "ipa": "/ˈhaɪbəneɪt/",
+            "pos": "v",
+            "meaning": "冬眠"
+          },
+          {
+            "word": "pollinate",
+            "ipa": "/ˈpɒlɪneɪt/",
+            "pos": "v",
+            "meaning": "授粉"
+          },
+          {
+            "word": "larva",
+            "ipa": "/ˈlɑːvə/",
+            "pos": "n",
+            "meaning": "幼虫"
+          },
+          {
+            "word": "metamorphosis",
+            "ipa": "/ˌmetəˈmɔːfəsɪs/",
+            "pos": "n",
+            "meaning": "变态发育"
+          },
+          {
+            "word": "swarm",
+            "ipa": "/swɔːm/",
+            "pos": "n",
+            "meaning": "虫群"
+          },
+          {
+            "word": "parasite",
+            "ipa": "/ˈpærəsaɪt/",
+            "pos": "n",
+            "meaning": "寄生虫"
+          },
+          {
+            "word": "forage",
+            "ipa": "/ˈfɒrɪdʒ/",
+            "pos": "v",
+            "meaning": "觅食"
+          },
+          {
+            "word": "indigenous",
+            "ipa": "/ɪnˈdɪdʒənəs/",
+            "pos": "adj",
+            "meaning": "本土的"
+          },
+          {
+            "word": "ornithology",
+            "ipa": "/ˌɔːnɪˈθɒlədʒi/",
+            "pos": "n",
+            "meaning": "鸟类学"
+          },
+          {
+            "word": "insecticide",
+            "ipa": "/ɪnˈsektɪsaɪd/",
+            "pos": "n",
+            "meaning": "杀虫剂"
+          }
+        ],
+        "image": "../outputs/03-animals-and-wildlife/generated-with-text/03-card-03-generated-text.png"
+      },
+      {
+        "cardNumber": 4,
+        "subtitle": "野生动物保护",
+        "words": [
+          {
+            "word": "sanctuary",
+            "ipa": "/ˈsæŋktʃuəri/",
+            "pos": "n",
+            "meaning": "保护区"
+          },
+          {
+            "word": "reserve",
+            "ipa": "/rɪˈzɜːv/",
+            "pos": "n",
+            "meaning": "自然保护区"
+          },
+          {
+            "word": "poaching",
+            "ipa": "/ˈpəʊtʃɪŋ/",
+            "pos": "n",
+            "meaning": "偷猎"
+          },
+          {
+            "word": "trafficking",
+            "ipa": "/ˈtræfɪkɪŋ/",
+            "pos": "n",
+            "meaning": "非法贩卖"
+          },
+          {
+            "word": "captivity",
+            "ipa": "/kæpˈtɪvəti/",
+            "pos": "n",
+            "meaning": "圈养"
+          },
+          {
+            "word": "rehabilitate",
+            "ipa": "/ˌriːəˈbɪlɪteɪt/",
+            "pos": "v",
+            "meaning": "康复放归"
+          },
+          {
+            "word": "breed",
+            "ipa": "/briːd/",
+            "pos": "v",
+            "meaning": "繁殖"
+          },
+          {
+            "word": "reintroduce",
+            "ipa": "/ˌriːɪntrəˈdjuːs/",
+            "pos": "v",
+            "meaning": "重新引入"
+          },
+          {
+            "word": "corridor",
+            "ipa": "/ˈkɒrɪdɔːr/",
+            "pos": "n",
+            "meaning": "生态走廊"
+          },
+          {
+            "word": "deforestation",
+            "ipa": "/diːˌfɒrɪˈsteɪʃn/",
+            "pos": "n",
+            "meaning": "滥伐森林"
+          },
+          {
+            "word": "encroach",
+            "ipa": "/ɪnˈkrəʊtʃ/",
+            "pos": "v",
+            "meaning": "侵占"
+          },
+          {
+            "word": "flora",
+            "ipa": "/ˈflɔːrə/",
+            "pos": "n",
+            "meaning": "植物群"
+          },
+          {
+            "word": "fauna",
+            "ipa": "/ˈfɔːnə/",
+            "pos": "n",
+            "meaning": "动物群"
+          },
+          {
+            "word": "rewild",
+            "ipa": "/riːˈwaɪld/",
+            "pos": "v",
+            "meaning": "再野化"
+          },
+          {
+            "word": "ecotourism",
+            "ipa": "/ˈiːkəʊˌtʊərɪzəm/",
+            "pos": "n",
+            "meaning": "生态旅游"
+          },
+          {
+            "word": "preserve",
+            "ipa": "/prɪˈzɜːv/",
+            "pos": "v",
+            "meaning": "保护"
+          },
+          {
+            "word": "ranger",
+            "ipa": "/ˈreɪndʒər/",
+            "pos": "n",
+            "meaning": "护林员"
+          }
+        ],
+        "image": "../outputs/03-animals-and-wildlife/generated-with-text/03-card-04-generated-text.png"
+      },
+      {
+        "cardNumber": 5,
+        "subtitle": "动物行为与进化",
+        "words": [
+          {
+            "word": "instinct",
+            "ipa": "/ˈɪnstɪŋkt/",
+            "pos": "n",
+            "meaning": "本能"
+          },
+          {
+            "word": "dominant",
+            "ipa": "/ˈdɒmɪnənt/",
+            "pos": "adj",
+            "meaning": "占主导的"
+          },
+          {
+            "word": "hierarchy",
+            "ipa": "/ˈhaɪərɑːki/",
+            "pos": "n",
+            "meaning": "等级制度"
+          },
+          {
+            "word": "offspring",
+            "ipa": "/ˈɒfsprɪŋ/",
+            "pos": "n",
+            "meaning": "后代"
+          },
+          {
+            "word": "evolve",
+            "ipa": "/ɪˈvɒlv/",
+            "pos": "v",
+            "meaning": "进化"
+          },
+          {
+            "word": "trait",
+            "ipa": "/treɪt/",
+            "pos": "n",
+            "meaning": "特征"
+          },
+          {
+            "word": "hereditary",
+            "ipa": "/hɪˈredɪtri/",
+            "pos": "adj",
+            "meaning": "遗传的"
+          },
+          {
+            "word": "mutation",
+            "ipa": "/mjuːˈteɪʃn/",
+            "pos": "n",
+            "meaning": "突变"
+          },
+          {
+            "word": "survival",
+            "ipa": "/səˈvaɪvl/",
+            "pos": "n",
+            "meaning": "存活"
+          },
+          {
+            "word": "fertile",
+            "ipa": "/ˈfɜːtaɪl/",
+            "pos": "adj",
+            "meaning": "能繁殖的"
+          },
+          {
+            "word": "domesticate",
+            "ipa": "/dəˈmestɪkeɪt/",
+            "pos": "v",
+            "meaning": "驯化"
+          },
+          {
+            "word": "vertebrate",
+            "ipa": "/ˈvɜːtɪbrət/",
+            "pos": "n",
+            "meaning": "脊椎动物"
+          },
+          {
+            "word": "primate",
+            "ipa": "/ˈpraɪmeɪt/",
+            "pos": "n",
+            "meaning": "灵长类"
+          },
+          {
+            "word": "carnivore",
+            "ipa": "/ˈkɑːnɪvɔːr/",
+            "pos": "n",
+            "meaning": "食肉动物"
+          },
+          {
+            "word": "scavenger",
+            "ipa": "/ˈskævɪndʒər/",
+            "pos": "n",
+            "meaning": "食腐动物"
+          },
+          {
+            "word": "venomous",
+            "ipa": "/ˈvenəməs/",
+            "pos": "adj",
+            "meaning": "有毒的"
+          },
+          {
+            "word": "agile",
+            "ipa": "/ˈædʒaɪl/",
+            "pos": "adj",
+            "meaning": "敏捷的"
+          }
+        ],
+        "image": "../outputs/03-animals-and-wildlife/generated-with-text/03-card-05-generated-text.png"
+      }
+    ],
+    "reading": {
+      "title": "The Struggle to Preserve the Serengeti's Living Web",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The Serengeti-Mara ecosystem in East Africa is one of the last places on Earth where the ancient rhythms of animal life persist on a grand scale. Every year, over a million wildebeest — large **herbivore** **mammals** — **graze** across vast grasslands alongside zebras and gazelles. This mass **migration** is the most spectacular seasonal movement of any terrestrial **species**, covering nearly three thousand kilometres in a circular route that follows the rains. The animals traverse open savannah and cross crocodile-infested rivers, driven by an **instinct** so deeply embedded that no fence or drought can fully suppress it."
+        },
+        {
+          "label": "B",
+          "text": "The journey is perilous. Lions, cheetahs and hyenas — the region's apex **predators** — rely on the herds for **prey**. A cheetah's **agile** body, capable of accelerating to 110 km/h, makes it a formidable hunter, yet only about one in ten chases ends in a kill. Many hunts fail because the target animals employ **camouflage** or collective vigilance. Zebras, for example, bunch together so that their striped patterns confuse a **predatory** attacker's ability to single out an individual. Below the grass, **venomous** snakes and **reptiles** bask in the equatorial heat, occupying an entirely different ecological niche."
+        },
+        {
+          "label": "C",
+          "text": "Survival in the Serengeti demands constant adaptation. Every creature must **adapt** to fluctuations in rainfall, **territory** boundaries and food availability. **Nocturnal** hunters such as leopards **forage** under cover of darkness, avoiding the competitive daytime hours. **Avian** **species** are equally resourceful: the oxpecker, a small bird with a specialised **beak**, feeds on ticks clinging to buffalo hides — a textbook case of **symbiosis** that benefits both the bird and its host. Meanwhile, vultures, the ecosystem's primary **scavengers**, patrol the skies searching for carcasses, recycling nutrients back into the soil."
+        },
+        {
+          "label": "D",
+          "text": "Beneath the visible drama of predation lies a more fundamental biological engine. **Plankton** blooms in the region's **aquatic** lakes feed fish that sustain **shoals** of flamingoes. **Coral**-like calcium structures built by freshwater invertebrates create micro-**habitats** essential for **invertebrate** larvae. These **marine**-adjacent freshwater systems are often overlooked, yet their **biodiversity** underpins the health of the wider **ecosystem**. Scientists studying these waterways have identified over 500 **indigenous** freshwater species, many found nowhere else."
+        },
+        {
+          "label": "E",
+          "text": "Reproduction is another arena of relentless competition. Animals that **breed** successfully pass on favourable **traits** to their **offspring** through **hereditary** mechanisms. Genetic **mutations** occasionally introduce new characteristics — longer legs, sharper claws — that may improve **survival** prospects. Over millennia, such variation has allowed the Serengeti's **fauna** to **evolve** extraordinary specialisations. **Primates** in the gallery forests demonstrate tool use; **carnivores** cooperate in complex **hierarchies** where a single **dominant** individual controls a pride or pack. The **fertile** volcanic soils also support abundant **flora**, providing food and shelter."
+        },
+        {
+          "label": "F",
+          "text": "Yet the system is under threat. **Deforestation** on the ecosystem's margins has caused **habitat** loss, and human settlements increasingly **encroach** on wildlife corridors — the narrow **corridors** that connect protected areas and allow animals to move between **reserves**. **Poaching** remains rampant: each year, tens of thousands of animals fall victim to illegal wire snares, and **trafficking** of ivory and bushmeat generates millions of dollars. **Insecticide** run-off from nearby farms poisons waterways, devastating **larva** populations and disrupting the **pollination** networks that **flock**-nesting birds depend on."
+        },
+        {
+          "label": "G",
+          "text": "**Conservation** efforts offer some hope. National parks and wildlife **sanctuaries** now cover a significant portion of the ecosystem, and specialised **rangers** patrol day and night to deter poachers. Breeding programmes in **captivity** have helped **rehabilitate** several **endangered** species, and some have been successfully **reintroduced** into the wild. Community-based **ecotourism** channels revenue to local people, creating economic incentives to **preserve** rather than exploit wildlife. **Rewilding** initiatives aim to reconnect fragmented habitats, and new research using satellite tracking is deepening our understanding of **migratory** routes. Whether these measures are sufficient to prevent further species from becoming **extinct** remains an open question — one that the field of **ornithology** and broader zoological science must urgently address."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "The annual wildebeest migration covers approximately 3,000 kilometres.",
+              "answer": "TRUE",
+              "explanation": "段落 A: \"covering nearly three thousand kilometres\" · 原文说 \"nearly three thousand kilometres\"，题目说 \"approximately 3,000 kilometres\"。\"nearly\" 与 \"approximately\" 同义替换，信息一致，答案为 TRUE。"
+            },
+            {
+              "number": 2,
+              "text": "Cheetahs successfully catch their target in the majority of their hunting attempts.",
+              "answer": "FALSE",
+              "explanation": "段落 B: \"only about one in ten chases ends in a kill\" · 原文说十次追捕中只有大约一次成功（约10%成功率），而题目说 \"the majority\"（大多数），明显矛盾，答案为 FALSE。"
+            },
+            {
+              "number": 3,
+              "text": "Oxpeckers damage the skin of buffalo while feeding on ticks.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落 C: 只提到 oxpecker \"feeds on ticks clinging to buffalo hides\" · 原文描述啄牛鸟吃水牛身上的蜱虫，称之为 symbiosis（互利共生），并未提及是否损伤水牛皮肤。题目信息在文中无法确认，答案为 NOT GIVEN。"
+            },
+            {
+              "number": 4,
+              "text": "Scientists have found more than 500 freshwater species unique to the Serengeti's lake systems.",
+              "answer": "FALSE",
+              "explanation": "段落 D: \"over 500 indigenous freshwater species, many found nowhere else\" · 原文说发现了超过500种本土淡水物种，其中\"许多\"（many）独有，并非全部独有。题目说 \"unique to the Serengeti's lake systems\"（全部独有），与 \"many\" 矛盾，答案为 FALSE。"
+            },
+            {
+              "number": 5,
+              "text": "Community-based ecotourism has completely eliminated poaching in the region.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落 G: \"ecotourism channels revenue to local people\" · 原文说生态旅游为当地人创造经济激励来保护野生动物，但从未说已经\"完全消除\"偷猎。文中无此信息，答案为 NOT GIVEN。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "headings",
+          "title": "Questions 6-9: Matching Headings",
+          "instruction": "Choose the correct heading for each paragraph from the list below.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph B",
+              "answer": "iv",
+              "explanation": "段落 B 主要讲述捕食者（lions, cheetahs, hyenas）如何捕猎，以及猎物如何通过伪装和集体警戒来防御，核心主题是\"捕食者与猎物的动态关系\"。"
+            },
+            {
+              "number": 7,
+              "text": "Paragraph D",
+              "answer": "ii",
+              "explanation": "段落 D 描述了淡水湖泊中浮游生物、无脊椎动物和淡水物种组成的隐藏生态系统，指出这些水域的生物多样性支撑着更广泛的生态系统健康。"
+            },
+            {
+              "number": 8,
+              "text": "Paragraph E",
+              "answer": "i",
+              "explanation": "段落 E 聚焦于繁殖竞争、遗传特征的传递、基因突变和进化适应，核心主题是遗传学与进化变化的作用。"
+            },
+            {
+              "number": 9,
+              "text": "Paragraph G",
+              "answer": "vi",
+              "explanation": "段落 G 介绍了国家公园、护林员巡逻、圈养繁殖计划、生态旅游和再野化等保护措施，并以未来展望收尾。"
+            }
+          ],
+          "headings": [
+            {
+              "key": "i",
+              "text": "The role of genetics and evolutionary change"
+            },
+            {
+              "key": "ii",
+              "text": "Freshwater ecosystems: a hidden foundation"
+            },
+            {
+              "key": "iii",
+              "text": "The great seasonal movement and its scale"
+            },
+            {
+              "key": "iv",
+              "text": "Predator-prey dynamics on the savannah"
+            },
+            {
+              "key": "v",
+              "text": "Human encroachment and environmental destruction"
+            },
+            {
+              "key": "vi",
+              "text": "Protective measures and future prospects"
+            },
+            {
+              "key": "vii",
+              "text": "Adaptive behaviours across species"
+            },
+            {
+              "key": "viii",
+              "text": "The economic cost of wildlife tourism"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "deforestation",
+              "explanation": "段落 F: \"Deforestation on the ecosystem's margins has caused habitat loss\" · 题目 \"The clearing of forests, known as ______\" 对应原文 deforestation（滥伐森林），\"clearing of forests\" 是同义替换。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "corridors",
+              "explanation": "段落 F: \"encroach on wildlife corridors — the narrow corridors that connect protected areas\" · 题目说 \"the narrow ______ that connect protected zones\"，对应原文 corridors（生态走廊）。注意 \"zones\" 替换了 \"areas\"。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "poaching",
+              "explanation": "段落 F: \"Poaching remains rampant: each year, tens of thousands of animals fall victim\" · 题目 \"Criminal activity such as ______ continues to claim tens of thousands\" 对应原文 poaching（偷猎）。\"Criminal activity\" 是对 poaching 的上义概括。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "captivity",
+              "explanation": "段落 G: \"Breeding programmes in captivity have helped rehabilitate several endangered species\" · 题目 \"breeding programmes conducted in ______\" 对应原文 captivity（圈养）。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "The Serengeti ecosystem faces multiple threats. The clearing of forests, known as"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": ", has reduced natural habitats, while expanding human settlements have invaded the narrow"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "that connect protected zones. Criminal activity such as"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "continues to claim tens of thousands of animals annually. On the positive side, breeding programmes conducted in"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "have succeeded in restoring some species to the wild. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
+  },
+  {
+    "slug": "04-plants-and-agriculture",
+    "title": "植物与农业 Plants & Agriculture",
+    "shortTitle": "Plants And Agriculture",
+    "cards": [
+      {
+        "cardNumber": 1,
+        "subtitle": "农耕与种植方式 Crop Cultivation & Farming Methods",
+        "words": [],
+        "image": "../outputs/04-plants-and-agriculture/generated-with-text/04-card-01-generated-text.png"
+      },
+      {
+        "cardNumber": 2,
+        "subtitle": "植物生物学与生命周期 Plant Biology & Life Cycle",
+        "words": [],
+        "image": "../outputs/04-plants-and-agriculture/generated-with-text/04-card-02-generated-text.png"
+      },
+      {
+        "cardNumber": 3,
+        "subtitle": "农业科技与创新 Agricultural Technology & Innovation",
+        "words": [],
+        "image": "../outputs/04-plants-and-agriculture/generated-with-text/04-card-03-generated-text.png"
+      },
+      {
+        "cardNumber": 4,
+        "subtitle": "土壤科学与灌溉 Soil Science & Irrigation",
+        "words": [],
+        "image": "../outputs/04-plants-and-agriculture/generated-with-text/04-card-04-generated-text.png"
+      },
+      {
+        "cardNumber": 5,
+        "subtitle": "可持续农业与粮食安全 Sustainable Agriculture & Food Security",
+        "words": [],
+        "image": "../outputs/04-plants-and-agriculture/generated-with-text/04-card-05-generated-text.png"
+      }
+    ],
+    "reading": {
+      "title": "Feeding Nine Billion — The Future of Sustainable Farming",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "For most of human history, agriculture meant a farmer guiding a **plough** through the earth, turning **topsoil** by hand or with draught animals. Fields of **arable** land were prepared through laborious **tillage**, seeds were **sown** in furrows, and after months of patient tending, the **harvest** provided enough grain to sustain small communities. The earliest farming societies relied on **staple crops** — **cereals** such as wheat, barley and rice — supplemented by protein-rich **legumes**. In regions with favourable climates, fruit trees filled **orchards** and **perennial** grasses fed livestock, while **annual** crops occupied rotating plots. When yields fell, fields were left **fallow** to recover their fertility, a practice now recognised as early **crop rotation**."
+        },
+        {
+          "label": "B",
+          "text": "Modern science has transformed our understanding of how plants grow. **Photosynthesis**, the process by which leaves convert sunlight into chemical energy, depends on the pigment **chlorophyll**, which gives **foliage** its characteristic green colour. Beneath the **canopy** of a forest or plantation, **transpiration** — the evaporation of water through leaf surfaces — drives a continuous upward flow of moisture from the **root system**. This mechanism also transports dissolved **nutrients** from the soil to every cell of the plant. Many species enter **dormancy** during cold or dry seasons: **deciduous** trees shed their leaves, while **evergreen** conifers retain them year-round. When conditions improve, **dormant** buds reawaken and **germination** begins anew, allowing **seedlings** to **germinate** and **blossom** into mature plants. Understanding these cycles has allowed **botanical** researchers to **propagate** new varieties of **indigenous** crops suited to local conditions."
+        },
+        {
+          "label": "C",
+          "text": "The twentieth century brought an unprecedented wave of technological change to farming. **Irrigation** systems channelled water across **arid** landscapes, and **drip irrigation** dramatically reduced waste by delivering moisture directly to plant roots. Vast **greenhouses** enabled year-round cultivation in cold climates, while **hydroponics** — growing plants in nutrient-rich water rather than soil — opened possibilities for urban agriculture. **Precision farming**, guided by aerial **drones** and ground-level **sensors**, allowed farmers to apply water and **fertiliser** only where needed. **Mechanisation** replaced manual labour: a single combine harvester could now accomplish what once required dozens of workers. Together, these innovations drove remarkable **yield enhancement** across the globe."
+        },
+        {
+          "label": "D",
+          "text": "Not all technological interventions have been benign. The intensive use of **pesticides** and **herbicides**, both classified as **agrochemicals**, has contaminated waterways and decimated pollinator populations. **Intensive farming** practices strip the soil of organic matter, accelerating **erosion** and **degradation**. When chemical **fertilisers** rich in **nitrogen** and **phosphorus** are over-applied, excess nutrients **leach** through the soil profile, raising the **salinity** of groundwater and rendering once-productive fields **waterlogged** and **acidic**. Layers of **sediment** accumulate in rivers, disrupting **drainage** patterns. Without adequate **mulch** cover or the binding power of **humus**, the thin layer of **loam** that sustains plant life can be lost within a single generation."
+        },
+        {
+          "label": "E",
+          "text": "To feed a projected population of nine billion by 2050, agriculture must chart a different course. **Selective breeding** and advances in **biotechnology** have produced **genetically modified** varieties that resist drought and disease, yet their adoption remains controversial. A growing consensus favours **organic farming**, which replaces synthetic inputs with natural alternatives such as **compost** and biological pest control. **Agroforestry** — integrating trees with crops — simultaneously boosts **biodiversity**, reduces **erosion**, and captures atmospheric carbon through **carbon sequestration**. **Intercropping**, the practice of growing two or more species in the same field, improves soil health and provides a buffer against total crop failure. The revival of **subsistence farming** principles in developing regions has strengthened local **food sovereignty**, empowering communities to choose what they grow rather than depend on volatile global markets for **cash crops**."
+        },
+        {
+          "label": "F",
+          "text": "The concept of **sustainability** now sits at the heart of agricultural policy worldwide. Governments are investing in **reforestation** to reverse decades of **deforestation**, recognising that forests protect watersheds and stabilise climate. Building agricultural **resilience** — the capacity to withstand shocks such as **famine**, drought and pest outbreaks — requires diversified farming systems rather than vulnerable **monoculture** plantations. Addressing **malnutrition** demands not merely higher yields but equitable distribution and improved **food security**. The **pollination** services provided by wild insects and managed bee colonies remain indispensable, underscoring the need to protect the habitats on which these creatures depend. If the coming decades are to avoid the worst scenarios of hunger and ecological collapse, the world must treat farming not as an extractive industry but as a partnership with the living systems that sustain it."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Early agricultural communities grew a variety of grain crops alongside beans and similar plants.",
+              "answer": "TRUE",
+              "explanation": "段落 A: \"relied on staple crops — cereals such as wheat, barley and rice — supplemented by protein-rich legumes\" · 题目说 \"a variety of grain crops alongside beans and similar plants\"，对应原文 cereals（谷物=grain crops）和 legumes（豆类=beans and similar plants），信息一致。注意 \"alongside\" 替换了 \"supplemented by\"。"
+            },
+            {
+              "number": 2,
+              "text": "Deciduous trees keep their leaves throughout the year.",
+              "answer": "FALSE",
+              "explanation": "段落 B: \"deciduous trees shed their leaves, while evergreen conifers retain them year-round\" · 原文明确说落叶树（deciduous）掉叶子，常绿树（evergreen）才全年保留叶子。题目说落叶树全年保留叶子，与原文矛盾。"
+            },
+            {
+              "number": 3,
+              "text": "Hydroponics requires soil enriched with additional minerals.",
+              "answer": "FALSE",
+              "explanation": "段落 C: \"hydroponics — growing plants in nutrient-rich water rather than soil\" · 原文说水培法是在富含营养的水中种植，\"rather than soil\"（而非土壤）。题目说需要 \"soil enriched with additional minerals\"（富含矿物质的土壤），与原文矛盾。"
+            },
+            {
+              "number": 4,
+              "text": "Over-application of chemical fertilisers can make groundwater more saline.",
+              "answer": "TRUE",
+              "explanation": "段落 D: \"excess nutrients leach through the soil profile, raising the salinity of groundwater\" · 题目说 \"make groundwater more saline\"（使地下水盐度更高），对应原文 \"raising the salinity of groundwater\"。\"more saline\" 是 \"raising the salinity\" 的同义替换。"
+            },
+            {
+              "number": 5,
+              "text": "The majority of governments worldwide have banned genetically modified crops.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落 E: \"their adoption remains controversial\" · 原文仅说转基因作物的采用\"仍有争议\"，并未提到大多数政府是否已禁止转基因作物。文中无此信息。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "mcq",
+          "title": "Questions 6-9: Multiple Choice",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "According to paragraph C, precision farming relies on",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "traditional ploughing techniques combined with satellite imagery."
+                },
+                {
+                  "key": "B",
+                  "text": "aerial drones and ground-level sensors to target resource application."
+                },
+                {
+                  "key": "C",
+                  "text": "hydroponic systems installed inside large greenhouses."
+                },
+                {
+                  "key": "D",
+                  "text": "manual monitoring of soil moisture by trained workers."
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落 C 原文：\"Precision farming, guided by aerial drones and ground-level sensors, allowed farmers to apply water and fertiliser only where needed.\" 明确说精准农业由无人机和地面传感器指导，定向施用水和肥料。"
+            },
+            {
+              "number": 7,
+              "text": "In paragraph D, the author suggests that intensive use of agrochemicals has",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "improved long-term soil fertility across all regions."
+                },
+                {
+                  "key": "B",
+                  "text": "had no measurable impact on water quality."
+                },
+                {
+                  "key": "C",
+                  "text": "caused damage to waterways and reduced pollinator numbers."
+                },
+                {
+                  "key": "D",
+                  "text": "been offset by the benefits of increased mechanisation."
+                }
+              ],
+              "answer": "C",
+              "explanation": "段落 D 原文：\"The intensive use of pesticides and herbicides... has contaminated waterways and decimated pollinator populations.\" 明确提到污染水道和大量减少授粉者数量。\"decimated\" 意为大量消灭。"
+            },
+            {
+              "number": 8,
+              "text": "What does the passage say about agroforestry in paragraph E?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "It replaces all crop cultivation with tree planting."
+                },
+                {
+                  "key": "B",
+                  "text": "It combines trees and crops to achieve multiple environmental benefits."
+                },
+                {
+                  "key": "C",
+                  "text": "It is only practical in tropical climates."
+                },
+                {
+                  "key": "D",
+                  "text": "It has been proven less effective than monoculture."
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落 E 原文：\"Agroforestry — integrating trees with crops — simultaneously boosts biodiversity, reduces erosion, and captures atmospheric carbon.\" 描述了农林复合同时带来多重环境效益。"
+            },
+            {
+              "number": 9,
+              "text": "The author's main argument in paragraph F is that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "monoculture farming should be expanded to feed growing populations."
+                },
+                {
+                  "key": "B",
+                  "text": "famine is no longer a significant global concern."
+                },
+                {
+                  "key": "C",
+                  "text": "sustainable and diversified farming systems are essential for the future."
+                },
+                {
+                  "key": "D",
+                  "text": "reforestation alone can solve the problem of food insecurity."
+                }
+              ],
+              "answer": "C",
+              "explanation": "段落 F 的核心论点是可持续性（sustainability）和多样化农业系统（diversified farming systems）对未来至关重要，反对脆弱的单一种植（monoculture），强调需要建立农业韧性（resilience）。"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "leach",
+              "explanation": "段落 D: \"excess nutrients leach through the soil profile\" · 题目 \"these nutrients ______ through the soil\" 直接对应原文动词 leach（渗滤）。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "mulch",
+              "explanation": "段落 D: \"Without adequate mulch cover\" · 题目 \"a protective layer of ______ on the surface\" 对应原文 mulch cover（护根覆盖层）。\"protective layer\" 替换了 \"adequate cover\"。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "organic",
+              "explanation": "段落 E: \"A growing consensus favours organic farming\" · 题目 \"______ farming, which substitutes synthetic chemicals with natural methods\" 对应原文 organic farming（有机农业）。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "reforestation",
+              "explanation": "段落 F: \"Governments are investing in reforestation to reverse decades of deforestation\" · 题目 \"pursuing ______ programmes to restore lost forest cover\" 对应原文 reforestation（重新造林）。\"restore lost forest cover\" 替换了 \"reverse decades of deforestation\"。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "The overuse of chemical inputs poses serious environmental risks. When fertilisers containing nitrogen and phosphorus are applied in excess, these nutrients"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "through the soil, contaminating groundwater. Without a protective layer of"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "on the surface, valuable topsoil erodes quickly. One promising alternative is"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "farming, which substitutes synthetic chemicals with natural methods such as composting. At a policy level, many countries are pursuing"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "programmes to restore lost forest cover and stabilise regional climates. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
+  },
+  {
+    "slug": "05-environment-and-pollution",
+    "title": "环境与污染 | Environment & Pollution",
+    "shortTitle": "Environment And Pollution",
+    "cards": [
+      {
+        "cardNumber": 1,
+        "subtitle": "大气污染与温室气体",
+        "words": [
+          {
+            "word": "emission",
+            "ipa": "/ɪˈmɪʃən/",
+            "pos": "n",
+            "meaning": "排放"
+          },
+          {
+            "word": "smog",
+            "ipa": "/smɒɡ/",
+            "pos": "n",
+            "meaning": "烟雾"
+          },
+          {
+            "word": "combustion",
+            "ipa": "/kəmˈbʌstʃən/",
+            "pos": "n",
+            "meaning": "燃烧"
+          },
+          {
+            "word": "fossil",
+            "ipa": "/ˈfɒsəl/",
+            "pos": "adj",
+            "meaning": "化石的"
+          },
+          {
+            "word": "toxic",
+            "ipa": "/ˈtɒksɪk/",
+            "pos": "adj",
+            "meaning": "有毒的"
+          },
+          {
+            "word": "respiratory",
+            "ipa": "/rəˈspɪrətəri/",
+            "pos": "adj",
+            "meaning": "呼吸的"
+          },
+          {
+            "word": "concentration",
+            "ipa": "/ˌkɒnsənˈtreɪʃən/",
+            "pos": "n",
+            "meaning": "浓度"
+          },
+          {
+            "word": "contaminate",
+            "ipa": "/kənˈtæmɪneɪt/",
+            "pos": "v",
+            "meaning": "污染"
+          },
+          {
+            "word": "haze",
+            "ipa": "/heɪz/",
+            "pos": "n",
+            "meaning": "雾霾"
+          },
+          {
+            "word": "particulate",
+            "ipa": "/pɑːˈtɪkjʊlət/",
+            "pos": "n",
+            "meaning": "微粒"
+          },
+          {
+            "word": "aerosol",
+            "ipa": "/ˈeərəsɒl/",
+            "pos": "n",
+            "meaning": "气溶胶"
+          },
+          {
+            "word": "greenhouse",
+            "ipa": "/ˈɡriːnhaʊs/",
+            "pos": "adj",
+            "meaning": "温室的"
+          },
+          {
+            "word": "methane",
+            "ipa": "/ˈmeθeɪn/",
+            "pos": "n",
+            "meaning": "甲烷"
+          },
+          {
+            "word": "ozone",
+            "ipa": "/ˈəʊzəʊn/",
+            "pos": "n",
+            "meaning": "臭氧"
+          },
+          {
+            "word": "ambient",
+            "ipa": "/ˈæmbiənt/",
+            "pos": "adj",
+            "meaning": "周围的"
+          },
+          {
+            "word": "oxidise",
+            "ipa": "/ˈɒksɪdaɪz/",
+            "pos": "v",
+            "meaning": "氧化"
+          },
+          {
+            "word": "pollutant",
+            "ipa": "/pəˈluːtənt/",
+            "pos": "n",
+            "meaning": "污染物"
+          }
+        ],
+        "image": "../outputs/05-environment-and-pollution/generated-with-text/05-card-01-generated-text.png"
+      },
+      {
+        "cardNumber": 2,
+        "subtitle": "水体污染与工业排放",
+        "words": [
+          {
+            "word": "effluent",
+            "ipa": "/ˈefluənt/",
+            "pos": "n",
+            "meaning": "污水"
+          },
+          {
+            "word": "sewage",
+            "ipa": "/ˈsuːɪdʒ/",
+            "pos": "n",
+            "meaning": "生活污水"
+          },
+          {
+            "word": "leach",
+            "ipa": "/liːtʃ/",
+            "pos": "v",
+            "meaning": "渗出"
+          },
+          {
+            "word": "runoff",
+            "ipa": "/ˈrʌnɒf/",
+            "pos": "n",
+            "meaning": "径流"
+          },
+          {
+            "word": "contamination",
+            "ipa": "/kənˌtæmɪˈneɪʃən/",
+            "pos": "n",
+            "meaning": "污染"
+          },
+          {
+            "word": "aquatic",
+            "ipa": "/əˈkwætɪk/",
+            "pos": "adj",
+            "meaning": "水生的"
+          },
+          {
+            "word": "turbid",
+            "ipa": "/ˈtɜːbɪd/",
+            "pos": "adj",
+            "meaning": "浑浊的"
+          },
+          {
+            "word": "discharge",
+            "ipa": "/dɪsˈtʃɑːdʒ/",
+            "pos": "v",
+            "meaning": "排放"
+          },
+          {
+            "word": "pesticide",
+            "ipa": "/ˈpestɪsaɪd/",
+            "pos": "n",
+            "meaning": "农药"
+          },
+          {
+            "word": "microplastic",
+            "ipa": "/ˌmaɪkrəʊˈplæstɪk/",
+            "pos": "n",
+            "meaning": "微塑料"
+          },
+          {
+            "word": "algae",
+            "ipa": "/ˈældʒiː/",
+            "pos": "n",
+            "meaning": "藻类"
+          },
+          {
+            "word": "eutrophication",
+            "ipa": "/juːˌtrɒfɪˈkeɪʃən/",
+            "pos": "n",
+            "meaning": "富营养化"
+          },
+          {
+            "word": "sediment",
+            "ipa": "/ˈsedɪmənt/",
+            "pos": "n",
+            "meaning": "沉积物"
+          },
+          {
+            "word": "solvent",
+            "ipa": "/ˈsɒlvənt/",
+            "pos": "n",
+            "meaning": "溶剂"
+          },
+          {
+            "word": "industrial",
+            "ipa": "/ɪnˈdʌstriəl/",
+            "pos": "adj",
+            "meaning": "工业的"
+          },
+          {
+            "word": "bioaccumulation",
+            "ipa": "/ˌbaɪəʊəˌkjuːmjʊˈleɪʃən/",
+            "pos": "n",
+            "meaning": "生物积累"
+          }
+        ],
+        "image": "../outputs/05-environment-and-pollution/generated-with-text/05-card-02-generated-text.png"
+      },
+      {
+        "cardNumber": 3,
+        "subtitle": "国际环境协议与政策",
+        "words": [
+          {
+            "word": "legislation",
+            "ipa": "/ˌledʒɪsˈleɪʃən/",
+            "pos": "n",
+            "meaning": "立法"
+          },
+          {
+            "word": "protocol",
+            "ipa": "/ˈprəʊtəkɒl/",
+            "pos": "n",
+            "meaning": "协议"
+          },
+          {
+            "word": "treaty",
+            "ipa": "/ˈtriːti/",
+            "pos": "n",
+            "meaning": "条约"
+          },
+          {
+            "word": "ratify",
+            "ipa": "/ˈrætɪfaɪ/",
+            "pos": "v",
+            "meaning": "批准"
+          },
+          {
+            "word": "enforce",
+            "ipa": "/ɪnˈfɔːs/",
+            "pos": "v",
+            "meaning": "执行"
+          },
+          {
+            "word": "compliance",
+            "ipa": "/kəmˈplaɪəns/",
+            "pos": "n",
+            "meaning": "遵从"
+          },
+          {
+            "word": "mitigation",
+            "ipa": "/ˌmɪtɪˈɡeɪʃən/",
+            "pos": "n",
+            "meaning": "缓解"
+          },
+          {
+            "word": "sanction",
+            "ipa": "/ˈsæŋkʃən/",
+            "pos": "n",
+            "meaning": "制裁"
+          },
+          {
+            "word": "conservation",
+            "ipa": "/ˌkɒnsəˈveɪʃən/",
+            "pos": "n",
+            "meaning": "保护"
+          },
+          {
+            "word": "renewable",
+            "ipa": "/rɪˈnjuːəbl/",
+            "pos": "adj",
+            "meaning": "可再生的"
+          },
+          {
+            "word": "accountability",
+            "ipa": "/əˌkaʊntəˈbɪlɪti/",
+            "pos": "n",
+            "meaning": "问责"
+          },
+          {
+            "word": "intergovernmental",
+            "ipa": "/ˌɪntəˌɡʌvənˈmentl/",
+            "pos": "adj",
+            "meaning": "政府间的"
+          },
+          {
+            "word": "jurisdiction",
+            "ipa": "/ˌdʒʊərɪsˈdɪkʃən/",
+            "pos": "n",
+            "meaning": "管辖权"
+          },
+          {
+            "word": "incentive",
+            "ipa": "/ɪnˈsentɪv/",
+            "pos": "n",
+            "meaning": "激励"
+          },
+          {
+            "word": "pledge",
+            "ipa": "/pledʒ/",
+            "pos": "v./n",
+            "meaning": "承诺"
+          },
+          {
+            "word": "target",
+            "ipa": "/ˈtɑːɡɪt/",
+            "pos": "n",
+            "meaning": "目标"
+          }
+        ],
+        "image": "../outputs/05-environment-and-pollution/generated-with-text/05-card-03-generated-text.png"
+      },
+      {
+        "cardNumber": 4,
+        "subtitle": "毁林与土地退化",
+        "words": [
+          {
+            "word": "deforestation",
+            "ipa": "/diːˌfɒrɪˈsteɪʃən/",
+            "pos": "n",
+            "meaning": "毁林"
+          },
+          {
+            "word": "desertification",
+            "ipa": "/dɪˌzɜːtɪfɪˈkeɪʃən/",
+            "pos": "n",
+            "meaning": "荒漠化"
+          },
+          {
+            "word": "erosion",
+            "ipa": "/ɪˈrəʊʒən/",
+            "pos": "n",
+            "meaning": "侵蚀"
+          },
+          {
+            "word": "degradation",
+            "ipa": "/ˌdeɡrəˈdeɪʃən/",
+            "pos": "n",
+            "meaning": "退化"
+          },
+          {
+            "word": "habitat",
+            "ipa": "/ˈhæbɪtæt/",
+            "pos": "n",
+            "meaning": "栖息地"
+          },
+          {
+            "word": "clearance",
+            "ipa": "/ˈklɪərəns/",
+            "pos": "n",
+            "meaning": "清除"
+          },
+          {
+            "word": "monoculture",
+            "ipa": "/ˈmɒnəʊˌkʌltʃə/",
+            "pos": "n",
+            "meaning": "单一栽培"
+          },
+          {
+            "word": "topsoil",
+            "ipa": "/ˈtɒpsɔɪl/",
+            "pos": "n",
+            "meaning": "表土"
+          },
+          {
+            "word": "landslide",
+            "ipa": "/ˈlændslaɪd/",
+            "pos": "n",
+            "meaning": "山体滑坡"
+          },
+          {
+            "word": "salinisation",
+            "ipa": "/ˌsælɪnaɪˈzeɪʃən/",
+            "pos": "n",
+            "meaning": "盐化"
+          },
+          {
+            "word": "arable",
+            "ipa": "/ˈærəbl/",
+            "pos": "adj",
+            "meaning": "可耕的"
+          },
+          {
+            "word": "reforestation",
+            "ipa": "/ˌriːfɒrɪˈsteɪʃən/",
+            "pos": "n",
+            "meaning": "重新造林"
+          },
+          {
+            "word": "carbon sink",
+            "ipa": "/ˈkɑːbən sɪŋk/",
+            "pos": "n",
+            "meaning": "碳汇"
+          },
+          {
+            "word": "indigenous",
+            "ipa": "/ɪnˈdɪdʒɪnəs/",
+            "pos": "adj",
+            "meaning": "土著的"
+          },
+          {
+            "word": "fragmentation",
+            "ipa": "/ˌfræɡmənˈteɪʃən/",
+            "pos": "n",
+            "meaning": "碎片化"
+          },
+          {
+            "word": "biodiversity",
+            "ipa": "/ˌbaɪəʊdaɪˈvɜːsɪti/",
+            "pos": "n",
+            "meaning": "生物多样性"
+          }
+        ],
+        "image": "../outputs/05-environment-and-pollution/generated-with-text/05-card-04-generated-text.png"
+      },
+      {
+        "cardNumber": 5,
+        "subtitle": "可持续生活与绿色消费",
+        "words": [
+          {
+            "word": "recycle",
+            "ipa": "/riːˈsaɪkəl/",
+            "pos": "v",
+            "meaning": "回收"
+          },
+          {
+            "word": "composting",
+            "ipa": "/ˈkɒmpɒstɪŋ/",
+            "pos": "n",
+            "meaning": "堆肥"
+          },
+          {
+            "word": "carbon footprint",
+            "ipa": "/ˈkɑːbən ˈfʊtprɪnt/",
+            "pos": "n",
+            "meaning": "碳足迹"
+          },
+          {
+            "word": "upcycle",
+            "ipa": "/ˈʌpsaɪkəl/",
+            "pos": "v",
+            "meaning": "升级再造"
+          },
+          {
+            "word": "biodegradable",
+            "ipa": "/ˌbaɪəʊdɪˈɡreɪdəbl/",
+            "pos": "adj",
+            "meaning": "可生物降解的"
+          },
+          {
+            "word": "solar",
+            "ipa": "/ˈsəʊlə/",
+            "pos": "adj",
+            "meaning": "太阳能的"
+          },
+          {
+            "word": "turbine",
+            "ipa": "/ˈtɜːbaɪn/",
+            "pos": "n",
+            "meaning": "涡轮机"
+          },
+          {
+            "word": "insulation",
+            "ipa": "/ˌɪnsjʊˈleɪʃən/",
+            "pos": "n",
+            "meaning": "隔热材料"
+          },
+          {
+            "word": "organic",
+            "ipa": "/ɔːˈɡænɪk/",
+            "pos": "adj",
+            "meaning": "有机的"
+          },
+          {
+            "word": "ethical",
+            "ipa": "/ˈeθɪkəl/",
+            "pos": "adj",
+            "meaning": "道德的"
+          },
+          {
+            "word": "minimise",
+            "ipa": "/ˈmɪnɪmaɪz/",
+            "pos": "v",
+            "meaning": "最小化"
+          },
+          {
+            "word": "offset",
+            "ipa": "/ˈɒfset/",
+            "pos": "v",
+            "meaning": "抵消"
+          },
+          {
+            "word": "greenwash",
+            "ipa": "/ˈɡriːnwɒʃ/",
+            "pos": "v./n",
+            "meaning": "漂绿"
+          },
+          {
+            "word": "zero-waste",
+            "ipa": "/ˈzɪərəʊ weɪst/",
+            "pos": "adj",
+            "meaning": "零废弃"
+          },
+          {
+            "word": "conscious",
+            "ipa": "/ˈkɒnʃəs/",
+            "pos": "adj",
+            "meaning": "有意识的"
+          },
+          {
+            "word": "advocacy",
+            "ipa": "/ˈædvəkəsi/",
+            "pos": "n",
+            "meaning": "倡导"
+          }
+        ],
+        "image": "../outputs/05-environment-and-pollution/generated-with-text/05-card-05-generated-text.png"
+      }
+    ],
+    "reading": {
+      "title": "The Hidden Cost of Progress — Environmental Degradation in the Industrial Age",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The rapid pace of **industrial** development over the past two centuries has brought unprecedented prosperity to many nations, yet it has simultaneously imposed a severe burden on the natural world. One of the most visible consequences has been the deterioration of air quality, driven largely by the **combustion** of **fossil** fuels in power stations, factories and vehicles. This process releases vast quantities of **emission**s into the atmosphere, including **toxic** **pollutant**s and **greenhouse** gases such as carbon dioxide and **methane**. The resulting increase in atmospheric **concentration** of these gases has been firmly linked to global warming and erratic weather patterns."
+        },
+        {
+          "label": "B",
+          "text": "In many rapidly industrialising cities, dense **smog** and persistent **haze** have become everyday realities. Fine **particulate** matter and **aerosol** particles, often too small to be seen with the naked eye, penetrate deep into human lungs, triggering a range of **respiratory** illnesses. Monitoring stations now routinely measure **ambient** air quality, and the data they produce paint a grim picture: the levels of harmful substances frequently exceed the thresholds established by the World Health Organisation. When metals and chemicals in the air **oxidise**, they form secondary pollutants that further **contaminate** urban environments."
+        },
+        {
+          "label": "C",
+          "text": "Water bodies have fared no better. **Industrial** **effluent** and untreated **sewage** are routinely **discharge**d into rivers and coastal waters, causing widespread **contamination**. Agricultural **runoff**, laden with **pesticide** residues and chemical fertilisers, **leach**es into waterways, turning once-clear streams **turbid** and lifeless. The accumulation of nutrients triggers **eutrophication**, a process in which excessive **algae** growth depletes dissolved oxygen and suffocates **aquatic** organisms. **Sediment** from eroded farmland and **solvent**s from manufacturing plants add further stress. Most alarmingly, **microplastic** fragments have now been detected in virtually every marine ecosystem, and **bioaccumulation** through the food chain means that these particles ultimately reach human dinner tables."
+        },
+        {
+          "label": "D",
+          "text": "Recognising the transnational nature of environmental problems, governments have turned to **intergovernmental** cooperation. A succession of international **treaty** agreements and **protocol**s — from the Montreal Protocol to the Paris Agreement — have set ambitious **target**s for reducing harmful emissions. However, persuading sovereign states to **ratify** these accords and **enforce** their provisions remains a formidable challenge. Without robust mechanisms for **compliance** monitoring, even the most carefully drafted **legislation** can become little more than symbolic."
+        },
+        {
+          "label": "E",
+          "text": "When nations fail to meet their commitments, the question of **accountability** arises. Some observers advocate the use of economic **sanction**s against non-compliant countries, while others argue that positive **incentive**s — such as technology-sharing agreements and financial aid — are more effective at encouraging meaningful **mitigation**. Environmental **jurisdiction** is further complicated by the fact that pollution does not respect national borders: emissions generated in one country can **contaminate** air and water thousands of kilometres away. Nations must therefore **pledge** not only to clean up their own environments but also to support global **conservation** efforts."
+        },
+        {
+          "label": "F",
+          "text": "On land, the consequences of environmental neglect are equally stark. **Deforestation** driven by agricultural expansion and logging has stripped vast tracts of **indigenous** forest, causing severe **habitat** **fragmentation** and threatening **biodiversity**. The **clearance** of trees exposes **topsoil** to wind and rain, accelerating **erosion** and, in extreme cases, triggering **landslide**s. Over time, the combined effects of soil loss and poor farming practices — including **monoculture** and excessive irrigation — lead to **degradation**, **salinisation** and ultimately **desertification** of once-**arable** land. **Reforestation** programmes and the preservation of natural **carbon sink**s are now regarded as essential strategies for reversing these trends."
+        },
+        {
+          "label": "G",
+          "text": "At the individual level, a growing number of citizens are embracing **sustainable** lifestyles. Households **recycle** waste, practise **composting** and choose **organic**, **biodegradable** products. **Solar** panels and wind **turbine**s are becoming common sights on residential rooftops, while improved **insulation** reduces energy consumption. Consumers increasingly scrutinise corporate claims, wary of **greenwash** tactics that exaggerate environmental credentials. Movements promoting **zero-waste** living, **ethical** consumption and reduced **carbon footprint**s encourage people to **minimise** their environmental impact. Some individuals go further, choosing to **offset** their remaining emissions through verified schemes. **Conscious** purchasing decisions and grassroots **advocacy** demonstrate that meaningful change can begin at the household level, provided the **upcycle** philosophy — turning waste into something of greater value — is embraced alongside broader policy reform."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "",
+          "questions": [
+            {
+              "number": 1,
+              "text": "The combustion of fossil fuels is the sole cause of global warming.",
+              "answer": "FALSE",
+              "explanation": "段落A: \"driven largely by the combustion of fossil fuels\" · 原文用\"largely\"（主要由），表明化石燃料燃烧是主要原因而非唯一原因（sole cause）。题目使用了绝对词\"sole\"，与原文矛盾。"
+            },
+            {
+              "number": 2,
+              "text": "Fine particulate matter can cause respiratory problems in humans.",
+              "answer": "TRUE",
+              "explanation": "段落B: \"penetrate deep into human lungs, triggering a range of respiratory illnesses\" · 原文明确指出微粒物质深入肺部，引发呼吸系统疾病，与题目表述一致。"
+            },
+            {
+              "number": 3,
+              "text": "Eutrophication occurs when excess algae growth reduces oxygen levels in water.",
+              "answer": "TRUE",
+              "explanation": "段落C: \"eutrophication, a process in which excessive algae growth depletes dissolved oxygen\" · 原文对富营养化的定义与题目描述完全吻合：过量藻类生长消耗氧气。"
+            },
+            {
+              "number": 4,
+              "text": "All countries that signed the Paris Agreement have fully met their emission targets.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落D-E · 文章讨论了各国批准和执行协议的困难，但从未提及所有签约国是否已完全达标。这一信息在文中未给出。"
+            },
+            {
+              "number": 5,
+              "text": "Greenwash refers to companies exaggerating their environmental efforts.",
+              "answer": "TRUE",
+              "explanation": "段落G: \"wary of greenwash tactics that exaggerate environmental credentials\" · 原文明确将greenwash定义为夸大环保资质的手段，与题目表述\"exaggerating their environmental efforts\"含义一致。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "headings",
+          "title": "Questions 6-9: Matching Headings",
+          "instruction": "Choose the correct heading for each paragraph from the list below.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph B",
+              "answer": "vii",
+              "explanation": "段落B主要讨论城市烟雾（smog）、雾霾（haze）和微粒物质对呼吸系统的健康影响，与标题vii\"城市烟雾及其健康影响\"完全对应。"
+            },
+            {
+              "number": 7,
+              "text": "Paragraph C",
+              "answer": "vi",
+              "explanation": "段落C涉及河流、海洋中的工业废水、农药径流、富营养化以及微塑料通过食物链进入人体餐桌，对应标题vi\"河流、海洋和食物链的污染\"。"
+            },
+            {
+              "number": 8,
+              "text": "Paragraph E",
+              "answer": "iv",
+              "explanation": "段落E讨论问责制（accountability）、制裁（sanctions）与激励（incentives）、管辖权（jurisdiction）难题，核心主题是责任归属和执行挑战，对应标题iv。"
+            },
+            {
+              "number": 9,
+              "text": "Paragraph F",
+              "answer": "v",
+              "explanation": "段落F专门讨论毁林（deforestation）、表土侵蚀（erosion）、土地退化（degradation）和荒漠化（desertification），对应标题v\"森林和肥沃土地的破坏\"。"
+            }
+          ],
+          "headings": [
+            {
+              "key": "i",
+              "text": "The role of ordinary citizens in environmental protection"
+            },
+            {
+              "key": "ii",
+              "text": "International efforts and their limitations"
+            },
+            {
+              "key": "iii",
+              "text": "Air pollution and its atmospheric consequences"
+            },
+            {
+              "key": "iv",
+              "text": "Responsibility and enforcement challenges"
+            },
+            {
+              "key": "v",
+              "text": "The destruction of forests and fertile land"
+            },
+            {
+              "key": "vi",
+              "text": "The contamination of rivers, seas and food chains"
+            },
+            {
+              "key": "vii",
+              "text": "Urban smog and its health effects"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "respiratory",
+              "explanation": "段落B: \"triggering a range of respiratory illnesses\" · 微粒物质损害的是人体的呼吸系统（respiratory system），原文使用\"respiratory illnesses\"。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "turbid",
+              "explanation": "段落C: \"turning once-clear streams turbid and lifeless\" · 农药和化学物质渗入水道后，使原本清澈的溪流变得浑浊（turbid）。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "desertification",
+              "explanation": "段落F: \"degradation, salinisation and ultimately desertification of once-arable land\" · 土壤流失和不良耕作最终导致可耕地荒漠化（desertification），即肥沃农田变为沙漠。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "sustainable",
+              "explanation": "段落G: \"a growing number of citizens are embracing sustainable lifestyles\" · 越来越多的公民正在拥抱可持续的（sustainable）生活方式来减少浪费和能源使用。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "Environmental degradation takes many forms. In cities, the burning of fossil fuels produces smog and haze containing tiny particles that damage the human"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "system. In water bodies, agricultural chemicals leach into rivers, making them"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "and triggering algae blooms. On land, the clearing of forests exposes topsoil to erosion and may eventually cause the"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "of fertile farmland into desert. At the individual level, a growing movement encourages people to adopt"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "lifestyles that reduce waste and energy use. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
+  },
+  {
+    "slug": "06-technology-and-innovation",
+    "title": "科技与发明（Technology & Innovation）",
+    "shortTitle": "Technology And Innovation",
+    "cards": [
+      {
+        "cardNumber": 1,
+        "subtitle": "发明与创新",
+        "words": [
+          {
+            "word": "innovation",
+            "ipa": "/ˌɪnəˈveɪʃn/",
+            "pos": "n",
+            "meaning": "创新"
+          },
+          {
+            "word": "patent",
+            "ipa": "/ˈpætnt/",
+            "pos": "n/v",
+            "meaning": "专利"
+          },
+          {
+            "word": "cutting-edge",
+            "ipa": "/ˌkʌtɪŋ ˈedʒ/",
+            "pos": "adj",
+            "meaning": "尖端的"
+          },
+          {
+            "word": "pioneer",
+            "ipa": "/ˌpaɪəˈnɪər/",
+            "pos": "n/v",
+            "meaning": "先驱/开创"
+          },
+          {
+            "word": "ingenious",
+            "ipa": "/ɪnˈdʒiːniəs/",
+            "pos": "adj",
+            "meaning": "精巧的"
+          },
+          {
+            "word": "revolutionise",
+            "ipa": "/ˌrevəˈluːʃənaɪz/",
+            "pos": "v",
+            "meaning": "彻底改变"
+          },
+          {
+            "word": "devise",
+            "ipa": "/dɪˈvaɪz/",
+            "pos": "v",
+            "meaning": "设计/发明"
+          },
+          {
+            "word": "obsolete",
+            "ipa": "/ˌɒbsəˈliːt/",
+            "pos": "adj",
+            "meaning": "过时的"
+          },
+          {
+            "word": "milestone",
+            "ipa": "/ˈmaɪlstəʊn/",
+            "pos": "n",
+            "meaning": "里程碑"
+          },
+          {
+            "word": "refine",
+            "ipa": "/rɪˈfaɪn/",
+            "pos": "v",
+            "meaning": "改进"
+          },
+          {
+            "word": "harness",
+            "ipa": "/ˈhɑːnɪs/",
+            "pos": "v",
+            "meaning": "利用"
+          },
+          {
+            "word": "commercialise",
+            "ipa": "/kəˈmɜːʃəlaɪz/",
+            "pos": "v",
+            "meaning": "商业化"
+          },
+          {
+            "word": "feasible",
+            "ipa": "/ˈfiːzəbl/",
+            "pos": "adj",
+            "meaning": "可行的"
+          },
+          {
+            "word": "gadget",
+            "ipa": "/ˈɡædʒɪt/",
+            "pos": "n",
+            "meaning": "小装置"
+          },
+          {
+            "word": "enhance",
+            "ipa": "/ɪnˈhɑːns/",
+            "pos": "v",
+            "meaning": "增强"
+          },
+          {
+            "word": "trial",
+            "ipa": "/ˈtraɪəl/",
+            "pos": "n",
+            "meaning": "试验"
+          }
+        ],
+        "image": "../outputs/06-technology-and-innovation/generated-with-text/06-card-01-generated-text.png"
+      },
+      {
+        "cardNumber": 2,
+        "subtitle": "工程与制造",
+        "words": [
+          {
+            "word": "machinery",
+            "ipa": "/məˈʃiːnəri/",
+            "pos": "n",
+            "meaning": "机械"
+          },
+          {
+            "word": "mechanism",
+            "ipa": "/ˈmekənɪzəm/",
+            "pos": "n",
+            "meaning": "机制"
+          },
+          {
+            "word": "component",
+            "ipa": "/kəmˈpəʊnənt/",
+            "pos": "n",
+            "meaning": "组件"
+          },
+          {
+            "word": "assemble",
+            "ipa": "/əˈsembl/",
+            "pos": "v",
+            "meaning": "组装"
+          },
+          {
+            "word": "calibrate",
+            "ipa": "/ˈkælɪbreɪt/",
+            "pos": "v",
+            "meaning": "校准"
+          },
+          {
+            "word": "specification",
+            "ipa": "/ˌspesɪfɪˈkeɪʃn/",
+            "pos": "n",
+            "meaning": "规格"
+          },
+          {
+            "word": "durable",
+            "ipa": "/ˈdjʊərəbl/",
+            "pos": "adj",
+            "meaning": "耐用的"
+          },
+          {
+            "word": "fabricate",
+            "ipa": "/ˈfæbrɪkeɪt/",
+            "pos": "v",
+            "meaning": "制造"
+          },
+          {
+            "word": "replicate",
+            "ipa": "/ˈreplɪkeɪt/",
+            "pos": "v",
+            "meaning": "复制"
+          },
+          {
+            "word": "hydraulic",
+            "ipa": "/haɪˈdrɒlɪk/",
+            "pos": "adj",
+            "meaning": "液压的"
+          },
+          {
+            "word": "turbine",
+            "ipa": "/ˈtɜːbaɪn/",
+            "pos": "n",
+            "meaning": "涡轮机"
+          },
+          {
+            "word": "alloy",
+            "ipa": "/ˈælɔɪ/",
+            "pos": "n",
+            "meaning": "合金"
+          },
+          {
+            "word": "weld",
+            "ipa": "/weld/",
+            "pos": "v",
+            "meaning": "焊接"
+          },
+          {
+            "word": "blueprint",
+            "ipa": "/ˈbluːprɪnt/",
+            "pos": "n",
+            "meaning": "蓝图"
+          },
+          {
+            "word": "malfunction",
+            "ipa": "/ˌmælˈfʌŋkʃn/",
+            "pos": "n/v",
+            "meaning": "故障"
+          },
+          {
+            "word": "apparatus",
+            "ipa": "/ˌæpəˈreɪtəs/",
+            "pos": "n",
+            "meaning": "装置"
+          }
+        ],
+        "image": "../outputs/06-technology-and-innovation/generated-with-text/06-card-02-generated-text.png"
+      },
+      {
+        "cardNumber": 3,
+        "subtitle": "通信与电子",
+        "words": [
+          {
+            "word": "transmit",
+            "ipa": "/trænzˈmɪt/",
+            "pos": "v",
+            "meaning": "传输"
+          },
+          {
+            "word": "bandwidth",
+            "ipa": "/ˈbændwɪdθ/",
+            "pos": "n",
+            "meaning": "带宽"
+          },
+          {
+            "word": "satellite",
+            "ipa": "/ˈsætəlaɪt/",
+            "pos": "n",
+            "meaning": "卫星"
+          },
+          {
+            "word": "semiconductor",
+            "ipa": "/ˌsemikənˈdʌktər/",
+            "pos": "n",
+            "meaning": "半导体"
+          },
+          {
+            "word": "fibre optic",
+            "ipa": "/ˌfaɪbər ˈɒptɪk/",
+            "pos": "adj",
+            "meaning": "光纤的"
+          },
+          {
+            "word": "frequency",
+            "ipa": "/ˈfriːkwənsi/",
+            "pos": "n",
+            "meaning": "频率"
+          },
+          {
+            "word": "encrypt",
+            "ipa": "/ɪnˈkrɪpt/",
+            "pos": "v",
+            "meaning": "加密"
+          },
+          {
+            "word": "compatible",
+            "ipa": "/kəmˈpætəbl/",
+            "pos": "adj",
+            "meaning": "兼容的"
+          },
+          {
+            "word": "interface",
+            "ipa": "/ˈɪntəfeɪs/",
+            "pos": "n",
+            "meaning": "接口"
+          },
+          {
+            "word": "synchronise",
+            "ipa": "/ˈsɪŋkrənaɪz/",
+            "pos": "v",
+            "meaning": "同步"
+          },
+          {
+            "word": "wireless",
+            "ipa": "/ˈwaɪələs/",
+            "pos": "adj",
+            "meaning": "无线的"
+          },
+          {
+            "word": "microchip",
+            "ipa": "/ˈmaɪkrəʊtʃɪp/",
+            "pos": "n",
+            "meaning": "微芯片"
+          },
+          {
+            "word": "circuitry",
+            "ipa": "/ˈsɜːkɪtri/",
+            "pos": "n",
+            "meaning": "电路"
+          },
+          {
+            "word": "antenna",
+            "ipa": "/ænˈtenə/",
+            "pos": "n",
+            "meaning": "天线"
+          },
+          {
+            "word": "processor",
+            "ipa": "/ˈprəʊsesər/",
+            "pos": "n",
+            "meaning": "处理器"
+          },
+          {
+            "word": "signal",
+            "ipa": "/ˈsɪɡnəl/",
+            "pos": "n",
+            "meaning": "信号"
+          }
+        ],
+        "image": "../outputs/06-technology-and-innovation/generated-with-text/06-card-03-generated-text.png"
+      },
+      {
+        "cardNumber": 4,
+        "subtitle": "生物与医疗科技",
+        "words": [
+          {
+            "word": "biotechnology",
+            "ipa": "/ˌbaɪəʊtekˈnɒlədʒi/",
+            "pos": "n",
+            "meaning": "生物技术"
+          },
+          {
+            "word": "genetic",
+            "ipa": "/dʒəˈnetɪk/",
+            "pos": "adj",
+            "meaning": "基因的"
+          },
+          {
+            "word": "synthetic",
+            "ipa": "/sɪnˈθetɪk/",
+            "pos": "adj",
+            "meaning": "合成的"
+          },
+          {
+            "word": "transplant",
+            "ipa": "/trænsˈplɑːnt/",
+            "pos": "v/n",
+            "meaning": "移植"
+          },
+          {
+            "word": "prosthetic",
+            "ipa": "/prɒsˈθetɪk/",
+            "pos": "adj/n",
+            "meaning": "假肢的"
+          },
+          {
+            "word": "vaccine",
+            "ipa": "/ˈvæksiːn/",
+            "pos": "n",
+            "meaning": "疫苗"
+          },
+          {
+            "word": "genome",
+            "ipa": "/ˈdʒiːnəʊm/",
+            "pos": "n",
+            "meaning": "基因组"
+          },
+          {
+            "word": "stem cell",
+            "ipa": "/ˈstem sel/",
+            "pos": "n",
+            "meaning": "干细胞"
+          },
+          {
+            "word": "clinical",
+            "ipa": "/ˈklɪnɪkl/",
+            "pos": "adj",
+            "meaning": "临床的"
+          },
+          {
+            "word": "pharmaceutical",
+            "ipa": "/ˌfɑːməˈsuːtɪkl/",
+            "pos": "adj",
+            "meaning": "制药的"
+          },
+          {
+            "word": "microscope",
+            "ipa": "/ˈmaɪkrəskəʊp/",
+            "pos": "n",
+            "meaning": "显微镜"
+          },
+          {
+            "word": "incubate",
+            "ipa": "/ˈɪŋkjʊbeɪt/",
+            "pos": "v",
+            "meaning": "培育"
+          },
+          {
+            "word": "sterile",
+            "ipa": "/ˈsteraɪl/",
+            "pos": "adj",
+            "meaning": "无菌的"
+          },
+          {
+            "word": "implant",
+            "ipa": "/ɪmˈplɑːnt/",
+            "pos": "v/n",
+            "meaning": "植入"
+          },
+          {
+            "word": "antibody",
+            "ipa": "/ˈæntibɒdi/",
+            "pos": "n",
+            "meaning": "抗体"
+          },
+          {
+            "word": "specimen",
+            "ipa": "/ˈspesɪmən/",
+            "pos": "n",
+            "meaning": "样本"
+          }
+        ],
+        "image": "../outputs/06-technology-and-innovation/generated-with-text/06-card-04-generated-text.png"
+      },
+      {
+        "cardNumber": 5,
+        "subtitle": "技术与社会影响",
+        "words": [
+          {
+            "word": "disruptive",
+            "ipa": "/dɪsˈrʌptɪv/",
+            "pos": "adj",
+            "meaning": "颠覆性的"
+          },
+          {
+            "word": "ethical",
+            "ipa": "/ˈeθɪkl/",
+            "pos": "adj",
+            "meaning": "伦理的"
+          },
+          {
+            "word": "surveillance",
+            "ipa": "/sɜːˈveɪləns/",
+            "pos": "n",
+            "meaning": "监控"
+          },
+          {
+            "word": "obsolescence",
+            "ipa": "/ˌɒbsəˈlesns/",
+            "pos": "n",
+            "meaning": "淘汰"
+          },
+          {
+            "word": "proliferate",
+            "ipa": "/prəˈlɪfəreɪt/",
+            "pos": "v",
+            "meaning": "激增"
+          },
+          {
+            "word": "regulate",
+            "ipa": "/ˈreɡjʊleɪt/",
+            "pos": "v",
+            "meaning": "监管"
+          },
+          {
+            "word": "intellectual property",
+            "ipa": "/ˌɪntəˈlektʃuəl ˈprɒpəti/",
+            "pos": "n",
+            "meaning": "知识产权"
+          },
+          {
+            "word": "digital divide",
+            "ipa": "/ˌdɪdʒɪtl dɪˈvaɪd/",
+            "pos": "n",
+            "meaning": "数字鸿沟"
+          },
+          {
+            "word": "redundant",
+            "ipa": "/rɪˈdʌndənt/",
+            "pos": "adj",
+            "meaning": "多余的"
+          },
+          {
+            "word": "disparity",
+            "ipa": "/dɪˈspærəti/",
+            "pos": "n",
+            "meaning": "差距"
+          },
+          {
+            "word": "accessibility",
+            "ipa": "/əkˌsesəˈbɪləti/",
+            "pos": "n",
+            "meaning": "可及性"
+          },
+          {
+            "word": "counterfeit",
+            "ipa": "/ˈkaʊntəfɪt/",
+            "pos": "adj/n",
+            "meaning": "伪造的"
+          },
+          {
+            "word": "safeguard",
+            "ipa": "/ˈseɪfɡɑːd/",
+            "pos": "v/n",
+            "meaning": "保障"
+          },
+          {
+            "word": "unprecedented",
+            "ipa": "/ʌnˈpresɪdentɪd/",
+            "pos": "adj",
+            "meaning": "史无前例的"
+          },
+          {
+            "word": "proprietary",
+            "ipa": "/prəˈpraɪətəri/",
+            "pos": "adj",
+            "meaning": "专有的"
+          },
+          {
+            "word": "mechanise",
+            "ipa": "/ˈmekənaɪz/",
+            "pos": "v",
+            "meaning": "机械化"
+          }
+        ],
+        "image": "../outputs/06-technology-and-innovation/generated-with-text/06-card-05-generated-text.png"
+      }
+    ],
+    "reading": null
+  },
+  {
+    "slug": "07-internet-and-digital-life",
+    "title": "互联网与数字生活（Internet & Digital Life）",
+    "shortTitle": "Internet And Digital Life",
+    "cards": [
+      {
+        "cardNumber": 1,
+        "subtitle": "社交媒体与在线交流（Social Media & Online Communication）",
+        "words": [
+          {
+            "word": "algorithm",
+            "ipa": "/ˈælɡərɪðəm/",
+            "pos": "n",
+            "meaning": "算法"
+          },
+          {
+            "word": "viral",
+            "ipa": "/ˈvaɪrəl/",
+            "pos": "adj",
+            "meaning": "病毒式的"
+          },
+          {
+            "word": "engagement",
+            "ipa": "/ɪnˈɡeɪdʒmənt/",
+            "pos": "n",
+            "meaning": "互动量"
+          },
+          {
+            "word": "platform",
+            "ipa": "/ˈplætfɔːm/",
+            "pos": "n",
+            "meaning": "平台"
+          },
+          {
+            "word": "influencer",
+            "ipa": "/ˈɪnfluənsər/",
+            "pos": "n",
+            "meaning": "网红"
+          },
+          {
+            "word": "follower",
+            "ipa": "/ˈfɒləʊər/",
+            "pos": "n",
+            "meaning": "粉丝"
+          },
+          {
+            "word": "stream",
+            "ipa": "/striːm/",
+            "pos": "v",
+            "meaning": "直播"
+          },
+          {
+            "word": "broadcast",
+            "ipa": "/ˈbrɔːdkɑːst/",
+            "pos": "v",
+            "meaning": "广播"
+          },
+          {
+            "word": "hashtag",
+            "ipa": "/ˈhæʃtæɡ/",
+            "pos": "n",
+            "meaning": "话题标签"
+          },
+          {
+            "word": "notification",
+            "ipa": "/ˌnəʊtɪfɪˈkeɪʃən/",
+            "pos": "n",
+            "meaning": "通知"
+          },
+          {
+            "word": "trending",
+            "ipa": "/ˈtrendɪŋ/",
+            "pos": "adj",
+            "meaning": "热门的"
+          },
+          {
+            "word": "interaction",
+            "ipa": "/ˌɪntərˈækʃən/",
+            "pos": "n",
+            "meaning": "互动"
+          },
+          {
+            "word": "content",
+            "ipa": "/ˈkɒntent/",
+            "pos": "n",
+            "meaning": "内容"
+          },
+          {
+            "word": "profile",
+            "ipa": "/ˈprəʊfaɪl/",
+            "pos": "n",
+            "meaning": "个人主页"
+          },
+          {
+            "word": "subscribe",
+            "ipa": "/səbˈskraɪb/",
+            "pos": "v",
+            "meaning": "订阅"
+          },
+          {
+            "word": "network",
+            "ipa": "/ˈnetwɜːk/",
+            "pos": "n",
+            "meaning": "社交圈"
+          },
+          {
+            "word": "comment",
+            "ipa": "/ˈkɒment/",
+            "pos": "n",
+            "meaning": "评论"
+          },
+          {
+            "word": "share",
+            "ipa": "/ʃeər/",
+            "pos": "v",
+            "meaning": "分享"
+          }
+        ],
+        "image": "../outputs/07-internet-and-digital-life/generated-with-text/07-card-01-generated-text.png"
+      },
+      {
+        "cardNumber": 2,
+        "subtitle": "电商与网购（E-commerce & Online Shopping）",
+        "words": [
+          {
+            "word": "transaction",
+            "ipa": "/trænˈzækʃən/",
+            "pos": "n",
+            "meaning": "交易"
+          },
+          {
+            "word": "merchant",
+            "ipa": "/ˈmɜːtʃənt/",
+            "pos": "n",
+            "meaning": "商家"
+          },
+          {
+            "word": "marketplace",
+            "ipa": "/ˈmɑːkɪtpleɪs/",
+            "pos": "n",
+            "meaning": "电商平台"
+          },
+          {
+            "word": "cart",
+            "ipa": "/kɑːt/",
+            "pos": "n",
+            "meaning": "购物车"
+          },
+          {
+            "word": "recommendation",
+            "ipa": "/ˌrekəmənˈdeɪʃən/",
+            "pos": "n",
+            "meaning": "推荐"
+          },
+          {
+            "word": "rating",
+            "ipa": "/ˈreɪtɪŋ/",
+            "pos": "n",
+            "meaning": "评分"
+          },
+          {
+            "word": "subscription",
+            "ipa": "/səbˈskrɪpʃən/",
+            "pos": "n",
+            "meaning": "订阅制"
+          },
+          {
+            "word": "logistics",
+            "ipa": "/ləˈdʒɪstɪks/",
+            "pos": "n",
+            "meaning": "物流"
+          },
+          {
+            "word": "refund",
+            "ipa": "/ˈriːfʌnd/",
+            "pos": "n",
+            "meaning": "退款"
+          },
+          {
+            "word": "discount",
+            "ipa": "/ˈdɪskaʊnt/",
+            "pos": "n",
+            "meaning": "折扣"
+          },
+          {
+            "word": "delivery",
+            "ipa": "/dɪˈlɪvərɪ/",
+            "pos": "n",
+            "meaning": "配送"
+          },
+          {
+            "word": "consumer",
+            "ipa": "/kənˈsjuːmər/",
+            "pos": "n",
+            "meaning": "消费者"
+          },
+          {
+            "word": "vendor",
+            "ipa": "/ˈvendər/",
+            "pos": "n",
+            "meaning": "卖家"
+          },
+          {
+            "word": "checkout",
+            "ipa": "/ˈtʃekaʊt/",
+            "pos": "n",
+            "meaning": "结账"
+          },
+          {
+            "word": "inventory",
+            "ipa": "/ˈɪnvəntərɪ/",
+            "pos": "n",
+            "meaning": "库存"
+          },
+          {
+            "word": "payment",
+            "ipa": "/ˈpeɪmənt/",
+            "pos": "n",
+            "meaning": "支付"
+          },
+          {
+            "word": "voucher",
+            "ipa": "/ˈvaʊtʃər/",
+            "pos": "n",
+            "meaning": "优惠券"
+          }
+        ],
+        "image": "../outputs/07-internet-and-digital-life/generated-with-text/07-card-02-generated-text.png"
+      },
+      {
+        "cardNumber": 3,
+        "subtitle": "网络安全与隐私（Cybersecurity & Privacy）",
+        "words": [
+          {
+            "word": "encryption",
+            "ipa": "/ɪnˈkrɪpʃən/",
+            "pos": "n",
+            "meaning": "加密"
+          },
+          {
+            "word": "firewall",
+            "ipa": "/ˈfaɪəwɔːl/",
+            "pos": "n",
+            "meaning": "防火墙"
+          },
+          {
+            "word": "phishing",
+            "ipa": "/ˈfɪʃɪŋ/",
+            "pos": "n",
+            "meaning": "网络钓鱼"
+          },
+          {
+            "word": "malware",
+            "ipa": "/ˈmælweər/",
+            "pos": "n",
+            "meaning": "恶意软件"
+          },
+          {
+            "word": "vulnerability",
+            "ipa": "/ˌvʌlnərəˈbɪlɪtɪ/",
+            "pos": "n",
+            "meaning": "漏洞"
+          },
+          {
+            "word": "hacker",
+            "ipa": "/ˈhækər/",
+            "pos": "n",
+            "meaning": "黑客"
+          },
+          {
+            "word": "authentication",
+            "ipa": "/ɔːˌθentɪˈkeɪʃən/",
+            "pos": "n",
+            "meaning": "身份验证"
+          },
+          {
+            "word": "privacy",
+            "ipa": "/ˈprɪvəsɪ/",
+            "pos": "n",
+            "meaning": "隐私"
+          },
+          {
+            "word": "breach",
+            "ipa": "/briːtʃ/",
+            "pos": "n",
+            "meaning": "数据泄露"
+          },
+          {
+            "word": "surveillance",
+            "ipa": "/səˈveɪləns/",
+            "pos": "n",
+            "meaning": "监控"
+          },
+          {
+            "word": "anonymity",
+            "ipa": "/ˌænəˈnɪmɪtɪ/",
+            "pos": "n",
+            "meaning": "匿名性"
+          },
+          {
+            "word": "cybercrime",
+            "ipa": "/ˈsaɪbəkraɪm/",
+            "pos": "n",
+            "meaning": "网络犯罪"
+          },
+          {
+            "word": "protocol",
+            "ipa": "/ˈprəʊtəkɒl/",
+            "pos": "n",
+            "meaning": "协议"
+          },
+          {
+            "word": "secure",
+            "ipa": "/sɪˈkjʊər/",
+            "pos": "adj",
+            "meaning": "安全的"
+          },
+          {
+            "word": "identity",
+            "ipa": "/aɪˈdentɪtɪ/",
+            "pos": "n",
+            "meaning": "身份"
+          },
+          {
+            "word": "threat",
+            "ipa": "/θret/",
+            "pos": "n",
+            "meaning": "威胁"
+          },
+          {
+            "word": "password",
+            "ipa": "/ˈpɑːswɜːd/",
+            "pos": "n",
+            "meaning": "密码"
+          }
+        ],
+        "image": "../outputs/07-internet-and-digital-life/generated-with-text/07-card-03-generated-text.png"
+      },
+      {
+        "cardNumber": 4,
+        "subtitle": "数字内容与娱乐（Digital Content & Entertainment）",
+        "words": [
+          {
+            "word": "podcast",
+            "ipa": "/ˈpɒdkɑːst/",
+            "pos": "n",
+            "meaning": "播客"
+          },
+          {
+            "word": "streaming",
+            "ipa": "/ˈstriːmɪŋ/",
+            "pos": "n",
+            "meaning": "流媒体"
+          },
+          {
+            "word": "binge-watch",
+            "ipa": "/ˈbɪndʒwɒtʃ/",
+            "pos": "v",
+            "meaning": "连续追剧"
+          },
+          {
+            "word": "download",
+            "ipa": "/ˈdaʊnləʊd/",
+            "pos": "v",
+            "meaning": "下载"
+          },
+          {
+            "word": "upload",
+            "ipa": "/ˈʌpləʊd/",
+            "pos": "v",
+            "meaning": "上传"
+          },
+          {
+            "word": "resolution",
+            "ipa": "/ˌrezəˈluːʃən/",
+            "pos": "n",
+            "meaning": "分辨率"
+          },
+          {
+            "word": "bandwidth",
+            "ipa": "/ˈbændwɪdθ/",
+            "pos": "n",
+            "meaning": "带宽"
+          },
+          {
+            "word": "playlist",
+            "ipa": "/ˈpleɪlɪst/",
+            "pos": "n",
+            "meaning": "播放列表"
+          },
+          {
+            "word": "thumbnail",
+            "ipa": "/ˈθʌmneɪl/",
+            "pos": "n",
+            "meaning": "缩略图"
+          },
+          {
+            "word": "caption",
+            "ipa": "/ˈkæpʃən/",
+            "pos": "n",
+            "meaning": "字幕"
+          },
+          {
+            "word": "genre",
+            "ipa": "/ˈʒɒnrə/",
+            "pos": "n",
+            "meaning": "内容类型"
+          },
+          {
+            "word": "interactive",
+            "ipa": "/ˌɪntərˈæktɪv/",
+            "pos": "adj",
+            "meaning": "互动的"
+          },
+          {
+            "word": "immersive",
+            "ipa": "/ɪˈmɜːsɪv/",
+            "pos": "adj",
+            "meaning": "沉浸式的"
+          },
+          {
+            "word": "virtual",
+            "ipa": "/ˈvɜːtʃuəl/",
+            "pos": "adj",
+            "meaning": "虚拟的"
+          },
+          {
+            "word": "premiere",
+            "ipa": "/ˈpremiər/",
+            "pos": "n",
+            "meaning": "首映/首发"
+          },
+          {
+            "word": "on-demand",
+            "ipa": "/ɒn dɪˈmɑːnd/",
+            "pos": "adj",
+            "meaning": "按需的"
+          },
+          {
+            "word": "autoplay",
+            "ipa": "/ˈɔːtəʊpleɪ/",
+            "pos": "n",
+            "meaning": "自动播放"
+          }
+        ],
+        "image": "../outputs/07-internet-and-digital-life/generated-with-text/07-card-04-generated-text.png"
+      },
+      {
+        "cardNumber": 5,
+        "subtitle": "数字化转型与科技平台（Digital Transformation & Tech Platforms）",
+        "words": [
+          {
+            "word": "cloud",
+            "ipa": "/klaʊd/",
+            "pos": "n",
+            "meaning": "云端"
+          },
+          {
+            "word": "automation",
+            "ipa": "/ˌɔːtəˈmeɪʃən/",
+            "pos": "n",
+            "meaning": "自动化"
+          },
+          {
+            "word": "disruption",
+            "ipa": "/dɪsˈrʌpʃən/",
+            "pos": "n",
+            "meaning": "颠覆"
+          },
+          {
+            "word": "innovation",
+            "ipa": "/ˌɪnəˈveɪʃən/",
+            "pos": "n",
+            "meaning": "创新"
+          },
+          {
+            "word": "startup",
+            "ipa": "/ˈstɑːtʌp/",
+            "pos": "n",
+            "meaning": "创业公司"
+          },
+          {
+            "word": "integrate",
+            "ipa": "/ˈɪntɪɡreɪt/",
+            "pos": "v",
+            "meaning": "整合"
+          },
+          {
+            "word": "transform",
+            "ipa": "/trænsˈfɔːm/",
+            "pos": "v",
+            "meaning": "转型"
+          },
+          {
+            "word": "scalable",
+            "ipa": "/ˈskeɪləbl/",
+            "pos": "adj",
+            "meaning": "可扩展的"
+          },
+          {
+            "word": "infrastructure",
+            "ipa": "/ˈɪnfrəstrʌktʃər/",
+            "pos": "n",
+            "meaning": "基础设施"
+          },
+          {
+            "word": "ecosystem",
+            "ipa": "/ˈiːkəʊsɪstəm/",
+            "pos": "n",
+            "meaning": "生态系统"
+          },
+          {
+            "word": "monetize",
+            "ipa": "/ˈmɒnɪtaɪz/",
+            "pos": "v",
+            "meaning": "变现"
+          },
+          {
+            "word": "deploy",
+            "ipa": "/dɪˈplɔɪ/",
+            "pos": "v",
+            "meaning": "部署"
+          },
+          {
+            "word": "optimize",
+            "ipa": "/ˈɒptɪmaɪz/",
+            "pos": "v",
+            "meaning": "优化"
+          },
+          {
+            "word": "interface",
+            "ipa": "/ˈɪntərfeɪs/",
+            "pos": "n",
+            "meaning": "界面"
+          },
+          {
+            "word": "connectivity",
+            "ipa": "/ˌkɒnekˈtɪvɪtɪ/",
+            "pos": "n",
+            "meaning": "连接性"
+          },
+          {
+            "word": "digital",
+            "ipa": "/ˈdɪdʒɪtəl/",
+            "pos": "adj",
+            "meaning": "数字化的"
+          },
+          {
+            "word": "database",
+            "ipa": "/ˈdeɪtəbeɪs/",
+            "pos": "n",
+            "meaning": "数据库"
+          },
+          {
+            "word": "server",
+            "ipa": "/ˈsɜːvər/",
+            "pos": "n",
+            "meaning": "服务器"
+          }
+        ],
+        "image": "../outputs/07-internet-and-digital-life/generated-with-text/07-card-05-generated-text.png"
+      }
+    ],
+    "reading": {
+      "title": "The Architecture of Attention — How Digital Platforms Reshape Modern Life",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The past two decades have witnessed a profound **digital** **transform**ation of everyday life. From the way people communicate to the manner in which they shop, learn and entertain themselves, virtually every sphere of human activity has been reshaped by internet-enabled **platform**s. At the heart of this revolution lies the **algorithm** — a set of computational instructions that determines which **content** appears on a user's screen, in what order, and with what frequency. These invisible gatekeepers now exert an influence over public discourse that rivals, and in some cases surpasses, that of traditional media **broadcast**ers."
+        },
+        {
+          "label": "B",
+          "text": "Social media **network**s exemplify this shift. By curating personalised feeds, they maximise user **engagement** — the total volume of clicks, likes, **comment**s and **share**s that a post attracts. When a piece of content goes **viral**, spreading from one **follower** base to another at exponential speed, it can reach millions within hours. **Influencer**s — individuals who have cultivated large audiences around carefully managed **profile**s — exploit this dynamic to promote products, shape opinions and build personal brands. **Trending** **hashtag**s amplify particular topics, while constant **notification**s pull users back to the **platform** at regular intervals, creating habits that are difficult to break. Those who wish to receive regular updates from a favourite creator simply **subscribe** and await the next **stream** or **interaction**."
+        },
+        {
+          "label": "C",
+          "text": "The economic engine of the digital world is e-commerce. Online **marketplace**s connect **merchant**s and **vendor**s with a global **consumer** base, enabling **transaction**s that would have been inconceivable a generation ago. Personalised **recommendation** systems analyse browsing history and purchase patterns to suggest items that a shopper is likely to add to their **cart**. At **checkout**, multiple **payment** options — from credit cards to digital wallets — ensure a frictionless experience. **Subscription**-based models guarantee recurring **revenue** for **merchant**s, while **discount** codes and **voucher**s drive impulse purchasing. Behind the scenes, sophisticated **logistics** networks coordinate **inventory** management and last-mile **delivery**, with automated **refund** processes handling the inevitable returns."
+        },
+        {
+          "label": "D",
+          "text": "Yet this convenience comes at a cost. The vast quantities of personal data that **digital** **platform**s collect have raised urgent questions about **privacy** and **security**. High-profile data **breach**es have exposed the **vulnerability** of even the most established systems, enabling **hacker**s to steal **password**s and **identity** credentials. **Phishing** attacks — fraudulent messages designed to trick recipients into revealing sensitive information — and **malware** infections remain persistent **threat**s. Governments and corporations have responded by investing in **encryption** technologies, **firewall** defences and multi-factor **authentication** **protocol**s. Nevertheless, the tension between **surveillance** for national security purposes and the preservation of individual **anonymity** continues to provoke fierce debate, with **cybercrime** showing no sign of abating. Ensuring that online systems are genuinely **secure** requires constant vigilance."
+        },
+        {
+          "label": "E",
+          "text": "In the realm of entertainment, **digital** technologies have been equally **disruptive**. **Streaming** services offer **on-demand** access to vast libraries of film, music and television, organised by **genre** and presented through eye-catching **thumbnail** images. **Caption**s and multi-language support have made content accessible to international audiences, while **autoplay** features and curated **playlist**s encourage prolonged viewing sessions — a behaviour popularly known as **binge-watch**ing. High-**resolution** video and **immersive** **virtual** reality experiences, once confined to specialist laboratories, are now available to anyone with sufficient **bandwidth**. Creators **upload** original material daily, and audiences **download** or **stream** it via **podcast**s, live broadcasts and **interactive** shows that blur the line between viewer and participant. The excitement surrounding a major **premiere** can generate **viral** attention that eclipses traditional marketing campaigns."
+        },
+        {
+          "label": "F",
+          "text": "Underpinning all of these developments is a rapidly evolving technological **infrastructure**. **Cloud** computing allows businesses to **deploy** applications on remote **server**s, accessing virtually unlimited storage through a shared **database**. **Automation** has streamlined repetitive tasks, while **scalable** architectures enable **startup**s to grow without crippling capital expenditure. The ability to **monetize** user data and attention has attracted enormous investment, transforming fledgling ventures into global **ecosystem**s. Entrepreneurs strive to **integrate** new services into existing platforms and to **optimize** the user **interface** for maximum **connectivity**."
+        },
+        {
+          "label": "G",
+          "text": "Whether this relentless **innovation** will ultimately prove beneficial remains an open question. Critics warn that the attention economy exploits psychological vulnerabilities, while advocates contend that **digital** tools democratise knowledge, foster creativity and break down barriers to economic participation. What is certain is that the **disruption** is far from over, and societies must develop the critical literacy needed to navigate a world in which the architecture of attention is designed, above all, to capture it."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Algorithms determine the order in which content is displayed to social media users.",
+              "answer": "TRUE",
+              "explanation": "段落A: \"a set of computational instructions that determines which content appears on a user's screen, in what order\" · 原文明确指出算法决定内容出现的顺序（in what order），与题目表述一致。"
+            },
+            {
+              "number": 2,
+              "text": "All influencers earn more money than traditional television presenters.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落B · 文章提到influencer利用平台推广产品和塑造品牌，但从未将其收入与传统电视主持人做比较。这一信息在文中未提及。"
+            },
+            {
+              "number": 3,
+              "text": "Subscription-based e-commerce models provide merchants with a steady income stream.",
+              "answer": "TRUE",
+              "explanation": "段落C: \"Subscription-based models guarantee recurring revenue for merchants\" · 原文说订阅模式为商家保证经常性收入（recurring revenue），与题目所说的\"steady income stream\"（稳定收入流）含义一致。"
+            },
+            {
+              "number": 4,
+              "text": "Multi-factor authentication has completely eliminated the threat of cybercrime.",
+              "answer": "FALSE",
+              "explanation": "段落D: \"cybercrime showing no sign of abating\" · 原文指出尽管有加密和多因素认证等技术投入，网络犯罪仍\"没有减弱的迹象\"。题目中的\"completely eliminated\"（完全消除）使用了绝对词，与原文矛盾。"
+            },
+            {
+              "number": 5,
+              "text": "Autoplay features on streaming platforms encourage users to watch for longer periods.",
+              "answer": "TRUE",
+              "explanation": "段落E: \"autoplay features and curated playlists encourage prolonged viewing sessions\" · 原文明确说自动播放功能鼓励长时间的观看，与题目表述\"watch for longer periods\"含义一致。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "matching-info",
+          "title": "Questions 6-9: Matching Information",
+          "instruction": "In which paragraph does the writer mention the following? Write the correct letter A-G.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "A comparison between the influence of digital platforms and that of traditional media",
+              "answer": "A",
+              "explanation": "段落A最后一句提到算法\"exert an influence over public discourse that rivals, and in some cases surpasses, that of traditional media broadcasters\"，将数字平台的影响力与传统媒体进行了对比。"
+            },
+            {
+              "number": 7,
+              "text": "The role of logistics in managing online retail returns",
+              "answer": "C",
+              "explanation": "段落C提到\"sophisticated logistics networks coordinate inventory management and last-mile delivery, with automated refund processes handling the inevitable returns\"，涉及物流在管理退货中的角色。"
+            },
+            {
+              "number": 8,
+              "text": "The conflict between government surveillance and personal anonymity",
+              "answer": "D",
+              "explanation": "段落D明确讨论了\"the tension between surveillance for national security purposes and the preservation of individual anonymity\"，即政府监控与个人匿名性之间的冲突。"
+            },
+            {
+              "number": 9,
+              "text": "The ability of small companies to grow without large upfront investment",
+              "answer": "F",
+              "explanation": "段落F指出\"scalable architectures enable startups to grow without crippling capital expenditure\"，说明小公司可以在没有巨额前期投资的情况下成长。"
+            }
+          ],
+          "paragraphOptions": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "on-demand",
+              "explanation": "段落E: \"Streaming services offer on-demand access to vast libraries\" · 流媒体服务提供按需（on-demand）访问大量媒体内容库的功能。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "thumbnail",
+              "explanation": "段落E: \"presented through eye-catching thumbnail images\" · 视频通过吸引眼球的缩略图（thumbnail）图像来展示。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "binge-watching",
+              "explanation": "段落E: \"prolonged viewing sessions — a behaviour popularly known as binge-watching\" · 长时间连续观看的行为被称为追剧（binge-watching）。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "virtual",
+              "explanation": "段落E: \"immersive virtual reality experiences\" · 沉浸式虚拟（virtual）现实体验现在已向普通消费者开放。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "The digital revolution has fundamentally changed how people consume entertainment. Streaming services provide"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "access to large collections of media content. Videos are presented with attractive"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "images to draw viewer interest. Features such as autoplay and curated playlists encourage a behaviour known as"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": ", in which viewers watch many episodes consecutively. Meanwhile, advances in technology have made high-resolution video and"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "reality experiences available to ordinary consumers. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
+  },
+  {
     "slug": "08-space-and-astronomy",
     "title": "太空与天文（Space & Astronomy）",
     "shortTitle": "Space And Astronomy",
@@ -1186,7 +6903,206 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/09-education-and-school/09-card-05.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "Redesigning the Classroom — How Modern Pedagogy Is Transforming Education",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Across much of the developed world, education systems are undergoing a period of significant reform. Governments, **stakeholder**s and educators alike recognise that the traditional model — in which a teacher delivers a **lecture** to rows of passive students — is no longer sufficient to prepare young people for the demands of the twenty-first century. The emphasis has shifted towards creating a **conducive** learning environment that can **stimulate** curiosity, **facilitate** deep understanding and equip learners with the **analytical** and **cognitive** skills needed in a rapidly changing labour market."
+        },
+        {
+          "label": "B",
+          "text": "At the heart of this transformation lies a rethinking of the **curriculum**. Whereas older approaches relied heavily on **standardised** testing and rote memorisation, contemporary **methodology** favours a broader, more **inclusive** framework. A well-designed **syllabus** now balances **compulsory** core subjects with elective modules that allow students to pursue individual interests. **Extracurricular** activities — from debating societies to coding clubs — are increasingly viewed not as luxuries but as essential components of a rounded education. These programmes develop teamwork, **discipline** and the kind of **perseverance** that standardised examinations alone cannot measure."
+        },
+        {
+          "label": "B",
+          "text": "Modern classrooms also look very different from their predecessors. **Interactive** whiteboards, **collaborative** group exercises and student-led **seminar**s have replaced the one-directional lecture in many schools. Teachers adopting the **scaffolding** approach break complex tasks into manageable steps, providing targeted support that is gradually withdrawn as the learner gains confidence. This technique, rooted in the science of **pedagogy**, enables educators to practise **differentiation** — tailoring instruction to accommodate diverse abilities within a single class. The goal is to **motivate** every student, not merely those who thrive in traditional academic settings."
+        },
+        {
+          "label": "D",
+          "text": "**Assessment** practices have evolved in tandem. Educationalists now distinguish between **formative** assessment, which takes place during the learning process and provides ongoing **feedback**, and **summative** evaluation, which measures achievement at the end of a course. **Constructive** commentary from teachers helps students develop a **reflective** habit of mind, encouraging them to evaluate their own progress and identify areas for improvement. **Concentration** and **retention** — how well students focus and how much they remember — are regarded as skills that can be trained through **deliberate** practice, rather than fixed traits. Schools that **reinforce** this **mindset** report higher levels of academic **proficiency** and greater intellectual **autonomy** among their students. An **inquisitive** attitude, once considered a distraction, is now actively encouraged, while the ability to **synthesise** information from multiple sources is prized as an **exemplary** scholarly skill. The process requires students to **immerse** themselves fully in each subject, supported by **rigorous** study habits."
+        },
+        {
+          "label": "E",
+          "text": "The landscape of higher education presents its own set of challenges. Rising **tuition** fees have ignited debate about the value proposition of a university degree. **Undergraduate** and **postgraduate** students alike accumulate substantial debt, and many question whether the investment yields adequate returns. **Scholarship**s and government-backed **subsidise**d loan programmes alleviate the financial burden for some, yet significant **disparity** and **inequality** persist between socioeconomic groups. The quality of a **faculty**'s teaching, the rigour of its **accreditation** and the reputation of the institution all influence a **graduate**'s employment prospects. Maintaining a clean academic **transcript** is vital, and universities have tightened their stance on **plagiarism**, deploying sophisticated software to detect copied work."
+        },
+        {
+          "label": "F",
+          "text": "Beyond the lecture hall, the relationship between **mentor** and **peer** plays a crucial role in academic and personal development. A supportive **mentor** offers guidance on everything from **dissertation** planning to career strategy, helping students navigate the transition from **academia** to the professional world. Opportunities such as **internship** placements and **vocational** training programmes bridge the gap between theory and practice. Even the social dimension of university life — shared **dormitory** accommodation, group projects, campus societies — contributes to the development of **empathy**, **rapport** and interpersonal competence."
+        },
+        {
+          "label": "G",
+          "text": "Looking ahead, policymakers face the challenge of **implement**ing reforms that address **accountability** while preserving the professional **autonomy** of teachers. Decisions about how to **allocate** limited budgets, whether to make certain programmes **mandatory**, and how best to **nurture** the potential of every child require careful negotiation among competing **initiative**s. The **provision** of **universal** access to quality education remains an ambitious but essential goal — one that demands not only financial investment but also a fundamental shift in how societies value **literacy**, learning and the **enrolment** of every child in the educational enterprise."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "",
+          "questions": [
+            {
+              "number": 1,
+              "text": "The traditional lecture-based teaching model is considered adequate for preparing students for modern employment.",
+              "answer": "FALSE",
+              "explanation": "段落A: \"the traditional model... is no longer sufficient to prepare young people for the demands of the twenty-first century\" · 原文明确指出传统讲座模式\"不再足以\"准备年轻人应对21世纪的需求，与题目说的\"considered adequate\"（被认为足够）相矛盾。"
+            },
+            {
+              "number": 2,
+              "text": "Extracurricular activities are now seen as essential parts of a complete education.",
+              "answer": "TRUE",
+              "explanation": "段落B: \"increasingly viewed not as luxuries but as essential components of a rounded education\" · 原文说课外活动越来越被视为\"必不可少的组成部分\"而非奢侈品，与题目表述\"essential parts\"一致。"
+            },
+            {
+              "number": 3,
+              "text": "Formative assessment takes place only at the end of a course.",
+              "answer": "FALSE",
+              "explanation": "段落D: \"formative assessment, which takes place during the learning process\" · 原文指出形成性评估发生在\"学习过程中\"（during the learning process），而非仅在课程结束时。题目说\"only at the end\"与原文矛盾。"
+            },
+            {
+              "number": 4,
+              "text": "Universities have implemented software tools to detect plagiarism.",
+              "answer": "TRUE",
+              "explanation": "段落E: \"deploying sophisticated software to detect copied work\" · 原文明确提到大学使用先进软件检测抄袭，与题目表述一致。注意\"copied work\"是\"plagiarism\"的同义替换。"
+            },
+            {
+              "number": 5,
+              "text": "All countries have achieved universal access to quality education.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落G: \"the provision of universal access to quality education remains an ambitious but essential goal\" · 原文将普及优质教育描述为一个\"雄心勃勃但必要的目标\"，暗示尚未实现，但未明确说明任何国家是否已达成。题目中\"All countries\"的信息在文中未提供。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "headings",
+          "title": "Questions 6-9: Matching Headings",
+          "instruction": "Choose the correct heading for each paragraph from the list below.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph B",
+              "answer": "iii",
+              "explanation": "段落B讨论课程体系（curriculum）的重新设计，强调从标准化测试转向更广泛（broader）、更包容（inclusive）的框架，包含必修和选修模块及课外活动，对应标题iii\"需要更广泛、更灵活的课程\"。"
+            },
+            {
+              "number": 7,
+              "text": "Paragraph D",
+              "answer": "ii",
+              "explanation": "段落D讨论评估（assessment）实践的演变——形成性与总结性评估的区分、建设性反馈、反思习惯培养、以及学生自主性（autonomy）的发展，对应标题ii\"评估改革与独立思维的培养\"。"
+            },
+            {
+              "number": 8,
+              "text": "Paragraph E",
+              "answer": "i",
+              "explanation": "段落E聚焦高等教育的财务压力——学费上涨、学生债务、奖学金不足、社会经济群体间的不平等，对应标题i\"大学教育的财务压力\"。"
+            },
+            {
+              "number": 9,
+              "text": "Paragraph G",
+              "answer": "vi",
+              "explanation": "段落G展望未来，讨论政策制定者面临的挑战——预算分配、问责制、教师自主权、普及教育等，对应标题vi\"教育中未来的政策挑战\"。"
+            }
+          ],
+          "headings": [
+            {
+              "key": "i",
+              "text": "The financial pressures of university education"
+            },
+            {
+              "key": "ii",
+              "text": "Assessment reform and the cultivation of independent thinking"
+            },
+            {
+              "key": "iii",
+              "text": "The need for a broader, more flexible curriculum"
+            },
+            {
+              "key": "iv",
+              "text": "Mentorship, practical experience and campus life"
+            },
+            {
+              "key": "v",
+              "text": "Moving beyond traditional teaching methods"
+            },
+            {
+              "key": "vi",
+              "text": "Future policy challenges in education"
+            },
+            {
+              "key": "vii",
+              "text": "The case for modernising education"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "cognitive",
+              "explanation": "段落A: \"the analytical and cognitive skills needed in a rapidly changing labour market\" · 现代教育改革旨在培养学生的分析性（analytical）和认知（cognitive）技能。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "scaffolding",
+              "explanation": "段落C: \"Teachers adopting the scaffolding approach break complex tasks into manageable steps\" · 教师采用脚手架教学法（scaffolding），将复杂任务分解为可管理的步骤。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "constructive",
+              "explanation": "段落D: \"Constructive commentary from teachers helps students develop a reflective habit of mind\" · 教师的建设性（constructive）评语帮助学生评估自己的进步。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "disparity",
+              "explanation": "段落E: \"significant disparity and inequality persist between socioeconomic groups\" · 不断上涨的学费在不同经济背景的学生之间造成了显著的差距（disparity）。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "Modern education reform aims to create environments that stimulate curiosity and develop students' analytical and"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "skills. Teachers now use a technique called"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": ", which involves breaking difficult tasks into smaller steps. In assessment,"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "commentary helps students evaluate their own progress. At the university level, rising tuition fees create significant"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "between students from different economic backgrounds. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
   },
   {
     "slug": "10-work-and-career",
@@ -1709,7 +7625,180 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/10-work-and-career/generated-with-text/10-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "The Evolving Workplace — From Rigid Hierarchies to Flexible Futures",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The nature of work has changed more dramatically in the past two decades than at any point since the Industrial Revolution. Technological advances, globalisation and shifting societal values have converged to reshape every stage of the employment cycle, from the initial **recruitment** process through to long-term career planning. Understanding these changes is essential for anyone seeking to navigate the contemporary labour market — whether as an **applicant** entering the workforce for the first time, a mid-career professional pursuing a **promotion**, or an **entrepreneur** launching a **startup**."
+        },
+        {
+          "label": "B",
+          "text": "The journey typically begins with a job search. **Vacancy** listings that once appeared exclusively in newspapers now populate dozens of online **platform**s, where sophisticated **screening** algorithms sift through thousands of applications in seconds. A polished **resume** and a compelling **portfolio** remain indispensable, but increasingly **candidate**s must also demonstrate strong **qualifications** and relevant **competency** through digital assessments before they are **shortlist**ed for an **interview**. Personal **referral**s and the services of a specialist **headhunter** continue to play a role, particularly for senior positions, yet the overall trend is towards greater automation in early-stage selection. Successful candidates then enter a **probation** period during which they must **negotiate** their **compensation** package and complete an **onboarding** programme designed to integrate them into the organisational culture."
+        },
+        {
+          "label": "C",
+          "text": "Once inside the organisation, employees encounter a web of relationships and expectations. The traditional corporate **hierarchy** — with a **supervisor** at every level issuing instructions downward — is gradually giving way to flatter structures that emphasise **collaboration** and shared responsibility. **Colleague**s are expected to contribute ideas proactively, showing **initiative** and remaining **accountable** for outcomes. Daily routines are punctuated by **briefing** meetings, tight **deadline**s and the pressure to manage an ever-growing **workload**. Formal **appraisal** systems and **mentorship** programmes help individuals track their progress, while **productivity** metrics quantify output. Yet the relentless pace can exact a toll: **overtime** has become normalised in many industries, and filing a **grievance** about unfair working conditions remains a daunting step for employees who fear reprisal. Being **punctual** and dependable, though seemingly basic virtues, are qualities that supervisors consistently rank among the most valued."
+        },
+        {
+          "label": "D",
+          "text": "For ambitious professionals, career growth depends on continuously building **expertise** and broadening **transferable** skills. Employers increasingly expect staff to **upskill** through **vocational** courses and professional **certification** programmes, and many organisations offer structured **leadership** development tracks. Achieving key **milestone**s — a first management role, a successful project delivery, a **lateral** move into a new department — marks progress along a career **trajectory** that rarely follows a straight line. When economic downturns force companies to announce **redundancy** programmes, displaced workers often use the disruption as an opportunity to reassess their **aspiration**s, pursue a **sabbatical** or invest in raising their **proficiency** in high-demand fields. Career **advancement** today is less about climbing a single corporate ladder and more about assembling a mosaic of experiences."
+        },
+        {
+          "label": "E",
+          "text": "The concept of work-life balance has moved from the margins of corporate discourse to its very centre. Widespread **burnout** and chronic **fatigue** have prompted organisations to rethink how, when and where work is performed. **Remote** and **hybrid** arrangements now allow employees to **telecommute** from home several days a week, reducing the physical and psychological burden of a long daily **commute**. Advocates argue that greater **flexibility** and **autonomy** over one's schedule improve **wellbeing** and, paradoxically, boost output. Encouraging workers to **detach** from email outside office hours, to pursue **leisure** activities and to build personal **resilience** are strategies that forward-thinking companies have adopted to create a more **sustainable** working culture. The ability to **recharge** — whether through exercise, travel or simple **decompression** — is now recognised as a prerequisite for sustained high performance, and establishing clear **boundary** lines between professional and personal life is a skill that modern employees must cultivate."
+        },
+        {
+          "label": "F",
+          "text": "At the entrepreneurial end of the spectrum, the landscape is equally dynamic. **Innovation** drives the creation of **disruptive** business models, and a compelling **pitch** can secure the backing of **stakeholder**s and **venture** capital investors. **Scalable** technologies enable a small team to serve a global customer base, while decisions to **outsource** non-core functions or to pursue a **merger** or **acquisition** allow rapid expansion. Generating healthy **revenue** and distributing **dividend**s to shareholders are the ultimate measures of commercial success. Some founders choose to **franchise** their concept; others prefer to **incorporate** their company and grow organically. When a venture fails, **liquidate** proceedings close one chapter — but for the resilient **entrepreneur**, the next chapter has often already begun."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Online screening algorithms have completely replaced the need for personal referrals in recruitment.",
+              "answer": "FALSE",
+              "explanation": "段落B: \"Personal referrals and the services of a specialist headhunter continue to play a role\" · 原文明确指出个人推荐和猎头\"仍然发挥着作用\"（continue to play a role），说明在线筛选算法并没有完全取代个人推荐。题目中的\"completely replaced\"是绝对表述，与原文矛盾。"
+            },
+            {
+              "number": 2,
+              "text": "Flat organisational structures place greater emphasis on collaboration than traditional hierarchies do.",
+              "answer": "TRUE",
+              "explanation": "段落C: \"gradually giving way to flatter structures that emphasise collaboration and shared responsibility\" · 原文指出传统等级结构正在让位于强调协作的扁平结构，与题目表述一致。\"place greater emphasis on collaboration\"对应原文\"emphasise collaboration\"。"
+            },
+            {
+              "number": 3,
+              "text": "Employees who file a grievance are always dismissed from their positions.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落C: \"filing a grievance about unfair working conditions remains a daunting step for employees who fear reprisal\" · 原文提到员工因害怕报复而不敢投诉，但从未说投诉者\"总是被解雇\"（always dismissed）。害怕报复不等于必然被解雇，该信息在文中未明确给出。"
+            },
+            {
+              "number": 4,
+              "text": "Career trajectories in the modern workplace are typically non-linear.",
+              "answer": "TRUE",
+              "explanation": "段落D: \"a career trajectory that rarely follows a straight line\" / \"less about climbing a single corporate ladder and more about assembling a mosaic of experiences\" · 原文多处指出职业轨迹很少是直线的，并用\"拼凑经验的马赛克\"来比喻，明确表明现代职业发展是非线性的（non-linear）。"
+            },
+            {
+              "number": 5,
+              "text": "Remote working arrangements have been shown to decrease employee productivity in all cases.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落E: \"greater flexibility and autonomy over one's schedule improve wellbeing and, paradoxically, boost output\" · 原文实际上暗示远程工作可以提高产出，但使用了\"advocates argue\"表示这是支持者的观点。然而，文章从未说远程工作\"在所有情况下降低生产力\"。题目中\"in all cases\"的信息在文中未提及。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "matching-info",
+          "title": "Questions 6-9: Matching Information",
+          "instruction": "In which paragraph does the writer mention the following? Write the correct letter A-F.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "The importance of demonstrating initiative and accepting responsibility in the workplace",
+              "answer": "C",
+              "explanation": "段落C明确提到\"Colleagues are expected to contribute ideas proactively, showing initiative and remaining accountable for outcomes\"，讨论了在职场中展现主动性和承担责任的重要性。"
+            },
+            {
+              "number": 7,
+              "text": "The psychological benefits of separating work from personal life",
+              "answer": "E",
+              "explanation": "段落E讨论了鼓励员工在办公时间外脱离工作邮件、追求休闲活动、建立韧性等策略，并指出\"establishing clear boundary lines between professional and personal life\"（在工作与个人生活之间建立清晰界限），强调了心理层面的好处。"
+            },
+            {
+              "number": 8,
+              "text": "The use of franchise models as a strategy for business expansion",
+              "answer": "F",
+              "explanation": "段落F提到\"Some founders choose to franchise their concept\"，将特许经营模式作为企业扩张策略之一进行了讨论。"
+            },
+            {
+              "number": 9,
+              "text": "How economic downturns can prompt workers to reconsider their career goals",
+              "answer": "D",
+              "explanation": "段落D指出\"When economic downturns force companies to announce redundancy programmes, displaced workers often use the disruption as an opportunity to reassess their aspirations\"，描述了经济低迷如何促使员工重新审视职业目标。"
+            }
+          ],
+          "paragraphOptions": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "vacancy",
+              "explanation": "段落B: \"Vacancy listings that once appeared exclusively in newspapers now populate dozens of online platforms\" · 候选人在网上平台回应职位空缺（vacancy）发布。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "probation",
+              "explanation": "段落B: \"Successful candidates then enter a probation period\" · 成功的申请者进入试用期（probation），之后才成为正式员工。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "appraisal",
+              "explanation": "段落C: \"Formal appraisal systems... help individuals track their progress\" · 正式的绩效评估（appraisal）系统帮助员工追踪自己的表现。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "burnout",
+              "explanation": "段落E: \"Widespread burnout and chronic fatigue have prompted organisations to rethink\" · 对职业倦怠（burnout）这一严重职场问题的广泛认识促使公司提供更灵活的工作安排。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "The modern recruitment process begins when candidates respond to"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "listings on online platforms. After passing digital assessments, successful applicants enter a"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "period before becoming permanent employees. Within the organisation, formal"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "systems help employees track their performance. Meanwhile, the growing recognition of"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "as a serious workplace issue has led companies to offer more flexible working arrangements. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
   },
   {
     "slug": "11-health-and-medicine",
@@ -2232,7 +8321,244 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/11-health-and-medicine/11-card-05.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "Rethinking Modern Medicine — From Treatment to Prevention",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Throughout the twentieth century, advances in **pharmaceutical** science reshaped the landscape of human health. The discovery of **antibiotics** in the 1940s offered a powerful weapon against bacterial **pathogens**, while the development of **vaccination** programmes led to the near-**eradication** of diseases such as smallpox. For the first time in history, a reliable **diagnosis** — supported by tools like **ultrasound** imaging and tissue **biopsies** — could be followed by targeted **therapeutic** **interventions**. Patients admitted to hospital **wards** received care from specialised **clinicians** and **consultants**, underwent **surgical** procedures under **anesthesia**, and were monitored during **convalescence** before **discharge**. These developments dramatically reduced global **mortality** rates."
+        },
+        {
+          "label": "B",
+          "text": "Yet modern medicine faces challenges that no single **prescription** can resolve. **Chronic** conditions — diabetes, cardiovascular disease, obesity — have overtaken **contagious** infections as the leading causes of death in developed nations. Unlike an **epidemic** or sudden **outbreak**, these **ailments** develop slowly, often without obvious **symptoms**, making early detection difficult. By the time a patient presents with **inflammation**, **lesions** or other clinical signs, the **prognosis** may already be poor. The **prevalence** of such conditions continues to rise, driven by sedentary lifestyles, processed diets and environmental stressors. Individuals with nutritional **deficiencies** or **hereditary** risk factors are particularly **susceptible**, and **debilitating** complications — kidney failure, nerve damage, vision loss — can severely diminish quality of life."
+        },
+        {
+          "label": "C",
+          "text": "Mental health represents another frontier. **Anxiety**, **depression** and **burnout** are now recognised as major public health concerns, yet the **stigma** surrounding psychological disorders still prevents many people from seeking help. **Psychotherapy** and **counselling** have proved effective for a range of conditions, from **phobias** and **compulsive** behaviours to post-**trauma** stress. Practices such as **mindfulness** and **introspection** are increasingly prescribed alongside conventional **medication**, supporting patients in developing **coping** strategies and rebuilding **wellbeing**. Researchers in **neuroscience** have demonstrated that the brain exhibits remarkable **neuroplasticity** — the ability to reorganise its neural pathways — which underpins the success of **cognitive** behavioural therapy and other forms of **rehabilitation**. Achieving emotional **equilibrium** and **resilience** is now understood as a lifelong process rather than a fixed state, and addressing feelings of **alienation** and **detachment** has become central to holistic treatment models."
+        },
+        {
+          "label": "D",
+          "text": "The rise of drug-resistant infections presents a more immediate danger. Decades of over-prescribing **antibiotics** have accelerated bacterial evolution, producing **pathogens** that no existing **analgesic** or antimicrobial agent can defeat. In hospitals, maintaining **sterile** environments and controlling **transmission** through strict **sanitation** protocols are critical to preventing **outbreaks** of resistant strains. **Surveillance** systems now track the **morbidity** and **incubation** periods of newly identified **vectors**, while **quarantine** measures and rapid **containment** strategies aim to limit spread. The **potency** of next-generation drugs is being tested in clinical trials, and **immunotherapy** — which harnesses the body's own **immunity** to fight disease — offers a promising alternative for patients with **malignant** tumours who have not responded to conventional treatment. Where a tumour is confirmed as **benign**, less aggressive **palliative** care may be sufficient, and **remission** rates for early-stage cancers have improved markedly."
+        },
+        {
+          "label": "E",
+          "text": "Public health policy is gradually shifting its emphasis from cure to prevention. Governments are investing in **inoculation** campaigns that protect entire populations from **endemic** diseases, and school-based programmes now teach children the importance of balanced nutrition and physical activity. **Triage** systems in emergency departments have been redesigned to identify at-risk patients earlier, and digital health platforms allow **outpatients** to consult **practitioners** remotely, reducing the burden on overstretched facilities. Crucially, regulators are addressing medical **negligence** and **malpractice** through stricter oversight of clinical practice, including improved **referral** pathways, standardised **dosage** guidelines, and real-time monitoring of **infusion** rates and **catheter** management. The careful administration of **sedatives** during procedures is also subject to new protocols to minimise risk."
+        },
+        {
+          "label": "F",
+          "text": "The transformation will not happen overnight. Building a healthcare system capable of meeting twenty-first-century challenges requires sustained funding, political will and a cultural shift in how societies view illness. It demands that individuals take greater responsibility for their own health, that **practitioners** embrace evidence-based innovation, and that policymakers prioritise prevention alongside treatment. If these conditions are met, the next generation may inherit a world in which the most **debilitating** diseases of our time are not merely managed but genuinely conquered."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Vaccination programmes were responsible for the complete elimination of smallpox.",
+              "answer": "FALSE",
+              "explanation": "段落 A: \"the near-eradication of diseases such as smallpox\" · 原文说\"接近根除\"（near-eradication），而非\"完全消除\"（complete elimination）。题目中的 \"complete elimination\" 比原文表述更绝对，两者矛盾。注意 \"near\" 这个限定词。"
+            },
+            {
+              "number": 2,
+              "text": "Chronic diseases now cause more deaths than infectious diseases in wealthy countries.",
+              "answer": "TRUE",
+              "explanation": "段落 B: \"Chronic conditions... have overtaken contagious infections as the leading causes of death in developed nations\" · 题目说 \"cause more deaths than infectious diseases in wealthy countries\"。\"overtaken\" 意为超过，\"contagious infections\" 对应 \"infectious diseases\"，\"developed nations\" 对应 \"wealthy countries\"，信息一致。"
+            },
+            {
+              "number": 3,
+              "text": "Cognitive behavioural therapy is effective partly because the brain can reorganise its neural pathways.",
+              "answer": "TRUE",
+              "explanation": "段落 C: \"the brain exhibits remarkable neuroplasticity... which underpins the success of cognitive behavioural therapy\" · 题目说CBT有效\"partly because the brain can reorganise its neural pathways\"。原文说神经可塑性\"支撑了\"CBT的成功，\"reorganise its neural pathways\" 是对 neuroplasticity 的解释。信息一致。"
+            },
+            {
+              "number": 4,
+              "text": "All hospitals worldwide have adopted digital health platforms for remote consultations.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落 E: \"digital health platforms allow outpatients to consult practitioners remotely\" · 原文提到数字健康平台的存在和功能，但并未说\"全球所有医院\"都已采用。题目中的 \"all hospitals worldwide\" 在文中无依据。"
+            },
+            {
+              "number": 5,
+              "text": "The passage recommends that governments should allocate a minimum of 15% of GDP to healthcare spending.",
+              "answer": "NOT GIVEN",
+              "explanation": "全文 · 原文从未提到任何具体的GDP百分比或财政拨款数字。题目所述信息完全不在文中。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "mcq",
+          "title": "Questions 6-9: Multiple Choice",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "What does the author identify as a key difficulty with chronic conditions in paragraph B?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "They are always caused by hereditary factors."
+                },
+                {
+                  "key": "B",
+                  "text": "They tend to develop gradually and may lack early warning signs."
+                },
+                {
+                  "key": "C",
+                  "text": "They respond quickly to standard antibiotic treatment."
+                },
+                {
+                  "key": "D",
+                  "text": "They are more common in developing countries than in developed ones."
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落 B 原文：\"these ailments develop slowly, often without obvious symptoms, making early detection difficult.\" 慢性病缓慢发展且通常没有明显症状，使得早期发现困难。选项 B \"develop gradually and may lack early warning signs\" 是同义替换。"
+            },
+            {
+              "number": 7,
+              "text": "According to paragraph C, mindfulness and introspection are",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "intended to replace all forms of conventional medication."
+                },
+                {
+                  "key": "B",
+                  "text": "used alongside traditional treatments to help patients build coping strategies."
+                },
+                {
+                  "key": "C",
+                  "text": "only effective for patients suffering from phobias."
+                },
+                {
+                  "key": "D",
+                  "text": "rejected by most neuroscientists as lacking evidence."
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落 C 原文：\"Mindfulness and introspection are increasingly prescribed alongside conventional medication, supporting patients in developing coping strategies.\" 正念和内省与常规药物\"一起\"使用，帮助患者建立应对策略。\"alongside\" 表示辅助而非替代。"
+            },
+            {
+              "number": 8,
+              "text": "In paragraph D, the author suggests that immunotherapy",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "has completely replaced surgical treatment for all cancers."
+                },
+                {
+                  "key": "B",
+                  "text": "works by stimulating the patient's own immune system to combat disease."
+                },
+                {
+                  "key": "C",
+                  "text": "is only available in a small number of countries."
+                },
+                {
+                  "key": "D",
+                  "text": "is less effective than analgesic medication for malignant tumours."
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落 D 原文：\"immunotherapy — which harnesses the body's own immunity to fight disease.\" 免疫疗法利用人体自身的免疫力来对抗疾病。\"harnesses the body's own immunity\" 对应 \"stimulating the patient's own immune system\"。"
+            },
+            {
+              "number": 9,
+              "text": "The main purpose of paragraph E is to",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "criticise governments for neglecting public health."
+                },
+                {
+                  "key": "B",
+                  "text": "describe how healthcare systems are shifting towards preventive approaches."
+                },
+                {
+                  "key": "C",
+                  "text": "argue that triage systems should be abolished."
+                },
+                {
+                  "key": "D",
+                  "text": "explain why outpatient care is inferior to hospital admission."
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落 E 的主要内容是公共卫生政策从治疗转向预防（\"shifting its emphasis from cure to prevention\"），包括接种运动、分诊系统改进、数字平台和监管加强等预防性措施。"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "sterile",
+              "explanation": "段落 D: \"maintaining sterile environments\" · 题目 \"maintaining ______ conditions\" 对应原文 sterile（无菌的）。\"conditions\" 替换了 \"environments\"。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "surveillance",
+              "explanation": "段落 D: \"Surveillance systems now track the morbidity and incubation periods\" · 题目 \"use ______ systems to monitor the spread\" 对应原文 surveillance systems（监测系统）。\"monitor\" 替换了 \"track\"。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "immunotherapy",
+              "explanation": "段落 D: \"immunotherapy — which harnesses the body's own immunity to fight disease\" · 题目 \"______ offers a treatment approach that activates the body's natural defences\" 对应原文 immunotherapy。\"activates the body's natural defences\" 替换了 \"harnesses the body's own immunity\"。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "inoculation",
+              "explanation": "段落 E: \"investing in inoculation campaigns that protect entire populations from endemic diseases\" · 题目 \"______ programmes to protect populations from endemic diseases\" 对应原文 inoculation（接种）。\"programmes\" 替换了 \"campaigns\"。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "The over-prescription of antibiotics has led to the emergence of drug-resistant bacteria. Hospitals combat this threat by maintaining"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "conditions and enforcing strict sanitation procedures. Health authorities use"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "systems to monitor the spread of new infections. For cancer patients,"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "offers a treatment approach that activates the body's natural defences. Meanwhile, public health campaigns increasingly focus on"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "programmes to protect populations from endemic diseases before infection occurs. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
   },
   {
     "slug": "12-psychology-and-emotions",
@@ -2761,7 +9087,206 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/12-psychology-and-emotions/12-card-05.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "The Architecture of Feeling — How Emotion Shapes the Mind",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "For centuries, Western philosophy treated reason and emotion as opposing forces. Rational thought was elevated; feeling was dismissed as unreliable. Modern **neuroscience**, however, has overturned this dichotomy. Brain-imaging studies reveal that **cognition** and emotion operate through deeply interconnected neural networks, and that the capacity for logical reasoning actually depends on healthy emotional processing. A patient who has suffered damage to the brain's emotional centres may retain a high IQ yet prove incapable of making even simple decisions — evidence that **perception**, **attention** and **inference** are never purely **cognitive** but are coloured, at every stage, by the emotional states running alongside them."
+        },
+        {
+          "label": "B",
+          "text": "The spectrum of human emotion is remarkably broad. At one extreme lie states of intense pleasure — **elation**, **euphoria**, the breathless **exhilaration** of a peak experience. At the other, darker feelings prevail: **grief** over irreversible loss, the quiet ache of **melancholy**, or **dread** in the face of an unknown threat. Between these poles, subtler emotions shape daily life. **Contentment** and **serenity** sustain long-term **wellbeing**, while **gratitude** and **empathy** strengthen social bonds. **Nostalgia** — a bittersweet **longing** for the past — can paradoxically boost mood by reconnecting individuals with meaningful memories. Destructive emotions, by contrast, exact a heavy toll: unchecked **resentment** corrodes relationships, and chronic **envy** has been linked to increased **anxiety** and **depression**. Recognising these states and understanding their triggers is the first step toward emotional **resilience**."
+        },
+        {
+          "label": "C",
+          "text": "**Cognitive** psychologists distinguish between automatic and controlled mental processes. Much of our thinking operates at a **subconscious** level, relying on **heuristics** — mental shortcuts that enable rapid judgements without full analysis. **Intuition**, often described as a \"gut feeling,\" draws on accumulated experience stored below conscious awareness. While such shortcuts are efficient, they are also prone to systematic error. **Bias** — a tendency to favour information that confirms existing beliefs — distorts **perception** and undermines **deliberate** reasoning. People frequently **rationalize** poor decisions after the fact, constructing a plausible **rationale** that masks the true emotional motive. The field of **metacognition**, which studies how individuals monitor and regulate their own thinking, highlights the importance of **retention** and active **recall** in counteracting these tendencies. Reducing **distraction** and practising focused **attention** have been shown to improve the accuracy of both memory and judgement."
+        },
+        {
+          "label": "D",
+          "text": "Personality theory offers another lens on human behaviour. Psychologists broadly categorise individuals along dimensions such as introversion and extraversion: an **introvert** recharges through solitude, while an **extrovert** thrives on social stimulation. Other key dimensions include **conscientiousness** — a trait associated with discipline and reliability — and **assertiveness**, the capacity to express one's views without **aggression**. Beneath these surface behaviours lie deeper structures of **temperament** and **disposition** that are partly **hereditary** and partly shaped by environment. **Altruism** and **compassion** drive prosocial action, whereas **narcissism** and **manipulative** tendencies can damage trust. Social pressure toward **conformity** may suppress authentic self-expression, leading to **inhibition** and, in extreme cases, feelings of **alienation**. **Perseverance** — the determination to pursue goals despite setbacks — is increasingly viewed as a stronger predictor of success than raw intelligence, and **impulsive** behaviour, often linked to **procrastination**, can undermine even the most talented individuals."
+        },
+        {
+          "label": "E",
+          "text": "When emotional difficulties become overwhelming, professional support is essential. A qualified **therapist** or **psychiatrist** begins with a careful **diagnosis**, assessing whether the patient's distress reflects a specific **phobia**, a **compulsion**, post-traumatic stress or another clinical condition. **Psychotherapy** and **counselling** provide structured spaces for patients to process painful experiences and achieve **catharsis** — the therapeutic release of suppressed emotion. **Medication** may be prescribed where neurochemical imbalances are identified, though the **placebo** effect complicates the evaluation of drug efficacy. Behavioural approaches rooted in **conditioning** and **reinforcement** help patients replace harmful habits with constructive ones, while awareness of unconscious defence mechanisms — **repression**, **projection** and **regression** — allows therapists to address deeper psychological patterns. Successful **rehabilitation** often depends on the brain's **neuroplasticity**, its capacity to forge new connections and overwrite old ones."
+        },
+        {
+          "label": "F",
+          "text": "Understanding emotion is not merely an academic exercise. Schools that integrate **mindfulness** into the curriculum report lower rates of **burnout** and **insomnia** among students. Workplaces that foster **empathy** and reduce **stigma** around mental health see higher productivity and lower staff turnover. **Apprehension** about seeking help diminishes when societies normalise psychological care. At its core, the science of emotion teaches a simple but powerful lesson: **vulnerability** is not weakness; it is the precondition for genuine **coping**, authentic connection and lasting **equilibrium**. Confronting **remorse**, releasing **resentment** and cultivating **serenity** are skills that, like any other, can be learned and refined across a lifetime."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Modern brain-imaging research shows that logical reasoning and emotional processing are entirely independent systems.",
+              "answer": "FALSE",
+              "explanation": "段落 A: \"cognition and emotion operate through deeply interconnected neural networks\" · 原文说认知和情感通过\"深度互联的神经网络\"运作，强调两者紧密关联。题目说两者\"entirely independent\"（完全独立），直接矛盾。注意 \"interconnected\" 与 \"independent\" 的对立。"
+            },
+            {
+              "number": 2,
+              "text": "Nostalgia can have a positive effect on a person's mood.",
+              "answer": "TRUE",
+              "explanation": "段落 B: \"Nostalgia... can paradoxically boost mood by reconnecting individuals with meaningful memories\" · 题目说怀旧\"can have a positive effect on a person's mood\"（对情绪有积极影响），对应原文 \"boost mood\"（提升情绪），信息一致。\"positive effect\" 是 \"boost\" 的同义替换。"
+            },
+            {
+              "number": 3,
+              "text": "People with strong cognitive biases tend to earn lower salaries than those without biases.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落 C 讨论了 bias 对推理的影响 · 原文说偏见\"distorts perception and undermines deliberate reasoning\"（扭曲感知并削弱深思熟虑的推理），但从未提及偏见与薪资水平的关系。题目信息在文中无依据。"
+            },
+            {
+              "number": 4,
+              "text": "Perseverance is considered a better indicator of achievement than intelligence alone.",
+              "answer": "TRUE",
+              "explanation": "段落 D: \"Perseverance... is increasingly viewed as a stronger predictor of success than raw intelligence\" · 题目说坚持是比智力更好的成就预测指标。\"predictor of success\" 对应 \"indicator of achievement\"，\"raw intelligence\" 对应 \"intelligence alone\"，信息一致。"
+            },
+            {
+              "number": 5,
+              "text": "The placebo effect makes it more challenging to assess how effective a drug truly is.",
+              "answer": "TRUE",
+              "explanation": "段落 E: \"the placebo effect complicates the evaluation of drug efficacy\" · 题目说安慰剂效应\"makes it more challenging to assess how effective a drug truly is\"。\"complicates the evaluation\" 对应 \"makes it more challenging to assess\"，\"drug efficacy\" 对应 \"how effective a drug truly is\"。同义替换，信息一致。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "headings",
+          "title": "Questions 6-9: Matching Headings",
+          "instruction": "Choose the correct heading for each paragraph from the list below.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph A",
+              "answer": "v",
+              "explanation": "段落 A 的核心内容是现代神经科学推翻了理性与情感对立的传统观念，揭示两者通过互联的神经网络运作。这对应 \"The neuroscientific basis for the reason-emotion connection\"（理性与情感联系的神经科学基础）。"
+            },
+            {
+              "number": 7,
+              "text": "Paragraph C",
+              "answer": "ii",
+              "explanation": "段落 C 讨论了自动思维过程（subconscious level）、心理捷径（heuristics）以及它们的局限性（bias、rationalize），对应 \"Automatic thinking, mental shortcuts and their limitations\"。"
+            },
+            {
+              "number": 8,
+              "text": "Paragraph D",
+              "answer": "iv",
+              "explanation": "段落 D 围绕人格理论展开，讨论了内向/外向、尽责性、自信果断等人格维度及相关行为模式（altruism, narcissism, conformity 等），对应 \"Personality dimensions and behavioural patterns\"。"
+            },
+            {
+              "number": 9,
+              "text": "Paragraph E",
+              "answer": "iii",
+              "explanation": "段落 E 描述了专业心理治疗方法，包括诊断、心理治疗、药物治疗、行为疗法等，对应 \"Professional treatment approaches for psychological disorders\"。"
+            }
+          ],
+          "headings": [
+            {
+              "key": "i",
+              "text": "The emotional spectrum and its impact on daily life"
+            },
+            {
+              "key": "ii",
+              "text": "Automatic thinking, mental shortcuts and their limitations"
+            },
+            {
+              "key": "iii",
+              "text": "Professional treatment approaches for psychological disorders"
+            },
+            {
+              "key": "iv",
+              "text": "Personality dimensions and behavioural patterns"
+            },
+            {
+              "key": "v",
+              "text": "The neuroscientific basis for the reason-emotion connection"
+            },
+            {
+              "key": "vi",
+              "text": "Practical benefits of emotional understanding in society"
+            },
+            {
+              "key": "vii",
+              "text": "The history of pharmaceutical treatments for mental illness"
+            },
+            {
+              "key": "viii",
+              "text": "Childhood development and emotional learning"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "heuristics",
+              "explanation": "段落 C: \"relying on heuristics — mental shortcuts that enable rapid judgements\" · 题目 \"mental shortcuts known as ______\" 直接对应原文的 heuristics（启发法）。原文用破折号解释 heuristics 就是 mental shortcuts。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "bias",
+              "explanation": "段落 C: \"they are also prone to systematic error. Bias — a tendency to favour information...\" · 题目说 \"vulnerable to systematic ______ that distort our perception\"。原文 \"Bias... distorts perception\"，bias 直接出现在 systematic error 的解释语境中。注意 \"error\" 在原文中是上义词，具体指的是 bias。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "diagnosis",
+              "explanation": "段落 E: \"begins with a careful diagnosis\" · 题目 \"starts with a formal ______\" 对应原文 diagnosis（诊断）。\"starts with\" 替换 \"begins with\"，\"formal\" 替换 \"careful\"。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "reinforcement",
+              "explanation": "段落 E: \"Behavioural approaches rooted in conditioning and reinforcement help patients replace harmful habits\" · 题目 \"treatments based on conditioning and ______\" 对应原文 reinforcement（强化）。\"based on\" 替换 \"rooted in\"，\"develop healthier habits\" 替换 \"replace harmful habits with constructive ones\"。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "Much of our daily thinking happens at a subconscious level, using mental shortcuts known as"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": ". These shortcuts, while efficient, are vulnerable to systematic"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "that distort our perception of reality. When emotional problems become severe, professional help from a therapist or psychiatrist typically starts with a formal"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": ". Behavioural treatments based on conditioning and"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "aim to help patients develop healthier habits. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
   },
   {
     "slug": "13-city-and-architecture",
@@ -3314,7 +9839,210 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/13-city-and-architecture/generated-with-text/13-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "The Reinvention of Greystone: A Case Study in Urban Renewal",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The city of Greystone, once a thriving industrial **metropolis**, experienced decades of decline following the collapse of its manufacturing sector. By the early 2000s, the **skyline** that had once symbolised economic might was dominated by derelict factories and crumbling **tenement** blocks. The local **municipality** faced mounting pressure to reverse this trajectory, and in 2006 it commissioned an ambitious **blueprint** for urban regeneration — one that would ultimately transform how planners approach the relationship between **heritage** preservation and **contemporary** design."
+        },
+        {
+          "label": "B",
+          "text": "At the heart of the plan was a comprehensive **zoning** overhaul. Previously, **residential** and **commercial** areas had developed in a haphazard manner, creating inefficient land use and worsening traffic **congestion** along the city's major **thoroughfare** routes. The new strategy imposed clear boundaries: distinct **precincts** were designated for housing, retail, and **civic** functions, connected by a planned transport **corridor** that linked the eastern **suburbs** to the revitalised downtown core. This approach aimed to curb the unchecked **sprawl** that had characterised Greystone's post-war expansion, concentrating development around a compact **grid** of walkable streets."
+        },
+        {
+          "label": "C",
+          "text": "The architectural vision for the project was equally transformative. Lead architect Maren Solberg sought to balance the city's industrial **heritage** with bold **contemporary** interventions. Along the main **boulevard**, several **monumental** Victorian warehouses were preserved, their original **ornate** stone **facades** carefully restored. Behind these historic exteriors, however, the interiors were radically reimagined. One former grain store was **retrofitted** with a soaring glass **atrium** that floods the building with natural light, while cantilevered steel extensions — dramatic **cantilever** structures projecting from the upper floors — added thousands of square metres of new office space without altering the street-level **elevation**."
+        },
+        {
+          "label": "D",
+          "text": "The **aesthetic** philosophy guiding these renovations drew on principles of visual harmony. Solberg insisted that every new addition respect the **proportion** and **symmetry** of the original structures. Where new **pillars** were required for **structural** support, they were designed to echo the rhythm of the existing stone columns. Grand **archways** that once framed loading bays were retained as pedestrian entrances, and the original **vaults** beneath the warehouses were converted into a public food market — preserving the spatial drama of the underground chambers while giving them a vibrant new purpose."
+        },
+        {
+          "label": "E",
+          "text": "A critical element of the masterplan was its commitment to **sustainable** urban living. Every **renovation** project was required to incorporate **renewable** energy systems, and **photovoltaic** panels were integrated into the **rooftop** gardens that now crown many of the converted warehouses. The **infrastructure** beneath the streets was entirely rebuilt: **permeable** paving replaced impervious asphalt, allowing **stormwater** to filter naturally into the ground rather than overwhelming the drainage system. Mature trees were planted along every major route, creating a continuous **canopy** that improves air quality and enhances the district's **walkability**."
+        },
+        {
+          "label": "F",
+          "text": "These **ecological** measures reflected a broader strategy of **mitigation** — reducing the city's carbon **emissions** while building long-term **resilience** against climate change. A network of **greenspace** parks and **biodiversity** corridors was woven through the urban fabric, and strict **insulation** standards were imposed on all new **dwellings** to minimise energy consumption. The result was a district that achieved some of the lowest per-capita emission figures of any urban **neighbourhood** in the country, earning Greystone international recognition for its **conservation** efforts."
+        },
+        {
+          "label": "G",
+          "text": "The social impact of the transformation, however, has been contested. Housing **density** in the regenerated area increased substantially, and the influx of young professionals triggered rapid **gentrification**. Property values soared, and many long-term **occupants** — particularly those in **affordable** housing — faced **displacement** as **landlords** sought higher rents. Community groups have argued that the **allocation** of new social housing was insufficient, and that **communal** spaces promised in the original plans were sacrificed to maximise **commercial** returns. The experience of Greystone thus illustrates a tension familiar to **urbanisation** debates worldwide: the challenge of delivering physical **renovation** without eroding the social **tenure** of existing communities, particularly in **terraced** and **detached** housing areas and cultural **enclaves** that give a city its distinctive character."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Greystone's economic decline was caused primarily by a downturn in the financial services industry.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落A：\"the collapse of its manufacturing sector\" · 文章提到制造业崩溃导致衰退，但未提及金融服务业（financial services）。题目中的 financial services 在原文中没有出现，属于无中生有。"
+            },
+            {
+              "number": 2,
+              "text": "The revised zoning framework was designed to reduce the mixing of housing and business districts.",
+              "answer": "TRUE",
+              "explanation": "段落B：\"Previously, residential and commercial areas had developed in a haphazard manner... The new strategy imposed clear boundaries\" · 原文说之前住宅区和商业区混乱发展，新策略施加了明确界限。题目用 \"reduce the mixing\" 替换了原文的 \"imposed clear boundaries\"，意思一致。"
+            },
+            {
+              "number": 3,
+              "text": "Maren Solberg's architectural approach involved completely demolishing Victorian warehouses to construct modern buildings.",
+              "answer": "FALSE",
+              "explanation": "段落C：\"several monumental Victorian warehouses were preserved, their original ornate stone facades carefully restored\" · 原文明确说维多利亚时期仓库被保留并修复，而非完全拆除（completely demolishing）。题目与原文信息直接矛盾。"
+            },
+            {
+              "number": 4,
+              "text": "The underground vaults beneath the warehouses were transformed into a public food market.",
+              "answer": "TRUE",
+              "explanation": "段落D：\"the original vaults beneath the warehouses were converted into a public food market\" · 原文直接陈述地下拱顶被改造为公共食品市场，与题目完全吻合。"
+            },
+            {
+              "number": 5,
+              "text": "Community organisations have expressed satisfaction with the amount of social housing provided in the regenerated district.",
+              "answer": "FALSE",
+              "explanation": "段落G：\"Community groups have argued that the allocation of new social housing was insufficient\" · 原文说社区团体认为社会住房分配不足，而非满意（satisfaction）。题目与原文信息相反。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "headings",
+          "title": "Questions 6-9: Matching Headings",
+          "instruction": "Choose the correct heading for each paragraph from the list below.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph B",
+              "answer": "ii",
+              "explanation": "段落B主要讨论新的分区（zoning）规划如何将住宅、商业和市政功能分开，对应\"分离城市功能的新计划\"。"
+            },
+            {
+              "number": 7,
+              "text": "Paragraph D",
+              "answer": "vii",
+              "explanation": "段落D聚焦于比例（proportion）、对称（symmetry）等视觉设计原则，强调新旧建筑的视觉和谐。"
+            },
+            {
+              "number": 8,
+              "text": "Paragraph E",
+              "answer": "iii",
+              "explanation": "段落E详细描述了可再生能源、透水铺装、屋顶花园等环境设计措施，属于再生区的环境设计。"
+            },
+            {
+              "number": 9,
+              "text": "Paragraph G",
+              "answer": "i",
+              "explanation": "段落G讨论了士绅化（gentrification）导致居民被迫迁离（displacement）等社会争议，对应更新的社会后果争议。"
+            }
+          ],
+          "headings": [
+            {
+              "key": "i",
+              "text": "Controversy over the social consequences of renewal"
+            },
+            {
+              "key": "ii",
+              "text": "A new plan for separating urban functions"
+            },
+            {
+              "key": "iii",
+              "text": "The environmental design of the regenerated district"
+            },
+            {
+              "key": "iv",
+              "text": "Architectural techniques for blending old and new structures"
+            },
+            {
+              "key": "v",
+              "text": "Background to an ambitious regeneration project"
+            },
+            {
+              "key": "vi",
+              "text": "Measuring the economic return on investment"
+            },
+            {
+              "key": "vii",
+              "text": "Achieving harmony through visual design principles"
+            },
+            {
+              "key": "viii",
+              "text": "Reducing the city's environmental footprint"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "facades",
+              "explanation": "段落C：\"their original ornate stone facades carefully restored\" · 原文说原始华丽的石材立面被精心修复。注意 facade 是关键词汇卡片词汇。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "permeable",
+              "explanation": "段落E：\"permeable paving replaced impervious asphalt, allowing stormwater to filter naturally\" · 原文说透水铺装取代了不透水的沥青，允许雨水自然过滤。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "gentrification",
+              "explanation": "段落G：\"the influx of young professionals triggered rapid gentrification\" · 年轻专业人士的涌入引发了快速的士绅化，导致房价飙升。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "allocation",
+              "explanation": "段落G：\"the allocation of new social housing was insufficient\" · 原文说新社会住房的分配不足以保护弱势社区。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "Greystone's regeneration plan centred on transforming old industrial buildings while preserving their historical character. The main boulevard's warehouses had their original stone"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "restored on the outside, while the interiors received modern additions such as glass atriums. Environmental sustainability was embedded in the project:"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "paving was installed to allow rainwater to drain naturally, and rooftop solar panels provided clean energy. However, the success of the project led to"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": ", as rising property values forced long-standing residents out of the area. Critics argued that the"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "of new social housing units was inadequate to protect vulnerable communities. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
   },
   {
     "slug": "14-transportation-and-transit",
@@ -3837,7 +10565,248 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/14-transportation-and-transit/generated-with-text/14-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "Rethinking Urban Mobility — Lessons from Three Cities",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "As the world's urban population continues to grow, municipal authorities face escalating challenges in providing efficient **transit** systems. Traffic **congestion** costs the global economy an estimated $1 trillion annually in lost **productivity**, wasted fuel, and health impacts from vehicle **emissions**. Three cities — Stockholm, Medellín, and Singapore — offer instructive examples of how integrated transport planning can improve urban **mobility** while advancing **sustainable** development goals."
+        },
+        {
+          "label": "B",
+          "text": "Stockholm's approach centres on pricing mechanisms. In 2006, the city introduced a **congestion** charge on vehicles entering the downtown core during peak hours. The **toll** system, initially controversial among **commuters**, reduced traffic volumes by 22% within the first year. Revenue was reinvested in expanding the suburban rail **network**, increasing service **frequency** on key **routes** connecting **suburban** **neighbourhoods** to the city centre. The **connectivity** between bus, metro, and rail services was improved through a unified **timetable** and a single digital **fare** card accepted across all modes. At each major **interchange** station, real-time **departure** boards now display waiting times, and the system's overall **punctuality** rate exceeds 94%."
+        },
+        {
+          "label": "C",
+          "text": "A critical element of Stockholm's success was its investment in road **infrastructure**. The city constructed a major **bypass** — a 21-kilometre tunnel — that diverted through-traffic away from the city centre, dramatically reducing **gridlock** on surface streets. Above ground, several busy **junctions** were redesigned as **roundabouts** to improve traffic flow, and new **signage** was installed to guide drivers toward the **motorway** network. For those travelling on foot, upgraded **pavements** with dropped **kerbs** and tactile strips enhanced safety for **pedestrians**, while dedicated **cycling** **lanes** separated from the **carriageway** encouraged non-motorised travel."
+        },
+        {
+          "label": "D",
+          "text": "Medellín adopted a fundamentally different strategy. Rather than managing demand through pricing, the Colombian city focused on extending **transit** access to historically underserved hillside communities. A cable-car system was built to connect steep informal settlements to the metro **terminus** at the valley floor, slashing **commute** times from over ninety minutes to under fifteen. The cable cars function as an extension of the public **transit** **network**, sharing the same **fare** structure and integrated **timetable**. Enclosed **pedestrian** bridges and escalators link cable-car stations to surrounding **neighbourhoods**, while new **shuttle** buses provide last-mile **connectivity** within each community. The transformation has been described as a triumph of inclusive **mobility**, giving residents access to employment, education, and healthcare that geography had previously denied them."
+        },
+        {
+          "label": "E",
+          "text": "Singapore has pursued perhaps the most technologically ambitious vision. Its Land Transport Authority has invested heavily in an **autonomous** vehicle programme, with self-driving **shuttle** buses now operating on fixed **routes** in several districts. The city's **underground** metro system, one of the world's most advanced, relies on fully automated **signalling** that enables trains to run at extremely short headway intervals. An elevated monorail — a modern **viaduct** structure — connects the airport **terminal** to the central business district, and a network of covered **flyovers** separates **carriageway** traffic from pedestrian-level **pavements**. To encourage the shift away from private cars, Singapore levies substantial vehicle ownership **tolls** and uses electronic road pricing to manage **congestion** in real time. The government also offers generous **subsidies** to **incentivise** the purchase of **electric** and **hybrid** vehicles, and has committed to the full **electrification** of its bus fleet by 2040 — a move it describes as essential for **decarbonising** the transport sector and achieving **zero-emission** public transit."
+        },
+        {
+          "label": "F",
+          "text": "Despite their differences, all three cities share a common insight: sustainable transport is not achieved through a single intervention but through an integrated system. Stockholm demonstrates that **congestion** pricing can fund network expansion. Medellín shows that creative engineering can overcome physical barriers to **connectivity**. Singapore illustrates how regulatory tools, **autonomous** technology, and **renewable** energy can be combined to create a comprehensive **mobility** framework. In each case, the key was not merely building new roads or **viaducts** but reimagining the entire journey — from the **platform** where a **commuter** waits, past the **intersection** where traffic once choked, through the **underpass** or **interchange** where modes connect, to the final **detour**-free walk along a safe **pavement** to the destination."
+        },
+        {
+          "label": "G",
+          "text": "The implications for other cities are clear. Investing in public **transit** **infrastructure**, improving the **frequency** and **punctuality** of services, and adopting **sustainable** technologies such as **micromobility** devices and shared **carpool** schemes can collectively transform urban travel. The challenge lies not in identifying solutions but in summoning the political will to **pedestrianise** streets, reallocate road space, and prioritise collective **mobility** over individual convenience."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Traffic congestion is estimated to cost the global economy approximately one trillion dollars per year.",
+              "answer": "TRUE",
+              "explanation": "段落A：\"Traffic congestion costs the global economy an estimated $1 trillion annually\" · 原文明确说交通拥堵每年给全球经济造成约1万亿美元损失。题目用 \"approximately one trillion dollars\" 替换原文的 \"$1 trillion\"，意思一致。"
+            },
+            {
+              "number": 2,
+              "text": "Stockholm's congestion charge was immediately popular with daily travellers when it was first introduced.",
+              "answer": "FALSE",
+              "explanation": "段落B：\"The toll system, initially controversial among commuters\" · 原文说收费系统最初在通勤者中引发争议（controversial），而非立即受欢迎（immediately popular）。题目与原文信息相反。"
+            },
+            {
+              "number": 3,
+              "text": "Medellín's cable-car system reduced commute times for hillside residents to fewer than fifteen minutes.",
+              "answer": "TRUE",
+              "explanation": "段落D：\"slashing commute times from over ninety minutes to under fifteen\" · 原文说通勤时间从90多分钟缩短到15分钟以下，与题目 \"fewer than fifteen minutes\" 一致。"
+            },
+            {
+              "number": 4,
+              "text": "Singapore's autonomous shuttle bus programme is currently limited to a single pilot district.",
+              "answer": "FALSE",
+              "explanation": ""
+            },
+            {
+              "number": 5,
+              "text": "All three cities achieved their transport improvements without any increase in government spending.",
+              "answer": "NOT GIVEN",
+              "explanation": ""
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "mcq",
+          "title": "Questions 6-9: Multiple Choice",
+          "instruction": "",
+          "questions": [
+            {
+              "number": 6,
+              "text": "What was a key outcome of Stockholm's congestion charge?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Public transport services were privatised."
+                },
+                {
+                  "key": "B",
+                  "text": "Traffic volumes in the city centre fell by 22%."
+                },
+                {
+                  "key": "C",
+                  "text": "The motorway bypass was no longer necessary."
+                },
+                {
+                  "key": "D",
+                  "text": "Commuters switched entirely to cycling."
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落B明确指出 \"reduced traffic volumes by 22% within the first year\"，即城市中心交通流量下降了22%。A、C、D 在原文中均无支持。"
+            },
+            {
+              "number": 7,
+              "text": "According to the passage, Medellín's cable-car system is notable because it:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "was the first in the world to use renewable energy."
+                },
+                {
+                  "key": "B",
+                  "text": "replaced the city's existing metro line."
+                },
+                {
+                  "key": "C",
+                  "text": "provided transit access to communities that had been poorly served."
+                },
+                {
+                  "key": "D",
+                  "text": "was designed primarily for tourist use."
+                }
+              ],
+              "answer": "C",
+              "explanation": "段落D说明缆车系统为 \"historically underserved hillside communities\"（历史上服务不足的山坡社区）提供了公共交通接入。题目用 \"poorly served\" 替换了 \"underserved\"，同义替换。"
+            },
+            {
+              "number": 8,
+              "text": "Which of the following does Singapore use to discourage private car ownership?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Free public transport for all residents."
+                },
+                {
+                  "key": "B",
+                  "text": "Substantial vehicle ownership fees and electronic road pricing."
+                },
+                {
+                  "key": "C",
+                  "text": "A complete ban on petrol-powered vehicles."
+                },
+                {
+                  "key": "D",
+                  "text": "Subsidised parking in the city centre."
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落E提到 \"Singapore levies substantial vehicle ownership tolls and uses electronic road pricing\"，即征收大额车辆拥有费和电子道路收费。A（免费公交）、C（完全禁止）、D（补贴停车）均与原文不符。"
+            },
+            {
+              "number": 9,
+              "text": "What do the three cities have in common, according to paragraph F?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "They all introduced congestion charging."
+                },
+                {
+                  "key": "B",
+                  "text": "They all built cable-car systems."
+                },
+                {
+                  "key": "C",
+                  "text": "They all treated transport as an integrated system rather than relying on one solution."
+                },
+                {
+                  "key": "D",
+                  "text": "They all achieved zero-emission public transit."
+                }
+              ],
+              "answer": "C",
+              "explanation": "段落F总结：\"sustainable transport is not achieved through a single intervention but through an integrated system\"，三个城市的共同点是将交通视为一个综合系统。"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "frequency",
+              "explanation": "段落B：\"increasing service frequency on key routes\" · 原文说提高了主要路线上的发车频率。注意 \"frequency\" 是词汇卡片中的核心词。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "commute",
+              "explanation": "段落D：\"slashing commute times from over ninety minutes to under fifteen\" · 原文说大幅缩短了通勤时间。commute 是动词也可作名词修饰用。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "electrification",
+              "explanation": "段落E：\"committed to the full electrification of its bus fleet by 2040\" · 原文说承诺到2040年完成公交车队的全面电气化。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "platform",
+              "explanation": "段落F：\"from the platform where a commuter waits\" · 原文说从通勤者等候的站台开始，重新构想整个旅程。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "Urban transport reform requires a multi-faceted approach. In Stockholm, revenue from congestion charges was used to expand suburban rail services and improve the"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "of departures on major routes. In Medellín, cable cars dramatically reduced"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "times for residents of steep hillside settlements. Singapore has committed to the complete"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "of its bus fleet by 2040 to eliminate transport-sector carbon output. Across all three cases, the central lesson is that effective reform demands reimagining the entire passenger journey, from the station"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "to the final walk to the destination. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
   },
   {
     "slug": "15-law-and-crime",
@@ -4342,7 +11311,210 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/15-law-and-crime/generated-with-text/15-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "Restorative Justice — An Alternative to Conventional Punishment",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "For centuries, criminal **justice** systems in most **jurisdictions** have rested on two pillars: **deterrence** and **retribution**. The logic is straightforward — by imposing severe **penalties**, society discourages future offending while ensuring that those found **culpable** receive proportionate punishment. Yet despite rising rates of **incarceration** worldwide, **recidivism** remains stubbornly high. In many countries, more than half of released prisoners reoffend within three years, prompting legal scholars and the **judiciary** to explore alternatives that might break this cycle."
+        },
+        {
+          "label": "B",
+          "text": "Restorative justice is one such alternative. Rather than focusing on the **sentence** handed down by a court, this approach centres on repairing the harm caused by criminal behaviour. In a typical restorative process, the **perpetrator**, the victim, and affected community members meet in a structured dialogue facilitated by a trained mediator. The offender is encouraged to acknowledge their actions, express genuine **remorse**, and agree to concrete steps of **restitution** — whether financial compensation, community service, or direct assistance to the victim. The process does not replace the formal **judiciary** system but operates alongside it, often as a condition of **probation** or as part of a **plea** agreement negotiated by the **defendant**'s **attorney**."
+        },
+        {
+          "label": "C",
+          "text": "Proponents argue that restorative justice addresses the root causes of crime more effectively than conventional **incarceration**. Research conducted across multiple **jurisdictions** indicates that offenders who participate in restorative programmes are significantly less likely to commit further offences. A landmark study in New Zealand found that **recidivism** rates among participants fell by 27% compared with matched control groups who received standard prison **sentences**. Importantly, victim satisfaction was also higher: 78% of victims reported feeling that justice had been served, compared with just 48% in conventional court proceedings where a **prosecutor** presents **evidence**, a **verdict** is delivered, and the **conviction** is followed by **incarceration** with little direct input from the person harmed."
+        },
+        {
+          "label": "D",
+          "text": "Critics, however, raise serious objections. The **presumption** that all offenders are capable of genuine **remorse** is, they argue, naive. In cases of **premeditated** violent crime — **homicide**, for instance — asking a victim's family to sit across from the **perpetrator** may inflict additional trauma rather than promote healing. There are also concerns about fairness. In the formal court system, the rights of the **defendant** are protected by established safeguards: the requirement for **impartial** adjudication, the right to **appeal** an unfavourable **verdict**, and the prohibition against **perjury** in sworn **testimony**. In a restorative meeting, these procedural protections are less clearly defined. A **defendant** who lacks the resources to retain a skilled **attorney** may feel pressured to accept responsibility even when the **allegations** against them are contested."
+        },
+        {
+          "label": "E",
+          "text": "The scope of restorative justice also raises difficult questions. Most programmes currently focus on lower-level offences — **vandalism**, petty **larceny**, and **misdemeanours** such as minor **fraud**. Extending the model to serious **felonies** — **burglary**, **extortion**, **arson**, or drug **trafficking** — is far more contentious. Law enforcement agencies involved in **surveillance**, **forensic** analysis, and complex **interrogation** procedures are often sceptical, arguing that the months of investigative work required to **apprehend** a **perpetrator**, secure a **warrant**, **detain** suspects in **custody**, **confiscate** contraband, and build a case strong enough to **indict** and achieve a **conviction** should not culminate in an informal meeting rather than a formal trial. **Undercover** officers and **informants** who risk their safety to gather **evidence** may be particularly resistant to seeing their efforts resolved outside the courtroom."
+        },
+        {
+          "label": "F",
+          "text": "A middle path is emerging. Several countries now operate tiered systems in which restorative justice is available for certain categories of offence while serious crimes remain within the **jurisdiction** of the conventional courts. In England and Wales, for example, **arbitration**-style restorative conferences can be offered to juvenile offenders charged with first-time property crimes, provided the victim consents and the offender's **alibi** has been investigated and disproved through **forensic** analysis. An **affidavit** from the victim confirming willingness to participate is required before any meeting takes place. If the process is completed successfully, the young person may avoid a criminal **conviction** and instead receive a community order — a form of structured **probation** that includes regular **patrol** check-ins, mentoring, and educational support. Those who reoffend, however, face full prosecution with no prospect of **clemency** or **amnesty**."
+        },
+        {
+          "label": "G",
+          "text": "The debate over restorative justice ultimately reflects broader disagreements about the purpose of criminal law. Should the system prioritise **rehabilitation** and **restitution**, seeking to **mitigate** harm and reintegrate offenders? Or should it emphasise **deterrence** and **retribution**, using **penitentiary** **sentences** to signal society's condemnation of criminal conduct? The **grievance** of victims must be heard; the rights of the accused must be protected. Navigating these competing demands — through **settlement**, **litigation**, or **immunity** agreements — remains one of the most complex challenges facing any modern legal system, and no approach, whether restorative or punitive, offers a **commuted** path free of moral difficulty. The growing interest in restorative models suggests, however, that the centuries-old reliance on **incarceration** alone is increasingly viewed as inadequate — a system from which too many emerge into **conspiracy** of circumstance, as unreformed as when they entered the **reformatory** gates."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "In many nations, over fifty percent of former prisoners commit new crimes within three years of release.",
+              "answer": "TRUE",
+              "explanation": "段落A：\"more than half of released prisoners reoffend within three years\" · 原文说超过一半的释放囚犯在三年内再次犯罪。题目用 \"over fifty percent\" 和 \"commit new crimes\" 分别替换了 \"more than half\" 和 \"reoffend\"，同义替换，意思一致。"
+            },
+            {
+              "number": 2,
+              "text": "Restorative justice programmes are designed to completely replace the existing court system.",
+              "answer": "FALSE",
+              "explanation": "段落B：\"The process does not replace the formal judiciary system but operates alongside it\" · 原文明确说恢复性司法不取代正式司法系统，而是与之并行运作。题目说 \"completely replace\"（完全取代），与原文直接矛盾。"
+            },
+            {
+              "number": 3,
+              "text": "A study in New Zealand showed that restorative justice participants had a 27% lower reoffending rate than a comparable group receiving standard imprisonment.",
+              "answer": "TRUE",
+              "explanation": "段落C：\"recidivism rates among participants fell by 27% compared with matched control groups\" · 原文说参与者的再犯率比接受标准监禁的对照组降低了27%。题目用 \"lower reoffending rate\" 替换了 \"recidivism rates fell\"，同义替换。"
+            },
+            {
+              "number": 4,
+              "text": "Critics believe that restorative justice is equally appropriate for all categories of crime.",
+              "answer": "FALSE",
+              "explanation": "段落D-E：\"In cases of premeditated violent crime... asking a victim's family to sit across from the perpetrator may inflict additional trauma\" · 原文说批评者认为恢复性司法不适用于预谋暴力犯罪等严重案件，而非认为它同样适用于所有犯罪类别。"
+            },
+            {
+              "number": 5,
+              "text": "In England and Wales, a victim's sworn statement of consent is needed before a restorative conference can proceed.",
+              "answer": "TRUE",
+              "explanation": "段落F：\"An affidavit from the victim confirming willingness to participate is required\" · 原文说需要受害者的宣誓书（affidavit）确认愿意参与。题目用 \"sworn statement of consent\" 替换了 \"affidavit confirming willingness\"，同义替换。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "headings",
+          "title": "Questions 6-9: Matching Headings",
+          "instruction": "Choose the correct heading for each paragraph from the list below.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph A",
+              "answer": "vii",
+              "explanation": "段落A讨论了威慑和惩罚为基础的传统模式的局限性——尽管监禁率上升，再犯率仍然居高不下，对应\"基于威慑的惩罚的局限性\"。"
+            },
+            {
+              "number": 7,
+              "text": "Paragraph C",
+              "answer": "iv",
+              "explanation": "段落C引用新西兰的研究数据证明恢复性司法的有效性，并报告了受害者满意度的对比数据，对应\"有效性的证据和受害者满意度\"。"
+            },
+            {
+              "number": 8,
+              "text": "Paragraph E",
+              "answer": "v",
+              "explanation": "段落E详细描述了执法机构（监控、法证分析、审讯等）对非正式解决方式的怀疑态度，对应\"执法机构对非正式解决方式的反对\"。"
+            },
+            {
+              "number": 9,
+              "text": "Paragraph F",
+              "answer": "i",
+              "explanation": "段落F描述了英格兰和威尔士的分层系统中恢复性司法的实际应用，对应\"在分层法律系统中的实际应用\"。"
+            }
+          ],
+          "headings": [
+            {
+              "key": "i",
+              "text": "Practical application in a tiered legal system"
+            },
+            {
+              "key": "ii",
+              "text": "The philosophical tension at the heart of criminal law"
+            },
+            {
+              "key": "iii",
+              "text": "Defining the restorative justice process"
+            },
+            {
+              "key": "iv",
+              "text": "Evidence of effectiveness and victim satisfaction"
+            },
+            {
+              "key": "v",
+              "text": "Law enforcement objections to informal resolution"
+            },
+            {
+              "key": "vi",
+              "text": "Historical origins of restorative justice"
+            },
+            {
+              "key": "vii",
+              "text": "The limits of deterrence-based punishment"
+            },
+            {
+              "key": "viii",
+              "text": "Concerns about procedural fairness and violent crime"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "remorse",
+              "explanation": "段落B：\"express genuine remorse\" · 原文说犯罪者被鼓励表达真诚的悔恨。remorse（悔恨）是词汇卡片中的核心词。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "recidivism",
+              "explanation": "段落C：\"recidivism rates among participants fell by 27%\" · 原文说参与者的累犯率降低了27%。recidivism（累犯）是法律话题高频词。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "undercover",
+              "explanation": "段落E：\"Undercover officers and informants who risk their safety to gather evidence\" · 原文说秘密工作（undercover）的警察和线人冒着安全风险收集证据。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "probation",
+              "explanation": "段落F：\"a form of structured probation that includes regular patrol check-ins\" · 原文说这是一种结构化的缓刑形式，包括定期巡查签到。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "Restorative justice represents an alternative to conventional punishment. In a typical process, the offender expresses"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "and agrees to steps of restitution. Research shows this approach can reduce"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "among participants. However, critics argue that procedural safeguards are weaker outside the formal court system, and law enforcement officers who conduct"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "work and gather evidence are resistant to seeing cases settled informally. A compromise model has emerged in which restorative conferences are available for juveniles, and successful participants receive community orders — a structured form of"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "— instead of criminal convictions. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
   },
   {
     "slug": "16-economics-business",
@@ -4895,7 +12067,248 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/16-economics-business/generated-with-text/16-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "The New Economics of Global Supply Chains",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "For much of the late twentieth century, **globalization** drove the expansion of complex international supply chains. Manufacturers sought to minimise costs by **outsourcing** production to countries where labour was inexpensive, raw **commodities** were plentiful, and **tariffs** on **exports** were low. A single **prototype** might be designed in one country, assembled from components **procured** through global **procurement** networks, and sold by **retailers** in dozens of markets. This model proved extraordinarily **lucrative**: **revenue** and **turnover** grew steadily, and **profitability** reached historic highs. However, a succession of disruptions — pandemics, geopolitical conflict, and climate events — has exposed the fragility of these arrangements and prompted a fundamental rethinking of how **transactions** flow across borders."
+        },
+        {
+          "label": "B",
+          "text": "The most visible change has been the rise of **protectionism**. Governments that once championed free trade now impose **quotas** and raise **tariffs** to shield domestic industries. **Bilateral** trade agreements, once the engine of liberalisation, increasingly contain clauses that restrict the activities of foreign **intermediaries** and limit the volume of **imports**. **Embargoes** on strategic **commodities** — semiconductors, rare earth minerals, and energy resources — have disrupted supply lines that companies assumed would remain open indefinitely. The result is a pattern of **fluctuating** costs that makes long-term planning extremely difficult. Chief financial officers now spend as much time modelling **tariff** scenarios as they do analysing internal **expenditure**."
+        },
+        {
+          "label": "C",
+          "text": "The macroeconomic backdrop has compounded these difficulties. Several major economies have entered **recession**, while others face prolonged **stagnation** — a combination that has pushed **unemployment** to levels not seen in a generation. Central banks have responded with aggressive **monetary** policy, cutting interest rates and expanding **liquidity** to stimulate lending. Governments, meanwhile, have deployed **fiscal** tools: direct **stimulus** packages, tax relief, and **subsidies** for key sectors. Yet **inflation** has proven stubborn, eroding the purchasing power of **currency** and increasing the cost of **sovereign** borrowing. Critics of government **intervention** argue that these measures distort markets; proponents counter that without **deregulation** in certain areas and targeted support in others, the downturn would be far deeper."
+        },
+        {
+          "label": "D",
+          "text": "At the company level, the response has been strategic restructuring. Large corporations have accelerated **merger** and **acquisition** activity, absorbing weaker competitors to achieve economies of scale. **Startups** that once attracted plentiful **venture** capital now struggle to secure funding as investors demand evidence of clear paths to **profitability**. The pressure to become **scalable** has led many firms to **diversify** their supplier base, shifting from single-source dependencies to multi-region **procurement** strategies. **Entrepreneurs** launching new businesses increasingly opt for **franchise** models that allow rapid geographic expansion with limited **liability**, while established firms review their **equity** structures, issuing new shares or **debentures** to raise capital and paying reduced **dividends** to conserve cash."
+        },
+        {
+          "label": "E",
+          "text": "Financial markets have mirrored this uncertainty. **Asset** prices have become increasingly **volatile**, with major indices swinging by several percentage points in a single session. **Speculation** on **commodity** futures has intensified, and **arbitrage** opportunities between regional markets have attracted a new generation of algorithmic traders. Fund managers, meanwhile, are rebalancing **portfolios** to **hedge** against downside risk, shifting weight from equities to fixed-income instruments with more predictable **yields**. The **benchmark** interest rate set by central banks now functions as a critical anchor for **mortgage** pricing, corporate **collateral** requirements, and consumer credit — any shift sends ripples through the entire system. Analysts describe the environment as one in which **compound** uncertainty — where multiple risks interact — has replaced the relatively stable conditions of the previous decade. Asset **depreciation** in real estate and manufacturing equipment has further tightened corporate balance sheets, forcing some companies to **amortize** losses over extended periods."
+        },
+        {
+          "label": "F",
+          "text": "The consumer landscape has shifted in parallel. Rising prices have altered spending patterns: household **expenditure** on non-essential goods has fallen sharply, while **disposable** income has shrunk across most **demographics**. Companies are responding by refining their **branding** and identifying **niche** markets where **loyalty** remains strong. Aggressive promotional **incentives** — discounts, cashback schemes, reward programmes — aim to **penetrate** price-sensitive **segments** before competitors **saturate** the space. Celebrity **endorsements** remain a popular tool, though their effectiveness varies. In the grocery sector, the balance of power between **wholesale** distributors and major **retailers** has tilted toward the latter, as large chains use their buying power to **negotiate** lower prices and exert **leverage** over suppliers. In some sectors, a single dominant player has established a virtual **monopoly**, while others are characterised by **oligopolies** in which three or four firms control the bulk of **aggregate** market share."
+        },
+        {
+          "label": "G",
+          "text": "Whether the current turbulence represents a temporary correction or a permanent structural shift remains an open question. What is clear is that the old model — in which companies could rely on stable supply lines, low **tariffs**, and predictable growth in **productivity** and **infrastructure** — has given way to an era of constant adaptation. The **inequality** between firms that can absorb these shocks and those that cannot is widening, reshaping the competitive landscape in ways that will define the next decade of global commerce."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "In the late twentieth century, manufacturers commonly relocated production to countries with cheaper labour to reduce expenses.",
+              "answer": "TRUE",
+              "explanation": "段落A：\"Manufacturers sought to minimise costs by outsourcing production to countries where labour was inexpensive\" · 原文说制造商通过将生产外包到劳动力廉价的国家来降低成本。题目用 \"relocated production\" 和 \"cheaper labour\" 分别替换了 \"outsourcing production\" 和 \"labour was inexpensive\"，同义替换。"
+            },
+            {
+              "number": 2,
+              "text": "Bilateral trade agreements have become less restrictive towards foreign intermediaries in recent years.",
+              "answer": "FALSE",
+              "explanation": "段落B：\"Bilateral trade agreements... increasingly contain clauses that restrict the activities of foreign intermediaries\" · 原文说双边贸易协议越来越多地包含限制外国中间商活动的条款（更加限制性），而非更不限制（less restrictive）。题目与原文信息相反。"
+            },
+            {
+              "number": 3,
+              "text": "Central banks responded to the economic downturn by increasing interest rates.",
+              "answer": "FALSE",
+              "explanation": "段落C：\"Central banks have responded with aggressive monetary policy, cutting interest rates\" · 原文说央行通过降低利率来应对经济衰退，而非提高利率（increasing interest rates）。题目与原文直接矛盾。"
+            },
+            {
+              "number": 4,
+              "text": "Asset prices in financial markets have experienced significant short-term swings.",
+              "answer": "TRUE",
+              "explanation": "段落E：\"Asset prices have become increasingly volatile, with major indices swinging by several percentage points in a single session\" · 原文说资产价格波动加剧，主要指数在单日内波动数个百分点。题目用 \"significant short-term swings\" 替换了 \"swinging by several percentage points in a single session\"。"
+            },
+            {
+              "number": 5,
+              "text": "The passage states that online retail will completely replace physical wholesale distribution within ten years.",
+              "answer": "NOT GIVEN",
+              "explanation": "全文 · 文章从未预测在线零售将在十年内完全取代实体批发分销。这一说法在原文中完全没有出现，属于无中生有。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "mcq",
+          "title": "Questions 6-9: Multiple Choice",
+          "instruction": "",
+          "questions": [
+            {
+              "number": 6,
+              "text": "According to paragraph B, what is a consequence of rising protectionism?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "International intermediaries have become more influential than before."
+                },
+                {
+                  "key": "B",
+                  "text": "Companies find it harder to plan long-term due to unstable costs."
+                },
+                {
+                  "key": "C",
+                  "text": "Bilateral trade agreements have been entirely abandoned."
+                },
+                {
+                  "key": "D",
+                  "text": "Commodity prices have remained consistently stable."
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落B指出 \"The result is a pattern of fluctuating costs that makes long-term planning extremely difficult\"，即成本波动使长期规划变得极其困难。A 与原文矛盾（中间商活动受限制）；C 过于极端（并非完全放弃）；D 与原文相反（价格在波动）。"
+            },
+            {
+              "number": 7,
+              "text": "In paragraph D, why are startups finding it more difficult to obtain investment?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Venture capital firms have been banned by regulators."
+                },
+                {
+                  "key": "B",
+                  "text": "Investors now require proof of realistic profitability prospects."
+                },
+                {
+                  "key": "C",
+                  "text": "All new businesses are required to adopt franchise models."
+                },
+                {
+                  "key": "D",
+                  "text": "Merger activity has eliminated the startup sector."
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落D说 \"investors demand evidence of clear paths to profitability\"，投资者要求初创企业提供明确的盈利路径证据。A（禁止）、C（要求采用）、D（消除）均过于极端且无原文支持。"
+            },
+            {
+              "number": 8,
+              "text": "What does the passage suggest fund managers are doing in response to market volatility?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Concentrating all investments in commodity speculation."
+                },
+                {
+                  "key": "B",
+                  "text": "Withdrawing entirely from financial markets."
+                },
+                {
+                  "key": "C",
+                  "text": "Shifting portfolio balance from equities towards fixed-income assets with steadier returns."
+                },
+                {
+                  "key": "D",
+                  "text": "Ignoring benchmark interest rates set by central banks."
+                }
+              ],
+              "answer": "C",
+              "explanation": "段落E说 \"fund managers are rebalancing portfolios to hedge against downside risk, shifting weight from equities to fixed-income instruments with more predictable yields\"，即从股票转向收益更可预测的固定收益工具。"
+            },
+            {
+              "number": 9,
+              "text": "According to paragraph F, how are large retail chains exerting influence over suppliers?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "By refusing to sell any wholesale products."
+                },
+                {
+                  "key": "B",
+                  "text": "By using their purchasing power to negotiate lower prices."
+                },
+                {
+                  "key": "C",
+                  "text": "By offering celebrity endorsements to suppliers."
+                },
+                {
+                  "key": "D",
+                  "text": "By establishing monopolies in every consumer sector."
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落F说 \"large chains use their buying power to negotiate lower prices and exert leverage over suppliers\"，即大型零售连锁利用购买力压低价格并对供应商施加影响力。"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "tariffs",
+              "explanation": "段落B：\"Governments... raise tariffs to shield domestic industries\" · 原文说政府提高关税以保护国内产业。注意题目问的是 \"on imported goods\"，与 tariffs 完全匹配。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "inflation",
+              "explanation": "段落C：\"Yet inflation has proven stubborn, eroding the purchasing power of currency\" · 原文说通货膨胀顽固不化，侵蚀了货币的购买力。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "diversify",
+              "explanation": "段落D：\"The pressure to become scalable has led many firms to diversify their supplier base\" · 原文说企业在多个区域分散供应商基地以降低单一来源依赖。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "niche",
+              "explanation": "段落F：\"identifying niche markets where loyalty remains strong\" · 原文说公司识别细分市场中客户忠诚度仍然较高的领域。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "The global economy faces multiple interconnected pressures. Governments have introduced"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "on imported goods and imposed limits on trade volumes. Central banks have expanded monetary liquidity, yet"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "has persisted, reducing the value of consumers' purchasing power. At the corporate level, companies have pursued mergers to achieve economies of scale, and many have chosen to"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "their supplier networks across multiple regions to reduce dependency on single sources. In consumer markets, shrinking disposable income has forced brands to identify"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "markets where customer loyalty remains strong. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
   },
   {
     "slug": "17-government-and-politics",
@@ -5424,7 +12837,210 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/17-government-and-politics/generated-with-text/17-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "The Evolution of Democratic Governance in the Modern Era",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The concept of **democracy** has undergone significant transformation since its origins in ancient Athens. In contemporary political systems, the **electorate** — the body of citizens entitled to vote — plays a central role in determining the direction of national policy. The expansion of **suffrage** throughout the nineteenth and twentieth centuries meant that previously excluded groups, including women and ethnic minorities, gradually gained the right to participate in elections. Today, universal adult **suffrage** is widely regarded as a fundamental human right, though the precise mechanisms of voting vary considerably between nations."
+        },
+        {
+          "label": "B",
+          "text": "Modern democratic systems rely heavily on structured electoral processes. Each **constituency** sends one or more representatives to the national **parliament** or **legislature**, where laws are debated and **enacted**. During election periods, candidates announce their **candidacy** and launch extensive **campaigns** to persuade voters. Political parties publish a **manifesto** outlining their policy commitments, and the party that secures a **plurality** of votes typically forms the government. Voter **turnout** — the proportion of eligible citizens who actually cast a **ballot** — has become a matter of growing concern, as declining participation threatens the legitimacy of elected officials."
+        },
+        {
+          "label": "C",
+          "text": "Once in power, the winning party receives a **mandate** from the people to govern. The head of government appoints a **cabinet** of senior ministers, each responsible for a specific **ministry** such as education, defence, or health. The day-to-day running of the state is handled through layers of **administration** and **bureaucracy**, which critics argue can become inefficient and resistant to change. To prevent the concentration of power, most **constitutional** democracies maintain a separation between the **legislature**, the executive branch, and the **judiciary**. This system of checks and balances ensures that no single institution can act without **scrutiny** from the others."
+        },
+        {
+          "label": "D",
+          "text": "Within any political system, the tension between competing **ideologies** is ever-present. **Liberalism** emphasises individual freedoms and limited state interference, while **conservatism** prioritises tradition and social stability. At the extremes, **authoritarianism** and **totalitarianism** concentrate power in the hands of a single leader or ruling party, suppressing dissent and restricting civil liberties. **Populism** appeals directly to ordinary citizens by framing the political establishment as corrupt, whereas **nationalism** foregrounds the interests of a particular ethnic or cultural group. In a **federalism**-based system, power is shared between a central authority and regional governments, granting provinces a degree of **autonomy**. Even within established democracies, **partisan** divisions can deepen, with **centrist** voices struggling to be heard amid increasingly **radical** rhetoric. **Pragmatic** leaders often seek **bipartisan** cooperation to avoid the damaging effects of political **polarisation**."
+        },
+        {
+          "label": "E",
+          "text": "**Accountability** and **transparency** are cornerstones of good governance. Citizens and watchdog organisations demand that public officials justify their decisions and that government finances remain open to inspection. When elected representatives fail to meet these standards, mechanisms such as **impeachment** allow the **legislature** to remove them from office. Similarly, the power of **veto** enables one branch of government to block decisions made by another, providing an additional safeguard against abuse. **Amendments** to the constitution may be proposed when existing laws prove inadequate, though the process of **reform** is typically slow and requires broad consensus."
+        },
+        {
+          "label": "F",
+          "text": "The importance of **fiscal** responsibility in governance cannot be overstated. Governments must carefully **allocate** limited **revenue** across competing priorities, balancing **expenditure** on **welfare** programmes and **infrastructure** projects against the risk of a growing budget **deficit**. During economic downturns, some administrations adopt **austerity** measures — cutting public spending and reducing **subsidies** — while others prefer to **implement** **incentive**-based policies designed to stimulate growth. Anti-**corruption** **legislation** and strict **regulation** of financial institutions remain essential to maintaining public trust."
+        },
+        {
+          "label": "G",
+          "text": "On the international stage, **diplomacy** is the primary tool through which nations manage their relationships. Countries form **alliances** and sign **treaties**, which must be **ratified** by their respective parliaments. **Bilateral** and **multilateral** negotiations address issues ranging from trade to security, and **ambassadors** serve as their nations' representatives abroad. When diplomatic efforts fail, governments may impose **sanctions** or even a full trade **embargo** to exert pressure. The struggle for **hegemony** among major powers shapes the **geopolitical** landscape, though periods of **détente** can reduce tensions. **Humanitarian** **intervention** in conflict zones raises complex ethical questions, while concerns about **espionage** remind us that not all state interactions occur in the open. Ultimately, each nation must make strategic **concessions** to achieve lasting peace and stability."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Universal adult suffrage is now accepted as a basic human right in all countries around the world.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落A：\"universal adult suffrage is widely regarded as a fundamental human right\" · 文章说选举权被\"广泛认为(widely regarded)\"是基本人权，但没有说\"所有国家(all countries)\"都接受。题目用了\"in all countries\"，这超出了文章的信息范围。"
+            },
+            {
+              "number": 2,
+              "text": "A declining rate of voter participation may undermine the perceived legitimacy of those who are elected.",
+              "answer": "TRUE",
+              "explanation": "段落B：\"declining participation threatens the legitimacy of elected officials\" · 文章明确指出投票参与率下降\"威胁到当选官员的合法性\"。题目用\"undermine the perceived legitimacy\"替换了\"threatens the legitimacy\"，是同义替换。"
+            },
+            {
+              "number": 3,
+              "text": "The judiciary in most constitutional democracies operates independently from the legislative and executive branches.",
+              "answer": "TRUE",
+              "explanation": "段落C：\"most constitutional democracies maintain a separation between the legislature, the executive branch, and the judiciary\" · 文章说大多数宪政民主国家维持立法、行政、司法三权分立，说明司法独立运作。"
+            },
+            {
+              "number": 4,
+              "text": "Populist political movements have been more successful in federal systems than in unitary states.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落D提到了populism和federalism · 文章分别讨论了民粹主义和联邦制，但从未将两者联系起来比较成功程度。题目的比较信息在文中完全没有。"
+            },
+            {
+              "number": 5,
+              "text": "Amendments to a country's constitution can usually be made quickly when the need arises.",
+              "answer": "FALSE",
+              "explanation": "段落E：\"the process of reform is typically slow and requires broad consensus\" · 文章说改革过程\"通常是缓慢的\"，而题目说\"can usually be made quickly\"，直接矛盾。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "headings",
+          "title": "Questions 6-9: Matching Headings",
+          "instruction": "Choose the correct heading for each paragraph from the list below.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph B",
+              "answer": "ii",
+              "explanation": "段落B讨论选举流程：候选人宣布参选、竞选活动、政党宣言、投票率等，核心是选举与代表制度的运作方式。"
+            },
+            {
+              "number": 7,
+              "text": "Paragraph D",
+              "answer": "i",
+              "explanation": "段落D集中讨论各种政治意识形态（自由主义、保守主义、威权主义、民粹主义等）及它们如何影响政治辩论。"
+            },
+            {
+              "number": 8,
+              "text": "Paragraph E",
+              "answer": "vi",
+              "explanation": "段落E讨论问责制、弹劾机制、否决权等防止权力滥用的保障措施。"
+            },
+            {
+              "number": 9,
+              "text": "Paragraph F",
+              "answer": "iv",
+              "explanation": "段落F讨论财政责任：收入分配、支出平衡、赤字控制、紧缩措施等公共资金的负责任使用。"
+            }
+          ],
+          "headings": [
+            {
+              "key": "i",
+              "text": "The role of ideology in shaping political debate"
+            },
+            {
+              "key": "ii",
+              "text": "How elections and representation function"
+            },
+            {
+              "key": "iii",
+              "text": "International relations and diplomatic strategy"
+            },
+            {
+              "key": "iv",
+              "text": "Ensuring responsible use of public funds"
+            },
+            {
+              "key": "v",
+              "text": "Historical roots and modern participation rights"
+            },
+            {
+              "key": "vi",
+              "text": "Safeguards against the misuse of political power"
+            },
+            {
+              "key": "vii",
+              "text": "The structure of government after an election victory"
+            },
+            {
+              "key": "viii",
+              "text": "The decline of traditional media in politics"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "mandate",
+              "explanation": "段落C：\"the winning party receives a mandate from the people to govern\" · mandate意为\"授权\"，选民通过投票授予执政党治理国家的权力。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "accountability",
+              "explanation": "段落E：\"Accountability and transparency are cornerstones of good governance\" · 题目用\"uphold high standards of\"替换了\"cornerstones of good governance\"，accountability意为\"问责制\"。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "deficit",
+              "explanation": "段落F：\"balancing expenditure... against the risk of a growing budget deficit\" · deficit意为\"赤字\"，指政府支出超过收入时产生的财政缺口。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "diplomacy",
+              "explanation": "段落G：\"diplomacy is the primary tool through which nations manage their relationships\" · 题目用\"principal means\"替换了\"primary tool\"，diplomacy意为\"外交\"。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "In democratic systems, governments derive their authority from a"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "given by voters. To maintain public confidence, officials must uphold high standards of"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "and allow their actions to be examined openly. In the economic sphere, states must balance spending on social programmes against the danger of accumulating a budget"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": ". On the world stage, nations use"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "as their principal means of managing relationships with other countries. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
   },
   {
     "slug": "18-media-and-communication",
@@ -5947,7 +13563,248 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/18-media-and-communication/generated-with-text/18-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "The Shifting Landscape of News and Public Discourse",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "For much of the twentieth century, the public relied on a handful of trusted institutions for their daily information. A busy **newsroom** would assign each **journalist** a story, and the resulting article — published under the reporter's **byline** — would appear in the following day's edition. Foreign **correspondents** filed **dispatches** from conflict zones and political capitals, while television **anchors** would **broadcast** the evening news to millions of households simultaneously. The **circulation** of major newspapers served as a reliable measure of public interest, and an exclusive **scoop** could elevate a publication's reputation overnight."
+        },
+        {
+          "label": "B",
+          "text": "The arrival of digital technology has fundamentally altered how people **consume** information. Social media **platforms** now allow anyone to share content that can go **viral** within minutes, driven by **algorithms** designed to maximise user **engagement**. **Influencers** with vast numbers of **followers** shape public opinion on topics ranging from politics to consumer products. Users scroll through a personalised **feed** of **trending** stories, often pausing only for **clickbait** headlines that promise sensational revelations. **Streaming** services and **niche** content creators compete for attention in an increasingly fragmented media environment, and audiences can **subscribe** to channels that **curate** content aligned with their existing preferences."
+        },
+        {
+          "label": "C",
+          "text": "This shift has raised urgent questions about **objectivity** and journalistic **integrity**. Traditional news outlets were expected to remain **impartial**, presenting multiple perspectives without **bias**. Reporters had a professional obligation to **verify** every claim by consulting independent **sources** before publication. When errors occurred, a formal **retraction** would be issued. Today, however, the pressure to publish first has sometimes compromised these standards. Instances of **fabrication** — the deliberate invention of facts — and **plagiarism** have damaged the **credibility** of even established organisations. **Whistleblowers** who expose wrongdoing play a vital role in upholding **accountability**, yet they frequently face personal and legal risks for doing so. The **omission** of inconvenient details from a story can be just as misleading as outright falsehood."
+        },
+        {
+          "label": "D",
+          "text": "The world of advertising and public relations presents its own challenges to truthful communication. Corporate **campaigns** rely on sophisticated **persuasion** techniques to build **brand** loyalty, often embedding a memorable **slogan** or catchy **jingle** into public consciousness. A celebrity **endorsement** or carefully selected **testimonial** can lend instant **credibility** to a product, while the strategic allocation of **airtime** and **exposure** ensures maximum reach among a target **demographic**. Behind the scenes, **spin** doctors craft a controlled **narrative** for their clients, and political **rhetoric** may obscure rather than clarify the truth. **Propaganda** — information that is systematically spread to promote a particular cause — operates at the boundary between legitimate **persuasion** and deliberate deception. Researchers have even documented the use of **subliminal** messaging in **commercials**, though its effectiveness remains debated."
+        },
+        {
+          "label": "E",
+          "text": "The concept of **censorship** adds a further layer of complexity. In some nations, governments restrict the flow of information through state-controlled media, suppressing **investigative** reporting and **editorial** commentary that challenges official policy. **Tabloid** publications, meanwhile, are frequently criticised for their reliance on **sensationalism** — the practice of exaggerating or distorting events to attract readers. The potential for **defamation**, where false statements damage an individual's reputation, poses ongoing legal dilemmas for publishers."
+        },
+        {
+          "label": "F",
+          "text": "Perhaps the most pressing concern in the current media landscape is the spread of **misinformation** and **disinformation**. While the former refers to inaccurate content shared without malicious intent, the latter involves the deliberate creation and distribution of false material designed to **manipulate** public opinion. During global health crises, the rapid spread of unverified claims has been described as an **infodemic** — a flood of information that overwhelms the public's ability to distinguish fact from fiction. Social media **algorithms** can inadvertently **amplify** misleading content by prioritising posts with high **engagement**, thereby **reinforcing** existing beliefs and contributing to growing **polarization** within society."
+        },
+        {
+          "label": "G",
+          "text": "Addressing these challenges requires a multi-faceted approach. **Media literacy** education can equip citizens with the critical thinking skills needed to evaluate **sources** and resist **manipulation**. Greater **transparency** in how **platforms** moderate content would help restore public trust, while robust **gatekeeping** mechanisms could filter out harmful material without restricting legitimate **discourse**. Individuals must cultivate greater **awareness** of how **framing** and **agenda**-setting influence their perception of events, and resist the tendency to become **desensitized** to shocking content through constant **exposure**. Challenging entrenched **stereotypes** and subjecting all claims to careful **scrutiny** are essential steps toward a healthier information ecosystem."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "In the twentieth century, television news programmes were watched by audiences of millions at the same time.",
+              "answer": "TRUE",
+              "explanation": "段落A：\"television anchors would broadcast the evening news to millions of households simultaneously\" · 文章说电视主播\"同时向数百万家庭播出晚间新闻\"，题目用\"watched by audiences of millions at the same time\"同义替换，意思一致。"
+            },
+            {
+              "number": 2,
+              "text": "Social media algorithms are intentionally designed to spread false information.",
+              "answer": "FALSE",
+              "explanation": "段落B：\"algorithms designed to maximise user engagement\" · 文章说算法被设计来\"最大化用户互动\"，而非故意传播虚假信息。题目将算法的目的错误描述为传播假信息，与原文矛盾。"
+            },
+            {
+              "number": 3,
+              "text": "Whistleblowers who reveal misconduct are always protected by law from retaliation.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落C：\"they frequently face personal and legal risks\" · 文章说举报人\"经常面临个人和法律风险\"，但没有提到法律保护的程度。题目说\"always protected by law\"，这个信息文中没有涉及。"
+            },
+            {
+              "number": 4,
+              "text": "The distinction between misinformation and disinformation lies in whether the intent is deliberate.",
+              "answer": "TRUE",
+              "explanation": "段落F：\"the former refers to inaccurate content shared without malicious intent, the latter involves the deliberate creation\" · 文章明确区分：misinformation是无恶意传播的错误信息，disinformation是蓄意制造的虚假信息。关键区别确实在于意图是否故意。"
+            },
+            {
+              "number": 5,
+              "text": "Researchers have conclusively proven that subliminal advertising is effective at influencing consumers.",
+              "answer": "FALSE",
+              "explanation": "段落D：\"its effectiveness remains debated\" · 文章说潜意识广告的\"效果仍有争议\"，而题目说\"conclusively proven\"（已被最终证实），直接矛盾。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "mcq",
+          "title": "Questions 6-9: Multiple Choice",
+          "instruction": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "According to the passage, what was considered a reliable indicator of public interest in the print media era?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "The number of journalists employed by a newspaper"
+                },
+                {
+                  "key": "B",
+                  "text": "The volume of newspapers sold to readers"
+                },
+                {
+                  "key": "C",
+                  "text": "The frequency of exclusive stories published"
+                },
+                {
+                  "key": "D",
+                  "text": "The quality of foreign reporting"
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落A说\"The circulation of major newspapers served as a reliable measure of public interest\"。circulation指\"发行量\"即报纸售出的数量，对应B选项\"The volume of newspapers sold to readers\"。"
+            },
+            {
+              "number": 7,
+              "text": "The author suggests that the main risk of personalised digital news feeds is that they:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "reduce the overall amount of news available to readers"
+                },
+                {
+                  "key": "B",
+                  "text": "make it harder for traditional newspapers to survive financially"
+                },
+                {
+                  "key": "C",
+                  "text": "encourage users to engage only with content that matches their views"
+                },
+                {
+                  "key": "D",
+                  "text": "prevent influencers from reaching a wide audience"
+                }
+              ],
+              "answer": "C",
+              "explanation": "段落B说用户可以订阅\"curate content aligned with their existing preferences\"（策展与其现有偏好一致的内容），暗示个性化推送让用户只接触与自己观点一致的内容，形成信息茧房。"
+            },
+            {
+              "number": 8,
+              "text": "Which of the following does the passage identify as a key function of whistleblowers?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Ensuring that journalists meet publication deadlines"
+                },
+                {
+                  "key": "B",
+                  "text": "Holding institutions responsible for their actions"
+                },
+                {
+                  "key": "C",
+                  "text": "Providing legal advice to news organisations"
+                },
+                {
+                  "key": "D",
+                  "text": "Training reporters in investigative techniques"
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落C说\"Whistleblowers who expose wrongdoing play a vital role in upholding accountability\"。upholding accountability意为\"维护问责制\"，即让机构为其行为负责，对应B选项。"
+            },
+            {
+              "number": 9,
+              "text": "What does the passage propose as a means of combating the spread of false information?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Banning social media platforms entirely"
+                },
+                {
+                  "key": "B",
+                  "text": "Increasing government control over all media outlets"
+                },
+                {
+                  "key": "C",
+                  "text": "Teaching citizens to critically assess information sources"
+                },
+                {
+                  "key": "D",
+                  "text": "Requiring all journalists to obtain professional licences"
+                }
+              ],
+              "answer": "C",
+              "explanation": "段落G说\"Media literacy education can equip citizens with the critical thinking skills needed to evaluate sources\"。教公民批判性地评估信息来源，对应C选项。"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "viral",
+              "explanation": "段落B：\"content that can go viral within minutes\" · viral意为\"病毒式传播的\"，形容信息在社交网络上迅速扩散的方式。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "infodemic",
+              "explanation": "段落F：\"the rapid spread of unverified claims has been described as an infodemic\" · infodemic意为\"信息疫情\"，形容信息泛滥如同疫情般失控。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "amplify",
+              "explanation": "段落F：\"algorithms can inadvertently amplify misleading content\" · amplify意为\"放大\"，指算法无意中扩大了误导性内容的传播范围。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "literacy",
+              "explanation": "段落G：\"Media literacy education can equip citizens\" · literacy意为\"素养\"，这里指媒体素养，即公民评估信息可靠性的能力。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "The rapid expansion of digital media has transformed how people access news. Content can now spread in a"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "manner across social networks within minutes. However, this speed has created problems: during health emergencies, the uncontrolled flow of unverified claims has been likened to an"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": ". Automated systems can unintentionally"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "misleading stories by promoting posts that generate high levels of user interaction. To counter these trends, experts recommend improving public"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "so that citizens can better evaluate the reliability of what they read. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
   },
   {
     "slug": "19-culture-and-traditions",
@@ -6440,7 +14297,210 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/19-culture-and-traditions/generated-with-text/19-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "Safeguarding Cultural Identity in an Interconnected World",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Every society possesses a unique cultural **heritage** shaped by centuries of accumulated knowledge, belief, and practice. **Ancestral** traditions — passed down through generations — define a community's sense of **identity** and provide a framework for understanding the world. From the **folklore** of rural villages to the elaborate **ceremonies** of ancient civilisations, these **customs** reflect the values and experiences of particular peoples. Archaeological teams continue to **excavate** sites of great **antiquity**, unearthing **artefacts** and stone **relics** that bear **inscriptions** recording the lives of those who came before. Efforts to **preserve** such discoveries, keeping them **intact** for future study, remain central to the work of historians and museum professionals worldwide."
+        },
+        {
+          "label": "B",
+          "text": "Among the most visible expressions of cultural continuity are **rituals** and religious observances. A **solemn** **rite** of passage may mark an individual's transition from childhood to adulthood, while an **initiation** **ceremony** welcomes new members into a community or religious order. Colourful **processions** wind through streets during seasonal **festivities**, accompanied by the rhythmic sound of collective **chanting**. Worshippers undertake **pilgrimages** to distant **shrines**, burning **incense** as an offering and kneeling in **devotion**. Such practices, whether **sacred** or secular, **consecrate** communal spaces and reinforce shared beliefs, allowing communities to **venerate** their spiritual traditions across generations."
+        },
+        {
+          "label": "C",
+          "text": "Cultural expression also flourishes through artistic and literary craftsmanship. Skilled **artisans** **weave** intricate patterns into **tapestries** adorned with recurring **motifs** drawn from **mythology** and local legend. **Embroidery** decorates ceremonial garments with designs rich in **symbolism**, while woodworkers **carve** figurines that tell visual **narratives** of heroism and sacrifice. Ancient **manuscripts** preserve written accounts of historical events, and **murals** painted on temple walls depict scenes from religious **parables**. The **oral** tradition — encompassing **ballads**, **proverbs**, and folk tales — ensures that cultural knowledge survives even in communities without a written script, transmitting wisdom from one generation to the next through the spoken word."
+        },
+        {
+          "label": "D",
+          "text": "Language occupies a unique position at the heart of cultural **identity**. A community's **dialect** carries not merely vocabulary and grammar but an entire worldview, encoding concepts for which no direct translation exists in other tongues. Today, however, many **minority** languages are classified as **endangered**, their speakers dwindling as younger generations adopt dominant national or global languages. **Linguistic** **diversity** advocates argue that each language lost represents an irreplaceable body of knowledge. Programmes designed to **revitalise** these languages — through school curricula, digital archives, and community workshops — have achieved notable success in several regions, fostering renewed **solidarity** among speakers and strengthening social **cohesion**. Overcoming deep-rooted **prejudice** and dismantling harmful **stereotypes** about **minority** communities are essential prerequisites for meaningful **integration** without forced **assimilation**. A spirit of **tolerance**, in which difference is respected rather than suppressed, underpins any sustainable effort toward **bilingual** education and cultural inclusion."
+        },
+        {
+          "label": "E",
+          "text": "The forces of **globalisation** have accelerated contact between cultures at an unprecedented rate. **Diaspora** communities carry their traditions to new continents, and **expatriates** navigate the complex process of **acculturation** — adapting to a host culture while retaining elements of their own. In **cosmopolitan** cities, **intercultural** exchange produces vibrant examples of **fusion** — from cuisine to music to fashion — demonstrating the creative potential of cultural **hybridisation**. Yet critics warn that unregulated cultural exchange risks **eroding** local traditions, replacing them with a uniform global culture in a process known as **homogenisation**. The debate over cultural **appropriation** — the adoption of elements from one culture by members of another without proper understanding or respect — highlights the tension between appreciation and exploitation. In an increasingly **borderless** world, the challenge lies in finding ways to **transmit** traditional knowledge to future generations while embracing the benefits of **multiculturalism**."
+        },
+        {
+          "label": "F",
+          "text": "The preservation of cultural traditions is not merely an academic exercise; it is fundamental to the psychological wellbeing of communities. When people feel connected to their **ancestral** **heritage** through living practices — whether a harvest **festival**, a **pilgrimage** route, or the continued use of a regional **dialect** — they develop a stronger sense of belonging and purpose. The **legacy** left by previous generations serves as both an anchor in times of uncertainty and a source of creative **inspiration** for the future. Governments, international organisations, and local communities must therefore work collaboratively to document, protect, and celebrate the extraordinary range of human cultural expression before it is lost."
+        },
+        {
+          "label": "G",
+          "text": "Ultimately, the question is not whether cultures should change — change is inevitable and often enriching — but whether communities retain the agency to shape that change on their own terms. Promoting **ethnicity**-conscious policies that respect cultural difference, investing in the **commemoration** of significant traditions, and ensuring that **indigenous** voices are heard in policy debates are all steps toward a world in which diversity is genuinely valued rather than merely tolerated."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Archaeological discoveries are considered important primarily because of their financial value on the art market.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落A：\"Efforts to preserve such discoveries, keeping them intact for future study\" · 文章说保护考古发现是为了\"未来研究\"，从未提到经济价值或艺术市场。题目中的\"financial value on the art market\"是文中没有涉及的信息。"
+            },
+            {
+              "number": 2,
+              "text": "Religious pilgrimages always involve travelling to locations in a different country.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落B：\"Worshippers undertake pilgrimages to distant shrines\" · 文章说朝圣者前往\"遥远的圣地\"，但\"distant\"不等于\"in a different country\"。文章没有具体说明朝圣目的地是否在国外。"
+            },
+            {
+              "number": 3,
+              "text": "The oral tradition has enabled cultural knowledge to survive in societies that lack a written language.",
+              "answer": "TRUE",
+              "explanation": "段落C：\"The oral tradition... ensures that cultural knowledge survives even in communities without a written script\" · 文章明确指出口头传统\"确保文化知识在没有书面文字的社区中得以存续\"。题目用\"societies that lack a written language\"替换了\"communities without a written script\"，是同义替换。"
+            },
+            {
+              "number": 4,
+              "text": "Every programme designed to revitalise endangered languages has been successful.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落D：\"have achieved notable success in several regions\" · 文章说语言复兴项目\"在几个地区取得了显著成功\"，但没有说\"每个(every)\"项目都成功了。题目的\"every programme\"是过度概括，但文章既没有说全部成功也没有说有些失败。"
+            },
+            {
+              "number": 5,
+              "text": "Critics of unregulated cultural exchange are concerned that it may lead to the disappearance of distinctive local traditions.",
+              "answer": "TRUE",
+              "explanation": "段落E：\"critics warn that unregulated cultural exchange risks eroding local traditions, replacing them with a uniform global culture\" · 文章说批评者警告不受监管的文化交流可能\"侵蚀当地传统\"并用统一的全球文化取代之。题目用\"disappearance of distinctive local traditions\"同义替换了\"eroding local traditions\"。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "headings",
+          "title": "Questions 6-9: Matching Headings",
+          "instruction": "Choose the correct heading for each paragraph from the list below.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph B",
+              "answer": "v",
+              "explanation": "段落B集中描述宗教仪式（rites, pilgrimages, shrines）和社区庆典（processions, festivities, chanting），核心是宗教实践与集体庆祝活动。"
+            },
+            {
+              "number": 7,
+              "text": "Paragraph C",
+              "answer": "i",
+              "explanation": "段落C讨论文化如何通过艺术形式得以传承：挂毯编织、刺绣、木雕、手稿、壁画、口头传统等，核心是创意艺术作为文化记忆的载体。"
+            },
+            {
+              "number": 8,
+              "text": "Paragraph D",
+              "answer": "ii",
+              "explanation": "段落D聚焦语言濒危问题和语言复兴努力：少数族裔语言面临消亡、语言多样性的价值、复兴项目的成效等。"
+            },
+            {
+              "number": 9,
+              "text": "Paragraph E",
+              "answer": "vi",
+              "explanation": "段落E讨论全球化对文化的双重影响：一方面带来文化融合和创意（fusion, hybridisation），另一方面可能导致传统侵蚀和同质化（eroding, homogenisation）。"
+            }
+          ],
+          "headings": [
+            {
+              "key": "i",
+              "text": "The creative arts as vehicles of cultural memory"
+            },
+            {
+              "key": "ii",
+              "text": "Language loss and the fight for linguistic survival"
+            },
+            {
+              "key": "iii",
+              "text": "Foundations of cultural heritage and historical evidence"
+            },
+            {
+              "key": "iv",
+              "text": "The emotional significance of cultural connection"
+            },
+            {
+              "key": "v",
+              "text": "Religious practices and communal celebration"
+            },
+            {
+              "key": "vi",
+              "text": "Globalisation's dual impact on cultural traditions"
+            },
+            {
+              "key": "vii",
+              "text": "Political strategies for cultural preservation"
+            },
+            {
+              "key": "viii",
+              "text": "The economics of cultural tourism"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "tapestries",
+              "explanation": "段落C：\"artisans weave intricate patterns into tapestries adorned with recurring motifs drawn from mythology\" · tapestries意为\"挂毯\"，工匠在上面编织取自神话的重复装饰图案。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "oral",
+              "explanation": "段落C：\"The oral tradition — encompassing ballads, proverbs, and folk tales — ensures that cultural knowledge survives\" · oral意为\"口头的\"，口头传统通过歌曲和口述故事保存知识。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "revitalise",
+              "explanation": "段落D：\"Programmes designed to revitalise these languages — through school curricula, digital archives, and community workshops\" · revitalise意为\"复兴\"，指通过教育和社区活动让濒危语言重获生命力。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "fusion",
+              "explanation": "段落E：\"intercultural exchange produces vibrant examples of fusion — from cuisine to music to fashion\" · fusion意为\"融合\"，指不同文化元素的创意混合。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "Cultural traditions are transmitted in many forms. Craftspeople create"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "featuring repeated decorative patterns drawn from local myths. In communities without writing systems, the"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "tradition preserves knowledge through songs and spoken stories. When minority languages face extinction, targeted programmes can help to"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "them by reintroducing the language into schools and community life. In modern cities, the blending of different cultural elements produces creative examples of"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": ", though this process also carries risks. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
   },
   {
     "slug": "20-art-and-music",
@@ -6963,7 +15023,244 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/20-art-and-music/generated-with-text/20-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "Art, Music, and the Institutions That Sustain Them",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Throughout history, the visual and performing arts have served as powerful vehicles for human expression. In the painter's studio, a blank **canvas** stretched across a wooden **easel** awaits transformation. The artist selects **pigments** from a well-worn **palette**, applying them in confident **brushstrokes** that gradually reveal either a **figurative** scene — such as a work of **portraiture** depicting a specific individual — or an entirely **abstract** arrangement of colour and form. The deliberate use of **perspective** creates an illusion of depth, while the interplay of light and shadow, known as **chiaroscuro**, lends drama and emotional intensity. A finished painting's success depends on the strength of its **composition** — the arrangement of visual elements — and the **texture** of its surface, which may range from smooth glazes to thickly layered impasto. The Italian tradition of **fresco**, in which **pigment** is applied to wet plaster, produced some of the most celebrated **masterpieces** in Western art, works whose **aesthetic** power continues to captivate audiences centuries later."
+        },
+        {
+          "label": "B",
+          "text": "Music, too, possesses a remarkable capacity to move its audiences. An **orchestra** assembled in a grand **auditorium** brings together dozens of musicians, each contributing to a unified performance under the guidance of a **conductor**. The **ensemble** moves through passages of delicate **melody** and rich **harmony**, the underlying **rhythm** driving the piece forward at a carefully controlled **tempo**. Passages of restrained quietness build toward a thunderous **crescendo** that fills the hall with waves of **resonance**. Within the **orchestra**, the **percussion** section provides rhythmic foundation, while a **virtuoso** **soloist** may step forward for a dazzling display of technical mastery. Jazz and folk traditions celebrate **improvisation** — the art of composing spontaneously in the moment — and **acoustic** instruments stripped of electronic amplification produce a warmth that many listeners find irreplaceable. In opera, the expressive power of the human voice reaches its peak in the **aria**, a dramatic solo that demands both vocal precision and emotional depth, while a sustained **chord** beneath provides harmonic support."
+        },
+        {
+          "label": "C",
+          "text": "The world of theatre and dance offers its own distinctive pleasures. Months of intensive **rehearsal** precede a production's **debut**, as directors shape every element of **stagecraft** — from lighting and set design to the timing of the opening **curtain**. **Choreography** transforms physical movement into storytelling: a **ballet** company executes intricate formations, while a solo dancer may **improvise** an entire sequence in response to the music. The **protagonist** of a **theatrical** production delivers a gripping **monologue** from centre stage, the **dramatic** tension holding the audience spellbound. A **pantomime** performer communicates entirely through gesture and facial expression, demonstrating that powerful **narrative** requires no words at all. When the final scene concludes, the **auditorium** erupts in **applause**, and on exceptional evenings, a standing **ovation** rewards the cast for their achievement."
+        },
+        {
+          "label": "D",
+          "text": "Behind the scenes, a network of cultural institutions ensures that artistic works are preserved, studied, and made accessible to the public. **Curators** organise **exhibitions** in **galleries** and museums, carefully selecting works that illuminate a particular period, style, or theme. An **archivist** catalogues documents and images, maintaining detailed records of each object's **provenance** — the chain of ownership that traces an **artifact** back through centuries. **Restoration** specialists repair damaged canvases and fragile **relics**, guided by scientific analysis and deep knowledge of historical techniques. The study of **iconography** — the interpretation of visual symbols and motifs in art — helps scholars decode the intended meaning of complex works. Physical objects such as stone tablets bearing ancient **inscriptions** sit alongside **intangible** cultural treasures: traditional dances, songs, and oral histories that exist only in living memory. Government **patronage** and private philanthropy together fund the **preservation** of sites of **antiquity** and the ongoing operation of **heritage** institutions, though experts continually debate whether current spending levels are sufficient."
+        },
+        {
+          "label": "E",
+          "text": "Artists themselves are driven by the restless pursuit of **inspiration**. A **prolific** creator may work across multiple **media** — paint, film, installation, digital design — exploring the expressive possibilities of each **genre**. Recurring **motifs** and layers of **symbolism** give a body of work its conceptual coherence, while a willingness to experiment leads to **innovation** and the emergence of **avant-garde** movements that challenge prevailing taste. The publication of an artistic **manifesto** declares a group's intentions and values, often in deliberately **subversive** terms. **Contemporary** art criticism subjects new works to rigorous **critique**, asking whether a piece is merely decorative or genuinely **evocative** — capable of stirring deep emotion in the viewer. A career-spanning **retrospective** **exhibition** allows audiences to trace an artist's development from early experiments to mature **masterpieces**, revealing the **transcendent** ambition that sustains creative practice. Yet much great art is also **ephemeral**: street murals fade, sand sculptures dissolve, and live performances exist only in the memories of those who witnessed them. It is this very impermanence, some argue, that makes art so precious."
+        },
+        {
+          "label": "F",
+          "text": "Across all disciplines, the arts enrich human experience by transforming the ordinary into something extraordinary. Whether through the visual immediacy of a painting, the emotional sweep of a **symphony**, or the communal energy of a live **theatrical** performance, creative expression connects individuals to one another and to the broader currents of cultural history. The task of **authenticating** works of uncertain origin, supporting emerging talent through institutional **patronage**, and ensuring that future generations inherit a vibrant artistic tradition remains a shared responsibility — one that no society can afford to neglect."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "The fresco technique involves applying pigment to plaster that has already dried.",
+              "answer": "FALSE",
+              "explanation": "段落A：\"fresco, in which pigment is applied to wet plaster\" · 文章说壁画技法是将颜料涂在\"湿灰泥(wet plaster)\"上，而题目说\"plaster that has already dried\"（已经干燥的灰泥），直接矛盾。"
+            },
+            {
+              "number": 2,
+              "text": "Jazz and folk music traditions value the ability to compose music spontaneously during a performance.",
+              "answer": "TRUE",
+              "explanation": "段落B：\"Jazz and folk traditions celebrate improvisation — the art of composing spontaneously in the moment\" · 文章明确说爵士和民间音乐传统\"推崇即兴演奏——在当下自发作曲的艺术\"。题目用\"value the ability to compose music spontaneously\"同义替换了\"celebrate improvisation\"。"
+            },
+            {
+              "number": 3,
+              "text": "Pantomime performers rely exclusively on spoken dialogue to tell their stories.",
+              "answer": "FALSE",
+              "explanation": "段落C：\"A pantomime performer communicates entirely through gesture and facial expression\" · 文章说哑剧表演者\"完全通过手势和面部表情交流\"，而题目说\"rely exclusively on spoken dialogue\"（完全依赖口头对话），直接矛盾。"
+            },
+            {
+              "number": 4,
+              "text": "There is unanimous agreement among experts that current funding for heritage preservation is adequate.",
+              "answer": "FALSE",
+              "explanation": "段落D：\"experts continually debate whether current spending levels are sufficient\" · 文章说专家\"持续争论当前支出水平是否足够\"，说明没有一致意见。题目说\"unanimous agreement\"（一致同意），与\"continually debate\"矛盾。"
+            },
+            {
+              "number": 5,
+              "text": "Street murals and sand sculptures are cited as examples of art forms that do not last permanently.",
+              "answer": "TRUE",
+              "explanation": "段落E：\"much great art is also ephemeral: street murals fade, sand sculptures dissolve\" · 文章明确列举街头壁画褪色、沙雕消融作为短暂艺术的例子。题目用\"do not last permanently\"替换了\"ephemeral\"，是同义替换。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "mcq",
+          "title": "Questions 6-9: Multiple Choice",
+          "instruction": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "According to the passage, what does the term \"chiaroscuro\" refer to?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "A method of mixing pigments on a palette"
+                },
+                {
+                  "key": "B",
+                  "text": "The contrast between light and dark areas in a painting"
+                },
+                {
+                  "key": "C",
+                  "text": "A style of portrait painting popular in Italy"
+                },
+                {
+                  "key": "D",
+                  "text": "The technique of applying paint to wet plaster"
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落A说\"the interplay of light and shadow, known as chiaroscuro, lends drama and emotional intensity\"。chiaroscuro是\"光与影的交互作用\"，即明暗对比，对应B选项。A描述的是调色，C无中生有，D描述的是fresco技法。"
+            },
+            {
+              "number": 7,
+              "text": "What role does the percussion section play within an orchestra, according to the passage?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "It provides the main melodic line of a composition"
+                },
+                {
+                  "key": "B",
+                  "text": "It determines the emotional tone of each performance"
+                },
+                {
+                  "key": "C",
+                  "text": "It establishes the rhythmic foundation of the music"
+                },
+                {
+                  "key": "D",
+                  "text": "It replaces the conductor's role in controlling tempo"
+                }
+              ],
+              "answer": "C",
+              "explanation": "段落B说\"the percussion section provides rhythmic foundation\"，打击乐部分提供\"节奏基础\"，直接对应C选项。A说提供主旋律（是melody的功能），B和D文中无据。"
+            },
+            {
+              "number": 8,
+              "text": "The passage states that the study of iconography helps scholars to:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "estimate the monetary value of ancient artworks"
+                },
+                {
+                  "key": "B",
+                  "text": "interpret the symbolic meaning of images in art"
+                },
+                {
+                  "key": "C",
+                  "text": "identify the chemical composition of historical pigments"
+                },
+                {
+                  "key": "D",
+                  "text": "determine the precise age of archaeological artefacts"
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落D说\"The study of iconography — the interpretation of visual symbols and motifs in art — helps scholars decode the intended meaning\"。图像学是解读艺术中视觉符号的含义，对应B选项\"interpret the symbolic meaning\"。"
+            },
+            {
+              "number": 9,
+              "text": "Which of the following best describes the author's view of the relationship between art and impermanence?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Permanent artworks are always more valuable than temporary ones"
+                },
+                {
+                  "key": "B",
+                  "text": "The temporary nature of some art forms may actually increase their significance"
+                },
+                {
+                  "key": "C",
+                  "text": "Artists should focus exclusively on creating works that will endure"
+                },
+                {
+                  "key": "D",
+                  "text": "Museums should refuse to exhibit works that cannot be preserved indefinitely"
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落E说\"It is this very impermanence, some argue, that makes art so precious\"，认为正是艺术的短暂性使其更加珍贵。这对应B选项\"the temporary nature... may actually increase their significance\"。"
+            }
+          ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "rehearsal",
+              "explanation": "段落C：\"Months of intensive rehearsal precede a production's debut\" · rehearsal意为\"排练\"，开演前需要数月的密集排练。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "choreography",
+              "explanation": "段落C：\"Choreography transforms physical movement into storytelling\" · choreography意为\"编舞\"，将身体动作转化为叙事形式。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "ovation",
+              "explanation": "段落C：\"a standing ovation rewards the cast for their achievement\" · ovation意为\"喝彩\"，standing ovation是全体起立鼓掌。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "patronage",
+              "explanation": "段落D：\"Government patronage and private philanthropy together fund the preservation\" · patronage意为\"资助\"，政府资助和私人慈善共同为文化保护提供资金。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "The performing arts require extensive preparation. A production goes through months of"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "before its opening night. In ballet, a sequence of movements created through"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "transforms physical motion into a form of storytelling. After a particularly impressive show, the audience may honour the performers with a standing"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": ". Meanwhile, cultural institutions depend on financial support from government"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "and private donors to maintain their collections and protect important sites. ---"
+            }
+          ]
+        }
+      ],
+      "questionCount": 13
+    }
   },
   {
     "slug": "21-sports-and-fitness",
@@ -7498,7 +15795,125 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/21-sports-and-fitness/generated-with-text/21-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "The Evolving Landscape of Global Sports",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The modern **tournament** circuit has undergone a remarkable transformation over the past three **decade**s. Once limited to a handful of prestigious **championship** events, professional sport now encompasses a vast network of competitions held in state-of-the-art **stadium** facilities across every continent. Each major **fixture** on the calendar attracts millions of **spectator**s, both in person and through global **broadcast** networks, with **viewership** figures for flagship events regularly surpassing three billion. This exponential growth has turned elite sport into one of the most **lucrative** industries on earth, generating billions in **revenue** annually."
+        },
+        {
+          "label": "B",
+          "text": "At the heart of every contest lies the tension between competing teams, each fielding a carefully selected **squad** of players. A typical football formation places the **striker** at the front, tasked with scoring goals, while the **midfielder** controls the tempo of play. The **referee** enforces the rules, penalising any **foul** committed during the match and awarding a **penalty** kick when infringements occur inside the box. Games may end in a **draw**, and in knockout rounds the **aggregate** score across two legs determines which team will **qualify** for the next stage, saving them from **elimination**."
+        },
+        {
+          "label": "C",
+          "text": "Beyond the pitch, sport has become a vehicle for expressing **patriotism** and building **camaraderie** among fans. Supporters paint their faces in national colours and **chant** songs of encouragement from the terraces. The emotional **momentum** generated by a roaring crowd can lift the **morale** of even the weakest **underdog**, turning predicted defeats into legendary victories. Yet this intense **rivalry** occasionally spills into **controversy**, particularly when contentious refereeing decisions dominate headlines. Preserving **sportsmanship** — the spirit of fair play — remains a constant challenge."
+        },
+        {
+          "label": "D",
+          "text": "The commercial dimension of sport is equally significant. Cities **bid** competitively to **host** major events, investing heavily in transport and sporting **infrastructure**. Corporate **sponsor**s pay enormous sums for brand visibility, while top **athlete**s earn fortunes through **endorsement** deals. The sale of **merchandise** — replica jerseys, scarves, and memorabilia — further drives the **commercialise**d economy of professional sport. Managing this wealth demands robust **governance** and **transparency** to guard against **corruption**. **Regulation** of finances and operations ensures that sporting **franchise**s remain accountable, upholding the **integrity** of competition."
+        },
+        {
+          "label": "E",
+          "text": "For the individual **athlete**, success is the product of years of relentless preparation. A structured training **regime** builds **endurance**, **agility**, and **stamina** through progressively increasing **intensity**. Proper **nutrition**, including carefully chosen **supplement**s, fuels the body, while adequate **hydration** prevents the early onset of **fatigue**. Every session begins with a thorough **warm-up** to protect muscles and **ligament**s from injury. When injuries do occur, a comprehensive **rehabilitation** programme is essential to restore the athlete's **physique** to competitive condition. Throughout this gruelling process, **perseverance** and **discipline** separate those who reach their **peak** from those who fall short of established **benchmark**s."
+        },
+        {
+          "label": "F",
+          "text": "Increasingly, attention is turning to **grassroots** participation and **inclusion**. Campaigns promoting **gender parity** in sport seek to ensure that **accessibility** extends to all, regardless of background. Community-based **recreational** programmes encourage **amateur** participants to embrace **aerobic** exercise, improve **cardiovascular** health, and combat the risks associated with **sedentary** lifestyles and rising **obesity** rates. Research in **physiology** shows that regular physical activity boosts **metabolism**, enhances **flexibility**, and improves **posture** and bodily **coordinate** function. Even simple **interval** training, performed in structured **repetition**s, releases **adrenaline** and contributes to overall **well-being**."
+        },
+        {
+          "label": "G",
+          "text": "The fight against **doping** underscores the ongoing struggle for fairness. Anti-doping agencies test athletes to ensure clean competition, and the **legacy** of past scandals continues to shape policy. As sport evolves, its capacity to unite people across borders, inspire the next generation, and promote healthier living ensures its enduring relevance. The challenge now is to balance the spectacle with the values that made it meaningful in the first place. Whether one is a **trophy**-chasing professional or a weekend jogger, the transformative power of sport remains undeniable."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Viewership numbers for major sporting events consistently exceed three billion.",
+              "answer": "TRUE",
+              "explanation": "段落 A: \"viewership figures for flagship events regularly surpassing three billion\" · 题目用 \"consistently exceed\" 替换原文 \"regularly surpassing\"，意思一致，为 TRUE。"
+            },
+            {
+              "number": 2,
+              "text": "A midfielder's primary responsibility is to score goals.",
+              "answer": "FALSE",
+              "explanation": "段落 B: \"the striker at the front, tasked with scoring goals, while the midfielder controls the tempo of play\" · 原文明确说 striker 负责进球，midfielder 控制节奏，题目说 midfielder 主要职责是进球，与原文矛盾。"
+            },
+            {
+              "number": 3,
+              "text": "Cities that host major events always recoup their infrastructure investment within five years.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落 D 提到城市投资基础设施，但未提及是否能在五年内收回投资。 · 原文没有给出关于投资回报时间的信息。"
+            },
+            {
+              "number": 4,
+              "text": "Anti-doping agencies carry out tests on competitors to maintain the fairness of sport.",
+              "answer": "TRUE",
+              "explanation": "段落 G: \"Anti-doping agencies test athletes to ensure clean competition\" · 题目用 \"carry out tests on competitors\" 和 \"maintain the fairness\" 替换原文的 \"test athletes\" 和 \"ensure clean competition\"，同义替换，为 TRUE。"
+            },
+            {
+              "number": 5,
+              "text": "Community recreational programmes are exclusively designed for young people.",
+              "answer": "FALSE",
+              "explanation": "段落 F: \"Community-based recreational programmes encourage amateur participants to embrace aerobic exercise\" · 原文说社区项目鼓励业余参与者（所有人），并未限定为年轻人，题目说 \"exclusively designed for young people\" 与原文矛盾。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "matching-info",
+          "title": "Questions 6-9: Matching Information",
+          "instruction": "Which paragraph contains the following information? Write the correct letter, A–G.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "A description of how fan behaviour can influence the outcome of a match",
+              "answer": "C",
+              "explanation": "段落 C 描述了球迷的呐喊如何提升球队士气（momentum, morale），甚至帮助弱队逆转比赛。"
+            },
+            {
+              "number": 7,
+              "text": "The role of financial oversight in professional sport",
+              "answer": "D",
+              "explanation": "段落 D 讨论了 governance、transparency、regulation 等财务监管措施，防止 corruption。"
+            },
+            {
+              "number": 8,
+              "text": "An explanation of the physical training process athletes follow",
+              "answer": "E",
+              "explanation": "段落 E 详细描述了运动员的训练过程：regime、endurance、nutrition、warm-up、rehabilitation 等。"
+            },
+            {
+              "number": 9,
+              "text": "Efforts to make sport accessible to all members of society",
+              "answer": "F",
+              "explanation": "段落 F 讨论了 grassroots participation、inclusion、gender parity 和 accessibility。"
+            }
+          ],
+          "paragraphOptions": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
+        }
+      ],
+      "questionCount": 9
+    }
   },
   {
     "slug": "22-food-and-diet",
@@ -8051,7 +16466,134 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/22-food-and-diet/generated-with-text/22-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "From Farm to Fork — The Science and Culture of Modern Eating",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The global food system rests on a handful of **staple** crops — rice, wheat, and maize — supplemented by **legume**s, **dairy** products, **poultry**, and **seafood**. Each **ingredient** carries a distinct nutritional profile: **grain**s supply **carbohydrate**s for energy, while **protein** from animal and plant sources supports tissue repair. The **fibre** content of whole foods aids digestion, and maintaining an appropriate **caloric** intake is central to managing body weight. At its best, a meal balances **portion** size with sensory pleasure — the **aroma** of freshly baked bread, the satisfying **texture** of a ripe avocado — turning simple nourishment into a **delicacy** worth savouring."
+        },
+        {
+          "label": "B",
+          "text": "The way food is prepared matters as much as the ingredients themselves. Professional chefs **mince** garlic and **dice** vegetables with practised precision before tossing them into a pan to **sauté** in olive oil. Root vegetables may be left to **roast** in the oven, while a rich stock is set to **simmer** for hours. Meat is often **marinate**d overnight and **baste**d during cooking to retain moisture. Bakers **knead** dough and wait for it to **ferment**, producing the carbon dioxide that gives bread its airy crumb. Final touches — a **drizzle** of aged vinegar, a **whisk**ed sauce, a **garnish** of fresh **herb**s and ground **spice** — elevate a dish from competent to extraordinary. The ability to **season** food correctly, balancing salt, acid, and sweetness, remains the hallmark of accomplished cooking. Alongside traditional methods, the modern kitchen also embraces the technique of **caramelise**-ing sugars to deepen flavour, and **infuse**-ing oils with aromatics to **reduce** a glaze to its most concentrated form."
+        },
+        {
+          "label": "C",
+          "text": "Nutritional science has deepened public understanding of how food affects health. Every **nutrient** — from macro-level **carbohydrate**s and fats to **micronutrient**s such as iron and zinc — plays a specific role in the body. **Antioxidant**-rich berries combat cellular damage, while **probiotic** foods like yoghurt and kimchi support gut health. A **wholesome**, **organic** diet low in **saturated** fats can help reduce **cholesterol** levels and limit chronic **inflammation**. When **dietary** intake alone falls short, **supplement**s may be used to correct a **deficiency** and **fortify** overall nutrition. Experts stress that **hydration** is equally vital: adequate water consumption supports **metabolism** and sustains the body's **caloric** processing functions."
+        },
+        {
+          "label": "D",
+          "text": "Dining is not merely biological; it is deeply cultural. **Gastronomy** — the study of food and culture — explores how different **cuisine**s reflect local identity. In a fine restaurant, a **sommelier** pairs wine with a multi-course meal that progresses from a light **appetiser** to a lavish **entrée**. The **ambiance** of the dining room, from candlelit intimacy to minimalist chic, shapes the experience as much as the food itself. A true **connoisseur** will **savour** each bite, noting the interplay of flavours in a **fusion** dish that blends techniques from disparate traditions. **Gourmet** establishments often feature **artisan** breads and hand-crafted **condiment**s, inviting guests to **indulge** in **delectable** creations. Mastering dining **etiquette** and securing a **reservation** at a celebrated **culinary** venue have become social rituals in their own right, reflecting one's **palate** and cultural sophistication."
+        },
+        {
+          "label": "E",
+          "text": "Behind the pleasure of eating lies a complex industrial chain governed by strict safety protocols. **Regulation** mandates clear **labelling** of every **additive** and **preservative** in packaged food, and products must display an **expiry** date. **Allergen** warnings protect consumers with sensitivities, while **certification** schemes verify claims about **organic** or **sustainable** farming practices. The **supply chain** — from farm to processing plant to retailer — is tracked through **traceability** systems designed to pinpoint the source of any **contamination**. **Hygiene** standards are enforced at every stage, and products found to be **adulterate**d face immediate **recall**. The rise of **genetically modified** crops has sparked debate about long-term health effects, and growing environmental awareness has boosted demand for **biodegradable** packaging. Meanwhile, reducing **pesticide** residues remains a priority for regulators seeking to balance productivity with public safety."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Grains are the primary source of protein in the human diet.",
+              "answer": "FALSE",
+              "explanation": "段落 A: \"grains supply carbohydrates for energy, while protein from animal and plant sources supports tissue repair\" · 原文明确说谷物提供碳水化合物（能量），蛋白质来源于动植物。题目说谷物是蛋白质的主要来源，与原文矛盾。"
+            },
+            {
+              "number": 2,
+              "text": "Marinating meat overnight helps it retain moisture during cooking.",
+              "answer": "TRUE",
+              "explanation": "段落 B: \"Meat is often marinated overnight and basted during cooking to retain moisture\" · 题目用 \"helps it retain moisture\" 对应原文 \"to retain moisture\"，信息一致。"
+            },
+            {
+              "number": 3,
+              "text": "Probiotic foods such as yoghurt are beneficial for digestive health.",
+              "answer": "TRUE",
+              "explanation": "段落 C: \"probiotic foods like yoghurt and kimchi support gut health\" · 题目用 \"beneficial for digestive health\" 替换原文 \"support gut health\"，同义替换，为 TRUE。"
+            },
+            {
+              "number": 4,
+              "text": "Fine-dining restaurants in Europe generate more revenue than those in Asia.",
+              "answer": "NOT GIVEN",
+              "explanation": "文章讨论了美食文化和高端餐饮，但未比较欧洲和亚洲餐厅的收入。 · 原文没有提供地区间餐厅收入比较的信息。"
+            },
+            {
+              "number": 5,
+              "text": "Products that have been tampered with are subject to mandatory withdrawal from sale.",
+              "answer": "TRUE",
+              "explanation": "段落 E: \"products found to be adulterated face immediate recall\" · 题目用 \"tampered with\" 替换 \"adulterated\"，用 \"mandatory withdrawal from sale\" 替换 \"immediate recall\"，同义替换，为 TRUE。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "headings",
+          "title": "Questions 6-9: Matching Headings",
+          "instruction": "Choose the correct heading for each paragraph from the list below.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph B",
+              "answer": "iv",
+              "explanation": "段落 B 详细描述了从备料到最终装饰的各种烹饪技巧：mince、dice、sauté、roast、simmer 等。"
+            },
+            {
+              "number": 7,
+              "text": "Paragraph C",
+              "answer": "vi",
+              "explanation": "段落 C 讨论了各类营养素、补充剂如何支持身体机能：nutrient、antioxidant、probiotic、supplement 等。"
+            },
+            {
+              "number": 8,
+              "text": "Paragraph D",
+              "answer": "iii",
+              "explanation": "段落 D 围绕 gastronomy、cuisine、sommelier、ambiance 等讨论饮食的文化维度。"
+            },
+            {
+              "number": 9,
+              "text": "Paragraph E",
+              "answer": "i",
+              "explanation": "段落 E 讨论了食品工业的安全协议和监管框架：regulation、labelling、certification、recall 等。"
+            }
+          ],
+          "headings": [
+            {
+              "key": "i",
+              "text": "Industrial safety and the regulatory framework"
+            },
+            {
+              "key": "ii",
+              "text": "The nutritional building blocks of a balanced diet"
+            },
+            {
+              "key": "iii",
+              "text": "Cultural dimensions of dining and gastronomy"
+            },
+            {
+              "key": "iv",
+              "text": "Culinary techniques from preparation to presentation"
+            },
+            {
+              "key": "v",
+              "text": "The environmental impact of modern agriculture"
+            },
+            {
+              "key": "vi",
+              "text": "How nutrients and supplements support bodily function"
+            }
+          ]
+        }
+      ],
+      "questionCount": 9
+    }
   },
   {
     "slug": "23-family-and-social-relationships",
@@ -8610,7 +17152,120 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/23-family-and-social-relationships/generated-with-text/23-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "Bonds That Shape Us — Family, Community, and Social Change",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The **nuclear family** — typically comprising two parents and their **offspring** — has long been considered the basic unit of society. In many cultures, however, the **extended family** plays an equally vital role. Grandparents, aunts, uncles, and cousins form a wider network of **kinship** that provides emotional and practical support. The **patriarch** and **matriarch** often serve as the central figures around whom the **household** revolves. Each **sibling** shares not only **lineage** but also a common **upbringing** that shapes values and behaviour. In some communities, these bonds extend further still to encompass the entire **clan**, where **ancestry** is traced back through generations and **hereditary** customs are passed from **descendant** to **descendant**."
+        },
+        {
+          "label": "B",
+          "text": "The emotional architecture of family life is built on invisible threads of feeling. The **affection** between parent and child, the deep **attachment** formed in infancy, and the quiet **devotion** of a **caregiver** all contribute to what psychologists call secure relational **bond**s. **Nurture** — the daily act of feeding, teaching, and protecting — fosters **intimacy** and **mutual** trust. Families that **cherish** these connections tend to show greater **solidarity** and **loyalty** during times of hardship. Where relationships fracture, **resentment** may take root, yet the capacity for **forgiveness** and **reconciliation** often proves stronger. **Empathy** and **compassion** allow individuals to understand one another's perspectives, while **unconditional** love provides a safety net that sustains **esteem** and emotional **well-being** across generations."
+        },
+        {
+          "label": "C",
+          "text": "Beyond the family home, human beings construct elaborate social networks. A **mentor** at work may prove as influential as a parent, and the **camaraderie** shared among **colleague**s can mirror the warmth found among **sibling**s. **Peer** relationships shape adolescent identity, while an **acquaintance** encountered at a neighbourhood gathering may evolve into a lifelong **comrade**. The **community** provides a setting for **socialization** — the process through which individuals learn the norms and expectations of their **tribe**. Within these groups, **fellowship** and **reciprocity** sustain **cohesion**: people contribute time and resources, confident that the favour will be returned. **Networking** creates professional **alliance**s that advance careers, yet it also reinforces a sense of belonging."
+        },
+        {
+          "label": "D",
+          "text": "Not everyone, however, finds a place within these structures. **Exclusion** — whether based on ethnicity, class, or belief — can render an individual an **outcast**, severed from the support systems that others take for granted. In families, an **estranged** member may lose contact for years, cut off by unresolved conflict or shifting **domestic** circumstances. Disputes over **custody** of children following separation often deepen these divides. Where a biological parent is absent, a court-appointed **guardian** or an **adoptive** family may step in, and research consistently shows that the quality of care matters far more than the structure of the family itself. Promoting **inclusion** at every level — from the classroom to the workplace — helps rebuild the **reciprocal** relationships on which social stability depends."
+        },
+        {
+          "label": "E",
+          "text": "Perhaps no arena exposes the tension between continuity and change as vividly as the relationship between generations. The **generation gap** manifests in differing attitudes to technology, career, and lifestyle. Older family members may value **filial** piety and **obedience**, seeing **discipline** as the foundation of good character. Younger members, by contrast, often prioritise personal **autonomy** and question **tradition**s they consider outdated, a stance that can border on open **rebellion**. Bridging this divide requires **compromise** and **mediation** — the willingness to listen before judging. **Parental** **wisdom**, transmitted through storytelling and shared **nostalgia** for an **ancestral** past, remains a powerful force, while family **heirloom**s serve as tangible reminders of **inheritance** and **succession**. When these **enduring** connections are honoured, the **legacy** of one generation enriches the next."
+        },
+        {
+          "label": "F",
+          "text": "Modern societies increasingly recognise that family well-being is inseparable from broader social structures. **Empowerment** initiatives aim to achieve greater **equality** by challenging rigid **hierarchy** and enabling each person to contribute as a **provider** of ideas, not merely a **subordinate** in a chain of command. **Supportive** policies — parental leave, community childcare, elder-care funding — acknowledge the **sacrifice** involved in caring for others and distribute the **obligation** more evenly. A **collaborative** approach to **stewardship** of family resources ensures that **dependency** does not become a burden and that **accountability** is shared. In this way, the ancient institution of the family continues to adapt, balancing the pull of **tradition** with the promise of a more equitable future."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "In certain cultures, the extended family is just as important as the nuclear family.",
+              "answer": "TRUE",
+              "explanation": "段落 A: \"the extended family plays an equally vital role\" · 题目说 \"just as important\"，原文说 \"equally vital role\"，同义替换，为 TRUE。"
+            },
+            {
+              "number": 2,
+              "text": "Children who grow up in adoptive families consistently perform worse at school than those raised by biological parents.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落 D 提到 adoptive family 和 \"the quality of care matters far more than the structure\"，但未比较学业表现。 · 原文没有讨论收养家庭孩子的学业表现问题。"
+            },
+            {
+              "number": 3,
+              "text": "Psychologists regard secure relational bonds as a product of daily care and emotional warmth.",
+              "answer": "TRUE",
+              "explanation": "段落 B: \"Nurture — the daily act of feeding, teaching, and protecting — fosters intimacy and mutual trust\" · 题目用 \"daily care and emotional warmth\" 替换原文 \"daily act of feeding, teaching, and protecting\"，意思一致。"
+            },
+            {
+              "number": 4,
+              "text": "Networking serves both professional advancement and a feeling of social belonging.",
+              "answer": "TRUE",
+              "explanation": "段落 C: \"Networking creates professional alliances that advance careers, yet it also reinforces a sense of belonging\" · 题目说 networking 服务于职业发展和社会归属感，与原文完全吻合。"
+            },
+            {
+              "number": 5,
+              "text": "Older generations universally reject the use of modern technology.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落 E 提到代沟表现在对技术的不同态度，但没有说老一代\"普遍拒绝\"现代技术。 · 原文仅说态度不同（differing attitudes），未说老一代全面拒绝技术。注意 \"universally\" 是绝对词，原文无此信息。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "matching-info",
+          "title": "Questions 6-9: Matching Information",
+          "instruction": "Which paragraph contains the following information? Write the correct letter, A–F.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "How policy measures can help distribute the responsibilities of family care",
+              "answer": "F",
+              "explanation": "段落 F 讨论了 supportive policies（育儿假、社区托儿等），帮助更均匀地分配家庭照料责任。"
+            },
+            {
+              "number": 7,
+              "text": "The consequences of being denied a place within social groups",
+              "answer": "D",
+              "explanation": "段落 D 描述了 exclusion 如何使人成为 outcast，以及 estranged 家庭成员失去联系的后果。"
+            },
+            {
+              "number": 8,
+              "text": "The way daily caregiving creates lasting emotional connections",
+              "answer": "B",
+              "explanation": "段落 B 描述了 nurture（日常照料）如何建立 intimacy、mutual trust 和持久的情感连接。"
+            },
+            {
+              "number": 9,
+              "text": "How objects passed down through families symbolise continuity between generations",
+              "answer": "E",
+              "explanation": "段落 E 提到 heirlooms 作为 inheritance 和 succession 的有形提醒物，象征代际延续。"
+            }
+          ],
+          "paragraphOptions": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        }
+      ],
+      "questionCount": 9
+    }
   },
   {
     "slug": "24-history-and-archaeology",
@@ -9139,7 +17794,134 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/24-history-and-archaeology/generated-with-text/24-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "Unearthing the Past — How Archaeology Illuminates History",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The work of an **archaeologist** begins long before the first spade breaks the soil. Selecting a promising **site** requires months of research: studying satellite imagery, reviewing **archival** records, and consulting local informants. Once a location is identified, a measured **grid** is laid across the terrain to ensure that every object recovered can be mapped to its precise position. The formal **excavation** then proceeds layer by layer, as each **stratum** of earth may represent a distinct period of human activity. Workers carefully remove **sediment** and **debris**, sifting through centuries of accumulated material with brushes and trowels. A slender metal **probe** helps detect buried objects without disturbing them, and when a find is made — a **pottery** **shard**, a bronze **figurine**, or a fragment of **textile** — it is catalogued, photographed, and prepared for laboratory analysis."
+        },
+        {
+          "label": "B",
+          "text": "Scientific techniques have revolutionised the way archaeologists determine the age and origin of their discoveries. **Carbon dating** allows researchers to assign an approximate date to organic **remnant**s, establishing a reliable **chronology** of occupation at any given site. Objects that have begun to **fossilize** provide evidence of far older periods, stretching back millions of years. Meanwhile, chemical analysis of metals and pigments can **authenticate** an **artifact**, distinguishing a genuine **relic** from a modern **forgery**. The **provenance** of each item — its documented chain of ownership — is scrutinised to prevent the circulation of looted antiquities."
+        },
+        {
+          "label": "C",
+          "text": "What these discoveries reveal is nothing less than the story of **civilization** itself. Great **dynasty**ies rose and fell, each leaving behind architectural **monument**s that **commemorate** their achievements. Towering stone **pillar**s, carved with **hieroglyphic** symbols and formal **inscription**s, record the deeds of **monarch**s and the **ritual**s performed in their honour. **Tribute** — grain, gold, livestock — flowed from conquered territories to the heart of every **empire**, financing elaborate **fresco**es, glittering **mosaic**s, and sculptural **relief**s that adorned palace walls. **Mythology** shaped the worldview of these societies, and **sovereign** rulers justified their power through divine **narrative**s preserved on **parchment** scrolls and **manuscript**s. During periods of stability, arts and commerce **flourish**ed; scholars now classify these golden ages as the high points of **antiquity**."
+        },
+        {
+          "label": "D",
+          "text": "Preserving these treasures for future study presents formidable challenges. Exposure to air and moisture accelerates **deterioration**: metals suffer **corrosion**, while **fragile** organic materials disintegrate. A skilled **curator** must **consolidate** weakened structures — injecting adhesive into hairline cracks, stabilising flaking paint — and control environmental factors such as **humidity** and light. In museum storerooms, every piece is logged on a detailed **inventory** and stored in **archival** conditions designed to halt further decay. The green surface known as **patina**, which forms naturally on aged bronze, is itself considered part of an artefact's identity and is carefully maintained. Broader **conservation** efforts extend beyond individual objects to entire landscapes: the **preservation** of a medieval city centre or an Iron Age **mound** demands collaboration between archaeologists, urban planners, and local communities, all of whom share the **heritage** that these places embody."
+        },
+        {
+          "label": "E",
+          "text": "Despite these advances, the interpretation of the past is never straightforward. Historians must weigh **evidence** drawn from **primary source**s — letters, diaries, official decrees — against the physical record. Constructing a coherent **narrative** from fragmentary data requires a clear **hypothesis**, which is then tested through further fieldwork and cross-referencing with **contemporary** accounts. Throughout this process, the researcher must remain **objective**, alert to the **bias** that can distort any **chronicle** and the **propaganda** that ancient rulers routinely disseminated to secure loyalty. The discipline of **scrutinize**-ing sources demands rigour: an **epoch** once celebrated as a period of peace may, upon closer examination, turn out to have been marked by conquest and suppression. Each **decade** of new research refines our understanding, reminding us that the **legacy** of the past is never fixed. Protective **chalice**s, ceremonial **amulet**s, military **coinage**, sculpted **ornament**s, and carved **totem**s — every unearthed **vessel** adds a sentence to the vast, unfinished **chronicle** of human experience, inviting the next generation to **interpret** its meaning afresh. Through continued **restoration** and study, society honours both the tangible **artifact**s and the intangible stories they embody, ensuring that the lessons of history endure."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Archaeologists conduct extensive preparatory research before beginning physical excavation.",
+              "answer": "TRUE",
+              "explanation": "段落 A: \"The work of an archaeologist begins long before the first spade breaks the soil. Selecting a promising site requires months of research\" · 题目用 \"extensive preparatory research\" 替换原文 \"months of research\"，信息一致，为 TRUE。"
+            },
+            {
+              "number": 2,
+              "text": "Carbon dating can determine the exact year in which an organic object was created.",
+              "answer": "FALSE",
+              "explanation": "段落 B: \"Carbon dating allows researchers to assign an approximate date to organic remnants\" · 原文说碳定年给出的是\"approximate date\"（大致日期），题目说\"exact year\"（确切年份），与原文矛盾。"
+            },
+            {
+              "number": 3,
+              "text": "Mythology influenced how rulers in ancient civilisations legitimised their authority.",
+              "answer": "TRUE",
+              "explanation": "段落 C: \"sovereign rulers justified their power through divine narratives\" 以及 \"Mythology shaped the worldview of these societies\" · 题目说神话影响了统治者的权力合法化，与原文一致。"
+            },
+            {
+              "number": 4,
+              "text": "Museum curators always remove the patina from bronze artefacts during restoration.",
+              "answer": "FALSE",
+              "explanation": "段落 D: \"The green surface known as patina...is itself considered part of an artefact's identity and is carefully maintained\" · 原文说 patina 被视为文物身份的一部分并被小心维护，题目说策展人总是去除 patina，与原文矛盾。"
+            },
+            {
+              "number": 5,
+              "text": "Constructing a historical narrative from incomplete data requires forming a testable hypothesis.",
+              "answer": "TRUE",
+              "explanation": "段落 E: \"Constructing a coherent narrative from fragmentary data requires a clear hypothesis, which is then tested through further fieldwork\" · 题目用 \"incomplete data\" 替换 \"fragmentary data\"，用 \"testable hypothesis\" 对应 \"hypothesis...then tested\"，信息一致。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "headings",
+          "title": "Questions 6-9: Matching Headings",
+          "instruction": "Choose the correct heading for each paragraph from the list below.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph A",
+              "answer": "i",
+              "explanation": "段落 A 描述了考古发掘的田野方法：选址、铺设 grid、逐层挖掘、清理 sediment 和 debris、使用 probe 探测等。"
+            },
+            {
+              "number": 7,
+              "text": "Paragraph B",
+              "answer": "iv",
+              "explanation": "段落 B 讨论了 carbon dating 定年技术以及如何 authenticate artifact、区分 relic 和 forgery。"
+            },
+            {
+              "number": 8,
+              "text": "Paragraph D",
+              "answer": "v",
+              "explanation": "段落 D 讨论了保护文化遗产免受环境损害：deterioration、corrosion、humidity 控制、conservation 等。"
+            },
+            {
+              "number": 9,
+              "text": "Paragraph E",
+              "answer": "ii",
+              "explanation": "段落 E 讨论了客观历史诠释的挑战：evidence 的权衡、bias 的识别、propaganda 的辨别、保持 objective 等。"
+            }
+          ],
+          "headings": [
+            {
+              "key": "i",
+              "text": "Fieldwork methods and the recovery of buried objects"
+            },
+            {
+              "key": "ii",
+              "text": "Challenges of objective historical interpretation"
+            },
+            {
+              "key": "iii",
+              "text": "The role of mythology in contemporary religion"
+            },
+            {
+              "key": "iv",
+              "text": "Dating techniques and the verification of artefacts"
+            },
+            {
+              "key": "v",
+              "text": "Protecting cultural treasures from environmental damage"
+            },
+            {
+              "key": "vi",
+              "text": "The material culture of ancient empires"
+            }
+          ]
+        }
+      ],
+      "questionCount": 9
+    }
   },
   {
     "slug": "25-language-and-communication",
@@ -9692,7 +18474,188 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/25-language-and-communication/generated-with-text/25-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "The Hidden Architecture of Human Communication",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The study of **linguistics** has long revealed that human communication extends far beyond the mere exchange of words. Researchers in **cognitive** science have demonstrated that even before infants utter their first word in their **mother tongue**, they are already absorbing the **intonation** patterns and rhythmic structures of the language spoken around them. This early **acquisition** process appears to be driven by **innate** neurological mechanisms that allow the brain to **discern** and categorise speech sounds with remarkable precision. Such findings have fundamentally reshaped our understanding of how **proficiency** in a first language develops."
+        },
+        {
+          "label": "B",
+          "text": "As children mature, their growing **vocabulary** enables them to **articulate** increasingly complex ideas. However, the path from basic **comprehension** to genuine **fluency** is rarely straightforward. Studies of **bilingual** children, for instance, show that those raised in **immersion** environments — where two languages are used interchangeably in daily life — tend to **retain** grammatical structures more effectively than those who receive formal instruction alone. The **dialect** a child acquires often reflects the community's unique **pronunciation** patterns and **grammar** rules, embedding cultural identity within speech itself."
+        },
+        {
+          "label": "C",
+          "text": "In adulthood, the dynamics of communication shift toward the interpersonal realm, where the ability to **convey** meaning accurately becomes paramount. A speaker who is **eloquent** and **tactful** can build strong **rapport** with listeners, whereas someone who is excessively **blunt** may inadvertently cause offence. The capacity for **empathy** — the skill of understanding another person's emotional state — is frequently cited as the single most important factor in effective **dialogue**. Research published in the Journal of Applied Psychology found that professionals who demonstrated **sincere** interest during conversations received significantly more constructive **feedback** from colleagues."
+        },
+        {
+          "label": "D",
+          "text": "Effective communicators also recognise the value of nonverbal channels. A simple **nod** can **signal** agreement, while a **frown** may reveal unspoken disapproval. **Facial expression**, **gesture**, and **posture** collectively form what scholars term the \"body language lexicon.\" The ability to **perceive** these **subtle** **cue**s and to **discern** their meaning is not equally distributed across cultures. In some societies, maintaining steady **eye contact** during conversation is a mark of respect and **authentic** engagement; in others, it may be perceived as confrontational."
+        },
+        {
+          "label": "E",
+          "text": "Public speaking represents perhaps the most demanding form of communication. Standing behind a **podium**, even experienced orators may **hesitate** or **stammer** when confronted with a large **audience**. Effective speakers learn to **rehearse** thoroughly yet remain flexible enough to **improvise** when circumstances change. The use of **rhetoric** — including strategic **anecdote**s and carefully timed pauses to **emphasize** key points — can transform an ordinary presentation into a **compelling** and **persuasive** performance. A **coherent** structure ensures that the message remains **concise** rather than **redundant**, while personal **testimony** lends credibility to the speaker's argument. When these elements combine, a **monologue** can **captivate** an entire auditorium."
+        },
+        {
+          "label": "F",
+          "text": "At the global level, **diversity** in language presents both opportunities and challenges. The field of **etymology** traces how words migrate across borders, revealing **universal** patterns of borrowing and adaptation. Yet many **indigenous** languages are now classified as **endangered**, and some have already become **extinct**. Efforts to **preserve** these **vernacular** traditions have gained momentum, with linguists developing digital archives that capture the **nuance** of each language's **colloquial** expressions and **idiom**s. Finding an **equivalent** term during translation is rarely a matter of simple **literal** substitution; an **interpreter** must navigate differences in **syntax** and cultural context to **translate** meaning faithfully."
+        },
+        {
+          "label": "G",
+          "text": "What emerges from this overview is that communication is a multi-layered phenomenon. Whether one is learning to **paraphrase** a colleague's **ambiguous** statement, choosing to be **assertive** rather than **discreet** in a negotiation, or trying not to **interrupt** or **misinterpret** a friend's intentions, the ability to **elaborate** on ideas with clarity and sensitivity remains a **cognitive** skill that demands lifelong cultivation. The interplay between spoken words, **demeanor**, physical **proximity**, and **mimicry** — the unconscious copying of another person's body language — reveals just how deeply embedded communication is in human nature. Mastering its many dimensions, including **gaze** control and tonal variation, is a pursuit as intellectually rich as any academic discipline."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Babies begin to recognise the rhythmic patterns of their native language before they can speak.",
+              "answer": "TRUE",
+              "explanation": "段落A: \"even before infants utter their first word in their mother tongue, they are already absorbing the intonation patterns and rhythmic structures\" · 题目说\"babies begin to recognise rhythmic patterns before they can speak\"，与原文\"before infants utter their first word\"一致，同义替换 recognise ≈ absorbing。"
+            },
+            {
+              "number": 2,
+              "text": "Children who learn two languages through daily exposure remember grammatical rules less effectively than those who study in a classroom setting.",
+              "answer": "FALSE",
+              "explanation": "段落B: \"those raised in immersion environments...tend to retain grammatical structures more effectively than those who receive formal instruction alone\" · 题目说双语日常接触的孩子记忆语法\"less effectively\"，原文恰好相反，是\"more effectively\"。注意同义替换：daily exposure ≈ immersion environments, classroom setting ≈ formal instruction。"
+            },
+            {
+              "number": 3,
+              "text": "The Journal of Applied Psychology study found that displaying genuine interest in conversations led to more positive responses from work colleagues.",
+              "answer": "TRUE",
+              "explanation": "段落C: \"professionals who demonstrated sincere interest during conversations received significantly more constructive feedback from colleagues\" · 题目 \"displaying genuine interest\" = sincere interest，\"more positive responses\" = \"more constructive feedback\"，\"work colleagues\" = colleagues。信息一致。"
+            },
+            {
+              "number": 4,
+              "text": "Maintaining direct eye contact is universally regarded as a sign of respectful engagement across all cultures.",
+              "answer": "FALSE",
+              "explanation": "段落D: \"In some societies, maintaining steady eye contact...is a mark of respect...in others, it may be perceived as confrontational\" · 题目说\"universally regarded as respectful\"，但原文明确指出不同文化有不同理解，有些文化认为是对抗性的。"
+            },
+            {
+              "number": 5,
+              "text": "Digital technology is being used to record endangered languages before they disappear entirely.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落F: 提到\"linguists developing digital archives that capture the nuance of each language's colloquial expressions and idioms\" · 原文提到了数字档案来记录语言细微差别，但并未具体说是\"before they disappear entirely\"这个时间限定。原文说的是保存传统（preserve these vernacular traditions），但是否在灭绝前完成并无明确信息。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "mcq",
+          "title": "Questions 6-9: Multiple Choice",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "According to Paragraph A, the early language acquisition process in infants is primarily driven by",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "formal educational instruction"
+                },
+                {
+                  "key": "B",
+                  "text": "innate neurological mechanisms"
+                },
+                {
+                  "key": "C",
+                  "text": "exposure to written texts"
+                },
+                {
+                  "key": "D",
+                  "text": "parental correction of errors"
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落A明确指出：\"This early acquisition process appears to be driven by innate neurological mechanisms\"，即天生的神经机制。A（正式教育）、C（书面文本）、D（父母纠错）均未提及。"
+            },
+            {
+              "number": 7,
+              "text": "The author mentions \"empathy\" in Paragraph C mainly to illustrate",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the difference between candid and blunt communication styles"
+                },
+                {
+                  "key": "B",
+                  "text": "why feedback is often negative in professional settings"
+                },
+                {
+                  "key": "C",
+                  "text": "its importance as a factor in successful interpersonal dialogue"
+                },
+                {
+                  "key": "D",
+                  "text": "the relationship between sincerity and emotional intelligence"
+                }
+              ],
+              "answer": "C",
+              "explanation": "段落C中empathy被描述为\"the single most important factor in effective dialogue\"，作者提及它是为了说明其在人际对话中的重要性。A讨论的是沟通风格区别而非empathy的作用，B与原文相反（feedback是constructive的），D过度推断。"
+            },
+            {
+              "number": 8,
+              "text": "In Paragraph E, what does the author suggest about effective public speaking?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "It requires complete memorisation of the speech content."
+                },
+                {
+                  "key": "B",
+                  "text": "It combines thorough preparation with the ability to adapt spontaneously."
+                },
+                {
+                  "key": "C",
+                  "text": "It depends primarily on the speaker's natural talent rather than practice."
+                },
+                {
+                  "key": "D",
+                  "text": "It is most effective when the speaker avoids personal stories."
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落E提到\"learn to rehearse thoroughly yet remain flexible enough to improvise when circumstances change\"，即充分准备+随机应变。A（完全背诵）过于极端，C（天赋而非练习）与rehearse矛盾，D与使用anecdotes矛盾。"
+            },
+            {
+              "number": 9,
+              "text": "Which of the following best describes the author's view of translation in Paragraph F?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "It is a mechanical process of word-for-word replacement."
+                },
+                {
+                  "key": "B",
+                  "text": "It has become easier thanks to universal grammatical patterns."
+                },
+                {
+                  "key": "C",
+                  "text": "It requires navigating cultural and structural differences between languages."
+                },
+                {
+                  "key": "D",
+                  "text": "It is only necessary for endangered indigenous languages."
+                }
+              ],
+              "answer": "C",
+              "explanation": "段落F指出\"an interpreter must navigate differences in syntax and cultural context to translate meaning faithfully\"，即翻译需要跨越文化与结构差异。A（逐字替换）被明确否定（\"rarely a matter of simple literal substitution\"），B和D都不准确。"
+            }
+          ]
+        }
+      ],
+      "questionCount": 9
+    }
   },
   {
     "slug": "26-tourism-and-leisure",
@@ -10245,7 +19208,146 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/26-tourism-and-leisure/generated-with-text/26-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "The Double-Edged Sword of Modern Tourism",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "For centuries, the desire to **explore** unfamiliar lands has been a defining feature of human culture. Today, that same **wanderlust** drives millions of travellers to **embark** on journeys each year, seeking everything from **exotic** street food to the **serenity** of a **secluded** beach. The modern tourism industry generates enormous **revenue** for host nations, yet the rapid **proliferate**ion of visitor numbers has raised urgent questions about whether current travel patterns are truly **sustainable**."
+        },
+        {
+          "label": "B",
+          "text": "The appeal of many **destination**s lies in their natural beauty. **Picturesque** villages nestled along a rugged **coastline**, **breathtaking** mountain passes offering **panoramic** views, and **pristine** **wilderness** areas untouched by development all draw visitors from around the world. In **remote** regions, a single **scenic** trail through **idyllic** countryside can become a community's primary source of income. Yet as **footfall** increases, the very landscapes that attract tourists begin to show signs of wear. Trails erode, wildlife retreats, and once-**unspoiled** environments gradually **degrade**."
+        },
+        {
+          "label": "C",
+          "text": "The phenomenon of **overtourism** illustrates this tension most starkly. In popular **metropolis** centres and at celebrated **heritage** sites, **congestion** has become a daily reality. Long queues form around every major **landmark**, and the sheer volume of visitors can overwhelm local **infrastructure** — from transport networks to waste-management systems. Small businesses that once sold **authentic** local crafts have been replaced by chains that **commodify** cultural traditions, turning living customs into mass-produced **souvenir**s. The resulting **gentrification** displaces long-term residents, eroding the very **authenticity** that drew travellers in the first place."
+        },
+        {
+          "label": "D",
+          "text": "The economic picture is equally complex. Tourism undeniably supports local **livelihood**s: **guide**s, accommodation providers, and restaurant owners all benefit from visitor spending. However, an excessive **dependency** on **seasonal** tourist flows leaves communities vulnerable when circumstances change — as demonstrated by the collapse in travel during recent global disruptions. Some economists advocate stricter **regulation** to manage visitor numbers and distribute economic gains more evenly across the calendar year."
+        },
+        {
+          "label": "E",
+          "text": "For the individual traveller, the experience itself varies enormously. The **adventurous** **backpacking** enthusiast may **venture** off the beaten track with nothing more than an **itinerary** scribbled on a napkin, making **spontaneous** decisions about where to **wander** next. By contrast, a family on a package **excursion** may prefer the structured comfort of an all-inclusive **resort**, with every **sightseeing** stop pre-arranged. Between these extremes lies a growing segment of travellers who seek to **immerse** themselves in local life — staying in a **homestay**, learning the **etiquette** and **custom**s of their hosts, and savouring **captivating** cultural encounters that no **guide**book can replicate."
+        },
+        {
+          "label": "F",
+          "text": "Meanwhile, the leisure dimension of travel has evolved into a distinct sub-industry. Wellness **retreat**s in **tranquil** mountain settings promise to **rejuvenate** body and mind, while seaside spas offer guests the chance to **unwind** in a **hammock** and **indulge** in **pampered** treatments. Such experiences, once reserved for the wealthy, are increasingly **accessible** to a broader market, reflecting a wider cultural shift toward prioritising **wellbeing** and mental health. Whether the motivation is **escapism**, simple **relaxation**, or the pursuit of **downtime** in a **laid-back** environment, the message is clear: modern consumers view **leisure** time and **recreational** activities not as luxuries but as essential components of a **blissful** and balanced life."
+        },
+        {
+          "label": "G",
+          "text": "Looking ahead, the challenge for the tourism sector is to reconcile these competing demands. The **terrain** varies — literally and figuratively — from one **destination** to the next, and **cross-cultural** understanding remains essential for building a travel industry that respects **diverse** traditions. Ultimately, the goal is to **broaden** travellers' horizons while ensuring that the places they visit are not **exploit**ed beyond repair. If managed wisely, tourism can continue to **revitalize** local economies and **broaden** global **perspective**s without sacrificing the environmental and cultural treasures that make travel worthwhile."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "The rapid growth in tourist numbers has led to concerns about the long-term viability of current travel patterns.",
+              "answer": "TRUE",
+              "explanation": "段落A: \"the rapid proliferation of visitor numbers has raised urgent questions about whether current travel patterns are truly sustainable\" · 题目 \"long-term viability\" ≈ \"truly sustainable\"，\"rapid growth in tourist numbers\" ≈ \"rapid proliferation of visitor numbers\"。信息一致。"
+            },
+            {
+              "number": 2,
+              "text": "In remote areas, scenic walking routes never serve as a significant source of local income.",
+              "answer": "FALSE",
+              "explanation": "段落B: \"a single scenic trail through idyllic countryside can become a community's primary source of income\" · 题目说\"never serve as a significant source of income\"，原文说可以成为\"primary source of income\"，直接矛盾。注意绝对词 never 是关键信号。"
+            },
+            {
+              "number": 3,
+              "text": "The replacement of independent local shops by chain stores has strengthened the cultural identity of tourist destinations.",
+              "answer": "FALSE",
+              "explanation": "段落C: \"Small businesses...have been replaced by chains that commodify cultural traditions...The resulting gentrification displaces long-term residents, eroding the very authenticity\" · 题目说\"strengthened the cultural identity\"，原文说\"eroding authenticity\"（侵蚀真实性），完全相反。同义替换：cultural identity ≈ authenticity。"
+            },
+            {
+              "number": 4,
+              "text": "Some economists have recommended introducing tighter controls on visitor numbers at popular sites.",
+              "answer": "TRUE",
+              "explanation": "段落D: \"Some economists advocate stricter regulation to manage visitor numbers\" · 题目 \"tighter controls\" ≈ \"stricter regulation\"，\"recommended introducing\" ≈ \"advocate\"。信息一致。"
+            },
+            {
+              "number": 5,
+              "text": "Package holiday travellers typically spend more money per day than backpackers.",
+              "answer": "NOT GIVEN",
+              "explanation": "全文 · 原文描述了背包客和跟团游客的不同旅行方式，但从未比较两者的每日消费金额。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "headings",
+          "title": "Questions 6-9: Matching Headings",
+          "instruction": "Choose the correct heading for each paragraph from the list below.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph B",
+              "answer": "ii",
+              "explanation": "段落B讨论了自然美景吸引游客（picturesque, breathtaking, panoramic），但随着客流增加，环境开始退化（degrade）。\"Natural beauty and the cost of popularity\"完美概括。"
+            },
+            {
+              "number": 7,
+              "text": "Paragraph C",
+              "answer": "v",
+              "explanation": "段落C集中讨论overtourism导致地标拥挤（congestion at landmarks）和本地特色丧失（commodify traditions, gentrification erodes authenticity）。"
+            },
+            {
+              "number": 8,
+              "text": "Paragraph E",
+              "answer": "vii",
+              "explanation": "段落E描述了从冒险型背包客到跟团家庭再到沉浸式体验者的多种旅行风格，核心词是authentic和immerse。"
+            },
+            {
+              "number": 9,
+              "text": "Paragraph F",
+              "answer": "vi",
+              "explanation": "段落F专门讨论wellness retreat、rejuvenate、unwind等休闲养生旅行的兴起，以及消费者态度转向重视wellbeing。"
+            }
+          ],
+          "headings": [
+            {
+              "key": "i",
+              "text": "The fragile economics of tourism-dependent communities"
+            },
+            {
+              "key": "ii",
+              "text": "Natural beauty and the cost of popularity"
+            },
+            {
+              "key": "iii",
+              "text": "A historical impulse meets modern-scale consequences"
+            },
+            {
+              "key": "iv",
+              "text": "Reconciling growth with preservation"
+            },
+            {
+              "key": "v",
+              "text": "Crowded landmarks and the loss of local character"
+            },
+            {
+              "key": "vi",
+              "text": "The rise of wellness travel and changing consumer attitudes"
+            },
+            {
+              "key": "vii",
+              "text": "Diverse travel styles and the search for authenticity"
+            }
+          ]
+        }
+      ],
+      "questionCount": 9
+    }
   },
   {
     "slug": "27-energy-and-resources",
@@ -10798,7 +19900,188 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/27-energy-and-resources/generated-with-text/27-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "Powering the Future — The Global Energy Transition",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The modern world runs on energy, yet the sources that have powered industrial growth for over a century are now recognised as **finite**. The **extraction** of **crude** oil through offshore **drilling** and the **mining** of coal from deep underground **deposit**s have fuelled economic expansion, but at a steep environmental cost. The **combustion** of these **non-renewable** fuels in power stations and **refinery** complexes produces **emission**s that warm the atmosphere, while **hazardous** **byproduct**s contaminate soil and waterways. In some coal-producing regions, decades of **excavate**ion have triggered **subsidence**, causing roads and buildings to crack and sink. As global **reserve**s of fossil fuels **dwindle**, governments face the inescapable reality that **carbon-intensive** energy systems must be reformed."
+        },
+        {
+          "label": "B",
+          "text": "The **transition** to cleaner alternatives is already under way. **Solar** panels — specifically **photovoltaic** cells that convert sunlight directly into electricity — now cover rooftops across six continents. Onshore and offshore **wind farm**s, each equipped with towering **turbine**s, **generate** power that feeds into national **grid** networks. In mountainous nations, **hydropower** remains a reliable workhorse, while **geothermal** plants tap heat from deep within the Earth's crust. Even **biomass** — organic material such as wood chips and agricultural waste — contributes to the **renewable** energy mix. All of these sources are classified as **clean** and **eco-friendly** because they produce little or no greenhouse gas during operation."
+        },
+        {
+          "label": "C",
+          "text": "However, the shift from fossil fuels to renewables is not without obstacles. Many **renewable** technologies suffer from **intermittent** output: solar panels produce nothing at night, and **wind farm** blades stand still on calm days. Matching supply with demand requires substantial investment in energy storage and smart **grid** management. Moreover, the current **capacity** of renewable installations in most countries remains insufficient to replace fossil fuels entirely. Engineers are working to improve the **efficient** conversion of natural forces into usable electricity, but scaling up production to meet global needs will take decades."
+        },
+        {
+          "label": "D",
+          "text": "Governments play a decisive role in shaping the pace of this transformation. **Legislation** that imposes a **carbon tax** on heavy polluters creates a financial **incentive** for industries to **decarbonize**. Direct **subsidy** programmes and feed-in **tariff** schemes lower the cost of **renewable** installations for **household**s and businesses alike. Setting binding **target**s for emissions reduction — and enforcing them through **regulation** and legal **mandate**s — sends a clear market signal. The challenge lies in ensuring that these policies are both **feasible** and **viable** in the short term, so that nations can **implement** reforms without destabilising their economies. Where political will exists, progress can **accelerate** rapidly: several European countries have already committed to **phase out** coal-fired power by 2030, redirecting **investment** toward green **infrastructure**."
+        },
+        {
+          "label": "E",
+          "text": "Beyond energy production, the question of resource management demands equal attention. Many of the **mineral**s essential to modern technology — lithium for batteries, cobalt for electronics — are concentrated in a handful of **resource-rich** nations. This geographic imbalance has created **strategic** tensions, as **import-dependent** countries scramble to secure supply chains. Some governments have responded by building national **stockpile**s, while others pursue **self-sufficient** domestic production through expanded **mining** operations. Critics warn, however, that accelerating **extraction** without adequate safeguards risks replicating the environmental damage associated with fossil fuels."
+        },
+        {
+          "label": "F",
+          "text": "At the consumption end of the chain, individual behaviour matters enormously. **Household** energy **consumption** accounts for roughly a quarter of global carbon **footprint** calculations. Simple measures — improving **insulation**, upgrading old **appliance**s, and programming a **thermostat** to reduce heating during unoccupied hours — can **curb** **wasteful** energy use significantly. For those seeking greater independence, **off-grid** living powered by rooftop solar offers a way to **offset** personal emissions entirely. Energy-management apps allow residents to **monitor** real-time usage and **optimize** their habits accordingly, while **prudent** budgeting ensures that efficiency improvements pay for themselves over time. The **retrofit** of older buildings with modern insulation and double glazing represents one of the most cost-effective strategies available to **minimize** national energy demand."
+        },
+        {
+          "label": "G",
+          "text": "Ultimately, the energy **transition** is as much a question of fairness as it is of technology. The **depletion** of **exhaustible** resources raises profound issues of **equitable** access: how should the remaining reserves be **allocate**d among nations at different stages of development? Left unchecked, **overconsumption** by wealthy societies could **deplete** resources that poorer nations need for basic industrialisation, prompting some communities to **hoard** supplies rather than cooperate. Managing **scarcity** through transparent **ration**ing and international agreements will be essential if the world is to build an energy future that is both **sustainable** and just."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "The burning of fossil fuels in power plants and refineries releases substances that contribute to global warming.",
+              "answer": "TRUE",
+              "explanation": "段落A: \"The combustion of these non-renewable fuels in power stations and refinery complexes produces emissions that warm the atmosphere\" · 题目 \"burning\" ≈ \"combustion\"，\"releases substances that contribute to global warming\" ≈ \"produces emissions that warm the atmosphere\"。信息一致。"
+            },
+            {
+              "number": 2,
+              "text": "Geothermal energy is currently the most widely adopted form of renewable energy worldwide.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落B: 提到 geothermal 是 renewable 能源之一 · 原文列举了多种可再生能源（solar, wind, hydropower, geothermal, biomass），但并未比较哪种最广泛采用。hydropower 被称为\"reliable workhorse\"，但也未说是最广泛的。"
+            },
+            {
+              "number": 3,
+              "text": "Solar panels and wind turbines can both experience periods when they produce no electricity at all.",
+              "answer": "TRUE",
+              "explanation": "段落C: \"solar panels produce nothing at night, and wind farm blades stand still on calm days\" · 题目说两者都有产电量为零的时段，原文明确说太阳能板夜间不产电、风力涡轮无风时停转。"
+            },
+            {
+              "number": 4,
+              "text": "Several European nations have already pledged to eliminate coal-generated power before the end of this decade.",
+              "answer": "TRUE",
+              "explanation": "段落D: \"several European countries have already committed to phase out coal-fired power by 2030\" · \"pledged to eliminate\" ≈ \"committed to phase out\"，\"before the end of this decade\" ≈ \"by 2030\"。信息一致。"
+            },
+            {
+              "number": 5,
+              "text": "Energy-management applications have been shown to reduce household electricity bills by more than fifty per cent.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落F: 提到 energy-management apps 可以 monitor 和 optimize 用电习惯 · 原文说这些应用帮助居民监测和优化用电，但并未给出具体的节省百分比数据。\"more than fifty per cent\"完全无据。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "mcq",
+          "title": "Questions 6-9: Multiple Choice",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "What does the author identify as a consequence of prolonged coal mining in Paragraph A?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Increased flooding in coastal areas"
+                },
+                {
+                  "key": "B",
+                  "text": "Structural damage to surface infrastructure caused by ground sinking"
+                },
+                {
+                  "key": "C",
+                  "text": "A sharp rise in unemployment among mining communities"
+                },
+                {
+                  "key": "D",
+                  "text": "Contamination of drinking water by crude oil"
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落A指出\"decades of excavation have triggered subsidence, causing roads and buildings to crack and sink\"。subsidence（地面沉降）导致道路和建筑开裂下沉，即\"structural damage to surface infrastructure caused by ground sinking\"。A（洪水）、C（失业）、D（原油污染饮用水）均未在该段提及。"
+            },
+            {
+              "number": 7,
+              "text": "According to Paragraph C, the main technical challenge facing renewable energy is that",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "renewable installations are too expensive for most governments to fund"
+                },
+                {
+                  "key": "B",
+                  "text": "output from sources like solar and wind is not constant"
+                },
+                {
+                  "key": "C",
+                  "text": "national grid networks cannot physically carry renewable electricity"
+                },
+                {
+                  "key": "D",
+                  "text": "biomass produces more greenhouse gas than fossil fuels"
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落C明确讨论了intermittent（间歇性）问题：\"solar panels produce nothing at night, and wind farm blades stand still on calm days\"，即产出不恒定。A（太贵）不是主要技术挑战，C（电网无法承载）未提及，D（biomass温室气体更多）与原文矛盾。"
+            },
+            {
+              "number": 8,
+              "text": "In Paragraph D, the author suggests that government policies should be",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "ambitious but economically realistic in the near term"
+                },
+                {
+                  "key": "B",
+                  "text": "focused exclusively on subsidising household solar panels"
+                },
+                {
+                  "key": "C",
+                  "text": "delayed until renewable technology becomes more efficient"
+                },
+                {
+                  "key": "D",
+                  "text": "designed primarily to protect fossil-fuel industry jobs"
+                }
+              ],
+              "answer": "A",
+              "explanation": "段落D指出\"The challenge lies in ensuring that these policies are both feasible and viable in the short term, so that nations can implement reforms without destabilising their economies\"，即政策应雄心勃勃但短期内经济上可行。B过于狭隘，C与accelerate矛盾，D未提及。"
+            },
+            {
+              "number": 9,
+              "text": "The author mentions lithium and cobalt in Paragraph E primarily to illustrate",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the environmental damage caused by battery manufacturing"
+                },
+                {
+                  "key": "B",
+                  "text": "the geographic concentration of critical mineral resources"
+                },
+                {
+                  "key": "C",
+                  "text": "the superiority of European mining technology"
+                },
+                {
+                  "key": "D",
+                  "text": "the declining global demand for electronic devices"
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落E提到锂和钴\"are concentrated in a handful of resource-rich nations\"，引出geographic imbalance和import-dependent国家的困境。作者用这两种矿物来说明关键矿产的地理集中问题。"
+            }
+          ]
+        }
+      ],
+      "questionCount": 9
+    }
   },
   {
     "slug": "28-ocean-and-water",
@@ -11351,7 +20634,146 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/28-ocean-and-water/generated-with-text/28-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "Between Depths and Droughts — The Crisis in Our Waters",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The world's oceans cover more than seventy per cent of the planet's surface, yet much of this **vast** expanse remains poorly understood. Along every **coastline**, the rhythmic rise and fall of the **tide** shapes the **shoreline**, depositing **sediment** in sheltered bays and driving **erosion** along exposed **cliff** faces. Beneath the surface, powerful ocean **current**s carry nutrients across thousands of kilometres, sustaining **ecosystem**s of extraordinary complexity. In the deepest reaches, **trench**es plunge to abyssal **depth**s where sunlight never penetrates, creating environments so extreme that scientists have compared them to conditions on other planets. The sheer scale of these underwater landscapes — from shallow **reef**s teeming with life to the silent **abyss** below — underscores how little humanity has explored of its own world."
+        },
+        {
+          "label": "B",
+          "text": "Marine **biodiversity** depends on a delicate balance of conditions. **Coral** formations provide **habitat** for roughly a quarter of all ocean **species**, yet rising water temperatures have triggered widespread **bleaching** events that leave these structures white and lifeless. **Plankton**, the microscopic organisms that form the base of the marine food chain, **proliferate** in nutrient-rich waters but decline sharply when chemical pollutants disrupt their growth cycles. Larger creatures — from **migratory** whales that travel entire ocean basins to apex **predator**s such as great white sharks — rely on **symbiotic** relationships and seasonal **spawn**ing patterns that have evolved over millions of years. When any link in this chain is broken, the consequences can cascade through the entire **ecosystem**, pushing **fragile** populations toward **endangered** status and, ultimately, **extinction**."
+        },
+        {
+          "label": "C",
+          "text": "Human activity has intensified these pressures dramatically. Millions of tonnes of **plastic** **debris** enter the ocean each year, where **toxic** **pollutant**s **accumulate** in the tissues of fish and seabirds. Catastrophic **oil spill**s smother marine life and can take decades to clean up. Meanwhile, the absorption of excess carbon dioxide has accelerated ocean **acidification**, weakening the calcium-carbonate shells on which many organisms depend. **Overfishing** compounds the problem: without enforceable **quota**s and robust **legislation**, commercial fleets strip entire regions of their fish stocks, leaving local communities without a primary food source. Establishing **marine reserve**s — protected zones where extraction is prohibited — represents one of the most effective strategies to **restore** **degrade**d habitats. However, **regulate**-ing vast stretches of open ocean remains a formidable enforcement challenge, and **hazardous** waste continues to wash ashore even in designated conservation areas. The need to **mitigate** these threats through coordinated international action has never been more pressing."
+        },
+        {
+          "label": "D",
+          "text": "While the ocean crisis commands headlines, a quieter emergency is unfolding on land. Freshwater — the resource upon which all terrestrial life depends — is becoming increasingly scarce. Prolonged **drought** has drained **reservoir**s across southern Europe, sub-Saharan Africa, and parts of South Asia, exposing cracked lake beds where water once stood metres deep. Underground **aquifer**s that supply **groundwater** to farms and cities are being **deplete**d far faster than rainfall can replenish them. In **arid** regions, the competition for **dwindling** supplies has already sparked tensions between agricultural and urban users. **Irrigation** systems that once transformed deserts into farmland now draw from reserves that may run dry within a generation."
+        },
+        {
+          "label": "E",
+          "text": "Technological solutions offer partial relief. **Desalination** plants along the coasts of the Middle East and Australia convert seawater into **potable** drinking water, although the process is energy-intensive and produces concentrated brine that can **contaminate** nearby marine environments. Inland, advanced **filtration** and **treatment** technologies enable cities to **recycle** wastewater for industrial and even domestic use, reducing pressure on freshwater sources. The **infrastructure** required — **pipeline** networks, pumping stations, and **utility** management centres — demands substantial **investment**, yet the cost of inaction is far greater."
+        },
+        {
+          "label": "F",
+          "text": "At the governance level, experts emphasise that water management must be both **efficient** and **equitable**. In many developing nations, ageing **infrastructure** suffers from chronic **leakage**, meaning that up to forty per cent of treated water never reaches the **household**s it was intended to serve. Setting appropriate water **tariff**s can discourage **wasteful** **consumption**, while government programmes that **subsidize** efficient appliances help lower-income families **conserve** resources without bearing disproportionate costs. Smart meters that **monitor** usage in real time allow authorities to identify leaks promptly, **allocate** supplies where they are most needed, and **prioritize** investment in the most vulnerable communities. Ensuring fair **distribution** through transparent **ration**ing frameworks will be essential as **scarcity** deepens."
+        },
+        {
+          "label": "G",
+          "text": "Protecting the world's waters — salt and fresh alike — is not merely an environmental aspiration; it is a prerequisite for human survival. Whether the challenge involves restoring a bleached **coral** reef, safeguarding a **vast** ocean trench from industrial **vessel** traffic, preserving the gentle **undulate**-ion of **buoyant** kelp forests against **turbulent** storm surges, or securing clean drinking water for the next generation through **sustainable** planning, the path forward demands both scientific ingenuity and political resolve."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Scientists have now explored the majority of the Earth's ocean floor in detail.",
+              "answer": "FALSE",
+              "explanation": "段落A: \"much of this vast expanse remains poorly understood\" 及 \"underscores how little humanity has explored of its own world\" · 题目说\"explored the majority\"，原文说\"much remains poorly understood\"和\"how little humanity has explored\"，直接矛盾。同义替换：explored in detail ≈ understood。"
+            },
+            {
+              "number": 2,
+              "text": "Coral reef structures support approximately twenty-five per cent of all marine species.",
+              "answer": "TRUE",
+              "explanation": "段落B: \"Coral formations provide habitat for roughly a quarter of all ocean species\" · 题目 \"approximately twenty-five per cent\" ≈ \"roughly a quarter\"，信息一致。注意同义替换：support ≈ provide habitat for。"
+            },
+            {
+              "number": 3,
+              "text": "The absorption of carbon dioxide by the oceans has weakened the shells of certain marine organisms.",
+              "answer": "TRUE",
+              "explanation": "段落C: \"the absorption of excess carbon dioxide has accelerated ocean acidification, weakening the calcium-carbonate shells on which many organisms depend\" · 题目 \"weakened the shells of certain marine organisms\" 与原文 \"weakening the calcium-carbonate shells\" 一致。"
+            },
+            {
+              "number": 4,
+              "text": "Desalination is an energy-efficient process that produces no harmful waste products.",
+              "answer": "FALSE",
+              "explanation": "段落E: \"the process is energy-intensive and produces concentrated brine that can contaminate nearby marine environments\" · 题目说\"energy-efficient...no harmful waste products\"，原文说\"energy-intensive\"且\"produces concentrated brine\"（浓缩盐水）会污染环境。两项都与题目矛盾。"
+            },
+            {
+              "number": 5,
+              "text": "In some developing countries, nearly half of all treated water is lost through leaking infrastructure before reaching consumers.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落F: \"up to forty per cent of treated water never reaches the households\" · 题目说\"nearly half\"（接近50%），原文说\"up to forty per cent\"（最多40%）。40%与50%不等同。题目的\"nearly half\"是一个不同的数值范围，原文没有支持这个更大的比例。严格来说，原文没有说过接近一半。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "headings",
+          "title": "Questions 6-9: Matching Headings",
+          "instruction": "Choose the correct heading for each paragraph from the list below.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph B",
+              "answer": "v",
+              "explanation": "段落B讨论了海洋生物多样性的相互依存关系：coral为species提供habitat，plankton是食物链基础，migratory和predator物种依赖symbiotic关系，任何环节断裂都会级联影响整个ecosystem。\"Interconnected marine life under threat\"准确概括。"
+            },
+            {
+              "number": 7,
+              "text": "Paragraph C",
+              "answer": "i",
+              "explanation": "段落C讨论了plastic debris、oil spill、acidification、overfishing等海洋污染问题，并提出建立marine reserve作为恢复degraded habitats的有效策略。\"Ocean pollution and the case for protected zones\"完美对应。"
+            },
+            {
+              "number": 8,
+              "text": "Paragraph D",
+              "answer": "vii",
+              "explanation": "段落D聚焦陆地淡水短缺：drought drains reservoirs，aquifer被deplete，arid地区水资源竞争加剧，irrigation系统面临枯竭。\"Land-based water scarcity and its causes\"准确概括。"
+            },
+            {
+              "number": 9,
+              "text": "Paragraph E",
+              "answer": "ii",
+              "explanation": "段落E介绍了应对淡水短缺的技术方案：desalination将海水转化为potable水，filtration和treatment技术使城市能recycle废水，以及所需的infrastructure投资。\"Engineering responses to freshwater shortages\"是精准匹配。"
+            }
+          ],
+          "headings": [
+            {
+              "key": "i",
+              "text": "Ocean pollution and the case for protected zones"
+            },
+            {
+              "key": "ii",
+              "text": "Engineering responses to freshwater shortages"
+            },
+            {
+              "key": "iii",
+              "text": "The unexplored scale of ocean geography"
+            },
+            {
+              "key": "iv",
+              "text": "Fair governance and smart water distribution"
+            },
+            {
+              "key": "v",
+              "text": "Interconnected marine life under threat"
+            },
+            {
+              "key": "vi",
+              "text": "A shared imperative for ocean and freshwater protection"
+            },
+            {
+              "key": "vii",
+              "text": "Land-based water scarcity and its causes"
+            }
+          ]
+        }
+      ],
+      "questionCount": 9
+    }
   },
   {
     "slug": "29-fashion-and-consumerism",
@@ -11934,7 +21356,150 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/29-fashion-and-consumerism/generated-with-text/29-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "The Hidden Cost of Fast Fashion",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The global fashion industry has undergone a dramatic transformation over the past three decades. Where clothing was once a considered purchase, modern **consumerism** has turned **garment** production into one of the world's most **labor-intensive** industries. Today, multinational corporations routinely **outsource** manufacturing to developing nations, where vast **assembly line** operations **churn out** millions of **mass-produced** items each week. The rise of fast fashion brands has created a culture in which clothing is viewed as essentially **disposable** — worn a handful of times and then discarded without a second thought."
+        },
+        {
+          "label": "B",
+          "text": "At the heart of this system lies a deeply problematic **supply chain**. To maintain razor-thin margins, manufacturers frequently **cut corners** on both materials and working conditions. Much of the world's affordable clothing is stitched together in **sweatshop** facilities, where vulnerable workers are routinely **exploit**ed through long hours and poverty wages. The **textile** industry relies heavily on cheap **synthetic** **fabric** and toxic **dye** to keep costs low, resulting in **shoddy** products that deteriorate after a few washes. Despite this, **overproduction** continues unabated: brands manufacture far more stock than consumers will ever purchase, with unsold inventory frequently sent to **landfill** or incinerated."
+        },
+        {
+          "label": "C",
+          "text": "The psychological drivers behind modern shopping habits are equally concerning. **Impulse buying**, fuelled by constant exposure to **advertisement**s and social-media **influencer** culture, has become the norm among younger demographics. Retailers deploy **persuasive** marketing **campaign**s, often relying on **subliminal** messaging and **gimmick**s designed to **entice** shoppers into spending beyond their means. The pursuit of instant **gratification** through **retail therapy** encourages consumers to **indulge** in purchases they neither need nor can afford, frequently leading to significant personal **debt**. Many people **overspend** and **splurge** on items driven not by necessity but by the desire for **status symbol**s that signal wealth and taste."
+        },
+        {
+          "label": "D",
+          "text": "The concept of **brand loyalty** further entrenches these consumption patterns. **Brand-conscious** shoppers, influenced by **peer pressure** and the desire for social acceptance, often pay substantial **markup**s on products whose **wholesale** cost is a fraction of the retail price. Over time, households **accumulate** vast quantities of unwanted possessions, creating **clutter** and, in extreme cases, a **hoarding** tendency that reflects deeper psychological distress. The **target audience** for most fast fashion brands — young consumers with limited **disposable income** but considerable **purchasing power** through credit — is particularly **vulnerable** to these tactics."
+        },
+        {
+          "label": "E",
+          "text": "However, a growing counter-movement is challenging the dominance of fast fashion. Advocates of **sustainable** fashion argue that the industry must transition toward a **circular economy** model, in which resources are reused rather than discarded. **Thrift store**s and **secondhand** clothing platforms have experienced a surge in popularity, as more consumers adopt **mindful** purchasing habits. The practice of **upcycle** — transforming old **garment**s into new products — has gained particular traction among younger, environmentally **eco-friendly** shoppers."
+        },
+        {
+          "label": "F",
+          "text": "Central to this shift is a demand for greater **transparency** in how clothing is produced. **Ethical** fashion labels now voluntarily disclose details about their manufacturing processes, enabling consumers to **scrutinize** supply chains and **discern** genuinely responsible brands from those engaged in superficial **endorsement** of sustainability. Products made from **biodegradable** materials that do not **contaminate** waterways are increasingly sought after, and the concept of the **capsule wardrobe** — a small collection of **durable**, **versatile** pieces — has become a powerful symbol of **minimalism** and intentional living."
+        },
+        {
+          "label": "G",
+          "text": "Critics note, however, that truly systemic change will require more than individual consumer choices. Without industry-wide reform and robust legislation to hold corporations accountable, the fashion sector's enormous **carbon footprint** will continue to grow. Some analysts argue that **planned obsolescence** — the deliberate design of products with a limited lifespan — must be addressed through regulation rather than left to **affluent** consumers who can afford premium alternatives. The fashion industry, they contend, must be compelled to stop **manipulate**-ing consumer behaviour through artificial scarcity and instead **commodify** responsibility itself. Only then can the industry **embody** the **authenticity** and lasting values that consumers increasingly claim to demand."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Modern fast fashion companies typically manufacture clothing in factories located within their own countries.",
+              "answer": "FALSE",
+              "explanation": "段落 A：\"multinational corporations routinely **outsource** manufacturing to developing nations\" · 题目说\"在本国工厂生产\"，原文明确说外包到发展中国家，信息矛盾。注意 \"within their own countries\" 与 \"outsource to developing nations\" 的反义替换。"
+            },
+            {
+              "number": 2,
+              "text": "Retailers often use psychological techniques, including hidden messaging, to encourage consumers to make purchases.",
+              "answer": "TRUE",
+              "explanation": "段落 C：\"relying on **subliminal** messaging and **gimmick**s designed to **entice** shoppers\" · \"psychological techniques\" 是对 subliminal messaging（潜意识信息）的同义替换；\"hidden messaging\" 对应 subliminal（潜意识的），信息一致。"
+            },
+            {
+              "number": 3,
+              "text": "Young consumers with access to credit are especially susceptible to aggressive marketing strategies employed by fast fashion brands.",
+              "answer": "TRUE",
+              "explanation": "段落 D：\"young consumers with limited **disposable income** but considerable **purchasing power** through credit — is particularly **vulnerable** to these tactics\" · \"susceptible\" 是 vulnerable（脆弱的/易受影响的）的同义替换；\"aggressive marketing strategies\" 对应 \"these tactics\"，信息一致。"
+            },
+            {
+              "number": 4,
+              "text": "The majority of secondhand clothing platforms are operated by major fast fashion corporations seeking to improve their public image.",
+              "answer": "NOT GIVEN",
+              "explanation": "全文 · 段落 E 提到二手平台越来越受欢迎，但文中没有提及这些平台是否由快时尚公司运营，属于无中生有信息。"
+            },
+            {
+              "number": 5,
+              "text": "Some analysts believe that government regulation is necessary to address the practice of deliberately designing products with short lifespans.",
+              "answer": "TRUE",
+              "explanation": "段落 G：\"**planned obsolescence** … must be addressed through regulation\" · \"government regulation\" 对应 \"regulation\"；\"deliberately designing products with short lifespans\" 是对 planned obsolescence（计划性淘汰）的解释性替换，信息一致。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "headings",
+          "title": "Questions 6-9: Matching Headings",
+          "instruction": "Choose the correct heading for each paragraph from the list of headings below.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph B",
+              "answer": "vi",
+              "explanation": "段落 B 讨论了供应链中的血汗工厂（sweatshop）剥削工人，以及使用廉价合成面料导致的过度生产和环境浪费（landfill），对应\"剥削性制造与环境浪费\"。"
+            },
+            {
+              "number": 7,
+              "text": "Paragraph D",
+              "answer": "iii",
+              "explanation": "段落 D 讨论品牌忠诚度（brand loyalty）如何使消费模式固化，消费者不断积累（accumulate）物品导致杂乱堆积（clutter）和囤积（hoarding），对应\"品牌依恋与物品积累\"。"
+            },
+            {
+              "number": 8,
+              "text": "Paragraph E",
+              "answer": "v",
+              "explanation": "段落 E 讨论可持续时尚运动的兴起，包括二手商店（thrift store）、升级再造（upcycle）和有意识消费（mindful），对应\"道德替代方案与自觉消费的兴起\"。"
+            },
+            {
+              "number": 9,
+              "text": "Paragraph F",
+              "answer": "viii",
+              "explanation": "段落 F 讨论企业透明度（transparency）、道德品牌披露生产过程，以及胶囊衣橱（capsule wardrobe）和极简主义（minimalism），对应\"企业透明度与极简主义运动\"。"
+            }
+          ],
+          "headings": [
+            {
+              "key": "i",
+              "text": "The environmental consequences of synthetic dyes"
+            },
+            {
+              "key": "ii",
+              "text": "Consumer psychology and the urge to spend"
+            },
+            {
+              "key": "iii",
+              "text": "Brand attachment and the accumulation of possessions"
+            },
+            {
+              "key": "iv",
+              "text": "The transformation of clothing into a throwaway commodity"
+            },
+            {
+              "key": "v",
+              "text": "The rise of ethical alternatives and conscious consumption"
+            },
+            {
+              "key": "vi",
+              "text": "Exploitative manufacturing and environmental waste"
+            },
+            {
+              "key": "vii",
+              "text": "The need for systemic industry reform"
+            },
+            {
+              "key": "viii",
+              "text": "Corporate transparency and the minimalist movement"
+            }
+          ]
+        }
+      ],
+      "questionCount": 9
+    }
   },
   {
     "slug": "30-social-issues",
@@ -12517,7 +22082,180 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/30-social-issues/generated-with-text/30-card-05-generated-text.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "Fractures in the Social Fabric",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "In many developed nations, the growing **wealth disparity** between the richest and poorest segments of society has become one of the most pressing concerns of the twenty-first century. Decades of **entrenched** structural inequality have left millions of **underprivileged** citizens trapped in cycles of **poverty** and **deprivation**, unable to access quality education, healthcare, or stable employment. For the most **destitute**, even basic **sustenance** remains uncertain. Government **welfare** programmes and targeted **subsidy** payments provide some relief, but critics argue that these measures fail to address the root causes of the widening **income gap**. Without meaningful efforts to **redistribute** wealth and **bridge the gap** between rich and poor, the **plight** of **marginalize**d communities is unlikely to improve, regardless of broader economic **prosperity**."
+        },
+        {
+          "label": "B",
+          "text": "Compounding these challenges is the rapid ageing of populations across much of the industrialised world. As medical advances extend human **longevity**, the proportion of elderly citizens continues to rise, fundamentally altering the **demographic** landscape. The resulting increase in the **dependency ratio** — the number of retirees relative to working-age adults — places enormous strain on public finances. **Pension** systems designed for an earlier era now struggle to remain viable, and the cost of maintaining a **sustainable pension system** grows with each passing year. Meanwhile, the declining **birth rate** has triggered a persistent **workforce shortage** in many sectors. For **frail** elderly citizens, the quality of care available in **nursing home**s and through individual **caregiver**s varies enormously, and the **isolation** experienced by those who live alone represents a significant public health concern. The **generational gap** between younger and older citizens, coupled with shifting attitudes toward **filial** responsibility, has sparked an urgent **intergenerational** debate about who should **burden** the cost of eldercare and how best to preserve the **dignity** of the ageing population."
+        },
+        {
+          "label": "C",
+          "text": "Alongside economic and **demographic** pressures, issues of **discrimination** and **prejudice** continue to shape social outcomes. **Systemic** **bias** embedded within institutions — from hiring practices to law enforcement — perpetuates **inequality** across lines of gender, ethnicity, and socioeconomic background. Women remain disproportionately affected by the **gender gap** in pay and promotion, with many encountering an invisible **glass ceiling** that limits advancement regardless of qualification. Efforts to **empower** **marginalized group**s through **affirmative action** policies have yielded mixed results: while such programmes aim to advance **equity**, opponents dismiss them as **tokenism** that fails to deliver genuine **diversity**. **Advocacy** organisations and **underrepresented** communities continue to push for more **inclusive** workplaces, while **racial profiling** in policing remains a flashpoint for broader discussions about justice and **solidarity**."
+        },
+        {
+          "label": "D",
+          "text": "The crisis of **homelessness** provides perhaps the starkest illustration of these converging failures. In major cities worldwide, the number of **rough sleeper**s has risen sharply, driven by a toxic combination of unaffordable rents, **eviction**s, and inadequate mental health services. The process of **gentrification** — whereby affluent newcomers transform low-income neighbourhoods — has caused property values and rents to **skyrocket**, forcing long-standing **tenant**s from their homes. Many **displaced** families find themselves in **squalid**, overcrowded **shelter**s or informal **slum** settlements, their living conditions **precarious** and **transient**. While some local authorities have expanded **subsidized housing** programmes and community **outreach** services to address **destitution**, the scale of the problem far exceeds available resources, and efforts to **resettle** **vulnerable** individuals often lack sustained political commitment. **Landlord**s, meanwhile, face limited legal accountability for deteriorating conditions."
+        },
+        {
+          "label": "E",
+          "text": "In response to these overlapping crises, **activism** and **collective action** have surged across the globe. Citizens have organised **protest**s, **rally**s, and large-scale **petition** drives to demand structural **reform**. **Grassroots** movements — powered by digital connectivity and **grassroots campaign**s — have proven remarkably effective at **mobilize**-ing public opinion and pressuring lawmakers. Acts of **civil disobedience**, from sit-ins to coordinated **boycott**s, have forced corporations and governments alike to confront their failures. Prominent voices **advocate** for comprehensive **legislation** to address housing, pay equity, and social safety nets, while others **lobby** elected officials behind closed doors. A growing culture of **dissent** and demands for **accountability** has given rise to powerful **solidarity march**es and a renewed sense of **empowerment** among communities that have historically been silenced. Whether this wave of civic energy can translate into lasting change remains to be seen, but the momentum of these movements underscores a fundamental truth: sustainable social progress requires not merely charity, but the sustained commitment of citizens and institutions to the principles of justice and inclusion."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Government welfare programmes and subsidies have been largely successful in eliminating the root causes of income inequality.",
+              "answer": "FALSE",
+              "explanation": "段落 A：\"critics argue that these measures fail to address the root causes of the widening income gap\" · 题目说福利项目\"在消除不平等根源方面大体成功\"，原文明确说批评者认为这些措施\"未能解决根本原因\"，信息矛盾。注意 \"largely successful\" 与 \"fail to address\" 的反义关系。"
+            },
+            {
+              "number": 2,
+              "text": "The increasing proportion of elderly citizens has had a significant impact on the financial sustainability of pension systems.",
+              "answer": "TRUE",
+              "explanation": "段落 B：\"The resulting increase in the dependency ratio … places enormous strain on public finances\" · \"financial sustainability\" 是对 \"enormous strain on public finances\" 的同义替换；\"increasing proportion of elderly citizens\" 对应 dependency ratio 上升，信息一致。"
+            },
+            {
+              "number": 3,
+              "text": "Affirmative action policies have been universally praised as an effective method of achieving workplace diversity.",
+              "answer": "FALSE",
+              "explanation": "段落 C：\"opponents dismiss them as **tokenism** that fails to deliver genuine diversity\" · 题目说\"被普遍赞扬\"（universally praised），但原文指出反对者将其视为象征性举措（tokenism），说明意见分歧，并非\"普遍赞扬\"。"
+            },
+            {
+              "number": 4,
+              "text": "Digital technology has played an important role in enabling grassroots movements to mobilise public support.",
+              "answer": "TRUE",
+              "explanation": "段落 E：\"powered by digital connectivity and grassroots campaigns — have proven remarkably effective at mobilizing public opinion\" · \"digital technology\" 对应 \"digital connectivity\"；\"enabling grassroots movements to mobilise\" 对应 \"effective at mobilizing public opinion\"，信息一致。"
+            },
+            {
+              "number": 5,
+              "text": "The passage predicts that current social movements will definitely achieve lasting policy reform within the next decade.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落 E：\"Whether this wave of civic energy can translate into lasting change remains to be seen\" · 原文说\"能否转化为持久变革尚待观察\"，表达的是不确定性，并未预测\"一定会在十年内实现改革\"，文中也未提及任何具体时间框架。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "mcq",
+          "title": "Questions 6-9: Multiple Choice",
+          "instruction": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "According to paragraph B, the main cause of financial pressure on pension systems is:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "corruption within government agencies"
+                },
+                {
+                  "key": "B",
+                  "text": "the declining birth rate reducing the number of workers"
+                },
+                {
+                  "key": "C",
+                  "text": "the growing number of retirees relative to working-age people"
+                },
+                {
+                  "key": "D",
+                  "text": "the increasing cost of nursing home facilities"
+                }
+              ],
+              "answer": "C",
+              "explanation": "段落 B 明确指出 \"the increase in the dependency ratio — the number of retirees relative to working-age adults — places enormous strain on public finances\"，即退休人口与劳动年龄人口的比例增长是主因。选项 B（出生率下降）是间接因素，但题目问的是\"主要原因\"（main cause），原文直接定位在 dependency ratio。"
+            },
+            {
+              "number": 7,
+              "text": "The author mentions **gentrification** in paragraph D primarily to illustrate:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "how urban areas become safer for all residents"
+                },
+                {
+                  "key": "B",
+                  "text": "the positive economic effects of neighbourhood renewal"
+                },
+                {
+                  "key": "C",
+                  "text": "how rising property values displace existing low-income residents"
+                },
+                {
+                  "key": "D",
+                  "text": "the success of government subsidized housing programmes"
+                }
+              ],
+              "answer": "C",
+              "explanation": "段落 D 说 gentrification \"has caused property values and rents to skyrocket, forcing long-standing tenants from their homes\"，即士绅化导致房价飙升、现有低收入居民被迫搬离。作者提及此概念是为了说明住房危机的成因，而非描述积极效果。"
+            },
+            {
+              "number": 8,
+              "text": "According to the passage, **tokenism** in the context of affirmative action refers to:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "policies that achieve genuine and measurable diversity"
+                },
+                {
+                  "key": "B",
+                  "text": "superficial measures that do not produce real equality"
+                },
+                {
+                  "key": "C",
+                  "text": "financial incentives offered to underrepresented employees"
+                },
+                {
+                  "key": "D",
+                  "text": "legal requirements imposed on all employers by government"
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落 C 说反对者 \"dismiss them as tokenism that fails to deliver genuine diversity\"，即 tokenism 指的是表面化的、未能带来真正平等的象征性举措，对应选项 B \"superficial measures\"。"
+            },
+            {
+              "number": 9,
+              "text": "Which of the following best describes the author's overall tone toward current social movements in paragraph E?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Entirely pessimistic about their long-term impact"
+                },
+                {
+                  "key": "B",
+                  "text": "Cautiously optimistic while acknowledging uncertainty"
+                },
+                {
+                  "key": "C",
+                  "text": "Strongly critical of their methods and goals"
+                },
+                {
+                  "key": "D",
+                  "text": "Neutral and uninterested in their outcomes"
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落 E 一方面用 \"proven remarkably effective\"、\"renewed sense of empowerment\" 表达积极态度，另一方面以 \"Whether this wave of civic energy can translate into lasting change remains to be seen\" 表达不确定性，整体语气为\"谨慎乐观，但承认不确定性\"。"
+            }
+          ]
+        }
+      ],
+      "questionCount": 9
+    }
   },
   {
     "slug": "SP01-artificial-intelligence",
@@ -13040,7 +22778,134 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/SP01-artificial-intelligence/font-size-adjusted/SP01-card-05-font-slightly-larger.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "The Algorithmic Age — Promise, Peril, and the Path Forward",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The development of artificial intelligence has accelerated at an **exponential** pace over the past decade, driven by advances in **computational** power and the availability of vast **dataset**s. At the core of modern AI lies the **algorithm** — a set of mathematical instructions that enables machines to process information, identify patterns, and generate outputs with increasing sophistication. Through successive rounds of **iteration**, engineers adjust **parameter**s within complex **neural network**s to **optimise** performance, training systems capable of **pattern recognition**, **prediction**, and **cognitive** reasoning that once seemed exclusively human. Each new **prototype** represents a **breakthrough** in the capacity of machines to **simulate** intelligent behaviour, and the technology shows no sign of approaching its limits."
+        },
+        {
+          "label": "B",
+          "text": "The practical applications of AI have already transformed multiple sectors. In healthcare, AI-powered diagnostic tools can **diagnose** diseases from medical imaging with remarkable **precision**, often detecting abnormalities that human practitioners overlook. **Virtual assistant**s and **chatbot**s have **streamline**d customer service operations, while **recommendation** engines **personalise** content feeds for billions of users daily. Advanced **facial recognition** systems operate in **real-time**, enabling everything from security screening to smartphone authentication. In agriculture and manufacturing, **autonomous** machinery has been **deploy**ed to boost **yield** and **productivity**, and AI-driven **logistics** platforms **integrate** supply chain data to **generate** efficient routing decisions. These systems are designed to be **scalable**, adapting seamlessly as organisations expand, and they can **translate** documents across dozens of languages almost instantaneously."
+        },
+        {
+          "label": "C",
+          "text": "However, the rapid proliferation of AI has also raised profound **ethical** concerns. Researchers have demonstrated that **bias** embedded within training data can lead to discriminatory outcomes — particularly in areas such as hiring, criminal sentencing, and loan approval. The widespread deployment of **surveillance** technology threatens individual **privacy**, with governments and corporations collecting personal data on an unprecedented scale, often without meaningful user **consent**. The emergence of **deepfake** technology — which uses AI to create hyper-realistic but entirely fabricated video and audio content — has fuelled an alarming rise in **misinformation**, making it increasingly difficult for citizens to distinguish truth from falsehood. Critics warn that powerful actors can **manipulate** public opinion and **exploit** vulnerable populations through these tools, creating what some describe as a **dystopian** information landscape. These challenges present a fundamental **dilemma**: how to harness the benefits of AI while establishing effective **safeguard**s against misuse. **Whistleblower**s within the technology industry have played a crucial role in bringing such risks to public attention, particularly concerns surrounding the development of **autonomous weapon**s."
+        },
+        {
+          "label": "D",
+          "text": "The impact of AI on employment constitutes another area of intense debate. As **automation** renders certain routine tasks **obsolete**, fears of widespread job **displacement** and **redundancy** have grown. Studies suggest that occupations involving repetitive manual or cognitive processes face the highest risk, while roles requiring creativity, empathy, and complex judgement are more likely to be **supplement**ed rather than replaced by AI. Advocates of a more optimistic view emphasise the importance of **upskill**ing and **reskill**ing the existing **workforce** through **vocational** training programmes that prepare workers to **adapt** to a shifting labour market. Rather than viewing AI as a competitor, they argue, workers should learn to **collaborate** with intelligent systems, thereby enhancing their own **competitiveness**. The rise of the **gig economy** and **freelance** work arrangements has also opened new **entrepreneurial** pathways, although critics note that many such roles lack the stability and protections associated with traditional employment. Some companies have chosen to **outsource** AI development entirely, further complicating the employment picture."
+        },
+        {
+          "label": "E",
+          "text": "Looking ahead, the question of how to **regulate** AI has moved to the centre of international policy debate. **Legislation** such as the European Union's AI Act seeks to establish clear rules around **transparency** and **accountability**, requiring developers to disclose how their systems make decisions. Achieving broad **consensus** among diverse **stakeholder**s — including technologists, ethicists, policymakers, and affected communities — remains a formidable challenge. Issues of **intellectual property** and **copyright** have also come to the fore, as generative AI systems produce content that blurs the boundary between human and machine creativity. What is clear is that AI represents a genuinely **disruptive** force, one capable of triggering a **paradigm** shift across virtually every domain of human activity. If **governance** frameworks prove robust enough to guide its development, AI-driven **innovation** may well prove **sustainable** and beneficial. The **coexistence** of human and artificial intelligence, many argue, is not merely possible but **inevitable** — provided that society establishes the right **benchmark**s and continues to push the **frontier** of responsible development. Effective **compliance** with these emerging standards will determine whether AI fulfils its promise or deepens existing inequalities."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "AI systems have been shown to detect certain medical conditions with greater accuracy than some human doctors.",
+              "answer": "TRUE",
+              "explanation": "段落 B：\"AI-powered diagnostic tools can **diagnose** diseases … with remarkable **precision**, often detecting abnormalities that human practitioners overlook\" · \"greater accuracy than some human doctors\" 是对 \"detecting abnormalities that human practitioners overlook\" 的同义替换——能发现人类医生遗漏的异常即意味着在某些情况下更准确，信息一致。"
+            },
+            {
+              "number": 2,
+              "text": "Deepfake technology is primarily used by governments to communicate official policy announcements.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落 C · 原文说 deepfake 技术导致虚假信息（misinformation）激增，让人难辨真假，但从未提及政府将 deepfake 用于发布官方政策公告。题目的用途描述在文中无任何依据。"
+            },
+            {
+              "number": 3,
+              "text": "According to the passage, occupations that involve repetitive tasks are at greater risk of being replaced by AI than those requiring creativity.",
+              "answer": "TRUE",
+              "explanation": "段落 D：\"occupations involving repetitive manual or cognitive processes face the highest risk, while roles requiring creativity … are more likely to be supplemented rather than replaced\" · \"repetitive tasks are at greater risk\" 与 \"repetitive processes face the highest risk\" 直接对应；\"those requiring creativity\" 更可能被辅助而非取代，信息一致。"
+            },
+            {
+              "number": 4,
+              "text": "The European Union's AI Act requires technology companies to make their decision-making processes transparent.",
+              "answer": "TRUE",
+              "explanation": "段落 E：\"requiring developers to disclose how their systems make decisions\" · \"make their decision-making processes transparent\" 是对 \"disclose how their systems make decisions\" 的同义替换。transparent（透明的）对应 disclose（披露），信息一致。"
+            },
+            {
+              "number": 5,
+              "text": "The passage states that AI development costs have decreased consistently every year since 2015.",
+              "answer": "NOT GIVEN",
+              "explanation": "全文 · 文章讨论了计算能力的提升和 AI 的指数级增长，但从未提及 AI 开发成本的变化趋势，也没有任何关于 2015 年的具体数据。属于完全无关信息。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "headings",
+          "title": "Questions 6-9: Matching Headings",
+          "instruction": "Choose the correct heading for each paragraph from the list of headings below.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "Paragraph B",
+              "answer": "ii",
+              "explanation": "段落 B 系统介绍了 AI 在医疗（diagnose）、客服（chatbot/virtual assistant）、安全（facial recognition）、农业制造（autonomous machinery/yield）、物流（logistics）等多个行业的实际应用，对应\"AI 跨行业应用\"。"
+            },
+            {
+              "number": 7,
+              "text": "Paragraph C",
+              "answer": "iii",
+              "explanation": "段落 C 讨论了 AI 的伦理风险：训练数据中的偏见（bias）、监控（surveillance）对隐私（privacy）的威胁、深度伪造（deepfake）导致虚假信息（misinformation）泛滥，以及自主武器（autonomous weapon）问题，对应\"伦理风险与虚假内容传播\"。"
+            },
+            {
+              "number": 8,
+              "text": "Paragraph D",
+              "answer": "v",
+              "explanation": "段落 D 讨论了自动化导致的工作替代（displacement/redundancy），以及通过技能提升（upskill/reskill）、职业培训（vocational）和与 AI 协作（collaborate）来适应劳动力市场变化，对应\"就业冲击与劳动力适应\"。"
+            },
+            {
+              "number": 9,
+              "text": "Paragraph E",
+              "answer": "vi",
+              "explanation": "段落 E 讨论了 AI 监管（regulate）、欧盟 AI 法案（legislation）、透明度与问责（transparency/accountability）、知识产权（intellectual property）以及治理框架（governance），对应\"监管框架与 AI 治理的未来\"。"
+            }
+          ],
+          "headings": [
+            {
+              "key": "i",
+              "text": "The technical foundations of modern AI"
+            },
+            {
+              "key": "ii",
+              "text": "AI applications across industries"
+            },
+            {
+              "key": "iii",
+              "text": "Ethical risks and the spread of false content"
+            },
+            {
+              "key": "iv",
+              "text": "The financial performance of major AI companies"
+            },
+            {
+              "key": "v",
+              "text": "Employment disruption and workforce adaptation"
+            },
+            {
+              "key": "vi",
+              "text": "Regulatory frameworks and the future of AI governance"
+            }
+          ]
+        }
+      ],
+      "questionCount": 9
+    }
   },
   {
     "slug": "SP02-dragon-boat-festival",
@@ -13533,6 +23398,179 @@ window.IELTS_VOCAB_TOPICS = [
         "image": "../outputs/SP02-dragon-boat-festival/SP02-card-05.png"
       }
     ],
-    "reading": null
+    "reading": {
+      "title": "Paddling Through Time — The Dragon Boat Festival and Its Enduring Legacy",
+      "meta": "~740 words | Academic Level | 13 Questions",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Few cultural celebrations embody the intersection of **mythology**, history, and living tradition as vividly as the Dragon Boat Festival, observed annually on the fifth day of the fifth **lunar** month. At its heart lies the story of Qu Yuan, a **patriot** and poet of the Warring States period who served the court of the Chu **dynasty** with unwavering **allegiance**. When a corrupt **sovereign** fell under the sway of **tyranny** and court intrigue, Qu Yuan was subjected to **persecution** and ultimately **banish**ed into **exile**. Far from the capital, he wandered along the banks of the Miluo River and its winding **tributary** streams, composing verses that would **lament** the fate of his country. His decision to drown himself rather than witness the destruction of his homeland became an act of **martyrdom** that would **immortalise** him across the centuries. Ancient **chronicle**s record that local villagers raced boats and scattered rice into the water to protect his body — a practice now understood as the origin of both dragon boat racing and zongzi. His legacy endures as a powerful symbol of **virtue** and patriotic devotion."
+        },
+        {
+          "label": "B",
+          "text": "Dragon boat racing remains the most visually **exhilarating** element of the modern festival. Teams of paddlers drive long, ornately carved vessels forward through **vigorous**, **synchronised** strokes, their movements governed by a strict **cadence** set by a drummer at the prow. The **percussion** of the drum reverberates across the water, synchronising the crew's **coordination** and building **momentum** with each beat. On the riverbanks, crowds of **spectator**s cheer and wave flags, caught up in the intense **rivalry** between **competitive** teams from neighbouring communities. Modern races have evolved into **festive**, internationally organised sporting events — yet they retain a distinctly **ceremonial** character, with **triumphant** crews often honoured in rituals that consciously **commemorate** the sacrifice of Qu Yuan."
+        },
+        {
+          "label": "C",
+          "text": "The festival's **culinary** traditions are equally rich. The preparation of zongzi — pyramid-shaped parcels of **glutinous** rice — is itself a communal **ritual** steeped in **ancestral** practice. Families gather to **wrap** the **aromatic** filling in broad bamboo leaves, choosing between **savoury** varieties of **marinate**d pork and **nourishing** sweet bean paste. The parcels are then **steamed** for hours, during which time the leaf's fragrance slowly **infuse**s the rice, producing a **delicacy** unlike any other. Handed down through generations, each family's **recipe** carries personal history and regional variation. The finished zongzi serve a dual purpose: they are both everyday food to be **savour**ed at the table and **symbolic** **offering**s placed at riversides or ancestral altars. This **customary** practice reinforces the connection between the living and the departed, transforming a simple act of cooking into a deeply meaningful observance."
+        },
+        {
+          "label": "D",
+          "text": "Beyond food and sport, the Dragon Boat Festival encompasses a broader system of protective customs rooted in centuries of **folklore** and **superstition**. Bundles of **fragrant** mugwort and calamus are hung above doorways for their **medicinal** properties, believed to ward off summer pestilence. Children may receive colourful silk **amulet** pouches containing dried herbs, and in some regions, faces are washed in **sacred** river water as a rite of **purification** intended to **expel** evil influences. These practices reflect a deeply **harmonious** worldview in which physical health, spiritual wellbeing, and seasonal rhythms are considered inseparable. Communities **revere** these customs not merely as quaint relics but as living expressions of collective identity that connect the present to the past."
+        },
+        {
+          "label": "E",
+          "text": "In the contemporary era, the Dragon Boat Festival has undergone significant transformation. Recognised by UNESCO as an **intangible** cultural **heritage** item, the festival is now **inscribed** on the global stage as a celebration of **indigenous** tradition worthy of protection. **Nationwide** **festivity** draws participants from diverse backgrounds, and international dragon boat leagues have helped the sport **flourish** far beyond its Chinese origins. Governments and cultural organisations have invested in programmes designed to **revitalise** traditional practices and ensure their **transmission** to younger generations. These efforts seek to **perpetuate** customs that might otherwise **assimilate** into a homogenised global culture, preserving the **communal** bonds and social **cohesion** that the festival has long fostered. Public celebrations serve as powerful demonstrations of **solidarity**, reinforcing a sense of shared **legacy** in an increasingly fragmented world. Whether paddlers race on the rivers of Hunan or the harbours of Sydney, the festival continues to **preserve** connections across cultures and generations — proof that tradition, when thoughtfully sustained, does not merely survive but actively shapes the future."
+        }
+      ],
+      "groups": [
+        {
+          "type": "tfng",
+          "title": "Questions 1-5: True / False / Not Given",
+          "instruction": "Do the following statements agree with the information given in the passage?",
+          "questions": [
+            {
+              "number": 1,
+              "text": "Qu Yuan chose to end his own life because he could not bear to see his country destroyed.",
+              "answer": "TRUE",
+              "explanation": "段落 A：\"His decision to drown himself rather than witness the destruction of his homeland became an act of martyrdom\" · \"chose to end his own life\" 是对 \"his decision to drown himself\" 的同义替换；\"could not bear to see his country destroyed\" 对应 \"rather than witness the destruction of his homeland\"，信息完全一致。"
+            },
+            {
+              "number": 2,
+              "text": "The rhythm of the drum in dragon boat racing is purely decorative and does not affect the paddlers' performance.",
+              "answer": "FALSE",
+              "explanation": "段落 B：\"The percussion of the drum reverberates across the water, synchronising the crew's coordination and building momentum\" · 题目说鼓声\"纯粹是装饰性的，不影响划手表现\"，但原文明确说鼓声的作用是\"同步团队协调、积累势头\"，两者矛盾。注意 \"purely decorative\" 与 \"synchronising/building momentum\" 的反义关系。"
+            },
+            {
+              "number": 3,
+              "text": "Each family's zongzi recipe tends to differ according to regional traditions and personal history.",
+              "answer": "TRUE",
+              "explanation": "段落 C：\"each family's recipe carries personal history and regional variation\" · \"tends to differ according to regional traditions and personal history\" 是对 \"carries personal history and regional variation\" 的同义替换，信息一致。"
+            },
+            {
+              "number": 4,
+              "text": "The Dragon Boat Festival was first recognised by UNESCO in the year 2009.",
+              "answer": "NOT GIVEN",
+              "explanation": "段落 E · 原文说该节日被 UNESCO 认可为非物质文化遗产，但从未提及具体年份。题目中的\"2009年\"在文中无任何依据。"
+            },
+            {
+              "number": 5,
+              "text": "International dragon boat competitions have helped the sport gain popularity outside China.",
+              "answer": "TRUE",
+              "explanation": "段落 E：\"international dragon boat leagues have helped the sport **flourish** far beyond its Chinese origins\" · \"gain popularity outside China\" 是对 \"flourish far beyond its Chinese origins\" 的同义替换。flourish（繁荣/蓬勃发展）对应 gain popularity（获得人气），信息一致。"
+            }
+          ],
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ]
+        },
+        {
+          "type": "mcq",
+          "title": "Questions 6-9: Multiple Choice",
+          "instruction": "Choose the correct letter, A, B, C, or D.",
+          "questions": [
+            {
+              "number": 6,
+              "text": "According to paragraph A, villagers scattered rice into the river in order to:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "celebrate the beginning of the harvest season"
+                },
+                {
+                  "key": "B",
+                  "text": "feed the fish so they would not disturb Qu Yuan's body"
+                },
+                {
+                  "key": "C",
+                  "text": "perform a religious ceremony to honour the sovereign"
+                },
+                {
+                  "key": "D",
+                  "text": "symbolise their rejection of the corrupt dynasty"
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落 A 说\"local villagers raced boats and scattered rice into the water to protect his body\"——往水里撒米是为了保护屈原的遗体。选项 B \"feed the fish so they would not disturb Qu Yuan's body\" 是这一行为的合理推断（喂鱼使其不去侵扰遗体），与\"保护遗体\"的目的一致。选项 A（丰收庆典）、C（尊敬君主）、D（拒绝腐败王朝）均无文本支持。"
+            },
+            {
+              "number": 7,
+              "text": "In paragraph C, zongzi are described as serving a \"dual purpose.\" This means they function as:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "both a main course and a dessert"
+                },
+                {
+                  "key": "B",
+                  "text": "both a seasonal food and a year-round snack"
+                },
+                {
+                  "key": "C",
+                  "text": "both a food to be eaten and a symbolic offering"
+                },
+                {
+                  "key": "D",
+                  "text": "both a local speciality and an export product"
+                }
+              ],
+              "answer": "C",
+              "explanation": "段落 C 明确说粽子的\"dual purpose\"是：\"both everyday food to be savoured at the table and symbolic offerings placed at riversides or ancestral altars\"——既是餐桌上品尝的食物，又是河边或祖先祭坛上的象征性供品，对应选项 C。"
+            },
+            {
+              "number": 8,
+              "text": "The customs described in paragraph D — such as hanging mugwort and wearing amulets — are best characterised as:",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "purely superstitious practices with no practical basis"
+                },
+                {
+                  "key": "B",
+                  "text": "modern inventions designed to attract tourists"
+                },
+                {
+                  "key": "C",
+                  "text": "protective rituals rooted in traditional beliefs about health and wellbeing"
+                },
+                {
+                  "key": "D",
+                  "text": "religious obligations enforced by local authorities"
+                }
+              ],
+              "answer": "C",
+              "explanation": "段落 D 描述这些习俗\"rooted in centuries of folklore and superstition\"，挂艾草有\"medicinal properties\"（药用属性），护身符含干燥草药，净化仪式旨在\"expel evil influences\"——整体是\"植根于传统信仰的与健康和福祉相关的保护性仪式\"，对应选项 C。选项 A 忽略了其实际药用基础，B 和 D 无文本依据。"
+            },
+            {
+              "number": 9,
+              "text": "What is the author's main argument in paragraph E?",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "The Dragon Boat Festival has lost its original meaning due to commercialisation"
+                },
+                {
+                  "key": "B",
+                  "text": "International recognition and active preservation efforts are helping the festival endure"
+                },
+                {
+                  "key": "C",
+                  "text": "The festival should only be celebrated in its country of origin"
+                },
+                {
+                  "key": "D",
+                  "text": "Younger generations have no interest in maintaining traditional customs"
+                }
+              ],
+              "answer": "B",
+              "explanation": "段落 E 的核心论点是：UNESCO 的国际认可（inscribed on the global stage）加上积极的保护努力（programmes to revitalise/preserve/perpetuate）正在帮助该节日延续，对应选项 B。选项 A（商业化失去原意）、C（只应在原产国庆祝）、D（年轻人不感兴趣）均与原文观点相悖。"
+            }
+          ]
+        }
+      ],
+      "questionCount": 9
+    }
   }
 ];

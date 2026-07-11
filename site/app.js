@@ -205,7 +205,7 @@ function renderGallery() {
           <div class="image-wrap" data-open-image data-image="${escapeHtml(card.image)}" data-caption="${escapeHtml(
             `${card.topicTitle} · ${card.subtitle}`,
           )}">
-            <img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.topicShortTitle)} ${escapeHtml(
+            <img class="is-loading" src="${escapeHtml(card.image)}" alt="${escapeHtml(card.topicShortTitle)} ${escapeHtml(
               card.subtitle,
             )}" loading="lazy" />
             <div class="image-word-zoom" aria-hidden="true">
@@ -246,6 +246,11 @@ function updateReadingEntry() {
   const reading = currentReading();
   readingEntry.hidden = !reading;
   if (reading) readingEntryBadge.textContent = `${reading.questionCount} 题`;
+}
+
+const reducedMotionQuery = window.matchMedia?.("(prefers-reduced-motion: reduce)");
+function prefersReducedMotion() {
+  return Boolean(reducedMotionQuery?.matches);
 }
 
 // 文章里的 **词** 是话题词汇，转成高亮
@@ -901,6 +906,43 @@ function renderReadingQuestions(reading) {
           .map((q) => `<div class="reading-explain reading-explain-summary" data-qnum="${q.number}" hidden></div>`)
           .join("");
         body = `<p class="reading-summary">${inline}</p>${explains}`;
+      } else if (group.type === "mcq") {
+        body = group.questions
+          .map(
+            (q) => `
+              <div class="reading-q" data-qnum="${q.number}">
+                <p class="reading-q-text"><b>${q.number}.</b> ${escapeHtml(q.text)}</p>
+                <div class="reading-choices reading-choices-col">
+                  ${q.options
+                    .map(
+                      (opt) =>
+                        `<button class="reading-choice reading-choice-mc" type="button" data-value="${escapeHtml(
+                          opt.key,
+                        )}"><b>${escapeHtml(opt.key)}</b> ${escapeHtml(opt.text)}</button>`,
+                    )
+                    .join("")}
+                </div>
+                <div class="reading-explain" hidden></div>
+              </div>`,
+          )
+          .join("");
+      } else if (group.type === "matching-info") {
+        const options = (group.paragraphOptions || [])
+          .map((label) => `<option value="${escapeHtml(label)}">段落 ${escapeHtml(label)}</option>`)
+          .join("");
+        body = group.questions
+          .map(
+            (q) => `
+              <div class="reading-q reading-q-row" data-qnum="${q.number}">
+                <p class="reading-q-text"><b>${q.number}.</b> ${escapeHtml(q.text)}</p>
+                <select class="reading-select">
+                  <option value="">选择段落…</option>
+                  ${options}
+                </select>
+                <div class="reading-explain" hidden></div>
+              </div>`,
+          )
+          .join("");
       }
 
       return `
@@ -966,13 +1008,15 @@ function submitReading() {
 
       // 标记选择题/下拉/填空的对错
       const qBlock = readingQuestions.querySelector(`.reading-q[data-qnum="${q.number}"]`);
-      if (group.type === "tfng" && qBlock) {
+      const usesChoices = group.type === "tfng" || group.type === "mcq";
+      const usesSelect = group.type === "headings" || group.type === "matching-info";
+      if (usesChoices && qBlock) {
         qBlock.querySelectorAll(".reading-choice").forEach((btn) => {
           btn.disabled = true;
           if (answersMatch(btn.dataset.value, q.answer)) btn.classList.add("is-correct");
           else if (btn.classList.contains("is-picked")) btn.classList.add("is-wrong");
         });
-      } else if (group.type === "headings" && qBlock) {
+      } else if (usesSelect && qBlock) {
         const select = qBlock.querySelector(".reading-select");
         select.disabled = true;
         select.classList.add(isCorrect ? "is-correct" : "is-wrong");
@@ -992,7 +1036,7 @@ function submitReading() {
         explain.hidden = false;
         explain.innerHTML = `
           <span class="reading-verdict ${isCorrect ? "right" : "wrong"}">${
-            isCorrect ? "✓ 正确" : "✕ 正确答案：" + escapeHtml(q.answer || "—")
+            isCorrect ? "✓ 正确" : "✕ 正确答案：" + escapeHtml(q.answer || "-")
           }</span>
           ${q.explanation ? `<span class="reading-explain-text">${escapeHtml(q.explanation)}</span>` : ""}
         `;
@@ -1032,6 +1076,22 @@ function attachEvents() {
   examEntry.addEventListener("click", openExamDrawer);
   examClose.addEventListener("click", closeExamDrawer);
   examBackdrop.addEventListener("click", closeExamDrawer);
+
+  // 懒加载图片就位后移除 is-loading 触发淡入（load 不冒泡，用捕获阶段）
+  gallery.addEventListener(
+    "load",
+    (event) => {
+      if (event.target.tagName === "IMG") event.target.classList.remove("is-loading");
+    },
+    true,
+  );
+  gallery.addEventListener(
+    "error",
+    (event) => {
+      if (event.target.tagName === "IMG") event.target.classList.remove("is-loading");
+    },
+    true,
+  );
 
   readingEntry.addEventListener("click", openReading);
   readingClose.addEventListener("click", closeReading);
@@ -1162,6 +1222,7 @@ function attachEvents() {
     }
     const card = event.target.closest("[data-card]");
     if (!card) return;
+    if (prefersReducedMotion()) return; // 尊重系统「减弱动态效果」
     const rect = card.getBoundingClientRect();
     const x = (event.clientX - rect.left) / rect.width - 0.5;
     const y = (event.clientY - rect.top) / rect.height - 0.5;
