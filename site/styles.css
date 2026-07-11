@@ -658,6 +658,15 @@ h2 {
   display: none;
 }
 
+/* 单图查看（范文图卡）：没有单词右栏，只居中显示图片 */
+.image-modal.is-single .modal-study-panel {
+  display: none;
+}
+
+.image-modal.is-single .modal-stage {
+  max-width: min(1100px, calc(100vw - 44px));
+}
+
 .modal-close {
   position: fixed;
   top: 18px;

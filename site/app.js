@@ -456,13 +456,14 @@ function openImageModalByIndex(index) {
   modalWordZoom.classList.remove("is-visible");
   modalPrev.hidden = false;
   modalNext.hidden = false;
+  imageModal.classList.remove("is-single");
   imageModal.classList.add("is-open");
   imageModal.setAttribute("aria-hidden", "false");
   document.body.classList.add("has-modal");
   hideMagnifier();
 }
 
-// 直接查看一张指定图片（范文图卡等），无前后翻页
+// 直接查看一张指定图片（范文图卡等）：无前后翻页、无单词右栏，图片居中铺满
 function openImageDirect(src, caption) {
   state.modalIndex = -1;
   modalImage.src = src;
@@ -472,6 +473,7 @@ function openImageDirect(src, caption) {
   modalWordZoom.classList.remove("is-visible");
   modalPrev.hidden = true;
   modalNext.hidden = true;
+  imageModal.classList.add("is-single");
   imageModal.classList.add("is-open");
   imageModal.setAttribute("aria-hidden", "false");
   document.body.classList.add("has-modal");
