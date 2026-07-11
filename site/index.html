@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IELTS Topic Studio · 话题式雅思备考</title>
-    <link rel="stylesheet" href="./styles.css?v=ca30ba02" />
+    <link rel="stylesheet" href="./styles.css?v=b934a75f" />
   </head>
   <body>
     <main class="shell">
@@ -30,6 +30,11 @@
         <button class="exam-entry reading-entry" id="readingEntry" type="button" hidden>
           <span>阅读练习</span>
           <em id="readingEntryBadge"></em>
+        </button>
+
+        <button class="exam-entry essay-entry" id="essayEntry" type="button" hidden>
+          <span>写作范文</span>
+          <em id="essayEntryBadge"></em>
         </button>
 
         <nav class="topic-nav" aria-label="选择话题">
@@ -159,6 +164,22 @@
         </aside>
       </div>
     </div>
+    <div class="exam-backdrop" id="essayListBackdrop" hidden></div>
+    <aside class="exam-drawer" id="essayListDrawer" aria-label="写作范文" aria-hidden="true">
+      <section class="exam-panel">
+        <div class="exam-head">
+          <div>
+            <p class="eyebrow">Writing Task 2</p>
+            <h3>写作范文</h3>
+          </div>
+          <div class="exam-head-actions">
+            <button class="exam-close" id="essayListClose" type="button" aria-label="关闭">×</button>
+          </div>
+        </div>
+        <div class="essay-list" id="essayList"></div>
+      </section>
+    </aside>
+
     <div class="reading-modal" id="essayModal" aria-hidden="true">
       <button class="modal-close" id="essayClose" type="button" aria-label="关闭范文">×</button>
       <div class="reading-view">
@@ -178,6 +199,6 @@
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
     <script src="./data.js?v=4ba843ff"></script>
-    <script src="./app.js?v=1f9a76bc"></script>
+    <script src="./app.js?v=588ba066"></script>
   </body>
 </html>

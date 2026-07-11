@@ -77,6 +77,12 @@ const readingScore = document.querySelector("#readingScore");
 const readingQuestions = document.querySelector("#readingQuestions");
 const readingSubmit = document.querySelector("#readingSubmit");
 const readingReset = document.querySelector("#readingReset");
+const essayEntry = document.querySelector("#essayEntry");
+const essayEntryBadge = document.querySelector("#essayEntryBadge");
+const essayListDrawer = document.querySelector("#essayListDrawer");
+const essayListBackdrop = document.querySelector("#essayListBackdrop");
+const essayListClose = document.querySelector("#essayListClose");
+const essayList = document.querySelector("#essayList");
 const essayModal = document.querySelector("#essayModal");
 const essayClose = document.querySelector("#essayClose");
 const essayPassage = document.querySelector("#essayPassage");
@@ -301,6 +307,10 @@ function updateReadingEntry() {
   const reading = currentReading();
   readingEntry.hidden = !reading;
   if (reading) readingEntryBadge.textContent = `${reading.questionCount} 题`;
+
+  // 写作范文是全站一级入口：有范文就常驻显示
+  essayEntry.hidden = !essays.length;
+  if (essays.length) essayEntryBadge.textContent = `${essays.length} 篇`;
 }
 
 const reducedMotionQuery = window.matchMedia?.("(prefers-reduced-motion: reduce)");
@@ -1167,13 +1177,35 @@ function openEssay(slug) {
     .map((text, index) => {
       const row = essay.structure[index];
       const label = row
-        ? `<p class="essay-para-label">${escapeHtml(row.paragraph)} · ${escapeHtml(row.functionCn)}${
-            row.point ? `：${escapeHtml(row.point)}` : ""
-          }</p>`
+        ? `<p class="essay-para-label">${escapeHtml(row.paragraph)} · ${escapeHtml(row.functionCn)}</p>`
         : "";
       return `${label}<p class="reading-para essay-para">${highlightEssayPhrases(text, essay.phrases)}</p>`;
     })
     .join("");
+
+  // 文章骨架：一眼看清 Intro / Body / Conclusion 各写什么
+  const outline = essay.structure.length
+    ? `
+      <div class="essay-outline">
+        <p class="essay-outline-title">文章骨架</p>
+        <ol class="essay-outline-list">
+          ${essay.structure
+            .map(
+              (row) => `
+                <li>
+                  <span class="essay-outline-tag">${escapeHtml(row.paragraph)}</span>
+                  <div class="essay-outline-body">
+                    <strong>${escapeHtml(row.functionCn)}</strong>
+                    ${row.point ? `<span>${escapeHtml(row.point)}</span>` : ""}
+                  </div>
+                </li>
+              `,
+            )
+            .join("")}
+        </ol>
+      </div>
+    `
+    : "";
 
   essayPassage.innerHTML = `
     <div class="reading-passage-head">
@@ -1188,6 +1220,7 @@ function openEssay(slug) {
       <strong>${escapeHtml(essay.stanceEn)}</strong>
       <span>${escapeHtml(essay.stanceCn)}</span>
     </div>
+    ${outline}
     ${paragraphs}
   `;
 
@@ -1242,7 +1275,53 @@ function openEssay(slug) {
 function closeEssay() {
   essayModal.classList.remove("is-open");
   essayModal.setAttribute("aria-hidden", "true");
-  document.body.classList.remove("has-modal");
+  if (!essayListDrawer.classList.contains("is-open")) document.body.classList.remove("has-modal");
+}
+
+// 侧边栏一级入口：列出全部范文（按主话题分组）
+const groupTitleOf = (key) => (window.IELTS_TOPIC_GROUPS || []).find((g) => g.key === key)?.title || "其他";
+
+function renderEssayList() {
+  if (!essays.length) {
+    essayList.innerHTML = `<p class="mistake-empty">还没有范文。</p>`;
+    return;
+  }
+  const byGroup = new Map();
+  for (const essay of essays) {
+    if (!byGroup.has(essay.group)) byGroup.set(essay.group, []);
+    byGroup.get(essay.group).push(essay);
+  }
+  essayList.innerHTML = [...byGroup.entries()]
+    .map(
+      ([key, list]) => `
+        <p class="essay-list-group">${escapeHtml(groupTitleOf(key))}</p>
+        ${list
+          .map(
+            (essay) => `
+              <button class="essay-list-card" type="button" data-essay="${escapeHtml(essay.slug)}">
+                <strong>${escapeHtml(essay.titleCn || essay.title)}</strong>
+                <span>${escapeHtml(essay.title)}</span>
+                <em>Task 2 · ${escapeHtml(essay.taskType)}</em>
+              </button>
+            `,
+          )
+          .join("")}
+      `,
+    )
+    .join("");
+}
+
+function openEssayList() {
+  renderEssayList();
+  essayListDrawer.classList.add("is-open");
+  essayListDrawer.setAttribute("aria-hidden", "false");
+  essayListBackdrop.hidden = false;
+}
+
+function closeEssayList() {
+  essayListDrawer.classList.remove("is-open");
+  essayListDrawer.setAttribute("aria-hidden", "true");
+  essayListBackdrop.hidden = true;
 }
 
 function attachEvents() {
@@ -1301,6 +1380,16 @@ function attachEvents() {
     },
     true,
   );
+
+  essayEntry.addEventListener("click", openEssayList);
+  essayListClose.addEventListener("click", closeEssayList);
+  essayListBackdrop.addEventListener("click", closeEssayList);
+  essayList.addEventListener("click", (event) => {
+    const card = event.target.closest(".essay-list-card");
+    if (!card) return;
+    closeEssayList();
+    openEssay(card.dataset.essay);
+  });
 
   essayClose.addEventListener("click", closeEssay);
   essayModal.addEventListener("click", (event) => {
@@ -1524,6 +1613,11 @@ function attachEvents() {
 
     if (event.key === "Escape" && essayModal.classList.contains("is-open")) {
       closeEssay();
+      return;
+    }
+
+    if (event.key === "Escape" && essayListDrawer.classList.contains("is-open")) {
+      closeEssayList();
       return;
     }
 

@@ -1833,6 +1833,67 @@ body.is-exam-active .gallery {
 
 /* ---------- 写作范文 ---------- */
 
+.essay-entry {
+  margin-top: 8px;
+  border-color: var(--clay);
+  background: var(--clay);
+}
+
+.essay-entry:hover {
+  background: #96562f;
+}
+
+.essay-list {
+  display: grid;
+  gap: 10px;
+}
+
+.essay-list-group {
+  margin: 8px 0 2px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.essay-list-card {
+  display: grid;
+  gap: 3px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--card);
+  color: var(--ink);
+  cursor: pointer;
+  padding: 12px 14px;
+  text-align: left;
+  transition: border-color 140ms ease, transform 140ms ease;
+}
+
+.essay-list-card:hover {
+  border-color: rgba(168, 101, 63, 0.5);
+  transform: translateY(-1px);
+}
+
+.essay-list-card strong {
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.essay-list-card span {
+  color: #4b453a;
+  font-size: 13px;
+}
+
+.essay-list-card em {
+  margin-top: 3px;
+  color: var(--clay);
+  font-size: 11.5px;
+  font-style: normal;
+  font-weight: 700;
+}
+
 .essay-link {
   display: flex;
   align-items: center;
@@ -1916,6 +1977,75 @@ body.is-exam-active .gallery {
 .essay-stance span {
   color: var(--muted);
   font-size: 12.5px;
+}
+
+.essay-outline {
+  margin-bottom: 22px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(33, 29, 23, 0.03);
+}
+
+.essay-outline-title {
+  margin: 0 0 12px;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.essay-outline-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0;
+}
+
+.essay-outline-list li {
+  position: relative;
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 12px;
+  padding: 9px 0 9px 0;
+  border-left: 2px solid rgba(68, 96, 78, 0.35);
+  padding-left: 14px;
+  margin-left: 4px;
+}
+
+.essay-outline-list li::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 15px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.essay-outline-tag {
+  color: var(--clay);
+  font-size: 11.5px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  padding-top: 1px;
+}
+
+.essay-outline-body strong {
+  display: block;
+  font-size: 13.5px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.essay-outline-body span {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 12.5px;
+  line-height: 1.45;
 }
 
 .essay-para-label {
