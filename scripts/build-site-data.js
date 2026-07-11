@@ -290,6 +290,135 @@ const topics = fs
   })
   .filter((topic) => topic.cards.length);
 
+// ---------- 写作范文 ----------
+// 笔记库是唯一数据源；本机构建时自动同步进仓库 essays/，其他环境直接用仓库内容
+const essaysSrc = "/Users/lucky/Documents/MyTreasure/My Treasure/雅思/IELTS-essay-visual-cards";
+const essaysDir = path.join(root, "essays");
+
+function parseFrontmatter(text) {
+  const match = text.match(/^---\n([\s\S]*?)\n---/);
+  if (!match) return {};
+  const data = {};
+  let listKey = null;
+  for (const line of match[1].split("\n")) {
+    const item = line.match(/^\s+-\s+(.+)/);
+    if (item && listKey) {
+      data[listKey].push(item[1].trim());
+      continue;
+    }
+    const kv = line.match(/^([\w_]+):\s*(.*)$/);
+    if (!kv) continue;
+    if (kv[2] === "") {
+      listKey = kv[1];
+      data[listKey] = [];
+    } else {
+      data[kv[1]] = kv[2].trim();
+      listKey = null;
+    }
+  }
+  return data;
+}
+
+function essaySections(text) {
+  const body = text.replace(/^---\n[\s\S]*?\n---/, "");
+  const sections = {};
+  for (const block of body.split(/\n(?=##\s)/)) {
+    const heading = block.match(/^##\s+(.+)/)?.[1]?.trim();
+    if (heading) sections[heading] = block.replace(/^##\s+.+\n?/, "").trim();
+  }
+  return sections;
+}
+
+function parseTableRows(text) {
+  return (text || "")
+    .split("\n")
+    .filter((line) => line.trim().startsWith("|") && !/^\|[\s:-]+\|/.test(line.trim().replace(/\|/g, "|")))
+    .map((line) => line.split("|").slice(1, -1).map((cell) => cell.trim()))
+    .filter((cells) => cells.length >= 2 && !/^[-\s:]+$/.test(cells[0]) && !/^Paragraph$|^Phrase$/i.test(cells[0]));
+}
+
+function parseEssayDir(dirName) {
+  const dir = path.join(essaysDir, dirName);
+  const mdFile = fs.readdirSync(dir).find((name) => /band8-notes\.md$/i.test(name));
+  if (!mdFile) return null;
+  const text = fs.readFileSync(path.join(dir, mdFile), "utf8");
+  const meta = parseFrontmatter(text);
+  const sections = essaySections(text);
+
+  const essayText = sections["Band 8 Sample Essay"] || "";
+  const paragraphs = essayText.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
+  const stanceLines = (sections["Core Stance"] || "").split("\n").map((l) => l.trim()).filter(Boolean);
+  const structure = parseTableRows(sections["文章结构"]).map((cells) => ({
+    paragraph: cells[0],
+    functionCn: cells[1],
+    point: cells[2] || "",
+  }));
+  const phrases = parseTableRows(sections["重点短语"]).map((cells) => ({ en: cells[0], cn: cells[1] }));
+  const ideas = (sections["观点库"] || "")
+    .split("\n")
+    .map((line) => line.match(/^-\s+(.+)/)?.[1])
+    .filter(Boolean);
+
+  // 校验：短语必须在范文中逐字出现（供前端高亮）
+  for (const phrase of phrases) {
+    if (!essayText.toLowerCase().includes(phrase.en.toLowerCase())) {
+      console.warn(`⚠ 范文 ${dirName}: 短语 "${phrase.en}" 未在正文中逐字出现，将无法高亮`);
+    }
+  }
+  if (!meta.group) console.warn(`⚠ 范文 ${dirName}: frontmatter 缺 group 字段`);
+
+  return {
+    slug: meta.slug || dirName,
+    group: meta.group || "other",
+    task: meta.task || "task2",
+    taskType: meta.task_type || "",
+    title: meta.title || dirName,
+    titleCn: meta.title_cn || "",
+    date: meta.date || "",
+    question: sections["Question"] || "",
+    questionCn: sections["中文题目"] || "",
+    stanceEn: stanceLines[0] || "",
+    stanceCn: stanceLines[1] || "",
+    paragraphs,
+    structure,
+    phrases,
+    ideas,
+    images: (meta.cards || []).map((file) => `../essays/${dirName}/${file}`),
+  };
+}
+
+function syncAndParseEssays() {
+  // 同步：只拷贝 md 和 frontmatter 里列出的卡片图
+  if (fs.existsSync(essaysSrc)) {
+    for (const entry of fs.readdirSync(essaysSrc, { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      const srcDir = path.join(essaysSrc, entry.name);
+      const mdFile = fs.readdirSync(srcDir).find((name) => /band8-notes\.md$/i.test(name));
+      if (!mdFile) continue;
+      const text = fs.readFileSync(path.join(srcDir, mdFile), "utf8");
+      const meta = parseFrontmatter(text);
+      const destDir = path.join(essaysDir, entry.name);
+      fs.mkdirSync(destDir, { recursive: true });
+      fs.copyFileSync(path.join(srcDir, mdFile), path.join(destDir, mdFile));
+      for (const card of meta.cards || []) {
+        const srcCard = path.join(srcDir, card);
+        if (fs.existsSync(srcCard)) fs.copyFileSync(srcCard, path.join(destDir, card));
+        else console.warn(`⚠ 范文 ${entry.name}: 找不到配图 ${card}`);
+      }
+    }
+  }
+
+  if (!fs.existsSync(essaysDir)) return [];
+  return fs
+    .readdirSync(essaysDir, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => parseEssayDir(entry.name))
+    .filter(Boolean)
+    .sort((a, b) => (a.date < b.date ? 1 : -1));
+}
+
+const essays = syncAndParseEssays();
+
 // 两级话题分组：读取 topic-groups.json，给每个话题打上主话题 key
 const groupConfig = JSON.parse(fs.readFileSync(path.join(root, "topic-groups.json"), "utf8")).groups;
 const slugToGroup = new Map();
@@ -308,7 +437,8 @@ if (unmapped.length) {
 
 const payload =
   `window.IELTS_TOPIC_GROUPS = ${JSON.stringify(groupList, null, 2)};\n` +
-  `window.IELTS_VOCAB_TOPICS = ${JSON.stringify(topics, null, 2)};\n`;
+  `window.IELTS_VOCAB_TOPICS = ${JSON.stringify(topics, null, 2)};\n` +
+  `window.IELTS_ESSAYS = ${JSON.stringify(essays, null, 2)};\n`;
 fs.mkdirSync(siteDir, { recursive: true });
 fs.writeFileSync(path.join(siteDir, "data.js"), payload);
 
@@ -333,4 +463,4 @@ bustCache();
 
 const imageCount = topics.reduce((total, topic) => total + topic.cards.length, 0);
 const readingCount = topics.filter((topic) => topic.reading).length;
-console.log(`Built ${topics.length} topics, ${imageCount} cards, ${readingCount} reading passages.`);
+console.log(`Built ${topics.length} topics, ${imageCount} cards, ${readingCount} reading passages, ${essays.length} essays.`);

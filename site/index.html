@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IELTS Visual Vocabulary</title>
-    <link rel="stylesheet" href="./styles.css?v=7db53500" />
+    <title>IELTS Topic Studio · 话题式雅思备考</title>
+    <link rel="stylesheet" href="./styles.css?v=ca30ba02" />
   </head>
   <body>
     <main class="shell">
@@ -12,8 +12,8 @@
         <div class="brand">
           <span class="brand-mark">IELTS</span>
           <div>
-            <h1>Visual Vocabulary</h1>
-            <p>看图记高级词汇</p>
+            <h1>Topic Studio</h1>
+            <p>话题式备考：词汇 · 阅读 · 写作</p>
           </div>
         </div>
 
@@ -159,9 +159,25 @@
         </aside>
       </div>
     </div>
+    <div class="reading-modal" id="essayModal" aria-hidden="true">
+      <button class="modal-close" id="essayClose" type="button" aria-label="关闭范文">×</button>
+      <div class="reading-view">
+        <article class="reading-passage" id="essayPassage"></article>
+        <aside class="reading-panel">
+          <div class="reading-panel-head">
+            <div>
+              <p class="eyebrow">Writing Task 2</p>
+              <h3 id="essayHeading">范文精读</h3>
+            </div>
+            <div class="reading-score" id="essayType"></div>
+          </div>
+          <div class="reading-questions" id="essayPanel"></div>
+        </aside>
+      </div>
+    </div>
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-    <script src="./data.js?v=d98c26ce"></script>
-    <script src="./app.js?v=59435e86"></script>
+    <script src="./data.js?v=4ba843ff"></script>
+    <script src="./app.js?v=1f9a76bc"></script>
   </body>
 </html>

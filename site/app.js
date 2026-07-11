@@ -1,4 +1,5 @@
 const topics = window.IELTS_VOCAB_TOPICS || [];
+const essays = window.IELTS_ESSAYS || [];
 
 const prefsKey = "ielts-vocab-prefs-v1";
 
@@ -76,6 +77,12 @@ const readingScore = document.querySelector("#readingScore");
 const readingQuestions = document.querySelector("#readingQuestions");
 const readingSubmit = document.querySelector("#readingSubmit");
 const readingReset = document.querySelector("#readingReset");
+const essayModal = document.querySelector("#essayModal");
+const essayClose = document.querySelector("#essayClose");
+const essayPassage = document.querySelector("#essayPassage");
+const essayHeading = document.querySelector("#essayHeading");
+const essayType = document.querySelector("#essayType");
+const essayPanel = document.querySelector("#essayPanel");
 
 function allCards() {
   return topics.flatMap((topic) =>
@@ -187,20 +194,32 @@ function renderTopics() {
       const groupTopics = topics
         .filter((topic) => topic.group === group.key)
         .sort((a, b) => a.slug.localeCompare(b.slug)); // 第一轮排在 round2 前
-      if (!groupTopics.length) return "";
+      const groupEssays = essays.filter((essay) => essay.group === group.key);
+      if (!groupTopics.length && !groupEssays.length) return "";
       const cardCount = groupTopics.reduce((sum, topic) => sum + topic.cards.length, 0);
       const expanded = state.expandedGroup === group.key;
       const links = groupTopics
         .map((topic) => renderTopicLink({ slug: topic.slug, title: topicLabel(topic), count: topic.cards.length }))
         .join("");
+      const essayLinks = groupEssays
+        .map(
+          (essay) => `
+            <button class="essay-link" type="button" data-essay="${escapeHtml(essay.slug)}">
+              <span><i>范文</i>${escapeHtml(essay.titleCn || essay.title)}</span>
+              <em>Task 2</em>
+            </button>
+          `,
+        )
+        .join("");
+      const meta = `${groupTopics.length} 话题${groupEssays.length ? ` · ${groupEssays.length} 范文` : ""} · ${cardCount} 卡`;
       return `
         <div class="topic-group ${expanded ? "is-expanded" : ""}" data-group="${escapeHtml(group.key)}">
           <button class="topic-group-head" type="button" data-group-toggle="${escapeHtml(group.key)}" aria-expanded="${expanded}">
             <i class="topic-group-caret" aria-hidden="true"></i>
             <span>${escapeHtml(group.title)}</span>
-            <em>${groupTopics.length} 个话题 · ${cardCount} 卡</em>
+            <em>${meta}</em>
           </button>
-          <div class="topic-group-body" ${expanded ? "" : "hidden"}>${links}</div>
+          <div class="topic-group-body" ${expanded ? "" : "hidden"}>${links}${essayLinks}</div>
         </div>
       `;
     })
@@ -425,6 +444,24 @@ function openImageModalByIndex(index) {
     )
     .join("");
   modalWordZoom.classList.remove("is-visible");
+  modalPrev.hidden = false;
+  modalNext.hidden = false;
+  imageModal.classList.add("is-open");
+  imageModal.setAttribute("aria-hidden", "false");
+  document.body.classList.add("has-modal");
+  hideMagnifier();
+}
+
+// 直接查看一张指定图片（范文图卡等），无前后翻页
+function openImageDirect(src, caption) {
+  state.modalIndex = -1;
+  modalImage.src = src;
+  modalImage.alt = caption || "";
+  modalCaption.textContent = caption || "";
+  modalWords.innerHTML = "";
+  modalWordZoom.classList.remove("is-visible");
+  modalPrev.hidden = true;
+  modalNext.hidden = true;
   imageModal.classList.add("is-open");
   imageModal.setAttribute("aria-hidden", "false");
   document.body.classList.add("has-modal");
@@ -432,14 +469,17 @@ function openImageModalByIndex(index) {
 }
 
 function stepModal(delta) {
-  if (!imageModal.classList.contains("is-open")) return;
+  if (!imageModal.classList.contains("is-open") || state.modalIndex < 0) return;
   openImageModalByIndex(state.modalIndex + delta);
 }
 
 function closeImageModal() {
   imageModal.classList.remove("is-open");
   imageModal.setAttribute("aria-hidden", "true");
-  document.body.classList.remove("has-modal");
+  // 大图可能叠在范文/阅读弹窗之上，底下还有弹窗时保持锁定页面滚动
+  if (!essayModal.classList.contains("is-open") && !readingModal.classList.contains("is-open")) {
+    document.body.classList.remove("has-modal");
+  }
   modalImage.removeAttribute("src");
   modalWords.innerHTML = "";
   modalWordZoom.classList.remove("is-visible");
@@ -1087,6 +1127,124 @@ function submitReading() {
   showToast(`阅读批改完成：答对 ${correctCount}/${total}`);
 }
 
+// ---------- 写作范文 ----------
+
+// 在范文原文里高亮重点短语：先按原文位置找出所有不重叠的匹配区间（长短语优先），再拼 HTML
+function highlightEssayPhrases(text, phrases) {
+  const ranges = [];
+  const lower = text.toLowerCase();
+  const sorted = [...phrases].sort((a, b) => b.en.length - a.en.length);
+  for (const phrase of sorted) {
+    const needle = phrase.en.toLowerCase();
+    if (!needle) continue;
+    let idx = 0;
+    while ((idx = lower.indexOf(needle, idx)) !== -1) {
+      const end = idx + needle.length;
+      if (!ranges.some((r) => idx < r.end && end > r.start)) ranges.push({ start: idx, end, cn: phrase.cn });
+      idx = end;
+    }
+  }
+  ranges.sort((a, b) => a.start - b.start);
+  let html = "";
+  let pos = 0;
+  for (const range of ranges) {
+    html += escapeHtml(text.slice(pos, range.start));
+    html += `<mark class="essay-phrase" data-tip="${escapeHtml(range.cn)}">${escapeHtml(text.slice(range.start, range.end))}</mark>`;
+    pos = range.end;
+  }
+  html += escapeHtml(text.slice(pos));
+  return html;
+}
+
+function openEssay(slug) {
+  const essay = essays.find((item) => item.slug === slug);
+  if (!essay) return;
+
+  essayHeading.textContent = essay.titleCn || essay.title;
+  essayType.textContent = essay.taskType || "Task 2";
+
+  const paragraphs = essay.paragraphs
+    .map((text, index) => {
+      const row = essay.structure[index];
+      const label = row
+        ? `<p class="essay-para-label">${escapeHtml(row.paragraph)} · ${escapeHtml(row.functionCn)}${
+            row.point ? `：${escapeHtml(row.point)}` : ""
+          }</p>`
+        : "";
+      return `${label}<p class="reading-para essay-para">${highlightEssayPhrases(text, essay.phrases)}</p>`;
+    })
+    .join("");
+
+  essayPassage.innerHTML = `
+    <div class="reading-passage-head">
+      <p class="eyebrow">Writing Task 2 · ${escapeHtml(essay.taskType)}</p>
+      <h2>${escapeHtml(essay.title)}</h2>
+    </div>
+    <div class="essay-question">
+      <p>${escapeHtml(essay.question).replace(/\n{2,}/g, "</p><p>")}</p>
+      ${essay.questionCn ? `<p class="essay-question-cn">${escapeHtml(essay.questionCn)}</p>` : ""}
+    </div>
+    <div class="essay-stance">
+      <strong>${escapeHtml(essay.stanceEn)}</strong>
+      <span>${escapeHtml(essay.stanceCn)}</span>
+    </div>
+    ${paragraphs}
+  `;
+
+  essayPanel.innerHTML = `
+    <section class="reading-group">
+      <h4>重点短语 <span class="essay-hint">点击发音，文中同步高亮</span></h4>
+      <div class="essay-phrase-list">
+        ${essay.phrases
+          .map(
+            (phrase) => `
+              <button class="modal-word essay-phrase-item" type="button" data-word="${escapeHtml(phrase.en)}">
+                <strong>${escapeHtml(phrase.en)}</strong>
+                <span>${escapeHtml(phrase.cn)}</span>
+              </button>
+            `,
+          )
+          .join("")}
+      </div>
+    </section>
+    <section class="reading-group">
+      <h4>同类话题观点库</h4>
+      <ul class="essay-ideas">${essay.ideas.map((idea) => `<li>${escapeHtml(idea)}</li>`).join("")}</ul>
+    </section>
+    ${
+      essay.images.length
+        ? `
+          <section class="reading-group">
+            <h4>图卡速览</h4>
+            <div class="essay-thumbs">
+              ${essay.images
+                .map(
+                  (src, index) =>
+                    `<button class="essay-thumb" type="button" data-image="${escapeHtml(src)}"><img src="${escapeHtml(
+                      src,
+                    )}" alt="图卡 ${index + 1}" loading="lazy" /></button>`,
+                )
+                .join("")}
+            </div>
+          </section>
+        `
+        : ""
+    }
+  `;
+
+  essayModal.classList.add("is-open");
+  essayModal.setAttribute("aria-hidden", "false");
+  document.body.classList.add("has-modal");
+  essayPassage.scrollTop = 0;
+  essayPanel.scrollTop = 0;
+}
+
+function closeEssay() {
+  essayModal.classList.remove("is-open");
+  essayModal.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("has-modal");
+}
+
 function attachEvents() {
   topicList.addEventListener("click", (event) => {
     const toggle = event.target.closest("[data-group-toggle]");
@@ -1095,6 +1253,12 @@ function attachEvents() {
       state.expandedGroup = state.expandedGroup === key ? "" : key;
       savePrefs({ expandedGroup: state.expandedGroup });
       renderTopics();
+      return;
+    }
+
+    const essayLink = event.target.closest(".essay-link");
+    if (essayLink) {
+      openEssay(essayLink.dataset.essay);
       return;
     }
 
@@ -1137,6 +1301,35 @@ function attachEvents() {
     },
     true,
   );
+
+  essayClose.addEventListener("click", closeEssay);
+  essayModal.addEventListener("click", (event) => {
+    if (event.target === essayModal) closeEssay();
+  });
+
+  // 文中高亮短语：悬停出中文提示，点击发音
+  essayPassage.addEventListener("click", (event) => {
+    const mark = event.target.closest(".essay-phrase");
+    if (mark) speakExamWord(mark.textContent);
+  });
+  essayPassage.addEventListener("pointerover", (event) => {
+    const mark = event.target.closest(".essay-phrase");
+    if (mark) moveTooltip(mark);
+  });
+  essayPassage.addEventListener("pointerout", (event) => {
+    const mark = event.target.closest(".essay-phrase");
+    if (mark && !mark.contains(event.relatedTarget)) hideTooltip();
+  });
+
+  essayPanel.addEventListener("click", (event) => {
+    const phrase = event.target.closest(".essay-phrase-item");
+    if (phrase) {
+      speakExamWord(phrase.dataset.word);
+      return;
+    }
+    const thumb = event.target.closest(".essay-thumb");
+    if (thumb) openImageDirect(thumb.dataset.image, essayHeading.textContent);
+  });
 
   readingEntry.addEventListener("click", openReading);
   readingClose.addEventListener("click", closeReading);
@@ -1322,15 +1515,20 @@ function attachEvents() {
   });
 
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && readingModal.classList.contains("is-open")) {
-      closeReading();
-      return;
-    }
-
     if (imageModal.classList.contains("is-open")) {
       if (event.key === "Escape") closeImageModal();
       if (event.key === "ArrowLeft") stepModal(-1);
       if (event.key === "ArrowRight") stepModal(1);
+      return;
+    }
+
+    if (event.key === "Escape" && essayModal.classList.contains("is-open")) {
+      closeEssay();
+      return;
+    }
+
+    if (event.key === "Escape" && readingModal.classList.contains("is-open")) {
+      closeReading();
       return;
     }
 

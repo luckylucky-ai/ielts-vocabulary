@@ -23634,3 +23634,321 @@ window.IELTS_VOCAB_TOPICS = [
     "group": "culture"
   }
 ];
+window.IELTS_ESSAYS = [
+  {
+    "slug": "subject-choice",
+    "group": "education",
+    "task": "task2",
+    "taskType": "Discussion + Opinion",
+    "title": "Subject Choice at University",
+    "titleCn": "大学专业选择",
+    "date": "2026-07-11",
+    "question": "Some people believe that university students should study subjects that will be useful in the future, such as science and technology. Others think students should be free to choose subjects they like.\n\nDiscuss both views and give your own opinion.",
+    "questionCn": "大学生应该学习科学技术等未来\"有用\"的学科，还是自由选择自己喜欢的学科？",
+    "stanceEn": "Students should have freedom to choose, but that freedom should be guided by realistic career awareness.",
+    "stanceCn": "应该自由选择，但这份自由要建立在对职业前景的现实认知上。",
+    "paragraphs": [
+      "Choosing a university subject is one of the first major decisions young adults make, and it can shape both their intellectual development and their future careers. While practical subjects such as science and technology clearly offer strong employment prospects, I believe students should be allowed to choose fields that genuinely interest them, provided they make their decisions with a realistic awareness of future opportunities.",
+      "There are good reasons why some people argue that students should focus on subjects with clear practical value. Higher education often requires a significant investment of time and money, so it is reasonable for students and families to consider whether a degree will lead to stable employment. In many countries, graduates in areas such as engineering, computer science and healthcare are more likely to enter industries with strong demand and relatively secure incomes. From this perspective, encouraging students to study useful subjects can protect them from unemployment and help society meet its need for skilled workers.",
+      "However, forcing students into subjects simply because they appear useful can be counterproductive. University study requires years of sustained effort, and students are far more likely to engage deeply with a subject when they find it meaningful. Interest often leads to motivation, independent learning and creativity, all of which are essential for long-term success. For example, a student who loves art may not follow a traditional career path, but by combining artistic ability with digital design, communication or entrepreneurship, they can still build a viable and fulfilling career.",
+      "In conclusion, university students should not be pushed into supposedly practical subjects against their interests. The best approach is to give them freedom to choose, while helping them understand how their chosen field can connect with real skills, career opportunities and social needs."
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出争议 + 表明立场",
+        "point": "自由选择，但要有现实认知"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "讨论实用派",
+        "point": "教育投入大，实用学科就业稳"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "讨论兴趣派（我方）",
+        "point": "兴趣带来动力、深入与创造力"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "回到引导式自由",
+        "point": "自由选择 + 职业引导"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "shape both their intellectual development and their future careers",
+        "cn": "塑造智识发展与未来职业"
+      },
+      {
+        "en": "offer strong employment prospects",
+        "cn": "就业前景好"
+      },
+      {
+        "en": "with a realistic awareness of future opportunities",
+        "cn": "对未来机会有现实认知"
+      },
+      {
+        "en": "a significant investment of time and money",
+        "cn": "时间和金钱的大量投入"
+      },
+      {
+        "en": "lead to stable employment",
+        "cn": "带来稳定就业"
+      },
+      {
+        "en": "meet its need for skilled workers",
+        "cn": "满足社会对技术人才的需求"
+      },
+      {
+        "en": "can be counterproductive",
+        "cn": "可能适得其反"
+      },
+      {
+        "en": "years of sustained effort",
+        "cn": "多年的持续投入"
+      },
+      {
+        "en": "engage deeply with a subject",
+        "cn": "深入投入一门学科"
+      },
+      {
+        "en": "a viable and fulfilling career",
+        "cn": "可行且有成就感的职业"
+      }
+    ],
+    "ideas": [
+      "内在动机：发自内心的兴趣带来更深入的学习。",
+      "就业考量：大学花费高昂，职业前景确实重要。",
+      "社会需求：社会需要医生、工程师、教师和技术人员。",
+      "强迫风险：被迫学不喜欢的学科会削弱学习动力。",
+      "可迁移技能：非职业导向的学科同样能培养有用能力。",
+      "跨界未来：现代职业常常是多个领域的结合。",
+      "市场变化：今天\"有用\"的学科将来未必吃香。",
+      "最佳立场：大学应提供职业引导，而不是限制选择。"
+    ],
+    "images": [
+      "../essays/subject-choice/subject-choice-v3-card-01-cover.png",
+      "../essays/subject-choice/subject-choice-v3-card-02-sample.png",
+      "../essays/subject-choice/subject-choice-v3-card-03-structure.png",
+      "../essays/subject-choice/subject-choice-v3-card-04-phrases.png",
+      "../essays/subject-choice/subject-choice-v3-card-05-ideas.png"
+    ]
+  },
+  {
+    "slug": "traffic-congestion",
+    "group": "city",
+    "task": "task2",
+    "taskType": "Discussion + Opinion",
+    "title": "Traffic Congestion",
+    "titleCn": "交通拥堵",
+    "date": "2026-07-03",
+    "question": "Some people think that governments should invest in public transport to reduce traffic congestion. Others believe that building more roads is a better solution.\n\nDiscuss both views and give your own opinion.",
+    "questionCn": "缓解交通拥堵：投公共交通，还是修更多道路？",
+    "stanceEn": "More roads may ease traffic, but better choices change habits.",
+    "stanceCn": "只修路会反弹，关键是让公共交通足够好用。",
+    "paragraphs": [
+      "The question of whether governments should prioritise public transport or build more roads to reduce traffic congestion remains a subject of considerable debate. While investing in public transport can alleviate the problem to some extent, I believe that neither approach alone is sufficient; only a combination of both can deliver lasting results.",
+      "Proponents of public transportation contend that expanding metro and bus networks can significantly reduce the number of private vehicles on the road, as commuters are offered a viable alternative to driving. This, in turn, would lower carbon emissions and improve urban air quality. However, public transport alone may not be sufficient to address congestion, as it primarily attracts those without access to private cars rather than persuading existing car owners to abandon their vehicles.",
+      "On the other hand, some people argue that building more roads is a better way to tackle this problem. In theory, wider highways and additional lanes would allow traffic to flow more freely, reducing journey times and easing bottlenecks during peak hours. However, this approach fails to account for induced demand, the phenomenon whereby more roads encourage more people to drive, which in turn causes congestion to return to its original level. Rather than solving the problem, road expansion merely postpones it.",
+      "In conclusion, only through combining investment in public transport with strategic road expansion can we effectively alleviate urban congestion. Crucially, the key lies in making public transport sufficiently attractive to lure existing car owners out of their vehicles through greater comfort, reliability and connectivity, rather than merely serving those who have no alternative."
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出争议 + 表明立场",
+        "point": "两种方法结合才有效"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "讨论公共交通",
+        "point": "减少私家车 + 改善空气"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "讨论修更多路",
+        "point": "短期缓解，但有诱导需求"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "回到综合方案",
+        "point": "公共交通吸引车主换出行方式"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "traffic congestion",
+        "cn": "交通拥堵"
+      },
+      {
+        "en": "public transport",
+        "cn": "公共交通"
+      },
+      {
+        "en": "alleviate the problem",
+        "cn": "缓解问题"
+      },
+      {
+        "en": "a viable alternative to driving",
+        "cn": "开车之外的可行选择"
+      },
+      {
+        "en": "lower carbon emissions",
+        "cn": "降低碳排放"
+      },
+      {
+        "en": "urban air quality",
+        "cn": "城市空气质量"
+      },
+      {
+        "en": "private vehicles",
+        "cn": "私家车"
+      },
+      {
+        "en": "easing bottlenecks",
+        "cn": "缓解瓶颈路段"
+      },
+      {
+        "en": "during peak hours",
+        "cn": "高峰时段"
+      },
+      {
+        "en": "induced demand",
+        "cn": "诱导需求"
+      },
+      {
+        "en": "strategic road expansion",
+        "cn": "战略性道路扩建"
+      },
+      {
+        "en": "reliability and connectivity",
+        "cn": "可靠性和连通性"
+      }
+    ],
+    "ideas": [
+      "公共交通：地铁和公交能减少私家车数量。",
+      "环境收益：更少汽车意味着更低排放和更好空气。",
+      "吸引车主：关键不是服务无车人群，而是让车主愿意换乘。",
+      "修路优点：更多车道短期内能缓解瓶颈和通勤时间。",
+      "诱导需求：路越多，开车的人也可能越多，拥堵会回归。",
+      "城市空间：道路扩建会占用土地，不一定可持续。",
+      "综合治理：公共交通、道路规划和停车政策应结合。",
+      "最佳立场：单一方案不够，长期效果来自出行习惯改变。"
+    ],
+    "images": [
+      "../essays/traffic-congestion/traffic-congestion-card-01-cover.png",
+      "../essays/traffic-congestion/traffic-congestion-card-02-sample.png",
+      "../essays/traffic-congestion/traffic-congestion-card-03-structure.png",
+      "../essays/traffic-congestion/traffic-congestion-card-04-phrases.png",
+      "../essays/traffic-congestion/traffic-congestion-card-05-ideas.png"
+    ]
+  },
+  {
+    "slug": "ai-education",
+    "group": "education",
+    "task": "task2",
+    "taskType": "Discussion + Opinion",
+    "title": "AI Tools in Education",
+    "titleCn": "AI 与教育",
+    "date": "2026-06-29",
+    "question": "Some people believe that artificial intelligence tools should be widely used in education. Others think they may have a negative effect on students' learning ability.\n\nDiscuss both views and give your own opinion.",
+    "questionCn": "有人认为 AI 工具应该广泛用于教育。另一些人认为它们可能会影响学生的学习能力。讨论双方观点并给出你的看法。",
+    "stanceEn": "AI should be a supportive tool rather than a substitute for active learning.",
+    "stanceCn": "AI 可以辅助学习，但不能替代主动思考。",
+    "paragraphs": [
+      "The question of whether AI tools should be widely used in education remains a subject of considerable debate, often pitting learning efficiency against students' independent thinking. While some argue that AI can make education more personalised and accessible, I believe that it should be used as a supportive tool rather than a substitute for active learning.",
+      "Proponents of AI tools argue that they can make learning more efficient and personalised. Unlike traditional classroom teaching, which often has to follow the same pace for all students, AI can provide immediate explanations and targeted practice based on individual weaknesses. For example, a student who struggles with grammar or mathematics can receive step-by-step guidance without waiting for the teacher's attention. In this sense, AI can reduce unnecessary frustration and help students make progress at their own pace.",
+      "Admittedly, these benefits are valuable. However, I would argue that excessive reliance on AI may weaken students' ability to think independently. If students habitually turn to AI for ready-made answers, they may become less willing to analyse problems, test ideas, or tolerate confusion. This matters because real learning often happens through the process of struggling with uncertainty, not simply receiving correct answers. Over time, students may become efficient at obtaining information but poor at developing judgement, creativity and problem-solving skills.",
+      "In conclusion, although AI tools can improve learning efficiency and provide personalised support, I believe they should be used carefully. The best approach is to treat AI as a learning assistant, while ensuring that students still practise independent thinking and active problem-solving."
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出争议 + 表明立场",
+        "point": "AI 是辅助工具，不是替代品"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "讨论支持方",
+        "point": "效率更高 + 个性化学习"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "讨论我的观点",
+        "point": "过度依赖会削弱独立思考"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "回到折中判断",
+        "point": "谨慎使用 + 保留主动学习"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "learning efficiency",
+        "cn": "学习效率"
+      },
+      {
+        "en": "independent thinking",
+        "cn": "独立思考"
+      },
+      {
+        "en": "personalised and accessible",
+        "cn": "个性化且更易获得的"
+      },
+      {
+        "en": "a supportive tool rather than a substitute",
+        "cn": "辅助工具，而不是替代品"
+      },
+      {
+        "en": "active learning",
+        "cn": "主动学习"
+      },
+      {
+        "en": "targeted practice",
+        "cn": "针对性练习"
+      },
+      {
+        "en": "individual weaknesses",
+        "cn": "个人薄弱点"
+      },
+      {
+        "en": "step-by-step guidance",
+        "cn": "一步步的指导"
+      },
+      {
+        "en": "excessive reliance on AI",
+        "cn": "过度依赖 AI"
+      },
+      {
+        "en": "ready-made answers",
+        "cn": "现成答案"
+      },
+      {
+        "en": "tolerate confusion",
+        "cn": "忍受困惑 / 不确定感"
+      },
+      {
+        "en": "developing judgement, creativity and problem-solving skills",
+        "cn": "发展判断力、创造力与解决问题的能力"
+      }
+    ],
+    "ideas": [
+      "学习效率：AI 能即时解释问题，减少等待和挫败感。",
+      "个性化学习：AI 可以根据薄弱点提供针对性练习。",
+      "教育公平：偏远地区学生也能获得基础学习支持。",
+      "思维惰性：过度依赖现成答案，会降低主动分析能力。",
+      "判断力风险：AI 可能给出错误答案，学生必须学会判断。",
+      "创造力发展：真正的创造常来自试错、困惑和反思。",
+      "教师角色：教师不应被替代，而应负责引导和反馈。",
+      "最佳立场：AI 可以使用，但必须服务于主动学习。"
+    ],
+    "images": [
+      "../essays/ai-education/ai-education-card-01-cover.png",
+      "../essays/ai-education/ai-education-card-02-sample.png",
+      "../essays/ai-education/ai-education-card-03-structure.png",
+      "../essays/ai-education/ai-education-card-04-phrases.png",
+      "../essays/ai-education/ai-education-card-05-ideas.png"
+    ]
+  }
+];
