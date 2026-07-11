@@ -1183,30 +1183,6 @@ function openEssay(slug) {
     })
     .join("");
 
-  // 文章骨架：一眼看清 Intro / Body / Conclusion 各写什么
-  const outline = essay.structure.length
-    ? `
-      <div class="essay-outline">
-        <p class="essay-outline-title">文章骨架</p>
-        <ol class="essay-outline-list">
-          ${essay.structure
-            .map(
-              (row) => `
-                <li>
-                  <span class="essay-outline-tag">${escapeHtml(row.paragraph)}</span>
-                  <div class="essay-outline-body">
-                    <strong>${escapeHtml(row.functionCn)}</strong>
-                    ${row.point ? `<span>${escapeHtml(row.point)}</span>` : ""}
-                  </div>
-                </li>
-              `,
-            )
-            .join("")}
-        </ol>
-      </div>
-    `
-    : "";
-
   essayPassage.innerHTML = `
     <div class="reading-passage-head">
       <p class="eyebrow">Writing Task 2 · ${escapeHtml(essay.taskType)}</p>
@@ -1220,7 +1196,6 @@ function openEssay(slug) {
       <strong>${escapeHtml(essay.stanceEn)}</strong>
       <span>${escapeHtml(essay.stanceCn)}</span>
     </div>
-    ${outline}
     ${paragraphs}
   `;
 
