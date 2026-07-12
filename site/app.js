@@ -67,6 +67,11 @@ const modalNext = document.querySelector("#modalNext");
 const magnifier = document.querySelector("#magnifier");
 const groupEyebrow = document.querySelector("#groupEyebrow");
 const workbenchActions = document.querySelector("#workbenchActions");
+const tipButton = document.querySelector("#tipButton");
+const tipModal = document.querySelector("#tipModal");
+const tipClose = document.querySelector("#tipClose");
+const tipTabs = document.querySelector("#tipTabs");
+const tipQr = document.querySelector("#tipQr");
 const readingModal = document.querySelector("#readingModal");
 const readingClose = document.querySelector("#readingClose");
 const readingPassage = document.querySelector("#readingPassage");
@@ -1387,7 +1392,57 @@ function closeEssayList() {
   essayListBackdrop.hidden = true;
 }
 
+// ---------- 打赏 ----------
+const tipQrSrc = { wechat: "./assets/qr-wechat.png", alipay: "./assets/qr-alipay.png" };
+
+function openTip() {
+  tipModal.classList.add("is-open");
+  tipModal.setAttribute("aria-hidden", "false");
+  document.body.classList.add("has-modal");
+}
+
+function closeTip() {
+  tipModal.classList.remove("is-open");
+  tipModal.setAttribute("aria-hidden", "true");
+  if (!essayModal.classList.contains("is-open") && !readingModal.classList.contains("is-open")) {
+    document.body.classList.remove("has-modal");
+  }
+}
+
+function switchTipPay(pay) {
+  tipTabs.querySelectorAll(".tip-tab").forEach((tab) => tab.classList.toggle("is-active", tab.dataset.pay === pay));
+  tipQr.closest(".tip-qr").classList.remove("is-missing");
+  tipQr.src = tipQrSrc[pay] || tipQrSrc.wechat;
+}
+
+// 头像加载失败时用首字母兜底，避免碎图（含 JS 执行前就已失败的情况）
+function replaceWithInitial(img) {
+  const fallback = document.createElement("span");
+  fallback.className = img.className + " avatar-fallback";
+  fallback.textContent = "椰";
+  img.replaceWith(fallback);
+}
+
+function attachAvatarFallback() {
+  document.querySelectorAll(".author-avatar, .tip-avatar").forEach((img) => {
+    if (img.complete && img.naturalWidth === 0) replaceWithInitial(img);
+    else img.addEventListener("error", () => replaceWithInitial(img));
+  });
+}
+
 function attachEvents() {
+  tipQr.addEventListener("error", () => tipQr.closest(".tip-qr").classList.add("is-missing"));
+
+  tipButton.addEventListener("click", openTip);
+  tipClose.addEventListener("click", closeTip);
+  tipModal.addEventListener("click", (event) => {
+    if (event.target === tipModal) closeTip();
+  });
+  tipTabs.addEventListener("click", (event) => {
+    const tab = event.target.closest(".tip-tab");
+    if (tab) switchTipPay(tab.dataset.pay);
+  });
+
   topicList.addEventListener("click", (event) => {
     const toggle = event.target.closest("[data-group-toggle]");
     if (toggle) {
@@ -1689,6 +1744,11 @@ function attachEvents() {
       return;
     }
 
+    if (event.key === "Escape" && tipModal.classList.contains("is-open")) {
+      closeTip();
+      return;
+    }
+
     if (event.key === "Escape" && essayModal.classList.contains("is-open")) {
       closeEssay();
       return;
@@ -1743,4 +1803,5 @@ renderWorkbench();
 renderExamIntro();
 renderMistakes();
 loadVoices();
+attachAvatarFallback();
 attachEvents();

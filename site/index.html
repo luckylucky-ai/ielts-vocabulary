@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IELTS Topic Studio · 话题式雅思备考</title>
-    <link rel="stylesheet" href="./styles.css?v=31ee0991" />
+    <link rel="stylesheet" href="./styles.css?v=09ceff0a" />
   </head>
   <body>
     <main class="shell">
@@ -28,6 +28,15 @@
         </nav>
 
         <div class="stats" id="stats"></div>
+
+        <div class="author-card">
+          <img class="author-avatar" id="authorAvatar" src="./assets/avatar.png" alt="随机漫步的椰椰" />
+          <div class="author-meta">
+            <strong>随机漫步的椰椰</strong>
+            <a id="authorLink" href="https://www.xiaohongshu.com" target="_blank" rel="noopener">小红书主页 ↗</a>
+          </div>
+          <button class="author-tip" id="tipButton" type="button">☕ Buy me a coffee</button>
+        </div>
       </aside>
 
       <section class="content">
@@ -182,9 +191,25 @@
         </aside>
       </div>
     </div>
+    <div class="tip-modal" id="tipModal" aria-hidden="true">
+      <button class="modal-close" id="tipClose" type="button" aria-label="关闭">×</button>
+      <div class="tip-card">
+        <img class="tip-avatar" id="tipAvatar" src="./assets/avatar.png" alt="" />
+        <h3>Buy me a coffee ☕</h3>
+        <p>这个网站是我一个人做的，你的支持是我持续更新的动力～</p>
+        <div class="tip-tabs" id="tipTabs" role="group" aria-label="收款方式">
+          <button class="tip-tab is-active" type="button" data-pay="wechat">微信</button>
+          <button class="tip-tab" type="button" data-pay="alipay">支付宝</button>
+        </div>
+        <div class="tip-qr">
+          <img id="tipQr" src="./assets/qr-wechat.png" alt="收款码" />
+        </div>
+        <p class="tip-hint">打开手机扫一扫，金额随意</p>
+      </div>
+    </div>
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
     <script src="./data.js?v=c6cf7442"></script>
-    <script src="./app.js?v=84bb3f38"></script>
+    <script src="./app.js?v=5367e784"></script>
   </body>
 </html>
