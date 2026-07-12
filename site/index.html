@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IELTS Topic Studio · 话题式雅思备考</title>
-    <link rel="stylesheet" href="./styles.css?v=f1998e79" />
+    <link rel="stylesheet" href="./styles.css?v=31ee0991" />
   </head>
   <body>
     <main class="shell">
@@ -22,21 +22,6 @@
           <input id="searchInput" type="search" placeholder="输入 topic / word / 中文" autocomplete="off" />
         </label>
 
-        <button class="exam-entry" id="examEntry" type="button">
-          <span>单词考试</span>
-          <em id="examEntryBadge" hidden></em>
-        </button>
-
-        <button class="exam-entry reading-entry" id="readingEntry" type="button" hidden>
-          <span>阅读练习</span>
-          <em id="readingEntryBadge"></em>
-        </button>
-
-        <button class="exam-entry essay-entry" id="essayEntry" type="button" hidden>
-          <span>写作范文</span>
-          <em id="essayEntryBadge"></em>
-        </button>
-
         <nav class="topic-nav" aria-label="选择话题">
           <p class="topic-nav-label">话题</p>
           <div class="topic-list" id="topicList"></div>
@@ -47,9 +32,10 @@
 
       <section class="content">
         <div class="toolbar">
-          <div>
-            <p class="eyebrow">Interactive gallery</p>
+          <div class="workbench-head">
+            <p class="eyebrow" id="groupEyebrow" hidden></p>
             <h2 id="pageTitle">雅思话题词汇卡片</h2>
+            <div class="workbench-actions" id="workbenchActions"></div>
           </div>
           <div class="voice-control">
             <label for="voiceSelect">发音</label>
@@ -199,6 +185,6 @@
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
     <script src="./data.js?v=c6cf7442"></script>
-    <script src="./app.js?v=61c8f77f"></script>
+    <script src="./app.js?v=84bb3f38"></script>
   </body>
 </html>

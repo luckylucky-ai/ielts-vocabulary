@@ -298,6 +298,64 @@ h1 {
   border-bottom: 1px solid var(--line);
 }
 
+/* 话题工作台：话题名 + 该话题可练的技能动作 */
+.workbench-head {
+  min-width: 0;
+}
+
+.workbench-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.wb-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--border-strong, rgba(33, 29, 22, 0.28));
+  border-radius: 8px;
+  background: var(--card);
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 9px 15px;
+  transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
+}
+
+.wb-action:hover {
+  border-color: var(--ink);
+  transform: translateY(-1px);
+}
+
+.wb-action em {
+  color: var(--muted);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.wb-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--muted);
+}
+
+.wb-exam .wb-dot {
+  background: var(--ink);
+}
+
+.wb-reading .wb-dot {
+  background: var(--accent);
+}
+
+.wb-essay .wb-dot {
+  background: var(--clay);
+}
+
 .eyebrow {
   color: var(--muted);
   font-size: 11px;

@@ -62,13 +62,11 @@ const mistakeRetake = document.querySelector("#mistakeRetake");
 const examDrawer = document.querySelector("#examDrawer");
 const examBackdrop = document.querySelector("#examBackdrop");
 const examClose = document.querySelector("#examClose");
-const examEntry = document.querySelector("#examEntry");
-const examEntryBadge = document.querySelector("#examEntryBadge");
 const modalPrev = document.querySelector("#modalPrev");
 const modalNext = document.querySelector("#modalNext");
 const magnifier = document.querySelector("#magnifier");
-const readingEntry = document.querySelector("#readingEntry");
-const readingEntryBadge = document.querySelector("#readingEntryBadge");
+const groupEyebrow = document.querySelector("#groupEyebrow");
+const workbenchActions = document.querySelector("#workbenchActions");
 const readingModal = document.querySelector("#readingModal");
 const readingClose = document.querySelector("#readingClose");
 const readingPassage = document.querySelector("#readingPassage");
@@ -77,8 +75,6 @@ const readingScore = document.querySelector("#readingScore");
 const readingQuestions = document.querySelector("#readingQuestions");
 const readingSubmit = document.querySelector("#readingSubmit");
 const readingReset = document.querySelector("#readingReset");
-const essayEntry = document.querySelector("#essayEntry");
-const essayEntryBadge = document.querySelector("#essayEntryBadge");
 const essayListDrawer = document.querySelector("#essayListDrawer");
 const essayListBackdrop = document.querySelector("#essayListBackdrop");
 const essayListClose = document.querySelector("#essayListClose");
@@ -236,12 +232,6 @@ function renderTopics() {
 
 function renderGallery() {
   const cards = filteredCards();
-  const active = topics.find((topic) => topic.slug === state.activeTopic);
-  pageTitle.textContent = normalize(state.query)
-    ? `搜索结果 · ${cards.length} 张（全部话题）`
-    : state.activeTopic === "all"
-      ? "雅思话题词汇卡片"
-      : active?.title || "雅思话题词汇卡片";
 
   if (!cards.length) {
     gallery.innerHTML = `<div class="empty">没有找到匹配的卡片，换个关键词试试。</div>`;
@@ -294,7 +284,7 @@ function renderGallery() {
 function render() {
   renderTopics();
   renderGallery();
-  updateReadingEntry();
+  renderWorkbench();
 }
 
 // 阅读练习是话题专属的：只在选中某个带阅读的话题时提供入口
@@ -303,14 +293,55 @@ function currentReading() {
   return topic?.reading || null;
 }
 
-function updateReadingEntry() {
-  const reading = currentReading();
-  readingEntry.hidden = !reading;
-  if (reading) readingEntryBadge.textContent = `${reading.questionCount} 题`;
+// 写作范文挂在主话题（group）上：当前话题所属 group 的范文；「全部话题」时是全部范文
+function currentEssays() {
+  if (state.activeTopic === "all") return essays;
+  const topic = topics.find((item) => item.slug === state.activeTopic);
+  return topic ? essays.filter((essay) => essay.group === topic.group) : [];
+}
 
-  // 写作范文是全站一级入口：有范文就常驻显示
-  essayEntry.hidden = !essays.length;
-  if (essays.length) essayEntryBadge.textContent = `${essays.length} 篇`;
+// 话题工作台头部：话题名 + 该话题可练的技能动作
+function renderWorkbench() {
+  const query = normalize(state.query);
+  const topic = topics.find((item) => item.slug === state.activeTopic);
+  const group = topic ? (window.IELTS_TOPIC_GROUPS || []).find((g) => g.key === topic.group) : null;
+
+  if (query) {
+    groupEyebrow.hidden = true;
+    pageTitle.textContent = `搜索结果 · ${filteredCards().length} 张（全部话题）`;
+    workbenchActions.innerHTML = "";
+    return;
+  }
+
+  groupEyebrow.hidden = !group;
+  if (group) groupEyebrow.textContent = group.title;
+  pageTitle.textContent = state.activeTopic === "all" ? "全部话题" : topic?.title || "雅思话题词汇卡片";
+
+  const wordCount = wordsForTopic().length;
+  const reading = currentReading();
+  const topicEssays = currentEssays();
+  const actions = [
+    `<button class="wb-action wb-exam" type="button" data-wb="exam">
+      <i class="wb-dot" aria-hidden="true"></i>单词考试<em>${wordCount} 词</em>
+    </button>`,
+  ];
+  if (reading) {
+    actions.push(`<button class="wb-action wb-reading" type="button" data-wb="reading">
+      <i class="wb-dot" aria-hidden="true"></i>阅读练习<em>${reading.questionCount} 题</em>
+    </button>`);
+  }
+  if (topicEssays.length) {
+    actions.push(`<button class="wb-action wb-essay" type="button" data-wb="essay">
+      <i class="wb-dot" aria-hidden="true"></i>写作范文<em>${topicEssays.length} 篇</em>
+    </button>`);
+  }
+  workbenchActions.innerHTML = actions.join("");
+}
+
+function openEssayFromWorkbench() {
+  const list = currentEssays();
+  if (list.length === 1) openEssay(list[0].slug);
+  else if (list.length > 1) openEssayList();
 }
 
 const reducedMotionQuery = window.matchMedia?.("(prefers-reduced-motion: reduce)");
@@ -653,8 +684,6 @@ function renderMistakes() {
 
   mistakeRetake.disabled = !list.length;
   mistakeClear.disabled = !list.length;
-  examEntryBadge.hidden = !all.length;
-  examEntryBadge.textContent = all.length ? `错题 ${all.length}` : "";
 
   if (!list.length) {
     const hint =
@@ -1315,12 +1344,13 @@ function closeEssay() {
 const groupTitleOf = (key) => (window.IELTS_TOPIC_GROUPS || []).find((g) => g.key === key)?.title || "其他";
 
 function renderEssayList() {
-  if (!essays.length) {
-    essayList.innerHTML = `<p class="mistake-empty">还没有范文。</p>`;
+  const list = currentEssays();
+  if (!list.length) {
+    essayList.innerHTML = `<p class="mistake-empty">这个话题还没有范文。</p>`;
     return;
   }
   const byGroup = new Map();
-  for (const essay of essays) {
+  for (const essay of list) {
     if (!byGroup.has(essay.group)) byGroup.set(essay.group, []);
     byGroup.get(essay.group).push(essay);
   }
@@ -1391,10 +1421,18 @@ function attachEvents() {
     searchTimer = setTimeout(() => {
       state.query = event.target.value;
       renderGallery();
+      renderWorkbench();
     }, 180);
   });
 
-  examEntry.addEventListener("click", openExamDrawer);
+  workbenchActions.addEventListener("click", (event) => {
+    const btn = event.target.closest(".wb-action");
+    if (!btn) return;
+    if (btn.dataset.wb === "exam") openExamDrawer();
+    else if (btn.dataset.wb === "reading") openReading();
+    else if (btn.dataset.wb === "essay") openEssayFromWorkbench();
+  });
+
   examClose.addEventListener("click", closeExamDrawer);
   examBackdrop.addEventListener("click", closeExamDrawer);
 
@@ -1414,7 +1452,6 @@ function attachEvents() {
     true,
   );
 
-  essayEntry.addEventListener("click", openEssayList);
   essayListClose.addEventListener("click", closeEssayList);
   essayListBackdrop.addEventListener("click", closeEssayList);
   essayList.addEventListener("click", (event) => {
@@ -1462,7 +1499,6 @@ function attachEvents() {
     toggle.classList.toggle("is-on", on);
   });
 
-  readingEntry.addEventListener("click", openReading);
   readingClose.addEventListener("click", closeReading);
   readingSubmit.addEventListener("click", submitReading);
   readingReset.addEventListener("click", () => openReading());
@@ -1703,7 +1739,7 @@ migrateLegacyMistakes();
 renderStats();
 renderTopics();
 renderGallery();
-updateReadingEntry();
+renderWorkbench();
 renderExamIntro();
 renderMistakes();
 loadVoices();
