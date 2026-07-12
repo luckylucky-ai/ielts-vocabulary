@@ -42,6 +42,16 @@ However, forcing students into subjects simply because they appear useful can be
 
 In conclusion, university students should not be pushed into supposedly practical subjects against their interests. The best approach is to give them freedom to choose, while helping them understand how their chosen field can connect with real skills, career opportunities and social needs.
 
+## 全文翻译
+
+选择大学专业是年轻人最早做出的重大决定之一，它既能塑造一个人的智识发展，也影响其未来职业。虽然科学、技术这类实用专业显然能提供更好的就业前景，但我认为，只要学生在做决定时对未来机会有现实的认知，就应当被允许选择自己真正感兴趣的领域。
+
+有人主张学生应专注于有明确实用价值的专业，这是有道理的。高等教育往往需要投入大量时间和金钱，因此学生和家庭考虑一个学位能否带来稳定就业是合理的。在许多国家，工程、计算机科学和医疗等领域的毕业生更有可能进入需求旺盛、收入相对稳定的行业。从这个角度看，鼓励学生学习实用专业，能让他们免于失业，也帮助社会满足对技术人才的需求。
+
+然而，仅仅因为某个专业看起来有用就强迫学生去学，可能会适得其反。大学学习需要多年的持续投入，而当学生觉得一门学科有意义时，他们更有可能深入钻研。兴趣往往带来动力、自主学习和创造力，而这些对长期成功都至关重要。例如，一个热爱艺术的学生也许不会走传统的职业道路，但通过把艺术能力与数字设计、传播或创业结合起来，他们依然能建立一份可行而有成就感的职业。
+
+总之，不应违背学生的兴趣，把他们推向所谓"实用"的专业。最好的做法是给他们选择的自由，同时帮助他们理解自己所选的领域如何与实际技能、职业机会和社会需求相衔接。
+
 ## 文章结构
 
 | Paragraph | Function | Main Point |
@@ -67,6 +77,27 @@ In conclusion, university students should not be pushed into supposedly practica
 | years of sustained effort | 多年的持续投入 |
 | engage deeply with a subject | 深入投入一门学科 |
 | a viable and fulfilling career | 可行且有成就感的职业 |
+
+## 同义替换
+
+| 意义 | 同义表达 |
+|---|---|
+| 主张 / 认为 | argue, contend, maintain, hold |
+| 塑造 / 影响 | shape, influence, mould, affect |
+| 提供 | offer, provide, give, present |
+| 深入投入 | engage deeply with, immerse in, dedicate to |
+| 带来 / 导致 | lead to, result in, bring about |
+| 重要的 | essential, crucial, vital |
+| 适得其反 | counterproductive, backfire, self-defeating |
+
+## 得分点
+
+| 维度 | 这篇的体现 |
+|---|---|
+| Task Response 任务回应 | 讨论"实用 vs 兴趣"双方，明确站兴趣一方但加"现实认知"的限定，立场平衡有条件，回应充分 |
+| Coherence & Cohesion 连贯衔接 | There are good reasons / From this perspective / However / For example / In conclusion 推进论证 |
+| Lexical Resource 词汇 | employment prospects、sustained effort、a viable and fulfilling career、counterproductive 等；argue / contend、offer / provide 同义替换 |
+| Grammatical Range 语法 | 让步从句（While…）、定语从句（who loves art…）、provided 条件状语、all of which 非限定从句，句式高级多样 |
 
 ## 观点库
 

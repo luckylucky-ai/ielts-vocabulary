@@ -42,6 +42,16 @@ Admittedly, these benefits are valuable. However, I would argue that excessive r
 
 In conclusion, although AI tools can improve learning efficiency and provide personalised support, I believe they should be used carefully. The best approach is to treat AI as a learning assistant, while ensuring that students still practise independent thinking and active problem-solving.
 
+## 全文翻译
+
+AI 工具是否应广泛用于教育，一直是一个颇具争议的话题，它常常把学习效率和学生的独立思考对立起来。虽然有人认为 AI 能让教育更个性化、更易获得，但我认为它应当作为辅助工具，而不是主动学习的替代品。
+
+支持 AI 工具的人认为，它能让学习更高效、更个性化。与常常必须让所有学生保持同一进度的传统课堂教学不同，AI 能根据每个人的薄弱点提供即时讲解和针对性练习。例如，一个在语法或数学上有困难的学生，无需等待老师关注就能获得一步步的指导。从这个意义上说，AI 能减少不必要的挫败感，帮助学生按自己的节奏进步。
+
+诚然，这些好处很有价值。然而，我认为过度依赖 AI 可能会削弱学生独立思考的能力。如果学生习惯性地向 AI 索取现成答案，他们可能会变得不太愿意分析问题、检验想法或忍受困惑。这一点很重要，因为真正的学习往往发生在与不确定性搏斗的过程中，而不仅仅是接收正确答案。久而久之，学生可能善于获取信息，却不擅长培养判断力、创造力和解决问题的能力。
+
+总之，尽管 AI 工具能提升学习效率、提供个性化支持，但我认为应谨慎使用。最好的做法是把 AI 当作学习助手，同时确保学生仍然练习独立思考和主动解决问题。
+
 ## 文章结构
 
 | Paragraph | Function | Main Point |
@@ -69,6 +79,26 @@ In conclusion, although AI tools can improve learning efficiency and provide per
 | ready-made answers | 现成答案 |
 | tolerate confusion | 忍受困惑 / 不确定感 |
 | developing judgement, creativity and problem-solving skills | 发展判断力、创造力与解决问题的能力 |
+
+## 同义替换
+
+| 意义 | 同义表达 |
+|---|---|
+| 认为 / 主张 | argue, contend, believe, maintain |
+| 提升 / 改善 | improve, enhance, boost |
+| 削弱 | weaken, undermine, erode |
+| 依赖 | reliance on, dependence on, turn to |
+| 帮助 | help, assist, support, aid |
+| 减少 | reduce, lessen, cut down |
+
+## 得分点
+
+| 维度 | 这篇的体现 |
+|---|---|
+| Task Response 任务回应 | 讨论 AI 支持与反对两面，先承认好处（Admittedly）再提出"辅助而非替代"的核心立场，观点前后一致 |
+| Coherence & Cohesion 连贯衔接 | Unlike / For example / In this sense / However / Over time / In conclusion 让论证层层推进 |
+| Lexical Resource 词汇 | learning efficiency、targeted practice、tolerate confusion、developing judgement 等表达；argue / contend、improve / enhance 同义替换 |
+| Grammatical Range 语法 | 定语从句（which often has to follow…）、条件句（If students…）、让步（although）、动名词并列，句式丰富准确 |
 
 ## 观点库
 

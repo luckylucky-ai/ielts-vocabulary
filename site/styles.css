@@ -2032,6 +2032,112 @@ body.is-exam-active .gallery {
   font-weight: 500;
 }
 
+/* 中英对照：译文默认隐藏，开关开启后显示 */
+.essay-trans-toggle {
+  margin-top: 12px;
+  border: 1px solid rgba(33, 29, 22, 0.28);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 12.5px;
+  font-weight: 700;
+  padding: 5px 14px;
+  transition: background 140ms ease, border-color 140ms ease, color 140ms ease;
+}
+
+.essay-trans-toggle:hover {
+  border-color: var(--ink);
+}
+
+.essay-trans-toggle.is-on {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--paper);
+}
+
+.essay-translation {
+  display: none;
+  margin: 6px 0 18px;
+  padding: 10px 14px;
+  border-left: 2px solid rgba(68, 96, 78, 0.4);
+  background: rgba(68, 96, 78, 0.05);
+  border-radius: 0 8px 8px 0;
+  color: #4b453a;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.show-translation .essay-translation {
+  display: block;
+}
+
+/* 同义替换 */
+.essay-syn-list {
+  display: grid;
+  gap: 12px;
+}
+
+.essay-syn-sense {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--clay);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.essay-syn-words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.essay-syn-word {
+  border: 1px solid rgba(33, 29, 22, 0.2);
+  border-radius: 999px;
+  background: transparent;
+  color: #38332a;
+  cursor: pointer;
+  font-size: 12.5px;
+  font-weight: 620;
+  padding: 5px 11px;
+  transition: background 140ms ease, border-color 140ms ease, color 140ms ease;
+}
+
+.essay-syn-word:hover {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* 得分点：雅思四维 */
+.essay-score-list {
+  display: grid;
+  gap: 8px;
+}
+
+.essay-score-item {
+  display: grid;
+  gap: 3px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  background: rgba(33, 29, 23, 0.02);
+}
+
+.essay-score-item strong {
+  color: var(--accent);
+  font-size: 12.5px;
+  font-weight: 800;
+}
+
+.essay-score-item span {
+  color: #4b453a;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
 .essay-phrase-list {
   display: grid;
   gap: 8px;

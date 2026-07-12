@@ -334,7 +334,7 @@ function parseTableRows(text) {
     .split("\n")
     .filter((line) => line.trim().startsWith("|") && !/^\|[\s:-]+\|/.test(line.trim().replace(/\|/g, "|")))
     .map((line) => line.split("|").slice(1, -1).map((cell) => cell.trim()))
-    .filter((cells) => cells.length >= 2 && !/^[-\s:]+$/.test(cells[0]) && !/^Paragraph$|^Phrase$/i.test(cells[0]));
+    .filter((cells) => cells.length >= 2 && !/^[-\s:]+$/.test(cells[0]) && !/^(Paragraph|Phrase|意义|维度)$/i.test(cells[0]));
 }
 
 function parseEssayDir(dirName) {
@@ -359,6 +359,16 @@ function parseEssayDir(dirName) {
     .map((line) => line.match(/^-\s+(.+)/)?.[1])
     .filter(Boolean);
 
+  // 全文翻译：逐段，与范文段落一一对应
+  const translation = (sections["全文翻译"] || "").split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
+  // 同义替换：每行一组「意义 → 同义词列表」
+  const synonyms = parseTableRows(sections["同义替换"]).map((cells) => ({
+    sense: cells[0],
+    words: cells[1].split(/[,，]/).map((w) => w.trim()).filter(Boolean),
+  }));
+  // 得分点：雅思四维 → 这篇的体现
+  const scoring = parseTableRows(sections["得分点"]).map((cells) => ({ dimension: cells[0], detail: cells[1] }));
+
   // 校验：短语必须在范文中逐字出现（供前端高亮）
   for (const phrase of phrases) {
     if (!essayText.toLowerCase().includes(phrase.en.toLowerCase())) {
@@ -380,8 +390,11 @@ function parseEssayDir(dirName) {
     stanceEn: stanceLines[0] || "",
     stanceCn: stanceLines[1] || "",
     paragraphs,
+    translation,
     structure,
     phrases,
+    synonyms,
+    scoring,
     ideas,
     images: (meta.cards || []).map((file) => `../essays/${dirName}/${file}`),
   };

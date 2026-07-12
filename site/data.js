@@ -22,6 +22,10 @@ window.IELTS_TOPIC_GROUPS = [
   {
     "key": "culture",
     "title": "文化与生活"
+  },
+  {
+    "key": "other",
+    "title": "其他"
   }
 ];
 window.IELTS_VOCAB_TOPICS = [
@@ -3477,6 +3481,572 @@ window.IELTS_VOCAB_TOPICS = [
       "questionCount": 13
     },
     "group": "nature"
+  },
+  {
+    "slug": "04-plants-and-agriculture-round2",
+    "title": "植物与农业（Plants & Agriculture）— 第二轮·进阶版",
+    "shortTitle": "Plants And Agriculture Round2",
+    "cards": [
+      {
+        "cardNumber": 1,
+        "subtitle": "植物适应与防御机制（Plant Adaptation & Defense Mechanisms）",
+        "words": [
+          {
+            "word": "xerophyte",
+            "ipa": "/ˈzɪərəfaɪt/",
+            "pos": "n",
+            "meaning": "旱生植物"
+          },
+          {
+            "word": "succulent",
+            "ipa": "/ˈsʌkjələnt/",
+            "pos": "adj/n",
+            "meaning": "多汁植物"
+          },
+          {
+            "word": "halophyte",
+            "ipa": "/ˈhæləfaɪt/",
+            "pos": "n",
+            "meaning": "盐生植物"
+          },
+          {
+            "word": "thorn",
+            "ipa": "/θɔːn/",
+            "pos": "n",
+            "meaning": "刺"
+          },
+          {
+            "word": "resin",
+            "ipa": "/ˈrezɪn/",
+            "pos": "n",
+            "meaning": "树脂"
+          },
+          {
+            "word": "epiphyte",
+            "ipa": "/ˈepɪfaɪt/",
+            "pos": "n",
+            "meaning": "附生植物"
+          },
+          {
+            "word": "parasitic",
+            "ipa": "/ˌpærəˈsɪtɪk/",
+            "pos": "adj",
+            "meaning": "寄生的"
+          },
+          {
+            "word": "symbiosis",
+            "ipa": "/ˌsɪmbaɪˈəʊsɪs/",
+            "pos": "n",
+            "meaning": "共生"
+          },
+          {
+            "word": "carnivorous",
+            "ipa": "/kɑːˈnɪvərəs/",
+            "pos": "adj",
+            "meaning": "食肉的"
+          },
+          {
+            "word": "wilt",
+            "ipa": "/wɪlt/",
+            "pos": "v",
+            "meaning": "枯萎"
+          },
+          {
+            "word": "drought-resistant",
+            "ipa": "/draʊt rɪˈzɪstənt/",
+            "pos": "adj",
+            "meaning": "抗旱的"
+          },
+          {
+            "word": "regenerate",
+            "ipa": "/rɪˈdʒenəreɪt/",
+            "pos": "v",
+            "meaning": "再生"
+          },
+          {
+            "word": "toxin",
+            "ipa": "/ˈtɒksɪn/",
+            "pos": "n",
+            "meaning": "毒素"
+          },
+          {
+            "word": "deterrent",
+            "ipa": "/dɪˈterənt/",
+            "pos": "n",
+            "meaning": "威慑物"
+          },
+          {
+            "word": "camouflage",
+            "ipa": "/ˈkæməflɑːʒ/",
+            "pos": "n/v",
+            "meaning": "伪装"
+          },
+          {
+            "word": "tannin",
+            "ipa": "/ˈtænɪn/",
+            "pos": "n",
+            "meaning": "单宁"
+          },
+          {
+            "word": "adaptive",
+            "ipa": "/əˈdæptɪv/",
+            "pos": "adj",
+            "meaning": "适应性的"
+          }
+        ],
+        "image": "../outputs/04-plants-and-agriculture-round2/generated-with-text/04-card-01-generated-text.png"
+      },
+      {
+        "cardNumber": 2,
+        "subtitle": "作物病虫害与植物病理（Crop Diseases & Plant Pathology）",
+        "words": [
+          {
+            "word": "blight",
+            "ipa": "/blaɪt/",
+            "pos": "n",
+            "meaning": "枯萎病"
+          },
+          {
+            "word": "fungus",
+            "ipa": "/ˈfʌŋɡəs/",
+            "pos": "n",
+            "meaning": "真菌"
+          },
+          {
+            "word": "rot",
+            "ipa": "/rɒt/",
+            "pos": "n/v",
+            "meaning": "腐烂"
+          },
+          {
+            "word": "infected",
+            "ipa": "/ɪnˈfektɪd/",
+            "pos": "adj",
+            "meaning": "感染的"
+          },
+          {
+            "word": "quarantine",
+            "ipa": "/ˈkwɒrəntiːn/",
+            "pos": "n/v",
+            "meaning": "检疫"
+          },
+          {
+            "word": "pathogen",
+            "ipa": "/ˈpæθədʒən/",
+            "pos": "n",
+            "meaning": "病原体"
+          },
+          {
+            "word": "biological control",
+            "ipa": "/ˌbaɪəˈlɒdʒɪkl kənˈtrəʊl/",
+            "pos": "n",
+            "meaning": "生物防治"
+          },
+          {
+            "word": "infestation",
+            "ipa": "/ˌɪnfeˈsteɪʃn/",
+            "pos": "n",
+            "meaning": "虫害侵扰"
+          },
+          {
+            "word": "outbreak",
+            "ipa": "/ˈaʊtbreɪk/",
+            "pos": "n",
+            "meaning": "爆发"
+          },
+          {
+            "word": "epidemic",
+            "ipa": "/ˌepɪˈdemɪk/",
+            "pos": "n",
+            "meaning": "流行病"
+          },
+          {
+            "word": "contaminate",
+            "ipa": "/kənˈtæmɪneɪt/",
+            "pos": "v",
+            "meaning": "污染"
+          },
+          {
+            "word": "crop failure",
+            "ipa": "/krɒp ˈfeɪljə/",
+            "pos": "n",
+            "meaning": "减产/歉收"
+          },
+          {
+            "word": "contagion",
+            "ipa": "/kənˈteɪdʒən/",
+            "pos": "n",
+            "meaning": "传染"
+          },
+          {
+            "word": "resistant strain",
+            "ipa": "/rɪˈzɪstənt streɪn/",
+            "pos": "n",
+            "meaning": "抗性品种"
+          },
+          {
+            "word": "mold",
+            "ipa": "/məʊld/",
+            "pos": "n",
+            "meaning": "霉菌"
+          },
+          {
+            "word": "larvae",
+            "ipa": "/ˈlɑːvi/",
+            "pos": "n",
+            "meaning": "幼虫"
+          },
+          {
+            "word": "virulent",
+            "ipa": "/ˈvɪrələnt/",
+            "pos": "adj",
+            "meaning": "强毒性的"
+          }
+        ],
+        "image": "../outputs/04-plants-and-agriculture-round2/generated-with-text/04-card-02-generated-text.png"
+      },
+      {
+        "cardNumber": 3,
+        "subtitle": "种子库与遗传多样性（Seed Banks & Genetic Diversity）",
+        "words": [
+          {
+            "word": "seed vault",
+            "ipa": "/siːd vɔːlt/",
+            "pos": "n",
+            "meaning": "种子库"
+          },
+          {
+            "word": "gene bank",
+            "ipa": "/dʒiːn bæŋk/",
+            "pos": "n",
+            "meaning": "基因库"
+          },
+          {
+            "word": "viability",
+            "ipa": "/ˌvaɪəˈbɪləti/",
+            "pos": "n",
+            "meaning": "存活力"
+          },
+          {
+            "word": "heirloom",
+            "ipa": "/ˈeəluːm/",
+            "pos": "n",
+            "meaning": "传家宝品种"
+          },
+          {
+            "word": "cross-pollinate",
+            "ipa": "/krɒs ˈpɒlɪneɪt/",
+            "pos": "v",
+            "meaning": "异花授粉"
+          },
+          {
+            "word": "hybridization",
+            "ipa": "/ˌhaɪbrɪdaɪˈzeɪʃn/",
+            "pos": "n",
+            "meaning": "杂交"
+          },
+          {
+            "word": "landrace",
+            "ipa": "/ˈlændreɪs/",
+            "pos": "n",
+            "meaning": "地方品种"
+          },
+          {
+            "word": "native variety",
+            "ipa": "/ˈneɪtɪv vəˈraɪəti/",
+            "pos": "n",
+            "meaning": "本土品种"
+          },
+          {
+            "word": "wild relative",
+            "ipa": "/waɪld ˈrelətɪv/",
+            "pos": "n",
+            "meaning": "野生近缘种"
+          },
+          {
+            "word": "genome",
+            "ipa": "/ˈdʒiːnəʊm/",
+            "pos": "n",
+            "meaning": "基因组"
+          },
+          {
+            "word": "germplasm",
+            "ipa": "/ˈdʒɜːmplæzəm/",
+            "pos": "n",
+            "meaning": "种质"
+          },
+          {
+            "word": "extinction",
+            "ipa": "/ɪkˈstɪŋkʃn/",
+            "pos": "n",
+            "meaning": "灭绝"
+          },
+          {
+            "word": "mutation",
+            "ipa": "/mjuːˈteɪʃn/",
+            "pos": "n",
+            "meaning": "突变"
+          },
+          {
+            "word": "conserve",
+            "ipa": "/kənˈsɜːv/",
+            "pos": "v",
+            "meaning": "保存"
+          },
+          {
+            "word": "endemic",
+            "ipa": "/enˈdemɪk/",
+            "pos": "adj",
+            "meaning": "地方性的"
+          },
+          {
+            "word": "cultivar",
+            "ipa": "/ˈkʌltɪvɑː/",
+            "pos": "n",
+            "meaning": "栽培品种"
+          },
+          {
+            "word": "genetic diversity",
+            "ipa": "/dʒəˈnetɪk daɪˈvɜːsəti/",
+            "pos": "n",
+            "meaning": "遗传多样性"
+          }
+        ],
+        "image": "../outputs/04-plants-and-agriculture-round2/generated-with-text/04-card-03-generated-text.png"
+      },
+      {
+        "cardNumber": 4,
+        "subtitle": "气候变化与农业韧性（Climate Change & Agricultural Adaptation）",
+        "words": [
+          {
+            "word": "heatwave",
+            "ipa": "/ˈhiːtweɪv/",
+            "pos": "n",
+            "meaning": "热浪"
+          },
+          {
+            "word": "heat stress",
+            "ipa": "/hiːt stres/",
+            "pos": "n",
+            "meaning": "热应激"
+          },
+          {
+            "word": "extreme weather",
+            "ipa": "/ɪkˈstriːm ˈweðə/",
+            "pos": "n",
+            "meaning": "极端天气"
+          },
+          {
+            "word": "unpredictable",
+            "ipa": "/ˌʌnprɪˈdɪktəbl/",
+            "pos": "adj",
+            "meaning": "不可预测的"
+          },
+          {
+            "word": "yield volatility",
+            "ipa": "/jiːld ˌvɒləˈtɪləti/",
+            "pos": "n",
+            "meaning": "产量波动"
+          },
+          {
+            "word": "frost",
+            "ipa": "/frɒst/",
+            "pos": "n",
+            "meaning": "霜冻"
+          },
+          {
+            "word": "erratic",
+            "ipa": "/ɪˈrætɪk/",
+            "pos": "adj",
+            "meaning": "无规律的"
+          },
+          {
+            "word": "crop diversification",
+            "ipa": "/krɒp daɪˌvɜːsɪfɪˈkeɪʃn/",
+            "pos": "n",
+            "meaning": "作物多样化"
+          },
+          {
+            "word": "early warning system",
+            "ipa": "/ˈɜːli ˈwɔːnɪŋ ˈsɪstəm/",
+            "pos": "n",
+            "meaning": "预警系统"
+          },
+          {
+            "word": "climate-smart agriculture",
+            "ipa": "/ˈklaɪmət smɑːt ˈæɡrɪkʌltʃə/",
+            "pos": "n",
+            "meaning": "气候智能型农业"
+          },
+          {
+            "word": "coping capacity",
+            "ipa": "/ˈkəʊpɪŋ kəˈpæsəti/",
+            "pos": "n",
+            "meaning": "应对能力"
+          },
+          {
+            "word": "vulnerability",
+            "ipa": "/ˌvʌlnərəˈbɪləti/",
+            "pos": "n",
+            "meaning": "脆弱性"
+          },
+          {
+            "word": "shifting growing season",
+            "ipa": "/ˈʃɪftɪŋ ˈɡrəʊɪŋ ˈsiːzn/",
+            "pos": "n",
+            "meaning": "生长季节偏移"
+          },
+          {
+            "word": "adaptation",
+            "ipa": "/ˌædæpˈteɪʃn/",
+            "pos": "n",
+            "meaning": "适应"
+          },
+          {
+            "word": "buffer stock",
+            "ipa": "/ˈbʌfə stɒk/",
+            "pos": "n",
+            "meaning": "储备库存"
+          },
+          {
+            "word": "safety net",
+            "ipa": "/ˈseɪfti net/",
+            "pos": "n",
+            "meaning": "保障机制"
+          },
+          {
+            "word": "contingency plan",
+            "ipa": "/kənˈtɪndʒənsi plæn/",
+            "pos": "n",
+            "meaning": "应急计划"
+          },
+          {
+            "word": "mitigation",
+            "ipa": "/ˌmɪtɪˈɡeɪʃn/",
+            "pos": "n",
+            "meaning": "缓解"
+          }
+        ],
+        "image": "../outputs/04-plants-and-agriculture-round2/generated-with-text/04-card-04-generated-text.png"
+      },
+      {
+        "cardNumber": 5,
+        "subtitle": "全球粮食体系与农业贸易政策（Global Food Systems & Agricultural Trade Policy）",
+        "words": [
+          {
+            "word": "smallholder",
+            "ipa": "/ˈsmɔːlhəʊldə/",
+            "pos": "n",
+            "meaning": "小农户"
+          },
+          {
+            "word": "cooperative",
+            "ipa": "/kəʊˈɒpərətɪv/",
+            "pos": "n",
+            "meaning": "合作社"
+          },
+          {
+            "word": "supply chain",
+            "ipa": "/səˈplaɪ tʃeɪn/",
+            "pos": "n",
+            "meaning": "供应链"
+          },
+          {
+            "word": "commodity",
+            "ipa": "/kəˈmɒdəti/",
+            "pos": "n",
+            "meaning": "大宗商品"
+          },
+          {
+            "word": "tariff",
+            "ipa": "/ˈtærɪf/",
+            "pos": "n",
+            "meaning": "关税"
+          },
+          {
+            "word": "import quota",
+            "ipa": "/ˈɪmpɔːt ˈkwəʊtə/",
+            "pos": "n",
+            "meaning": "进口配额"
+          },
+          {
+            "word": "stockpile",
+            "ipa": "/ˈstɒkpaɪl/",
+            "pos": "n/v",
+            "meaning": "储备"
+          },
+          {
+            "word": "subsidy",
+            "ipa": "/ˈsʌbsɪdi/",
+            "pos": "n",
+            "meaning": "补贴"
+          },
+          {
+            "word": "agribusiness",
+            "ipa": "/ˈæɡrɪbɪznəs/",
+            "pos": "n",
+            "meaning": "农业综合企业"
+          },
+          {
+            "word": "surplus",
+            "ipa": "/ˈsɜːplʌs/",
+            "pos": "n",
+            "meaning": "剩余"
+          },
+          {
+            "word": "scarcity",
+            "ipa": "/ˈskeəsəti/",
+            "pos": "n",
+            "meaning": "稀缺"
+          },
+          {
+            "word": "distribution network",
+            "ipa": "/ˌdɪstrɪˈbjuːʃn ˈnetwɜːk/",
+            "pos": "n",
+            "meaning": "分销网络"
+          },
+          {
+            "word": "price volatility",
+            "ipa": "/praɪs ˌvɒləˈtɪləti/",
+            "pos": "n",
+            "meaning": "价格波动"
+          },
+          {
+            "word": "food waste",
+            "ipa": "/fuːd weɪst/",
+            "pos": "n",
+            "meaning": "食物浪费"
+          },
+          {
+            "word": "self-sufficiency",
+            "ipa": "/self səˈfɪʃnsi/",
+            "pos": "n",
+            "meaning": "自给自足"
+          },
+          {
+            "word": "trade agreement",
+            "ipa": "/treɪd əˈɡriːmənt/",
+            "pos": "n",
+            "meaning": "贸易协定"
+          },
+          {
+            "word": "embargo",
+            "ipa": "/ɪmˈbɑːɡəʊ/",
+            "pos": "n",
+            "meaning": "禁运"
+          },
+          {
+            "word": "equitable distribution",
+            "ipa": "/ˈekwɪtəbl ˌdɪstrɪˈbjuːʃn/",
+            "pos": "n",
+            "meaning": "公平分配"
+          }
+        ],
+        "image": "../outputs/04-plants-and-agriculture-round2/generated-with-text/04-card-05-generated-text.png"
+      }
+    ],
+    "reading": null,
+    "group": "other"
   },
   {
     "slug": "04-plants-and-agriculture",
@@ -23653,6 +24223,12 @@ window.IELTS_ESSAYS = [
       "However, forcing students into subjects simply because they appear useful can be counterproductive. University study requires years of sustained effort, and students are far more likely to engage deeply with a subject when they find it meaningful. Interest often leads to motivation, independent learning and creativity, all of which are essential for long-term success. For example, a student who loves art may not follow a traditional career path, but by combining artistic ability with digital design, communication or entrepreneurship, they can still build a viable and fulfilling career.",
       "In conclusion, university students should not be pushed into supposedly practical subjects against their interests. The best approach is to give them freedom to choose, while helping them understand how their chosen field can connect with real skills, career opportunities and social needs."
     ],
+    "translation": [
+      "选择大学专业是年轻人最早做出的重大决定之一，它既能塑造一个人的智识发展，也影响其未来职业。虽然科学、技术这类实用专业显然能提供更好的就业前景，但我认为，只要学生在做决定时对未来机会有现实的认知，就应当被允许选择自己真正感兴趣的领域。",
+      "有人主张学生应专注于有明确实用价值的专业，这是有道理的。高等教育往往需要投入大量时间和金钱，因此学生和家庭考虑一个学位能否带来稳定就业是合理的。在许多国家，工程、计算机科学和医疗等领域的毕业生更有可能进入需求旺盛、收入相对稳定的行业。从这个角度看，鼓励学生学习实用专业，能让他们免于失业，也帮助社会满足对技术人才的需求。",
+      "然而，仅仅因为某个专业看起来有用就强迫学生去学，可能会适得其反。大学学习需要多年的持续投入，而当学生觉得一门学科有意义时，他们更有可能深入钻研。兴趣往往带来动力、自主学习和创造力，而这些对长期成功都至关重要。例如，一个热爱艺术的学生也许不会走传统的职业道路，但通过把艺术能力与数字设计、传播或创业结合起来，他们依然能建立一份可行而有成就感的职业。",
+      "总之，不应违背学生的兴趣，把他们推向所谓\"实用\"的专业。最好的做法是给他们选择的自由，同时帮助他们理解自己所选的领域如何与实际技能、职业机会和社会需求相衔接。"
+    ],
     "structure": [
       {
         "paragraph": "Introduction",
@@ -23717,6 +24293,85 @@ window.IELTS_ESSAYS = [
         "cn": "可行且有成就感的职业"
       }
     ],
+    "synonyms": [
+      {
+        "sense": "主张 / 认为",
+        "words": [
+          "argue",
+          "contend",
+          "maintain",
+          "hold"
+        ]
+      },
+      {
+        "sense": "塑造 / 影响",
+        "words": [
+          "shape",
+          "influence",
+          "mould",
+          "affect"
+        ]
+      },
+      {
+        "sense": "提供",
+        "words": [
+          "offer",
+          "provide",
+          "give",
+          "present"
+        ]
+      },
+      {
+        "sense": "深入投入",
+        "words": [
+          "engage deeply with",
+          "immerse in",
+          "dedicate to"
+        ]
+      },
+      {
+        "sense": "带来 / 导致",
+        "words": [
+          "lead to",
+          "result in",
+          "bring about"
+        ]
+      },
+      {
+        "sense": "重要的",
+        "words": [
+          "essential",
+          "crucial",
+          "vital"
+        ]
+      },
+      {
+        "sense": "适得其反",
+        "words": [
+          "counterproductive",
+          "backfire",
+          "self-defeating"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "讨论\"实用 vs 兴趣\"双方，明确站兴趣一方但加\"现实认知\"的限定，立场平衡有条件，回应充分"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "There are good reasons / From this perspective / However / For example / In conclusion 推进论证"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "employment prospects、sustained effort、a viable and fulfilling career、counterproductive 等；argue / contend、offer / provide 同义替换"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "让步从句（While…）、定语从句（who loves art…）、provided 条件状语、all of which 非限定从句，句式高级多样"
+      }
+    ],
     "ideas": [
       "内在动机：发自内心的兴趣带来更深入的学习。",
       "就业考量：大学花费高昂，职业前景确实重要。",
@@ -23752,6 +24407,12 @@ window.IELTS_ESSAYS = [
       "Proponents of public transportation contend that expanding metro and bus networks can significantly reduce the number of private vehicles on the road, as commuters are offered a viable alternative to driving. This, in turn, would lower carbon emissions and improve urban air quality. However, public transport alone may not be sufficient to address congestion, as it primarily attracts those without access to private cars rather than persuading existing car owners to abandon their vehicles.",
       "On the other hand, some people argue that building more roads is a better way to tackle this problem. In theory, wider highways and additional lanes would allow traffic to flow more freely, reducing journey times and easing bottlenecks during peak hours. However, this approach fails to account for induced demand, the phenomenon whereby more roads encourage more people to drive, which in turn causes congestion to return to its original level. Rather than solving the problem, road expansion merely postpones it.",
       "In conclusion, only through combining investment in public transport with strategic road expansion can we effectively alleviate urban congestion. Crucially, the key lies in making public transport sufficiently attractive to lure existing car owners out of their vehicles through greater comfort, reliability and connectivity, rather than merely serving those who have no alternative."
+    ],
+    "translation": [
+      "政府究竟应该优先发展公共交通，还是修建更多道路来缓解交通拥堵，一直是一个颇具争议的话题。虽然投资公共交通能在一定程度上缓解问题，但我认为单靠任何一种方法都不够，只有两者结合才能带来持久的效果。",
+      "支持公共交通的人认为，扩建地铁和公交网络能显著减少道路上的私家车数量，因为通勤者有了开车之外的可行选择。这反过来又能降低碳排放、改善城市空气质量。然而，仅靠公共交通可能不足以解决拥堵，因为它主要吸引的是本来就没有私家车的人，而非说服现有车主放弃开车。",
+      "另一方面，也有人认为修建更多道路是解决这一问题的更好办法。理论上，更宽的高速公路和更多车道能让交通更顺畅，缩短通勤时间、缓解高峰期的瓶颈路段。然而，这种做法忽视了\"诱导需求\"——即道路越多、开车的人也越多，最终使拥堵回到原来的水平。道路扩建非但没有解决问题，只是把问题往后拖延。",
+      "总之，只有将公共交通投资与有战略性的道路扩建结合起来，才能有效缓解城市拥堵。关键在于，要通过更好的舒适度、可靠性和连通性，让公共交通足够有吸引力，把现有车主从车里吸引出来，而不只是服务那些别无选择的人。"
     ],
     "structure": [
       {
@@ -23825,6 +24486,87 @@ window.IELTS_ESSAYS = [
         "cn": "可靠性和连通性"
       }
     ],
+    "synonyms": [
+      {
+        "sense": "解决 / 应对",
+        "words": [
+          "address",
+          "tackle",
+          "solve",
+          "deal with"
+        ]
+      },
+      {
+        "sense": "缓解 / 减轻",
+        "words": [
+          "alleviate",
+          "ease",
+          "mitigate",
+          "relieve"
+        ]
+      },
+      {
+        "sense": "减少",
+        "words": [
+          "reduce",
+          "lower",
+          "cut",
+          "diminish"
+        ]
+      },
+      {
+        "sense": "认为 / 主张",
+        "words": [
+          "contend",
+          "argue",
+          "believe",
+          "maintain"
+        ]
+      },
+      {
+        "sense": "支持者",
+        "words": [
+          "proponents",
+          "advocates",
+          "supporters"
+        ]
+      },
+      {
+        "sense": "吸引",
+        "words": [
+          "attract",
+          "lure",
+          "appeal to",
+          "draw"
+        ]
+      },
+      {
+        "sense": "足够的",
+        "words": [
+          "sufficient",
+          "adequate",
+          "enough"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "讨论\"公交 vs 修路\"双方并明确表态\"两者结合\"；每段先让步（However 承认对方合理）再反驳，紧扣题目"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "in turn / However / On the other hand / Rather than / In conclusion 串起逻辑，每段主题句清晰"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "induced demand、strategic road expansion、easing bottlenecks 等学术搭配；address / tackle / solve / alleviate 同义替换避免重复"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "定语从句（the phenomenon whereby…）、让步状语、被动语态（are offered）、比较结构，句式多样准确"
+      }
+    ],
     "ideas": [
       "公共交通：地铁和公交能减少私家车数量。",
       "环境收益：更少汽车意味着更低排放和更好空气。",
@@ -23860,6 +24602,12 @@ window.IELTS_ESSAYS = [
       "Proponents of AI tools argue that they can make learning more efficient and personalised. Unlike traditional classroom teaching, which often has to follow the same pace for all students, AI can provide immediate explanations and targeted practice based on individual weaknesses. For example, a student who struggles with grammar or mathematics can receive step-by-step guidance without waiting for the teacher's attention. In this sense, AI can reduce unnecessary frustration and help students make progress at their own pace.",
       "Admittedly, these benefits are valuable. However, I would argue that excessive reliance on AI may weaken students' ability to think independently. If students habitually turn to AI for ready-made answers, they may become less willing to analyse problems, test ideas, or tolerate confusion. This matters because real learning often happens through the process of struggling with uncertainty, not simply receiving correct answers. Over time, students may become efficient at obtaining information but poor at developing judgement, creativity and problem-solving skills.",
       "In conclusion, although AI tools can improve learning efficiency and provide personalised support, I believe they should be used carefully. The best approach is to treat AI as a learning assistant, while ensuring that students still practise independent thinking and active problem-solving."
+    ],
+    "translation": [
+      "AI 工具是否应广泛用于教育，一直是一个颇具争议的话题，它常常把学习效率和学生的独立思考对立起来。虽然有人认为 AI 能让教育更个性化、更易获得，但我认为它应当作为辅助工具，而不是主动学习的替代品。",
+      "支持 AI 工具的人认为，它能让学习更高效、更个性化。与常常必须让所有学生保持同一进度的传统课堂教学不同，AI 能根据每个人的薄弱点提供即时讲解和针对性练习。例如，一个在语法或数学上有困难的学生，无需等待老师关注就能获得一步步的指导。从这个意义上说，AI 能减少不必要的挫败感，帮助学生按自己的节奏进步。",
+      "诚然，这些好处很有价值。然而，我认为过度依赖 AI 可能会削弱学生独立思考的能力。如果学生习惯性地向 AI 索取现成答案，他们可能会变得不太愿意分析问题、检验想法或忍受困惑。这一点很重要，因为真正的学习往往发生在与不确定性搏斗的过程中，而不仅仅是接收正确答案。久而久之，学生可能善于获取信息，却不擅长培养判断力、创造力和解决问题的能力。",
+      "总之，尽管 AI 工具能提升学习效率、提供个性化支持，但我认为应谨慎使用。最好的做法是把 AI 当作学习助手，同时确保学生仍然练习独立思考和主动解决问题。"
     ],
     "structure": [
       {
@@ -23931,6 +24679,76 @@ window.IELTS_ESSAYS = [
       {
         "en": "developing judgement, creativity and problem-solving skills",
         "cn": "发展判断力、创造力与解决问题的能力"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "认为 / 主张",
+        "words": [
+          "argue",
+          "contend",
+          "believe",
+          "maintain"
+        ]
+      },
+      {
+        "sense": "提升 / 改善",
+        "words": [
+          "improve",
+          "enhance",
+          "boost"
+        ]
+      },
+      {
+        "sense": "削弱",
+        "words": [
+          "weaken",
+          "undermine",
+          "erode"
+        ]
+      },
+      {
+        "sense": "依赖",
+        "words": [
+          "reliance on",
+          "dependence on",
+          "turn to"
+        ]
+      },
+      {
+        "sense": "帮助",
+        "words": [
+          "help",
+          "assist",
+          "support",
+          "aid"
+        ]
+      },
+      {
+        "sense": "减少",
+        "words": [
+          "reduce",
+          "lessen",
+          "cut down"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "讨论 AI 支持与反对两面，先承认好处（Admittedly）再提出\"辅助而非替代\"的核心立场，观点前后一致"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "Unlike / For example / In this sense / However / Over time / In conclusion 让论证层层推进"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "learning efficiency、targeted practice、tolerate confusion、developing judgement 等表达；argue / contend、improve / enhance 同义替换"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "定语从句（which often has to follow…）、条件句（If students…）、让步（although）、动名词并列，句式丰富准确"
       }
     ],
     "ideas": [

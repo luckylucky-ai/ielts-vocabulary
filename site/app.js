@@ -1181,14 +1181,19 @@ function openEssay(slug) {
       const label = row
         ? `<p class="essay-para-label">${escapeHtml(row.paragraph)} · ${escapeHtml(row.functionCn)}</p>`
         : "";
-      return `${label}<p class="reading-para essay-para">${highlightEssayPhrases(text, essay.phrases)}</p>`;
+      const zh = essay.translation[index];
+      const translation = zh ? `<p class="essay-translation">${escapeHtml(zh)}</p>` : "";
+      return `${label}<p class="reading-para essay-para">${highlightEssayPhrases(text, essay.phrases)}</p>${translation}`;
     })
     .join("");
 
+  const hasTranslation = essay.translation.length > 0;
+  essayPassage.classList.remove("show-translation");
   essayPassage.innerHTML = `
     <div class="reading-passage-head">
       <p class="eyebrow">Writing Task 2 · ${escapeHtml(essay.taskType)}</p>
       <h2>${escapeHtml(essay.title)}</h2>
+      ${hasTranslation ? `<button class="essay-trans-toggle" id="essayTransToggle" type="button">显示译文</button>` : ""}
     </div>
     <div class="essay-question">
       <p>${escapeHtml(essay.question).replace(/\n{2,}/g, "</p><p>")}</p>
@@ -1217,6 +1222,57 @@ function openEssay(slug) {
           .join("")}
       </div>
     </section>
+    ${
+      essay.synonyms.length
+        ? `
+          <section class="reading-group">
+            <h4>同义替换 <span class="essay-hint">同一组可互换，点词发音</span></h4>
+            <div class="essay-syn-list">
+              ${essay.synonyms
+                .map(
+                  (group) => `
+                    <div class="essay-syn">
+                      <span class="essay-syn-sense">${escapeHtml(group.sense)}</span>
+                      <div class="essay-syn-words">
+                        ${group.words
+                          .map(
+                            (word) =>
+                              `<button class="essay-syn-word" type="button" data-word="${escapeHtml(word)}">${escapeHtml(
+                                word,
+                              )}</button>`,
+                          )
+                          .join("")}
+                      </div>
+                    </div>
+                  `,
+                )
+                .join("")}
+            </div>
+          </section>
+        `
+        : ""
+    }
+    ${
+      essay.scoring.length
+        ? `
+          <section class="reading-group">
+            <h4>得分点 <span class="essay-hint">雅思四维评分标准</span></h4>
+            <div class="essay-score-list">
+              ${essay.scoring
+                .map(
+                  (item) => `
+                    <div class="essay-score-item">
+                      <strong>${escapeHtml(item.dimension)}</strong>
+                      <span>${escapeHtml(item.detail)}</span>
+                    </div>
+                  `,
+                )
+                .join("")}
+            </div>
+          </section>
+        `
+        : ""
+    }
     <section class="reading-group">
       <h4>同类话题观点库</h4>
       <ul class="essay-ideas">${essay.ideas.map((idea) => `<li>${escapeHtml(idea)}</li>`).join("")}</ul>
@@ -1388,13 +1444,22 @@ function attachEvents() {
   });
 
   essayPanel.addEventListener("click", (event) => {
-    const phrase = event.target.closest(".essay-phrase-item");
+    const phrase = event.target.closest(".essay-phrase-item, .essay-syn-word");
     if (phrase) {
       speakExamWord(phrase.dataset.word);
       return;
     }
     const thumb = event.target.closest(".essay-thumb");
     if (thumb) openImageDirect(thumb.dataset.image, essayHeading.textContent);
+  });
+
+  // 中英对照开关
+  essayPassage.addEventListener("click", (event) => {
+    const toggle = event.target.closest("#essayTransToggle");
+    if (!toggle) return;
+    const on = essayPassage.classList.toggle("show-translation");
+    toggle.textContent = on ? "隐藏译文" : "显示译文";
+    toggle.classList.toggle("is-on", on);
   });
 
   readingEntry.addEventListener("click", openReading);
