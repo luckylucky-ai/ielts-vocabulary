@@ -71,8 +71,10 @@ Conclusion paragraph...
 
 | 意义 | 同义表达 |
 |---|---|
-| 解决 / 应对 | address, tackle, solve, alleviate, combat |
-| 减少 | reduce, lower, cut, diminish, curb |
+| 解决问题 | address the problem, tackle the problem, solve the problem |
+| 减少数量 | reduce the number, lower the number, cut the number |
+| 认为主张 | argue that, contend that, maintain that |
+| 缓解压力 | alleviate pressure, ease pressure, relieve pressure |
 
 ## 得分点
 
@@ -101,6 +103,6 @@ Conclusion paragraph...
 - 「全文翻译」的自然段数量与顺序应与范文段落一一对应，网站按段做中英对照
 - 「文章结构」表的行数应与范文段落数一致，网站按顺序给每段标注功能
 - 「重点短语」必须在范文原文中逐字出现，网站靠它做文中高亮
-- 「同义替换」按「意义群」归类：同一行是一组可互换的高分词，雅思词汇分的关键
+- 「同义替换」限 4 组核心，写成短语搭配（如 address the problem / tackle the problem），而非孤立单词；同一行是一组可互换表达，雅思词汇分的关键
 - 「得分点」四个维度是雅思官方固定评分标准，内容写这篇的具体体现
 -->

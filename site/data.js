@@ -22,10 +22,6 @@ window.IELTS_TOPIC_GROUPS = [
   {
     "key": "culture",
     "title": "文化与生活"
-  },
-  {
-    "key": "other",
-    "title": "其他"
   }
 ];
 window.IELTS_VOCAB_TOPICS = [
@@ -4046,7 +4042,7 @@ window.IELTS_VOCAB_TOPICS = [
       }
     ],
     "reading": null,
-    "group": "other"
+    "group": "nature"
   },
   {
     "slug": "04-plants-and-agriculture",
@@ -24295,62 +24291,34 @@ window.IELTS_ESSAYS = [
     ],
     "synonyms": [
       {
-        "sense": "主张 / 认为",
+        "sense": "认为主张",
         "words": [
-          "argue",
-          "contend",
-          "maintain",
-          "hold"
+          "argue that",
+          "contend that",
+          "maintain that"
         ]
       },
       {
-        "sense": "塑造 / 影响",
+        "sense": "提供前景",
         "words": [
-          "shape",
-          "influence",
-          "mould",
-          "affect"
+          "offer prospects",
+          "provide prospects",
+          "present prospects"
         ]
       },
       {
-        "sense": "提供",
+        "sense": "深入学习",
         "words": [
-          "offer",
-          "provide",
-          "give",
-          "present"
+          "engage deeply with a subject",
+          "immerse oneself in a subject"
         ]
       },
       {
-        "sense": "深入投入",
+        "sense": "带来成功",
         "words": [
-          "engage deeply with",
-          "immerse in",
-          "dedicate to"
-        ]
-      },
-      {
-        "sense": "带来 / 导致",
-        "words": [
-          "lead to",
-          "result in",
-          "bring about"
-        ]
-      },
-      {
-        "sense": "重要的",
-        "words": [
-          "essential",
-          "crucial",
-          "vital"
-        ]
-      },
-      {
-        "sense": "适得其反",
-        "words": [
-          "counterproductive",
-          "backfire",
-          "self-defeating"
+          "lead to success",
+          "result in success",
+          "bring about success"
         ]
       }
     ],
@@ -24488,64 +24456,35 @@ window.IELTS_ESSAYS = [
     ],
     "synonyms": [
       {
-        "sense": "解决 / 应对",
+        "sense": "解决问题",
         "words": [
-          "address",
-          "tackle",
-          "solve",
-          "deal with"
+          "address the problem",
+          "tackle the problem",
+          "solve the problem"
         ]
       },
       {
-        "sense": "缓解 / 减轻",
+        "sense": "缓解拥堵",
         "words": [
-          "alleviate",
-          "ease",
-          "mitigate",
-          "relieve"
+          "alleviate congestion",
+          "ease congestion",
+          "mitigate congestion"
         ]
       },
       {
-        "sense": "减少",
+        "sense": "减少数量",
         "words": [
-          "reduce",
-          "lower",
-          "cut",
-          "diminish"
+          "reduce the number",
+          "lower the number",
+          "cut the number"
         ]
       },
       {
-        "sense": "认为 / 主张",
+        "sense": "认为主张",
         "words": [
-          "contend",
-          "argue",
-          "believe",
-          "maintain"
-        ]
-      },
-      {
-        "sense": "支持者",
-        "words": [
-          "proponents",
-          "advocates",
-          "supporters"
-        ]
-      },
-      {
-        "sense": "吸引",
-        "words": [
-          "attract",
-          "lure",
-          "appeal to",
-          "draw"
-        ]
-      },
-      {
-        "sense": "足够的",
-        "words": [
-          "sufficient",
-          "adequate",
-          "enough"
+          "contend that",
+          "argue that",
+          "maintain that"
         ]
       }
     ],
@@ -24683,53 +24622,35 @@ window.IELTS_ESSAYS = [
     ],
     "synonyms": [
       {
-        "sense": "认为 / 主张",
+        "sense": "认为主张",
         "words": [
-          "argue",
-          "contend",
-          "believe",
-          "maintain"
+          "argue that",
+          "contend that",
+          "maintain that"
         ]
       },
       {
-        "sense": "提升 / 改善",
+        "sense": "提升学习",
         "words": [
-          "improve",
-          "enhance",
-          "boost"
+          "improve learning",
+          "enhance learning",
+          "boost learning"
         ]
       },
       {
-        "sense": "削弱",
+        "sense": "削弱能力",
         "words": [
-          "weaken",
-          "undermine",
-          "erode"
+          "weaken the ability",
+          "undermine the ability",
+          "erode the ability"
         ]
       },
       {
-        "sense": "依赖",
+        "sense": "依赖工具",
         "words": [
-          "reliance on",
-          "dependence on",
-          "turn to"
-        ]
-      },
-      {
-        "sense": "帮助",
-        "words": [
-          "help",
-          "assist",
-          "support",
-          "aid"
-        ]
-      },
-      {
-        "sense": "减少",
-        "words": [
-          "reduce",
-          "lessen",
-          "cut down"
+          "rely on tools",
+          "depend on tools",
+          "turn to tools"
         ]
       }
     ],

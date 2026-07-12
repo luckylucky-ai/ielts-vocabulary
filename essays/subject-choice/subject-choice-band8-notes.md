@@ -82,13 +82,10 @@ In conclusion, university students should not be pushed into supposedly practica
 
 | 意义 | 同义表达 |
 |---|---|
-| 主张 / 认为 | argue, contend, maintain, hold |
-| 塑造 / 影响 | shape, influence, mould, affect |
-| 提供 | offer, provide, give, present |
-| 深入投入 | engage deeply with, immerse in, dedicate to |
-| 带来 / 导致 | lead to, result in, bring about |
-| 重要的 | essential, crucial, vital |
-| 适得其反 | counterproductive, backfire, self-defeating |
+| 认为主张 | argue that, contend that, maintain that |
+| 提供前景 | offer prospects, provide prospects, present prospects |
+| 深入学习 | engage deeply with a subject, immerse oneself in a subject |
+| 带来成功 | lead to success, result in success, bring about success |
 
 ## 得分点
 

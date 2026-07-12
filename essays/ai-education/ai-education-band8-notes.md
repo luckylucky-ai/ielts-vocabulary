@@ -84,12 +84,10 @@ AI 工具是否应广泛用于教育，一直是一个颇具争议的话题，�
 
 | 意义 | 同义表达 |
 |---|---|
-| 认为 / 主张 | argue, contend, believe, maintain |
-| 提升 / 改善 | improve, enhance, boost |
-| 削弱 | weaken, undermine, erode |
-| 依赖 | reliance on, dependence on, turn to |
-| 帮助 | help, assist, support, aid |
-| 减少 | reduce, lessen, cut down |
+| 认为主张 | argue that, contend that, maintain that |
+| 提升学习 | improve learning, enhance learning, boost learning |
+| 削弱能力 | weaken the ability, undermine the ability, erode the ability |
+| 依赖工具 | rely on tools, depend on tools, turn to tools |
 
 ## 得分点
 

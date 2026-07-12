@@ -84,13 +84,10 @@ In conclusion, only through combining investment in public transport with strate
 
 | 意义 | 同义表达 |
 |---|---|
-| 解决 / 应对 | address, tackle, solve, deal with |
-| 缓解 / 减轻 | alleviate, ease, mitigate, relieve |
-| 减少 | reduce, lower, cut, diminish |
-| 认为 / 主张 | contend, argue, believe, maintain |
-| 支持者 | proponents, advocates, supporters |
-| 吸引 | attract, lure, appeal to, draw |
-| 足够的 | sufficient, adequate, enough |
+| 解决问题 | address the problem, tackle the problem, solve the problem |
+| 缓解拥堵 | alleviate congestion, ease congestion, mitigate congestion |
+| 减少数量 | reduce the number, lower the number, cut the number |
+| 认为主张 | contend that, argue that, maintain that |
 
 ## 得分点
 
