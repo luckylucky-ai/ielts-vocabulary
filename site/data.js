@@ -4321,6 +4321,560 @@ window.IELTS_VOCAB_TOPICS = [
     "group": "nature"
   },
   {
+    "slug": "05-environment-and-pollution-round2",
+    "title": "环境与污染（Environment & Pollution）— 第二轮·进阶版",
+    "shortTitle": "Environment And Pollution Round2",
+    "cards": [
+      {
+        "cardNumber": 1,
+        "subtitle": "噪音污染与光污染（Noise & Light Pollution）",
+        "words": [
+          {
+            "word": "decibel",
+            "ipa": "/ˈdesɪbel/",
+            "pos": "n",
+            "meaning": "分贝"
+          },
+          {
+            "word": "cacophony",
+            "ipa": "/kəˈkɒfəni/",
+            "pos": "n",
+            "meaning": "刺耳的噪音"
+          },
+          {
+            "word": "intrusive",
+            "ipa": "/ɪnˈtruːsɪv/",
+            "pos": "adj",
+            "meaning": "侵扰性的"
+          },
+          {
+            "word": "soundproofing",
+            "ipa": "/ˈsaʊndpruːfɪŋ/",
+            "pos": "n",
+            "meaning": "隔音措施"
+          },
+          {
+            "word": "chronic",
+            "ipa": "/ˈkrɒnɪk/",
+            "pos": "adj",
+            "meaning": "慢性的"
+          },
+          {
+            "word": "insomnia",
+            "ipa": "/ɪnˈsɒmniə/",
+            "pos": "n",
+            "meaning": "失眠"
+          },
+          {
+            "word": "stress hormone",
+            "ipa": "/stres ˈhɔːməʊn/",
+            "pos": "n",
+            "meaning": "压力激素"
+          },
+          {
+            "word": "glare",
+            "ipa": "/ɡleə/",
+            "pos": "n",
+            "meaning": "眩光"
+          },
+          {
+            "word": "skyglow",
+            "ipa": "/ˈskaɪɡləʊ/",
+            "pos": "n",
+            "meaning": "天空辉光"
+          },
+          {
+            "word": "luminance",
+            "ipa": "/ˈluːmɪnəns/",
+            "pos": "n",
+            "meaning": "亮度"
+          },
+          {
+            "word": "nocturnal",
+            "ipa": "/nɒkˈtɜːnl/",
+            "pos": "adj",
+            "meaning": "夜间活动的"
+          },
+          {
+            "word": "disorientate",
+            "ipa": "/dɪsˈɔːriənteɪt/",
+            "pos": "v",
+            "meaning": "使迷失方向"
+          },
+          {
+            "word": "circadian rhythm",
+            "ipa": "/sɜːˈkeɪdiən ˈrɪðəm/",
+            "pos": "n",
+            "meaning": "昼夜节律"
+          },
+          {
+            "word": "migratory",
+            "ipa": "/ˈmaɪɡrətəri/",
+            "pos": "adj",
+            "meaning": "迁徙的"
+          },
+          {
+            "word": "flight path",
+            "ipa": "/flaɪt pɑːθ/",
+            "pos": "n",
+            "meaning": "飞行路径"
+          },
+          {
+            "word": "ambient noise",
+            "ipa": "/ˈæmbiənt nɔɪz/",
+            "pos": "n",
+            "meaning": "环境噪音"
+          },
+          {
+            "word": "disruption",
+            "ipa": "/dɪsˈrʌpʃən/",
+            "pos": "n",
+            "meaning": "扰乱"
+          }
+        ],
+        "image": "../outputs/05-environment-and-pollution-round2/generated-with-text/05-card-01-generated-text.png"
+      },
+      {
+        "cardNumber": 2,
+        "subtitle": "环境正义与气候移民（Environmental Justice & Climate Migration）",
+        "words": [
+          {
+            "word": "disproportionate",
+            "ipa": "/ˌdɪsprəˈpɔːʃənət/",
+            "pos": "adj",
+            "meaning": "不成比例的"
+          },
+          {
+            "word": "marginalized",
+            "ipa": "/ˈmɑːdʒɪnəlaɪzd/",
+            "pos": "adj",
+            "meaning": "边缘化的"
+          },
+          {
+            "word": "displacement",
+            "ipa": "/dɪsˈpleɪsmənt/",
+            "pos": "n",
+            "meaning": "流离失所"
+          },
+          {
+            "word": "climate refugee",
+            "ipa": "/ˈklaɪmət ˌrefjuˈdʒiː/",
+            "pos": "n",
+            "meaning": "气候难民"
+          },
+          {
+            "word": "resettlement",
+            "ipa": "/ˌriːˈsetlmənt/",
+            "pos": "n",
+            "meaning": "重新安置"
+          },
+          {
+            "word": "low-lying",
+            "ipa": "/ləʊ ˈlaɪɪŋ/",
+            "pos": "adj",
+            "meaning": "低洼的"
+          },
+          {
+            "word": "inundation",
+            "ipa": "/ˌɪnʌnˈdeɪʃən/",
+            "pos": "n",
+            "meaning": "淹没"
+          },
+          {
+            "word": "vulnerable community",
+            "ipa": "/ˈvʌlnərəbl kəˈmjuːnəti/",
+            "pos": "n",
+            "meaning": "弱势社区"
+          },
+          {
+            "word": "toxic dumping",
+            "ipa": "/ˈtɒksɪk ˈdʌmpɪŋ/",
+            "pos": "n",
+            "meaning": "有毒废弃物倾倒"
+          },
+          {
+            "word": "grassroots",
+            "ipa": "/ˈɡrɑːsruːts/",
+            "pos": "adj",
+            "meaning": "草根的"
+          },
+          {
+            "word": "advocacy group",
+            "ipa": "/ˈædvəkəsi ɡruːp/",
+            "pos": "n",
+            "meaning": "倡导团体"
+          },
+          {
+            "word": "equitable",
+            "ipa": "/ˈekwɪtəbl/",
+            "pos": "adj",
+            "meaning": "公平的"
+          },
+          {
+            "word": "reparation",
+            "ipa": "/ˌrepəˈreɪʃən/",
+            "pos": "n",
+            "meaning": "赔偿"
+          },
+          {
+            "word": "livelihood",
+            "ipa": "/ˈlaɪvlihʊd/",
+            "pos": "n",
+            "meaning": "生计"
+          },
+          {
+            "word": "exodus",
+            "ipa": "/ˈeksədəs/",
+            "pos": "n",
+            "meaning": "大迁徙"
+          },
+          {
+            "word": "statelessness",
+            "ipa": "/ˈsteɪtləsnəs/",
+            "pos": "n",
+            "meaning": "无国籍状态"
+          },
+          {
+            "word": "sanctuary",
+            "ipa": "/ˈsæŋktʃuəri/",
+            "pos": "n",
+            "meaning": "庇护所"
+          }
+        ],
+        "image": "../outputs/05-environment-and-pollution-round2/generated-with-text/05-card-02-generated-text.png"
+      },
+      {
+        "cardNumber": 3,
+        "subtitle": "生态阈值与临界点（Ecological Thresholds & Tipping Points）",
+        "words": [
+          {
+            "word": "threshold",
+            "ipa": "/ˈθreʃhəʊld/",
+            "pos": "n",
+            "meaning": "阈值"
+          },
+          {
+            "word": "tipping point",
+            "ipa": "/ˈtɪpɪŋ pɔɪnt/",
+            "pos": "n",
+            "meaning": "临界点"
+          },
+          {
+            "word": "irreversible",
+            "ipa": "/ˌɪrɪˈvɜːsəbl/",
+            "pos": "adj",
+            "meaning": "不可逆的"
+          },
+          {
+            "word": "feedback loop",
+            "ipa": "/ˈfiːdbæk luːp/",
+            "pos": "n",
+            "meaning": "反馈循环"
+          },
+          {
+            "word": "resilience",
+            "ipa": "/rɪˈzɪliəns/",
+            "pos": "n",
+            "meaning": "韧性"
+          },
+          {
+            "word": "collapse",
+            "ipa": "/kəˈlæps/",
+            "pos": "v/n",
+            "meaning": "崩溃"
+          },
+          {
+            "word": "cascading effect",
+            "ipa": "/kæˈskeɪdɪŋ ɪˈfekt/",
+            "pos": "n",
+            "meaning": "连锁效应"
+          },
+          {
+            "word": "permafrost",
+            "ipa": "/ˈpɜːməfrɒst/",
+            "pos": "n",
+            "meaning": "永久冻土"
+          },
+          {
+            "word": "bleaching",
+            "ipa": "/ˈbliːtʃɪŋ/",
+            "pos": "n",
+            "meaning": "白化"
+          },
+          {
+            "word": "die-off",
+            "ipa": "/ˈdaɪ ɒf/",
+            "pos": "n",
+            "meaning": "大规模死亡"
+          },
+          {
+            "word": "keystone species",
+            "ipa": "/ˈkiːstəʊn ˈspiːʃiːz/",
+            "pos": "n",
+            "meaning": "关键物种"
+          },
+          {
+            "word": "equilibrium",
+            "ipa": "/ˌiːkwɪˈlɪbriəm/",
+            "pos": "n",
+            "meaning": "平衡"
+          },
+          {
+            "word": "destabilize",
+            "ipa": "/diːˈsteɪbɪlaɪz/",
+            "pos": "v",
+            "meaning": "使不稳定"
+          },
+          {
+            "word": "buffer capacity",
+            "ipa": "/ˈbʌfə kəˈpæsəti/",
+            "pos": "n",
+            "meaning": "缓冲能力"
+          },
+          {
+            "word": "abrupt",
+            "ipa": "/əˈbrʌpt/",
+            "pos": "adj",
+            "meaning": "突然的"
+          },
+          {
+            "word": "self-reinforcing",
+            "ipa": "/self ˌriːɪnˈfɔːsɪŋ/",
+            "pos": "adj",
+            "meaning": "自我强化的"
+          },
+          {
+            "word": "warning sign",
+            "ipa": "/ˈwɔːnɪŋ saɪn/",
+            "pos": "n",
+            "meaning": "预警信号"
+          }
+        ],
+        "image": "../outputs/05-environment-and-pollution-round2/generated-with-text/05-card-03-generated-text.png"
+      },
+      {
+        "cardNumber": 4,
+        "subtitle": "污染治理技术与生态修复（Pollution Remediation & Ecological Restoration Technology）",
+        "words": [
+          {
+            "word": "remediation",
+            "ipa": "/rɪˌmiːdiˈeɪʃən/",
+            "pos": "n",
+            "meaning": "修复治理"
+          },
+          {
+            "word": "bioremediation",
+            "ipa": "/ˌbaɪəʊrɪˌmiːdiˈeɪʃən/",
+            "pos": "n",
+            "meaning": "生物修复"
+          },
+          {
+            "word": "filtration",
+            "ipa": "/fɪlˈtreɪʃən/",
+            "pos": "n",
+            "meaning": "过滤"
+          },
+          {
+            "word": "carbon capture",
+            "ipa": "/ˈkɑːbən ˈkæptʃə/",
+            "pos": "n",
+            "meaning": "碳捕获"
+          },
+          {
+            "word": "scrubber",
+            "ipa": "/ˈskrʌbə/",
+            "pos": "n",
+            "meaning": "净化装置"
+          },
+          {
+            "word": "catalytic converter",
+            "ipa": "/ˌkætəˈlɪtɪk kənˈvɜːtə/",
+            "pos": "n",
+            "meaning": "催化转化器"
+          },
+          {
+            "word": "decontaminate",
+            "ipa": "/ˌdiːkənˈtæmɪneɪt/",
+            "pos": "v",
+            "meaning": "去污"
+          },
+          {
+            "word": "phytoremediation",
+            "ipa": "/ˌfaɪtəʊrɪˌmiːdiˈeɪʃən/",
+            "pos": "n",
+            "meaning": "植物修复"
+          },
+          {
+            "word": "sequestration",
+            "ipa": "/ˌsiːkwesˈtreɪʃən/",
+            "pos": "n",
+            "meaning": "封存"
+          },
+          {
+            "word": "innovation",
+            "ipa": "/ˌɪnəˈveɪʃən/",
+            "pos": "n",
+            "meaning": "创新"
+          },
+          {
+            "word": "retrofit",
+            "ipa": "/ˈretrəʊfɪt/",
+            "pos": "v",
+            "meaning": "改造升级"
+          },
+          {
+            "word": "emission standard",
+            "ipa": "/ɪˈmɪʃən ˈstændəd/",
+            "pos": "n",
+            "meaning": "排放标准"
+          },
+          {
+            "word": "clean-up crew",
+            "ipa": "/kliːn ʌp kruː/",
+            "pos": "n",
+            "meaning": "清理队伍"
+          },
+          {
+            "word": "restoration",
+            "ipa": "/ˌrestəˈreɪʃən/",
+            "pos": "n",
+            "meaning": "恢复"
+          },
+          {
+            "word": "wetland buffer",
+            "ipa": "/ˈwetlənd ˈbʌfə/",
+            "pos": "n",
+            "meaning": "湿地缓冲带"
+          },
+          {
+            "word": "rehabilitate",
+            "ipa": "/ˌriːəˈbɪlɪteɪt/",
+            "pos": "v",
+            "meaning": "使恢复"
+          },
+          {
+            "word": "viable solution",
+            "ipa": "/ˈvaɪəbl səˈluːʃən/",
+            "pos": "n",
+            "meaning": "可行方案"
+          }
+        ],
+        "image": "../outputs/05-environment-and-pollution-round2/generated-with-text/05-card-04-generated-text.png"
+      },
+      {
+        "cardNumber": 5,
+        "subtitle": "循环经济与工业生态（Circular Economy & Industrial Ecology）",
+        "words": [
+          {
+            "word": "circular economy",
+            "ipa": "/ˈsɜːkjələ ɪˈkɒnəmi/",
+            "pos": "n",
+            "meaning": "循环经济"
+          },
+          {
+            "word": "linear model",
+            "ipa": "/ˈlɪniə ˈmɒdl/",
+            "pos": "n",
+            "meaning": "线性模式"
+          },
+          {
+            "word": "closed-loop system",
+            "ipa": "/kləʊzd luːp ˈsɪstəm/",
+            "pos": "n",
+            "meaning": "闭环系统"
+          },
+          {
+            "word": "industrial symbiosis",
+            "ipa": "/ɪnˈdʌstriəl ˌsɪmbaɪˈəʊsɪs/",
+            "pos": "n",
+            "meaning": "工业共生"
+          },
+          {
+            "word": "by-product",
+            "ipa": "/ˈbaɪ ˌprɒdʌkt/",
+            "pos": "n",
+            "meaning": "副产品"
+          },
+          {
+            "word": "take-make-dispose",
+            "ipa": "/teɪk meɪk dɪˈspəʊz/",
+            "pos": "n",
+            "meaning": "索取-制造-丢弃模式"
+          },
+          {
+            "word": "resource depletion",
+            "ipa": "/rɪˈsɔːs dɪˈpliːʃən/",
+            "pos": "n",
+            "meaning": "资源枯竭"
+          },
+          {
+            "word": "life cycle",
+            "ipa": "/laɪf ˈsaɪkl/",
+            "pos": "n",
+            "meaning": "生命周期"
+          },
+          {
+            "word": "cradle-to-cradle",
+            "ipa": "/ˈkreɪdl tə ˈkreɪdl/",
+            "pos": "adj",
+            "meaning": "从摇篮到摇篮的"
+          },
+          {
+            "word": "planned obsolescence",
+            "ipa": "/plænd ˌɒbsəˈlesns/",
+            "pos": "n",
+            "meaning": "计划性淘汰"
+          },
+          {
+            "word": "material recovery",
+            "ipa": "/məˈtɪəriəl rɪˈkʌvəri/",
+            "pos": "n",
+            "meaning": "材料回收"
+          },
+          {
+            "word": "supply loop",
+            "ipa": "/səˈplaɪ luːp/",
+            "pos": "n",
+            "meaning": "供应循环"
+          },
+          {
+            "word": "regenerative",
+            "ipa": "/rɪˈdʒenərətɪv/",
+            "pos": "adj",
+            "meaning": "再生性的"
+          },
+          {
+            "word": "decouple",
+            "ipa": "/diːˈkʌpl/",
+            "pos": "v",
+            "meaning": "脱钩"
+          },
+          {
+            "word": "footprint reduction",
+            "ipa": "/ˈfʊtprɪnt rɪˈdʌkʃən/",
+            "pos": "n",
+            "meaning": "足迹减少"
+          },
+          {
+            "word": "value chain",
+            "ipa": "/ˈvæljuː tʃeɪn/",
+            "pos": "n",
+            "meaning": "价值链"
+          },
+          {
+            "word": "eco-industrial park",
+            "ipa": "/ˈiːkəʊ ɪnˈdʌstriəl pɑːk/",
+            "pos": "n",
+            "meaning": "生态工业园"
+          }
+        ],
+        "image": "../outputs/05-environment-and-pollution-round2/generated-with-text/05-card-05-generated-text.png"
+      }
+    ],
+    "reading": null,
+    "group": "nature"
+  },
+  {
     "slug": "05-environment-and-pollution",
     "title": "环境与污染 | Environment & Pollution",
     "shortTitle": "Environment And Pollution",
