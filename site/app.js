@@ -188,6 +188,16 @@ function topicLabel(topic) {
   return /round2$/i.test(topic.slug) ? `${base} Ⅱ` : base;
 }
 
+// 从标题里提取英文部分（（…）、(…)、| … 或 中文后跟的英文），作为副标题
+function topicEnglish(topic) {
+  const title = topic.title || "";
+  const match =
+    title.match(/[（(]\s*([^）)]+?)\s*[）)]/) ||
+    title.match(/[|｜]\s*([A-Za-z][^—|]*)/) ||
+    title.match(/\s([A-Za-z][A-Za-z &'’.-]+)\s*$/);
+  return match ? match[1].trim() : "";
+}
+
 function topicGroupOf(slug) {
   return topics.find((topic) => topic.slug === slug)?.group || "";
 }
@@ -341,7 +351,14 @@ function renderWorkbench() {
 
   groupEyebrow.hidden = !group;
   if (group) groupEyebrow.textContent = group.title;
-  pageTitle.textContent = state.activeTopic === "all" ? "全部话题" : topic?.title || "雅思话题词汇卡片";
+  if (state.activeTopic === "all" || !topic) {
+    pageTitle.innerHTML = `<span class="wb-title-cn">${state.activeTopic === "all" ? "全部话题" : "雅思话题词汇卡片"}</span>`;
+  } else {
+    const en = topicEnglish(topic);
+    pageTitle.innerHTML =
+      `<span class="wb-title-cn">${escapeHtml(topicLabel(topic))}</span>` +
+      (en ? `<span class="wb-title-en">${escapeHtml(en)}</span>` : "");
+  }
 
   const wordCount = wordsForTopic().length;
   const reading = currentReading();
