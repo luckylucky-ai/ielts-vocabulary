@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IELTS Topic Studio · 话题式雅思备考</title>
-    <link rel="stylesheet" href="./styles.css?v=0fc848ba" />
+    <link rel="stylesheet" href="./styles.css?v=e955b6d3" />
   </head>
   <body>
     <main class="shell">
@@ -191,6 +191,50 @@
         </aside>
       </div>
     </div>
+    <div class="reading-modal speaking-modal" id="speakingModal" aria-hidden="true">
+      <button class="modal-close" id="speakingClose" type="button" aria-label="关闭口语练习">×</button>
+      <div class="speaking-view">
+        <aside class="speaking-list-col">
+          <div class="reading-panel-head">
+            <div>
+              <p class="eyebrow">Speaking Part 2</p>
+              <h3 id="speakingGroupTitle">口语练习</h3>
+            </div>
+          </div>
+          <button class="exam-start speaking-random" id="speakingRandom" type="button">随机一题</button>
+          <div class="speaking-list" id="speakingList"></div>
+        </aside>
+
+        <section class="speaking-stage">
+          <div class="speaking-cue" id="speakingCue"></div>
+          <div class="speaking-controls">
+            <button class="exam-start" id="speakingRecord" type="button">开始录音</button>
+            <span class="speaking-timer" id="speakingTimer">00:00</span>
+          </div>
+          <div class="speaking-transcript" id="speakingTranscript" aria-live="polite">
+            <p class="speaking-placeholder">选一道题，点「开始录音」，你说的话会实时转成文字。</p>
+          </div>
+          <div class="speaking-actions">
+            <button class="mistake-clear" id="speakingCopy" type="button">复制转录</button>
+            <button class="mistake-clear" id="speakingReset" type="button">清空</button>
+          </div>
+        </section>
+
+        <aside class="speaking-score-col">
+          <div class="reading-panel-head">
+            <div>
+              <p class="eyebrow">AI 考官评分</p>
+              <h3>结构化点评</h3>
+            </div>
+          </div>
+          <div class="speaking-score-placeholder">
+            <p>AI 考官评分（语法 / 用词 / 连贯 + 打分）即将上线。</p>
+            <p>现在可以先点「复制转录」，把你说的内容贴给 AI 让它点评。</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+
     <div class="tip-modal" id="tipModal" aria-hidden="true">
       <button class="modal-close" id="tipClose" type="button" aria-label="关闭">×</button>
       <div class="tip-card">
@@ -209,7 +253,7 @@
     </div>
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-    <script src="./data.js?v=c6efe9d2"></script>
-    <script src="./app.js?v=8ad59498"></script>
+    <script src="./data.js?v=010a07c6"></script>
+    <script src="./app.js?v=80d4f4b8"></script>
   </body>
 </html>

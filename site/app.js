@@ -67,6 +67,17 @@ const modalNext = document.querySelector("#modalNext");
 const magnifier = document.querySelector("#magnifier");
 const groupEyebrow = document.querySelector("#groupEyebrow");
 const workbenchActions = document.querySelector("#workbenchActions");
+const speakingModal = document.querySelector("#speakingModal");
+const speakingClose = document.querySelector("#speakingClose");
+const speakingGroupTitle = document.querySelector("#speakingGroupTitle");
+const speakingList = document.querySelector("#speakingList");
+const speakingRandom = document.querySelector("#speakingRandom");
+const speakingCue = document.querySelector("#speakingCue");
+const speakingRecord = document.querySelector("#speakingRecord");
+const speakingTimer = document.querySelector("#speakingTimer");
+const speakingTranscript = document.querySelector("#speakingTranscript");
+const speakingCopy = document.querySelector("#speakingCopy");
+const speakingReset = document.querySelector("#speakingReset");
 const tipButton = document.querySelector("#tipButton");
 const tipModal = document.querySelector("#tipModal");
 const tipClose = document.querySelector("#tipClose");
@@ -305,6 +316,16 @@ function currentEssays() {
   return topic ? essays.filter((essay) => essay.group === topic.group) : [];
 }
 
+// 口语题也挂主话题：当前话题所属 group 的 Part 2 题卡；「全部话题」时汇总全部
+function currentSpeaking() {
+  const groups = window.IELTS_SPEAKING || {};
+  if (state.activeTopic === "all") {
+    return Object.entries(groups).flatMap(([key, list]) => list.map((card) => ({ ...card, group: key })));
+  }
+  const topic = topics.find((item) => item.slug === state.activeTopic);
+  return topic && groups[topic.group] ? groups[topic.group].map((card) => ({ ...card, group: topic.group })) : [];
+}
+
 // 话题工作台头部：话题名 + 该话题可练的技能动作
 function renderWorkbench() {
   const query = normalize(state.query);
@@ -339,10 +360,16 @@ function renderWorkbench() {
   }
 
   // 下排：所在大类共享的技能（写作 / 口语），雅思按大话题出题
+  const topicSpeaking = currentSpeaking();
   const sharedActions = [];
   if (topicEssays.length) {
     sharedActions.push(`<button class="wb-action wb-essay" type="button" data-wb="essay">
       <i class="wb-dot" aria-hidden="true"></i>写作范文<em>${topicEssays.length} 篇</em>
+    </button>`);
+  }
+  if (topicSpeaking.length) {
+    sharedActions.push(`<button class="wb-action wb-speaking" type="button" data-wb="speaking">
+      <i class="wb-dot" aria-hidden="true"></i>口语练习<em>${topicSpeaking.length} 题</em>
     </button>`);
   }
 
@@ -1420,6 +1447,134 @@ function closeEssayList() {
   essayListBackdrop.hidden = true;
 }
 
+// ---------- 口语练习 ----------
+const speakingState = { cards: [], activeIndex: -1, recognition: null, recording: false, finalText: "", timerId: null, seconds: 0 };
+const SpeechRecognitionCtor = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+function renderSpeakingList() {
+  speakingList.innerHTML = speakingState.cards
+    .map(
+      (card, index) => `
+        <button class="speaking-item ${index === speakingState.activeIndex ? "is-active" : ""}" type="button" data-index="${index}">
+          <strong>${escapeHtml(card.title)}</strong>
+          <span>${escapeHtml(card.cn || "")}</span>
+        </button>
+      `,
+    )
+    .join("");
+}
+
+function selectSpeakingCard(index) {
+  const card = speakingState.cards[index];
+  if (!card) return;
+  speakingState.activeIndex = index;
+  renderSpeakingList();
+  speakingCue.innerHTML = `
+    <p class="speaking-cue-lead">Describe the following. You have 1 minute to prepare and should speak for 1–2 minutes.</p>
+    <h4>${escapeHtml(card.title)}</h4>
+    <p class="speaking-cue-cn">${escapeHtml(card.cn || "")}</p>
+    <p class="speaking-cue-say">You should say:</p>
+    <ul>${(card.cues || []).map((c) => `<li>${escapeHtml(c)}</li>`).join("")}</ul>
+  `;
+}
+
+function resetSpeakingTranscript() {
+  speakingState.finalText = "";
+  speakingTranscript.innerHTML = `<p class="speaking-placeholder">选一道题，点「开始录音」，你说的话会实时转成文字。</p>`;
+}
+
+function updateTimerLabel() {
+  const m = String(Math.floor(speakingState.seconds / 60)).padStart(2, "0");
+  const s = String(speakingState.seconds % 60).padStart(2, "0");
+  speakingTimer.textContent = `${m}:${s}`;
+}
+
+function stopRecording() {
+  speakingState.recording = false;
+  speakingRecord.textContent = "开始录音";
+  speakingRecord.classList.remove("is-recording");
+  clearInterval(speakingState.timerId);
+  try {
+    speakingState.recognition?.stop();
+  } catch {
+    /* 忽略重复停止 */
+  }
+}
+
+function startRecording() {
+  if (!SpeechRecognitionCtor) {
+    showToast("当前浏览器不支持语音识别，请用电脑版 Chrome");
+    return;
+  }
+  const recognition = new SpeechRecognitionCtor();
+  recognition.lang = /en-GB/i.test(state.selectedVoiceURI) ? "en-GB" : "en-US";
+  recognition.continuous = true;
+  recognition.interimResults = true;
+
+  recognition.onresult = (event) => {
+    let interim = "";
+    for (let i = event.resultIndex; i < event.results.length; i += 1) {
+      const chunk = event.results[i][0].transcript;
+      if (event.results[i].isFinal) speakingState.finalText += chunk + " ";
+      else interim += chunk;
+    }
+    speakingTranscript.innerHTML =
+      `<span class="speaking-final">${escapeHtml(speakingState.finalText)}</span>` +
+      `<span class="speaking-interim">${escapeHtml(interim)}</span>`;
+    speakingTranscript.scrollTop = speakingTranscript.scrollHeight;
+  };
+  recognition.onerror = (event) => {
+    if (event.error === "not-allowed") showToast("需要麦克风权限才能录音");
+    else if (event.error !== "aborted") showToast("语音识别出错，重试一下");
+    stopRecording();
+  };
+  recognition.onend = () => {
+    if (speakingState.recording) recognition.start(); // 连续模式下自动续接
+  };
+
+  speakingState.recognition = recognition;
+  speakingState.recording = true;
+  speakingState.finalText = "";
+  speakingState.seconds = 0;
+  updateTimerLabel();
+  speakingTranscript.innerHTML = `<span class="speaking-interim">聆听中…</span>`;
+  speakingRecord.textContent = "停止录音";
+  speakingRecord.classList.add("is-recording");
+  speakingState.timerId = setInterval(() => {
+    speakingState.seconds += 1;
+    updateTimerLabel();
+  }, 1000);
+  try {
+    recognition.start();
+  } catch {
+    stopRecording();
+  }
+}
+
+function openSpeaking() {
+  speakingState.cards = currentSpeaking();
+  speakingState.activeIndex = -1;
+  const topic = topics.find((item) => item.slug === state.activeTopic);
+  const group = topic ? (window.IELTS_TOPIC_GROUPS || []).find((g) => g.key === topic.group) : null;
+  speakingGroupTitle.textContent = group ? `${group.title} · 口语` : "口语练习";
+  renderSpeakingList();
+  resetSpeakingTranscript();
+  speakingState.seconds = 0;
+  updateTimerLabel();
+  speakingCue.innerHTML = `<p class="speaking-placeholder">从左侧选一道题，或点「随机一题」。</p>`;
+  if (speakingState.cards.length) selectSpeakingCard(Math.floor(Math.random() * speakingState.cards.length));
+  speakingModal.classList.add("is-open");
+  speakingModal.setAttribute("aria-hidden", "false");
+  document.body.classList.add("has-modal");
+}
+
+function closeSpeaking() {
+  stopRecording();
+  speakingModal.classList.remove("is-open");
+  speakingModal.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("has-modal");
+}
+
 // ---------- 打赏 ----------
 const tipQrSrc = { wechat: "./assets/qr-wechat.png", alipay: "./assets/qr-alipay.png" };
 
@@ -1514,6 +1669,40 @@ function attachEvents() {
     if (btn.dataset.wb === "exam") openExamDrawer();
     else if (btn.dataset.wb === "reading") openReading();
     else if (btn.dataset.wb === "essay") openEssayFromWorkbench();
+    else if (btn.dataset.wb === "speaking") openSpeaking();
+  });
+
+  speakingClose.addEventListener("click", closeSpeaking);
+  speakingModal.addEventListener("click", (event) => {
+    if (event.target === speakingModal) closeSpeaking();
+  });
+  speakingList.addEventListener("click", (event) => {
+    const item = event.target.closest(".speaking-item");
+    if (item) selectSpeakingCard(Number(item.dataset.index));
+  });
+  speakingRandom.addEventListener("click", () => {
+    if (speakingState.cards.length) selectSpeakingCard(Math.floor(Math.random() * speakingState.cards.length));
+  });
+  speakingRecord.addEventListener("click", () => {
+    if (speakingState.recording) stopRecording();
+    else startRecording();
+  });
+  speakingReset.addEventListener("click", () => {
+    stopRecording();
+    speakingState.seconds = 0;
+    updateTimerLabel();
+    resetSpeakingTranscript();
+  });
+  speakingCopy.addEventListener("click", () => {
+    const text = speakingState.finalText.trim();
+    if (!text) {
+      showToast("还没有转录内容");
+      return;
+    }
+    navigator.clipboard?.writeText(text).then(
+      () => showToast("转录已复制，去问 AI 点评吧"),
+      () => showToast("复制失败，手动选中复制"),
+    );
   });
 
   examClose.addEventListener("click", closeExamDrawer);
@@ -1774,6 +1963,11 @@ function attachEvents() {
 
     if (event.key === "Escape" && tipModal.classList.contains("is-open")) {
       closeTip();
+      return;
+    }
+
+    if (event.key === "Escape" && speakingModal.classList.contains("is-open")) {
+      closeSpeaking();
       return;
     }
 

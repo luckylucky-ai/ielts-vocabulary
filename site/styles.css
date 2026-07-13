@@ -382,6 +382,10 @@ h1 {
   background: var(--accent);
 }
 
+.wb-speaking .wb-dot {
+  background: var(--plum);
+}
+
 .wb-essay .wb-dot {
   background: var(--clay);
 }
@@ -1861,6 +1865,14 @@ body.is-exam-active .gallery {
     height: calc(100vh - 24px);
   }
 
+  .speaking-view {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(0, 1.4fr) auto;
+    width: calc(100vw - 24px);
+    height: calc(100vh - 24px);
+    overflow: auto;
+  }
+
   .toolbar {
     align-items: stretch;
     flex-direction: column;
@@ -2276,6 +2288,187 @@ body.is-exam-active .gallery {
   width: 100%;
   aspect-ratio: 3 / 4;
   object-fit: cover;
+}
+
+/* ---------- 口语练习 ---------- */
+
+.speaking-view {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.8fr) minmax(0, 1.4fr) minmax(240px, 0.9fr);
+  gap: 16px;
+  width: min(1280px, calc(100vw - 44px));
+  height: calc(100vh - 44px);
+}
+
+.speaking-list-col,
+.speaking-stage,
+.speaking-score-col {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--card);
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.32);
+  padding: 20px;
+}
+
+.speaking-random {
+  margin-bottom: 12px;
+}
+
+.speaking-list {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  display: grid;
+  gap: 8px;
+  align-content: start;
+}
+
+.speaking-item {
+  display: grid;
+  gap: 2px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  padding: 10px 12px;
+  text-align: left;
+  transition: border-color 140ms ease, background 140ms ease;
+}
+
+.speaking-item:hover {
+  border-color: rgba(128, 106, 139, 0.5);
+}
+
+.speaking-item.is-active {
+  border-color: var(--plum);
+  background: rgba(128, 106, 139, 0.1);
+}
+
+.speaking-item strong {
+  font-size: 13.5px;
+  font-weight: 700;
+}
+
+.speaking-item span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.speaking-cue {
+  padding: 16px 18px;
+  border: 1px solid rgba(128, 106, 139, 0.35);
+  border-radius: 10px;
+  background: rgba(128, 106, 139, 0.07);
+  margin-bottom: 14px;
+}
+
+.speaking-cue-lead {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.speaking-cue h4 {
+  margin: 0 0 4px;
+  font-family: var(--serif);
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.speaking-cue-cn {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.speaking-cue-say {
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.speaking-cue ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #4b453a;
+  font-size: 13.5px;
+  line-height: 1.7;
+}
+
+.speaking-controls {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.speaking-record.is-recording,
+#speakingRecord.is-recording {
+  border-color: var(--clay);
+  background: var(--clay);
+  color: var(--paper);
+}
+
+.speaking-timer {
+  color: var(--muted);
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+.speaking-transcript {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 14px 16px;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.speaking-final {
+  color: var(--ink);
+}
+
+.speaking-interim {
+  color: var(--muted);
+}
+
+.speaking-placeholder {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13.5px;
+  line-height: 1.6;
+}
+
+.speaking-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.speaking-score-placeholder {
+  display: grid;
+  gap: 10px;
+  align-content: start;
+  margin-top: 14px;
+  padding: 16px;
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.speaking-score-placeholder p {
+  margin: 0;
 }
 
 /* ---------- 作者名片 + 打赏 ---------- */

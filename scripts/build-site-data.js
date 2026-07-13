@@ -448,10 +448,20 @@ if (unmapped.length) {
   console.warn(`⚠ 未分组话题（已归入「其他」，请补充 topic-groups.json）: ${unmapped.join(", ")}`);
 }
 
+// 口语题库（Part 2 题卡，按主话题 group 归类）
+let speaking = {};
+try {
+  speaking = JSON.parse(fs.readFileSync(path.join(root, "speaking-topics.json"), "utf8")).groups || {};
+} catch {
+  speaking = {};
+}
+const speakingCount = Object.values(speaking).reduce((sum, list) => sum + list.length, 0);
+
 const payload =
   `window.IELTS_TOPIC_GROUPS = ${JSON.stringify(groupList, null, 2)};\n` +
   `window.IELTS_VOCAB_TOPICS = ${JSON.stringify(topics, null, 2)};\n` +
-  `window.IELTS_ESSAYS = ${JSON.stringify(essays, null, 2)};\n`;
+  `window.IELTS_ESSAYS = ${JSON.stringify(essays, null, 2)};\n` +
+  `window.IELTS_SPEAKING = ${JSON.stringify(speaking, null, 2)};\n`;
 fs.mkdirSync(siteDir, { recursive: true });
 fs.writeFileSync(path.join(siteDir, "data.js"), payload);
 
@@ -476,4 +486,6 @@ bustCache();
 
 const imageCount = topics.reduce((total, topic) => total + topic.cards.length, 0);
 const readingCount = topics.filter((topic) => topic.reading).length;
-console.log(`Built ${topics.length} topics, ${imageCount} cards, ${readingCount} reading passages, ${essays.length} essays.`);
+console.log(
+  `Built ${topics.length} topics, ${imageCount} cards, ${readingCount} reading passages, ${essays.length} essays, ${speakingCount} speaking cards.`,
+);

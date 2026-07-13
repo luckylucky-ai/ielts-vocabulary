@@ -1,0 +1,107 @@
+{
+  "_说明": "雅思口语 Part 2 题卡，按主话题 group 归类（见 topic-groups.json 的 key）。新增题按此格式加进对应 group 即可。",
+  "groups": {
+    "education": [
+      {
+        "title": "Describe a skill you would like to learn",
+        "cn": "描述一项你想学的技能",
+        "cues": ["what the skill is", "how you would learn it", "how long it might take", "and explain why you want to learn it"]
+      },
+      {
+        "title": "Describe a teacher who has influenced you",
+        "cn": "描述一位影响过你的老师",
+        "cues": ["who this teacher is", "what subject they taught", "what they were like", "and explain how they influenced you"]
+      },
+      {
+        "title": "Describe something useful you learned outside school",
+        "cn": "描述一件你在学校之外学到的有用的东西",
+        "cues": ["what you learned", "how you learned it", "who taught you", "and explain why it was useful"]
+      }
+    ],
+    "society": [
+      {
+        "title": "Describe a job you would like to do in the future",
+        "cn": "描述你未来想做的一份工作",
+        "cues": ["what the job is", "what skills it needs", "why you are interested in it", "and explain whether it is easy to get"]
+      },
+      {
+        "title": "Describe a person who has helped you",
+        "cn": "描述一个帮助过你的人",
+        "cues": ["who the person is", "how you know them", "how they helped you", "and explain how you felt about it"]
+      },
+      {
+        "title": "Describe a piece of good news you received",
+        "cn": "描述你收到的一个好消息",
+        "cues": ["what the news was", "how you received it", "who told you", "and explain why it was good news"]
+      }
+    ],
+    "city": [
+      {
+        "title": "Describe a city you have visited",
+        "cn": "描述一座你去过的城市",
+        "cues": ["which city it is", "when you went there", "what you did there", "and explain what you liked about it"]
+      },
+      {
+        "title": "Describe a public place you like to go",
+        "cn": "描述一个你喜欢去的公共场所",
+        "cues": ["where it is", "how often you go", "what you do there", "and explain why you like it"]
+      },
+      {
+        "title": "Describe a long journey you enjoyed",
+        "cn": "描述一段你享受的长途旅行",
+        "cues": ["where you went", "how you travelled", "who you were with", "and explain why you enjoyed it"]
+      }
+    ],
+    "nature": [
+      {
+        "title": "Describe a place with beautiful scenery",
+        "cn": "描述一个风景优美的地方",
+        "cues": ["where it is", "how you got there", "what you could see", "and explain how you felt there"]
+      },
+      {
+        "title": "Describe an environmental problem in your area",
+        "cn": "描述你所在地区的一个环境问题",
+        "cues": ["what the problem is", "what causes it", "who it affects", "and explain how it could be solved"]
+      },
+      {
+        "title": "Describe a wild animal you find interesting",
+        "cn": "描述一种你觉得有趣的野生动物",
+        "cues": ["what animal it is", "where it lives", "what it looks like", "and explain why you find it interesting"]
+      }
+    ],
+    "tech": [
+      {
+        "title": "Describe a website or app you often use",
+        "cn": "描述一个你常用的网站或应用",
+        "cues": ["what it is", "what you use it for", "how often you use it", "and explain why it is useful to you"]
+      },
+      {
+        "title": "Describe a piece of technology you find useful",
+        "cn": "描述一件你觉得有用的科技产品",
+        "cues": ["what it is", "how you use it", "how long you have had it", "and explain why it is useful"]
+      },
+      {
+        "title": "Describe a time technology helped you solve a problem",
+        "cn": "描述科技帮你解决问题的一次经历",
+        "cues": ["what the problem was", "what technology you used", "how it helped", "and explain how you felt afterwards"]
+      }
+    ],
+    "culture": [
+      {
+        "title": "Describe a festival you enjoy",
+        "cn": "描述一个你喜欢的节日",
+        "cues": ["what festival it is", "when it takes place", "what people do", "and explain why you enjoy it"]
+      },
+      {
+        "title": "Describe a hobby you have had for a long time",
+        "cn": "描述一个你坚持很久的爱好",
+        "cues": ["what the hobby is", "when you started it", "how often you do it", "and explain why you have kept it"]
+      },
+      {
+        "title": "Describe a book you enjoyed reading",
+        "cn": "描述一本你喜欢读的书",
+        "cues": ["what the book is", "what it is about", "when you read it", "and explain why you enjoyed it"]
+      }
+    ]
+  }
+}
