@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IELTS Topic Studio · 话题式雅思备考</title>
-    <link rel="stylesheet" href="./styles.css?v=d901962b" />
+    <link rel="stylesheet" href="./styles.css?v=27b3c93c" />
   </head>
   <body>
     <main class="shell">
@@ -21,6 +21,11 @@
           <span>搜索</span>
           <input id="searchInput" type="search" placeholder="输入 topic / word / 中文" autocomplete="off" />
         </label>
+
+        <div class="voice-control">
+          <label for="voiceSelect">朗读发音</label>
+          <select id="voiceSelect" aria-label="选择发音"></select>
+        </div>
 
         <nav class="topic-nav" aria-label="选择话题">
           <p class="topic-nav-label">话题</p>
@@ -45,10 +50,6 @@
             <p class="eyebrow" id="groupEyebrow" hidden></p>
             <h2 id="pageTitle">雅思话题词汇卡片</h2>
             <div class="workbench-actions" id="workbenchActions"></div>
-          </div>
-          <div class="voice-control">
-            <label for="voiceSelect">发音</label>
-            <select id="voiceSelect" aria-label="选择发音"></select>
           </div>
         </div>
 
