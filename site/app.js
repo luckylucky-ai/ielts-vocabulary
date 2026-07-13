@@ -325,22 +325,44 @@ function renderWorkbench() {
   const wordCount = wordsForTopic().length;
   const reading = currentReading();
   const topicEssays = currentEssays();
-  const actions = [
+
+  // 上排：这个子话题的技能（词汇 / 阅读）
+  const topicActions = [
     `<button class="wb-action wb-exam" type="button" data-wb="exam">
       <i class="wb-dot" aria-hidden="true"></i>单词考试<em>${wordCount} 词</em>
     </button>`,
   ];
   if (reading) {
-    actions.push(`<button class="wb-action wb-reading" type="button" data-wb="reading">
+    topicActions.push(`<button class="wb-action wb-reading" type="button" data-wb="reading">
       <i class="wb-dot" aria-hidden="true"></i>阅读练习<em>${reading.questionCount} 题</em>
     </button>`);
   }
+
+  // 下排：所在大类共享的技能（写作 / 口语），雅思按大话题出题
+  const sharedActions = [];
   if (topicEssays.length) {
-    actions.push(`<button class="wb-action wb-essay" type="button" data-wb="essay">
+    sharedActions.push(`<button class="wb-action wb-essay" type="button" data-wb="essay">
       <i class="wb-dot" aria-hidden="true"></i>写作范文<em>${topicEssays.length} 篇</em>
     </button>`);
   }
-  workbenchActions.innerHTML = actions.join("");
+
+  const sharedLabel =
+    state.activeTopic === "all" ? "全部话题共享" : group ? `${escapeHtml(group.title)} · 大类共享` : "大类共享";
+
+  workbenchActions.innerHTML = `
+    <div class="wb-group">
+      <p class="wb-group-label"><span class="wb-group-scope">这个子话题</span></p>
+      <div class="wb-row">${topicActions.join("")}</div>
+    </div>
+    ${
+      sharedActions.length
+        ? `<div class="wb-group wb-group-shared">
+            <p class="wb-group-label"><span class="wb-group-scope">${sharedLabel}</span><span class="wb-group-note">雅思写作口语按大话题出题</span></p>
+            <div class="wb-row">${sharedActions.join("")}</div>
+          </div>`
+        : ""
+    }
+  `;
 }
 
 function openEssayFromWorkbench() {
@@ -1359,8 +1381,14 @@ function renderEssayList() {
     if (!byGroup.has(essay.group)) byGroup.set(essay.group, []);
     byGroup.get(essay.group).push(essay);
   }
-  essayList.innerHTML = [...byGroup.entries()]
-    .map(
+  const intro =
+    state.activeTopic === "all"
+      ? `<p class="essay-list-intro">雅思写作按大话题出题，以下是各大类的范文。</p>`
+      : `<p class="essay-list-intro">这些是本大类共享的范文（同大类的子话题都会用到），不针对单个子话题。</p>`;
+  essayList.innerHTML =
+    intro +
+    [...byGroup.entries()]
+      .map(
       ([key, list]) => `
         <p class="essay-list-group">${escapeHtml(groupTitleOf(key))}</p>
         ${list
