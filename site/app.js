@@ -363,8 +363,9 @@ function renderWorkbench() {
   const wordCount = wordsForTopic().length;
   const reading = currentReading();
   const topicEssays = currentEssays();
+  const topicSpeaking = currentSpeaking();
 
-  // 上排：这个子话题的技能（词汇 / 阅读）
+  // 子话题技能（词汇 / 阅读）
   const topicActions = [
     `<button class="wb-action wb-exam" type="button" data-wb="exam">
       <i class="wb-dot" aria-hidden="true"></i>单词考试<em>${wordCount} 词</em>
@@ -376,8 +377,7 @@ function renderWorkbench() {
     </button>`);
   }
 
-  // 下排：所在大类共享的技能（写作 / 口语），雅思按大话题出题
-  const topicSpeaking = currentSpeaking();
+  // 大类共享技能（写作 / 口语），雅思按大话题出题
   const sharedActions = [];
   if (topicEssays.length) {
     sharedActions.push(`<button class="wb-action wb-essay" type="button" data-wb="essay">
@@ -390,23 +390,12 @@ function renderWorkbench() {
     </button>`);
   }
 
-  const sharedLabel =
-    state.activeTopic === "all" ? "全部话题共享" : group ? `${escapeHtml(group.title)} · 大类共享` : "大类共享";
-
-  workbenchActions.innerHTML = `
-    <div class="wb-group">
-      <p class="wb-group-label"><span class="wb-group-scope">这个子话题</span></p>
-      <div class="wb-row">${topicActions.join("")}</div>
-    </div>
-    ${
-      sharedActions.length
-        ? `<div class="wb-group wb-group-shared">
-            <p class="wb-group-label"><span class="wb-group-scope">${sharedLabel}</span><span class="wb-group-note">雅思写作口语按大话题出题</span></p>
-            <div class="wb-row">${sharedActions.join("")}</div>
-          </div>`
-        : ""
-    }
-  `;
+  // 一排展示；子话题技能与大类技能之间用竖线 + 说明分隔
+  const dividerTip = "写作、口语按大话题出题，同大类的子话题共享";
+  const divider = sharedActions.length
+    ? `<span class="wb-divider" title="${dividerTip}">大类共享</span>`
+    : "";
+  workbenchActions.innerHTML = topicActions.join("") + divider + sharedActions.join("");
 }
 
 function openEssayFromWorkbench() {
