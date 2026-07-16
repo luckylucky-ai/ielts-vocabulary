@@ -449,7 +449,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "magnitude",
             "ipa": "/ˈmæɡnɪtjuːd/",
             "pos": "n",
-            "meaning": "震级"
+            "meaning": "震级",
+            "level": "high",
+            "example": "Few people fully grasp the magnitude of the environmental challenges facing our generation."
           },
           {
             "word": "devastate",
@@ -1188,7 +1190,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "vulnerable",
             "ipa": "/ˈvʌlnərəbl/",
             "pos": "adj",
-            "meaning": "脆弱的"
+            "meaning": "脆弱的",
+            "level": "high",
+            "example": "The elderly and children are the most vulnerable groups during economic downturns."
           },
           {
             "word": "adapt",
@@ -1254,7 +1258,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "shelter",
             "ipa": "/ˈʃeltər/",
             "pos": "n",
-            "meaning": "避难所"
+            "meaning": "避难所",
+            "level": "high",
+            "example": "Local authorities provide emergency shelter for rough sleepers during the winter months."
           },
           {
             "word": "early warning",
@@ -1609,7 +1615,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "emission",
             "ipa": "/ɪˈmɪʃn/",
             "pos": "n",
-            "meaning": "排放"
+            "meaning": "排放",
+            "level": "high",
+            "example": "Strict regulations on carbon emissions have forced factories to adopt cleaner technologies."
           },
           {
             "word": "carbon dioxide",
@@ -1748,7 +1756,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "atmospheric",
             "ipa": "/ˌætməsˈferɪk/",
             "pos": "adj",
-            "meaning": "大气的"
+            "meaning": "大气的",
+            "level": "high",
+            "example": "Rising atmospheric carbon dioxide levels are the primary driver of global warming."
           },
           {
             "word": "circulation",
@@ -1760,7 +1770,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "satellite",
             "ipa": "/ˈsætəlaɪt/",
             "pos": "n",
-            "meaning": "卫星"
+            "meaning": "卫星",
+            "level": "high",
+            "example": "Satellite imagery allows scientists to track deforestation in remote regions with remarkable accuracy."
           },
           {
             "word": "fluctuate",
@@ -1796,7 +1808,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "hemisphere",
             "ipa": "/ˈhemɪsfɪər/",
             "pos": "n",
-            "meaning": "半球"
+            "meaning": "半球",
+            "level": "mid"
           },
           {
             "word": "latitude",
@@ -1881,13 +1894,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "solstice",
             "ipa": "/ˈsɒlstɪs/",
             "pos": "n",
-            "meaning": "至日"
+            "meaning": "至日",
+            "level": "low"
           },
           {
             "word": "equinox",
             "ipa": "/ˈiːkwɪnɒks/",
             "pos": "n",
-            "meaning": "春/秋分"
+            "meaning": "春/秋分",
+            "level": "low"
           },
           {
             "word": "hibernate",
@@ -2628,7 +2643,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "welfare",
             "ipa": "/ˈwelfeər/",
             "pos": "n",
-            "meaning": "福利"
+            "meaning": "福利",
+            "level": "high",
+            "example": "A generous welfare system can protect vulnerable citizens without discouraging them from working."
           },
           {
             "word": "enclosure",
@@ -3975,7 +3992,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "subsidy",
             "ipa": "/ˈsʌbsɪdi/",
             "pos": "n",
-            "meaning": "补贴"
+            "meaning": "补贴",
+            "level": "high",
+            "example": "Government subsidies have made housing more affordable for low-income families."
           },
           {
             "word": "agribusiness",
@@ -4496,7 +4515,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "grassroots",
             "ipa": "/ˈɡrɑːsruːts/",
             "pos": "adj",
-            "meaning": "草根的"
+            "meaning": "草根的",
+            "level": "mid"
           },
           {
             "word": "advocacy group",
@@ -4887,7 +4907,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "emission",
             "ipa": "/ɪˈmɪʃən/",
             "pos": "n",
-            "meaning": "排放"
+            "meaning": "排放",
+            "level": "high",
+            "example": "Strict regulations on carbon emissions have forced factories to adopt cleaner technologies."
           },
           {
             "word": "smog",
@@ -5099,7 +5121,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "legislation",
             "ipa": "/ˌledʒɪsˈleɪʃən/",
             "pos": "n",
-            "meaning": "立法"
+            "meaning": "立法",
+            "level": "high",
+            "example": "New legislation requires large companies to publish their gender pay statistics."
           },
           {
             "word": "protocol",
@@ -5159,7 +5183,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "accountability",
             "ipa": "/əˌkaʊntəˈbɪlɪti/",
             "pos": "n",
-            "meaning": "问责"
+            "meaning": "问责",
+            "level": "high",
+            "example": "Greater accountability is needed to ensure public funds are spent effectively."
           },
           {
             "word": "intergovernmental",
@@ -5335,7 +5361,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "solar",
             "ipa": "/ˈsəʊlə/",
             "pos": "adj",
-            "meaning": "太阳能的"
+            "meaning": "太阳能的",
+            "level": "high",
+            "example": "Many governments are investing heavily in solar energy to reduce their reliance on fossil fuels."
           },
           {
             "word": "turbine",
@@ -5395,7 +5423,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "advocacy",
             "ipa": "/ˈædvəkəsi/",
             "pos": "n",
-            "meaning": "倡导"
+            "meaning": "倡导",
+            "level": "mid"
           }
         ],
         "image": "../outputs/05-environment-and-pollution/generated-with-text/05-card-05-generated-text.png"
@@ -5743,7 +5772,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "calibrate",
             "ipa": "/ˈkælɪbreɪt/",
             "pos": "v",
-            "meaning": "校准"
+            "meaning": "校准",
+            "level": "low"
           },
           {
             "word": "specification",
@@ -5834,7 +5864,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "satellite",
             "ipa": "/ˈsætəlaɪt/",
             "pos": "n",
-            "meaning": "卫星"
+            "meaning": "卫星",
+            "level": "high",
+            "example": "Satellite imagery allows scientists to track deforestation in remote regions with remarkable accuracy."
           },
           {
             "word": "semiconductor",
@@ -6503,7 +6535,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "resolution",
             "ipa": "/ˌrezəˈluːʃən/",
             "pos": "n",
-            "meaning": "分辨率"
+            "meaning": "分辨率",
+            "level": "high",
+            "example": "International cooperation is essential for the resolution of global environmental problems."
           },
           {
             "word": "bandwidth",
@@ -6884,91 +6918,110 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "celestial",
             "ipa": "/səˈlestiəl/",
             "pos": "adj",
-            "meaning": "天体的"
+            "meaning": "天体的",
+            "level": "mid"
           },
           {
             "word": "orbit",
             "ipa": "/ˈɔːrbɪt/",
             "pos": "n",
-            "meaning": "轨道"
+            "meaning": "轨道",
+            "level": "high",
+            "example": "Hundreds of satellites orbit the Earth, providing data for weather forecasting and navigation."
           },
           {
             "word": "gravitational",
             "ipa": "/ˌɡrævɪˈteɪʃənl/",
             "pos": "adj",
-            "meaning": "引力的"
+            "meaning": "引力的",
+            "level": "mid"
           },
           {
             "word": "terrestrial",
             "ipa": "/təˈrestriəl/",
             "pos": "adj",
-            "meaning": "类地的"
+            "meaning": "类地的",
+            "level": "mid"
           },
           {
             "word": "revolution",
             "ipa": "/ˌrevəˈluːʃn/",
             "pos": "n",
-            "meaning": "公转"
+            "meaning": "公转",
+            "level": "high",
+            "example": "The digital revolution has fundamentally transformed how we work, learn and socialise."
           },
           {
             "word": "rotation",
             "ipa": "/roʊˈteɪʃn/",
             "pos": "n",
-            "meaning": "自转"
+            "meaning": "自转",
+            "level": "mid"
           },
           {
             "word": "elliptical",
             "ipa": "/ɪˈlɪptɪkl/",
             "pos": "adj",
-            "meaning": "椭圆形的"
+            "meaning": "椭圆形的",
+            "level": "low"
           },
           {
             "word": "asteroid",
             "ipa": "/ˈæstərɔɪd/",
             "pos": "n",
-            "meaning": "小行星"
+            "meaning": "小行星",
+            "level": "mid"
           },
           {
             "word": "comet",
             "ipa": "/ˈkɒmɪt/",
             "pos": "n",
-            "meaning": "彗星"
+            "meaning": "彗星",
+            "level": "mid"
           },
           {
             "word": "nebula",
             "ipa": "/ˈnebjʊlə/",
             "pos": "n",
-            "meaning": "星云"
+            "meaning": "星云",
+            "level": "low"
           },
           {
             "word": "solar",
             "ipa": "/ˈsoʊlər/",
             "pos": "adj",
-            "meaning": "太阳的"
+            "meaning": "太阳的",
+            "level": "high",
+            "example": "Many governments are investing heavily in solar energy to reduce their reliance on fossil fuels."
           },
           {
             "word": "lunar",
             "ipa": "/ˈluːnər/",
             "pos": "adj",
-            "meaning": "月球的"
+            "meaning": "月球的",
+            "level": "mid"
           },
           {
             "word": "planetary",
             "ipa": "/ˈplænɪtri/",
             "pos": "adj",
-            "meaning": "行星的"
+            "meaning": "行星的",
+            "level": "mid"
           },
           {
             "word": "equinox",
             "ipa": "/ˈiːkwɪnɒks/",
             "pos": "n",
-            "meaning": "春秋分"
+            "meaning": "春秋分",
+            "level": "low"
           },
           {
             "word": "magnitude",
             "ipa": "/ˈmæɡnɪtjuːd/",
             "pos": "n",
-            "meaning": "星等"
+            "meaning": "星等",
+            "level": "high",
+            "example": "Few people fully grasp the magnitude of the environmental challenges facing our generation."
           }
         ],
         "image": "../outputs/08-space-and-astronomy/font-weight-adjusted/08-card-01-text-heavier.png"
@@ -6981,91 +7034,108 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "constellation",
             "ipa": "/ˌkɒnstəˈleɪʃn/",
             "pos": "n",
-            "meaning": "星座"
+            "meaning": "星座",
+            "level": "mid"
           },
           {
             "word": "galaxy",
             "ipa": "/ˈɡæləksi/",
             "pos": "n",
-            "meaning": "星系"
+            "meaning": "星系",
+            "level": "mid"
           },
           {
             "word": "supernova",
             "ipa": "/ˌsuːpərˈnoʊvə/",
             "pos": "n",
-            "meaning": "超新星"
+            "meaning": "超新星",
+            "level": "low"
           },
           {
             "word": "luminosity",
             "ipa": "/ˌluːmɪˈnɒsɪti/",
             "pos": "n",
-            "meaning": "光度"
+            "meaning": "光度",
+            "level": "low"
           },
           {
             "word": "stellar",
             "ipa": "/ˈstelər/",
             "pos": "adj",
-            "meaning": "恒星的"
+            "meaning": "恒星的",
+            "level": "mid"
           },
           {
             "word": "spectrum",
             "ipa": "/ˈspektrəm/",
             "pos": "n",
-            "meaning": "光谱"
+            "meaning": "光谱",
+            "level": "high",
+            "example": "The proposal attracted support from a broad spectrum of society, from students to business leaders."
           },
           {
             "word": "quasar",
             "ipa": "/ˈkweɪzɑːr/",
             "pos": "n",
-            "meaning": "类星体"
+            "meaning": "类星体",
+            "level": "low"
           },
           {
             "word": "infrared",
             "ipa": "/ˌɪnfrəˈred/",
             "pos": "adj",
-            "meaning": "红外线的"
+            "meaning": "红外线的",
+            "level": "mid"
           },
           {
             "word": "dwarf",
             "ipa": "/dwɔːrf/",
             "pos": "n",
-            "meaning": "矮星"
+            "meaning": "矮星",
+            "level": "mid"
           },
           {
             "word": "interstellar",
             "ipa": "/ˌɪntərˈstelər/",
             "pos": "adj",
-            "meaning": "星际的"
+            "meaning": "星际的",
+            "level": "low"
           },
           {
             "word": "cosmic",
             "ipa": "/ˈkɒzmɪk/",
             "pos": "adj",
-            "meaning": "宇宙的"
+            "meaning": "宇宙的",
+            "level": "mid"
           },
           {
             "word": "radiate",
             "ipa": "/ˈreɪdieɪt/",
             "pos": "v",
-            "meaning": "辐射"
+            "meaning": "辐射",
+            "level": "mid"
           },
           {
             "word": "neutron",
             "ipa": "/ˈnjuːtrɒn/",
             "pos": "n",
-            "meaning": "中子"
+            "meaning": "中子",
+            "level": "low"
           },
           {
             "word": "void",
             "ipa": "/vɔɪd/",
             "pos": "n",
-            "meaning": "虚空"
+            "meaning": "虚空",
+            "level": "mid"
           },
           {
             "word": "emit",
             "ipa": "/ɪˈmɪt/",
             "pos": "v",
-            "meaning": "发出"
+            "meaning": "发出",
+            "level": "high",
+            "example": "Vehicles powered by petrol emit large quantities of greenhouse gases every day."
           }
         ],
         "image": "../outputs/08-space-and-astronomy/font-weight-adjusted/08-card-02-text-heavier.png"
@@ -7078,91 +7148,108 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "astronaut",
             "ipa": "/ˈæstrənɔːt/",
             "pos": "n",
-            "meaning": "宇航员"
+            "meaning": "宇航员",
+            "level": "mid"
           },
           {
             "word": "spacecraft",
             "ipa": "/ˈspeɪskrɑːft/",
             "pos": "n",
-            "meaning": "航天器"
+            "meaning": "航天器",
+            "level": "mid"
           },
           {
             "word": "trajectory",
             "ipa": "/trəˈdʒektəri/",
             "pos": "n",
-            "meaning": "飞行轨迹"
+            "meaning": "飞行轨迹",
+            "level": "mid"
           },
           {
             "word": "propulsion",
             "ipa": "/prəˈpʌlʃn/",
             "pos": "n",
-            "meaning": "推进力"
+            "meaning": "推进力",
+            "level": "low"
           },
           {
             "word": "launch",
             "ipa": "/lɔːntʃ/",
             "pos": "v",
-            "meaning": "发射"
+            "meaning": "发射",
+            "level": "high",
+            "example": "The government launched a nationwide campaign to promote recycling among young people."
           },
           {
             "word": "satellite",
             "ipa": "/ˈsætəlaɪt/",
             "pos": "n",
-            "meaning": "卫星"
+            "meaning": "卫星",
+            "level": "high",
+            "example": "Satellite imagery allows scientists to track deforestation in remote regions with remarkable accuracy."
           },
           {
             "word": "module",
             "ipa": "/ˈmɒdjuːl/",
             "pos": "n",
-            "meaning": "舱段"
+            "meaning": "舱段",
+            "level": "mid"
           },
           {
             "word": "payload",
             "ipa": "/ˈpeɪloʊd/",
             "pos": "n",
-            "meaning": "有效载荷"
+            "meaning": "有效载荷",
+            "level": "low"
           },
           {
             "word": "reentry",
             "ipa": "/ˌriːˈentri/",
             "pos": "n",
-            "meaning": "再入大气"
+            "meaning": "再入大气",
+            "level": "low"
           },
           {
             "word": "rover",
             "ipa": "/ˈroʊvər/",
             "pos": "n",
-            "meaning": "探测车"
+            "meaning": "探测车",
+            "level": "low"
           },
           {
             "word": "probe",
             "ipa": "/proʊb/",
             "pos": "n",
-            "meaning": "探测器"
+            "meaning": "探测器",
+            "level": "mid"
           },
           {
             "word": "spacewalk",
             "ipa": "/ˈspeɪswɔːk/",
             "pos": "n",
-            "meaning": "太空行走"
+            "meaning": "太空行走",
+            "level": "low"
           },
           {
             "word": "thrust",
             "ipa": "/θrʌst/",
             "pos": "n",
-            "meaning": "推力"
+            "meaning": "推力",
+            "level": "mid"
           },
           {
             "word": "docking",
             "ipa": "/ˈdɒkɪŋ/",
             "pos": "n",
-            "meaning": "对接"
+            "meaning": "对接",
+            "level": "low"
           },
           {
             "word": "capsule",
             "ipa": "/ˈkæpsjuːl/",
             "pos": "n",
-            "meaning": "太空舱"
+            "meaning": "太空舱",
+            "level": "mid"
           }
         ],
         "image": "../outputs/08-space-and-astronomy/font-weight-adjusted/08-card-03-text-heavier.png"
@@ -7175,91 +7262,110 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "eclipse",
             "ipa": "/ɪˈklɪps/",
             "pos": "n",
-            "meaning": "日食/月食"
+            "meaning": "日食/月食",
+            "level": "mid"
           },
           {
             "word": "aurora",
             "ipa": "/ɔːˈrɔːrə/",
             "pos": "n",
-            "meaning": "极光"
+            "meaning": "极光",
+            "level": "low"
           },
           {
             "word": "solstice",
             "ipa": "/ˈsɒlstɪs/",
             "pos": "n",
-            "meaning": "至点"
+            "meaning": "至点",
+            "level": "low"
           },
           {
             "word": "tidal",
             "ipa": "/ˈtaɪdl/",
             "pos": "adj",
-            "meaning": "潮汐的"
+            "meaning": "潮汐的",
+            "level": "mid"
           },
           {
             "word": "meteorite",
             "ipa": "/ˈmiːtiəraɪt/",
             "pos": "n",
-            "meaning": "陨石"
+            "meaning": "陨石",
+            "level": "low"
           },
           {
             "word": "photon",
             "ipa": "/ˈfoʊtɒn/",
             "pos": "n",
-            "meaning": "光子"
+            "meaning": "光子",
+            "level": "low"
           },
           {
             "word": "radiation",
             "ipa": "/ˌreɪdiˈeɪʃn/",
             "pos": "n",
-            "meaning": "辐射"
+            "meaning": "辐射",
+            "level": "high",
+            "example": "Excessive exposure to ultraviolet radiation significantly increases the risk of skin cancer."
           },
           {
             "word": "zenith",
             "ipa": "/ˈziːnɪθ/",
             "pos": "n",
-            "meaning": "天顶"
+            "meaning": "天顶",
+            "level": "low"
           },
           {
             "word": "atmospheric",
             "ipa": "/ˌætməsˈferɪk/",
             "pos": "adj",
-            "meaning": "大气的"
+            "meaning": "大气的",
+            "level": "high",
+            "example": "Rising atmospheric carbon dioxide levels are the primary driver of global warming."
           },
           {
             "word": "velocity",
             "ipa": "/vəˈlɒsɪti/",
             "pos": "n",
-            "meaning": "速度"
+            "meaning": "速度",
+            "level": "mid"
           },
           {
             "word": "impact",
             "ipa": "/ˈɪmpækt/",
             "pos": "n",
-            "meaning": "撞击"
+            "meaning": "撞击",
+            "level": "high",
+            "example": "Social media has had a profound impact on the way young people communicate."
           },
           {
             "word": "debris",
             "ipa": "/ˈdebriː/",
             "pos": "n",
-            "meaning": "碎片"
+            "meaning": "碎片",
+            "level": "high",
+            "example": "Plastic debris floating in the ocean poses a serious threat to marine life."
           },
           {
             "word": "hemisphere",
             "ipa": "/ˈhemɪsfɪər/",
             "pos": "n",
-            "meaning": "半球"
+            "meaning": "半球",
+            "level": "mid"
           },
           {
             "word": "ionosphere",
             "ipa": "/aɪˈɒnəsfɪər/",
             "pos": "n",
-            "meaning": "电离层"
+            "meaning": "电离层",
+            "level": "low"
           },
           {
             "word": "spectral",
             "ipa": "/ˈspektrəl/",
             "pos": "adj",
-            "meaning": "光谱的"
+            "meaning": "光谱的",
+            "level": "low"
           }
         ],
         "image": "../outputs/08-space-and-astronomy/font-weight-adjusted/08-card-04-text-heavier.png"
@@ -7272,91 +7378,110 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "telescope",
             "ipa": "/ˈtelɪskoʊp/",
             "pos": "n",
-            "meaning": "望远镜"
+            "meaning": "望远镜",
+            "level": "mid"
           },
           {
             "word": "observatory",
             "ipa": "/əbˈzɜːrvətri/",
             "pos": "n",
-            "meaning": "天文台"
+            "meaning": "天文台",
+            "level": "mid"
           },
           {
             "word": "astrophysics",
             "ipa": "/ˌæstrəˈfɪzɪks/",
             "pos": "n",
-            "meaning": "天体物理学"
+            "meaning": "天体物理学",
+            "level": "low"
           },
           {
             "word": "exoplanet",
             "ipa": "/ˈeksəʊplænɪt/",
             "pos": "n",
-            "meaning": "系外行星"
+            "meaning": "系外行星",
+            "level": "low"
           },
           {
             "word": "parallax",
             "ipa": "/ˈpærəlæks/",
             "pos": "n",
-            "meaning": "视差"
+            "meaning": "视差",
+            "level": "low"
           },
           {
             "word": "coordinates",
             "ipa": "/koʊˈɔːrdɪnɪts/",
             "pos": "n",
-            "meaning": "坐标"
+            "meaning": "坐标",
+            "level": "mid"
           },
           {
             "word": "calibrate",
             "ipa": "/ˈkælɪbreɪt/",
             "pos": "v",
-            "meaning": "校准"
+            "meaning": "校准",
+            "level": "low"
           },
           {
             "word": "resolution",
             "ipa": "/ˌrezəˈluːʃn/",
             "pos": "n",
-            "meaning": "分辨率"
+            "meaning": "分辨率",
+            "level": "high",
+            "example": "International cooperation is essential for the resolution of global environmental problems."
           },
           {
             "word": "habitable",
             "ipa": "/ˈhæbɪtəbl/",
             "pos": "adj",
-            "meaning": "可居住的"
+            "meaning": "可居住的",
+            "level": "mid"
           },
           {
             "word": "simulate",
             "ipa": "/ˈsɪmjʊleɪt/",
             "pos": "v",
-            "meaning": "模拟"
+            "meaning": "模拟",
+            "level": "high",
+            "example": "Flight simulators allow trainee pilots to practise emergency procedures in a completely safe environment."
           },
           {
             "word": "detect",
             "ipa": "/dɪˈtekt/",
             "pos": "v",
-            "meaning": "探测"
+            "meaning": "探测",
+            "level": "high",
+            "example": "Modern medical equipment can detect diseases at a much earlier stage than before."
           },
           {
             "word": "emission",
             "ipa": "/ɪˈmɪʃn/",
             "pos": "n",
-            "meaning": "辐射发射"
+            "meaning": "辐射发射",
+            "level": "high",
+            "example": "Strict regulations on carbon emissions have forced factories to adopt cleaner technologies."
           },
           {
             "word": "waveband",
             "ipa": "/ˈweɪvbænd/",
             "pos": "n",
-            "meaning": "波段"
+            "meaning": "波段",
+            "level": "low"
           },
           {
             "word": "interplanetary",
             "ipa": "/ˌɪntərˈplænɪteri/",
             "pos": "adj",
-            "meaning": "行星际的"
+            "meaning": "行星际的",
+            "level": "low"
           },
           {
             "word": "spectroscopy",
             "ipa": "/spekˈtrɒskəpi/",
             "pos": "n",
-            "meaning": "光谱学"
+            "meaning": "光谱学",
+            "level": "low"
           }
         ],
         "image": "../outputs/08-space-and-astronomy/font-weight-adjusted/08-card-05-text-heavier.png"
@@ -7884,7 +8009,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "inclusive",
             "ipa": "/ɪnˈkluːsɪv/",
             "pos": "adj",
-            "meaning": "包容性的"
+            "meaning": "包容性的",
+            "level": "high",
+            "example": "An inclusive workplace values employees of every background, age and ability."
           },
           {
             "word": "vocational",
@@ -7902,7 +8029,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "accountability",
             "ipa": "/əˌkaʊntəˈbɪlɪti/",
             "pos": "n",
-            "meaning": "问责制"
+            "meaning": "问责制",
+            "level": "high",
+            "example": "Greater accountability is needed to ensure public funds are spent effectively."
           },
           {
             "word": "subsidise",
@@ -7938,7 +8067,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "inequality",
             "ipa": "/ˌɪnɪˈkwɒlɪti/",
             "pos": "n",
-            "meaning": "不平等"
+            "meaning": "不平等",
+            "level": "high",
+            "example": "Reducing inequality benefits not only the poor but society as a whole."
           },
           {
             "word": "universal",
@@ -8552,7 +8683,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "trajectory",
             "ipa": "/trəˈdʒektəri/",
             "pos": "n",
-            "meaning": "发展轨迹"
+            "meaning": "发展轨迹",
+            "level": "mid"
           },
           {
             "word": "leadership",
@@ -9986,7 +10118,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "bias",
             "ipa": "/ˈbaɪəs/",
             "pos": "n",
-            "meaning": "偏见"
+            "meaning": "偏见",
+            "level": "high",
+            "example": "Unconscious bias in hiring can be reduced by removing names from job applications."
           },
           {
             "word": "inference",
@@ -10800,7 +10934,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "gentrification",
             "ipa": "/ˌdʒentrɪfɪˈkeɪʃn/",
             "pos": "n",
-            "meaning": "士绅化"
+            "meaning": "士绅化",
+            "level": "mid"
           },
           {
             "word": "dwelling",
@@ -10842,7 +10977,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "landlord",
             "ipa": "/ˈlændlɔːd/",
             "pos": "n",
-            "meaning": "房东"
+            "meaning": "房东",
+            "level": "mid"
           },
           {
             "word": "occupant",
@@ -10909,7 +11045,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "emission",
             "ipa": "/ɪˈmɪʃn/",
             "pos": "n",
-            "meaning": "排放"
+            "meaning": "排放",
+            "level": "high",
+            "example": "Strict regulations on carbon emissions have forced factories to adopt cleaner technologies."
           },
           {
             "word": "greenspace",
@@ -11387,7 +11525,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "velocity",
             "ipa": "/vəˈlɒsɪti/",
             "pos": "n",
-            "meaning": "行驶速度"
+            "meaning": "行驶速度",
+            "level": "mid"
           },
           {
             "word": "overtake",
@@ -11630,7 +11769,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "emission",
             "ipa": "/ɪˈmɪʃən/",
             "pos": "n",
-            "meaning": "排放"
+            "meaning": "排放",
+            "level": "high",
+            "example": "Strict regulations on carbon emissions have forced factories to adopt cleaner technologies."
           },
           {
             "word": "electric",
@@ -11678,7 +11819,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "subsidy",
             "ipa": "/ˈsʌbsɪdi/",
             "pos": "n",
-            "meaning": "政府补贴"
+            "meaning": "政府补贴",
+            "level": "high",
+            "example": "Government subsidies have made housing more affordable for low-income families."
           },
           {
             "word": "incentivise",
@@ -12764,7 +12907,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "subsidy",
             "ipa": "/ˈsʌb.sɪ.di/",
             "pos": "n",
-            "meaning": "补贴"
+            "meaning": "补贴",
+            "level": "high",
+            "example": "Government subsidies have made housing more affordable for low-income families."
           },
           {
             "word": "bilateral",
@@ -12879,7 +13024,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "equity",
             "ipa": "/ˈek.wɪ.ti/",
             "pos": "n",
-            "meaning": "股权"
+            "meaning": "股权",
+            "level": "high",
+            "example": "True educational equity means every child receives the support they need to succeed."
           },
           {
             "word": "dividend",
@@ -13073,7 +13220,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "inequality",
             "ipa": "/ˌɪn.ɪˈkwɒl.ɪ.ti/",
             "pos": "n",
-            "meaning": "不平等"
+            "meaning": "不平等",
+            "level": "high",
+            "example": "Reducing inequality benefits not only the poor but society as a whole."
           },
           {
             "word": "productivity",
@@ -13128,7 +13277,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "demographic",
             "ipa": "/ˌdem.əˈɡræf.ɪk/",
             "pos": "n",
-            "meaning": "人口特征"
+            "meaning": "人口特征",
+            "level": "high",
+            "example": "Demographic changes are reshaping the labour market in most industrialised nations."
           },
           {
             "word": "branding",
@@ -13632,7 +13783,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "accountability",
             "ipa": "/əˌkaʊntəˈbɪlɪti/",
             "pos": "n",
-            "meaning": "问责制"
+            "meaning": "问责制",
+            "level": "high",
+            "example": "Greater accountability is needed to ensure public funds are spent effectively."
           },
           {
             "word": "constitutional",
@@ -13693,7 +13846,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "legislation",
             "ipa": "/ˌledʒɪˈsleɪʃn/",
             "pos": "n",
-            "meaning": "立法/法规"
+            "meaning": "立法/法规",
+            "level": "high",
+            "example": "New legislation requires large companies to publish their gender pay statistics."
           },
           {
             "word": "regulation",
@@ -13705,7 +13860,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "subsidy",
             "ipa": "/ˈsʌbsɪdi/",
             "pos": "n",
-            "meaning": "补贴"
+            "meaning": "补贴",
+            "level": "high",
+            "example": "Government subsidies have made housing more affordable for low-income families."
           },
           {
             "word": "austerity",
@@ -13723,7 +13880,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "welfare",
             "ipa": "/ˈwelfeə/",
             "pos": "n",
-            "meaning": "社会福利"
+            "meaning": "社会福利",
+            "level": "high",
+            "example": "A generous welfare system can protect vulnerable citizens without discouraging them from working."
           },
           {
             "word": "infrastructure",
@@ -13759,7 +13918,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "reform",
             "ipa": "/rɪˈfɔːm/",
             "pos": "n./v",
-            "meaning": "改革"
+            "meaning": "改革",
+            "level": "high",
+            "example": "Comprehensive reform of the education system requires both funding and political courage."
           },
           {
             "word": "incentive",
@@ -14438,7 +14599,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "bias",
             "ipa": "/ˈbaɪəs/",
             "pos": "n",
-            "meaning": "偏见/倾向"
+            "meaning": "偏见/倾向",
+            "level": "high",
+            "example": "Unconscious bias in hiring can be reduced by removing names from job applications."
           },
           {
             "word": "credibility",
@@ -14462,7 +14625,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "accountability",
             "ipa": "/əˌkaʊntəˈbɪlɪti/",
             "pos": "n",
-            "meaning": "问责制"
+            "meaning": "问责制",
+            "level": "high",
+            "example": "Greater accountability is needed to ensure public funds are spent effectively."
           },
           {
             "word": "transparency",
@@ -14613,7 +14778,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "demographic",
             "ipa": "/ˌdeməˈɡræfɪk/",
             "pos": "n",
-            "meaning": "目标受众"
+            "meaning": "目标受众",
+            "level": "high",
+            "example": "Demographic changes are reshaping the labour market in most industrialised nations."
           },
           {
             "word": "jingle",
@@ -15318,13 +15485,16 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "solidarity",
             "ipa": "/ˌsɒlɪˈdærɪti/",
             "pos": "n",
-            "meaning": "团结"
+            "meaning": "团结",
+            "level": "mid"
           },
           {
             "word": "prejudice",
             "ipa": "/ˈpredʒʊdɪs/",
             "pos": "n",
-            "meaning": "偏见"
+            "meaning": "偏见",
+            "level": "high",
+            "example": "Education is the most powerful tool for breaking down prejudice between different communities."
           },
           {
             "word": "stereotype",
@@ -15336,7 +15506,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "diversity",
             "ipa": "/daɪˈvɜːrsɪti/",
             "pos": "n",
-            "meaning": "多样性"
+            "meaning": "多样性",
+            "level": "high",
+            "example": "Companies with greater diversity consistently outperform their less diverse competitors."
           },
           {
             "word": "integration",
@@ -16812,7 +16984,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "grassroots",
             "ipa": "/ˌɡrɑːsˈruːts/",
             "pos": "adj",
-            "meaning": "基层的"
+            "meaning": "基层的",
+            "level": "mid"
           },
           {
             "word": "inclusion",
@@ -17941,7 +18114,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "solidarity",
             "ipa": "/ˌsɒlɪˈdærɪti/",
             "pos": "n",
-            "meaning": "团结"
+            "meaning": "团结",
+            "level": "mid"
           },
           {
             "word": "unconditional",
@@ -18135,7 +18309,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "filial",
             "ipa": "/ˈfɪliəl/",
             "pos": "adj",
-            "meaning": "孝顺的"
+            "meaning": "孝顺的",
+            "level": "mid"
           },
           {
             "word": "discipline",
@@ -18226,7 +18401,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "caregiver",
             "ipa": "/ˈkeəɡɪvər/",
             "pos": "n",
-            "meaning": "照料者"
+            "meaning": "照料者",
+            "level": "mid"
           },
           {
             "word": "dependency",
@@ -18238,7 +18414,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "accountability",
             "ipa": "/əˌkaʊntəˈbɪlɪti/",
             "pos": "n",
-            "meaning": "责任感"
+            "meaning": "责任感",
+            "level": "high",
+            "example": "Greater accountability is needed to ensure public funds are spent effectively."
           },
           {
             "word": "sacrifice",
@@ -18274,7 +18452,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "empowerment",
             "ipa": "/ɪmˈpaʊərmənt/",
             "pos": "n",
-            "meaning": "赋权"
+            "meaning": "赋权",
+            "level": "mid"
           },
           {
             "word": "equality",
@@ -18469,7 +18648,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "debris",
             "ipa": "/ˈdeɪbriː/",
             "pos": "n",
-            "meaning": "碎屑"
+            "meaning": "碎屑",
+            "level": "high",
+            "example": "Plastic debris floating in the ocean poses a serious threat to marine life."
           },
           {
             "word": "sediment",
@@ -18547,7 +18728,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "probe",
             "ipa": "/prəʊb/",
             "pos": "n./v",
-            "meaning": "探针/探测"
+            "meaning": "探针/探测",
+            "level": "mid"
           }
         ],
         "image": "../outputs/24-history-and-archaeology/generated-with-text/24-card-01-generated-text.png"
@@ -18905,7 +19087,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "bias",
             "ipa": "/ˈbaɪəs/",
             "pos": "n",
-            "meaning": "偏见"
+            "meaning": "偏见",
+            "level": "high",
+            "example": "Unconscious bias in hiring can be reduced by removing names from job applications."
           },
           {
             "word": "interpret",
@@ -19416,7 +19600,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "diversity",
             "ipa": "/daɪˈvɜːsəti/",
             "pos": "n",
-            "meaning": "多样性"
+            "meaning": "多样性",
+            "level": "high",
+            "example": "Companies with greater diversity consistently outperform their less diverse competitors."
           },
           {
             "word": "preserve",
@@ -20157,7 +20343,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "gentrification",
             "ipa": "/ˌdʒentrɪfɪˈkeɪʃn/",
             "pos": "n",
-            "meaning": "士绅化"
+            "meaning": "士绅化",
+            "level": "mid"
           }
         ],
         "image": "../outputs/26-tourism-and-leisure/generated-with-text/26-card-03-generated-text.png"
@@ -20596,7 +20783,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "emission",
             "ipa": "/ɪˈmɪʃn/",
             "pos": "n",
-            "meaning": "排放"
+            "meaning": "排放",
+            "level": "high",
+            "example": "Strict regulations on carbon emissions have forced factories to adopt cleaner technologies."
           },
           {
             "word": "byproduct",
@@ -20651,7 +20840,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "solar",
             "ipa": "/ˈsəʊlə/",
             "pos": "adj",
-            "meaning": "太阳能的"
+            "meaning": "太阳能的",
+            "level": "high",
+            "example": "Many governments are investing heavily in solar energy to reduce their reliance on fossil fuels."
           },
           {
             "word": "photovoltaic",
@@ -20760,7 +20951,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "subsidy",
             "ipa": "/ˈsʌbsədi/",
             "pos": "n",
-            "meaning": "补贴"
+            "meaning": "补贴",
+            "level": "high",
+            "example": "Government subsidies have made housing more affordable for low-income families."
           },
           {
             "word": "incentive",
@@ -20772,7 +20965,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "legislation",
             "ipa": "/ˌledʒɪsˈleɪʃn/",
             "pos": "n",
-            "meaning": "立法"
+            "meaning": "立法",
+            "level": "high",
+            "example": "New legislation requires large companies to publish their gender pay statistics."
           },
           {
             "word": "regulation",
@@ -21610,7 +21805,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "debris",
             "ipa": "/ˈdebriː/",
             "pos": "n",
-            "meaning": "碎片，垃圾"
+            "meaning": "碎片，垃圾",
+            "level": "high",
+            "example": "Plastic debris floating in the ocean poses a serious threat to marine life."
           },
           {
             "word": "oil spill",
@@ -21682,7 +21879,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "legislation",
             "ipa": "/ˌledʒɪsˈleɪʃn/",
             "pos": "n",
-            "meaning": "立法"
+            "meaning": "立法",
+            "level": "high",
+            "example": "New legislation requires large companies to publish their gender pay statistics."
           },
           {
             "word": "accumulate",
@@ -22691,109 +22890,140 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "poverty",
             "ipa": "/ˈpɒvəti/",
             "pos": "n",
-            "meaning": "贫困"
+            "meaning": "贫困",
+            "level": "high",
+            "example": "Millions of families remain trapped in poverty despite decades of steady economic growth."
           },
           {
             "word": "deprivation",
             "ipa": "/ˌdeprɪˈveɪʃn/",
             "pos": "n",
-            "meaning": "匮乏"
+            "meaning": "匮乏",
+            "level": "mid"
           },
           {
             "word": "destitute",
             "ipa": "/ˈdestɪtjuːt/",
             "pos": "adj",
-            "meaning": "一贫如洗的"
+            "meaning": "一贫如洗的",
+            "level": "low"
           },
           {
             "word": "welfare",
             "ipa": "/ˈwelfeə/",
             "pos": "n",
-            "meaning": "福利"
+            "meaning": "福利",
+            "level": "high",
+            "example": "A generous welfare system can protect vulnerable citizens without discouraging them from working."
           },
           {
             "word": "subsidy",
             "ipa": "/ˈsʌbsɪdi/",
             "pos": "n",
-            "meaning": "补贴"
+            "meaning": "补贴",
+            "level": "high",
+            "example": "Government subsidies have made housing more affordable for low-income families."
           },
           {
             "word": "income gap",
             "ipa": "/ˈɪnkʌm ɡæp/",
             "pos": "n",
-            "meaning": "收入差距"
+            "meaning": "收入差距",
+            "level": "high",
+            "example": "The widening income gap between the rich and the poor threatens social stability."
           },
           {
             "word": "wealth disparity",
             "ipa": "/welθ dɪˈspærəti/",
             "pos": "n",
-            "meaning": "财富差距"
+            "meaning": "财富差距",
+            "level": "high",
+            "example": "Wealth disparity in many developed countries has reached its highest level in decades."
           },
           {
             "word": "underprivileged",
             "ipa": "/ˌʌndəˈprɪvɪlɪdʒd/",
             "pos": "adj",
-            "meaning": "弱势的"
+            "meaning": "弱势的",
+            "level": "high",
+            "example": "Scholarships give underprivileged students access to education they could not otherwise afford."
           },
           {
             "word": "marginalize",
             "ipa": "/ˈmɑːdʒɪnəlaɪz/",
             "pos": "v",
-            "meaning": "边缘化"
+            "meaning": "边缘化",
+            "level": "high",
+            "example": "Rapid technological change risks marginalizing older workers who lack digital skills."
           },
           {
             "word": "social mobility",
             "ipa": "/ˈsəʊʃl məʊˈbɪləti/",
             "pos": "n",
-            "meaning": "社会流动性"
+            "meaning": "社会流动性",
+            "level": "high",
+            "example": "Quality public education is widely regarded as the most effective engine of social mobility."
           },
           {
             "word": "redistribute",
             "ipa": "/ˌriːdɪˈstrɪbjuːt/",
             "pos": "v",
-            "meaning": "再分配"
+            "meaning": "再分配",
+            "level": "high",
+            "example": "Progressive taxation is one way for governments to redistribute wealth more fairly."
           },
           {
             "word": "prosperity",
             "ipa": "/prɒˈsperəti/",
             "pos": "n",
-            "meaning": "繁荣"
+            "meaning": "繁荣",
+            "level": "high",
+            "example": "Long-term prosperity depends on investing in education rather than exploiting natural resources."
           },
           {
             "word": "entrenched",
             "ipa": "/ɪnˈtrentʃt/",
             "pos": "adj",
-            "meaning": "根深蒂固的"
+            "meaning": "根深蒂固的",
+            "level": "mid"
           },
           {
             "word": "vulnerable",
             "ipa": "/ˈvʌlnərəbl/",
             "pos": "adj",
-            "meaning": "脆弱的"
+            "meaning": "脆弱的",
+            "level": "high",
+            "example": "The elderly and children are the most vulnerable groups during economic downturns."
           },
           {
             "word": "charity",
             "ipa": "/ˈtʃærəti/",
             "pos": "n",
-            "meaning": "慈善"
+            "meaning": "慈善",
+            "level": "high",
+            "example": "Relying on charity alone cannot solve structural problems such as homelessness."
           },
           {
             "word": "sustenance",
             "ipa": "/ˈsʌstɪnəns/",
             "pos": "n",
-            "meaning": "生计"
+            "meaning": "生计",
+            "level": "low"
           },
           {
             "word": "bridge the gap",
             "ipa": "/brɪdʒ ðə ɡæp/",
             "pos": "v",
-            "meaning": "缩小差距"
+            "meaning": "缩小差距",
+            "level": "high",
+            "example": "Vocational training programmes help bridge the gap between education and employment."
           },
           {
             "word": "plight",
             "ipa": "/plaɪt/",
             "pos": "n",
-            "meaning": "困境"
+            "meaning": "困境",
+            "level": "mid"
           }
         ],
         "image": "../outputs/30-social-issues/generated-with-text/30-card-01-generated-text.png"
@@ -22806,109 +23036,133 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "aging population",
             "ipa": "/ˈeɪdʒɪŋ ˌpɒpjuˈleɪʃn/",
             "pos": "n",
-            "meaning": "老龄化人口"
+            "meaning": "老龄化人口",
+            "level": "high",
+            "example": "Japan's aging population has placed enormous pressure on its healthcare and pension systems."
           },
           {
             "word": "longevity",
             "ipa": "/lɒnˈdʒevəti/",
             "pos": "n",
-            "meaning": "长寿"
+            "meaning": "长寿",
+            "level": "mid"
           },
           {
             "word": "pension",
             "ipa": "/ˈpenʃn/",
             "pos": "n",
-            "meaning": "养老金"
+            "meaning": "养老金",
+            "level": "high",
+            "example": "Many young workers doubt whether the state pension will still exist when they retire."
           },
           {
             "word": "retirement",
             "ipa": "/rɪˈtaɪəmənt/",
             "pos": "n",
-            "meaning": "退休"
+            "meaning": "退休",
+            "level": "high",
+            "example": "Raising the retirement age is a controversial but increasingly common policy response."
           },
           {
             "word": "dependency ratio",
             "ipa": "/dɪˈpendənsi ˈreɪʃiəʊ/",
             "pos": "n",
-            "meaning": "抚养比"
+            "meaning": "抚养比",
+            "level": "low"
           },
           {
             "word": "caregiver",
             "ipa": "/ˈkeəɡɪvə/",
             "pos": "n",
-            "meaning": "照顾者"
+            "meaning": "照顾者",
+            "level": "mid"
           },
           {
             "word": "isolation",
             "ipa": "/ˌaɪsəˈleɪʃn/",
             "pos": "n",
-            "meaning": "孤独，隔离"
+            "meaning": "孤独，隔离",
+            "level": "mid"
           },
           {
             "word": "generational gap",
             "ipa": "/ˌdʒenəˈreɪʃənl ɡæp/",
             "pos": "n",
-            "meaning": "代沟"
+            "meaning": "代沟",
+            "level": "mid"
           },
           {
             "word": "filial",
             "ipa": "/ˈfɪliəl/",
             "pos": "adj",
-            "meaning": "孝顺的"
+            "meaning": "孝顺的",
+            "level": "mid"
           },
           {
             "word": "nursing home",
             "ipa": "/ˈnɜːsɪŋ həʊm/",
             "pos": "n",
-            "meaning": "养老院"
+            "meaning": "养老院",
+            "level": "mid"
           },
           {
             "word": "workforce shortage",
             "ipa": "/ˈwɜːkfɔːs ˈʃɔːtɪdʒ/",
             "pos": "n",
-            "meaning": "劳动力短缺"
+            "meaning": "劳动力短缺",
+            "level": "mid"
           },
           {
             "word": "birth rate",
             "ipa": "/bɜːθ reɪt/",
             "pos": "n",
-            "meaning": "出生率"
+            "meaning": "出生率",
+            "level": "high",
+            "example": "The declining birth rate will eventually lead to a severe shortage of workers."
           },
           {
             "word": "demographic",
             "ipa": "/ˌdeməˈɡræfɪk/",
             "pos": "adj",
-            "meaning": "人口的"
+            "meaning": "人口的",
+            "level": "high",
+            "example": "Demographic changes are reshaping the labour market in most industrialised nations."
           },
           {
             "word": "burden",
             "ipa": "/ˈbɜːdn/",
             "pos": "n",
-            "meaning": "负担"
+            "meaning": "负担",
+            "level": "high",
+            "example": "The financial burden of caring for elderly parents often falls on a single child."
           },
           {
             "word": "frail",
             "ipa": "/freɪl/",
             "pos": "adj",
-            "meaning": "体弱的"
+            "meaning": "体弱的",
+            "level": "mid"
           },
           {
             "word": "dignity",
             "ipa": "/ˈdɪɡnəti/",
             "pos": "n",
-            "meaning": "尊严"
+            "meaning": "尊严",
+            "level": "mid"
           },
           {
             "word": "intergenerational",
             "ipa": "/ˌɪntəˌdʒenəˈreɪʃənl/",
             "pos": "adj",
-            "meaning": "代际的"
+            "meaning": "代际的",
+            "level": "low"
           },
           {
             "word": "sustainable pension system",
             "ipa": "/səˈsteɪnəbl ˈpenʃn ˈsɪstəm/",
             "pos": "n",
-            "meaning": "可持续养老体系"
+            "meaning": "可持续养老体系",
+            "level": "mid"
           }
         ],
         "image": "../outputs/30-social-issues/generated-with-text/30-card-02-generated-text.png"
@@ -22921,109 +23175,137 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "discrimination",
             "ipa": "/dɪˌskrɪmɪˈneɪʃn/",
             "pos": "n",
-            "meaning": "歧视"
+            "meaning": "歧视",
+            "level": "high",
+            "example": "Strict laws against workplace discrimination protect employees regardless of gender or age."
           },
           {
             "word": "prejudice",
             "ipa": "/ˈpredʒʊdɪs/",
             "pos": "n",
-            "meaning": "偏见"
+            "meaning": "偏见",
+            "level": "high",
+            "example": "Education is the most powerful tool for breaking down prejudice between different communities."
           },
           {
             "word": "inequality",
             "ipa": "/ˌɪnɪˈkwɒləti/",
             "pos": "n",
-            "meaning": "不平等"
+            "meaning": "不平等",
+            "level": "high",
+            "example": "Reducing inequality benefits not only the poor but society as a whole."
           },
           {
             "word": "gender gap",
             "ipa": "/ˈdʒendə ɡæp/",
             "pos": "n",
-            "meaning": "性别差距"
+            "meaning": "性别差距",
+            "level": "high",
+            "example": "The gender gap in pay persists even in countries with strong equality legislation."
           },
           {
             "word": "glass ceiling",
             "ipa": "/ɡlɑːs ˈsiːlɪŋ/",
             "pos": "n",
-            "meaning": "玻璃天花板"
+            "meaning": "玻璃天花板",
+            "level": "high",
+            "example": "Many talented women still hit a glass ceiling when they reach middle management."
           },
           {
             "word": "empower",
             "ipa": "/ɪmˈpaʊə/",
             "pos": "v",
-            "meaning": "赋权"
+            "meaning": "赋权",
+            "level": "high",
+            "example": "Access to microloans empowers rural women to start their own small businesses."
           },
           {
             "word": "equity",
             "ipa": "/ˈekwəti/",
             "pos": "n",
-            "meaning": "公平"
+            "meaning": "公平",
+            "level": "high",
+            "example": "True educational equity means every child receives the support they need to succeed."
           },
           {
             "word": "affirmative action",
             "ipa": "/əˈfɜːmətɪv ˈækʃn/",
             "pos": "n",
-            "meaning": "平权行动"
+            "meaning": "平权行动",
+            "level": "mid"
           },
           {
             "word": "systemic",
             "ipa": "/sɪˈstemɪk/",
             "pos": "adj",
-            "meaning": "系统性的"
+            "meaning": "系统性的",
+            "level": "mid"
           },
           {
             "word": "bias",
             "ipa": "/ˈbaɪəs/",
             "pos": "n",
-            "meaning": "偏见倾向"
+            "meaning": "偏见倾向",
+            "level": "high",
+            "example": "Unconscious bias in hiring can be reduced by removing names from job applications."
           },
           {
             "word": "marginalized group",
             "ipa": "/ˈmɑːdʒɪnəlaɪzd ɡruːp/",
             "pos": "n",
-            "meaning": "边缘群体"
+            "meaning": "边缘群体",
+            "level": "mid"
           },
           {
             "word": "advocacy",
             "ipa": "/ˈædvəkəsi/",
             "pos": "n",
-            "meaning": "倡导"
+            "meaning": "倡导",
+            "level": "mid"
           },
           {
             "word": "tokenism",
             "ipa": "/ˈtəʊkənɪzəm/",
             "pos": "n",
-            "meaning": "象征性举措"
+            "meaning": "象征性举措",
+            "level": "low"
           },
           {
             "word": "inclusive",
             "ipa": "/ɪnˈkluːsɪv/",
             "pos": "adj",
-            "meaning": "包容的"
+            "meaning": "包容的",
+            "level": "high",
+            "example": "An inclusive workplace values employees of every background, age and ability."
           },
           {
             "word": "diversity",
             "ipa": "/daɪˈvɜːsəti/",
             "pos": "n",
-            "meaning": "多样性"
+            "meaning": "多样性",
+            "level": "high",
+            "example": "Companies with greater diversity consistently outperform their less diverse competitors."
           },
           {
             "word": "underrepresented",
             "ipa": "/ˌʌndəˌreprɪˈzentɪd/",
             "pos": "adj",
-            "meaning": "代表性不足的"
+            "meaning": "代表性不足的",
+            "level": "mid"
           },
           {
             "word": "racial profiling",
             "ipa": "/ˈreɪʃl ˈprəʊfaɪlɪŋ/",
             "pos": "n",
-            "meaning": "种族定性"
+            "meaning": "种族定性",
+            "level": "low"
           },
           {
             "word": "solidarity",
             "ipa": "/ˌsɒlɪˈdærəti/",
             "pos": "n",
-            "meaning": "团结"
+            "meaning": "团结",
+            "level": "mid"
           }
         ],
         "image": "../outputs/30-social-issues/generated-with-text/30-card-03-generated-text.png"
@@ -23036,109 +23318,130 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "homelessness",
             "ipa": "/ˈhəʊmləsnəs/",
             "pos": "n",
-            "meaning": "无家可归"
+            "meaning": "无家可归",
+            "level": "high",
+            "example": "Homelessness in major cities has risen sharply as housing costs continue to climb."
           },
           {
             "word": "shelter",
             "ipa": "/ˈʃeltə/",
             "pos": "n",
-            "meaning": "收容所"
+            "meaning": "收容所",
+            "level": "high",
+            "example": "Local authorities provide emergency shelter for rough sleepers during the winter months."
           },
           {
             "word": "eviction",
             "ipa": "/ɪˈvɪkʃn/",
             "pos": "n",
-            "meaning": "驱逐"
+            "meaning": "驱逐",
+            "level": "mid"
           },
           {
             "word": "affordable housing",
             "ipa": "/əˈfɔːdəbl ˈhaʊzɪŋ/",
             "pos": "n",
-            "meaning": "经济适用房"
+            "meaning": "经济适用房",
+            "level": "high",
+            "example": "The chronic shortage of affordable housing forces many young people to live with their parents."
           },
           {
             "word": "gentrification",
             "ipa": "/ˌdʒentrɪfɪˈkeɪʃn/",
             "pos": "n",
-            "meaning": "士绅化"
+            "meaning": "士绅化",
+            "level": "mid"
           },
           {
             "word": "skyrocket",
             "ipa": "/ˈskaɪrɒkɪt/",
             "pos": "v",
-            "meaning": "飙升"
+            "meaning": "飙升",
+            "level": "mid"
           },
           {
             "word": "tenant",
             "ipa": "/ˈtenənt/",
             "pos": "n",
-            "meaning": "租户"
+            "meaning": "租户",
+            "level": "mid"
           },
           {
             "word": "landlord",
             "ipa": "/ˈlændlɔːd/",
             "pos": "n",
-            "meaning": "房东"
+            "meaning": "房东",
+            "level": "mid"
           },
           {
             "word": "squalid",
             "ipa": "/ˈskwɒlɪd/",
             "pos": "adj",
-            "meaning": "肮脏破败的"
+            "meaning": "肮脏破败的",
+            "level": "low"
           },
           {
             "word": "displaced",
             "ipa": "/dɪˈspleɪst/",
             "pos": "adj",
-            "meaning": "流离失所的"
+            "meaning": "流离失所的",
+            "level": "mid"
           },
           {
             "word": "slum",
             "ipa": "/slʌm/",
             "pos": "n",
-            "meaning": "贫民窟"
+            "meaning": "贫民窟",
+            "level": "low"
           },
           {
             "word": "subsidized housing",
             "ipa": "/ˈsʌbsɪdaɪzd ˈhaʊzɪŋ/",
             "pos": "n",
-            "meaning": "补贴住房"
+            "meaning": "补贴住房",
+            "level": "mid"
           },
           {
             "word": "precarious",
             "ipa": "/prɪˈkeəriəs/",
             "pos": "adj",
-            "meaning": "不稳定的"
+            "meaning": "不稳定的",
+            "level": "low"
           },
           {
             "word": "transient",
             "ipa": "/ˈtrænziənt/",
             "pos": "adj",
-            "meaning": "临时的，流动的"
+            "meaning": "临时的，流动的",
+            "level": "low"
           },
           {
             "word": "destitution",
             "ipa": "/ˌdestɪˈtjuːʃn/",
             "pos": "n",
-            "meaning": "赤贫"
+            "meaning": "赤贫",
+            "level": "low"
           },
           {
             "word": "outreach",
             "ipa": "/ˈaʊtriːtʃ/",
             "pos": "n",
-            "meaning": "外展服务"
+            "meaning": "外展服务",
+            "level": "mid"
           },
           {
             "word": "rough sleeper",
             "ipa": "/rʌf ˈsliːpə/",
             "pos": "n",
-            "meaning": "露宿者"
+            "meaning": "露宿者",
+            "level": "low"
           },
           {
             "word": "resettle",
             "ipa": "/ˌriːˈsetl/",
             "pos": "v",
-            "meaning": "重新安置"
+            "meaning": "重新安置",
+            "level": "mid"
           }
         ],
         "image": "../outputs/30-social-issues/generated-with-text/30-card-04-generated-text.png"
@@ -23151,109 +23454,132 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "activism",
             "ipa": "/ˈæktɪvɪzəm/",
             "pos": "n",
-            "meaning": "行动主义"
+            "meaning": "行动主义",
+            "level": "mid"
           },
           {
             "word": "protest",
             "ipa": "/ˈprəʊtest/",
             "pos": "n",
-            "meaning": "抗议"
+            "meaning": "抗议",
+            "level": "high",
+            "example": "Thousands joined the peaceful protest against the proposed cuts to public services."
           },
           {
             "word": "rally",
             "ipa": "/ˈræli/",
             "pos": "n",
-            "meaning": "集会"
+            "meaning": "集会",
+            "level": "mid"
           },
           {
             "word": "petition",
             "ipa": "/pəˈtɪʃn/",
             "pos": "n",
-            "meaning": "请愿书"
+            "meaning": "请愿书",
+            "level": "mid"
           },
           {
             "word": "grassroots",
             "ipa": "/ˈɡrɑːsruːts/",
             "pos": "adj",
-            "meaning": "草根的"
+            "meaning": "草根的",
+            "level": "mid"
           },
           {
             "word": "mobilize",
             "ipa": "/ˈməʊbəlaɪz/",
             "pos": "v",
-            "meaning": "动员"
+            "meaning": "动员",
+            "level": "mid"
           },
           {
             "word": "civil disobedience",
             "ipa": "/ˈsɪvl ˌdɪsəˈbiːdiəns/",
             "pos": "n",
-            "meaning": "公民不服从"
+            "meaning": "公民不服从",
+            "level": "low"
           },
           {
             "word": "reform",
             "ipa": "/rɪˈfɔːm/",
             "pos": "n",
-            "meaning": "改革"
+            "meaning": "改革",
+            "level": "high",
+            "example": "Comprehensive reform of the education system requires both funding and political courage."
           },
           {
             "word": "advocate",
             "ipa": "/ˈædvəkeɪt/",
             "pos": "v",
-            "meaning": "倡导"
+            "meaning": "倡导",
+            "level": "high",
+            "example": "Health experts advocate a tax on sugary drinks to combat childhood obesity."
           },
           {
             "word": "solidarity march",
             "ipa": "/ˌsɒlɪˈdærəti mɑːtʃ/",
             "pos": "n",
-            "meaning": "团结游行"
+            "meaning": "团结游行",
+            "level": "low"
           },
           {
             "word": "boycott",
             "ipa": "/ˈbɔɪkɒt/",
             "pos": "v/n",
-            "meaning": "抵制"
+            "meaning": "抵制",
+            "level": "mid"
           },
           {
             "word": "accountability",
             "ipa": "/əˌkaʊntəˈbɪləti/",
             "pos": "n",
-            "meaning": "问责"
+            "meaning": "问责",
+            "level": "high",
+            "example": "Greater accountability is needed to ensure public funds are spent effectively."
           },
           {
             "word": "grassroots campaign",
             "ipa": "/ˈɡrɑːsruːts kæmˈpeɪn/",
             "pos": "n",
-            "meaning": "草根运动"
+            "meaning": "草根运动",
+            "level": "mid"
           },
           {
             "word": "legislation",
             "ipa": "/ˌledʒɪsˈleɪʃn/",
             "pos": "n",
-            "meaning": "立法"
+            "meaning": "立法",
+            "level": "high",
+            "example": "New legislation requires large companies to publish their gender pay statistics."
           },
           {
             "word": "lobby",
             "ipa": "/ˈlɒbi/",
             "pos": "v",
-            "meaning": "游说"
+            "meaning": "游说",
+            "level": "mid"
           },
           {
             "word": "dissent",
             "ipa": "/dɪˈsent/",
             "pos": "n",
-            "meaning": "异议"
+            "meaning": "异议",
+            "level": "low"
           },
           {
             "word": "empowerment",
             "ipa": "/ɪmˈpaʊəmənt/",
             "pos": "n",
-            "meaning": "赋权"
+            "meaning": "赋权",
+            "level": "mid"
           },
           {
             "word": "collective action",
             "ipa": "/kəˈlektɪv ˈækʃn/",
             "pos": "n",
-            "meaning": "集体行动"
+            "meaning": "集体行动",
+            "level": "mid"
           }
         ],
         "image": "../outputs/30-social-issues/generated-with-text/30-card-05-generated-text.png"
@@ -23472,7 +23798,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "simulate",
             "ipa": "/ˈsɪmjʊleɪt/",
             "pos": "v",
-            "meaning": "模拟"
+            "meaning": "模拟",
+            "level": "high",
+            "example": "Flight simulators allow trainee pilots to practise emergency procedures in a completely safe environment."
           },
           {
             "word": "cognitive",
@@ -23654,7 +23982,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "bias",
             "ipa": "/ˈbaɪəs/",
             "pos": "n",
-            "meaning": "偏见"
+            "meaning": "偏见",
+            "level": "high",
+            "example": "Unconscious bias in hiring can be reduced by removing names from job applications."
           },
           {
             "word": "surveillance",
@@ -23678,7 +24008,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "accountability",
             "ipa": "/əˌkaʊntəˈbɪləti/",
             "pos": "n",
-            "meaning": "问责"
+            "meaning": "问责",
+            "level": "high",
+            "example": "Greater accountability is needed to ensure public funds are spent effectively."
           },
           {
             "word": "ethical",
@@ -23866,7 +24198,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "legislation",
             "ipa": "/ˌledʒɪsˈleɪʃn/",
             "pos": "n",
-            "meaning": "立法"
+            "meaning": "立法",
+            "level": "high",
+            "example": "New legislation requires large companies to publish their gender pay statistics."
           },
           {
             "word": "compliance",
@@ -24105,7 +24439,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "propulsion",
             "ipa": "/prəˈpʌlʃn/",
             "pos": "n",
-            "meaning": "推进力"
+            "meaning": "推进力",
+            "level": "low"
           },
           {
             "word": "vigorous",
@@ -24359,13 +24694,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "solstice",
             "ipa": "/ˈsɒlstɪs/",
             "pos": "n",
-            "meaning": "夏至"
+            "meaning": "夏至",
+            "level": "low"
           },
           {
             "word": "lunar",
             "ipa": "/ˈluːnər/",
             "pos": "adj",
-            "meaning": "农历的"
+            "meaning": "农历的",
+            "level": "mid"
           },
           {
             "word": "expel",
@@ -24499,7 +24836,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "solidarity",
             "ipa": "/ˌsɒlɪˈdærɪti/",
             "pos": "n",
-            "meaning": "团结"
+            "meaning": "团结",
+            "level": "mid"
           },
           {
             "word": "communal",

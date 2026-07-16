@@ -532,15 +532,23 @@ function openImageModalByIndex(index) {
   modalImage.src = card.image;
   modalImage.alt = `${card.topicShortTitle} ${card.subtitle}`;
   modalCaption.textContent = `${caption}（${state.modalIndex + 1} / ${cards.length}）`;
+  const levelLabel = { high: "高频", mid: "中频", low: "低频" };
   modalWords.innerHTML = card.words
     .map(
       (word) => `
-        <button class="modal-word" type="button" data-word="${escapeHtml(word.word)}" data-ipa="${escapeHtml(
+        <div class="modal-word" role="button" tabindex="0" data-word="${escapeHtml(word.word)}" data-ipa="${escapeHtml(
           word.ipa,
         )}" data-pos="${escapeHtml(word.pos)}" data-meaning="${escapeHtml(word.meaning)}">
-          <strong>${escapeHtml(word.word)}</strong>
+          <span class="modal-word-head">
+            <strong>${escapeHtml(word.word)}</strong>
+            ${word.level ? `<i class="word-level word-level-${word.level}">${levelLabel[word.level]}</i>` : ""}
+            <a class="modal-word-dict" href="https://dictionary.cambridge.org/dictionary/english-chinese-simplified/${encodeURIComponent(
+              word.word,
+            )}" target="_blank" rel="noopener" title="在剑桥词典查看完整释义">词典 ↗</a>
+          </span>
           <span>${escapeHtml(word.ipa)} · ${escapeHtml(word.meaning)}</span>
-        </button>
+          ${word.example ? `<em class="modal-word-example">${escapeHtml(word.example)}</em>` : ""}
+        </div>
       `,
     )
     .join("");
@@ -1943,6 +1951,7 @@ function attachEvents() {
   });
 
   modalWords.addEventListener("click", (event) => {
+    if (event.target.closest(".modal-word-dict")) return; // 词典链接走默认跳转，不触发发音
     const button = event.target.closest(".modal-word");
     if (!button) return;
     showModalWord(button);

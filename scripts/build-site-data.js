@@ -265,6 +265,22 @@ function parseReading(topicSlug) {
   return { title: passageTitle, meta, paragraphs, groups, questionCount };
 }
 
+// 单词元信息（词频 level + 高频例句），按小写词全局匹配
+let wordMeta = {};
+try {
+  wordMeta = JSON.parse(fs.readFileSync(path.join(root, "word-meta.json"), "utf8")).words || {};
+} catch {
+  wordMeta = {};
+}
+
+function enrichWord(word) {
+  const meta = wordMeta[word.word.toLowerCase().trim()];
+  if (!meta) return word;
+  const enriched = { ...word, level: meta.level };
+  if (meta.example) enriched.example = meta.example;
+  return enriched;
+}
+
 const topics = fs
   .readdirSync(root)
   .filter((name) => /\.md$/i.test(name) && !name.includes("text-heavier"))
@@ -276,6 +292,7 @@ const topics = fs
     const cards = parsed.cards
       .map((card) => ({
         ...card,
+        words: card.words.map(enrichWord),
         image: images.get(card.cardNumber) || "",
       }))
       .filter((card) => card.image);
