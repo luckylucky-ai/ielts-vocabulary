@@ -883,6 +883,11 @@ h2 {
   gap: 7px;
 }
 
+/* 单词居左，词频徽章和词典链接一起靠右 */
+.modal-word-head strong {
+  margin-right: auto;
+}
+
 /* 词频徽章：高频醒目、中频克制、低频弱化 */
 .word-level {
   flex: none;
@@ -910,7 +915,6 @@ h2 {
 }
 
 .modal-word-dict {
-  margin-left: auto;
   color: var(--muted);
   font-size: 11px;
   font-weight: 600;
