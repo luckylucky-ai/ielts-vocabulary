@@ -367,8 +367,6 @@ welfare、enrichment、anthropocentric，动物园该不该存在这类讨论题
 ④ captive welfare
 "Modern zoos increasingly prioritize animal welfare through behavioral enrichment rather than mere confinement."
 
-收藏这组，下次写到 conservation / animal rights / ecosystem，就不用只会说 protect animals 和 save the environment 了。
-
 下期想深挖哪个话题？👇
 A. 植物与农业（第二轮）🌾
 B. 环境与污染（第二轮）🏭

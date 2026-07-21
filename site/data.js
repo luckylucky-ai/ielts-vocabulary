@@ -38,109 +38,132 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "peak",
             "ipa": "/piːk/",
             "pos": "n",
-            "meaning": "山峰"
+            "meaning": "山峰",
+            "level": "high",
+            "example": "House prices reached their peak in 2020 and have declined steadily ever since."
           },
           {
             "word": "ridge",
             "ipa": "/rɪdʒ/",
             "pos": "n",
-            "meaning": "山脊"
+            "meaning": "山脊",
+            "level": "mid"
           },
           {
             "word": "summit",
             "ipa": "/ˈsʌmɪt/",
             "pos": "n",
-            "meaning": "峰顶"
+            "meaning": "峰顶",
+            "level": "high",
+            "example": "World leaders gathered at the climate summit to negotiate emission reduction targets."
           },
           {
             "word": "plateau",
             "ipa": "/ˈplætəʊ/",
             "pos": "n",
-            "meaning": "高原"
+            "meaning": "高原",
+            "level": "high",
+            "example": "After rising for a decade, the country's birth rate reached a plateau in 2015."
           },
           {
             "word": "slope",
             "ipa": "/sləʊp/",
             "pos": "n",
-            "meaning": "斜坡"
+            "meaning": "斜坡",
+            "level": "mid"
           },
           {
             "word": "gorge",
             "ipa": "/ɡɔːdʒ/",
             "pos": "n",
-            "meaning": "峡谷"
+            "meaning": "峡谷",
+            "level": "mid"
           },
           {
             "word": "cliff",
             "ipa": "/klɪf/",
             "pos": "n",
-            "meaning": "悬崖"
+            "meaning": "悬崖",
+            "level": "mid"
           },
           {
             "word": "rugged",
             "ipa": "/ˈrʌɡɪd/",
             "pos": "adj",
-            "meaning": "崎岖的"
+            "meaning": "崎岖的",
+            "level": "mid"
           },
           {
             "word": "steep",
             "ipa": "/stiːp/",
             "pos": "adj",
-            "meaning": "陡峭的"
+            "meaning": "陡峭的",
+            "level": "high",
+            "example": "The graph shows a steep increase in online sales during the pandemic."
           },
           {
             "word": "altitude",
             "ipa": "/ˈæltɪtjuːd/",
             "pos": "n",
-            "meaning": "海拔"
+            "meaning": "海拔",
+            "level": "mid"
           },
           {
             "word": "elevation",
             "ipa": "/ˌelɪˈveɪʃn/",
             "pos": "n",
-            "meaning": "海拔高度"
+            "meaning": "海拔高度",
+            "level": "mid"
           },
           {
             "word": "terrain",
             "ipa": "/təˈreɪn/",
             "pos": "n",
-            "meaning": "地形"
+            "meaning": "地形",
+            "level": "mid"
           },
           {
             "word": "ascend",
             "ipa": "/əˈsend/",
             "pos": "v",
-            "meaning": "攀登"
+            "meaning": "攀登",
+            "level": "mid"
           },
           {
             "word": "descend",
             "ipa": "/dɪˈsend/",
             "pos": "v",
-            "meaning": "下降"
+            "meaning": "下降",
+            "level": "mid"
           },
           {
             "word": "precipice",
             "ipa": "/ˈpresɪpɪs/",
             "pos": "n",
-            "meaning": "悬崖峭壁"
+            "meaning": "悬崖峭壁",
+            "level": "low"
           },
           {
             "word": "foothill",
             "ipa": "/ˈfʊthɪl/",
             "pos": "n",
-            "meaning": "山麓"
+            "meaning": "山麓",
+            "level": "low"
           },
           {
             "word": "barren",
             "ipa": "/ˈbærən/",
             "pos": "adj",
-            "meaning": "贫瘠的"
+            "meaning": "贫瘠的",
+            "level": "mid"
           },
           {
             "word": "remote",
             "ipa": "/rɪˈməʊt/",
             "pos": "adj",
-            "meaning": "偏远的"
+            "meaning": "偏远的",
+            "level": "high",
+            "example": "Children in remote villages often have limited access to quality education."
           }
         ],
         "image": "../outputs/01-natural-geography-round2/generated-with-text/01-card-01-generated-text.png"
@@ -153,109 +176,129 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "tributary",
             "ipa": "/ˈtrɪbjətri/",
             "pos": "n",
-            "meaning": "支流"
+            "meaning": "支流",
+            "level": "low"
           },
           {
             "word": "meander",
             "ipa": "/miˈændə/",
             "pos": "v",
-            "meaning": "蜿蜒流动"
+            "meaning": "蜿蜒流动",
+            "level": "low"
           },
           {
             "word": "delta",
             "ipa": "/ˈdeltə/",
             "pos": "n",
-            "meaning": "三角洲"
+            "meaning": "三角洲",
+            "level": "mid"
           },
           {
             "word": "basin",
             "ipa": "/ˈbeɪsn/",
             "pos": "n",
-            "meaning": "流域，盆地"
+            "meaning": "流域，盆地",
+            "level": "mid"
           },
           {
             "word": "erosion",
             "ipa": "/ɪˈrəʊʒn/",
             "pos": "n",
-            "meaning": "侵蚀"
+            "meaning": "侵蚀",
+            "level": "high",
+            "example": "Deforestation accelerates soil erosion, making the land unsuitable for farming."
           },
           {
             "word": "sediment",
             "ipa": "/ˈsedɪmənt/",
             "pos": "n",
-            "meaning": "沉积物"
+            "meaning": "沉积物",
+            "level": "mid"
           },
           {
             "word": "floodplain",
             "ipa": "/ˈflʌdpleɪn/",
             "pos": "n",
-            "meaning": "泛滥平原"
+            "meaning": "泛滥平原",
+            "level": "low"
           },
           {
             "word": "watershed",
             "ipa": "/ˈwɔːtəʃed/",
             "pos": "n",
-            "meaning": "分水岭"
+            "meaning": "分水岭",
+            "level": "mid"
           },
           {
             "word": "confluence",
             "ipa": "/ˈkɒnfluəns/",
             "pos": "n",
-            "meaning": "汇流处"
+            "meaning": "汇流处",
+            "level": "low"
           },
           {
             "word": "cascade",
             "ipa": "/kæˈskeɪd/",
             "pos": "n",
-            "meaning": "小瀑布"
+            "meaning": "小瀑布",
+            "level": "mid"
           },
           {
             "word": "torrent",
             "ipa": "/ˈtɒrənt/",
             "pos": "n",
-            "meaning": "激流"
+            "meaning": "激流",
+            "level": "low"
           },
           {
             "word": "irrigate",
             "ipa": "/ˈɪrɪɡeɪt/",
             "pos": "v",
-            "meaning": "灌溉"
+            "meaning": "灌溉",
+            "level": "mid"
           },
           {
             "word": "fertile",
             "ipa": "/ˈfɜːtaɪl/",
             "pos": "adj",
-            "meaning": "肥沃的"
+            "meaning": "肥沃的",
+            "level": "high",
+            "example": "Farmers abandoned the fertile valley when the river changed its course."
           },
           {
             "word": "deposit",
             "ipa": "/dɪˈpɒzɪt/",
             "pos": "v",
-            "meaning": "沉积"
+            "meaning": "沉积",
+            "level": "mid"
           },
           {
             "word": "submerge",
             "ipa": "/səbˈmɜːdʒ/",
             "pos": "v",
-            "meaning": "淹没"
+            "meaning": "淹没",
+            "level": "mid"
           },
           {
             "word": "downstream",
             "ipa": "/ˌdaʊnˈstriːm/",
             "pos": "adv",
-            "meaning": "顺流而下"
+            "meaning": "顺流而下",
+            "level": "mid"
           },
           {
             "word": "upstream",
             "ipa": "/ˌʌpˈstriːm/",
             "pos": "adv",
-            "meaning": "逆流而上"
+            "meaning": "逆流而上",
+            "level": "mid"
           },
           {
             "word": "navigable",
             "ipa": "/ˈnævɪɡəbl/",
             "pos": "adj",
-            "meaning": "可通航的"
+            "meaning": "可通航的",
+            "level": "low"
           }
         ],
         "image": "../outputs/01-natural-geography-round2/generated-with-text/01-card-02-generated-text.png"
@@ -268,109 +311,133 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "arid",
             "ipa": "/ˈærɪd/",
             "pos": "adj",
-            "meaning": "干旱的"
+            "meaning": "干旱的",
+            "level": "mid"
           },
           {
             "word": "dune",
             "ipa": "/djuːn/",
             "pos": "n",
-            "meaning": "沙丘"
+            "meaning": "沙丘",
+            "level": "mid"
           },
           {
             "word": "oasis",
             "ipa": "/əʊˈeɪsɪs/",
             "pos": "n",
-            "meaning": "绿洲"
+            "meaning": "绿洲",
+            "level": "mid"
           },
           {
             "word": "parched",
             "ipa": "/pɑːtʃt/",
             "pos": "adj",
-            "meaning": "干裂的"
+            "meaning": "干裂的",
+            "level": "low"
           },
           {
             "word": "desolate",
             "ipa": "/ˈdesələt/",
             "pos": "adj",
-            "meaning": "荒芜的"
+            "meaning": "荒芜的",
+            "level": "mid"
           },
           {
             "word": "sparse",
             "ipa": "/spɑːs/",
             "pos": "adj",
-            "meaning": "稀疏的"
+            "meaning": "稀疏的",
+            "level": "mid"
           },
           {
             "word": "vast",
             "ipa": "/vɑːst/",
             "pos": "adj",
-            "meaning": "广袤的"
+            "meaning": "广袤的",
+            "level": "high",
+            "example": "The vast majority of respondents supported stricter environmental regulations."
           },
           {
             "word": "expanse",
             "ipa": "/ɪkˈspæns/",
             "pos": "n",
-            "meaning": "广阔区域"
+            "meaning": "广阔区域",
+            "level": "mid"
           },
           {
             "word": "drought",
             "ipa": "/draʊt/",
             "pos": "n",
-            "meaning": "干旱"
+            "meaning": "干旱",
+            "level": "high",
+            "example": "Prolonged drought has forced thousands of farmers to leave their land."
           },
           {
             "word": "scorching",
             "ipa": "/ˈskɔːtʃɪŋ/",
             "pos": "adj",
-            "meaning": "灼热的"
+            "meaning": "灼热的",
+            "level": "mid"
           },
           {
             "word": "mirage",
             "ipa": "/mɪˈrɑːʒ/",
             "pos": "n",
-            "meaning": "海市蜃楼"
+            "meaning": "海市蜃楼",
+            "level": "low"
           },
           {
             "word": "nomadic",
             "ipa": "/nəʊˈmædɪk/",
             "pos": "adj",
-            "meaning": "游牧的"
+            "meaning": "游牧的",
+            "level": "mid"
           },
           {
             "word": "vegetation",
             "ipa": "/ˌvedʒɪˈteɪʃn/",
             "pos": "n",
-            "meaning": "植被"
+            "meaning": "植被",
+            "level": "high",
+            "example": "Urban expansion has destroyed much of the natural vegetation around the city."
           },
           {
             "word": "withstand",
             "ipa": "/wɪðˈstænd/",
             "pos": "v",
-            "meaning": "承受，经受住"
+            "meaning": "承受，经受住",
+            "level": "high",
+            "example": "Modern buildings are designed to withstand earthquakes of considerable magnitude."
           },
           {
             "word": "harsh",
             "ipa": "/hɑːʃ/",
             "pos": "adj",
-            "meaning": "严酷的"
+            "meaning": "严酷的",
+            "level": "high",
+            "example": "Few plants can survive the harsh conditions of the desert."
           },
           {
             "word": "relentless",
             "ipa": "/rɪˈlentləs/",
             "pos": "adj",
-            "meaning": "无情的，持续不断的"
+            "meaning": "无情的，持续不断的",
+            "level": "mid"
           },
           {
             "word": "shimmer",
             "ipa": "/ˈʃɪmə/",
             "pos": "v",
-            "meaning": "闪烁"
+            "meaning": "闪烁",
+            "level": "low"
           },
           {
             "word": "endure",
             "ipa": "/ɪnˈdjʊə/",
             "pos": "v",
-            "meaning": "忍受，持续存在"
+            "meaning": "忍受，持续存在",
+            "level": "high",
+            "example": "Local communities have endured decades of pollution from the nearby factory."
           }
         ],
         "image": "../outputs/01-natural-geography-round2/generated-with-text/01-card-03-generated-text.png"
@@ -383,67 +450,78 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "volcanic",
             "ipa": "/vɒlˈkænɪk/",
             "pos": "adj",
-            "meaning": "火山的"
+            "meaning": "火山的",
+            "level": "mid"
           },
           {
             "word": "eruption",
             "ipa": "/ɪˈrʌpʃn/",
             "pos": "n",
-            "meaning": "喷发"
+            "meaning": "喷发",
+            "level": "mid"
           },
           {
             "word": "magma",
             "ipa": "/ˈmæɡmə/",
             "pos": "n",
-            "meaning": "岩浆"
+            "meaning": "岩浆",
+            "level": "low"
           },
           {
             "word": "seismic",
             "ipa": "/ˈsaɪzmɪk/",
             "pos": "adj",
-            "meaning": "地震的"
+            "meaning": "地震的",
+            "level": "mid"
           },
           {
             "word": "tectonic",
             "ipa": "/tekˈtɒnɪk/",
             "pos": "adj",
-            "meaning": "构造的"
+            "meaning": "构造的",
+            "level": "low"
           },
           {
             "word": "crater",
             "ipa": "/ˈkreɪtə/",
             "pos": "n",
-            "meaning": "火山口"
+            "meaning": "火山口",
+            "level": "mid"
           },
           {
             "word": "fault",
             "ipa": "/fɔːlt/",
             "pos": "n",
-            "meaning": "断层"
+            "meaning": "断层",
+            "level": "mid"
           },
           {
             "word": "dormant",
             "ipa": "/ˈdɔːmənt/",
             "pos": "adj",
-            "meaning": "休眠的"
+            "meaning": "休眠的",
+            "level": "mid"
           },
           {
             "word": "molten",
             "ipa": "/ˈməʊltən/",
             "pos": "adj",
-            "meaning": "熔融的"
+            "meaning": "熔融的",
+            "level": "low"
           },
           {
             "word": "crust",
             "ipa": "/krʌst/",
             "pos": "n",
-            "meaning": "地壳"
+            "meaning": "地壳",
+            "level": "mid"
           },
           {
             "word": "tremor",
             "ipa": "/ˈtremə/",
             "pos": "n",
-            "meaning": "震颤，微震"
+            "meaning": "震颤，微震",
+            "level": "low"
           },
           {
             "word": "magnitude",
@@ -457,37 +535,46 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "devastate",
             "ipa": "/ˈdevəsteɪt/",
             "pos": "v",
-            "meaning": "摧毁"
+            "meaning": "摧毁",
+            "level": "high",
+            "example": "The floods devastated entire villages, leaving thousands of people homeless."
           },
           {
             "word": "ash",
             "ipa": "/æʃ/",
             "pos": "n",
-            "meaning": "火山灰"
+            "meaning": "火山灰",
+            "level": "mid"
           },
           {
             "word": "lava",
             "ipa": "/ˈlɑːvə/",
             "pos": "n",
-            "meaning": "熔岩"
+            "meaning": "熔岩",
+            "level": "mid"
           },
           {
             "word": "unpredictable",
             "ipa": "/ˌʌnprɪˈdɪktəbl/",
             "pos": "adj",
-            "meaning": "不可预测的"
+            "meaning": "不可预测的",
+            "level": "high",
+            "example": "Climate change is making weather patterns increasingly unpredictable."
           },
           {
             "word": "subside",
             "ipa": "/səbˈsaɪd/",
             "pos": "v",
-            "meaning": "平息，减退"
+            "meaning": "平息，减退",
+            "level": "mid"
           },
           {
             "word": "catastrophic",
             "ipa": "/ˌkætəˈstrɒfɪk/",
             "pos": "adj",
-            "meaning": "灾难性的"
+            "meaning": "灾难性的",
+            "level": "high",
+            "example": "Scientists warn that inaction on climate change will have catastrophic consequences."
           }
         ],
         "image": "../outputs/01-natural-geography-round2/generated-with-text/01-card-04-generated-text.png"
@@ -500,109 +587,129 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "cavern",
             "ipa": "/ˈkævən/",
             "pos": "n",
-            "meaning": "大洞穴"
+            "meaning": "大洞穴",
+            "level": "low"
           },
           {
             "word": "stalactite",
             "ipa": "/ˈstæləktaɪt/",
             "pos": "n",
-            "meaning": "钟乳石"
+            "meaning": "钟乳石",
+            "level": "low"
           },
           {
             "word": "subterranean",
             "ipa": "/ˌsʌbtəˈreɪniən/",
             "pos": "adj",
-            "meaning": "地下的"
+            "meaning": "地下的",
+            "level": "low"
           },
           {
             "word": "coastline",
             "ipa": "/ˈkəʊstlaɪn/",
             "pos": "n",
-            "meaning": "海岸线"
+            "meaning": "海岸线",
+            "level": "mid"
           },
           {
             "word": "peninsula",
             "ipa": "/pəˈnɪnsjələ/",
             "pos": "n",
-            "meaning": "半岛"
+            "meaning": "半岛",
+            "level": "mid"
           },
           {
             "word": "promontory",
             "ipa": "/ˈprɒməntri/",
             "pos": "n",
-            "meaning": "海角"
+            "meaning": "海角",
+            "level": "low"
           },
           {
             "word": "headland",
             "ipa": "/ˈhedlənd/",
             "pos": "n",
-            "meaning": "岬角"
+            "meaning": "岬角",
+            "level": "low"
           },
           {
             "word": "archipelago",
             "ipa": "/ˌɑːkɪˈpeləɡəʊ/",
             "pos": "n",
-            "meaning": "群岛"
+            "meaning": "群岛",
+            "level": "low"
           },
           {
             "word": "inlet",
             "ipa": "/ˈɪnlet/",
             "pos": "n",
-            "meaning": "小海湾"
+            "meaning": "小海湾",
+            "level": "low"
           },
           {
             "word": "lagoon",
             "ipa": "/ləˈɡuːn/",
             "pos": "n",
-            "meaning": "潟湖"
+            "meaning": "潟湖",
+            "level": "mid"
           },
           {
             "word": "jagged",
             "ipa": "/ˈdʒæɡɪd/",
             "pos": "adj",
-            "meaning": "参差不齐的"
+            "meaning": "参差不齐的",
+            "level": "low"
           },
           {
             "word": "secluded",
             "ipa": "/sɪˈkluːdɪd/",
             "pos": "adj",
-            "meaning": "僻静的"
+            "meaning": "僻静的",
+            "level": "mid"
           },
           {
             "word": "carve",
             "ipa": "/kɑːv/",
             "pos": "v",
-            "meaning": "冲刷形成，雕刻"
+            "meaning": "冲刷形成，雕刻",
+            "level": "mid"
           },
           {
             "word": "labyrinth",
             "ipa": "/ˈlæbərɪnθ/",
             "pos": "n",
-            "meaning": "迷宫"
+            "meaning": "迷宫",
+            "level": "mid"
           },
           {
             "word": "enclose",
             "ipa": "/ɪnˈkləʊz/",
             "pos": "v",
-            "meaning": "围住"
+            "meaning": "围住",
+            "level": "mid"
           },
           {
             "word": "picturesque",
             "ipa": "/ˌpɪktʃəˈresk/",
             "pos": "adj",
-            "meaning": "风景如画的"
+            "meaning": "风景如画的",
+            "level": "high",
+            "example": "The picturesque coastal town attracts millions of tourists every summer."
           },
           {
             "word": "pristine",
             "ipa": "/ˈprɪstiːn/",
             "pos": "adj",
-            "meaning": "原始的"
+            "meaning": "原始的",
+            "level": "high",
+            "example": "Strict regulations have kept the national park in pristine condition."
           },
           {
             "word": "panoramic",
             "ipa": "/ˌpænəˈræmɪk/",
             "pos": "adj",
-            "meaning": "全景的"
+            "meaning": "全景的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/01-natural-geography-round2/generated-with-text/01-card-05-generated-text.png"
@@ -827,109 +934,127 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "cumulus",
             "ipa": "/ˈkjuːmjələs/",
             "pos": "n",
-            "meaning": "积云"
+            "meaning": "积云",
+            "level": "low"
           },
           {
             "word": "cirrus",
             "ipa": "/ˈsɪrəs/",
             "pos": "n",
-            "meaning": "卷云"
+            "meaning": "卷云",
+            "level": "low"
           },
           {
             "word": "stratus",
             "ipa": "/ˈstrɑːtəs/",
             "pos": "n",
-            "meaning": "层云"
+            "meaning": "层云",
+            "level": "low"
           },
           {
             "word": "cumulonimbus",
             "ipa": "/ˌkjuːmjələʊˈnɪmbəs/",
             "pos": "n",
-            "meaning": "积雨云"
+            "meaning": "积雨云",
+            "level": "low"
           },
           {
             "word": "condensation",
             "ipa": "/ˌkɒndenˈseɪʃn/",
             "pos": "n",
-            "meaning": "凝结"
+            "meaning": "凝结",
+            "level": "mid"
           },
           {
             "word": "evaporation",
             "ipa": "/ɪˌvæpəˈreɪʃn/",
             "pos": "n",
-            "meaning": "蒸发"
+            "meaning": "蒸发",
+            "level": "mid"
           },
           {
             "word": "vapor",
             "ipa": "/ˈveɪpər/",
             "pos": "n",
-            "meaning": "水汽"
+            "meaning": "水汽",
+            "level": "mid"
           },
           {
             "word": "saturate",
             "ipa": "/ˈsætʃəreɪt/",
             "pos": "v",
-            "meaning": "使饱和，浸透"
+            "meaning": "使饱和，浸透",
+            "level": "mid"
           },
           {
             "word": "torrential",
             "ipa": "/təˈrenʃl/",
             "pos": "adj",
-            "meaning": "倾盆的"
+            "meaning": "倾盆的",
+            "level": "mid"
           },
           {
             "word": "intermittent",
             "ipa": "/ˌɪntəˈmɪtənt/",
             "pos": "adj",
-            "meaning": "间歇性的"
+            "meaning": "间歇性的",
+            "level": "mid"
           },
           {
             "word": "sporadic",
             "ipa": "/spəˈrædɪk/",
             "pos": "adj",
-            "meaning": "零星的"
+            "meaning": "零星的",
+            "level": "mid"
           },
           {
             "word": "dissipate",
             "ipa": "/ˈdɪsɪpeɪt/",
             "pos": "v",
-            "meaning": "消散"
+            "meaning": "消散",
+            "level": "mid"
           },
           {
             "word": "moisture",
             "ipa": "/ˈmɔɪstʃər/",
             "pos": "n",
-            "meaning": "水分"
+            "meaning": "水分",
+            "level": "mid"
           },
           {
             "word": "updraft",
             "ipa": "/ˈʌpdrɑːft/",
             "pos": "n",
-            "meaning": "上升气流"
+            "meaning": "上升气流",
+            "level": "low"
           },
           {
             "word": "downdraft",
             "ipa": "/ˈdaʊndrɑːft/",
             "pos": "n",
-            "meaning": "下沉气流"
+            "meaning": "下沉气流",
+            "level": "low"
           },
           {
             "word": "squall",
             "ipa": "/skwɔːl/",
             "pos": "n",
-            "meaning": "飑，突起的狂风"
+            "meaning": "飑，突起的狂风",
+            "level": "low"
           },
           {
             "word": "gauge",
             "ipa": "/ɡeɪdʒ/",
             "pos": "n",
-            "meaning": "测量仪"
+            "meaning": "测量仪",
+            "level": "mid"
           },
           {
             "word": "billowing",
             "ipa": "/ˈbɪləʊɪŋ/",
             "pos": "adj",
-            "meaning": "（云层）翻滚的"
+            "meaning": "（云层）翻滚的",
+            "level": "low"
           }
         ],
         "image": "../outputs/02-weather-and-climate-round2/generated-with-text/02-card-01-generated-text.png"
@@ -942,103 +1067,120 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "anticyclone",
             "ipa": "/ˌæntiˈsaɪkləʊn/",
             "pos": "n",
-            "meaning": "反气旋"
+            "meaning": "反气旋",
+            "level": "low"
           },
           {
             "word": "cyclone",
             "ipa": "/ˈsaɪkləʊn/",
             "pos": "n",
-            "meaning": "气旋"
+            "meaning": "气旋",
+            "level": "mid"
           },
           {
             "word": "isobar",
             "ipa": "/ˈaɪsəbɑːr/",
             "pos": "n",
-            "meaning": "等压线"
+            "meaning": "等压线",
+            "level": "low"
           },
           {
             "word": "front",
             "ipa": "/frʌnt/",
             "pos": "n",
-            "meaning": "（气象）锋面"
+            "meaning": "（气象）锋面",
+            "level": "mid"
           },
           {
             "word": "jet stream",
             "ipa": "/dʒet striːm/",
             "pos": "n",
-            "meaning": "急流"
+            "meaning": "急流",
+            "level": "low"
           },
           {
             "word": "trade wind",
             "ipa": "/treɪd wɪnd/",
             "pos": "n",
-            "meaning": "信风"
+            "meaning": "信风",
+            "level": "low"
           },
           {
             "word": "headwind",
             "ipa": "/ˈhedwɪnd/",
             "pos": "n",
-            "meaning": "逆风"
+            "meaning": "逆风",
+            "level": "mid"
           },
           {
             "word": "tailwind",
             "ipa": "/ˈteɪlwɪnd/",
             "pos": "n",
-            "meaning": "顺风"
+            "meaning": "顺风",
+            "level": "low"
           },
           {
             "word": "crosswind",
             "ipa": "/ˈkrɒswɪnd/",
             "pos": "n",
-            "meaning": "侧风"
+            "meaning": "侧风",
+            "level": "low"
           },
           {
             "word": "gale",
             "ipa": "/ɡeɪl/",
             "pos": "n",
-            "meaning": "大风"
+            "meaning": "大风",
+            "level": "mid"
           },
           {
             "word": "doldrums",
             "ipa": "/ˈdɒldrəmz/",
             "pos": "n",
-            "meaning": "赤道无风带"
+            "meaning": "赤道无风带",
+            "level": "low"
           },
           {
             "word": "vortex",
             "ipa": "/ˈvɔːteks/",
             "pos": "n",
-            "meaning": "涡旋"
+            "meaning": "涡旋",
+            "level": "low"
           },
           {
             "word": "convection",
             "ipa": "/kənˈvekʃn/",
             "pos": "n",
-            "meaning": "对流"
+            "meaning": "对流",
+            "level": "low"
           },
           {
             "word": "stagnant",
             "ipa": "/ˈstæɡnənt/",
             "pos": "adj",
-            "meaning": "停滞不动的"
+            "meaning": "停滞不动的",
+            "level": "mid"
           },
           {
             "word": "brisk",
             "ipa": "/brɪsk/",
             "pos": "adj",
-            "meaning": "（风）轻快的"
+            "meaning": "（风）轻快的",
+            "level": "mid"
           },
           {
             "word": "equatorial",
             "ipa": "/ˌekwəˈtɔːriəl/",
             "pos": "adj",
-            "meaning": "赤道的"
+            "meaning": "赤道的",
+            "level": "low"
           },
           {
             "word": "westerly",
             "ipa": "/ˈwestəli/",
             "pos": "adj",
-            "meaning": "西风的"
+            "meaning": "西风的",
+            "level": "low"
           }
         ],
         "image": "../outputs/02-weather-and-climate-round2/generated-with-text/02-card-02-generated-text.png"
@@ -1051,103 +1193,122 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "arid",
             "ipa": "/ˈærɪd/",
             "pos": "adj",
-            "meaning": "干旱的"
+            "meaning": "干旱的",
+            "level": "mid"
           },
           {
             "word": "semi-arid",
             "ipa": "/ˌsemi ˈærɪd/",
             "pos": "adj",
-            "meaning": "半干旱的"
+            "meaning": "半干旱的",
+            "level": "low"
           },
           {
             "word": "tropical",
             "ipa": "/ˈtrɒpɪkl/",
             "pos": "adj",
-            "meaning": "热带的"
+            "meaning": "热带的",
+            "level": "mid"
           },
           {
             "word": "subtropical",
             "ipa": "/sʌbˈtrɒpɪkl/",
             "pos": "adj",
-            "meaning": "亚热带的"
+            "meaning": "亚热带的",
+            "level": "low"
           },
           {
             "word": "continental",
             "ipa": "/ˌkɒntɪˈnentl/",
             "pos": "adj",
-            "meaning": "大陆性的"
+            "meaning": "大陆性的",
+            "level": "mid"
           },
           {
             "word": "maritime",
             "ipa": "/ˈmærɪtaɪm/",
             "pos": "adj",
-            "meaning": "海洋性的"
+            "meaning": "海洋性的",
+            "level": "mid"
           },
           {
             "word": "alpine",
             "ipa": "/ˈælpaɪn/",
             "pos": "adj",
-            "meaning": "高山的"
+            "meaning": "高山的",
+            "level": "mid"
           },
           {
             "word": "tundra",
             "ipa": "/ˈtʌndrə/",
             "pos": "n",
-            "meaning": "苔原"
+            "meaning": "苔原",
+            "level": "low"
           },
           {
             "word": "savanna",
             "ipa": "/səˈvænə/",
             "pos": "n",
-            "meaning": "热带草原"
+            "meaning": "热带草原",
+            "level": "low"
           },
           {
             "word": "subarctic",
             "ipa": "/sʌbˈɑːktɪk/",
             "pos": "adj",
-            "meaning": "亚北极的"
+            "meaning": "亚北极的",
+            "level": "low"
           },
           {
             "word": "oasis",
             "ipa": "/əʊˈeɪsɪs/",
             "pos": "n",
-            "meaning": "绿洲"
+            "meaning": "绿洲",
+            "level": "mid"
           },
           {
             "word": "desertification",
             "ipa": "/dɪˌzɜːtɪfɪˈkeɪʃn/",
             "pos": "n",
-            "meaning": "沙漠化"
+            "meaning": "沙漠化",
+            "level": "mid"
           },
           {
             "word": "microclimate",
             "ipa": "/ˈmaɪkrəʊklaɪmət/",
             "pos": "n",
-            "meaning": "小气候"
+            "meaning": "小气候",
+            "level": "low"
           },
           {
             "word": "biome",
             "ipa": "/ˈbaɪəʊm/",
             "pos": "n",
-            "meaning": "生物群落"
+            "meaning": "生物群落",
+            "level": "low"
           },
           {
             "word": "arable",
             "ipa": "/ˈærəbl/",
             "pos": "adj",
-            "meaning": "可耕种的"
+            "meaning": "可耕种的",
+            "level": "mid"
           },
           {
             "word": "vegetation",
             "ipa": "/ˌvedʒɪˈteɪʃn/",
             "pos": "n",
-            "meaning": "植被"
+            "meaning": "植被",
+            "level": "high",
+            "example": "Urban expansion has destroyed much of the natural vegetation around the city."
           },
           {
             "word": "rainforest",
             "ipa": "/ˈreɪnfɒrɪst/",
             "pos": "n",
-            "meaning": "雨林"
+            "meaning": "雨林",
+            "level": "high",
+            "example": "Protecting tropical rainforests is one of the cheapest ways to combat climate change."
           }
         ],
         "image": "../outputs/02-weather-and-climate-round2/generated-with-text/02-card-03-generated-text.png"
@@ -1160,31 +1321,39 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "resilience",
             "ipa": "/rɪˈzɪliəns/",
             "pos": "n",
-            "meaning": "韧性"
+            "meaning": "韧性",
+            "level": "high",
+            "example": "Cities must build resilience against extreme weather through better planning and infrastructure."
           },
           {
             "word": "resilient",
             "ipa": "/rɪˈzɪliənt/",
             "pos": "adj",
-            "meaning": "有韧性的"
+            "meaning": "有韧性的",
+            "level": "high",
+            "example": "Children who grow up with strong support networks tend to be more resilient."
           },
           {
             "word": "preparedness",
             "ipa": "/prɪˈpeərɪdnəs/",
             "pos": "n",
-            "meaning": "准备状态"
+            "meaning": "准备状态",
+            "level": "mid"
           },
           {
             "word": "contingency",
             "ipa": "/kənˈtɪndʒənsi/",
             "pos": "n",
-            "meaning": "应急预案"
+            "meaning": "应急预案",
+            "level": "mid"
           },
           {
             "word": "infrastructure",
             "ipa": "/ˈɪnfrəstrʌktʃər/",
             "pos": "n",
-            "meaning": "基础设施"
+            "meaning": "基础设施",
+            "level": "high",
+            "example": "Investment in public infrastructure creates jobs and stimulates long-term economic growth."
           },
           {
             "word": "vulnerable",
@@ -1198,61 +1367,78 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "adapt",
             "ipa": "/əˈdæpt/",
             "pos": "v",
-            "meaning": "适应"
+            "meaning": "适应",
+            "level": "high",
+            "example": "Companies that fail to adapt to technological change rarely survive for long."
           },
           {
             "word": "adaptation",
             "ipa": "/ˌædæpˈteɪʃn/",
             "pos": "n",
-            "meaning": "适应"
+            "meaning": "适应",
+            "level": "high",
+            "example": "Climate adaptation measures, such as flood barriers, are becoming a priority for coastal cities."
           },
           {
             "word": "reinforce",
             "ipa": "/ˌriːɪnˈfɔːs/",
             "pos": "v",
-            "meaning": "加固"
+            "meaning": "加固",
+            "level": "high",
+            "example": "Advertising often reinforces stereotypes rather than challenging them."
           },
           {
             "word": "retrofit",
             "ipa": "/ˈretrəʊfɪt/",
             "pos": "v",
-            "meaning": "改造加固"
+            "meaning": "改造加固",
+            "level": "mid"
           },
           {
             "word": "displacement",
             "ipa": "/dɪsˈpleɪsmənt/",
             "pos": "n",
-            "meaning": "流离失所"
+            "meaning": "流离失所",
+            "level": "mid"
           },
           {
             "word": "relief",
             "ipa": "/rɪˈliːf/",
             "pos": "n",
-            "meaning": "救援"
+            "meaning": "救援",
+            "level": "mid"
           },
           {
             "word": "threshold",
             "ipa": "/ˈθreʃhəʊld/",
             "pos": "n",
-            "meaning": "临界值"
+            "meaning": "临界值",
+            "level": "high",
+            "example": "Global temperatures are dangerously close to the threshold set by the Paris Agreement."
           },
           {
             "word": "unprecedented",
             "ipa": "/ʌnˈpresɪdentɪd/",
             "pos": "adj",
-            "meaning": "前所未有的"
+            "meaning": "前所未有的",
+            "level": "high",
+            "example": "The pandemic caused unprecedented disruption to global education systems."
           },
           {
             "word": "susceptible",
             "ipa": "/səˈseptəbl/",
             "pos": "adj",
-            "meaning": "易受影响的"
+            "meaning": "易受影响的",
+            "level": "high",
+            "example": "Young people are particularly susceptible to the influence of social media advertising."
           },
           {
             "word": "robust",
             "ipa": "/rəʊˈbʌst/",
             "pos": "adj",
-            "meaning": "坚固的"
+            "meaning": "坚固的",
+            "level": "high",
+            "example": "A robust public health system is the best defence against future pandemics."
           },
           {
             "word": "shelter",
@@ -1266,7 +1452,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "early warning",
             "ipa": "/ˈɜːli ˈwɔːnɪŋ/",
             "pos": "n",
-            "meaning": "预警"
+            "meaning": "预警",
+            "level": "mid"
           }
         ],
         "image": "../outputs/02-weather-and-climate-round2/generated-with-text/02-card-04-generated-text.png"
@@ -1279,103 +1466,120 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "balmy",
             "ipa": "/ˈbɑːmi/",
             "pos": "adj",
-            "meaning": "温和宜人的"
+            "meaning": "温和宜人的",
+            "level": "mid"
           },
           {
             "word": "gloomy",
             "ipa": "/ˈɡluːmi/",
             "pos": "adj",
-            "meaning": "阴沉的"
+            "meaning": "阴沉的",
+            "level": "mid"
           },
           {
             "word": "dreary",
             "ipa": "/ˈdrɪəri/",
             "pos": "adj",
-            "meaning": "沉闷阴郁的"
+            "meaning": "沉闷阴郁的",
+            "level": "low"
           },
           {
             "word": "bleak",
             "ipa": "/bliːk/",
             "pos": "adj",
-            "meaning": "荒凉阴冷的"
+            "meaning": "荒凉阴冷的",
+            "level": "mid"
           },
           {
             "word": "torrid",
             "ipa": "/ˈtɒrɪd/",
             "pos": "adj",
-            "meaning": "酷热的"
+            "meaning": "酷热的",
+            "level": "low"
           },
           {
             "word": "arctic",
             "ipa": "/ˈɑːktɪk/",
             "pos": "adj",
-            "meaning": "极寒的（非正式）"
+            "meaning": "极寒的（非正式）",
+            "level": "mid"
           },
           {
             "word": "stifling",
             "ipa": "/ˈstaɪflɪŋ/",
             "pos": "adj",
-            "meaning": "闷热难耐的"
+            "meaning": "闷热难耐的",
+            "level": "mid"
           },
           {
             "word": "oppressive",
             "ipa": "/əˈpresɪv/",
             "pos": "adj",
-            "meaning": "压抑闷热的"
+            "meaning": "压抑闷热的",
+            "level": "mid"
           },
           {
             "word": "inclement",
             "ipa": "/ɪnˈklemənt/",
             "pos": "adj",
-            "meaning": "（天气）恶劣的"
+            "meaning": "（天气）恶劣的",
+            "level": "mid"
           },
           {
             "word": "unsettled",
             "ipa": "/ʌnˈsetld/",
             "pos": "adj",
-            "meaning": "不稳定的"
+            "meaning": "不稳定的",
+            "level": "mid"
           },
           {
             "word": "changeable",
             "ipa": "/ˈtʃeɪndʒəbl/",
             "pos": "adj",
-            "meaning": "多变的"
+            "meaning": "多变的",
+            "level": "mid"
           },
           {
             "word": "patchy",
             "ipa": "/ˈpætʃi/",
             "pos": "adj",
-            "meaning": "局部的，斑驳的"
+            "meaning": "局部的，斑驳的",
+            "level": "mid"
           },
           {
             "word": "spell",
             "ipa": "/spel/",
             "pos": "n",
-            "meaning": "（天气）一段时期"
+            "meaning": "（天气）一段时期",
+            "level": "mid"
           },
           {
             "word": "freak",
             "ipa": "/friːk/",
             "pos": "adj",
-            "meaning": "反常的"
+            "meaning": "反常的",
+            "level": "mid"
           },
           {
             "word": "clammy",
             "ipa": "/ˈklæmi/",
             "pos": "adj",
-            "meaning": "潮湿黏腻的"
+            "meaning": "潮湿黏腻的",
+            "level": "low"
           },
           {
             "word": "nippy",
             "ipa": "/ˈnɪpi/",
             "pos": "adj",
-            "meaning": "微寒刺骨的"
+            "meaning": "微寒刺骨的",
+            "level": "low"
           },
           {
             "word": "hazy",
             "ipa": "/ˈheɪzi/",
             "pos": "adj",
-            "meaning": "朦胧有薄雾的"
+            "meaning": "朦胧有薄雾的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/02-weather-and-climate-round2/generated-with-text/02-card-05-generated-text.png"
@@ -1397,103 +1601,122 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "overcast",
             "ipa": "/ˌəʊvəˈkɑːst/",
             "pos": "adj",
-            "meaning": "阴天的"
+            "meaning": "阴天的",
+            "level": "mid"
           },
           {
             "word": "drizzle",
             "ipa": "/ˈdrɪzl/",
             "pos": "n/v",
-            "meaning": "毛毛雨"
+            "meaning": "毛毛雨",
+            "level": "mid"
           },
           {
             "word": "downpour",
             "ipa": "/ˈdaʊnpɔːr/",
             "pos": "n",
-            "meaning": "倾盆大雨"
+            "meaning": "倾盆大雨",
+            "level": "mid"
           },
           {
             "word": "gust",
             "ipa": "/ɡʌst/",
             "pos": "n",
-            "meaning": "阵风"
+            "meaning": "阵风",
+            "level": "mid"
           },
           {
             "word": "breeze",
             "ipa": "/briːz/",
             "pos": "n",
-            "meaning": "微风"
+            "meaning": "微风",
+            "level": "mid"
           },
           {
             "word": "humidity",
             "ipa": "/hjuːˈmɪdəti/",
             "pos": "n",
-            "meaning": "湿度"
+            "meaning": "湿度",
+            "level": "high",
+            "example": "High humidity in summer makes the heat feel far more oppressive."
           },
           {
             "word": "scorching",
             "ipa": "/ˈskɔːtʃɪŋ/",
             "pos": "adj",
-            "meaning": "灼热的"
+            "meaning": "灼热的",
+            "level": "mid"
           },
           {
             "word": "muggy",
             "ipa": "/ˈmʌɡi/",
             "pos": "adj",
-            "meaning": "闷热的"
+            "meaning": "闷热的",
+            "level": "low"
           },
           {
             "word": "hail",
             "ipa": "/heɪl/",
             "pos": "n/v",
-            "meaning": "冰雹"
+            "meaning": "冰雹",
+            "level": "mid"
           },
           {
             "word": "frost",
             "ipa": "/frɒst/",
             "pos": "n",
-            "meaning": "霜"
+            "meaning": "霜",
+            "level": "mid"
           },
           {
             "word": "dew",
             "ipa": "/djuː/",
             "pos": "n",
-            "meaning": "露水"
+            "meaning": "露水",
+            "level": "low"
           },
           {
             "word": "foggy",
             "ipa": "/ˈfɒɡi/",
             "pos": "adj",
-            "meaning": "有雾的"
+            "meaning": "有雾的",
+            "level": "mid"
           },
           {
             "word": "thunder",
             "ipa": "/ˈθʌndər/",
             "pos": "n",
-            "meaning": "雷声"
+            "meaning": "雷声",
+            "level": "mid"
           },
           {
             "word": "lightning",
             "ipa": "/ˈlaɪtnɪŋ/",
             "pos": "n",
-            "meaning": "闪电"
+            "meaning": "闪电",
+            "level": "mid"
           },
           {
             "word": "sleet",
             "ipa": "/sliːt/",
             "pos": "n",
-            "meaning": "雨夹雪"
+            "meaning": "雨夹雪",
+            "level": "low"
           },
           {
             "word": "precipitation",
             "ipa": "/prɪˌsɪpɪˈteɪʃn/",
             "pos": "n",
-            "meaning": "降水量"
+            "meaning": "降水量",
+            "level": "high",
+            "example": "The chart compares annual precipitation levels across four different regions."
           },
           {
             "word": "sunshine",
             "ipa": "/ˈsʌnʃaɪn/",
             "pos": "n",
-            "meaning": "阳光"
+            "meaning": "阳光",
+            "level": "mid"
           }
         ],
         "image": "../outputs/02-weather-and-climate/generated-with-text/02-card-01-generated-text.png"
@@ -1506,97 +1729,119 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "hurricane",
             "ipa": "/ˈhʌrɪkən/",
             "pos": "n",
-            "meaning": "飓风"
+            "meaning": "飓风",
+            "level": "mid"
           },
           {
             "word": "typhoon",
             "ipa": "/taɪˈfuːn/",
             "pos": "n",
-            "meaning": "台风"
+            "meaning": "台风",
+            "level": "mid"
           },
           {
             "word": "tornado",
             "ipa": "/tɔːˈneɪdəʊ/",
             "pos": "n",
-            "meaning": "龙卷风"
+            "meaning": "龙卷风",
+            "level": "mid"
           },
           {
             "word": "blizzard",
             "ipa": "/ˈblɪzəd/",
             "pos": "n",
-            "meaning": "暴风雪"
+            "meaning": "暴风雪",
+            "level": "mid"
           },
           {
             "word": "drought",
             "ipa": "/draʊt/",
             "pos": "n",
-            "meaning": "干旱"
+            "meaning": "干旱",
+            "level": "high",
+            "example": "Prolonged drought has forced thousands of farmers to leave their land."
           },
           {
             "word": "flood",
             "ipa": "/flʌd/",
             "pos": "n/v",
-            "meaning": "洪水"
+            "meaning": "洪水",
+            "level": "high",
+            "example": "Rising sea levels will expose coastal cities to more frequent floods."
           },
           {
             "word": "devastate",
             "ipa": "/ˈdevəsteɪt/",
             "pos": "v",
-            "meaning": "摧毁"
+            "meaning": "摧毁",
+            "level": "high",
+            "example": "The floods devastated entire villages, leaving thousands of people homeless."
           },
           {
             "word": "catastrophic",
             "ipa": "/ˌkætəˈstrɒfɪk/",
             "pos": "adj",
-            "meaning": "灾难性的"
+            "meaning": "灾难性的",
+            "level": "high",
+            "example": "Scientists warn that inaction on climate change will have catastrophic consequences."
           },
           {
             "word": "evacuate",
             "ipa": "/ɪˈvækjueɪt/",
             "pos": "v",
-            "meaning": "疏散"
+            "meaning": "疏散",
+            "level": "high",
+            "example": "Authorities evacuated thousands of residents before the hurricane made landfall."
           },
           {
             "word": "casualty",
             "ipa": "/ˈkæʒuəlti/",
             "pos": "n",
-            "meaning": "伤亡人员"
+            "meaning": "伤亡人员",
+            "level": "mid"
           },
           {
             "word": "aftermath",
             "ipa": "/ˈɑːftəmæθ/",
             "pos": "n",
-            "meaning": "后果"
+            "meaning": "后果",
+            "level": "high",
+            "example": "In the aftermath of the earthquake, international aid poured into the region."
           },
           {
             "word": "famine",
             "ipa": "/ˈfæmɪn/",
             "pos": "n",
-            "meaning": "饥荒"
+            "meaning": "饥荒",
+            "level": "mid"
           },
           {
             "word": "landslide",
             "ipa": "/ˈlændslaɪd/",
             "pos": "n",
-            "meaning": "山体滑坡"
+            "meaning": "山体滑坡",
+            "level": "mid"
           },
           {
             "word": "submerge",
             "ipa": "/səbˈmɜːdʒ/",
             "pos": "v",
-            "meaning": "淹没"
+            "meaning": "淹没",
+            "level": "mid"
           },
           {
             "word": "turbulent",
             "ipa": "/ˈtɜːbjələnt/",
             "pos": "adj",
-            "meaning": "狂暴的"
+            "meaning": "狂暴的",
+            "level": "mid"
           },
           {
             "word": "relentless",
             "ipa": "/rɪˈlentləs/",
             "pos": "adj",
-            "meaning": "无情的"
+            "meaning": "无情的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/02-weather-and-climate/generated-with-text/02-card-02-generated-text.png"
@@ -1609,7 +1854,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "greenhouse",
             "ipa": "/ˈɡriːnhaʊs/",
             "pos": "n",
-            "meaning": "温室"
+            "meaning": "温室",
+            "level": "high",
+            "example": "Reducing greenhouse gas emissions is the central goal of international climate agreements."
           },
           {
             "word": "emission",
@@ -1623,91 +1870,119 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "carbon dioxide",
             "ipa": "/ˌkɑːbən daɪˈɒksaɪd/",
             "pos": "n",
-            "meaning": "二氧化碳"
+            "meaning": "二氧化碳",
+            "level": "high",
+            "example": "Burning fossil fuels releases enormous amounts of carbon dioxide into the atmosphere."
           },
           {
             "word": "ozone",
             "ipa": "/ˈəʊzəʊn/",
             "pos": "n",
-            "meaning": "臭氧"
+            "meaning": "臭氧",
+            "level": "mid"
           },
           {
             "word": "deplete",
             "ipa": "/dɪˈpliːt/",
             "pos": "v",
-            "meaning": "消耗，耗尽"
+            "meaning": "消耗，耗尽",
+            "level": "high",
+            "example": "Overfishing has severely depleted fish stocks in many parts of the ocean."
           },
           {
             "word": "fossil fuel",
             "ipa": "/ˌfɒsl ˈfjuːəl/",
             "pos": "n",
-            "meaning": "化石燃料"
+            "meaning": "化石燃料",
+            "level": "high",
+            "example": "Many countries are struggling to reduce their dependence on fossil fuels."
           },
           {
             "word": "polar",
             "ipa": "/ˈpəʊlər/",
             "pos": "adj",
-            "meaning": "极地的"
+            "meaning": "极地的",
+            "level": "mid"
           },
           {
             "word": "glacier",
             "ipa": "/ˈɡlæsiər/",
             "pos": "n",
-            "meaning": "冰川"
+            "meaning": "冰川",
+            "level": "high",
+            "example": "Melting glaciers are one of the most visible signs of global warming."
           },
           {
             "word": "melt",
             "ipa": "/melt/",
             "pos": "v",
-            "meaning": "融化"
+            "meaning": "融化",
+            "level": "high",
+            "example": "Polar ice caps are melting at an alarming and accelerating rate."
           },
           {
             "word": "sea level",
             "ipa": "/ˈsiː ˌlevl/",
             "pos": "n",
-            "meaning": "海平面"
+            "meaning": "海平面",
+            "level": "high",
+            "example": "Rising sea levels threaten to displace millions of people in low-lying countries."
           },
           {
             "word": "deforestation",
             "ipa": "/diːˌfɒrɪˈsteɪʃn/",
             "pos": "n",
-            "meaning": "滥伐森林"
+            "meaning": "滥伐森林",
+            "level": "high",
+            "example": "Deforestation in the Amazon has reached its highest level in a decade."
           },
           {
             "word": "sustainable",
             "ipa": "/səˈsteɪnəbl/",
             "pos": "adj",
-            "meaning": "可持续的"
+            "meaning": "可持续的",
+            "level": "high",
+            "example": "Governments should promote sustainable development rather than short-term economic gain."
           },
           {
             "word": "deteriorate",
             "ipa": "/dɪˈtɪəriəreɪt/",
             "pos": "v",
-            "meaning": "恶化"
+            "meaning": "恶化",
+            "level": "high",
+            "example": "Air quality in the city has deteriorated sharply over the past decade."
           },
           {
             "word": "irreversible",
             "ipa": "/ˌɪrɪˈvɜːsəbl/",
             "pos": "adj",
-            "meaning": "不可逆的"
+            "meaning": "不可逆的",
+            "level": "high",
+            "example": "Scientists warn that some effects of climate change may already be irreversible."
           },
           {
             "word": "mitigate",
             "ipa": "/ˈmɪtɪɡeɪt/",
             "pos": "v",
-            "meaning": "缓解"
+            "meaning": "缓解",
+            "level": "high",
+            "example": "Planting trees in urban areas can help mitigate the effects of air pollution."
           },
           {
             "word": "carbon footprint",
             "ipa": "/ˌkɑːbən ˈfʊtprɪnt/",
             "pos": "n",
-            "meaning": "碳足迹"
+            "meaning": "碳足迹",
+            "level": "high",
+            "example": "Individuals can reduce their carbon footprint by flying less and cycling more."
           },
           {
             "word": "ecological",
             "ipa": "/ˌiːkəˈlɒdʒɪkl/",
             "pos": "adj",
-            "meaning": "生态的"
+            "meaning": "生态的",
+            "level": "high",
+            "example": "The oil spill caused an ecological disaster that took decades to recover from."
           }
         ],
         "image": "../outputs/02-weather-and-climate/generated-with-text/02-card-03-generated-text.png"
@@ -1720,37 +1995,44 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "forecast",
             "ipa": "/ˈfɔːkɑːst/",
             "pos": "n/v",
-            "meaning": "预报"
+            "meaning": "预报",
+            "level": "high",
+            "example": "Economists forecast that renewable energy will dominate the market by 2040."
           },
           {
             "word": "meteorology",
             "ipa": "/ˌmiːtiəˈrɒlədʒi/",
             "pos": "n",
-            "meaning": "气象学"
+            "meaning": "气象学",
+            "level": "low"
           },
           {
             "word": "barometer",
             "ipa": "/bəˈrɒmɪtər/",
             "pos": "n",
-            "meaning": "气压计"
+            "meaning": "气压计",
+            "level": "low"
           },
           {
             "word": "thermometer",
             "ipa": "/θəˈmɒmɪtər/",
             "pos": "n",
-            "meaning": "温度计"
+            "meaning": "温度计",
+            "level": "mid"
           },
           {
             "word": "Celsius",
             "ipa": "/ˈselsiəs/",
             "pos": "n",
-            "meaning": "摄氏度"
+            "meaning": "摄氏度",
+            "level": "mid"
           },
           {
             "word": "Fahrenheit",
             "ipa": "/ˈfærənhaɪt/",
             "pos": "n",
-            "meaning": "华氏度"
+            "meaning": "华氏度",
+            "level": "low"
           },
           {
             "word": "atmospheric",
@@ -1764,7 +2046,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "circulation",
             "ipa": "/ˌsɜːkjəˈleɪʃn/",
             "pos": "n",
-            "meaning": "环流"
+            "meaning": "环流",
+            "level": "mid"
           },
           {
             "word": "satellite",
@@ -1778,31 +2061,38 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "fluctuate",
             "ipa": "/ˈflʌktʃueɪt/",
             "pos": "v",
-            "meaning": "波动"
+            "meaning": "波动",
+            "level": "high",
+            "example": "Oil prices fluctuated dramatically throughout the second half of the year."
           },
           {
             "word": "prevailing",
             "ipa": "/prɪˈveɪlɪŋ/",
             "pos": "adj",
-            "meaning": "盛行的"
+            "meaning": "盛行的",
+            "level": "mid"
           },
           {
             "word": "moderate",
             "ipa": "/ˈmɒdərət/",
             "pos": "adj",
-            "meaning": "适中的"
+            "meaning": "适中的",
+            "level": "high",
+            "example": "Even moderate exercise several times a week brings significant health benefits."
           },
           {
             "word": "visibility",
             "ipa": "/ˌvɪzəˈbɪləti/",
             "pos": "n",
-            "meaning": "能见度"
+            "meaning": "能见度",
+            "level": "mid"
           },
           {
             "word": "radar",
             "ipa": "/ˈreɪdɑːr/",
             "pos": "n",
-            "meaning": "雷达"
+            "meaning": "雷达",
+            "level": "mid"
           },
           {
             "word": "hemisphere",
@@ -1815,13 +2105,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "latitude",
             "ipa": "/ˈlætɪtjuːd/",
             "pos": "n",
-            "meaning": "纬度"
+            "meaning": "纬度",
+            "level": "mid"
           },
           {
             "word": "altitude",
             "ipa": "/ˈæltɪtjuːd/",
             "pos": "n",
-            "meaning": "海拔"
+            "meaning": "海拔",
+            "level": "mid"
           }
         ],
         "image": "../outputs/02-weather-and-climate/generated-with-text/02-card-04-generated-text.png"
@@ -1834,61 +2126,72 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "blossom",
             "ipa": "/ˈblɒsəm/",
             "pos": "n/v",
-            "meaning": "花朵；开花"
+            "meaning": "花朵；开花",
+            "level": "mid"
           },
           {
             "word": "harvest",
             "ipa": "/ˈhɑːvɪst/",
             "pos": "n/v",
-            "meaning": "收获"
+            "meaning": "收获",
+            "level": "mid"
           },
           {
             "word": "wither",
             "ipa": "/ˈwɪðər/",
             "pos": "v",
-            "meaning": "枯萎"
+            "meaning": "枯萎",
+            "level": "mid"
           },
           {
             "word": "biting",
             "ipa": "/ˈbaɪtɪŋ/",
             "pos": "adj",
-            "meaning": "刺骨的"
+            "meaning": "刺骨的",
+            "level": "mid"
           },
           {
             "word": "mild",
             "ipa": "/maɪld/",
             "pos": "adj",
-            "meaning": "温和的"
+            "meaning": "温和的",
+            "level": "high",
+            "example": "The region's mild climate makes it an attractive destination all year round."
           },
           {
             "word": "crisp",
             "ipa": "/krɪsp/",
             "pos": "adj",
-            "meaning": "清爽的"
+            "meaning": "清爽的",
+            "level": "mid"
           },
           {
             "word": "sweltering",
             "ipa": "/ˈsweltərɪŋ/",
             "pos": "adj",
-            "meaning": "酷热的"
+            "meaning": "酷热的",
+            "level": "mid"
           },
           {
             "word": "chilly",
             "ipa": "/ˈtʃɪli/",
             "pos": "adj",
-            "meaning": "寒冷的"
+            "meaning": "寒冷的",
+            "level": "mid"
           },
           {
             "word": "bloom",
             "ipa": "/bluːm/",
             "pos": "v/n",
-            "meaning": "绽放"
+            "meaning": "绽放",
+            "level": "mid"
           },
           {
             "word": "foliage",
             "ipa": "/ˈfəʊliɪdʒ/",
             "pos": "n",
-            "meaning": "树叶"
+            "meaning": "树叶",
+            "level": "low"
           },
           {
             "word": "solstice",
@@ -1908,37 +2211,43 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "hibernate",
             "ipa": "/ˈhaɪbəneɪt/",
             "pos": "v",
-            "meaning": "冬眠"
+            "meaning": "冬眠",
+            "level": "low"
           },
           {
             "word": "evergreen",
             "ipa": "/ˈevəɡriːn/",
             "pos": "adj/n",
-            "meaning": "常绿的"
+            "meaning": "常绿的",
+            "level": "low"
           },
           {
             "word": "monsoon",
             "ipa": "/mɒnˈsuːn/",
             "pos": "n",
-            "meaning": "季风"
+            "meaning": "季风",
+            "level": "mid"
           },
           {
             "word": "temperate",
             "ipa": "/ˈtempərət/",
             "pos": "adj",
-            "meaning": "温带的"
+            "meaning": "温带的",
+            "level": "mid"
           },
           {
             "word": "perennial",
             "ipa": "/pəˈreniəl/",
             "pos": "adj",
-            "meaning": "常年的"
+            "meaning": "常年的",
+            "level": "mid"
           },
           {
             "word": "clement",
             "ipa": "/ˈklemənt/",
             "pos": "adj",
-            "meaning": "温暖宜人的"
+            "meaning": "温暖宜人的",
+            "level": "low"
           }
         ],
         "image": "../outputs/02-weather-and-climate/generated-with-text/02-card-05-generated-text.png"
@@ -2201,103 +2510,123 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "sentient",
             "ipa": "/ˈsentiənt/",
             "pos": "adj",
-            "meaning": "有知觉的"
+            "meaning": "有知觉的",
+            "level": "mid"
           },
           {
             "word": "cognition",
             "ipa": "/kɒɡˈnɪʃn/",
             "pos": "n",
-            "meaning": "认知"
+            "meaning": "认知",
+            "level": "high",
+            "example": "Studies suggest that regular exercise can improve cognition in older adults."
           },
           {
             "word": "echolocation",
             "ipa": "/ˌekəʊləʊˈkeɪʃn/",
             "pos": "n",
-            "meaning": "回声定位"
+            "meaning": "回声定位",
+            "level": "low"
           },
           {
             "word": "vocalization",
             "ipa": "/ˌvəʊkəlaɪˈzeɪʃn/",
             "pos": "n",
-            "meaning": "发声"
+            "meaning": "发声",
+            "level": "low"
           },
           {
             "word": "pheromone",
             "ipa": "/ˈferəməʊn/",
             "pos": "n",
-            "meaning": "信息素"
+            "meaning": "信息素",
+            "level": "low"
           },
           {
             "word": "mimicry",
             "ipa": "/ˈmɪmɪkri/",
             "pos": "n",
-            "meaning": "拟态"
+            "meaning": "拟态",
+            "level": "low"
           },
           {
             "word": "altruism",
             "ipa": "/ˈæltruɪzəm/",
             "pos": "n",
-            "meaning": "利他行为"
+            "meaning": "利他行为",
+            "level": "mid"
           },
           {
             "word": "empathy",
             "ipa": "/ˈempəθi/",
             "pos": "n",
-            "meaning": "共情"
+            "meaning": "共情",
+            "level": "high",
+            "example": "Reading fiction has been shown to increase empathy and improve social understanding."
           },
           {
             "word": "self-awareness",
             "ipa": "/self əˈweənəs/",
             "pos": "n",
-            "meaning": "自我意识"
+            "meaning": "自我意识",
+            "level": "mid"
           },
           {
             "word": "dexterity",
             "ipa": "/dekˈsterəti/",
             "pos": "n",
-            "meaning": "灵巧"
+            "meaning": "灵巧",
+            "level": "low"
           },
           {
             "word": "innate",
             "ipa": "/ɪˈneɪt/",
             "pos": "adj",
-            "meaning": "天生的"
+            "meaning": "天生的",
+            "level": "high",
+            "example": "Some psychologists argue that the desire to learn is innate in every child."
           },
           {
             "word": "acquired",
             "ipa": "/əˈkwaɪəd/",
             "pos": "adj",
-            "meaning": "后天习得的"
+            "meaning": "后天习得的",
+            "level": "mid"
           },
           {
             "word": "cooperative",
             "ipa": "/kəʊˈɒpərətɪv/",
             "pos": "adj",
-            "meaning": "合作的"
+            "meaning": "合作的",
+            "level": "mid"
           },
           {
             "word": "solitary",
             "ipa": "/ˈsɒlətri/",
             "pos": "adj",
-            "meaning": "独居的"
+            "meaning": "独居的",
+            "level": "mid"
           },
           {
             "word": "anthropomorphize",
             "ipa": "/ˌænθrəpəˈmɔːfaɪz/",
             "pos": "v",
-            "meaning": "拟人化"
+            "meaning": "拟人化",
+            "level": "low"
           },
           {
             "word": "sociable",
             "ipa": "/ˈsəʊʃəbl/",
             "pos": "adj",
-            "meaning": "社会性的"
+            "meaning": "社会性的",
+            "level": "mid"
           },
           {
             "word": "deceptive",
             "ipa": "/dɪˈseptɪv/",
             "pos": "adj",
-            "meaning": "欺骗性的"
+            "meaning": "欺骗性的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/03-animals-and-wildlife-round2/generated-with-text/03-card-01-generated-text.png"
@@ -2310,109 +2639,127 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "exoskeleton",
             "ipa": "/ˌeksəʊˈskelɪtn/",
             "pos": "n",
-            "meaning": "外骨骼"
+            "meaning": "外骨骼",
+            "level": "low"
           },
           {
             "word": "appendage",
             "ipa": "/əˈpendɪdʒ/",
             "pos": "n",
-            "meaning": "附肢"
+            "meaning": "附肢",
+            "level": "low"
           },
           {
             "word": "gestation",
             "ipa": "/dʒeˈsteɪʃn/",
             "pos": "n",
-            "meaning": "妊娠期"
+            "meaning": "妊娠期",
+            "level": "low"
           },
           {
             "word": "incubate",
             "ipa": "/ˈɪŋkjəbeɪt/",
             "pos": "v",
-            "meaning": "孵化"
+            "meaning": "孵化",
+            "level": "low"
           },
           {
             "word": "molt",
             "ipa": "/məʊlt/",
             "pos": "v",
-            "meaning": "蜕皮"
+            "meaning": "蜕皮",
+            "level": "low"
           },
           {
             "word": "regenerate",
             "ipa": "/rɪˈdʒenəreɪt/",
             "pos": "v",
-            "meaning": "再生"
+            "meaning": "再生",
+            "level": "mid"
           },
           {
             "word": "dormant",
             "ipa": "/ˈdɔːmənt/",
             "pos": "adj",
-            "meaning": "休眠的"
+            "meaning": "休眠的",
+            "level": "mid"
           },
           {
             "word": "ectothermic",
             "ipa": "/ˌektəʊˈθɜːmɪk/",
             "pos": "adj",
-            "meaning": "变温的"
+            "meaning": "变温的",
+            "level": "low"
           },
           {
             "word": "endothermic",
             "ipa": "/ˌendəʊˈθɜːmɪk/",
             "pos": "adj",
-            "meaning": "恒温的"
+            "meaning": "恒温的",
+            "level": "low"
           },
           {
             "word": "bioluminescence",
             "ipa": "/ˌbaɪəʊˌluːmɪˈnesns/",
             "pos": "n",
-            "meaning": "生物发光"
+            "meaning": "生物发光",
+            "level": "low"
           },
           {
             "word": "secrete",
             "ipa": "/sɪˈkriːt/",
             "pos": "v",
-            "meaning": "分泌"
+            "meaning": "分泌",
+            "level": "low"
           },
           {
             "word": "gland",
             "ipa": "/ɡlænd/",
             "pos": "n",
-            "meaning": "腺体"
+            "meaning": "腺体",
+            "level": "low"
           },
           {
             "word": "metabolism",
             "ipa": "/məˈtæbəlɪzəm/",
             "pos": "n",
-            "meaning": "新陈代谢"
+            "meaning": "新陈代谢",
+            "level": "mid"
           },
           {
             "word": "physiology",
             "ipa": "/ˌfɪziˈɒlədʒi/",
             "pos": "n",
-            "meaning": "生理学"
+            "meaning": "生理学",
+            "level": "low"
           },
           {
             "word": "keratin",
             "ipa": "/ˈkerətɪn/",
             "pos": "n",
-            "meaning": "角蛋白"
+            "meaning": "角蛋白",
+            "level": "low"
           },
           {
             "word": "cartilage",
             "ipa": "/ˈkɑːtəlɪdʒ/",
             "pos": "n",
-            "meaning": "软骨"
+            "meaning": "软骨",
+            "level": "low"
           },
           {
             "word": "vestigial",
             "ipa": "/veˈstɪdʒiəl/",
             "pos": "adj",
-            "meaning": "退化的"
+            "meaning": "退化的",
+            "level": "low"
           },
           {
             "word": "anatomy",
             "ipa": "/əˈnætəmi/",
             "pos": "n",
-            "meaning": "解剖学"
+            "meaning": "解剖学",
+            "level": "mid"
           }
         ],
         "image": "../outputs/03-animals-and-wildlife-round2/generated-with-text/03-card-02-generated-text.png"
@@ -2425,103 +2772,126 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "livestock",
             "ipa": "/ˈlaɪvstɒk/",
             "pos": "n",
-            "meaning": "牲畜"
+            "meaning": "牲畜",
+            "level": "mid"
           },
           {
             "word": "crop-raiding",
             "ipa": "/krɒp ˈreɪdɪŋ/",
             "pos": "n",
-            "meaning": "农作物侵扰"
+            "meaning": "农作物侵扰",
+            "level": "low"
           },
           {
             "word": "buffer zone",
             "ipa": "/ˈbʌfər zəʊn/",
             "pos": "n",
-            "meaning": "缓冲区"
+            "meaning": "缓冲区",
+            "level": "mid"
           },
           {
             "word": "compensation",
             "ipa": "/ˌkɒmpenˈseɪʃn/",
             "pos": "n",
-            "meaning": "补偿"
+            "meaning": "补偿",
+            "level": "high",
+            "example": "Farmers should receive fair compensation when their land is taken for development."
           },
           {
             "word": "coexistence",
             "ipa": "/ˌkəʊɪɡˈzɪstəns/",
             "pos": "n",
-            "meaning": "共存"
+            "meaning": "共存",
+            "level": "high",
+            "example": "Peaceful coexistence between wildlife and expanding cities requires careful planning."
           },
           {
             "word": "mitigate",
             "ipa": "/ˈmɪtɪɡeɪt/",
             "pos": "v",
-            "meaning": "减轻"
+            "meaning": "减轻",
+            "level": "high",
+            "example": "Planting trees in urban areas can help mitigate the effects of air pollution."
           },
           {
             "word": "translocate",
             "ipa": "/ˌtrænsləʊˈkeɪt/",
             "pos": "v",
-            "meaning": "易地放归"
+            "meaning": "易地放归",
+            "level": "low"
           },
           {
             "word": "tolerance",
             "ipa": "/ˈtɒlərəns/",
             "pos": "n",
-            "meaning": "容忍度"
+            "meaning": "容忍度",
+            "level": "high",
+            "example": "A healthy society depends on mutual tolerance between people of different beliefs."
           },
           {
             "word": "livelihood",
             "ipa": "/ˈlaɪvlihʊd/",
             "pos": "n",
-            "meaning": "生计"
+            "meaning": "生计",
+            "level": "high",
+            "example": "Overfishing threatens the livelihood of millions who depend on the sea."
           },
           {
             "word": "retaliatory",
             "ipa": "/rɪˈtæliətri/",
             "pos": "adj",
-            "meaning": "报复性的"
+            "meaning": "报复性的",
+            "level": "low"
           },
           {
             "word": "deterrent",
             "ipa": "/dɪˈterənt/",
             "pos": "n",
-            "meaning": "威慑物"
+            "meaning": "威慑物",
+            "level": "mid"
           },
           {
             "word": "overpopulation",
             "ipa": "/ˌəʊvəpɒpjuˈleɪʃn/",
             "pos": "n",
-            "meaning": "过度繁殖"
+            "meaning": "过度繁殖",
+            "level": "mid"
           },
           {
             "word": "relocation",
             "ipa": "/ˌriːləʊˈkeɪʃn/",
             "pos": "n",
-            "meaning": "迁移安置"
+            "meaning": "迁移安置",
+            "level": "mid"
           },
           {
             "word": "resentment",
             "ipa": "/rɪˈzentmənt/",
             "pos": "n",
-            "meaning": "憎恨情绪"
+            "meaning": "憎恨情绪",
+            "level": "mid"
           },
           {
             "word": "friction",
             "ipa": "/ˈfrɪkʃn/",
             "pos": "n",
-            "meaning": "摩擦冲突"
+            "meaning": "摩擦冲突",
+            "level": "mid"
           },
           {
             "word": "cull",
             "ipa": "/kʌl/",
             "pos": "v",
-            "meaning": "捕杀（控制数量）"
+            "meaning": "捕杀（控制数量）",
+            "level": "mid"
           },
           {
             "word": "stakeholder",
             "ipa": "/ˈsteɪkhəʊldər/",
             "pos": "n",
-            "meaning": "利益相关者"
+            "meaning": "利益相关者",
+            "level": "high",
+            "example": "Urban planning should involve every stakeholder, from residents to local businesses."
           }
         ],
         "image": "../outputs/03-animals-and-wildlife-round2/generated-with-text/03-card-03-generated-text.png"
@@ -2534,103 +2904,123 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "inbreeding",
             "ipa": "/ˈɪnbriːdɪŋ/",
             "pos": "n",
-            "meaning": "近亲繁殖"
+            "meaning": "近亲繁殖",
+            "level": "low"
           },
           {
             "word": "genetic diversity",
             "ipa": "/dʒəˈnetɪk daɪˈvɜːsəti/",
             "pos": "n",
-            "meaning": "基因多样性"
+            "meaning": "基因多样性",
+            "level": "mid"
           },
           {
             "word": "bottleneck",
             "ipa": "/ˈbɒtlnek/",
             "pos": "n",
-            "meaning": "瓶颈（种群）"
+            "meaning": "瓶颈（种群）",
+            "level": "mid"
           },
           {
             "word": "fragmentation",
             "ipa": "/ˌfræɡmenˈteɪʃn/",
             "pos": "n",
-            "meaning": "破碎化（栖息地）"
+            "meaning": "破碎化（栖息地）",
+            "level": "mid"
           },
           {
             "word": "keystone species",
             "ipa": "/ˈkiːstəʊn ˈspiːʃiːz/",
             "pos": "n",
-            "meaning": "关键种"
+            "meaning": "关键种",
+            "level": "low"
           },
           {
             "word": "apex predator",
             "ipa": "/ˈeɪpeks ˈpredətər/",
             "pos": "n",
-            "meaning": "顶级捕食者"
+            "meaning": "顶级捕食者",
+            "level": "low"
           },
           {
             "word": "trophic cascade",
             "ipa": "/ˈtrɒfɪk kæˈskeɪd/",
             "pos": "n",
-            "meaning": "营养级联"
+            "meaning": "营养级联",
+            "level": "low"
           },
           {
             "word": "umbrella species",
             "ipa": "/ʌmˈbrelə ˈspiːʃiːz/",
             "pos": "n",
-            "meaning": "伞护种"
+            "meaning": "伞护种",
+            "level": "low"
           },
           {
             "word": "viable",
             "ipa": "/ˈvaɪəbl/",
             "pos": "adj",
-            "meaning": "可存活的"
+            "meaning": "可存活的",
+            "level": "high",
+            "example": "Renewable energy is now a commercially viable alternative to fossil fuels."
           },
           {
             "word": "vulnerability",
             "ipa": "/ˌvʌlnərəˈbɪləti/",
             "pos": "n",
-            "meaning": "脆弱性"
+            "meaning": "脆弱性",
+            "level": "high",
+            "example": "The pandemic exposed the vulnerability of global supply chains."
           },
           {
             "word": "irreversible",
             "ipa": "/ˌɪrɪˈvɜːsəbl/",
             "pos": "adj",
-            "meaning": "不可逆转的"
+            "meaning": "不可逆转的",
+            "level": "high",
+            "example": "Scientists warn that some effects of climate change may already be irreversible."
           },
           {
             "word": "tipping point",
             "ipa": "/ˈtɪpɪŋ pɔɪnt/",
             "pos": "n",
-            "meaning": "临界点"
+            "meaning": "临界点",
+            "level": "mid"
           },
           {
             "word": "gene pool",
             "ipa": "/dʒiːn puːl/",
             "pos": "n",
-            "meaning": "基因库"
+            "meaning": "基因库",
+            "level": "mid"
           },
           {
             "word": "genetic drift",
             "ipa": "/dʒəˈnetɪk drɪft/",
             "pos": "n",
-            "meaning": "基因漂变"
+            "meaning": "基因漂变",
+            "level": "low"
           },
           {
             "word": "biodiversity hotspot",
             "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti ˈhɒtspɒt/",
             "pos": "n",
-            "meaning": "生物多样性热点"
+            "meaning": "生物多样性热点",
+            "level": "low"
           },
           {
             "word": "extirpate",
             "ipa": "/ˈekstɜːpeɪt/",
             "pos": "v",
-            "meaning": "局部灭绝"
+            "meaning": "局部灭绝",
+            "level": "low"
           },
           {
             "word": "functional extinction",
             "ipa": "/ˈfʌŋkʃənl ɪkˈstɪŋkʃn/",
             "pos": "n",
-            "meaning": "功能性灭绝"
+            "meaning": "功能性灭绝",
+            "level": "low"
           }
         ],
         "image": "../outputs/03-animals-and-wildlife-round2/generated-with-text/03-card-04-generated-text.png"
@@ -2651,91 +3041,106 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "enclosure",
             "ipa": "/ɪnˈkləʊʒər/",
             "pos": "n",
-            "meaning": "围栏"
+            "meaning": "围栏",
+            "level": "mid"
           },
           {
             "word": "husbandry",
             "ipa": "/ˈhʌzbəndri/",
             "pos": "n",
-            "meaning": "饲养管理"
+            "meaning": "饲养管理",
+            "level": "low"
           },
           {
             "word": "veterinary",
             "ipa": "/ˈvetrɪnri/",
             "pos": "adj",
-            "meaning": "兽医的"
+            "meaning": "兽医的",
+            "level": "mid"
           },
           {
             "word": "enrichment",
             "ipa": "/ɪnˈrɪtʃmənt/",
             "pos": "n",
-            "meaning": "（行为）丰容"
+            "meaning": "（行为）丰容",
+            "level": "mid"
           },
           {
             "word": "stereotypic behavior",
             "ipa": "/ˌsteriəˈtɪpɪk bɪˈheɪvjər/",
             "pos": "n",
-            "meaning": "刻板行为"
+            "meaning": "刻板行为",
+            "level": "low"
           },
           {
             "word": "confinement",
             "ipa": "/kənˈfaɪnmənt/",
             "pos": "n",
-            "meaning": "圈禁"
+            "meaning": "圈禁",
+            "level": "mid"
           },
           {
             "word": "exhibit",
             "ipa": "/ɪɡˈzɪbɪt/",
             "pos": "n",
-            "meaning": "展区"
+            "meaning": "展区",
+            "level": "mid"
           },
           {
             "word": "ethology",
             "ipa": "/iːˈθɒlədʒi/",
             "pos": "n",
-            "meaning": "动物行为学"
+            "meaning": "动物行为学",
+            "level": "low"
           },
           {
             "word": "sedate",
             "ipa": "/sɪˈdeɪt/",
             "pos": "v",
-            "meaning": "使镇静"
+            "meaning": "使镇静",
+            "level": "low"
           },
           {
             "word": "tranquilize",
             "ipa": "/ˈtræŋkwɪlaɪz/",
             "pos": "v",
-            "meaning": "使镇定（麻醉）"
+            "meaning": "使镇定（麻醉）",
+            "level": "low"
           },
           {
             "word": "microchip",
             "ipa": "/ˈmaɪkrəʊtʃɪp/",
             "pos": "v",
-            "meaning": "植入芯片"
+            "meaning": "植入芯片",
+            "level": "mid"
           },
           {
             "word": "neuter",
             "ipa": "/ˈnjuːtər/",
             "pos": "v",
-            "meaning": "绝育"
+            "meaning": "绝育",
+            "level": "low"
           },
           {
             "word": "wean",
             "ipa": "/wiːn/",
             "pos": "v",
-            "meaning": "断奶"
+            "meaning": "断奶",
+            "level": "low"
           },
           {
             "word": "surrogate",
             "ipa": "/ˈsʌrəɡət/",
             "pos": "n",
-            "meaning": "代养"
+            "meaning": "代养",
+            "level": "mid"
           },
           {
             "word": "anthropocentric",
             "ipa": "/ˌænθrəpəʊˈsentrɪk/",
             "pos": "adj",
-            "meaning": "人类中心的"
+            "meaning": "人类中心的",
+            "level": "low"
           }
         ],
         "image": "../outputs/03-animals-and-wildlife-round2/generated-with-text/03-card-05-generated-text.png"
@@ -2757,103 +3162,128 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "graze",
             "ipa": "/ɡreɪz/",
             "pos": "v",
-            "meaning": "吃草"
+            "meaning": "吃草",
+            "level": "mid"
           },
           {
             "word": "herbivore",
             "ipa": "/ˈhɜːbɪvɔːr/",
             "pos": "n",
-            "meaning": "食草动物"
+            "meaning": "食草动物",
+            "level": "mid"
           },
           {
             "word": "aquatic",
             "ipa": "/əˈkwætɪk/",
             "pos": "adj",
-            "meaning": "水生的"
+            "meaning": "水生的",
+            "level": "mid"
           },
           {
             "word": "predator",
             "ipa": "/ˈpredətər/",
             "pos": "n",
-            "meaning": "捕食者"
+            "meaning": "捕食者",
+            "level": "mid"
           },
           {
             "word": "prey",
             "ipa": "/preɪ/",
             "pos": "n",
-            "meaning": "猎物"
+            "meaning": "猎物",
+            "level": "mid"
           },
           {
             "word": "camouflage",
             "ipa": "/ˈkæməflɑːʒ/",
             "pos": "n",
-            "meaning": "伪装"
+            "meaning": "伪装",
+            "level": "mid"
           },
           {
             "word": "mammal",
             "ipa": "/ˈmæml/",
             "pos": "n",
-            "meaning": "哺乳动物"
+            "meaning": "哺乳动物",
+            "level": "mid"
           },
           {
             "word": "migration",
             "ipa": "/maɪˈɡreɪʃn/",
             "pos": "n",
-            "meaning": "迁徙"
+            "meaning": "迁徙",
+            "level": "high",
+            "example": "Climate change is disrupting the migration patterns of birds across the globe."
           },
           {
             "word": "territory",
             "ipa": "/ˈterətri/",
             "pos": "n",
-            "meaning": "领地"
+            "meaning": "领地",
+            "level": "mid"
           },
           {
             "word": "species",
             "ipa": "/ˈspiːʃiːz/",
             "pos": "n",
-            "meaning": "物种"
+            "meaning": "物种",
+            "level": "high",
+            "example": "Thousands of species could disappear before scientists even discover them."
           },
           {
             "word": "reptile",
             "ipa": "/ˈreptaɪl/",
             "pos": "n",
-            "meaning": "爬行动物"
+            "meaning": "爬行动物",
+            "level": "mid"
           },
           {
             "word": "adapt",
             "ipa": "/əˈdæpt/",
             "pos": "v",
-            "meaning": "适应"
+            "meaning": "适应",
+            "level": "high",
+            "example": "Companies that fail to adapt to technological change rarely survive for long."
           },
           {
             "word": "habitat",
             "ipa": "/ˈhæbɪtæt/",
             "pos": "n",
-            "meaning": "栖息地"
+            "meaning": "栖息地",
+            "level": "high",
+            "example": "Urban sprawl continues to destroy the natural habitat of countless animals."
           },
           {
             "word": "nurture",
             "ipa": "/ˈnɜːtʃər/",
             "pos": "v",
-            "meaning": "养育"
+            "meaning": "养育",
+            "level": "high",
+            "example": "The debate over nature versus nurture remains central to psychology."
           },
           {
             "word": "extinct",
             "ipa": "/ɪkˈstɪŋkt/",
             "pos": "adj",
-            "meaning": "灭绝的"
+            "meaning": "灭绝的",
+            "level": "high",
+            "example": "Without urgent protection, many large mammals may become extinct within decades."
           },
           {
             "word": "endangered",
             "ipa": "/ɪnˈdeɪndʒəd/",
             "pos": "adj",
-            "meaning": "濒危的"
+            "meaning": "濒危的",
+            "level": "high",
+            "example": "Illegal hunting has pushed several endangered species to the brink of extinction."
           },
           {
             "word": "conservation",
             "ipa": "/ˌkɒnsəˈveɪʃn/",
             "pos": "n",
-            "meaning": "保育"
+            "meaning": "保育",
+            "level": "high",
+            "example": "Wildlife conservation requires cooperation between governments, scientists and local communities."
           }
         ],
         "image": "../outputs/03-animals-and-wildlife/generated-with-text/03-card-01-generated-text.png"
@@ -2866,97 +3296,116 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "marine",
             "ipa": "/məˈriːn/",
             "pos": "adj",
-            "meaning": "海洋的"
+            "meaning": "海洋的",
+            "level": "high",
+            "example": "Plastic pollution poses the greatest single threat to marine life today."
           },
           {
             "word": "dolphin",
             "ipa": "/ˈdɒlfɪn/",
             "pos": "n",
-            "meaning": "海豚"
+            "meaning": "海豚",
+            "level": "mid"
           },
           {
             "word": "whale",
             "ipa": "/weɪl/",
             "pos": "n",
-            "meaning": "鲸鱼"
+            "meaning": "鲸鱼",
+            "level": "mid"
           },
           {
             "word": "shark",
             "ipa": "/ʃɑːk/",
             "pos": "n",
-            "meaning": "鲨鱼"
+            "meaning": "鲨鱼",
+            "level": "mid"
           },
           {
             "word": "coral",
             "ipa": "/ˈkɒrəl/",
             "pos": "n",
-            "meaning": "珊瑚"
+            "meaning": "珊瑚",
+            "level": "mid"
           },
           {
             "word": "tentacle",
             "ipa": "/ˈtentəkl/",
             "pos": "n",
-            "meaning": "触手"
+            "meaning": "触手",
+            "level": "low"
           },
           {
             "word": "invertebrate",
             "ipa": "/ɪnˈvɜːtɪbrət/",
             "pos": "n",
-            "meaning": "无脊椎动物"
+            "meaning": "无脊椎动物",
+            "level": "low"
           },
           {
             "word": "plankton",
             "ipa": "/ˈplæŋktən/",
             "pos": "n",
-            "meaning": "浮游生物"
+            "meaning": "浮游生物",
+            "level": "low"
           },
           {
             "word": "fin",
             "ipa": "/fɪn/",
             "pos": "n",
-            "meaning": "鳍"
+            "meaning": "鳍",
+            "level": "low"
           },
           {
             "word": "gill",
             "ipa": "/ɡɪl/",
             "pos": "n",
-            "meaning": "鳃"
+            "meaning": "鳃",
+            "level": "low"
           },
           {
             "word": "spawn",
             "ipa": "/spɔːn/",
             "pos": "v",
-            "meaning": "产卵"
+            "meaning": "产卵",
+            "level": "mid"
           },
           {
             "word": "shoal",
             "ipa": "/ʃəʊl/",
             "pos": "n",
-            "meaning": "鱼群"
+            "meaning": "鱼群",
+            "level": "low"
           },
           {
             "word": "predatory",
             "ipa": "/ˈpredətri/",
             "pos": "adj",
-            "meaning": "掠食性的"
+            "meaning": "掠食性的",
+            "level": "mid"
           },
           {
             "word": "symbiosis",
             "ipa": "/ˌsɪmbaɪˈəʊsɪs/",
             "pos": "n",
-            "meaning": "共生"
+            "meaning": "共生",
+            "level": "low"
           },
           {
             "word": "ecosystem",
             "ipa": "/ˈiːkəʊsɪstəm/",
             "pos": "n",
-            "meaning": "生态系统"
+            "meaning": "生态系统",
+            "level": "high",
+            "example": "Removing a single species can destabilise an entire ecosystem."
           },
           {
             "word": "biodiversity",
             "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/",
             "pos": "n",
-            "meaning": "生物多样性"
+            "meaning": "生物多样性",
+            "level": "high",
+            "example": "Protecting biodiversity is just as urgent as tackling climate change."
           }
         ],
         "image": "../outputs/03-animals-and-wildlife/generated-with-text/03-card-02-generated-text.png"
@@ -2969,103 +3418,121 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "avian",
             "ipa": "/ˈeɪviən/",
             "pos": "adj",
-            "meaning": "鸟类的"
+            "meaning": "鸟类的",
+            "level": "low"
           },
           {
             "word": "plumage",
             "ipa": "/ˈpluːmɪdʒ/",
             "pos": "n",
-            "meaning": "羽毛"
+            "meaning": "羽毛",
+            "level": "low"
           },
           {
             "word": "beak",
             "ipa": "/biːk/",
             "pos": "n",
-            "meaning": "喙"
+            "meaning": "喙",
+            "level": "low"
           },
           {
             "word": "flock",
             "ipa": "/flɒk/",
             "pos": "n",
-            "meaning": "鸟群"
+            "meaning": "鸟群",
+            "level": "mid"
           },
           {
             "word": "migratory",
             "ipa": "/ˈmaɪɡrətri/",
             "pos": "adj",
-            "meaning": "迁徙的"
+            "meaning": "迁徙的",
+            "level": "mid"
           },
           {
             "word": "wingspan",
             "ipa": "/ˈwɪŋspæn/",
             "pos": "n",
-            "meaning": "翼展"
+            "meaning": "翼展",
+            "level": "low"
           },
           {
             "word": "nocturnal",
             "ipa": "/nɒkˈtɜːnl/",
             "pos": "adj",
-            "meaning": "夜行的"
+            "meaning": "夜行的",
+            "level": "mid"
           },
           {
             "word": "hibernate",
             "ipa": "/ˈhaɪbəneɪt/",
             "pos": "v",
-            "meaning": "冬眠"
+            "meaning": "冬眠",
+            "level": "low"
           },
           {
             "word": "pollinate",
             "ipa": "/ˈpɒlɪneɪt/",
             "pos": "v",
-            "meaning": "授粉"
+            "meaning": "授粉",
+            "level": "mid"
           },
           {
             "word": "larva",
             "ipa": "/ˈlɑːvə/",
             "pos": "n",
-            "meaning": "幼虫"
+            "meaning": "幼虫",
+            "level": "low"
           },
           {
             "word": "metamorphosis",
             "ipa": "/ˌmetəˈmɔːfəsɪs/",
             "pos": "n",
-            "meaning": "变态发育"
+            "meaning": "变态发育",
+            "level": "mid"
           },
           {
             "word": "swarm",
             "ipa": "/swɔːm/",
             "pos": "n",
-            "meaning": "虫群"
+            "meaning": "虫群",
+            "level": "mid"
           },
           {
             "word": "parasite",
             "ipa": "/ˈpærəsaɪt/",
             "pos": "n",
-            "meaning": "寄生虫"
+            "meaning": "寄生虫",
+            "level": "mid"
           },
           {
             "word": "forage",
             "ipa": "/ˈfɒrɪdʒ/",
             "pos": "v",
-            "meaning": "觅食"
+            "meaning": "觅食",
+            "level": "mid"
           },
           {
             "word": "indigenous",
             "ipa": "/ɪnˈdɪdʒənəs/",
             "pos": "adj",
-            "meaning": "本土的"
+            "meaning": "本土的",
+            "level": "high",
+            "example": "Indigenous communities possess invaluable knowledge about managing land sustainably."
           },
           {
             "word": "ornithology",
             "ipa": "/ˌɔːnɪˈθɒlədʒi/",
             "pos": "n",
-            "meaning": "鸟类学"
+            "meaning": "鸟类学",
+            "level": "low"
           },
           {
             "word": "insecticide",
             "ipa": "/ɪnˈsektɪsaɪd/",
             "pos": "n",
-            "meaning": "杀虫剂"
+            "meaning": "杀虫剂",
+            "level": "mid"
           }
         ],
         "image": "../outputs/03-animals-and-wildlife/generated-with-text/03-card-03-generated-text.png"
@@ -3078,103 +3545,128 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "sanctuary",
             "ipa": "/ˈsæŋktʃuəri/",
             "pos": "n",
-            "meaning": "保护区"
+            "meaning": "保护区",
+            "level": "mid"
           },
           {
             "word": "reserve",
             "ipa": "/rɪˈzɜːv/",
             "pos": "n",
-            "meaning": "自然保护区"
+            "meaning": "自然保护区",
+            "level": "mid"
           },
           {
             "word": "poaching",
             "ipa": "/ˈpəʊtʃɪŋ/",
             "pos": "n",
-            "meaning": "偷猎"
+            "meaning": "偷猎",
+            "level": "high",
+            "example": "Poaching for ivory has halved the elephant population in some African countries."
           },
           {
             "word": "trafficking",
             "ipa": "/ˈtræfɪkɪŋ/",
             "pos": "n",
-            "meaning": "非法贩卖"
+            "meaning": "非法贩卖",
+            "level": "high",
+            "example": "International cooperation is essential to stop the trafficking of endangered animals."
           },
           {
             "word": "captivity",
             "ipa": "/kæpˈtɪvəti/",
             "pos": "n",
-            "meaning": "圈养"
+            "meaning": "圈养",
+            "level": "high",
+            "example": "Many people argue that keeping intelligent animals in captivity is fundamentally cruel."
           },
           {
             "word": "rehabilitate",
             "ipa": "/ˌriːəˈbɪlɪteɪt/",
             "pos": "v",
-            "meaning": "康复放归"
+            "meaning": "康复放归",
+            "level": "high",
+            "example": "Prisons should aim to rehabilitate offenders rather than simply punish them."
           },
           {
             "word": "breed",
             "ipa": "/briːd/",
             "pos": "v",
-            "meaning": "繁殖"
+            "meaning": "繁殖",
+            "level": "high",
+            "example": "Conservation programmes breed endangered animals and release them back into the wild."
           },
           {
             "word": "reintroduce",
             "ipa": "/ˌriːɪntrəˈdjuːs/",
             "pos": "v",
-            "meaning": "重新引入"
+            "meaning": "重新引入",
+            "level": "mid"
           },
           {
             "word": "corridor",
             "ipa": "/ˈkɒrɪdɔːr/",
             "pos": "n",
-            "meaning": "生态走廊"
+            "meaning": "生态走廊",
+            "level": "mid"
           },
           {
             "word": "deforestation",
             "ipa": "/diːˌfɒrɪˈsteɪʃn/",
             "pos": "n",
-            "meaning": "滥伐森林"
+            "meaning": "滥伐森林",
+            "level": "high",
+            "example": "Deforestation in the Amazon has reached its highest level in a decade."
           },
           {
             "word": "encroach",
             "ipa": "/ɪnˈkrəʊtʃ/",
             "pos": "v",
-            "meaning": "侵占"
+            "meaning": "侵占",
+            "level": "mid"
           },
           {
             "word": "flora",
             "ipa": "/ˈflɔːrə/",
             "pos": "n",
-            "meaning": "植物群"
+            "meaning": "植物群",
+            "level": "mid"
           },
           {
             "word": "fauna",
             "ipa": "/ˈfɔːnə/",
             "pos": "n",
-            "meaning": "动物群"
+            "meaning": "动物群",
+            "level": "mid"
           },
           {
             "word": "rewild",
             "ipa": "/riːˈwaɪld/",
             "pos": "v",
-            "meaning": "再野化"
+            "meaning": "再野化",
+            "level": "low"
           },
           {
             "word": "ecotourism",
             "ipa": "/ˈiːkəʊˌtʊərɪzəm/",
             "pos": "n",
-            "meaning": "生态旅游"
+            "meaning": "生态旅游",
+            "level": "high",
+            "example": "Ecotourism generates income for local people while protecting wildlife."
           },
           {
             "word": "preserve",
             "ipa": "/prɪˈzɜːv/",
             "pos": "v",
-            "meaning": "保护"
+            "meaning": "保护",
+            "level": "high",
+            "example": "It is our responsibility to preserve natural resources for future generations."
           },
           {
             "word": "ranger",
             "ipa": "/ˈreɪndʒər/",
             "pos": "n",
-            "meaning": "护林员"
+            "meaning": "护林员",
+            "level": "low"
           }
         ],
         "image": "../outputs/03-animals-and-wildlife/generated-with-text/03-card-04-generated-text.png"
@@ -3187,103 +3679,128 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "instinct",
             "ipa": "/ˈɪnstɪŋkt/",
             "pos": "n",
-            "meaning": "本能"
+            "meaning": "本能",
+            "level": "high",
+            "example": "Humans have a natural instinct to protect their children from danger."
           },
           {
             "word": "dominant",
             "ipa": "/ˈdɒmɪnənt/",
             "pos": "adj",
-            "meaning": "占主导的"
+            "meaning": "占主导的",
+            "level": "high",
+            "example": "English has become the dominant language of international business and science."
           },
           {
             "word": "hierarchy",
             "ipa": "/ˈhaɪərɑːki/",
             "pos": "n",
-            "meaning": "等级制度"
+            "meaning": "等级制度",
+            "level": "high",
+            "example": "Flat management structures are replacing the rigid hierarchy of traditional companies."
           },
           {
             "word": "offspring",
             "ipa": "/ˈɒfsprɪŋ/",
             "pos": "n",
-            "meaning": "后代"
+            "meaning": "后代",
+            "level": "high",
+            "example": "Parents naturally want to pass on their values to their offspring."
           },
           {
             "word": "evolve",
             "ipa": "/ɪˈvɒlv/",
             "pos": "v",
-            "meaning": "进化"
+            "meaning": "进化",
+            "level": "high",
+            "example": "Cities must evolve to meet the needs of their growing populations."
           },
           {
             "word": "trait",
             "ipa": "/treɪt/",
             "pos": "n",
-            "meaning": "特征"
+            "meaning": "特征",
+            "level": "high",
+            "example": "Employers increasingly value personality traits such as adaptability and resilience."
           },
           {
             "word": "hereditary",
             "ipa": "/hɪˈredɪtri/",
             "pos": "adj",
-            "meaning": "遗传的"
+            "meaning": "遗传的",
+            "level": "mid"
           },
           {
             "word": "mutation",
             "ipa": "/mjuːˈteɪʃn/",
             "pos": "n",
-            "meaning": "突变"
+            "meaning": "突变",
+            "level": "mid"
           },
           {
             "word": "survival",
             "ipa": "/səˈvaɪvl/",
             "pos": "n",
-            "meaning": "存活"
+            "meaning": "存活",
+            "level": "high",
+            "example": "For many small businesses, online sales became a matter of survival."
           },
           {
             "word": "fertile",
             "ipa": "/ˈfɜːtaɪl/",
             "pos": "adj",
-            "meaning": "能繁殖的"
+            "meaning": "能繁殖的",
+            "level": "high",
+            "example": "Farmers abandoned the fertile valley when the river changed its course."
           },
           {
             "word": "domesticate",
             "ipa": "/dəˈmestɪkeɪt/",
             "pos": "v",
-            "meaning": "驯化"
+            "meaning": "驯化",
+            "level": "mid"
           },
           {
             "word": "vertebrate",
             "ipa": "/ˈvɜːtɪbrət/",
             "pos": "n",
-            "meaning": "脊椎动物"
+            "meaning": "脊椎动物",
+            "level": "low"
           },
           {
             "word": "primate",
             "ipa": "/ˈpraɪmeɪt/",
             "pos": "n",
-            "meaning": "灵长类"
+            "meaning": "灵长类",
+            "level": "mid"
           },
           {
             "word": "carnivore",
             "ipa": "/ˈkɑːnɪvɔːr/",
             "pos": "n",
-            "meaning": "食肉动物"
+            "meaning": "食肉动物",
+            "level": "mid"
           },
           {
             "word": "scavenger",
             "ipa": "/ˈskævɪndʒər/",
             "pos": "n",
-            "meaning": "食腐动物"
+            "meaning": "食腐动物",
+            "level": "low"
           },
           {
             "word": "venomous",
             "ipa": "/ˈvenəməs/",
             "pos": "adj",
-            "meaning": "有毒的"
+            "meaning": "有毒的",
+            "level": "mid"
           },
           {
             "word": "agile",
             "ipa": "/ˈædʒaɪl/",
             "pos": "adj",
-            "meaning": "敏捷的"
+            "meaning": "敏捷的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/03-animals-and-wildlife/generated-with-text/03-card-05-generated-text.png"
@@ -3508,103 +4025,120 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "xerophyte",
             "ipa": "/ˈzɪərəfaɪt/",
             "pos": "n",
-            "meaning": "旱生植物"
+            "meaning": "旱生植物",
+            "level": "low"
           },
           {
             "word": "succulent",
             "ipa": "/ˈsʌkjələnt/",
             "pos": "adj/n",
-            "meaning": "多汁植物"
+            "meaning": "多汁植物",
+            "level": "low"
           },
           {
             "word": "halophyte",
             "ipa": "/ˈhæləfaɪt/",
             "pos": "n",
-            "meaning": "盐生植物"
+            "meaning": "盐生植物",
+            "level": "low"
           },
           {
             "word": "thorn",
             "ipa": "/θɔːn/",
             "pos": "n",
-            "meaning": "刺"
+            "meaning": "刺",
+            "level": "mid"
           },
           {
             "word": "resin",
             "ipa": "/ˈrezɪn/",
             "pos": "n",
-            "meaning": "树脂"
+            "meaning": "树脂",
+            "level": "low"
           },
           {
             "word": "epiphyte",
             "ipa": "/ˈepɪfaɪt/",
             "pos": "n",
-            "meaning": "附生植物"
+            "meaning": "附生植物",
+            "level": "low"
           },
           {
             "word": "parasitic",
             "ipa": "/ˌpærəˈsɪtɪk/",
             "pos": "adj",
-            "meaning": "寄生的"
+            "meaning": "寄生的",
+            "level": "mid"
           },
           {
             "word": "symbiosis",
             "ipa": "/ˌsɪmbaɪˈəʊsɪs/",
             "pos": "n",
-            "meaning": "共生"
+            "meaning": "共生",
+            "level": "low"
           },
           {
             "word": "carnivorous",
             "ipa": "/kɑːˈnɪvərəs/",
             "pos": "adj",
-            "meaning": "食肉的"
+            "meaning": "食肉的",
+            "level": "mid"
           },
           {
             "word": "wilt",
             "ipa": "/wɪlt/",
             "pos": "v",
-            "meaning": "枯萎"
+            "meaning": "枯萎",
+            "level": "mid"
           },
           {
             "word": "drought-resistant",
             "ipa": "/draʊt rɪˈzɪstənt/",
             "pos": "adj",
-            "meaning": "抗旱的"
+            "meaning": "抗旱的",
+            "level": "mid"
           },
           {
             "word": "regenerate",
             "ipa": "/rɪˈdʒenəreɪt/",
             "pos": "v",
-            "meaning": "再生"
+            "meaning": "再生",
+            "level": "mid"
           },
           {
             "word": "toxin",
             "ipa": "/ˈtɒksɪn/",
             "pos": "n",
-            "meaning": "毒素"
+            "meaning": "毒素",
+            "level": "mid"
           },
           {
             "word": "deterrent",
             "ipa": "/dɪˈterənt/",
             "pos": "n",
-            "meaning": "威慑物"
+            "meaning": "威慑物",
+            "level": "mid"
           },
           {
             "word": "camouflage",
             "ipa": "/ˈkæməflɑːʒ/",
             "pos": "n/v",
-            "meaning": "伪装"
+            "meaning": "伪装",
+            "level": "mid"
           },
           {
             "word": "tannin",
             "ipa": "/ˈtænɪn/",
             "pos": "n",
-            "meaning": "单宁"
+            "meaning": "单宁",
+            "level": "low"
           },
           {
             "word": "adaptive",
             "ipa": "/əˈdæptɪv/",
             "pos": "adj",
-            "meaning": "适应性的"
+            "meaning": "适应性的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/04-plants-and-agriculture-round2/generated-with-text/04-card-01-generated-text.png"
@@ -3617,103 +4151,124 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "blight",
             "ipa": "/blaɪt/",
             "pos": "n",
-            "meaning": "枯萎病"
+            "meaning": "枯萎病",
+            "level": "mid"
           },
           {
             "word": "fungus",
             "ipa": "/ˈfʌŋɡəs/",
             "pos": "n",
-            "meaning": "真菌"
+            "meaning": "真菌",
+            "level": "mid"
           },
           {
             "word": "rot",
             "ipa": "/rɒt/",
             "pos": "n/v",
-            "meaning": "腐烂"
+            "meaning": "腐烂",
+            "level": "mid"
           },
           {
             "word": "infected",
             "ipa": "/ɪnˈfektɪd/",
             "pos": "adj",
-            "meaning": "感染的"
+            "meaning": "感染的",
+            "level": "mid"
           },
           {
             "word": "quarantine",
             "ipa": "/ˈkwɒrəntiːn/",
             "pos": "n/v",
-            "meaning": "检疫"
+            "meaning": "检疫",
+            "level": "high",
+            "example": "Travellers arriving from affected areas were required to quarantine for two weeks."
           },
           {
             "word": "pathogen",
             "ipa": "/ˈpæθədʒən/",
             "pos": "n",
-            "meaning": "病原体"
+            "meaning": "病原体",
+            "level": "mid"
           },
           {
             "word": "biological control",
             "ipa": "/ˌbaɪəˈlɒdʒɪkl kənˈtrəʊl/",
             "pos": "n",
-            "meaning": "生物防治"
+            "meaning": "生物防治",
+            "level": "low"
           },
           {
             "word": "infestation",
             "ipa": "/ˌɪnfeˈsteɪʃn/",
             "pos": "n",
-            "meaning": "虫害侵扰"
+            "meaning": "虫害侵扰",
+            "level": "mid"
           },
           {
             "word": "outbreak",
             "ipa": "/ˈaʊtbreɪk/",
             "pos": "n",
-            "meaning": "爆发"
+            "meaning": "爆发",
+            "level": "high",
+            "example": "The outbreak spread rapidly because early warning systems failed."
           },
           {
             "word": "epidemic",
             "ipa": "/ˌepɪˈdemɪk/",
             "pos": "n",
-            "meaning": "流行病"
+            "meaning": "流行病",
+            "level": "high",
+            "example": "Obesity has become an epidemic in many wealthy countries."
           },
           {
             "word": "contaminate",
             "ipa": "/kənˈtæmɪneɪt/",
             "pos": "v",
-            "meaning": "污染"
+            "meaning": "污染",
+            "level": "high",
+            "example": "Industrial waste has contaminated the region's drinking water for decades."
           },
           {
             "word": "crop failure",
             "ipa": "/krɒp ˈfeɪljə/",
             "pos": "n",
-            "meaning": "减产/歉收"
+            "meaning": "减产/歉收",
+            "level": "mid"
           },
           {
             "word": "contagion",
             "ipa": "/kənˈteɪdʒən/",
             "pos": "n",
-            "meaning": "传染"
+            "meaning": "传染",
+            "level": "mid"
           },
           {
             "word": "resistant strain",
             "ipa": "/rɪˈzɪstənt streɪn/",
             "pos": "n",
-            "meaning": "抗性品种"
+            "meaning": "抗性品种",
+            "level": "low"
           },
           {
             "word": "mold",
             "ipa": "/məʊld/",
             "pos": "n",
-            "meaning": "霉菌"
+            "meaning": "霉菌",
+            "level": "mid"
           },
           {
             "word": "larvae",
             "ipa": "/ˈlɑːvi/",
             "pos": "n",
-            "meaning": "幼虫"
+            "meaning": "幼虫",
+            "level": "low"
           },
           {
             "word": "virulent",
             "ipa": "/ˈvɪrələnt/",
             "pos": "adj",
-            "meaning": "强毒性的"
+            "meaning": "强毒性的",
+            "level": "low"
           }
         ],
         "image": "../outputs/04-plants-and-agriculture-round2/generated-with-text/04-card-02-generated-text.png"
@@ -3726,103 +4281,122 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "seed vault",
             "ipa": "/siːd vɔːlt/",
             "pos": "n",
-            "meaning": "种子库"
+            "meaning": "种子库",
+            "level": "low"
           },
           {
             "word": "gene bank",
             "ipa": "/dʒiːn bæŋk/",
             "pos": "n",
-            "meaning": "基因库"
+            "meaning": "基因库",
+            "level": "low"
           },
           {
             "word": "viability",
             "ipa": "/ˌvaɪəˈbɪləti/",
             "pos": "n",
-            "meaning": "存活力"
+            "meaning": "存活力",
+            "level": "mid"
           },
           {
             "word": "heirloom",
             "ipa": "/ˈeəluːm/",
             "pos": "n",
-            "meaning": "传家宝品种"
+            "meaning": "传家宝品种",
+            "level": "low"
           },
           {
             "word": "cross-pollinate",
             "ipa": "/krɒs ˈpɒlɪneɪt/",
             "pos": "v",
-            "meaning": "异花授粉"
+            "meaning": "异花授粉",
+            "level": "low"
           },
           {
             "word": "hybridization",
             "ipa": "/ˌhaɪbrɪdaɪˈzeɪʃn/",
             "pos": "n",
-            "meaning": "杂交"
+            "meaning": "杂交",
+            "level": "low"
           },
           {
             "word": "landrace",
             "ipa": "/ˈlændreɪs/",
             "pos": "n",
-            "meaning": "地方品种"
+            "meaning": "地方品种",
+            "level": "low"
           },
           {
             "word": "native variety",
             "ipa": "/ˈneɪtɪv vəˈraɪəti/",
             "pos": "n",
-            "meaning": "本土品种"
+            "meaning": "本土品种",
+            "level": "low"
           },
           {
             "word": "wild relative",
             "ipa": "/waɪld ˈrelətɪv/",
             "pos": "n",
-            "meaning": "野生近缘种"
+            "meaning": "野生近缘种",
+            "level": "low"
           },
           {
             "word": "genome",
             "ipa": "/ˈdʒiːnəʊm/",
             "pos": "n",
-            "meaning": "基因组"
+            "meaning": "基因组",
+            "level": "mid"
           },
           {
             "word": "germplasm",
             "ipa": "/ˈdʒɜːmplæzəm/",
             "pos": "n",
-            "meaning": "种质"
+            "meaning": "种质",
+            "level": "low"
           },
           {
             "word": "extinction",
             "ipa": "/ɪkˈstɪŋkʃn/",
             "pos": "n",
-            "meaning": "灭绝"
+            "meaning": "灭绝",
+            "level": "high",
+            "example": "Human activity is driving thousands of species towards extinction."
           },
           {
             "word": "mutation",
             "ipa": "/mjuːˈteɪʃn/",
             "pos": "n",
-            "meaning": "突变"
+            "meaning": "突变",
+            "level": "mid"
           },
           {
             "word": "conserve",
             "ipa": "/kənˈsɜːv/",
             "pos": "v",
-            "meaning": "保存"
+            "meaning": "保存",
+            "level": "high",
+            "example": "Simple habits such as switching off lights help conserve energy at home."
           },
           {
             "word": "endemic",
             "ipa": "/enˈdemɪk/",
             "pos": "adj",
-            "meaning": "地方性的"
+            "meaning": "地方性的",
+            "level": "mid"
           },
           {
             "word": "cultivar",
             "ipa": "/ˈkʌltɪvɑː/",
             "pos": "n",
-            "meaning": "栽培品种"
+            "meaning": "栽培品种",
+            "level": "low"
           },
           {
             "word": "genetic diversity",
             "ipa": "/dʒəˈnetɪk daɪˈvɜːsəti/",
             "pos": "n",
-            "meaning": "遗传多样性"
+            "meaning": "遗传多样性",
+            "level": "mid"
           }
         ],
         "image": "../outputs/04-plants-and-agriculture-round2/generated-with-text/04-card-03-generated-text.png"
@@ -3835,109 +4409,130 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "heatwave",
             "ipa": "/ˈhiːtweɪv/",
             "pos": "n",
-            "meaning": "热浪"
+            "meaning": "热浪",
+            "level": "mid"
           },
           {
             "word": "heat stress",
             "ipa": "/hiːt stres/",
             "pos": "n",
-            "meaning": "热应激"
+            "meaning": "热应激",
+            "level": "low"
           },
           {
             "word": "extreme weather",
             "ipa": "/ɪkˈstriːm ˈweðə/",
             "pos": "n",
-            "meaning": "极端天气"
+            "meaning": "极端天气",
+            "level": "mid"
           },
           {
             "word": "unpredictable",
             "ipa": "/ˌʌnprɪˈdɪktəbl/",
             "pos": "adj",
-            "meaning": "不可预测的"
+            "meaning": "不可预测的",
+            "level": "high",
+            "example": "Climate change is making weather patterns increasingly unpredictable."
           },
           {
             "word": "yield volatility",
             "ipa": "/jiːld ˌvɒləˈtɪləti/",
             "pos": "n",
-            "meaning": "产量波动"
+            "meaning": "产量波动",
+            "level": "low"
           },
           {
             "word": "frost",
             "ipa": "/frɒst/",
             "pos": "n",
-            "meaning": "霜冻"
+            "meaning": "霜冻",
+            "level": "mid"
           },
           {
             "word": "erratic",
             "ipa": "/ɪˈrætɪk/",
             "pos": "adj",
-            "meaning": "无规律的"
+            "meaning": "无规律的",
+            "level": "mid"
           },
           {
             "word": "crop diversification",
             "ipa": "/krɒp daɪˌvɜːsɪfɪˈkeɪʃn/",
             "pos": "n",
-            "meaning": "作物多样化"
+            "meaning": "作物多样化",
+            "level": "low"
           },
           {
             "word": "early warning system",
             "ipa": "/ˈɜːli ˈwɔːnɪŋ ˈsɪstəm/",
             "pos": "n",
-            "meaning": "预警系统"
+            "meaning": "预警系统",
+            "level": "mid"
           },
           {
             "word": "climate-smart agriculture",
             "ipa": "/ˈklaɪmət smɑːt ˈæɡrɪkʌltʃə/",
             "pos": "n",
-            "meaning": "气候智能型农业"
+            "meaning": "气候智能型农业",
+            "level": "low"
           },
           {
             "word": "coping capacity",
             "ipa": "/ˈkəʊpɪŋ kəˈpæsəti/",
             "pos": "n",
-            "meaning": "应对能力"
+            "meaning": "应对能力",
+            "level": "low"
           },
           {
             "word": "vulnerability",
             "ipa": "/ˌvʌlnərəˈbɪləti/",
             "pos": "n",
-            "meaning": "脆弱性"
+            "meaning": "脆弱性",
+            "level": "high",
+            "example": "The pandemic exposed the vulnerability of global supply chains."
           },
           {
             "word": "shifting growing season",
             "ipa": "/ˈʃɪftɪŋ ˈɡrəʊɪŋ ˈsiːzn/",
             "pos": "n",
-            "meaning": "生长季节偏移"
+            "meaning": "生长季节偏移",
+            "level": "low"
           },
           {
             "word": "adaptation",
             "ipa": "/ˌædæpˈteɪʃn/",
             "pos": "n",
-            "meaning": "适应"
+            "meaning": "适应",
+            "level": "high",
+            "example": "Climate adaptation measures, such as flood barriers, are becoming a priority for coastal cities."
           },
           {
             "word": "buffer stock",
             "ipa": "/ˈbʌfə stɒk/",
             "pos": "n",
-            "meaning": "储备库存"
+            "meaning": "储备库存",
+            "level": "low"
           },
           {
             "word": "safety net",
             "ipa": "/ˈseɪfti net/",
             "pos": "n",
-            "meaning": "保障机制"
+            "meaning": "保障机制",
+            "level": "mid"
           },
           {
             "word": "contingency plan",
             "ipa": "/kənˈtɪndʒənsi plæn/",
             "pos": "n",
-            "meaning": "应急计划"
+            "meaning": "应急计划",
+            "level": "mid"
           },
           {
             "word": "mitigation",
             "ipa": "/ˌmɪtɪˈɡeɪʃn/",
             "pos": "n",
-            "meaning": "缓解"
+            "meaning": "缓解",
+            "level": "mid"
           }
         ],
         "image": "../outputs/04-plants-and-agriculture-round2/generated-with-text/04-card-04-generated-text.png"
@@ -3950,43 +4545,53 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "smallholder",
             "ipa": "/ˈsmɔːlhəʊldə/",
             "pos": "n",
-            "meaning": "小农户"
+            "meaning": "小农户",
+            "level": "low"
           },
           {
             "word": "cooperative",
             "ipa": "/kəʊˈɒpərətɪv/",
             "pos": "n",
-            "meaning": "合作社"
+            "meaning": "合作社",
+            "level": "mid"
           },
           {
             "word": "supply chain",
             "ipa": "/səˈplaɪ tʃeɪn/",
             "pos": "n",
-            "meaning": "供应链"
+            "meaning": "供应链",
+            "level": "high",
+            "example": "The pandemic revealed how fragile global supply chains really are."
           },
           {
             "word": "commodity",
             "ipa": "/kəˈmɒdəti/",
             "pos": "n",
-            "meaning": "大宗商品"
+            "meaning": "大宗商品",
+            "level": "high",
+            "example": "Clean water is becoming as valuable a commodity as oil."
           },
           {
             "word": "tariff",
             "ipa": "/ˈtærɪf/",
             "pos": "n",
-            "meaning": "关税"
+            "meaning": "关税",
+            "level": "high",
+            "example": "High tariffs on imported goods ultimately raise prices for ordinary consumers."
           },
           {
             "word": "import quota",
             "ipa": "/ˈɪmpɔːt ˈkwəʊtə/",
             "pos": "n",
-            "meaning": "进口配额"
+            "meaning": "进口配额",
+            "level": "low"
           },
           {
             "word": "stockpile",
             "ipa": "/ˈstɒkpaɪl/",
             "pos": "n/v",
-            "meaning": "储备"
+            "meaning": "储备",
+            "level": "mid"
           },
           {
             "word": "subsidy",
@@ -4000,61 +4605,75 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "agribusiness",
             "ipa": "/ˈæɡrɪbɪznəs/",
             "pos": "n",
-            "meaning": "农业综合企业"
+            "meaning": "农业综合企业",
+            "level": "low"
           },
           {
             "word": "surplus",
             "ipa": "/ˈsɜːplʌs/",
             "pos": "n",
-            "meaning": "剩余"
+            "meaning": "剩余",
+            "level": "high",
+            "example": "Wealthy nations often destroy their food surplus while others face famine."
           },
           {
             "word": "scarcity",
             "ipa": "/ˈskeəsəti/",
             "pos": "n",
-            "meaning": "稀缺"
+            "meaning": "稀缺",
+            "level": "high",
+            "example": "Water scarcity is likely to become a major source of conflict this century."
           },
           {
             "word": "distribution network",
             "ipa": "/ˌdɪstrɪˈbjuːʃn ˈnetwɜːk/",
             "pos": "n",
-            "meaning": "分销网络"
+            "meaning": "分销网络",
+            "level": "mid"
           },
           {
             "word": "price volatility",
             "ipa": "/praɪs ˌvɒləˈtɪləti/",
             "pos": "n",
-            "meaning": "价格波动"
+            "meaning": "价格波动",
+            "level": "mid"
           },
           {
             "word": "food waste",
             "ipa": "/fuːd weɪst/",
             "pos": "n",
-            "meaning": "食物浪费"
+            "meaning": "食物浪费",
+            "level": "high",
+            "example": "Reducing food waste could feed millions of people without any extra farming."
           },
           {
             "word": "self-sufficiency",
             "ipa": "/self səˈfɪʃnsi/",
             "pos": "n",
-            "meaning": "自给自足"
+            "meaning": "自给自足",
+            "level": "high",
+            "example": "Many countries are striving for self-sufficiency in food production."
           },
           {
             "word": "trade agreement",
             "ipa": "/treɪd əˈɡriːmənt/",
             "pos": "n",
-            "meaning": "贸易协定"
+            "meaning": "贸易协定",
+            "level": "mid"
           },
           {
             "word": "embargo",
             "ipa": "/ɪmˈbɑːɡəʊ/",
             "pos": "n",
-            "meaning": "禁运"
+            "meaning": "禁运",
+            "level": "mid"
           },
           {
             "word": "equitable distribution",
             "ipa": "/ˈekwɪtəbl ˌdɪstrɪˈbjuːʃn/",
             "pos": "n",
-            "meaning": "公平分配"
+            "meaning": "公平分配",
+            "level": "mid"
           }
         ],
         "image": "../outputs/04-plants-and-agriculture-round2/generated-with-text/04-card-05-generated-text.png"
@@ -4352,103 +4971,123 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "decibel",
             "ipa": "/ˈdesɪbel/",
             "pos": "n",
-            "meaning": "分贝"
+            "meaning": "分贝",
+            "level": "low"
           },
           {
             "word": "cacophony",
             "ipa": "/kəˈkɒfəni/",
             "pos": "n",
-            "meaning": "刺耳的噪音"
+            "meaning": "刺耳的噪音",
+            "level": "low"
           },
           {
             "word": "intrusive",
             "ipa": "/ɪnˈtruːsɪv/",
             "pos": "adj",
-            "meaning": "侵扰性的"
+            "meaning": "侵扰性的",
+            "level": "mid"
           },
           {
             "word": "soundproofing",
             "ipa": "/ˈsaʊndpruːfɪŋ/",
             "pos": "n",
-            "meaning": "隔音措施"
+            "meaning": "隔音措施",
+            "level": "low"
           },
           {
             "word": "chronic",
             "ipa": "/ˈkrɒnɪk/",
             "pos": "adj",
-            "meaning": "慢性的"
+            "meaning": "慢性的",
+            "level": "high",
+            "example": "Chronic stress can lead to serious physical and mental health problems."
           },
           {
             "word": "insomnia",
             "ipa": "/ɪnˈsɒmniə/",
             "pos": "n",
-            "meaning": "失眠"
+            "meaning": "失眠",
+            "level": "high",
+            "example": "Excessive screen time before bed is a common cause of insomnia."
           },
           {
             "word": "stress hormone",
             "ipa": "/stres ˈhɔːməʊn/",
             "pos": "n",
-            "meaning": "压力激素"
+            "meaning": "压力激素",
+            "level": "low"
           },
           {
             "word": "glare",
             "ipa": "/ɡleə/",
             "pos": "n",
-            "meaning": "眩光"
+            "meaning": "眩光",
+            "level": "mid"
           },
           {
             "word": "skyglow",
             "ipa": "/ˈskaɪɡləʊ/",
             "pos": "n",
-            "meaning": "天空辉光"
+            "meaning": "天空辉光",
+            "level": "low"
           },
           {
             "word": "luminance",
             "ipa": "/ˈluːmɪnəns/",
             "pos": "n",
-            "meaning": "亮度"
+            "meaning": "亮度",
+            "level": "low"
           },
           {
             "word": "nocturnal",
             "ipa": "/nɒkˈtɜːnl/",
             "pos": "adj",
-            "meaning": "夜间活动的"
+            "meaning": "夜间活动的",
+            "level": "mid"
           },
           {
             "word": "disorientate",
             "ipa": "/dɪsˈɔːriənteɪt/",
             "pos": "v",
-            "meaning": "使迷失方向"
+            "meaning": "使迷失方向",
+            "level": "low"
           },
           {
             "word": "circadian rhythm",
             "ipa": "/sɜːˈkeɪdiən ˈrɪðəm/",
             "pos": "n",
-            "meaning": "昼夜节律"
+            "meaning": "昼夜节律",
+            "level": "low"
           },
           {
             "word": "migratory",
             "ipa": "/ˈmaɪɡrətəri/",
             "pos": "adj",
-            "meaning": "迁徙的"
+            "meaning": "迁徙的",
+            "level": "mid"
           },
           {
             "word": "flight path",
             "ipa": "/flaɪt pɑːθ/",
             "pos": "n",
-            "meaning": "飞行路径"
+            "meaning": "飞行路径",
+            "level": "low"
           },
           {
             "word": "ambient noise",
             "ipa": "/ˈæmbiənt nɔɪz/",
             "pos": "n",
-            "meaning": "环境噪音"
+            "meaning": "环境噪音",
+            "level": "low"
           },
           {
             "word": "disruption",
             "ipa": "/dɪsˈrʌpʃən/",
             "pos": "n",
-            "meaning": "扰乱"
+            "meaning": "扰乱",
+            "level": "high",
+            "example": "The strike caused major disruption to the city's transport network."
           }
         ],
         "image": "../outputs/05-environment-and-pollution-round2/generated-with-text/05-card-01-generated-text.png"
@@ -4461,55 +5100,65 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "disproportionate",
             "ipa": "/ˌdɪsprəˈpɔːʃənət/",
             "pos": "adj",
-            "meaning": "不成比例的"
+            "meaning": "不成比例的",
+            "level": "mid"
           },
           {
             "word": "marginalized",
             "ipa": "/ˈmɑːdʒɪnəlaɪzd/",
             "pos": "adj",
-            "meaning": "边缘化的"
+            "meaning": "边缘化的",
+            "level": "high",
+            "example": "Digital services must be designed so that marginalized groups are not left behind."
           },
           {
             "word": "displacement",
             "ipa": "/dɪsˈpleɪsmənt/",
             "pos": "n",
-            "meaning": "流离失所"
+            "meaning": "流离失所",
+            "level": "mid"
           },
           {
             "word": "climate refugee",
             "ipa": "/ˈklaɪmət ˌrefjuˈdʒiː/",
             "pos": "n",
-            "meaning": "气候难民"
+            "meaning": "气候难民",
+            "level": "mid"
           },
           {
             "word": "resettlement",
             "ipa": "/ˌriːˈsetlmənt/",
             "pos": "n",
-            "meaning": "重新安置"
+            "meaning": "重新安置",
+            "level": "mid"
           },
           {
             "word": "low-lying",
             "ipa": "/ləʊ ˈlaɪɪŋ/",
             "pos": "adj",
-            "meaning": "低洼的"
+            "meaning": "低洼的",
+            "level": "mid"
           },
           {
             "word": "inundation",
             "ipa": "/ˌɪnʌnˈdeɪʃən/",
             "pos": "n",
-            "meaning": "淹没"
+            "meaning": "淹没",
+            "level": "low"
           },
           {
             "word": "vulnerable community",
             "ipa": "/ˈvʌlnərəbl kəˈmjuːnəti/",
             "pos": "n",
-            "meaning": "弱势社区"
+            "meaning": "弱势社区",
+            "level": "mid"
           },
           {
             "word": "toxic dumping",
             "ipa": "/ˈtɒksɪk ˈdʌmpɪŋ/",
             "pos": "n",
-            "meaning": "有毒废弃物倾倒"
+            "meaning": "有毒废弃物倾倒",
+            "level": "low"
           },
           {
             "word": "grassroots",
@@ -4522,43 +5171,52 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "advocacy group",
             "ipa": "/ˈædvəkəsi ɡruːp/",
             "pos": "n",
-            "meaning": "倡导团体"
+            "meaning": "倡导团体",
+            "level": "mid"
           },
           {
             "word": "equitable",
             "ipa": "/ˈekwɪtəbl/",
             "pos": "adj",
-            "meaning": "公平的"
+            "meaning": "公平的",
+            "level": "high",
+            "example": "An equitable distribution of resources is essential for social stability."
           },
           {
             "word": "reparation",
             "ipa": "/ˌrepəˈreɪʃən/",
             "pos": "n",
-            "meaning": "赔偿"
+            "meaning": "赔偿",
+            "level": "low"
           },
           {
             "word": "livelihood",
             "ipa": "/ˈlaɪvlihʊd/",
             "pos": "n",
-            "meaning": "生计"
+            "meaning": "生计",
+            "level": "high",
+            "example": "Overfishing threatens the livelihood of millions who depend on the sea."
           },
           {
             "word": "exodus",
             "ipa": "/ˈeksədəs/",
             "pos": "n",
-            "meaning": "大迁徙"
+            "meaning": "大迁徙",
+            "level": "mid"
           },
           {
             "word": "statelessness",
             "ipa": "/ˈsteɪtləsnəs/",
             "pos": "n",
-            "meaning": "无国籍状态"
+            "meaning": "无国籍状态",
+            "level": "low"
           },
           {
             "word": "sanctuary",
             "ipa": "/ˈsæŋktʃuəri/",
             "pos": "n",
-            "meaning": "庇护所"
+            "meaning": "庇护所",
+            "level": "mid"
           }
         ],
         "image": "../outputs/05-environment-and-pollution-round2/generated-with-text/05-card-02-generated-text.png"
@@ -4571,103 +5229,124 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "threshold",
             "ipa": "/ˈθreʃhəʊld/",
             "pos": "n",
-            "meaning": "阈值"
+            "meaning": "阈值",
+            "level": "high",
+            "example": "Global temperatures are dangerously close to the threshold set by the Paris Agreement."
           },
           {
             "word": "tipping point",
             "ipa": "/ˈtɪpɪŋ pɔɪnt/",
             "pos": "n",
-            "meaning": "临界点"
+            "meaning": "临界点",
+            "level": "mid"
           },
           {
             "word": "irreversible",
             "ipa": "/ˌɪrɪˈvɜːsəbl/",
             "pos": "adj",
-            "meaning": "不可逆的"
+            "meaning": "不可逆的",
+            "level": "high",
+            "example": "Scientists warn that some effects of climate change may already be irreversible."
           },
           {
             "word": "feedback loop",
             "ipa": "/ˈfiːdbæk luːp/",
             "pos": "n",
-            "meaning": "反馈循环"
+            "meaning": "反馈循环",
+            "level": "mid"
           },
           {
             "word": "resilience",
             "ipa": "/rɪˈzɪliəns/",
             "pos": "n",
-            "meaning": "韧性"
+            "meaning": "韧性",
+            "level": "high",
+            "example": "Cities must build resilience against extreme weather through better planning and infrastructure."
           },
           {
             "word": "collapse",
             "ipa": "/kəˈlæps/",
             "pos": "v/n",
-            "meaning": "崩溃"
+            "meaning": "崩溃",
+            "level": "high",
+            "example": "The collapse of local industries left the town with high unemployment."
           },
           {
             "word": "cascading effect",
             "ipa": "/kæˈskeɪdɪŋ ɪˈfekt/",
             "pos": "n",
-            "meaning": "连锁效应"
+            "meaning": "连锁效应",
+            "level": "low"
           },
           {
             "word": "permafrost",
             "ipa": "/ˈpɜːməfrɒst/",
             "pos": "n",
-            "meaning": "永久冻土"
+            "meaning": "永久冻土",
+            "level": "mid"
           },
           {
             "word": "bleaching",
             "ipa": "/ˈbliːtʃɪŋ/",
             "pos": "n",
-            "meaning": "白化"
+            "meaning": "白化",
+            "level": "mid"
           },
           {
             "word": "die-off",
             "ipa": "/ˈdaɪ ɒf/",
             "pos": "n",
-            "meaning": "大规模死亡"
+            "meaning": "大规模死亡",
+            "level": "low"
           },
           {
             "word": "keystone species",
             "ipa": "/ˈkiːstəʊn ˈspiːʃiːz/",
             "pos": "n",
-            "meaning": "关键物种"
+            "meaning": "关键物种",
+            "level": "low"
           },
           {
             "word": "equilibrium",
             "ipa": "/ˌiːkwɪˈlɪbriəm/",
             "pos": "n",
-            "meaning": "平衡"
+            "meaning": "平衡",
+            "level": "mid"
           },
           {
             "word": "destabilize",
             "ipa": "/diːˈsteɪbɪlaɪz/",
             "pos": "v",
-            "meaning": "使不稳定"
+            "meaning": "使不稳定",
+            "level": "mid"
           },
           {
             "word": "buffer capacity",
             "ipa": "/ˈbʌfə kəˈpæsəti/",
             "pos": "n",
-            "meaning": "缓冲能力"
+            "meaning": "缓冲能力",
+            "level": "low"
           },
           {
             "word": "abrupt",
             "ipa": "/əˈbrʌpt/",
             "pos": "adj",
-            "meaning": "突然的"
+            "meaning": "突然的",
+            "level": "mid"
           },
           {
             "word": "self-reinforcing",
             "ipa": "/self ˌriːɪnˈfɔːsɪŋ/",
             "pos": "adj",
-            "meaning": "自我强化的"
+            "meaning": "自我强化的",
+            "level": "low"
           },
           {
             "word": "warning sign",
             "ipa": "/ˈwɔːnɪŋ saɪn/",
             "pos": "n",
-            "meaning": "预警信号"
+            "meaning": "预警信号",
+            "level": "mid"
           }
         ],
         "image": "../outputs/05-environment-and-pollution-round2/generated-with-text/05-card-03-generated-text.png"
@@ -4680,103 +5359,123 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "remediation",
             "ipa": "/rɪˌmiːdiˈeɪʃən/",
             "pos": "n",
-            "meaning": "修复治理"
+            "meaning": "修复治理",
+            "level": "low"
           },
           {
             "word": "bioremediation",
             "ipa": "/ˌbaɪəʊrɪˌmiːdiˈeɪʃən/",
             "pos": "n",
-            "meaning": "生物修复"
+            "meaning": "生物修复",
+            "level": "low"
           },
           {
             "word": "filtration",
             "ipa": "/fɪlˈtreɪʃən/",
             "pos": "n",
-            "meaning": "过滤"
+            "meaning": "过滤",
+            "level": "mid"
           },
           {
             "word": "carbon capture",
             "ipa": "/ˈkɑːbən ˈkæptʃə/",
             "pos": "n",
-            "meaning": "碳捕获"
+            "meaning": "碳捕获",
+            "level": "mid"
           },
           {
             "word": "scrubber",
             "ipa": "/ˈskrʌbə/",
             "pos": "n",
-            "meaning": "净化装置"
+            "meaning": "净化装置",
+            "level": "low"
           },
           {
             "word": "catalytic converter",
             "ipa": "/ˌkætəˈlɪtɪk kənˈvɜːtə/",
             "pos": "n",
-            "meaning": "催化转化器"
+            "meaning": "催化转化器",
+            "level": "low"
           },
           {
             "word": "decontaminate",
             "ipa": "/ˌdiːkənˈtæmɪneɪt/",
             "pos": "v",
-            "meaning": "去污"
+            "meaning": "去污",
+            "level": "low"
           },
           {
             "word": "phytoremediation",
             "ipa": "/ˌfaɪtəʊrɪˌmiːdiˈeɪʃən/",
             "pos": "n",
-            "meaning": "植物修复"
+            "meaning": "植物修复",
+            "level": "low"
           },
           {
             "word": "sequestration",
             "ipa": "/ˌsiːkwesˈtreɪʃən/",
             "pos": "n",
-            "meaning": "封存"
+            "meaning": "封存",
+            "level": "low"
           },
           {
             "word": "innovation",
             "ipa": "/ˌɪnəˈveɪʃən/",
             "pos": "n",
-            "meaning": "创新"
+            "meaning": "创新",
+            "level": "high",
+            "example": "Innovation in green technology will be the key to solving the energy crisis."
           },
           {
             "word": "retrofit",
             "ipa": "/ˈretrəʊfɪt/",
             "pos": "v",
-            "meaning": "改造升级"
+            "meaning": "改造升级",
+            "level": "mid"
           },
           {
             "word": "emission standard",
             "ipa": "/ɪˈmɪʃən ˈstændəd/",
             "pos": "n",
-            "meaning": "排放标准"
+            "meaning": "排放标准",
+            "level": "mid"
           },
           {
             "word": "clean-up crew",
             "ipa": "/kliːn ʌp kruː/",
             "pos": "n",
-            "meaning": "清理队伍"
+            "meaning": "清理队伍",
+            "level": "low"
           },
           {
             "word": "restoration",
             "ipa": "/ˌrestəˈreɪʃən/",
             "pos": "n",
-            "meaning": "恢复"
+            "meaning": "恢复",
+            "level": "high",
+            "example": "The restoration of degraded wetlands can bring wildlife back within a few years."
           },
           {
             "word": "wetland buffer",
             "ipa": "/ˈwetlənd ˈbʌfə/",
             "pos": "n",
-            "meaning": "湿地缓冲带"
+            "meaning": "湿地缓冲带",
+            "level": "low"
           },
           {
             "word": "rehabilitate",
             "ipa": "/ˌriːəˈbɪlɪteɪt/",
             "pos": "v",
-            "meaning": "使恢复"
+            "meaning": "使恢复",
+            "level": "high",
+            "example": "Prisons should aim to rehabilitate offenders rather than simply punish them."
           },
           {
             "word": "viable solution",
             "ipa": "/ˈvaɪəbl səˈluːʃən/",
             "pos": "n",
-            "meaning": "可行方案"
+            "meaning": "可行方案",
+            "level": "mid"
           }
         ],
         "image": "../outputs/05-environment-and-pollution-round2/generated-with-text/05-card-04-generated-text.png"
@@ -4789,103 +5488,121 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "circular economy",
             "ipa": "/ˈsɜːkjələ ɪˈkɒnəmi/",
             "pos": "n",
-            "meaning": "循环经济"
+            "meaning": "循环经济",
+            "level": "high",
+            "example": "A circular economy keeps materials in use for as long as possible, reducing waste."
           },
           {
             "word": "linear model",
             "ipa": "/ˈlɪniə ˈmɒdl/",
             "pos": "n",
-            "meaning": "线性模式"
+            "meaning": "线性模式",
+            "level": "low"
           },
           {
             "word": "closed-loop system",
             "ipa": "/kləʊzd luːp ˈsɪstəm/",
             "pos": "n",
-            "meaning": "闭环系统"
+            "meaning": "闭环系统",
+            "level": "low"
           },
           {
             "word": "industrial symbiosis",
             "ipa": "/ɪnˈdʌstriəl ˌsɪmbaɪˈəʊsɪs/",
             "pos": "n",
-            "meaning": "工业共生"
+            "meaning": "工业共生",
+            "level": "low"
           },
           {
             "word": "by-product",
             "ipa": "/ˈbaɪ ˌprɒdʌkt/",
             "pos": "n",
-            "meaning": "副产品"
+            "meaning": "副产品",
+            "level": "mid"
           },
           {
             "word": "take-make-dispose",
             "ipa": "/teɪk meɪk dɪˈspəʊz/",
             "pos": "n",
-            "meaning": "索取-制造-丢弃模式"
+            "meaning": "索取-制造-丢弃模式",
+            "level": "low"
           },
           {
             "word": "resource depletion",
             "ipa": "/rɪˈsɔːs dɪˈpliːʃən/",
             "pos": "n",
-            "meaning": "资源枯竭"
+            "meaning": "资源枯竭",
+            "level": "mid"
           },
           {
             "word": "life cycle",
             "ipa": "/laɪf ˈsaɪkl/",
             "pos": "n",
-            "meaning": "生命周期"
+            "meaning": "生命周期",
+            "level": "mid"
           },
           {
             "word": "cradle-to-cradle",
             "ipa": "/ˈkreɪdl tə ˈkreɪdl/",
             "pos": "adj",
-            "meaning": "从摇篮到摇篮的"
+            "meaning": "从摇篮到摇篮的",
+            "level": "low"
           },
           {
             "word": "planned obsolescence",
             "ipa": "/plænd ˌɒbsəˈlesns/",
             "pos": "n",
-            "meaning": "计划性淘汰"
+            "meaning": "计划性淘汰",
+            "level": "mid"
           },
           {
             "word": "material recovery",
             "ipa": "/məˈtɪəriəl rɪˈkʌvəri/",
             "pos": "n",
-            "meaning": "材料回收"
+            "meaning": "材料回收",
+            "level": "low"
           },
           {
             "word": "supply loop",
             "ipa": "/səˈplaɪ luːp/",
             "pos": "n",
-            "meaning": "供应循环"
+            "meaning": "供应循环",
+            "level": "low"
           },
           {
             "word": "regenerative",
             "ipa": "/rɪˈdʒenərətɪv/",
             "pos": "adj",
-            "meaning": "再生性的"
+            "meaning": "再生性的",
+            "level": "mid"
           },
           {
             "word": "decouple",
             "ipa": "/diːˈkʌpl/",
             "pos": "v",
-            "meaning": "脱钩"
+            "meaning": "脱钩",
+            "level": "low"
           },
           {
             "word": "footprint reduction",
             "ipa": "/ˈfʊtprɪnt rɪˈdʌkʃən/",
             "pos": "n",
-            "meaning": "足迹减少"
+            "meaning": "足迹减少",
+            "level": "low"
           },
           {
             "word": "value chain",
             "ipa": "/ˈvæljuː tʃeɪn/",
             "pos": "n",
-            "meaning": "价值链"
+            "meaning": "价值链",
+            "level": "mid"
           },
           {
             "word": "eco-industrial park",
             "ipa": "/ˈiːkəʊ ɪnˈdʌstriəl pɑːk/",
             "pos": "n",
-            "meaning": "生态工业园"
+            "meaning": "生态工业园",
+            "level": "low"
           }
         ],
         "image": "../outputs/05-environment-and-pollution-round2/generated-with-text/05-card-05-generated-text.png"
@@ -4915,97 +5632,118 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "smog",
             "ipa": "/smɒɡ/",
             "pos": "n",
-            "meaning": "烟雾"
+            "meaning": "烟雾",
+            "level": "mid"
           },
           {
             "word": "combustion",
             "ipa": "/kəmˈbʌstʃən/",
             "pos": "n",
-            "meaning": "燃烧"
+            "meaning": "燃烧",
+            "level": "mid"
           },
           {
             "word": "fossil",
             "ipa": "/ˈfɒsəl/",
             "pos": "adj",
-            "meaning": "化石的"
+            "meaning": "化石的",
+            "level": "mid"
           },
           {
             "word": "toxic",
             "ipa": "/ˈtɒksɪk/",
             "pos": "adj",
-            "meaning": "有毒的"
+            "meaning": "有毒的",
+            "level": "high",
+            "example": "Factories continue to release toxic chemicals into nearby rivers."
           },
           {
             "word": "respiratory",
             "ipa": "/rəˈspɪrətəri/",
             "pos": "adj",
-            "meaning": "呼吸的"
+            "meaning": "呼吸的",
+            "level": "high",
+            "example": "Air pollution is a leading cause of respiratory diseases in cities."
           },
           {
             "word": "concentration",
             "ipa": "/ˌkɒnsənˈtreɪʃən/",
             "pos": "n",
-            "meaning": "浓度"
+            "meaning": "浓度",
+            "level": "mid"
           },
           {
             "word": "contaminate",
             "ipa": "/kənˈtæmɪneɪt/",
             "pos": "v",
-            "meaning": "污染"
+            "meaning": "污染",
+            "level": "high",
+            "example": "Industrial waste has contaminated the region's drinking water for decades."
           },
           {
             "word": "haze",
             "ipa": "/heɪz/",
             "pos": "n",
-            "meaning": "雾霾"
+            "meaning": "雾霾",
+            "level": "mid"
           },
           {
             "word": "particulate",
             "ipa": "/pɑːˈtɪkjʊlət/",
             "pos": "n",
-            "meaning": "微粒"
+            "meaning": "微粒",
+            "level": "mid"
           },
           {
             "word": "aerosol",
             "ipa": "/ˈeərəsɒl/",
             "pos": "n",
-            "meaning": "气溶胶"
+            "meaning": "气溶胶",
+            "level": "low"
           },
           {
             "word": "greenhouse",
             "ipa": "/ˈɡriːnhaʊs/",
             "pos": "adj",
-            "meaning": "温室的"
+            "meaning": "温室的",
+            "level": "high",
+            "example": "Reducing greenhouse gas emissions is the central goal of international climate agreements."
           },
           {
             "word": "methane",
             "ipa": "/ˈmeθeɪn/",
             "pos": "n",
-            "meaning": "甲烷"
+            "meaning": "甲烷",
+            "level": "mid"
           },
           {
             "word": "ozone",
             "ipa": "/ˈəʊzəʊn/",
             "pos": "n",
-            "meaning": "臭氧"
+            "meaning": "臭氧",
+            "level": "mid"
           },
           {
             "word": "ambient",
             "ipa": "/ˈæmbiənt/",
             "pos": "adj",
-            "meaning": "周围的"
+            "meaning": "周围的",
+            "level": "mid"
           },
           {
             "word": "oxidise",
             "ipa": "/ˈɒksɪdaɪz/",
             "pos": "v",
-            "meaning": "氧化"
+            "meaning": "氧化",
+            "level": "low"
           },
           {
             "word": "pollutant",
             "ipa": "/pəˈluːtənt/",
             "pos": "n",
-            "meaning": "污染物"
+            "meaning": "污染物",
+            "level": "high",
+            "example": "Vehicles are the largest source of airborne pollutants in urban areas."
           }
         ],
         "image": "../outputs/05-environment-and-pollution/generated-with-text/05-card-01-generated-text.png"
@@ -5018,97 +5756,116 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "effluent",
             "ipa": "/ˈefluənt/",
             "pos": "n",
-            "meaning": "污水"
+            "meaning": "污水",
+            "level": "low"
           },
           {
             "word": "sewage",
             "ipa": "/ˈsuːɪdʒ/",
             "pos": "n",
-            "meaning": "生活污水"
+            "meaning": "生活污水",
+            "level": "high",
+            "example": "Untreated sewage flowing into the sea has devastated local fisheries."
           },
           {
             "word": "leach",
             "ipa": "/liːtʃ/",
             "pos": "v",
-            "meaning": "渗出"
+            "meaning": "渗出",
+            "level": "low"
           },
           {
             "word": "runoff",
             "ipa": "/ˈrʌnɒf/",
             "pos": "n",
-            "meaning": "径流"
+            "meaning": "径流",
+            "level": "mid"
           },
           {
             "word": "contamination",
             "ipa": "/kənˌtæmɪˈneɪʃən/",
             "pos": "n",
-            "meaning": "污染"
+            "meaning": "污染",
+            "level": "high",
+            "example": "Water contamination affects the health of entire communities downstream."
           },
           {
             "word": "aquatic",
             "ipa": "/əˈkwætɪk/",
             "pos": "adj",
-            "meaning": "水生的"
+            "meaning": "水生的",
+            "level": "mid"
           },
           {
             "word": "turbid",
             "ipa": "/ˈtɜːbɪd/",
             "pos": "adj",
-            "meaning": "浑浊的"
+            "meaning": "浑浊的",
+            "level": "low"
           },
           {
             "word": "discharge",
             "ipa": "/dɪsˈtʃɑːdʒ/",
             "pos": "v",
-            "meaning": "排放"
+            "meaning": "排放",
+            "level": "mid"
           },
           {
             "word": "pesticide",
             "ipa": "/ˈpestɪsaɪd/",
             "pos": "n",
-            "meaning": "农药"
+            "meaning": "农药",
+            "level": "high",
+            "example": "Excessive use of pesticides has poisoned soil and harmed pollinating insects."
           },
           {
             "word": "microplastic",
             "ipa": "/ˌmaɪkrəʊˈplæstɪk/",
             "pos": "n",
-            "meaning": "微塑料"
+            "meaning": "微塑料",
+            "level": "mid"
           },
           {
             "word": "algae",
             "ipa": "/ˈældʒiː/",
             "pos": "n",
-            "meaning": "藻类"
+            "meaning": "藻类",
+            "level": "mid"
           },
           {
             "word": "eutrophication",
             "ipa": "/juːˌtrɒfɪˈkeɪʃən/",
             "pos": "n",
-            "meaning": "富营养化"
+            "meaning": "富营养化",
+            "level": "low"
           },
           {
             "word": "sediment",
             "ipa": "/ˈsedɪmənt/",
             "pos": "n",
-            "meaning": "沉积物"
+            "meaning": "沉积物",
+            "level": "mid"
           },
           {
             "word": "solvent",
             "ipa": "/ˈsɒlvənt/",
             "pos": "n",
-            "meaning": "溶剂"
+            "meaning": "溶剂",
+            "level": "low"
           },
           {
             "word": "industrial",
             "ipa": "/ɪnˈdʌstriəl/",
             "pos": "adj",
-            "meaning": "工业的"
+            "meaning": "工业的",
+            "level": "mid"
           },
           {
             "word": "bioaccumulation",
             "ipa": "/ˌbaɪəʊəˌkjuːmjʊˈleɪʃən/",
             "pos": "n",
-            "meaning": "生物积累"
+            "meaning": "生物积累",
+            "level": "low"
           }
         ],
         "image": "../outputs/05-environment-and-pollution/generated-with-text/05-card-02-generated-text.png"
@@ -5129,55 +5886,67 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "protocol",
             "ipa": "/ˈprəʊtəkɒl/",
             "pos": "n",
-            "meaning": "协议"
+            "meaning": "协议",
+            "level": "mid"
           },
           {
             "word": "treaty",
             "ipa": "/ˈtriːti/",
             "pos": "n",
-            "meaning": "条约"
+            "meaning": "条约",
+            "level": "mid"
           },
           {
             "word": "ratify",
             "ipa": "/ˈrætɪfaɪ/",
             "pos": "v",
-            "meaning": "批准"
+            "meaning": "批准",
+            "level": "mid"
           },
           {
             "word": "enforce",
             "ipa": "/ɪnˈfɔːs/",
             "pos": "v",
-            "meaning": "执行"
+            "meaning": "执行",
+            "level": "high",
+            "example": "Environmental laws are meaningless unless governments are willing to enforce them."
           },
           {
             "word": "compliance",
             "ipa": "/kəmˈplaɪəns/",
             "pos": "n",
-            "meaning": "遵从"
+            "meaning": "遵从",
+            "level": "mid"
           },
           {
             "word": "mitigation",
             "ipa": "/ˌmɪtɪˈɡeɪʃən/",
             "pos": "n",
-            "meaning": "缓解"
+            "meaning": "缓解",
+            "level": "mid"
           },
           {
             "word": "sanction",
             "ipa": "/ˈsæŋkʃən/",
             "pos": "n",
-            "meaning": "制裁"
+            "meaning": "制裁",
+            "level": "mid"
           },
           {
             "word": "conservation",
             "ipa": "/ˌkɒnsəˈveɪʃən/",
             "pos": "n",
-            "meaning": "保护"
+            "meaning": "保护",
+            "level": "high",
+            "example": "Wildlife conservation requires cooperation between governments, scientists and local communities."
           },
           {
             "word": "renewable",
             "ipa": "/rɪˈnjuːəbl/",
             "pos": "adj",
-            "meaning": "可再生的"
+            "meaning": "可再生的",
+            "level": "high",
+            "example": "Investing in renewable energy is essential for a sustainable future."
           },
           {
             "word": "accountability",
@@ -5191,31 +5960,38 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "intergovernmental",
             "ipa": "/ˌɪntəˌɡʌvənˈmentl/",
             "pos": "adj",
-            "meaning": "政府间的"
+            "meaning": "政府间的",
+            "level": "low"
           },
           {
             "word": "jurisdiction",
             "ipa": "/ˌdʒʊərɪsˈdɪkʃən/",
             "pos": "n",
-            "meaning": "管辖权"
+            "meaning": "管辖权",
+            "level": "mid"
           },
           {
             "word": "incentive",
             "ipa": "/ɪnˈsentɪv/",
             "pos": "n",
-            "meaning": "激励"
+            "meaning": "激励",
+            "level": "high",
+            "example": "Tax incentives encourage households to install solar panels."
           },
           {
             "word": "pledge",
             "ipa": "/pledʒ/",
             "pos": "v./n",
-            "meaning": "承诺"
+            "meaning": "承诺",
+            "level": "high",
+            "example": "Wealthy nations pledged billions of dollars to help poorer countries adapt."
           },
           {
             "word": "target",
             "ipa": "/ˈtɑːɡɪt/",
             "pos": "n",
-            "meaning": "目标"
+            "meaning": "目标",
+            "level": "mid"
           }
         ],
         "image": "../outputs/05-environment-and-pollution/generated-with-text/05-card-03-generated-text.png"
@@ -5228,97 +6004,120 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "deforestation",
             "ipa": "/diːˌfɒrɪˈsteɪʃən/",
             "pos": "n",
-            "meaning": "毁林"
+            "meaning": "毁林",
+            "level": "high",
+            "example": "Deforestation in the Amazon has reached its highest level in a decade."
           },
           {
             "word": "desertification",
             "ipa": "/dɪˌzɜːtɪfɪˈkeɪʃən/",
             "pos": "n",
-            "meaning": "荒漠化"
+            "meaning": "荒漠化",
+            "level": "mid"
           },
           {
             "word": "erosion",
             "ipa": "/ɪˈrəʊʒən/",
             "pos": "n",
-            "meaning": "侵蚀"
+            "meaning": "侵蚀",
+            "level": "high",
+            "example": "Deforestation accelerates soil erosion, making the land unsuitable for farming."
           },
           {
             "word": "degradation",
             "ipa": "/ˌdeɡrəˈdeɪʃən/",
             "pos": "n",
-            "meaning": "退化"
+            "meaning": "退化",
+            "level": "high",
+            "example": "Land degradation forces rural families to migrate to already crowded cities."
           },
           {
             "word": "habitat",
             "ipa": "/ˈhæbɪtæt/",
             "pos": "n",
-            "meaning": "栖息地"
+            "meaning": "栖息地",
+            "level": "high",
+            "example": "Urban sprawl continues to destroy the natural habitat of countless animals."
           },
           {
             "word": "clearance",
             "ipa": "/ˈklɪərəns/",
             "pos": "n",
-            "meaning": "清除"
+            "meaning": "清除",
+            "level": "mid"
           },
           {
             "word": "monoculture",
             "ipa": "/ˈmɒnəʊˌkʌltʃə/",
             "pos": "n",
-            "meaning": "单一栽培"
+            "meaning": "单一栽培",
+            "level": "low"
           },
           {
             "word": "topsoil",
             "ipa": "/ˈtɒpsɔɪl/",
             "pos": "n",
-            "meaning": "表土"
+            "meaning": "表土",
+            "level": "low"
           },
           {
             "word": "landslide",
             "ipa": "/ˈlændslaɪd/",
             "pos": "n",
-            "meaning": "山体滑坡"
+            "meaning": "山体滑坡",
+            "level": "mid"
           },
           {
             "word": "salinisation",
             "ipa": "/ˌsælɪnaɪˈzeɪʃən/",
             "pos": "n",
-            "meaning": "盐化"
+            "meaning": "盐化",
+            "level": "low"
           },
           {
             "word": "arable",
             "ipa": "/ˈærəbl/",
             "pos": "adj",
-            "meaning": "可耕的"
+            "meaning": "可耕的",
+            "level": "mid"
           },
           {
             "word": "reforestation",
             "ipa": "/ˌriːfɒrɪˈsteɪʃən/",
             "pos": "n",
-            "meaning": "重新造林"
+            "meaning": "重新造林",
+            "level": "high",
+            "example": "Large-scale reforestation could absorb a significant share of carbon emissions."
           },
           {
             "word": "carbon sink",
             "ipa": "/ˈkɑːbən sɪŋk/",
             "pos": "n",
-            "meaning": "碳汇"
+            "meaning": "碳汇",
+            "level": "mid"
           },
           {
             "word": "indigenous",
             "ipa": "/ɪnˈdɪdʒɪnəs/",
             "pos": "adj",
-            "meaning": "土著的"
+            "meaning": "土著的",
+            "level": "high",
+            "example": "Indigenous communities possess invaluable knowledge about managing land sustainably."
           },
           {
             "word": "fragmentation",
             "ipa": "/ˌfræɡmənˈteɪʃən/",
             "pos": "n",
-            "meaning": "碎片化"
+            "meaning": "碎片化",
+            "level": "mid"
           },
           {
             "word": "biodiversity",
             "ipa": "/ˌbaɪəʊdaɪˈvɜːsɪti/",
             "pos": "n",
-            "meaning": "生物多样性"
+            "meaning": "生物多样性",
+            "level": "high",
+            "example": "Protecting biodiversity is just as urgent as tackling climate change."
           }
         ],
         "image": "../outputs/05-environment-and-pollution/generated-with-text/05-card-04-generated-text.png"
@@ -5331,31 +6130,38 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "recycle",
             "ipa": "/riːˈsaɪkəl/",
             "pos": "v",
-            "meaning": "回收"
+            "meaning": "回收",
+            "level": "high",
+            "example": "Governments should make it easier and cheaper for households to recycle."
           },
           {
             "word": "composting",
             "ipa": "/ˈkɒmpɒstɪŋ/",
             "pos": "n",
-            "meaning": "堆肥"
+            "meaning": "堆肥",
+            "level": "mid"
           },
           {
             "word": "carbon footprint",
             "ipa": "/ˈkɑːbən ˈfʊtprɪnt/",
             "pos": "n",
-            "meaning": "碳足迹"
+            "meaning": "碳足迹",
+            "level": "high",
+            "example": "Individuals can reduce their carbon footprint by flying less and cycling more."
           },
           {
             "word": "upcycle",
             "ipa": "/ˈʌpsaɪkəl/",
             "pos": "v",
-            "meaning": "升级再造"
+            "meaning": "升级再造",
+            "level": "low"
           },
           {
             "word": "biodegradable",
             "ipa": "/ˌbaɪəʊdɪˈɡreɪdəbl/",
             "pos": "adj",
-            "meaning": "可生物降解的"
+            "meaning": "可生物降解的",
+            "level": "mid"
           },
           {
             "word": "solar",
@@ -5369,55 +6175,67 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "turbine",
             "ipa": "/ˈtɜːbaɪn/",
             "pos": "n",
-            "meaning": "涡轮机"
+            "meaning": "涡轮机",
+            "level": "mid"
           },
           {
             "word": "insulation",
             "ipa": "/ˌɪnsjʊˈleɪʃən/",
             "pos": "n",
-            "meaning": "隔热材料"
+            "meaning": "隔热材料",
+            "level": "mid"
           },
           {
             "word": "organic",
             "ipa": "/ɔːˈɡænɪk/",
             "pos": "adj",
-            "meaning": "有机的"
+            "meaning": "有机的",
+            "level": "high",
+            "example": "Demand for organic produce has grown steadily as consumers become health-conscious."
           },
           {
             "word": "ethical",
             "ipa": "/ˈeθɪkəl/",
             "pos": "adj",
-            "meaning": "道德的"
+            "meaning": "道德的",
+            "level": "high",
+            "example": "Consumers increasingly expect companies to source their materials in ethical ways."
           },
           {
             "word": "minimise",
             "ipa": "/ˈmɪnɪmaɪz/",
             "pos": "v",
-            "meaning": "最小化"
+            "meaning": "最小化",
+            "level": "mid"
           },
           {
             "word": "offset",
             "ipa": "/ˈɒfset/",
             "pos": "v",
-            "meaning": "抵消"
+            "meaning": "抵消",
+            "level": "high",
+            "example": "Airlines allow passengers to offset the carbon emissions of their flights."
           },
           {
             "word": "greenwash",
             "ipa": "/ˈɡriːnwɒʃ/",
             "pos": "v./n",
-            "meaning": "漂绿"
+            "meaning": "漂绿",
+            "level": "mid"
           },
           {
             "word": "zero-waste",
             "ipa": "/ˈzɪərəʊ weɪst/",
             "pos": "adj",
-            "meaning": "零废弃"
+            "meaning": "零废弃",
+            "level": "mid"
           },
           {
             "word": "conscious",
             "ipa": "/ˈkɒnʃəs/",
             "pos": "adj",
-            "meaning": "有意识的"
+            "meaning": "有意识的",
+            "level": "mid"
           },
           {
             "word": "advocacy",
@@ -5645,97 +6463,122 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "innovation",
             "ipa": "/ˌɪnəˈveɪʃn/",
             "pos": "n",
-            "meaning": "创新"
+            "meaning": "创新",
+            "level": "high",
+            "example": "Innovation in green technology will be the key to solving the energy crisis."
           },
           {
             "word": "patent",
             "ipa": "/ˈpætnt/",
             "pos": "n/v",
-            "meaning": "专利"
+            "meaning": "专利",
+            "level": "mid"
           },
           {
             "word": "cutting-edge",
             "ipa": "/ˌkʌtɪŋ ˈedʒ/",
             "pos": "adj",
-            "meaning": "尖端的"
+            "meaning": "尖端的",
+            "level": "high",
+            "example": "The company invests heavily in cutting-edge research to stay ahead of competitors."
           },
           {
             "word": "pioneer",
             "ipa": "/ˌpaɪəˈnɪər/",
             "pos": "n/v",
-            "meaning": "先驱/开创"
+            "meaning": "先驱/开创",
+            "level": "high",
+            "example": "She was a pioneer in the field of renewable energy long before it became fashionable."
           },
           {
             "word": "ingenious",
             "ipa": "/ɪnˈdʒiːniəs/",
             "pos": "adj",
-            "meaning": "精巧的"
+            "meaning": "精巧的",
+            "level": "mid"
           },
           {
             "word": "revolutionise",
             "ipa": "/ˌrevəˈluːʃənaɪz/",
             "pos": "v",
-            "meaning": "彻底改变"
+            "meaning": "彻底改变",
+            "level": "high",
+            "example": "Artificial intelligence is set to revolutionise the way medicine is practised."
           },
           {
             "word": "devise",
             "ipa": "/dɪˈvaɪz/",
             "pos": "v",
-            "meaning": "设计/发明"
+            "meaning": "设计/发明",
+            "level": "mid"
           },
           {
             "word": "obsolete",
             "ipa": "/ˌɒbsəˈliːt/",
             "pos": "adj",
-            "meaning": "过时的"
+            "meaning": "过时的",
+            "level": "high",
+            "example": "Rapid technological change makes many skills obsolete within a few years."
           },
           {
             "word": "milestone",
             "ipa": "/ˈmaɪlstəʊn/",
             "pos": "n",
-            "meaning": "里程碑"
+            "meaning": "里程碑",
+            "level": "high",
+            "example": "Graduating from university is an important milestone in a young person's life."
           },
           {
             "word": "refine",
             "ipa": "/rɪˈfaɪn/",
             "pos": "v",
-            "meaning": "改进"
+            "meaning": "改进",
+            "level": "mid"
           },
           {
             "word": "harness",
             "ipa": "/ˈhɑːnɪs/",
             "pos": "v",
-            "meaning": "利用"
+            "meaning": "利用",
+            "level": "high",
+            "example": "If we can harness solar power efficiently, energy shortages could disappear."
           },
           {
             "word": "commercialise",
             "ipa": "/kəˈmɜːʃəlaɪz/",
             "pos": "v",
-            "meaning": "商业化"
+            "meaning": "商业化",
+            "level": "mid"
           },
           {
             "word": "feasible",
             "ipa": "/ˈfiːzəbl/",
             "pos": "adj",
-            "meaning": "可行的"
+            "meaning": "可行的",
+            "level": "high",
+            "example": "It is not financially feasible for every family to own an electric car yet."
           },
           {
             "word": "gadget",
             "ipa": "/ˈɡædʒɪt/",
             "pos": "n",
-            "meaning": "小装置"
+            "meaning": "小装置",
+            "level": "mid"
           },
           {
             "word": "enhance",
             "ipa": "/ɪnˈhɑːns/",
             "pos": "v",
-            "meaning": "增强"
+            "meaning": "增强",
+            "level": "high",
+            "example": "Technology in the classroom can enhance learning when used appropriately."
           },
           {
             "word": "trial",
             "ipa": "/ˈtraɪəl/",
             "pos": "n",
-            "meaning": "试验"
+            "meaning": "试验",
+            "level": "mid"
           }
         ],
         "image": "../outputs/06-technology-and-innovation/generated-with-text-ref29/06-card-01-generated-text.png"
@@ -5748,25 +6591,29 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "machinery",
             "ipa": "/məˈʃiːnəri/",
             "pos": "n",
-            "meaning": "机械"
+            "meaning": "机械",
+            "level": "mid"
           },
           {
             "word": "mechanism",
             "ipa": "/ˈmekənɪzəm/",
             "pos": "n",
-            "meaning": "机制"
+            "meaning": "机制",
+            "level": "mid"
           },
           {
             "word": "component",
             "ipa": "/kəmˈpəʊnənt/",
             "pos": "n",
-            "meaning": "组件"
+            "meaning": "组件",
+            "level": "mid"
           },
           {
             "word": "assemble",
             "ipa": "/əˈsembl/",
             "pos": "v",
-            "meaning": "组装"
+            "meaning": "组装",
+            "level": "mid"
           },
           {
             "word": "calibrate",
@@ -5779,67 +6626,79 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "specification",
             "ipa": "/ˌspesɪfɪˈkeɪʃn/",
             "pos": "n",
-            "meaning": "规格"
+            "meaning": "规格",
+            "level": "mid"
           },
           {
             "word": "durable",
             "ipa": "/ˈdjʊərəbl/",
             "pos": "adj",
-            "meaning": "耐用的"
+            "meaning": "耐用的",
+            "level": "high",
+            "example": "Manufacturers should make products more durable to reduce electronic waste."
           },
           {
             "word": "fabricate",
             "ipa": "/ˈfæbrɪkeɪt/",
             "pos": "v",
-            "meaning": "制造"
+            "meaning": "制造",
+            "level": "low"
           },
           {
             "word": "replicate",
             "ipa": "/ˈreplɪkeɪt/",
             "pos": "v",
-            "meaning": "复制"
+            "meaning": "复制",
+            "level": "mid"
           },
           {
             "word": "hydraulic",
             "ipa": "/haɪˈdrɒlɪk/",
             "pos": "adj",
-            "meaning": "液压的"
+            "meaning": "液压的",
+            "level": "low"
           },
           {
             "word": "turbine",
             "ipa": "/ˈtɜːbaɪn/",
             "pos": "n",
-            "meaning": "涡轮机"
+            "meaning": "涡轮机",
+            "level": "mid"
           },
           {
             "word": "alloy",
             "ipa": "/ˈælɔɪ/",
             "pos": "n",
-            "meaning": "合金"
+            "meaning": "合金",
+            "level": "low"
           },
           {
             "word": "weld",
             "ipa": "/weld/",
             "pos": "v",
-            "meaning": "焊接"
+            "meaning": "焊接",
+            "level": "low"
           },
           {
             "word": "blueprint",
             "ipa": "/ˈbluːprɪnt/",
             "pos": "n",
-            "meaning": "蓝图"
+            "meaning": "蓝图",
+            "level": "mid"
           },
           {
             "word": "malfunction",
             "ipa": "/ˌmælˈfʌŋkʃn/",
             "pos": "n/v",
-            "meaning": "故障"
+            "meaning": "故障",
+            "level": "mid"
           },
           {
             "word": "apparatus",
             "ipa": "/ˌæpəˈreɪtəs/",
             "pos": "n",
-            "meaning": "装置"
+            "meaning": "装置",
+            "level": "low"
           }
         ],
         "image": "../outputs/06-technology-and-innovation/generated-with-text-ref29/06-card-02-generated-text.png"
@@ -5852,13 +6711,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "transmit",
             "ipa": "/trænzˈmɪt/",
             "pos": "v",
-            "meaning": "传输"
+            "meaning": "传输",
+            "level": "mid"
           },
           {
             "word": "bandwidth",
             "ipa": "/ˈbændwɪdθ/",
             "pos": "n",
-            "meaning": "带宽"
+            "meaning": "带宽",
+            "level": "mid"
           },
           {
             "word": "satellite",
@@ -5872,79 +6733,92 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "semiconductor",
             "ipa": "/ˌsemikənˈdʌktər/",
             "pos": "n",
-            "meaning": "半导体"
+            "meaning": "半导体",
+            "level": "low"
           },
           {
             "word": "fibre optic",
             "ipa": "/ˌfaɪbər ˈɒptɪk/",
             "pos": "adj",
-            "meaning": "光纤的"
+            "meaning": "光纤的",
+            "level": "low"
           },
           {
             "word": "frequency",
             "ipa": "/ˈfriːkwənsi/",
             "pos": "n",
-            "meaning": "频率"
+            "meaning": "频率",
+            "level": "mid"
           },
           {
             "word": "encrypt",
             "ipa": "/ɪnˈkrɪpt/",
             "pos": "v",
-            "meaning": "加密"
+            "meaning": "加密",
+            "level": "mid"
           },
           {
             "word": "compatible",
             "ipa": "/kəmˈpætəbl/",
             "pos": "adj",
-            "meaning": "兼容的"
+            "meaning": "兼容的",
+            "level": "mid"
           },
           {
             "word": "interface",
             "ipa": "/ˈɪntəfeɪs/",
             "pos": "n",
-            "meaning": "接口"
+            "meaning": "接口",
+            "level": "mid"
           },
           {
             "word": "synchronise",
             "ipa": "/ˈsɪŋkrənaɪz/",
             "pos": "v",
-            "meaning": "同步"
+            "meaning": "同步",
+            "level": "low"
           },
           {
             "word": "wireless",
             "ipa": "/ˈwaɪələs/",
             "pos": "adj",
-            "meaning": "无线的"
+            "meaning": "无线的",
+            "level": "mid"
           },
           {
             "word": "microchip",
             "ipa": "/ˈmaɪkrəʊtʃɪp/",
             "pos": "n",
-            "meaning": "微芯片"
+            "meaning": "微芯片",
+            "level": "mid"
           },
           {
             "word": "circuitry",
             "ipa": "/ˈsɜːkɪtri/",
             "pos": "n",
-            "meaning": "电路"
+            "meaning": "电路",
+            "level": "low"
           },
           {
             "word": "antenna",
             "ipa": "/ænˈtenə/",
             "pos": "n",
-            "meaning": "天线"
+            "meaning": "天线",
+            "level": "low"
           },
           {
             "word": "processor",
             "ipa": "/ˈprəʊsesər/",
             "pos": "n",
-            "meaning": "处理器"
+            "meaning": "处理器",
+            "level": "mid"
           },
           {
             "word": "signal",
             "ipa": "/ˈsɪɡnəl/",
             "pos": "n",
-            "meaning": "信号"
+            "meaning": "信号",
+            "level": "mid"
           }
         ],
         "image": "../outputs/06-technology-and-innovation/generated-with-text-ref29/06-card-03-generated-text.png"
@@ -5957,97 +6831,114 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "biotechnology",
             "ipa": "/ˌbaɪəʊtekˈnɒlədʒi/",
             "pos": "n",
-            "meaning": "生物技术"
+            "meaning": "生物技术",
+            "level": "mid"
           },
           {
             "word": "genetic",
             "ipa": "/dʒəˈnetɪk/",
             "pos": "adj",
-            "meaning": "基因的"
+            "meaning": "基因的",
+            "level": "mid"
           },
           {
             "word": "synthetic",
             "ipa": "/sɪnˈθetɪk/",
             "pos": "adj",
-            "meaning": "合成的"
+            "meaning": "合成的",
+            "level": "mid"
           },
           {
             "word": "transplant",
             "ipa": "/trænsˈplɑːnt/",
             "pos": "v/n",
-            "meaning": "移植"
+            "meaning": "移植",
+            "level": "mid"
           },
           {
             "word": "prosthetic",
             "ipa": "/prɒsˈθetɪk/",
             "pos": "adj/n",
-            "meaning": "假肢的"
+            "meaning": "假肢的",
+            "level": "low"
           },
           {
             "word": "vaccine",
             "ipa": "/ˈvæksiːn/",
             "pos": "n",
-            "meaning": "疫苗"
+            "meaning": "疫苗",
+            "level": "high",
+            "example": "The rapid development of a vaccine saved millions of lives during the pandemic."
           },
           {
             "word": "genome",
             "ipa": "/ˈdʒiːnəʊm/",
             "pos": "n",
-            "meaning": "基因组"
+            "meaning": "基因组",
+            "level": "mid"
           },
           {
             "word": "stem cell",
             "ipa": "/ˈstem sel/",
             "pos": "n",
-            "meaning": "干细胞"
+            "meaning": "干细胞",
+            "level": "mid"
           },
           {
             "word": "clinical",
             "ipa": "/ˈklɪnɪkl/",
             "pos": "adj",
-            "meaning": "临床的"
+            "meaning": "临床的",
+            "level": "mid"
           },
           {
             "word": "pharmaceutical",
             "ipa": "/ˌfɑːməˈsuːtɪkl/",
             "pos": "adj",
-            "meaning": "制药的"
+            "meaning": "制药的",
+            "level": "mid"
           },
           {
             "word": "microscope",
             "ipa": "/ˈmaɪkrəskəʊp/",
             "pos": "n",
-            "meaning": "显微镜"
+            "meaning": "显微镜",
+            "level": "mid"
           },
           {
             "word": "incubate",
             "ipa": "/ˈɪŋkjʊbeɪt/",
             "pos": "v",
-            "meaning": "培育"
+            "meaning": "培育",
+            "level": "low"
           },
           {
             "word": "sterile",
             "ipa": "/ˈsteraɪl/",
             "pos": "adj",
-            "meaning": "无菌的"
+            "meaning": "无菌的",
+            "level": "low"
           },
           {
             "word": "implant",
             "ipa": "/ɪmˈplɑːnt/",
             "pos": "v/n",
-            "meaning": "植入"
+            "meaning": "植入",
+            "level": "mid"
           },
           {
             "word": "antibody",
             "ipa": "/ˈæntibɒdi/",
             "pos": "n",
-            "meaning": "抗体"
+            "meaning": "抗体",
+            "level": "mid"
           },
           {
             "word": "specimen",
             "ipa": "/ˈspesɪmən/",
             "pos": "n",
-            "meaning": "样本"
+            "meaning": "样本",
+            "level": "mid"
           }
         ],
         "image": "../outputs/06-technology-and-innovation/generated-with-text-ref29/06-card-04-generated-text.png"
@@ -6060,97 +6951,121 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "disruptive",
             "ipa": "/dɪsˈrʌptɪv/",
             "pos": "adj",
-            "meaning": "颠覆性的"
+            "meaning": "颠覆性的",
+            "level": "mid"
           },
           {
             "word": "ethical",
             "ipa": "/ˈeθɪkl/",
             "pos": "adj",
-            "meaning": "伦理的"
+            "meaning": "伦理的",
+            "level": "high",
+            "example": "Consumers increasingly expect companies to source their materials in ethical ways."
           },
           {
             "word": "surveillance",
             "ipa": "/sɜːˈveɪləns/",
             "pos": "n",
-            "meaning": "监控"
+            "meaning": "监控",
+            "level": "high",
+            "example": "The spread of surveillance cameras raises serious concerns about privacy."
           },
           {
             "word": "obsolescence",
             "ipa": "/ˌɒbsəˈlesns/",
             "pos": "n",
-            "meaning": "淘汰"
+            "meaning": "淘汰",
+            "level": "low"
           },
           {
             "word": "proliferate",
             "ipa": "/prəˈlɪfəreɪt/",
             "pos": "v",
-            "meaning": "激增"
+            "meaning": "激增",
+            "level": "mid"
           },
           {
             "word": "regulate",
             "ipa": "/ˈreɡjʊleɪt/",
             "pos": "v",
-            "meaning": "监管"
+            "meaning": "监管",
+            "level": "high",
+            "example": "Governments are struggling to regulate the rapid growth of social media."
           },
           {
             "word": "intellectual property",
             "ipa": "/ˌɪntəˈlektʃuəl ˈprɒpəti/",
             "pos": "n",
-            "meaning": "知识产权"
+            "meaning": "知识产权",
+            "level": "high",
+            "example": "Weak intellectual property laws discourage companies from investing in innovation."
           },
           {
             "word": "digital divide",
             "ipa": "/ˌdɪdʒɪtl dɪˈvaɪd/",
             "pos": "n",
-            "meaning": "数字鸿沟"
+            "meaning": "数字鸿沟",
+            "level": "high",
+            "example": "The digital divide widened during the pandemic as schooling moved online."
           },
           {
             "word": "redundant",
             "ipa": "/rɪˈdʌndənt/",
             "pos": "adj",
-            "meaning": "多余的"
+            "meaning": "多余的",
+            "level": "mid"
           },
           {
             "word": "disparity",
             "ipa": "/dɪˈspærəti/",
             "pos": "n",
-            "meaning": "差距"
+            "meaning": "差距",
+            "level": "high",
+            "example": "There is a growing disparity in access to technology between rich and poor regions."
           },
           {
             "word": "accessibility",
             "ipa": "/əkˌsesəˈbɪləti/",
             "pos": "n",
-            "meaning": "可及性"
+            "meaning": "可及性",
+            "level": "mid"
           },
           {
             "word": "counterfeit",
             "ipa": "/ˈkaʊntəfɪt/",
             "pos": "adj/n",
-            "meaning": "伪造的"
+            "meaning": "伪造的",
+            "level": "mid"
           },
           {
             "word": "safeguard",
             "ipa": "/ˈseɪfɡɑːd/",
             "pos": "v/n",
-            "meaning": "保障"
+            "meaning": "保障",
+            "level": "high",
+            "example": "Strict laws are needed to safeguard children's data online."
           },
           {
             "word": "unprecedented",
             "ipa": "/ʌnˈpresɪdentɪd/",
             "pos": "adj",
-            "meaning": "史无前例的"
+            "meaning": "史无前例的",
+            "level": "high",
+            "example": "The pandemic caused unprecedented disruption to global education systems."
           },
           {
             "word": "proprietary",
             "ipa": "/prəˈpraɪətəri/",
             "pos": "adj",
-            "meaning": "专有的"
+            "meaning": "专有的",
+            "level": "low"
           },
           {
             "word": "mechanise",
             "ipa": "/ˈmekənaɪz/",
             "pos": "v",
-            "meaning": "机械化"
+            "meaning": "机械化",
+            "level": "low"
           }
         ],
         "image": "../outputs/06-technology-and-innovation/generated-with-text-ref29/06-card-05-generated-text.png"
@@ -6172,109 +7087,130 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "algorithm",
             "ipa": "/ˈælɡərɪðəm/",
             "pos": "n",
-            "meaning": "算法"
+            "meaning": "算法",
+            "level": "high",
+            "example": "Recommendation algorithms decide much of what we watch and read online."
           },
           {
             "word": "viral",
             "ipa": "/ˈvaɪrəl/",
             "pos": "adj",
-            "meaning": "病毒式的"
+            "meaning": "病毒式的",
+            "level": "mid"
           },
           {
             "word": "engagement",
             "ipa": "/ɪnˈɡeɪdʒmənt/",
             "pos": "n",
-            "meaning": "互动量"
+            "meaning": "互动量",
+            "level": "mid"
           },
           {
             "word": "platform",
             "ipa": "/ˈplætfɔːm/",
             "pos": "n",
-            "meaning": "平台"
+            "meaning": "平台",
+            "level": "high",
+            "example": "Social media platforms have become the main source of news for young people."
           },
           {
             "word": "influencer",
             "ipa": "/ˈɪnfluənsər/",
             "pos": "n",
-            "meaning": "网红"
+            "meaning": "网红",
+            "level": "mid"
           },
           {
             "word": "follower",
             "ipa": "/ˈfɒləʊər/",
             "pos": "n",
-            "meaning": "粉丝"
+            "meaning": "粉丝",
+            "level": "mid"
           },
           {
             "word": "stream",
             "ipa": "/striːm/",
             "pos": "v",
-            "meaning": "直播"
+            "meaning": "直播",
+            "level": "mid"
           },
           {
             "word": "broadcast",
             "ipa": "/ˈbrɔːdkɑːst/",
             "pos": "v",
-            "meaning": "广播"
+            "meaning": "广播",
+            "level": "mid"
           },
           {
             "word": "hashtag",
             "ipa": "/ˈhæʃtæɡ/",
             "pos": "n",
-            "meaning": "话题标签"
+            "meaning": "话题标签",
+            "level": "mid"
           },
           {
             "word": "notification",
             "ipa": "/ˌnəʊtɪfɪˈkeɪʃən/",
             "pos": "n",
-            "meaning": "通知"
+            "meaning": "通知",
+            "level": "mid"
           },
           {
             "word": "trending",
             "ipa": "/ˈtrendɪŋ/",
             "pos": "adj",
-            "meaning": "热门的"
+            "meaning": "热门的",
+            "level": "mid"
           },
           {
             "word": "interaction",
             "ipa": "/ˌɪntərˈækʃən/",
             "pos": "n",
-            "meaning": "互动"
+            "meaning": "互动",
+            "level": "mid"
           },
           {
             "word": "content",
             "ipa": "/ˈkɒntent/",
             "pos": "n",
-            "meaning": "内容"
+            "meaning": "内容",
+            "level": "high",
+            "example": "Creating high-quality content is far more effective than paid advertising."
           },
           {
             "word": "profile",
             "ipa": "/ˈprəʊfaɪl/",
             "pos": "n",
-            "meaning": "个人主页"
+            "meaning": "个人主页",
+            "level": "mid"
           },
           {
             "word": "subscribe",
             "ipa": "/səbˈskraɪb/",
             "pos": "v",
-            "meaning": "订阅"
+            "meaning": "订阅",
+            "level": "mid"
           },
           {
             "word": "network",
             "ipa": "/ˈnetwɜːk/",
             "pos": "n",
-            "meaning": "社交圈"
+            "meaning": "社交圈",
+            "level": "mid"
           },
           {
             "word": "comment",
             "ipa": "/ˈkɒment/",
             "pos": "n",
-            "meaning": "评论"
+            "meaning": "评论",
+            "level": "mid"
           },
           {
             "word": "share",
             "ipa": "/ʃeər/",
             "pos": "v",
-            "meaning": "分享"
+            "meaning": "分享",
+            "level": "mid"
           }
         ],
         "image": "../outputs/07-internet-and-digital-life/generated-with-text/07-card-01-generated-text.png"
@@ -6287,103 +7223,121 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "transaction",
             "ipa": "/trænˈzækʃən/",
             "pos": "n",
-            "meaning": "交易"
+            "meaning": "交易",
+            "level": "mid"
           },
           {
             "word": "merchant",
             "ipa": "/ˈmɜːtʃənt/",
             "pos": "n",
-            "meaning": "商家"
+            "meaning": "商家",
+            "level": "mid"
           },
           {
             "word": "marketplace",
             "ipa": "/ˈmɑːkɪtpleɪs/",
             "pos": "n",
-            "meaning": "电商平台"
+            "meaning": "电商平台",
+            "level": "mid"
           },
           {
             "word": "cart",
             "ipa": "/kɑːt/",
             "pos": "n",
-            "meaning": "购物车"
+            "meaning": "购物车",
+            "level": "low"
           },
           {
             "word": "recommendation",
             "ipa": "/ˌrekəmənˈdeɪʃən/",
             "pos": "n",
-            "meaning": "推荐"
+            "meaning": "推荐",
+            "level": "mid"
           },
           {
             "word": "rating",
             "ipa": "/ˈreɪtɪŋ/",
             "pos": "n",
-            "meaning": "评分"
+            "meaning": "评分",
+            "level": "mid"
           },
           {
             "word": "subscription",
             "ipa": "/səbˈskrɪpʃən/",
             "pos": "n",
-            "meaning": "订阅制"
+            "meaning": "订阅制",
+            "level": "mid"
           },
           {
             "word": "logistics",
             "ipa": "/ləˈdʒɪstɪks/",
             "pos": "n",
-            "meaning": "物流"
+            "meaning": "物流",
+            "level": "mid"
           },
           {
             "word": "refund",
             "ipa": "/ˈriːfʌnd/",
             "pos": "n",
-            "meaning": "退款"
+            "meaning": "退款",
+            "level": "mid"
           },
           {
             "word": "discount",
             "ipa": "/ˈdɪskaʊnt/",
             "pos": "n",
-            "meaning": "折扣"
+            "meaning": "折扣",
+            "level": "mid"
           },
           {
             "word": "delivery",
             "ipa": "/dɪˈlɪvərɪ/",
             "pos": "n",
-            "meaning": "配送"
+            "meaning": "配送",
+            "level": "mid"
           },
           {
             "word": "consumer",
             "ipa": "/kənˈsjuːmər/",
             "pos": "n",
-            "meaning": "消费者"
+            "meaning": "消费者",
+            "level": "high",
+            "example": "Online reviews strongly influence consumer decisions before a purchase."
           },
           {
             "word": "vendor",
             "ipa": "/ˈvendər/",
             "pos": "n",
-            "meaning": "卖家"
+            "meaning": "卖家",
+            "level": "mid"
           },
           {
             "word": "checkout",
             "ipa": "/ˈtʃekaʊt/",
             "pos": "n",
-            "meaning": "结账"
+            "meaning": "结账",
+            "level": "low"
           },
           {
             "word": "inventory",
             "ipa": "/ˈɪnvəntərɪ/",
             "pos": "n",
-            "meaning": "库存"
+            "meaning": "库存",
+            "level": "mid"
           },
           {
             "word": "payment",
             "ipa": "/ˈpeɪmənt/",
             "pos": "n",
-            "meaning": "支付"
+            "meaning": "支付",
+            "level": "mid"
           },
           {
             "word": "voucher",
             "ipa": "/ˈvaʊtʃər/",
             "pos": "n",
-            "meaning": "优惠券"
+            "meaning": "优惠券",
+            "level": "mid"
           }
         ],
         "image": "../outputs/07-internet-and-digital-life/generated-with-text/07-card-02-generated-text.png"
@@ -6396,103 +7350,125 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "encryption",
             "ipa": "/ɪnˈkrɪpʃən/",
             "pos": "n",
-            "meaning": "加密"
+            "meaning": "加密",
+            "level": "mid"
           },
           {
             "word": "firewall",
             "ipa": "/ˈfaɪəwɔːl/",
             "pos": "n",
-            "meaning": "防火墙"
+            "meaning": "防火墙",
+            "level": "low"
           },
           {
             "word": "phishing",
             "ipa": "/ˈfɪʃɪŋ/",
             "pos": "n",
-            "meaning": "网络钓鱼"
+            "meaning": "网络钓鱼",
+            "level": "mid"
           },
           {
             "word": "malware",
             "ipa": "/ˈmælweər/",
             "pos": "n",
-            "meaning": "恶意软件"
+            "meaning": "恶意软件",
+            "level": "mid"
           },
           {
             "word": "vulnerability",
             "ipa": "/ˌvʌlnərəˈbɪlɪtɪ/",
             "pos": "n",
-            "meaning": "漏洞"
+            "meaning": "漏洞",
+            "level": "high",
+            "example": "The pandemic exposed the vulnerability of global supply chains."
           },
           {
             "word": "hacker",
             "ipa": "/ˈhækər/",
             "pos": "n",
-            "meaning": "黑客"
+            "meaning": "黑客",
+            "level": "mid"
           },
           {
             "word": "authentication",
             "ipa": "/ɔːˌθentɪˈkeɪʃən/",
             "pos": "n",
-            "meaning": "身份验证"
+            "meaning": "身份验证",
+            "level": "mid"
           },
           {
             "word": "privacy",
             "ipa": "/ˈprɪvəsɪ/",
             "pos": "n",
-            "meaning": "隐私"
+            "meaning": "隐私",
+            "level": "high",
+            "example": "Many users are willing to sacrifice privacy in exchange for free services."
           },
           {
             "word": "breach",
             "ipa": "/briːtʃ/",
             "pos": "n",
-            "meaning": "数据泄露"
+            "meaning": "数据泄露",
+            "level": "mid"
           },
           {
             "word": "surveillance",
             "ipa": "/səˈveɪləns/",
             "pos": "n",
-            "meaning": "监控"
+            "meaning": "监控",
+            "level": "high",
+            "example": "The spread of surveillance cameras raises serious concerns about privacy."
           },
           {
             "word": "anonymity",
             "ipa": "/ˌænəˈnɪmɪtɪ/",
             "pos": "n",
-            "meaning": "匿名性"
+            "meaning": "匿名性",
+            "level": "high",
+            "example": "The anonymity of the internet encourages some people to behave aggressively."
           },
           {
             "word": "cybercrime",
             "ipa": "/ˈsaɪbəkraɪm/",
             "pos": "n",
-            "meaning": "网络犯罪"
+            "meaning": "网络犯罪",
+            "level": "high",
+            "example": "Cybercrime costs the global economy billions of dollars every year."
           },
           {
             "word": "protocol",
             "ipa": "/ˈprəʊtəkɒl/",
             "pos": "n",
-            "meaning": "协议"
+            "meaning": "协议",
+            "level": "mid"
           },
           {
             "word": "secure",
             "ipa": "/sɪˈkjʊər/",
             "pos": "adj",
-            "meaning": "安全的"
+            "meaning": "安全的",
+            "level": "mid"
           },
           {
             "word": "identity",
             "ipa": "/aɪˈdentɪtɪ/",
             "pos": "n",
-            "meaning": "身份"
+            "meaning": "身份",
+            "level": "mid"
           },
           {
             "word": "threat",
             "ipa": "/θret/",
             "pos": "n",
-            "meaning": "威胁"
+            "meaning": "威胁",
+            "level": "mid"
           },
           {
             "word": "password",
             "ipa": "/ˈpɑːswɜːd/",
             "pos": "n",
-            "meaning": "密码"
+            "meaning": "密码",
+            "level": "mid"
           }
         ],
         "image": "../outputs/07-internet-and-digital-life/generated-with-text/07-card-03-generated-text.png"
@@ -6505,31 +7481,36 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "podcast",
             "ipa": "/ˈpɒdkɑːst/",
             "pos": "n",
-            "meaning": "播客"
+            "meaning": "播客",
+            "level": "mid"
           },
           {
             "word": "streaming",
             "ipa": "/ˈstriːmɪŋ/",
             "pos": "n",
-            "meaning": "流媒体"
+            "meaning": "流媒体",
+            "level": "mid"
           },
           {
             "word": "binge-watch",
             "ipa": "/ˈbɪndʒwɒtʃ/",
             "pos": "v",
-            "meaning": "连续追剧"
+            "meaning": "连续追剧",
+            "level": "low"
           },
           {
             "word": "download",
             "ipa": "/ˈdaʊnləʊd/",
             "pos": "v",
-            "meaning": "下载"
+            "meaning": "下载",
+            "level": "mid"
           },
           {
             "word": "upload",
             "ipa": "/ˈʌpləʊd/",
             "pos": "v",
-            "meaning": "上传"
+            "meaning": "上传",
+            "level": "mid"
           },
           {
             "word": "resolution",
@@ -6543,67 +7524,80 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "bandwidth",
             "ipa": "/ˈbændwɪdθ/",
             "pos": "n",
-            "meaning": "带宽"
+            "meaning": "带宽",
+            "level": "mid"
           },
           {
             "word": "playlist",
             "ipa": "/ˈpleɪlɪst/",
             "pos": "n",
-            "meaning": "播放列表"
+            "meaning": "播放列表",
+            "level": "low"
           },
           {
             "word": "thumbnail",
             "ipa": "/ˈθʌmneɪl/",
             "pos": "n",
-            "meaning": "缩略图"
+            "meaning": "缩略图",
+            "level": "low"
           },
           {
             "word": "caption",
             "ipa": "/ˈkæpʃən/",
             "pos": "n",
-            "meaning": "字幕"
+            "meaning": "字幕",
+            "level": "mid"
           },
           {
             "word": "genre",
             "ipa": "/ˈʒɒnrə/",
             "pos": "n",
-            "meaning": "内容类型"
+            "meaning": "内容类型",
+            "level": "mid"
           },
           {
             "word": "interactive",
             "ipa": "/ˌɪntərˈæktɪv/",
             "pos": "adj",
-            "meaning": "互动的"
+            "meaning": "互动的",
+            "level": "mid"
           },
           {
             "word": "immersive",
             "ipa": "/ɪˈmɜːsɪv/",
             "pos": "adj",
-            "meaning": "沉浸式的"
+            "meaning": "沉浸式的",
+            "level": "high",
+            "example": "Immersive virtual reality could revolutionise the way students learn history."
           },
           {
             "word": "virtual",
             "ipa": "/ˈvɜːtʃuəl/",
             "pos": "adj",
-            "meaning": "虚拟的"
+            "meaning": "虚拟的",
+            "level": "high",
+            "example": "Virtual meetings have reduced the need for costly business travel."
           },
           {
             "word": "premiere",
             "ipa": "/ˈpremiər/",
             "pos": "n",
-            "meaning": "首映/首发"
+            "meaning": "首映/首发",
+            "level": "low"
           },
           {
             "word": "on-demand",
             "ipa": "/ɒn dɪˈmɑːnd/",
             "pos": "adj",
-            "meaning": "按需的"
+            "meaning": "按需的",
+            "level": "mid"
           },
           {
             "word": "autoplay",
             "ipa": "/ˈɔːtəʊpleɪ/",
             "pos": "n",
-            "meaning": "自动播放"
+            "meaning": "自动播放",
+            "level": "low"
           }
         ],
         "image": "../outputs/07-internet-and-digital-life/generated-with-text/07-card-04-generated-text.png"
@@ -6616,109 +7610,134 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "cloud",
             "ipa": "/klaʊd/",
             "pos": "n",
-            "meaning": "云端"
+            "meaning": "云端",
+            "level": "mid"
           },
           {
             "word": "automation",
             "ipa": "/ˌɔːtəˈmeɪʃən/",
             "pos": "n",
-            "meaning": "自动化"
+            "meaning": "自动化",
+            "level": "high",
+            "example": "Automation is expected to replace millions of routine jobs within a decade."
           },
           {
             "word": "disruption",
             "ipa": "/dɪsˈrʌpʃən/",
             "pos": "n",
-            "meaning": "颠覆"
+            "meaning": "颠覆",
+            "level": "high",
+            "example": "The strike caused major disruption to the city's transport network."
           },
           {
             "word": "innovation",
             "ipa": "/ˌɪnəˈveɪʃən/",
             "pos": "n",
-            "meaning": "创新"
+            "meaning": "创新",
+            "level": "high",
+            "example": "Innovation in green technology will be the key to solving the energy crisis."
           },
           {
             "word": "startup",
             "ipa": "/ˈstɑːtʌp/",
             "pos": "n",
-            "meaning": "创业公司"
+            "meaning": "创业公司",
+            "level": "high",
+            "example": "Governments often support technology startups through grants and tax breaks."
           },
           {
             "word": "integrate",
             "ipa": "/ˈɪntɪɡreɪt/",
             "pos": "v",
-            "meaning": "整合"
+            "meaning": "整合",
+            "level": "mid"
           },
           {
             "word": "transform",
             "ipa": "/trænsˈfɔːm/",
             "pos": "v",
-            "meaning": "转型"
+            "meaning": "转型",
+            "level": "high",
+            "example": "The smartphone has completely transformed how we access information."
           },
           {
             "word": "scalable",
             "ipa": "/ˈskeɪləbl/",
             "pos": "adj",
-            "meaning": "可扩展的"
+            "meaning": "可扩展的",
+            "level": "mid"
           },
           {
             "word": "infrastructure",
             "ipa": "/ˈɪnfrəstrʌktʃər/",
             "pos": "n",
-            "meaning": "基础设施"
+            "meaning": "基础设施",
+            "level": "high",
+            "example": "Investment in public infrastructure creates jobs and stimulates long-term economic growth."
           },
           {
             "word": "ecosystem",
             "ipa": "/ˈiːkəʊsɪstəm/",
             "pos": "n",
-            "meaning": "生态系统"
+            "meaning": "生态系统",
+            "level": "high",
+            "example": "Removing a single species can destabilise an entire ecosystem."
           },
           {
             "word": "monetize",
             "ipa": "/ˈmɒnɪtaɪz/",
             "pos": "v",
-            "meaning": "变现"
+            "meaning": "变现",
+            "level": "mid"
           },
           {
             "word": "deploy",
             "ipa": "/dɪˈplɔɪ/",
             "pos": "v",
-            "meaning": "部署"
+            "meaning": "部署",
+            "level": "mid"
           },
           {
             "word": "optimize",
             "ipa": "/ˈɒptɪmaɪz/",
             "pos": "v",
-            "meaning": "优化"
+            "meaning": "优化",
+            "level": "mid"
           },
           {
             "word": "interface",
             "ipa": "/ˈɪntərfeɪs/",
             "pos": "n",
-            "meaning": "界面"
+            "meaning": "界面",
+            "level": "mid"
           },
           {
             "word": "connectivity",
             "ipa": "/ˌkɒnekˈtɪvɪtɪ/",
             "pos": "n",
-            "meaning": "连接性"
+            "meaning": "连接性",
+            "level": "mid"
           },
           {
             "word": "digital",
             "ipa": "/ˈdɪdʒɪtəl/",
             "pos": "adj",
-            "meaning": "数字化的"
+            "meaning": "数字化的",
+            "level": "mid"
           },
           {
             "word": "database",
             "ipa": "/ˈdeɪtəbeɪs/",
             "pos": "n",
-            "meaning": "数据库"
+            "meaning": "数据库",
+            "level": "mid"
           },
           {
             "word": "server",
             "ipa": "/ˈsɜːvər/",
             "pos": "n",
-            "meaning": "服务器"
+            "meaning": "服务器",
+            "level": "mid"
           }
         ],
         "image": "../outputs/07-internet-and-digital-life/generated-with-text/07-card-05-generated-text.png"
@@ -7706,91 +8725,112 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "curriculum",
             "ipa": "/kəˈrɪkjʊləm/",
             "pos": "n",
-            "meaning": "课程体系"
+            "meaning": "课程体系",
+            "level": "high",
+            "example": "Schools should include financial literacy in the national curriculum."
           },
           {
             "word": "syllabus",
             "ipa": "/ˈsɪləbəs/",
             "pos": "n",
-            "meaning": "教学大纲"
+            "meaning": "教学大纲",
+            "level": "mid"
           },
           {
             "word": "lecture",
             "ipa": "/ˈlektʃər/",
             "pos": "n",
-            "meaning": "讲座"
+            "meaning": "讲座",
+            "level": "mid"
           },
           {
             "word": "seminar",
             "ipa": "/ˈsemɪnɑːr/",
             "pos": "n",
-            "meaning": "研讨课"
+            "meaning": "研讨课",
+            "level": "mid"
           },
           {
             "word": "compulsory",
             "ipa": "/kəmˈpʌlsəri/",
             "pos": "adj",
-            "meaning": "必修的"
+            "meaning": "必修的",
+            "level": "high",
+            "example": "Some argue that physical education should be compulsory throughout secondary school."
           },
           {
             "word": "assessment",
             "ipa": "/əˈsesmənt/",
             "pos": "n",
-            "meaning": "评估"
+            "meaning": "评估",
+            "level": "high",
+            "example": "Continuous assessment is often fairer than a single final examination."
           },
           {
             "word": "attentive",
             "ipa": "/əˈtentɪv/",
             "pos": "adj",
-            "meaning": "专心的"
+            "meaning": "专心的",
+            "level": "mid"
           },
           {
             "word": "interactive",
             "ipa": "/ˌɪntərˈæktɪv/",
             "pos": "adj",
-            "meaning": "互动的"
+            "meaning": "互动的",
+            "level": "mid"
           },
           {
             "word": "enrolment",
             "ipa": "/ɪnˈrəʊlmənt/",
             "pos": "n",
-            "meaning": "入学"
+            "meaning": "入学",
+            "level": "mid"
           },
           {
             "word": "extracurricular",
             "ipa": "/ˌekstrəkəˈrɪkjʊlər/",
             "pos": "adj",
-            "meaning": "课外的"
+            "meaning": "课外的",
+            "level": "mid"
           },
           {
             "word": "discipline",
             "ipa": "/ˈdɪsɪplɪn/",
             "pos": "n",
-            "meaning": "纪律"
+            "meaning": "纪律",
+            "level": "high",
+            "example": "Strict discipline in schools does not necessarily lead to better learning."
           },
           {
             "word": "conducive",
             "ipa": "/kənˈdjuːsɪv/",
             "pos": "adj",
-            "meaning": "有益于"
+            "meaning": "有益于",
+            "level": "mid"
           },
           {
             "word": "facilitate",
             "ipa": "/fəˈsɪlɪteɪt/",
             "pos": "v",
-            "meaning": "促进"
+            "meaning": "促进",
+            "level": "high",
+            "example": "Small class sizes facilitate closer interaction between teachers and students."
           },
           {
             "word": "stimulate",
             "ipa": "/ˈstɪmjʊleɪt/",
             "pos": "v",
-            "meaning": "激发"
+            "meaning": "激发",
+            "level": "high",
+            "example": "Well-designed games can stimulate children's interest in mathematics."
           },
           {
             "word": "comprehension",
             "ipa": "/ˌkɒmprɪˈhenʃən/",
             "pos": "n",
-            "meaning": "理解力"
+            "meaning": "理解力",
+            "level": "mid"
           }
         ],
         "image": "../outputs/09-education-and-school/09-card-01.png"
@@ -7803,91 +8843,109 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "analytical",
             "ipa": "/ˌænəˈlɪtɪkəl/",
             "pos": "adj",
-            "meaning": "分析性的"
+            "meaning": "分析性的",
+            "level": "mid"
           },
           {
             "word": "cognitive",
             "ipa": "/ˈkɒɡnɪtɪv/",
             "pos": "adj",
-            "meaning": "认知的"
+            "meaning": "认知的",
+            "level": "mid"
           },
           {
             "word": "retention",
             "ipa": "/rɪˈtenʃən/",
             "pos": "n",
-            "meaning": "记忆保持"
+            "meaning": "记忆保持",
+            "level": "mid"
           },
           {
             "word": "proficiency",
             "ipa": "/prəˈfɪʃənsi/",
             "pos": "n",
-            "meaning": "熟练程度"
+            "meaning": "熟练程度",
+            "level": "high",
+            "example": "English proficiency has become essential for many well-paid careers."
           },
           {
             "word": "methodology",
             "ipa": "/ˌmeθəˈdɒlədʒi/",
             "pos": "n",
-            "meaning": "方法论"
+            "meaning": "方法论",
+            "level": "mid"
           },
           {
             "word": "perseverance",
             "ipa": "/ˌpɜːsɪˈvɪərəns/",
             "pos": "n",
-            "meaning": "毅力"
+            "meaning": "毅力",
+            "level": "high",
+            "example": "Success in any field depends on talent combined with sheer perseverance."
           },
           {
             "word": "concentration",
             "ipa": "/ˌkɒnsənˈtreɪʃən/",
             "pos": "n",
-            "meaning": "专注力"
+            "meaning": "专注力",
+            "level": "mid"
           },
           {
             "word": "mindset",
             "ipa": "/ˈmaɪndset/",
             "pos": "n",
-            "meaning": "思维方式"
+            "meaning": "思维方式",
+            "level": "high",
+            "example": "A growth mindset helps students see failure as an opportunity to learn."
           },
           {
             "word": "intuitive",
             "ipa": "/ɪnˈtjuːɪtɪv/",
             "pos": "adj",
-            "meaning": "直觉的"
+            "meaning": "直觉的",
+            "level": "mid"
           },
           {
             "word": "deliberate",
             "ipa": "/dɪˈlɪbərɪt/",
             "pos": "adj",
-            "meaning": "刻意的"
+            "meaning": "刻意的",
+            "level": "mid"
           },
           {
             "word": "exemplary",
             "ipa": "/ɪɡˈzemplərɪ/",
             "pos": "adj",
-            "meaning": "优秀的"
+            "meaning": "优秀的",
+            "level": "mid"
           },
           {
             "word": "synthesise",
             "ipa": "/ˈsɪnθəsaɪz/",
             "pos": "v",
-            "meaning": "综合"
+            "meaning": "综合",
+            "level": "mid"
           },
           {
             "word": "inquisitive",
             "ipa": "/ɪnˈkwɪzɪtɪv/",
             "pos": "adj",
-            "meaning": "好奇的"
+            "meaning": "好奇的",
+            "level": "mid"
           },
           {
             "word": "rigorous",
             "ipa": "/ˈrɪɡərəs/",
             "pos": "adj",
-            "meaning": "严格的"
+            "meaning": "严格的",
+            "level": "mid"
           },
           {
             "word": "immerse",
             "ipa": "/ɪˈmɜːs/",
             "pos": "v",
-            "meaning": "沉浸"
+            "meaning": "沉浸",
+            "level": "mid"
           }
         ],
         "image": "../outputs/09-education-and-school/09-card-02.png"
@@ -7900,91 +8958,110 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "undergraduate",
             "ipa": "/ˌʌndəˈɡrædʒuɪt/",
             "pos": "n",
-            "meaning": "本科生"
+            "meaning": "本科生",
+            "level": "mid"
           },
           {
             "word": "postgraduate",
             "ipa": "/ˌpəʊstˈɡrædʒuɪt/",
             "pos": "n",
-            "meaning": "研究生"
+            "meaning": "研究生",
+            "level": "mid"
           },
           {
             "word": "dissertation",
             "ipa": "/ˌdɪsəˈteɪʃən/",
             "pos": "n",
-            "meaning": "毕业论文"
+            "meaning": "毕业论文",
+            "level": "mid"
           },
           {
             "word": "scholarship",
             "ipa": "/ˈskɒlərʃɪp/",
             "pos": "n",
-            "meaning": "奖学金"
+            "meaning": "奖学金",
+            "level": "high",
+            "example": "Scholarships enable talented students from poor families to attend university."
           },
           {
             "word": "faculty",
             "ipa": "/ˈfækəlti/",
             "pos": "n",
-            "meaning": "院系"
+            "meaning": "院系",
+            "level": "mid"
           },
           {
             "word": "tuition",
             "ipa": "/tjuˈɪʃən/",
             "pos": "n",
-            "meaning": "学费"
+            "meaning": "学费",
+            "level": "high",
+            "example": "Rising tuition fees discourage many young people from pursuing higher education."
           },
           {
             "word": "academia",
             "ipa": "/ˌækəˈdiːmɪə/",
             "pos": "n",
-            "meaning": "学术界"
+            "meaning": "学术界",
+            "level": "mid"
           },
           {
             "word": "accreditation",
             "ipa": "/əˌkredɪˈteɪʃən/",
             "pos": "n",
-            "meaning": "认证"
+            "meaning": "认证",
+            "level": "low"
           },
           {
             "word": "transcript",
             "ipa": "/ˈtrænskrɪpt/",
             "pos": "n",
-            "meaning": "成绩单"
+            "meaning": "成绩单",
+            "level": "mid"
           },
           {
             "word": "plagiarism",
             "ipa": "/ˈpleɪdʒərɪzəm/",
             "pos": "n",
-            "meaning": "抄袭"
+            "meaning": "抄袭",
+            "level": "high",
+            "example": "Universities take plagiarism seriously and punish it severely."
           },
           {
             "word": "internship",
             "ipa": "/ˈɪntɜːnʃɪp/",
             "pos": "n",
-            "meaning": "实习"
+            "meaning": "实习",
+            "level": "high",
+            "example": "A well-structured internship bridges the gap between study and employment."
           },
           {
             "word": "dormitory",
             "ipa": "/ˈdɔːmɪtri/",
             "pos": "n",
-            "meaning": "宿舍"
+            "meaning": "宿舍",
+            "level": "mid"
           },
           {
             "word": "mentor",
             "ipa": "/ˈmentər/",
             "pos": "n",
-            "meaning": "导师"
+            "meaning": "导师",
+            "level": "mid"
           },
           {
             "word": "peer",
             "ipa": "/pɪər/",
             "pos": "n",
-            "meaning": "同学"
+            "meaning": "同学",
+            "level": "mid"
           },
           {
             "word": "graduate",
             "ipa": "/ˈɡrædʒuɪt/",
             "pos": "v",
-            "meaning": "毕业"
+            "meaning": "毕业",
+            "level": "mid"
           }
         ],
         "image": "../outputs/09-education-and-school/09-card-03-nodup.png"
@@ -7997,13 +9074,16 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "provision",
             "ipa": "/prəˈvɪʒən/",
             "pos": "n",
-            "meaning": "提供"
+            "meaning": "提供",
+            "level": "mid"
           },
           {
             "word": "literacy",
             "ipa": "/ˈlɪtərəsi/",
             "pos": "n",
-            "meaning": "读写能力"
+            "meaning": "读写能力",
+            "level": "high",
+            "example": "Improving adult literacy is one of the most effective ways to reduce poverty."
           },
           {
             "word": "inclusive",
@@ -8017,13 +9097,17 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "vocational",
             "ipa": "/vəˈkeɪʃənəl/",
             "pos": "adj",
-            "meaning": "职业性的"
+            "meaning": "职业性的",
+            "level": "high",
+            "example": "Vocational training deserves the same respect as academic education."
           },
           {
             "word": "disparity",
             "ipa": "/dɪˈspærɪti/",
             "pos": "n",
-            "meaning": "差距"
+            "meaning": "差距",
+            "level": "high",
+            "example": "There is a growing disparity in access to technology between rich and poor regions."
           },
           {
             "word": "accountability",
@@ -8037,31 +9121,39 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "subsidise",
             "ipa": "/ˈsʌbsɪdaɪz/",
             "pos": "v",
-            "meaning": "补贴"
+            "meaning": "补贴",
+            "level": "mid"
           },
           {
             "word": "mandatory",
             "ipa": "/ˈmændətəri/",
             "pos": "adj",
-            "meaning": "强制性的"
+            "meaning": "强制性的",
+            "level": "high",
+            "example": "Some countries have made voting mandatory to increase political participation."
           },
           {
             "word": "allocate",
             "ipa": "/ˈæləkeɪt/",
             "pos": "v",
-            "meaning": "分配"
+            "meaning": "分配",
+            "level": "high",
+            "example": "Governments must decide how to allocate limited funds between schools and hospitals."
           },
           {
             "word": "stakeholder",
             "ipa": "/ˈsteɪkhəʊldər/",
             "pos": "n",
-            "meaning": "利益相关方"
+            "meaning": "利益相关方",
+            "level": "high",
+            "example": "Urban planning should involve every stakeholder, from residents to local businesses."
           },
           {
             "word": "standardised",
             "ipa": "/ˈstændədaɪzd/",
             "pos": "adj",
-            "meaning": "标准化的"
+            "meaning": "标准化的",
+            "level": "mid"
           },
           {
             "word": "inequality",
@@ -8075,19 +9167,24 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "universal",
             "ipa": "/ˌjuːnɪˈvɜːsəl/",
             "pos": "adj",
-            "meaning": "普及的"
+            "meaning": "普及的",
+            "level": "mid"
           },
           {
             "word": "initiative",
             "ipa": "/ɪˈnɪʃətɪv/",
             "pos": "n",
-            "meaning": "倡议"
+            "meaning": "倡议",
+            "level": "high",
+            "example": "The government launched an initiative to bring computers to rural schools."
           },
           {
             "word": "implement",
             "ipa": "/ˈɪmplɪment/",
             "pos": "v",
-            "meaning": "实施"
+            "meaning": "实施",
+            "level": "high",
+            "example": "It is one thing to design a policy and quite another to implement it effectively."
           }
         ],
         "image": "../outputs/09-education-and-school/09-card-04.png"
@@ -8100,91 +9197,112 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "pedagogy",
             "ipa": "/ˈpedəɡɒdʒi/",
             "pos": "n",
-            "meaning": "教育学"
+            "meaning": "教育学",
+            "level": "low"
           },
           {
             "word": "scaffolding",
             "ipa": "/ˈskæfəldɪŋ/",
             "pos": "n",
-            "meaning": "脚手架教学法"
+            "meaning": "脚手架教学法",
+            "level": "low"
           },
           {
             "word": "differentiation",
             "ipa": "/ˌdɪfəˌrenʃɪˈeɪʃən/",
             "pos": "n",
-            "meaning": "差异化教学"
+            "meaning": "差异化教学",
+            "level": "mid"
           },
           {
             "word": "motivate",
             "ipa": "/ˈməʊtɪveɪt/",
             "pos": "v",
-            "meaning": "激励"
+            "meaning": "激励",
+            "level": "high",
+            "example": "Praise motivates children far more effectively than punishment."
           },
           {
             "word": "reinforce",
             "ipa": "/ˌriːɪnˈfɔːs/",
             "pos": "v",
-            "meaning": "强化"
+            "meaning": "强化",
+            "level": "high",
+            "example": "Advertising often reinforces stereotypes rather than challenging them."
           },
           {
             "word": "collaborative",
             "ipa": "/kəˈlæbərətɪv/",
             "pos": "adj",
-            "meaning": "协作的"
+            "meaning": "协作的",
+            "level": "mid"
           },
           {
             "word": "autonomy",
             "ipa": "/ɔːˈtɒnəmi/",
             "pos": "n",
-            "meaning": "自主性"
+            "meaning": "自主性",
+            "level": "high",
+            "example": "Giving employees greater autonomy often increases both morale and productivity."
           },
           {
             "word": "formative",
             "ipa": "/ˈfɔːmətɪv/",
             "pos": "adj",
-            "meaning": "形成性的"
+            "meaning": "形成性的",
+            "level": "low"
           },
           {
             "word": "summative",
             "ipa": "/ˈsʌmətɪv/",
             "pos": "adj",
-            "meaning": "总结性的"
+            "meaning": "总结性的",
+            "level": "low"
           },
           {
             "word": "reflective",
             "ipa": "/rɪˈflektɪv/",
             "pos": "adj",
-            "meaning": "反思性的"
+            "meaning": "反思性的",
+            "level": "mid"
           },
           {
             "word": "constructive",
             "ipa": "/kənˈstrʌktɪv/",
             "pos": "adj",
-            "meaning": "建设性的"
+            "meaning": "建设性的",
+            "level": "mid"
           },
           {
             "word": "feedback",
             "ipa": "/ˈfiːdbæk/",
             "pos": "n",
-            "meaning": "反馈"
+            "meaning": "反馈",
+            "level": "high",
+            "example": "Regular, constructive feedback helps students improve much faster."
           },
           {
             "word": "rapport",
             "ipa": "/ræˈpɔːr/",
             "pos": "n",
-            "meaning": "融洽关系"
+            "meaning": "融洽关系",
+            "level": "mid"
           },
           {
             "word": "nurture",
             "ipa": "/ˈnɜːtʃər/",
             "pos": "v",
-            "meaning": "培养"
+            "meaning": "培养",
+            "level": "high",
+            "example": "The debate over nature versus nurture remains central to psychology."
           },
           {
             "word": "empathy",
             "ipa": "/ˈempəθi/",
             "pos": "n",
-            "meaning": "同理心"
+            "meaning": "同理心",
+            "level": "high",
+            "example": "Reading fiction has been shown to increase empathy and improve social understanding."
           }
         ],
         "image": "../outputs/09-education-and-school/09-card-05.png"
@@ -8405,97 +9523,117 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "applicant",
             "ipa": "/ˈæplɪkənt/",
             "pos": "n",
-            "meaning": "申请人"
+            "meaning": "申请人",
+            "level": "mid"
           },
           {
             "word": "resume",
             "ipa": "/ˈrezjumeɪ/",
             "pos": "n",
-            "meaning": "简历"
+            "meaning": "简历",
+            "level": "mid"
           },
           {
             "word": "vacancy",
             "ipa": "/ˈveɪkənsi/",
             "pos": "n",
-            "meaning": "职位空缺"
+            "meaning": "职位空缺",
+            "level": "mid"
           },
           {
             "word": "recruitment",
             "ipa": "/rɪˈkruːtmənt/",
             "pos": "n",
-            "meaning": "招聘"
+            "meaning": "招聘",
+            "level": "high",
+            "example": "Many companies now use social media as their main recruitment tool."
           },
           {
             "word": "qualifications",
             "ipa": "/ˌkwɒlɪfɪˈkeɪʃənz/",
             "pos": "n",
-            "meaning": "资历"
+            "meaning": "资历",
+            "level": "high",
+            "example": "Employers increasingly value practical skills over formal qualifications."
           },
           {
             "word": "interview",
             "ipa": "/ˈɪntəvjuː/",
             "pos": "n",
-            "meaning": "面试"
+            "meaning": "面试",
+            "level": "mid"
           },
           {
             "word": "shortlist",
             "ipa": "/ˈʃɔːtlɪst/",
             "pos": "v",
-            "meaning": "入围"
+            "meaning": "入围",
+            "level": "mid"
           },
           {
             "word": "screening",
             "ipa": "/ˈskriːnɪŋ/",
             "pos": "n",
-            "meaning": "筛选"
+            "meaning": "筛选",
+            "level": "mid"
           },
           {
             "word": "candidate",
             "ipa": "/ˈkændɪdət/",
             "pos": "n",
-            "meaning": "候选人"
+            "meaning": "候选人",
+            "level": "high",
+            "example": "The strongest candidate was rejected simply because of a lack of experience."
           },
           {
             "word": "referral",
             "ipa": "/rɪˈfɜːrəl/",
             "pos": "n",
-            "meaning": "推荐"
+            "meaning": "推荐",
+            "level": "mid"
           },
           {
             "word": "headhunter",
             "ipa": "/ˈhedhʌntər/",
             "pos": "n",
-            "meaning": "猎头"
+            "meaning": "猎头",
+            "level": "low"
           },
           {
             "word": "probation",
             "ipa": "/prəˈbeɪʃən/",
             "pos": "n",
-            "meaning": "试用期"
+            "meaning": "试用期",
+            "level": "mid"
           },
           {
             "word": "negotiate",
             "ipa": "/nɪˈɡəʊʃieɪt/",
             "pos": "v",
-            "meaning": "谈判"
+            "meaning": "谈判",
+            "level": "mid"
           },
           {
             "word": "compensation",
             "ipa": "/ˌkɒmpənˈseɪʃən/",
             "pos": "n",
-            "meaning": "薪酬"
+            "meaning": "薪酬",
+            "level": "high",
+            "example": "Farmers should receive fair compensation when their land is taken for development."
           },
           {
             "word": "onboarding",
             "ipa": "/ˈɒnbɔːdɪŋ/",
             "pos": "n",
-            "meaning": "入职培训"
+            "meaning": "入职培训",
+            "level": "low"
           },
           {
             "word": "portfolio",
             "ipa": "/pɔːtˈfəʊliəʊ/",
             "pos": "n",
-            "meaning": "作品集"
+            "meaning": "作品集",
+            "level": "mid"
           }
         ],
         "image": "../outputs/10-work-and-career/generated-with-text/10-card-01-generated-text.png"
@@ -8508,97 +9646,117 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "colleague",
             "ipa": "/ˈkɒliːɡ/",
             "pos": "n",
-            "meaning": "同事"
+            "meaning": "同事",
+            "level": "mid"
           },
           {
             "word": "supervisor",
             "ipa": "/ˈsuːpəvaɪzər/",
             "pos": "n",
-            "meaning": "主管"
+            "meaning": "主管",
+            "level": "mid"
           },
           {
             "word": "hierarchy",
             "ipa": "/ˈhaɪərɑːki/",
             "pos": "n",
-            "meaning": "层级结构"
+            "meaning": "层级结构",
+            "level": "high",
+            "example": "Flat management structures are replacing the rigid hierarchy of traditional companies."
           },
           {
             "word": "collaboration",
             "ipa": "/kəˌlæbəˈreɪʃən/",
             "pos": "n",
-            "meaning": "协作"
+            "meaning": "协作",
+            "level": "high",
+            "example": "Effective collaboration between departments is essential for large projects."
           },
           {
             "word": "deadline",
             "ipa": "/ˈdedlaɪn/",
             "pos": "n",
-            "meaning": "截止日期"
+            "meaning": "截止日期",
+            "level": "mid"
           },
           {
             "word": "delegate",
             "ipa": "/ˈdelɪɡeɪt/",
             "pos": "v",
-            "meaning": "委派"
+            "meaning": "委派",
+            "level": "mid"
           },
           {
             "word": "workload",
             "ipa": "/ˈwɜːkləʊd/",
             "pos": "n",
-            "meaning": "工作量"
+            "meaning": "工作量",
+            "level": "mid"
           },
           {
             "word": "briefing",
             "ipa": "/ˈbriːfɪŋ/",
             "pos": "n",
-            "meaning": "简报会议"
+            "meaning": "简报会议",
+            "level": "mid"
           },
           {
             "word": "appraisal",
             "ipa": "/əˈpreɪzəl/",
             "pos": "n",
-            "meaning": "绩效评估"
+            "meaning": "绩效评估",
+            "level": "mid"
           },
           {
             "word": "mentorship",
             "ipa": "/ˈmentəʃɪp/",
             "pos": "n",
-            "meaning": "导师制"
+            "meaning": "导师制",
+            "level": "mid"
           },
           {
             "word": "productivity",
             "ipa": "/ˌprɒdʌkˈtɪvɪti/",
             "pos": "n",
-            "meaning": "生产力"
+            "meaning": "生产力",
+            "level": "high",
+            "example": "Studies suggest that shorter working weeks can actually increase productivity."
           },
           {
             "word": "overtime",
             "ipa": "/ˈəʊvətaɪm/",
             "pos": "n",
-            "meaning": "加班"
+            "meaning": "加班",
+            "level": "mid"
           },
           {
             "word": "punctual",
             "ipa": "/ˈpʌŋktʃuəl/",
             "pos": "adj",
-            "meaning": "守时的"
+            "meaning": "守时的",
+            "level": "mid"
           },
           {
             "word": "initiative",
             "ipa": "/ɪˈnɪʃətɪv/",
             "pos": "n",
-            "meaning": "主动性"
+            "meaning": "主动性",
+            "level": "high",
+            "example": "The government launched an initiative to bring computers to rural schools."
           },
           {
             "word": "accountable",
             "ipa": "/əˈkaʊntəbəl/",
             "pos": "adj",
-            "meaning": "负责任的"
+            "meaning": "负责任的",
+            "level": "mid"
           },
           {
             "word": "grievance",
             "ipa": "/ˈɡriːvəns/",
             "pos": "n",
-            "meaning": "投诉"
+            "meaning": "投诉",
+            "level": "mid"
           }
         ],
         "image": "../outputs/10-work-and-career/generated-with-text/10-card-02-generated-text.png"
@@ -8611,73 +9769,91 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "promotion",
             "ipa": "/prəˈməʊʃən/",
             "pos": "n",
-            "meaning": "晋升"
+            "meaning": "晋升",
+            "level": "high",
+            "example": "Women are still less likely to be offered a promotion than their male colleagues."
           },
           {
             "word": "expertise",
             "ipa": "/ˌekspɜːˈtiːz/",
             "pos": "n",
-            "meaning": "专业知识"
+            "meaning": "专业知识",
+            "level": "high",
+            "example": "Developing deep expertise in one area is often more valuable than shallow knowledge of many."
           },
           {
             "word": "competency",
             "ipa": "/ˈkɒmpɪtənsi/",
             "pos": "n",
-            "meaning": "能力"
+            "meaning": "能力",
+            "level": "mid"
           },
           {
             "word": "advancement",
             "ipa": "/ədˈvɑːnsmənt/",
             "pos": "n",
-            "meaning": "进步"
+            "meaning": "进步",
+            "level": "mid"
           },
           {
             "word": "upskill",
             "ipa": "/ˌʌpˈskɪl/",
             "pos": "v",
-            "meaning": "提升技能"
+            "meaning": "提升技能",
+            "level": "mid"
           },
           {
             "word": "milestone",
             "ipa": "/ˈmaɪlstəʊn/",
             "pos": "n",
-            "meaning": "里程碑"
+            "meaning": "里程碑",
+            "level": "high",
+            "example": "Graduating from university is an important milestone in a young person's life."
           },
           {
             "word": "aspiration",
             "ipa": "/ˌæspɪˈreɪʃən/",
             "pos": "n",
-            "meaning": "抱负"
+            "meaning": "抱负",
+            "level": "high",
+            "example": "Education should nurture the aspirations of every child, regardless of background."
           },
           {
             "word": "vocational",
             "ipa": "/vəˈkeɪʃənəl/",
             "pos": "adj",
-            "meaning": "职业的"
+            "meaning": "职业的",
+            "level": "high",
+            "example": "Vocational training deserves the same respect as academic education."
           },
           {
             "word": "proficiency",
             "ipa": "/prəˈfɪʃənsi/",
             "pos": "n",
-            "meaning": "熟练度"
+            "meaning": "熟练度",
+            "level": "high",
+            "example": "English proficiency has become essential for many well-paid careers."
           },
           {
             "word": "transferable",
             "ipa": "/trænsˈfɜːrəbəl/",
             "pos": "adj",
-            "meaning": "可迁移的"
+            "meaning": "可迁移的",
+            "level": "mid"
           },
           {
             "word": "redundancy",
             "ipa": "/rɪˈdʌndənsi/",
             "pos": "n",
-            "meaning": "裁员"
+            "meaning": "裁员",
+            "level": "mid"
           },
           {
             "word": "sabbatical",
             "ipa": "/səˈbætɪkəl/",
             "pos": "n",
-            "meaning": "学术假"
+            "meaning": "学术假",
+            "level": "low"
           },
           {
             "word": "trajectory",
@@ -8690,19 +9866,23 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "leadership",
             "ipa": "/ˈliːdəʃɪp/",
             "pos": "n",
-            "meaning": "领导力"
+            "meaning": "领导力",
+            "level": "high",
+            "example": "Good leadership can transform the culture of an entire organisation."
           },
           {
             "word": "certification",
             "ipa": "/ˌsɜːtɪfɪˈkeɪʃən/",
             "pos": "n",
-            "meaning": "资格证书"
+            "meaning": "资格证书",
+            "level": "mid"
           },
           {
             "word": "lateral",
             "ipa": "/ˈlætərəl/",
             "pos": "adj",
-            "meaning": "横向的"
+            "meaning": "横向的",
+            "level": "low"
           }
         ],
         "image": "../outputs/10-work-and-career/generated-with-text/10-card-03-generated-text.png"
@@ -8715,97 +9895,121 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "burnout",
             "ipa": "/ˈbɜːnaʊt/",
             "pos": "n",
-            "meaning": "职业倦怠"
+            "meaning": "职业倦怠",
+            "level": "high",
+            "example": "Long hours and constant pressure are the main causes of employee burnout."
           },
           {
             "word": "flexibility",
             "ipa": "/ˌfleksɪˈbɪlɪti/",
             "pos": "n",
-            "meaning": "灵活性"
+            "meaning": "灵活性",
+            "level": "high",
+            "example": "Flexibility in working hours helps parents balance careers and family life."
           },
           {
             "word": "remote",
             "ipa": "/rɪˈməʊt/",
             "pos": "adj",
-            "meaning": "远程的"
+            "meaning": "远程的",
+            "level": "high",
+            "example": "Children in remote villages often have limited access to quality education."
           },
           {
             "word": "autonomy",
             "ipa": "/ɔːˈtɒnəmi/",
             "pos": "n",
-            "meaning": "自主权"
+            "meaning": "自主权",
+            "level": "high",
+            "example": "Giving employees greater autonomy often increases both morale and productivity."
           },
           {
             "word": "wellbeing",
             "ipa": "/ˈwelbiːɪŋ/",
             "pos": "n",
-            "meaning": "健康幸福"
+            "meaning": "健康幸福",
+            "level": "high",
+            "example": "Employers are becoming more aware of the importance of staff wellbeing."
           },
           {
             "word": "telecommute",
             "ipa": "/ˌtelikəˈmjuːt/",
             "pos": "v",
-            "meaning": "远程办公"
+            "meaning": "远程办公",
+            "level": "mid"
           },
           {
             "word": "commute",
             "ipa": "/kəˈmjuːt/",
             "pos": "n",
-            "meaning": "通勤"
+            "meaning": "通勤",
+            "level": "high",
+            "example": "A long daily commute significantly reduces people's quality of life."
           },
           {
             "word": "hybrid",
             "ipa": "/ˈhaɪbrɪd/",
             "pos": "adj",
-            "meaning": "混合的"
+            "meaning": "混合的",
+            "level": "mid"
           },
           {
             "word": "leisure",
             "ipa": "/ˈleʒər/",
             "pos": "n",
-            "meaning": "休闲"
+            "meaning": "休闲",
+            "level": "mid"
           },
           {
             "word": "fatigue",
             "ipa": "/fəˈtiːɡ/",
             "pos": "n",
-            "meaning": "疲劳"
+            "meaning": "疲劳",
+            "level": "mid"
           },
           {
             "word": "resilience",
             "ipa": "/rɪˈzɪliəns/",
             "pos": "n",
-            "meaning": "韧性"
+            "meaning": "韧性",
+            "level": "high",
+            "example": "Cities must build resilience against extreme weather through better planning and infrastructure."
           },
           {
             "word": "detach",
             "ipa": "/dɪˈtætʃ/",
             "pos": "v",
-            "meaning": "脱离"
+            "meaning": "脱离",
+            "level": "mid"
           },
           {
             "word": "sustainable",
             "ipa": "/səˈsteɪnəbəl/",
             "pos": "adj",
-            "meaning": "可持续的"
+            "meaning": "可持续的",
+            "level": "high",
+            "example": "Governments should promote sustainable development rather than short-term economic gain."
           },
           {
             "word": "recharge",
             "ipa": "/ˌriːˈtʃɑːdʒ/",
             "pos": "v",
-            "meaning": "恢复精力"
+            "meaning": "恢复精力",
+            "level": "mid"
           },
           {
             "word": "boundary",
             "ipa": "/ˈbaʊndri/",
             "pos": "n",
-            "meaning": "界限"
+            "meaning": "界限",
+            "level": "mid"
           },
           {
             "word": "decompression",
             "ipa": "/ˌdiːkəmˈpreʃən/",
             "pos": "n",
-            "meaning": "放松减压"
+            "meaning": "放松减压",
+            "level": "low"
           }
         ],
         "image": "../outputs/10-work-and-career/generated-with-text/10-card-04-generated-text.png"
@@ -8818,97 +10022,119 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "entrepreneur",
             "ipa": "/ˌɒntrəprəˈnɜː/",
             "pos": "n",
-            "meaning": "创业者"
+            "meaning": "创业者",
+            "level": "high",
+            "example": "Young entrepreneurs often struggle to secure funding for their ideas."
           },
           {
             "word": "startup",
             "ipa": "/ˈstɑːtʌp/",
             "pos": "n",
-            "meaning": "初创企业"
+            "meaning": "初创企业",
+            "level": "high",
+            "example": "Governments often support technology startups through grants and tax breaks."
           },
           {
             "word": "innovation",
             "ipa": "/ˌɪnəˈveɪʃən/",
             "pos": "n",
-            "meaning": "创新"
+            "meaning": "创新",
+            "level": "high",
+            "example": "Innovation in green technology will be the key to solving the energy crisis."
           },
           {
             "word": "disruptive",
             "ipa": "/dɪsˈrʌptɪv/",
             "pos": "adj",
-            "meaning": "颠覆性的"
+            "meaning": "颠覆性的",
+            "level": "mid"
           },
           {
             "word": "scalable",
             "ipa": "/ˈskeɪləbəl/",
             "pos": "adj",
-            "meaning": "可扩展的"
+            "meaning": "可扩展的",
+            "level": "mid"
           },
           {
             "word": "revenue",
             "ipa": "/ˈrevɪnjuː/",
             "pos": "n",
-            "meaning": "收入"
+            "meaning": "收入",
+            "level": "high",
+            "example": "The company's revenue doubled after it expanded into overseas markets."
           },
           {
             "word": "stakeholder",
             "ipa": "/ˈsteɪkhəʊldər/",
             "pos": "n",
-            "meaning": "利益相关者"
+            "meaning": "利益相关者",
+            "level": "high",
+            "example": "Urban planning should involve every stakeholder, from residents to local businesses."
           },
           {
             "word": "outsource",
             "ipa": "/ˈaʊtsɔːs/",
             "pos": "v",
-            "meaning": "外包"
+            "meaning": "外包",
+            "level": "high",
+            "example": "Many firms outsource manufacturing to countries with lower labour costs."
           },
           {
             "word": "merger",
             "ipa": "/ˈmɜːdʒər/",
             "pos": "n",
-            "meaning": "合并"
+            "meaning": "合并",
+            "level": "mid"
           },
           {
             "word": "acquisition",
             "ipa": "/ˌækwɪˈzɪʃən/",
             "pos": "n",
-            "meaning": "收购"
+            "meaning": "收购",
+            "level": "mid"
           },
           {
             "word": "pitch",
             "ipa": "/pɪtʃ/",
             "pos": "n/v",
-            "meaning": "推销演示"
+            "meaning": "推销演示",
+            "level": "mid"
           },
           {
             "word": "venture",
             "ipa": "/ˈventʃər/",
             "pos": "n",
-            "meaning": "创业冒险"
+            "meaning": "创业冒险",
+            "level": "mid"
           },
           {
             "word": "franchise",
             "ipa": "/ˈfræntʃaɪz/",
             "pos": "n",
-            "meaning": "特许经营"
+            "meaning": "特许经营",
+            "level": "mid"
           },
           {
             "word": "liquidate",
             "ipa": "/ˈlɪkwɪdeɪt/",
             "pos": "v",
-            "meaning": "清算"
+            "meaning": "清算",
+            "level": "low"
           },
           {
             "word": "dividend",
             "ipa": "/ˈdɪvɪdend/",
             "pos": "n",
-            "meaning": "股息"
+            "meaning": "股息",
+            "level": "mid"
           },
           {
             "word": "incorporate",
             "ipa": "/ɪnˈkɔːpəreɪt/",
             "pos": "v",
-            "meaning": "注册公司"
+            "meaning": "注册公司",
+            "level": "mid"
           }
         ],
         "image": "../outputs/10-work-and-career/generated-with-text/10-card-05-generated-text.png"
@@ -9103,97 +10329,118 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "symptom",
             "ipa": "/ˈsɪmptəm/",
             "pos": "n",
-            "meaning": "症状"
+            "meaning": "症状",
+            "level": "high",
+            "example": "Poverty is often a symptom of deeper structural problems in society."
           },
           {
             "word": "chronic",
             "ipa": "/ˈkrɒnɪk/",
             "pos": "adj",
-            "meaning": "慢性的"
+            "meaning": "慢性的",
+            "level": "high",
+            "example": "Chronic stress can lead to serious physical and mental health problems."
           },
           {
             "word": "diagnosis",
             "ipa": "/ˌdaɪəɡˈnəʊsɪs/",
             "pos": "n",
-            "meaning": "诊断"
+            "meaning": "诊断",
+            "level": "high",
+            "example": "Early diagnosis dramatically improves the chances of recovery from cancer."
           },
           {
             "word": "pathogen",
             "ipa": "/ˈpæθədʒən/",
             "pos": "n",
-            "meaning": "病原体"
+            "meaning": "病原体",
+            "level": "mid"
           },
           {
             "word": "inflammation",
             "ipa": "/ˌɪnfləˈmeɪʃən/",
             "pos": "n",
-            "meaning": "炎症"
+            "meaning": "炎症",
+            "level": "mid"
           },
           {
             "word": "malignant",
             "ipa": "/məˈlɪɡnənt/",
             "pos": "adj",
-            "meaning": "恶性的"
+            "meaning": "恶性的",
+            "level": "mid"
           },
           {
             "word": "benign",
             "ipa": "/bɪˈnaɪn/",
             "pos": "adj",
-            "meaning": "良性的"
+            "meaning": "良性的",
+            "level": "mid"
           },
           {
             "word": "contagious",
             "ipa": "/kənˈteɪdʒəs/",
             "pos": "adj",
-            "meaning": "传染性的"
+            "meaning": "传染性的",
+            "level": "mid"
           },
           {
             "word": "immunity",
             "ipa": "/ɪˈmjuːnɪti/",
             "pos": "n",
-            "meaning": "免疫力"
+            "meaning": "免疫力",
+            "level": "high",
+            "example": "Vaccines build immunity without exposing people to the full disease."
           },
           {
             "word": "lesion",
             "ipa": "/ˈliːʒən/",
             "pos": "n",
-            "meaning": "病变"
+            "meaning": "病变",
+            "level": "low"
           },
           {
             "word": "prognosis",
             "ipa": "/prɒɡˈnəʊsɪs/",
             "pos": "n",
-            "meaning": "预后"
+            "meaning": "预后",
+            "level": "mid"
           },
           {
             "word": "ailment",
             "ipa": "/ˈeɪlmənt/",
             "pos": "n",
-            "meaning": "小病"
+            "meaning": "小病",
+            "level": "mid"
           },
           {
             "word": "debilitating",
             "ipa": "/dɪˈbɪlɪteɪtɪŋ/",
             "pos": "adj",
-            "meaning": "使衰弱的"
+            "meaning": "使衰弱的",
+            "level": "mid"
           },
           {
             "word": "hereditary",
             "ipa": "/həˈredɪtri/",
             "pos": "adj",
-            "meaning": "遗传的"
+            "meaning": "遗传的",
+            "level": "mid"
           },
           {
             "word": "deficiency",
             "ipa": "/dɪˈfɪʃənsi/",
             "pos": "n",
-            "meaning": "缺乏"
+            "meaning": "缺乏",
+            "level": "mid"
           },
           {
             "word": "susceptible",
             "ipa": "/səˈseptɪbəl/",
             "pos": "adj",
-            "meaning": "易感的"
+            "meaning": "易感的",
+            "level": "high",
+            "example": "Young people are particularly susceptible to the influence of social media advertising."
           }
         ],
         "image": "../outputs/11-health-and-medicine/11-card-01.png"
@@ -9206,97 +10453,116 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "therapeutic",
             "ipa": "/ˌθerəˈpjuːtɪk/",
             "pos": "adj",
-            "meaning": "治疗的"
+            "meaning": "治疗的",
+            "level": "mid"
           },
           {
             "word": "prescription",
             "ipa": "/prɪˈskrɪpʃən/",
             "pos": "n",
-            "meaning": "处方"
+            "meaning": "处方",
+            "level": "high",
+            "example": "The overuse of antibiotics on prescription has led to resistant bacteria."
           },
           {
             "word": "dosage",
             "ipa": "/ˈdəʊsɪdʒ/",
             "pos": "n",
-            "meaning": "剂量"
+            "meaning": "剂量",
+            "level": "mid"
           },
           {
             "word": "pharmaceutical",
             "ipa": "/ˌfɑːməˈsuːtɪkəl/",
             "pos": "adj",
-            "meaning": "制药的"
+            "meaning": "制药的",
+            "level": "mid"
           },
           {
             "word": "antibiotic",
             "ipa": "/ˌæntɪbaɪˈɒtɪk/",
             "pos": "n",
-            "meaning": "抗生素"
+            "meaning": "抗生素",
+            "level": "mid"
           },
           {
             "word": "sedative",
             "ipa": "/ˈsedətɪv/",
             "pos": "n",
-            "meaning": "镇静剂"
+            "meaning": "镇静剂",
+            "level": "low"
           },
           {
             "word": "analgesic",
             "ipa": "/ˌænəlˈdʒiːzɪk/",
             "pos": "n",
-            "meaning": "止痛药"
+            "meaning": "止痛药",
+            "level": "low"
           },
           {
             "word": "vaccination",
             "ipa": "/ˌvæksɪˈneɪʃən/",
             "pos": "n",
-            "meaning": "接种"
+            "meaning": "接种",
+            "level": "mid"
           },
           {
             "word": "rehabilitation",
             "ipa": "/ˌriːəˌbɪlɪˈteɪʃən/",
             "pos": "n",
-            "meaning": "康复"
+            "meaning": "康复",
+            "level": "high",
+            "example": "Effective rehabilitation reduces the likelihood that offenders will reoffend."
           },
           {
             "word": "intervention",
             "ipa": "/ˌɪntəˈvenʃən/",
             "pos": "n",
-            "meaning": "干预"
+            "meaning": "干预",
+            "level": "high",
+            "example": "Early intervention in childhood can prevent many later health problems."
           },
           {
             "word": "surgical",
             "ipa": "/ˈsɜːdʒɪkəl/",
             "pos": "adj",
-            "meaning": "外科的"
+            "meaning": "外科的",
+            "level": "mid"
           },
           {
             "word": "anesthesia",
             "ipa": "/ˌænɪsˈθiːziə/",
             "pos": "n",
-            "meaning": "麻醉"
+            "meaning": "麻醉",
+            "level": "low"
           },
           {
             "word": "immunotherapy",
             "ipa": "/ˌɪmjunəʊˈθerəpi/",
             "pos": "n",
-            "meaning": "免疫疗法"
+            "meaning": "免疫疗法",
+            "level": "low"
           },
           {
             "word": "remission",
             "ipa": "/rɪˈmɪʃən/",
             "pos": "n",
-            "meaning": "缓解"
+            "meaning": "缓解",
+            "level": "low"
           },
           {
             "word": "palliative",
             "ipa": "/ˈpæliətɪv/",
             "pos": "adj",
-            "meaning": "姑息的"
+            "meaning": "姑息的",
+            "level": "low"
           },
           {
             "word": "potency",
             "ipa": "/ˈpəʊtənsi/",
             "pos": "n",
-            "meaning": "效力"
+            "meaning": "效力",
+            "level": "low"
           }
         ],
         "image": "../outputs/11-health-and-medicine/11-card-02.png"
@@ -9309,97 +10575,120 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "anxiety",
             "ipa": "/æŋˈzaɪəti/",
             "pos": "n",
-            "meaning": "焦虑"
+            "meaning": "焦虑",
+            "level": "high",
+            "example": "Rates of anxiety among teenagers have risen sharply in the social media age."
           },
           {
             "word": "depression",
             "ipa": "/dɪˈpreʃən/",
             "pos": "n",
-            "meaning": "抑郁"
+            "meaning": "抑郁",
+            "level": "high",
+            "example": "Regular physical activity can be as effective as medication in treating mild depression."
           },
           {
             "word": "resilience",
             "ipa": "/rɪˈzɪliəns/",
             "pos": "n",
-            "meaning": "韧性"
+            "meaning": "韧性",
+            "level": "high",
+            "example": "Cities must build resilience against extreme weather through better planning and infrastructure."
           },
           {
             "word": "mindfulness",
             "ipa": "/ˈmaɪndfʊlnɪs/",
             "pos": "n",
-            "meaning": "正念"
+            "meaning": "正念",
+            "level": "mid"
           },
           {
             "word": "cognitive",
             "ipa": "/ˈkɒɡnɪtɪv/",
             "pos": "adj",
-            "meaning": "认知的"
+            "meaning": "认知的",
+            "level": "mid"
           },
           {
             "word": "trauma",
             "ipa": "/ˈtrɔːmə/",
             "pos": "n",
-            "meaning": "创伤"
+            "meaning": "创伤",
+            "level": "high",
+            "example": "Counselling helps survivors process the trauma of natural disasters."
           },
           {
             "word": "phobia",
             "ipa": "/ˈfəʊbiə/",
             "pos": "n",
-            "meaning": "恐惧症"
+            "meaning": "恐惧症",
+            "level": "mid"
           },
           {
             "word": "stigma",
             "ipa": "/ˈstɪɡmə/",
             "pos": "n",
-            "meaning": "污名"
+            "meaning": "污名",
+            "level": "high",
+            "example": "There is still a strong stigma attached to seeking help for mental illness."
           },
           {
             "word": "psychotherapy",
             "ipa": "/ˌsaɪkəʊˈθerəpi/",
             "pos": "n",
-            "meaning": "心理治疗"
+            "meaning": "心理治疗",
+            "level": "mid"
           },
           {
             "word": "burnout",
             "ipa": "/ˈbɜːnaʊt/",
             "pos": "n",
-            "meaning": "倦怠"
+            "meaning": "倦怠",
+            "level": "high",
+            "example": "Long hours and constant pressure are the main causes of employee burnout."
           },
           {
             "word": "compulsive",
             "ipa": "/kəmˈpʌlsɪv/",
             "pos": "adj",
-            "meaning": "强迫性的"
+            "meaning": "强迫性的",
+            "level": "mid"
           },
           {
             "word": "coping",
             "ipa": "/ˈkəʊpɪŋ/",
             "pos": "n",
-            "meaning": "应对"
+            "meaning": "应对",
+            "level": "mid"
           },
           {
             "word": "wellbeing",
             "ipa": "/ˈwelbiːɪŋ/",
             "pos": "n",
-            "meaning": "幸福感"
+            "meaning": "幸福感",
+            "level": "high",
+            "example": "Employers are becoming more aware of the importance of staff wellbeing."
           },
           {
             "word": "detachment",
             "ipa": "/dɪˈtætʃmənt/",
             "pos": "n",
-            "meaning": "超然"
+            "meaning": "超然",
+            "level": "mid"
           },
           {
             "word": "introspection",
             "ipa": "/ˌɪntrəˈspekʃən/",
             "pos": "n",
-            "meaning": "内省"
+            "meaning": "内省",
+            "level": "low"
           },
           {
             "word": "catharsis",
             "ipa": "/kəˈθɑːsɪs/",
             "pos": "n",
-            "meaning": "宣泄"
+            "meaning": "宣泄",
+            "level": "low"
           }
         ],
         "image": "../outputs/11-health-and-medicine/11-card-03.png"
@@ -9412,97 +10701,113 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "clinician",
             "ipa": "/klɪˈnɪʃən/",
             "pos": "n",
-            "meaning": "临床医生"
+            "meaning": "临床医生",
+            "level": "low"
           },
           {
             "word": "ward",
             "ipa": "/wɔːd/",
             "pos": "n",
-            "meaning": "病房"
+            "meaning": "病房",
+            "level": "mid"
           },
           {
             "word": "triage",
             "ipa": "/ˈtriːɑːʒ/",
             "pos": "n",
-            "meaning": "伤亡分类"
+            "meaning": "伤亡分类",
+            "level": "low"
           },
           {
             "word": "outpatient",
             "ipa": "/ˈaʊtpeɪʃənt/",
             "pos": "n",
-            "meaning": "门诊患者"
+            "meaning": "门诊患者",
+            "level": "mid"
           },
           {
             "word": "consultant",
             "ipa": "/kənˈsʌltənt/",
             "pos": "n",
-            "meaning": "顾问医生"
+            "meaning": "顾问医生",
+            "level": "mid"
           },
           {
             "word": "ultrasound",
             "ipa": "/ˈʌltrəsaʊnd/",
             "pos": "n",
-            "meaning": "超声波"
+            "meaning": "超声波",
+            "level": "mid"
           },
           {
             "word": "biopsy",
             "ipa": "/ˈbaɪɒpsi/",
             "pos": "n",
-            "meaning": "活检"
+            "meaning": "活检",
+            "level": "low"
           },
           {
             "word": "sterile",
             "ipa": "/ˈsterɑɪl/",
             "pos": "adj",
-            "meaning": "无菌的"
+            "meaning": "无菌的",
+            "level": "low"
           },
           {
             "word": "catheter",
             "ipa": "/ˈkæθɪtə/",
             "pos": "n",
-            "meaning": "导管"
+            "meaning": "导管",
+            "level": "low"
           },
           {
             "word": "infusion",
             "ipa": "/ɪnˈfjuːʒən/",
             "pos": "n",
-            "meaning": "输液"
+            "meaning": "输液",
+            "level": "low"
           },
           {
             "word": "negligence",
             "ipa": "/ˈneɡlɪdʒəns/",
             "pos": "n",
-            "meaning": "疏忽"
+            "meaning": "疏忽",
+            "level": "mid"
           },
           {
             "word": "referral",
             "ipa": "/rɪˈfɜːrəl/",
             "pos": "n",
-            "meaning": "转诊"
+            "meaning": "转诊",
+            "level": "mid"
           },
           {
             "word": "convalescence",
             "ipa": "/ˌkɒnvəˈlesəns/",
             "pos": "n",
-            "meaning": "康复期"
+            "meaning": "康复期",
+            "level": "low"
           },
           {
             "word": "practitioner",
             "ipa": "/præktɪʃənər/",
             "pos": "n",
-            "meaning": "执业者"
+            "meaning": "执业者",
+            "level": "mid"
           },
           {
             "word": "malpractice",
             "ipa": "/mælˈpræktɪs/",
             "pos": "n",
-            "meaning": "医疗事故"
+            "meaning": "医疗事故",
+            "level": "mid"
           },
           {
             "word": "discharge",
             "ipa": "/ˈdɪstʃɑːdʒ/",
             "pos": "n",
-            "meaning": "出院"
+            "meaning": "出院",
+            "level": "mid"
           }
         ],
         "image": "../outputs/11-health-and-medicine/11-card-04.png"
@@ -9515,97 +10820,122 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "epidemic",
             "ipa": "/ˌepɪˈdemɪk/",
             "pos": "n",
-            "meaning": "流行病"
+            "meaning": "流行病",
+            "level": "high",
+            "example": "Obesity has become an epidemic in many wealthy countries."
           },
           {
             "word": "pandemic",
             "ipa": "/pænˈdemɪk/",
             "pos": "n",
-            "meaning": "大流行"
+            "meaning": "大流行",
+            "level": "high",
+            "example": "The pandemic exposed serious weaknesses in the global healthcare system."
           },
           {
             "word": "quarantine",
             "ipa": "/ˈkwɒrəntiːn/",
             "pos": "n",
-            "meaning": "隔离"
+            "meaning": "隔离",
+            "level": "high",
+            "example": "Travellers arriving from affected areas were required to quarantine for two weeks."
           },
           {
             "word": "prevalence",
             "ipa": "/ˈprevələns/",
             "pos": "n",
-            "meaning": "流行率"
+            "meaning": "流行率",
+            "level": "high",
+            "example": "The prevalence of obesity has doubled in many countries over thirty years."
           },
           {
             "word": "outbreak",
             "ipa": "/ˈaʊtbreɪk/",
             "pos": "n",
-            "meaning": "爆发"
+            "meaning": "爆发",
+            "level": "high",
+            "example": "The outbreak spread rapidly because early warning systems failed."
           },
           {
             "word": "containment",
             "ipa": "/kənˈteɪnmənt/",
             "pos": "n",
-            "meaning": "遏制"
+            "meaning": "遏制",
+            "level": "mid"
           },
           {
             "word": "surveillance",
             "ipa": "/səˈveɪləns/",
             "pos": "n",
-            "meaning": "监测"
+            "meaning": "监测",
+            "level": "high",
+            "example": "The spread of surveillance cameras raises serious concerns about privacy."
           },
           {
             "word": "vector",
             "ipa": "/ˈvektə/",
             "pos": "n",
-            "meaning": "传播媒介"
+            "meaning": "传播媒介",
+            "level": "low"
           },
           {
             "word": "endemic",
             "ipa": "/enˈdemɪk/",
             "pos": "adj",
-            "meaning": "地方性的"
+            "meaning": "地方性的",
+            "level": "mid"
           },
           {
             "word": "morbidity",
             "ipa": "/mɔːˈbɪdɪti/",
             "pos": "n",
-            "meaning": "发病率"
+            "meaning": "发病率",
+            "level": "low"
           },
           {
             "word": "incubation",
             "ipa": "/ˌɪŋkjʊˈbeɪʃən/",
             "pos": "n",
-            "meaning": "潜伏期"
+            "meaning": "潜伏期",
+            "level": "low"
           },
           {
             "word": "sanitation",
             "ipa": "/ˌsænɪˈteɪʃən/",
             "pos": "n",
-            "meaning": "卫生设施"
+            "meaning": "卫生设施",
+            "level": "high",
+            "example": "Access to clean water and proper sanitation prevents millions of deaths each year."
           },
           {
             "word": "eradication",
             "ipa": "/ɪˌrædɪˈkeɪʃən/",
             "pos": "n",
-            "meaning": "根除"
+            "meaning": "根除",
+            "level": "mid"
           },
           {
             "word": "transmission",
             "ipa": "/trænzˈmɪʃən/",
             "pos": "n",
-            "meaning": "传播"
+            "meaning": "传播",
+            "level": "high",
+            "example": "Wearing masks slows the transmission of airborne diseases."
           },
           {
             "word": "mortality",
             "ipa": "/mɔːˈtælɪti/",
             "pos": "n",
-            "meaning": "死亡率"
+            "meaning": "死亡率",
+            "level": "high",
+            "example": "Improved healthcare has dramatically reduced infant mortality worldwide."
           },
           {
             "word": "inoculation",
             "ipa": "/ɪˌnɒkjʊˈleɪʃən/",
             "pos": "n",
-            "meaning": "接种"
+            "meaning": "接种",
+            "level": "low"
           }
         ],
         "image": "../outputs/11-health-and-medicine/11-card-05.png"
@@ -9864,103 +11194,122 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "elation",
             "ipa": "/ɪˈleɪʃən/",
             "pos": "n",
-            "meaning": "欣喜"
+            "meaning": "欣喜",
+            "level": "mid"
           },
           {
             "word": "euphoria",
             "ipa": "/juːˈfɔːriə/",
             "pos": "n",
-            "meaning": "欣快感"
+            "meaning": "欣快感",
+            "level": "low"
           },
           {
             "word": "exhilaration",
             "ipa": "/ɪɡˌzɪləˈreɪʃən/",
             "pos": "n",
-            "meaning": "兴奋感"
+            "meaning": "兴奋感",
+            "level": "low"
           },
           {
             "word": "contentment",
             "ipa": "/kənˈtentmənt/",
             "pos": "n",
-            "meaning": "满足"
+            "meaning": "满足",
+            "level": "mid"
           },
           {
             "word": "serenity",
             "ipa": "/sɪˈrenɪti/",
             "pos": "n",
-            "meaning": "宁静"
+            "meaning": "宁静",
+            "level": "low"
           },
           {
             "word": "awe",
             "ipa": "/ɔː/",
             "pos": "n",
-            "meaning": "敬畏"
+            "meaning": "敬畏",
+            "level": "mid"
           },
           {
             "word": "gratitude",
             "ipa": "/ˈɡrætɪtjuːd/",
             "pos": "n",
-            "meaning": "感激"
+            "meaning": "感激",
+            "level": "high",
+            "example": "Expressing gratitude regularly has been linked to greater long-term happiness."
           },
           {
             "word": "empathy",
             "ipa": "/ˈempəθi/",
             "pos": "n",
-            "meaning": "共情"
+            "meaning": "共情",
+            "level": "high",
+            "example": "Reading fiction has been shown to increase empathy and improve social understanding."
           },
           {
             "word": "longing",
             "ipa": "/ˈlɒŋɪŋ/",
             "pos": "n",
-            "meaning": "渴望"
+            "meaning": "渴望",
+            "level": "mid"
           },
           {
             "word": "grief",
             "ipa": "/ɡriːf/",
             "pos": "n",
-            "meaning": "悲伤"
+            "meaning": "悲伤",
+            "level": "mid"
           },
           {
             "word": "melancholy",
             "ipa": "/ˈmelənkɒli/",
             "pos": "n",
-            "meaning": "忧郁"
+            "meaning": "忧郁",
+            "level": "mid"
           },
           {
             "word": "nostalgia",
             "ipa": "/nɒˈstældʒɪə/",
             "pos": "n",
-            "meaning": "乡愁"
+            "meaning": "乡愁",
+            "level": "mid"
           },
           {
             "word": "remorse",
             "ipa": "/rɪˈmɔːs/",
             "pos": "n",
-            "meaning": "懊悔"
+            "meaning": "懊悔",
+            "level": "mid"
           },
           {
             "word": "apprehension",
             "ipa": "/ˌæprɪˈhenʃən/",
             "pos": "n",
-            "meaning": "忧虑"
+            "meaning": "忧虑",
+            "level": "mid"
           },
           {
             "word": "dread",
             "ipa": "/dred/",
             "pos": "n",
-            "meaning": "恐惧"
+            "meaning": "恐惧",
+            "level": "mid"
           },
           {
             "word": "resentment",
             "ipa": "/rɪˈzentmənt/",
             "pos": "n",
-            "meaning": "怨恨"
+            "meaning": "怨恨",
+            "level": "mid"
           },
           {
             "word": "envy",
             "ipa": "/ˈenvi/",
             "pos": "n",
-            "meaning": "嫉妒"
+            "meaning": "嫉妒",
+            "level": "mid"
           }
         ],
         "image": "../outputs/12-psychology-and-emotions/12-card-01.png"
@@ -9973,97 +11322,123 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "anxiety",
             "ipa": "/æŋˈzaɪɪti/",
             "pos": "n",
-            "meaning": "焦虑"
+            "meaning": "焦虑",
+            "level": "high",
+            "example": "Rates of anxiety among teenagers have risen sharply in the social media age."
           },
           {
             "word": "depression",
             "ipa": "/dɪˈpreʃən/",
             "pos": "n",
-            "meaning": "抑郁"
+            "meaning": "抑郁",
+            "level": "high",
+            "example": "Regular physical activity can be as effective as medication in treating mild depression."
           },
           {
             "word": "burnout",
             "ipa": "/ˈbɜːnaʊt/",
             "pos": "n",
-            "meaning": "耗竭"
+            "meaning": "耗竭",
+            "level": "high",
+            "example": "Long hours and constant pressure are the main causes of employee burnout."
           },
           {
             "word": "insomnia",
             "ipa": "/ɪnˈsɒmniə/",
             "pos": "n",
-            "meaning": "失眠"
+            "meaning": "失眠",
+            "level": "high",
+            "example": "Excessive screen time before bed is a common cause of insomnia."
           },
           {
             "word": "trauma",
             "ipa": "/ˈtrɔːmə/",
             "pos": "n",
-            "meaning": "创伤"
+            "meaning": "创伤",
+            "level": "high",
+            "example": "Counselling helps survivors process the trauma of natural disasters."
           },
           {
             "word": "resilience",
             "ipa": "/rɪˈzɪliəns/",
             "pos": "n",
-            "meaning": "韧性"
+            "meaning": "韧性",
+            "level": "high",
+            "example": "Cities must build resilience against extreme weather through better planning and infrastructure."
           },
           {
             "word": "wellbeing",
             "ipa": "/ˈwelbɪɪŋ/",
             "pos": "n",
-            "meaning": "幸福感"
+            "meaning": "幸福感",
+            "level": "high",
+            "example": "Employers are becoming more aware of the importance of staff wellbeing."
           },
           {
             "word": "equilibrium",
             "ipa": "/ˌiːkwɪˈlɪbriəm/",
             "pos": "n",
-            "meaning": "心理平衡"
+            "meaning": "心理平衡",
+            "level": "mid"
           },
           {
             "word": "mindfulness",
             "ipa": "/ˈmaɪndflnəs/",
             "pos": "n",
-            "meaning": "正念"
+            "meaning": "正念",
+            "level": "mid"
           },
           {
             "word": "coping",
             "ipa": "/ˈkəʊpɪŋ/",
             "pos": "v",
-            "meaning": "应对"
+            "meaning": "应对",
+            "level": "mid"
           },
           {
             "word": "phobia",
             "ipa": "/ˈfəʊbiə/",
             "pos": "n",
-            "meaning": "恐惧症"
+            "meaning": "恐惧症",
+            "level": "mid"
           },
           {
             "word": "compulsion",
             "ipa": "/kəmˈpʌlʃən/",
             "pos": "n",
-            "meaning": "强迫"
+            "meaning": "强迫",
+            "level": "mid"
           },
           {
             "word": "vulnerability",
             "ipa": "/ˌvʌlnərəˈbɪlɪti/",
             "pos": "n",
-            "meaning": "脆弱性"
+            "meaning": "脆弱性",
+            "level": "high",
+            "example": "The pandemic exposed the vulnerability of global supply chains."
           },
           {
             "word": "stigma",
             "ipa": "/ˈstɪɡmə/",
             "pos": "n",
-            "meaning": "污名"
+            "meaning": "污名",
+            "level": "high",
+            "example": "There is still a strong stigma attached to seeking help for mental illness."
           },
           {
             "word": "alienation",
             "ipa": "/ˌeɪliəˈneɪʃən/",
             "pos": "n",
-            "meaning": "疏离感"
+            "meaning": "疏离感",
+            "level": "mid"
           },
           {
             "word": "intervention",
             "ipa": "/ˌɪntəˈvenʃən/",
             "pos": "n",
-            "meaning": "干预"
+            "meaning": "干预",
+            "level": "high",
+            "example": "Early intervention in childhood can prevent many later health problems."
           }
         ],
         "image": "../outputs/12-psychology-and-emotions/12-card-02.png"
@@ -10076,43 +11451,52 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "perception",
             "ipa": "/pəˈsepʃən/",
             "pos": "n",
-            "meaning": "感知"
+            "meaning": "感知",
+            "level": "high",
+            "example": "The media shapes public perception of crime, often exaggerating the danger."
           },
           {
             "word": "cognition",
             "ipa": "/kɒɡˈnɪʃən/",
             "pos": "n",
-            "meaning": "认知"
+            "meaning": "认知",
+            "level": "high",
+            "example": "Studies suggest that regular exercise can improve cognition in older adults."
           },
           {
             "word": "cognitive",
             "ipa": "/ˈkɒɡnɪtɪv/",
             "pos": "adj",
-            "meaning": "认知的"
+            "meaning": "认知的",
+            "level": "mid"
           },
           {
             "word": "attention",
             "ipa": "/əˈtenʃən/",
             "pos": "n",
-            "meaning": "注意力"
+            "meaning": "注意力",
+            "level": "mid"
           },
           {
             "word": "distraction",
             "ipa": "/dɪˈstrækʃən/",
             "pos": "n",
-            "meaning": "分心"
+            "meaning": "分心",
+            "level": "mid"
           },
           {
             "word": "retention",
             "ipa": "/rɪˈtenʃən/",
             "pos": "n",
-            "meaning": "记忆保持"
+            "meaning": "记忆保持",
+            "level": "mid"
           },
           {
             "word": "recall",
             "ipa": "/rɪˈkɔːl/",
             "pos": "v",
-            "meaning": "回忆"
+            "meaning": "回忆",
+            "level": "mid"
           },
           {
             "word": "bias",
@@ -10126,49 +11510,57 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "inference",
             "ipa": "/ˈɪnfərəns/",
             "pos": "n",
-            "meaning": "推断"
+            "meaning": "推断",
+            "level": "mid"
           },
           {
             "word": "heuristic",
             "ipa": "/hjʊˈrɪstɪk/",
             "pos": "n",
-            "meaning": "启发法"
+            "meaning": "启发法",
+            "level": "low"
           },
           {
             "word": "intuition",
             "ipa": "/ˌɪntjuˈɪʃən/",
             "pos": "n",
-            "meaning": "直觉"
+            "meaning": "直觉",
+            "level": "mid"
           },
           {
             "word": "subconscious",
             "ipa": "/ˌsʌbˈkɒnʃəs/",
             "pos": "adj",
-            "meaning": "潜意识的"
+            "meaning": "潜意识的",
+            "level": "mid"
           },
           {
             "word": "metacognition",
             "ipa": "/ˌmetəkɒɡˈnɪʃən/",
             "pos": "n",
-            "meaning": "元认知"
+            "meaning": "元认知",
+            "level": "low"
           },
           {
             "word": "deliberate",
             "ipa": "/dɪˈlɪbərɪt/",
             "pos": "adj",
-            "meaning": "深思熟虑的"
+            "meaning": "深思熟虑的",
+            "level": "mid"
           },
           {
             "word": "rationalize",
             "ipa": "/ˈræʃənəlaɪz/",
             "pos": "v",
-            "meaning": "合理化"
+            "meaning": "合理化",
+            "level": "mid"
           },
           {
             "word": "rationale",
             "ipa": "/ˌræʃəˈnɑːl/",
             "pos": "n",
-            "meaning": "基本原理"
+            "meaning": "基本原理",
+            "level": "mid"
           }
         ],
         "image": "../outputs/12-psychology-and-emotions/12-card-03.png"
@@ -10181,97 +11573,118 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "introvert",
             "ipa": "/ˈɪntrəvɜːt/",
             "pos": "n",
-            "meaning": "内向者"
+            "meaning": "内向者",
+            "level": "mid"
           },
           {
             "word": "extrovert",
             "ipa": "/ˈekstrəvɜːt/",
             "pos": "n",
-            "meaning": "外向者"
+            "meaning": "外向者",
+            "level": "mid"
           },
           {
             "word": "impulsive",
             "ipa": "/ɪmˈpʌlsɪv/",
             "pos": "adj",
-            "meaning": "冲动的"
+            "meaning": "冲动的",
+            "level": "mid"
           },
           {
             "word": "conscientious",
             "ipa": "/ˌkɒnʃiˈenʃəs/",
             "pos": "adj",
-            "meaning": "尽责的"
+            "meaning": "尽责的",
+            "level": "mid"
           },
           {
             "word": "assertive",
             "ipa": "/əˈsɜːtɪv/",
             "pos": "adj",
-            "meaning": "自信果断的"
+            "meaning": "自信果断的",
+            "level": "mid"
           },
           {
             "word": "altruism",
             "ipa": "/ˈæltruɪzəm/",
             "pos": "n",
-            "meaning": "利他主义"
+            "meaning": "利他主义",
+            "level": "mid"
           },
           {
             "word": "compassion",
             "ipa": "/kəmˈpæʃən/",
             "pos": "n",
-            "meaning": "怜悯"
+            "meaning": "怜悯",
+            "level": "high",
+            "example": "A civilised society treats its most vulnerable members with compassion."
           },
           {
             "word": "conformity",
             "ipa": "/kənˈfɔːmɪti/",
             "pos": "n",
-            "meaning": "从众"
+            "meaning": "从众",
+            "level": "high",
+            "example": "Peer pressure encourages conformity, which can stifle individual creativity."
           },
           {
             "word": "aggression",
             "ipa": "/əˈɡreʃən/",
             "pos": "n",
-            "meaning": "攻击性"
+            "meaning": "攻击性",
+            "level": "high",
+            "example": "Some studies link violent video games to increased aggression in children."
           },
           {
             "word": "perseverance",
             "ipa": "/ˌpɜːsɪˈvɪərəns/",
             "pos": "n",
-            "meaning": "坚持"
+            "meaning": "坚持",
+            "level": "high",
+            "example": "Success in any field depends on talent combined with sheer perseverance."
           },
           {
             "word": "narcissism",
             "ipa": "/ˈnɑːsɪsɪzəm/",
             "pos": "n",
-            "meaning": "自恋"
+            "meaning": "自恋",
+            "level": "low"
           },
           {
             "word": "manipulative",
             "ipa": "/məˈnɪpjʊlətɪv/",
             "pos": "adj",
-            "meaning": "操控的"
+            "meaning": "操控的",
+            "level": "mid"
           },
           {
             "word": "procrastination",
             "ipa": "/prəˌkræstɪˈneɪʃən/",
             "pos": "n",
-            "meaning": "拖延"
+            "meaning": "拖延",
+            "level": "high",
+            "example": "Breaking a task into smaller steps is an effective way to overcome procrastination."
           },
           {
             "word": "inhibition",
             "ipa": "/ˌɪnhɪˈbɪʃən/",
             "pos": "n",
-            "meaning": "抑制"
+            "meaning": "抑制",
+            "level": "low"
           },
           {
             "word": "temperament",
             "ipa": "/ˈtempərəmənt/",
             "pos": "n",
-            "meaning": "气质"
+            "meaning": "气质",
+            "level": "mid"
           },
           {
             "word": "disposition",
             "ipa": "/ˌdɪspəˈzɪʃən/",
             "pos": "n",
-            "meaning": "性情"
+            "meaning": "性情",
+            "level": "mid"
           }
         ],
         "image": "../outputs/12-psychology-and-emotions/12-card-04.png"
@@ -10284,97 +11697,116 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "therapist",
             "ipa": "/ˈθerəpɪst/",
             "pos": "n",
-            "meaning": "治疗师"
+            "meaning": "治疗师",
+            "level": "mid"
           },
           {
             "word": "psychotherapy",
             "ipa": "/ˌsaɪkəʊˈθerəpi/",
             "pos": "n",
-            "meaning": "心理治疗"
+            "meaning": "心理治疗",
+            "level": "mid"
           },
           {
             "word": "psychiatrist",
             "ipa": "/saɪˈkaɪətrɪst/",
             "pos": "n",
-            "meaning": "精神科医生"
+            "meaning": "精神科医生",
+            "level": "mid"
           },
           {
             "word": "counselling",
             "ipa": "/ˈkaʊnsəlɪŋ/",
             "pos": "n",
-            "meaning": "咨询"
+            "meaning": "咨询",
+            "level": "mid"
           },
           {
             "word": "diagnosis",
             "ipa": "/ˌdaɪəɡˈnəʊsɪs/",
             "pos": "n",
-            "meaning": "诊断"
+            "meaning": "诊断",
+            "level": "high",
+            "example": "Early diagnosis dramatically improves the chances of recovery from cancer."
           },
           {
             "word": "medication",
             "ipa": "/ˌmedɪˈkeɪʃən/",
             "pos": "n",
-            "meaning": "药物治疗"
+            "meaning": "药物治疗",
+            "level": "mid"
           },
           {
             "word": "rehabilitation",
             "ipa": "/ˌriːəˌbɪlɪˈteɪʃən/",
             "pos": "n",
-            "meaning": "康复"
+            "meaning": "康复",
+            "level": "high",
+            "example": "Effective rehabilitation reduces the likelihood that offenders will reoffend."
           },
           {
             "word": "neuroscience",
             "ipa": "/ˈnjʊərəʊˌsaɪəns/",
             "pos": "n",
-            "meaning": "神经科学"
+            "meaning": "神经科学",
+            "level": "mid"
           },
           {
             "word": "neuroplasticity",
             "ipa": "/ˌnjʊərəʊplæˈstɪsɪti/",
             "pos": "n",
-            "meaning": "神经可塑性"
+            "meaning": "神经可塑性",
+            "level": "low"
           },
           {
             "word": "conditioning",
             "ipa": "/kənˈdɪʃənɪŋ/",
             "pos": "n",
-            "meaning": "条件反射"
+            "meaning": "条件反射",
+            "level": "mid"
           },
           {
             "word": "reinforcement",
             "ipa": "/ˌriːɪnˈfɔːsmənt/",
             "pos": "n",
-            "meaning": "强化"
+            "meaning": "强化",
+            "level": "high",
+            "example": "Positive reinforcement is far more effective than punishment in shaping behaviour."
           },
           {
             "word": "catharsis",
             "ipa": "/kəˈθɑːsɪs/",
             "pos": "n",
-            "meaning": "宣泄"
+            "meaning": "宣泄",
+            "level": "low"
           },
           {
             "word": "placebo",
             "ipa": "/pləˈsiːbəʊ/",
             "pos": "n",
-            "meaning": "安慰剂"
+            "meaning": "安慰剂",
+            "level": "mid"
           },
           {
             "word": "repression",
             "ipa": "/rɪˈpreʃən/",
             "pos": "n",
-            "meaning": "压抑"
+            "meaning": "压抑",
+            "level": "low"
           },
           {
             "word": "projection",
             "ipa": "/prəˈdʒekʃən/",
             "pos": "n",
-            "meaning": "投射"
+            "meaning": "投射",
+            "level": "low"
           },
           {
             "word": "regression",
             "ipa": "/rɪˈɡreʃən/",
             "pos": "n",
-            "meaning": "退行"
+            "meaning": "退行",
+            "level": "low"
           }
         ],
         "image": "../outputs/12-psychology-and-emotions/12-card-05.png"
@@ -10595,103 +12027,126 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "metropolis",
             "ipa": "/mɪˈtrɒpəlɪs/",
             "pos": "n",
-            "meaning": "大都市"
+            "meaning": "大都市",
+            "level": "mid"
           },
           {
             "word": "municipality",
             "ipa": "/mjuːˌnɪsɪˈpælɪti/",
             "pos": "n",
-            "meaning": "市政府"
+            "meaning": "市政府",
+            "level": "mid"
           },
           {
             "word": "urbanisation",
             "ipa": "/ˌɜːbənaɪˈzeɪʃn/",
             "pos": "n",
-            "meaning": "城镇化"
+            "meaning": "城镇化",
+            "level": "high",
+            "example": "Rapid urbanisation has put enormous pressure on housing and public transport."
           },
           {
             "word": "infrastructure",
             "ipa": "/ˈɪnfrəstrʌktʃə/",
             "pos": "n",
-            "meaning": "基础设施"
+            "meaning": "基础设施",
+            "level": "high",
+            "example": "Investment in public infrastructure creates jobs and stimulates long-term economic growth."
           },
           {
             "word": "zoning",
             "ipa": "/ˈzəʊnɪŋ/",
             "pos": "n",
-            "meaning": "分区规划"
+            "meaning": "分区规划",
+            "level": "mid"
           },
           {
             "word": "residential",
             "ipa": "/ˌrezɪˈdenʃl/",
             "pos": "adj",
-            "meaning": "住宅的"
+            "meaning": "住宅的",
+            "level": "high",
+            "example": "Building more residential towers is one solution to the housing shortage."
           },
           {
             "word": "commercial",
             "ipa": "/kəˈmɜːʃl/",
             "pos": "adj",
-            "meaning": "商业的"
+            "meaning": "商业的",
+            "level": "high",
+            "example": "The old factory district has been transformed into a thriving commercial hub."
           },
           {
             "word": "density",
             "ipa": "/ˈdensɪti/",
             "pos": "n",
-            "meaning": "密度"
+            "meaning": "密度",
+            "level": "mid"
           },
           {
             "word": "sprawl",
             "ipa": "/sprɔːl/",
             "pos": "n",
-            "meaning": "蔓延"
+            "meaning": "蔓延",
+            "level": "high",
+            "example": "Urban sprawl consumes farmland and forces people into ever-longer commutes."
           },
           {
             "word": "boulevard",
             "ipa": "/ˈbʊləvɑːd/",
             "pos": "n",
-            "meaning": "林荫大道"
+            "meaning": "林荫大道",
+            "level": "low"
           },
           {
             "word": "skyline",
             "ipa": "/ˈskaɪlaɪn/",
             "pos": "n",
-            "meaning": "天际线"
+            "meaning": "天际线",
+            "level": "mid"
           },
           {
             "word": "grid",
             "ipa": "/ɡrɪd/",
             "pos": "n",
-            "meaning": "方格网"
+            "meaning": "方格网",
+            "level": "mid"
           },
           {
             "word": "thoroughfare",
             "ipa": "/ˈθʌrəfeə/",
             "pos": "n",
-            "meaning": "干道"
+            "meaning": "干道",
+            "level": "low"
           },
           {
             "word": "precinct",
             "ipa": "/ˈpriːsɪŋkt/",
             "pos": "n",
-            "meaning": "区域"
+            "meaning": "区域",
+            "level": "low"
           },
           {
             "word": "civic",
             "ipa": "/ˈsɪvɪk/",
             "pos": "adj",
-            "meaning": "市政的"
+            "meaning": "市政的",
+            "level": "mid"
           },
           {
             "word": "corridor",
             "ipa": "/ˈkɒrɪdɔː/",
             "pos": "n",
-            "meaning": "走廊"
+            "meaning": "走廊",
+            "level": "mid"
           },
           {
             "word": "congestion",
             "ipa": "/kənˈdʒestʃən/",
             "pos": "n",
-            "meaning": "拥堵"
+            "meaning": "拥堵",
+            "level": "high",
+            "example": "Investing in public transport is the most effective way to reduce traffic congestion."
           }
         ],
         "image": "../outputs/13-city-and-architecture/generated-with-text/13-card-01-generated-text.png"
@@ -10704,103 +12159,122 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "facade",
             "ipa": "/fəˈsɑːd/",
             "pos": "n",
-            "meaning": "建筑立面"
+            "meaning": "建筑立面",
+            "level": "mid"
           },
           {
             "word": "blueprint",
             "ipa": "/ˈbluːprɪnt/",
             "pos": "n",
-            "meaning": "蓝图"
+            "meaning": "蓝图",
+            "level": "mid"
           },
           {
             "word": "cantilever",
             "ipa": "/ˈkæntɪliːvə/",
             "pos": "n",
-            "meaning": "悬臂"
+            "meaning": "悬臂",
+            "level": "low"
           },
           {
             "word": "contemporary",
             "ipa": "/kənˈtempərəri/",
             "pos": "adj",
-            "meaning": "当代的"
+            "meaning": "当代的",
+            "level": "mid"
           },
           {
             "word": "ornate",
             "ipa": "/ɔːˈneɪt/",
             "pos": "adj",
-            "meaning": "装饰华丽"
+            "meaning": "装饰华丽",
+            "level": "low"
           },
           {
             "word": "aesthetic",
             "ipa": "/iːsˈθetɪk/",
             "pos": "adj",
-            "meaning": "美学的"
+            "meaning": "美学的",
+            "level": "high",
+            "example": "Modern architecture is often criticised for prioritising function over aesthetic appeal."
           },
           {
             "word": "structural",
             "ipa": "/ˈstrʌktʃərəl/",
             "pos": "adj",
-            "meaning": "结构性的"
+            "meaning": "结构性的",
+            "level": "mid"
           },
           {
             "word": "pillar",
             "ipa": "/ˈpɪlə/",
             "pos": "n",
-            "meaning": "柱子"
+            "meaning": "柱子",
+            "level": "mid"
           },
           {
             "word": "vault",
             "ipa": "/vɔːlt/",
             "pos": "n",
-            "meaning": "拱顶"
+            "meaning": "拱顶",
+            "level": "low"
           },
           {
             "word": "atrium",
             "ipa": "/ˈeɪtriəm/",
             "pos": "n",
-            "meaning": "中庭"
+            "meaning": "中庭",
+            "level": "low"
           },
           {
             "word": "proportion",
             "ipa": "/prəˈpɔːʃn/",
             "pos": "n",
-            "meaning": "比例"
+            "meaning": "比例",
+            "level": "mid"
           },
           {
             "word": "heritage",
             "ipa": "/ˈherɪtɪdʒ/",
             "pos": "n",
-            "meaning": "遗产"
+            "meaning": "遗产",
+            "level": "high",
+            "example": "Traditional festivals help pass cultural heritage on to younger generations."
           },
           {
             "word": "monumental",
             "ipa": "/ˌmɒnjuˈmentl/",
             "pos": "adj",
-            "meaning": "宏伟的"
+            "meaning": "宏伟的",
+            "level": "mid"
           },
           {
             "word": "retrofit",
             "ipa": "/ˈretrəʊfɪt/",
             "pos": "v",
-            "meaning": "改造升级"
+            "meaning": "改造升级",
+            "level": "mid"
           },
           {
             "word": "symmetry",
             "ipa": "/ˈsɪmɪtri/",
             "pos": "n",
-            "meaning": "对称"
+            "meaning": "对称",
+            "level": "mid"
           },
           {
             "word": "archway",
             "ipa": "/ˈɑːtʃweɪ/",
             "pos": "n",
-            "meaning": "拱门"
+            "meaning": "拱门",
+            "level": "low"
           },
           {
             "word": "elevation",
             "ipa": "/ˌelɪˈveɪʃn/",
             "pos": "n",
-            "meaning": "立面图"
+            "meaning": "立面图",
+            "level": "mid"
           }
         ],
         "image": "../outputs/13-city-and-architecture/generated-with-text/13-card-02-generated-text.png"
@@ -10813,103 +12287,123 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "viaduct",
             "ipa": "/ˈvaɪədʌkt/",
             "pos": "n",
-            "meaning": "高架桥"
+            "meaning": "高架桥",
+            "level": "low"
           },
           {
             "word": "underpass",
             "ipa": "/ˈʌndəpɑːs/",
             "pos": "n",
-            "meaning": "地下通道"
+            "meaning": "地下通道",
+            "level": "low"
           },
           {
             "word": "interchange",
             "ipa": "/ˈɪntətʃeɪndʒ/",
             "pos": "n",
-            "meaning": "立交枢纽"
+            "meaning": "立交枢纽",
+            "level": "mid"
           },
           {
             "word": "pedestrian",
             "ipa": "/pɪˈdestriən/",
             "pos": "n",
-            "meaning": "行人"
+            "meaning": "行人",
+            "level": "high",
+            "example": "Pedestrian-friendly city centres encourage people to shop locally and drive less."
           },
           {
             "word": "commute",
             "ipa": "/kəˈmjuːt/",
             "pos": "v",
-            "meaning": "通勤"
+            "meaning": "通勤",
+            "level": "high",
+            "example": "A long daily commute significantly reduces people's quality of life."
           },
           {
             "word": "transit",
             "ipa": "/ˈtrænsɪt/",
             "pos": "n",
-            "meaning": "交通运输"
+            "meaning": "交通运输",
+            "level": "mid"
           },
           {
             "word": "arterial",
             "ipa": "/ɑːˈtɪəriəl/",
             "pos": "adj",
-            "meaning": "主干道的"
+            "meaning": "主干道的",
+            "level": "low"
           },
           {
             "word": "connectivity",
             "ipa": "/ˌkɒnekˈtɪvɪti/",
             "pos": "n",
-            "meaning": "连通性"
+            "meaning": "连通性",
+            "level": "mid"
           },
           {
             "word": "terminus",
             "ipa": "/ˈtɜːmɪnəs/",
             "pos": "n",
-            "meaning": "终点站"
+            "meaning": "终点站",
+            "level": "low"
           },
           {
             "word": "mobility",
             "ipa": "/məʊˈbɪlɪti/",
             "pos": "n",
-            "meaning": "流动性"
+            "meaning": "流动性",
+            "level": "high",
+            "example": "Good public transport improves social mobility by connecting people to jobs."
           },
           {
             "word": "pavement",
             "ipa": "/ˈpeɪvmənt/",
             "pos": "n",
-            "meaning": "人行道"
+            "meaning": "人行道",
+            "level": "mid"
           },
           {
             "word": "junction",
             "ipa": "/ˈdʒʌŋkʃn/",
             "pos": "n",
-            "meaning": "交叉口"
+            "meaning": "交叉口",
+            "level": "mid"
           },
           {
             "word": "roundabout",
             "ipa": "/ˈraʊndəbaʊt/",
             "pos": "n",
-            "meaning": "环形路"
+            "meaning": "环形路",
+            "level": "mid"
           },
           {
             "word": "carriageway",
             "ipa": "/ˈkærɪdʒweɪ/",
             "pos": "n",
-            "meaning": "行车道"
+            "meaning": "行车道",
+            "level": "low"
           },
           {
             "word": "gridlock",
             "ipa": "/ˈɡrɪdlɒk/",
             "pos": "n",
-            "meaning": "交通瘫痪"
+            "meaning": "交通瘫痪",
+            "level": "mid"
           },
           {
             "word": "flyover",
             "ipa": "/ˈflaɪəʊvə/",
             "pos": "n",
-            "meaning": "高架路"
+            "meaning": "高架路",
+            "level": "low"
           },
           {
             "word": "commuter",
             "ipa": "/kəˈmjuːtə/",
             "pos": "n",
-            "meaning": "通勤者"
+            "meaning": "通勤者",
+            "level": "mid"
           }
         ],
         "image": "../outputs/13-city-and-architecture/generated-with-text/13-card-03-generated-text.png"
@@ -10922,13 +12416,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "tenement",
             "ipa": "/ˈtenəmənt/",
             "pos": "n",
-            "meaning": "公寓楼"
+            "meaning": "公寓楼",
+            "level": "low"
           },
           {
             "word": "suburb",
             "ipa": "/ˈsʌbɜːb/",
             "pos": "n",
-            "meaning": "郊区"
+            "meaning": "郊区",
+            "level": "mid"
           },
           {
             "word": "gentrification",
@@ -10941,37 +12437,46 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "dwelling",
             "ipa": "/ˈdwelɪŋ/",
             "pos": "n",
-            "meaning": "住所"
+            "meaning": "住所",
+            "level": "mid"
           },
           {
             "word": "amenity",
             "ipa": "/əˈmiːnɪti/",
             "pos": "n",
-            "meaning": "便利设施"
+            "meaning": "便利设施",
+            "level": "high",
+            "example": "New housing developments should include amenities such as parks and clinics."
           },
           {
             "word": "renovation",
             "ipa": "/ˌrenəˈveɪʃn/",
             "pos": "n",
-            "meaning": "翻新"
+            "meaning": "翻新",
+            "level": "high",
+            "example": "The renovation of the old harbour attracted millions of new visitors."
           },
           {
             "word": "tenure",
             "ipa": "/ˈtenjə/",
             "pos": "n",
-            "meaning": "居住权"
+            "meaning": "居住权",
+            "level": "mid"
           },
           {
             "word": "affordable",
             "ipa": "/əˈfɔːdəbl/",
             "pos": "adj",
-            "meaning": "可负担的"
+            "meaning": "可负担的",
+            "level": "high",
+            "example": "The lack of affordable housing has driven young families out of the city."
           },
           {
             "word": "communal",
             "ipa": "/ˈkɒmjʊnl/",
             "pos": "adj",
-            "meaning": "公共的"
+            "meaning": "公共的",
+            "level": "mid"
           },
           {
             "word": "landlord",
@@ -10984,43 +12489,51 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "occupant",
             "ipa": "/ˈɒkjʊpənt/",
             "pos": "n",
-            "meaning": "居住者"
+            "meaning": "居住者",
+            "level": "mid"
           },
           {
             "word": "terraced",
             "ipa": "/ˈterəst/",
             "pos": "adj",
-            "meaning": "排屋式的"
+            "meaning": "排屋式的",
+            "level": "low"
           },
           {
             "word": "detached",
             "ipa": "/dɪˈtætʃt/",
             "pos": "adj",
-            "meaning": "独立式的"
+            "meaning": "独立式的",
+            "level": "mid"
           },
           {
             "word": "enclave",
             "ipa": "/ˈeŋkleɪv/",
             "pos": "n",
-            "meaning": "聚居区"
+            "meaning": "聚居区",
+            "level": "low"
           },
           {
             "word": "neighbourhood",
             "ipa": "/ˈneɪbəhʊd/",
             "pos": "n",
-            "meaning": "街区"
+            "meaning": "街区",
+            "level": "high",
+            "example": "A strong sense of community makes a neighbourhood safer and more pleasant."
           },
           {
             "word": "displacement",
             "ipa": "/dɪsˈpleɪsmənt/",
             "pos": "n",
-            "meaning": "迁离"
+            "meaning": "迁离",
+            "level": "mid"
           },
           {
             "word": "allocation",
             "ipa": "/ˌæləˈkeɪʃn/",
             "pos": "n",
-            "meaning": "分配"
+            "meaning": "分配",
+            "level": "mid"
           }
         ],
         "image": "../outputs/13-city-and-architecture/generated-with-text/13-card-04-generated-text.png"
@@ -11033,13 +12546,17 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "sustainable",
             "ipa": "/səˈsteɪnəbl/",
             "pos": "adj",
-            "meaning": "可持续的"
+            "meaning": "可持续的",
+            "level": "high",
+            "example": "Governments should promote sustainable development rather than short-term economic gain."
           },
           {
             "word": "renewable",
             "ipa": "/rɪˈnjuːəbl/",
             "pos": "adj",
-            "meaning": "可再生的"
+            "meaning": "可再生的",
+            "level": "high",
+            "example": "Investing in renewable energy is essential for a sustainable future."
           },
           {
             "word": "emission",
@@ -11053,85 +12570,103 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "greenspace",
             "ipa": "/ˈɡriːnspeɪs/",
             "pos": "n",
-            "meaning": "绿地"
+            "meaning": "绿地",
+            "level": "mid"
           },
           {
             "word": "walkability",
             "ipa": "/ˌwɔːkəˈbɪlɪti/",
             "pos": "n",
-            "meaning": "步行友好度"
+            "meaning": "步行友好度",
+            "level": "low"
           },
           {
             "word": "biodiversity",
             "ipa": "/ˌbaɪəʊdaɪˈvɜːsɪti/",
             "pos": "n",
-            "meaning": "生物多样性"
+            "meaning": "生物多样性",
+            "level": "high",
+            "example": "Protecting biodiversity is just as urgent as tackling climate change."
           },
           {
             "word": "resilience",
             "ipa": "/rɪˈzɪliəns/",
             "pos": "n",
-            "meaning": "韧性"
+            "meaning": "韧性",
+            "level": "high",
+            "example": "Cities must build resilience against extreme weather through better planning and infrastructure."
           },
           {
             "word": "ecological",
             "ipa": "/ˌiːkəˈlɒdʒɪkl/",
             "pos": "adj",
-            "meaning": "生态的"
+            "meaning": "生态的",
+            "level": "high",
+            "example": "The oil spill caused an ecological disaster that took decades to recover from."
           },
           {
             "word": "insulation",
             "ipa": "/ˌɪnsjʊˈleɪʃn/",
             "pos": "n",
-            "meaning": "绝热材料"
+            "meaning": "绝热材料",
+            "level": "mid"
           },
           {
             "word": "mitigation",
             "ipa": "/ˌmɪtɪˈɡeɪʃn/",
             "pos": "n",
-            "meaning": "缓解"
+            "meaning": "缓解",
+            "level": "mid"
           },
           {
             "word": "conservation",
             "ipa": "/ˌkɒnsəˈveɪʃn/",
             "pos": "n",
-            "meaning": "保护"
+            "meaning": "保护",
+            "level": "high",
+            "example": "Wildlife conservation requires cooperation between governments, scientists and local communities."
           },
           {
             "word": "photovoltaic",
             "ipa": "/ˌfəʊtəʊvɒlˈteɪɪk/",
             "pos": "adj",
-            "meaning": "光伏的"
+            "meaning": "光伏的",
+            "level": "low"
           },
           {
             "word": "canopy",
             "ipa": "/ˈkænəpi/",
             "pos": "n",
-            "meaning": "树冠层"
+            "meaning": "树冠层",
+            "level": "low"
           },
           {
             "word": "permeable",
             "ipa": "/ˈpɜːmiəbl/",
             "pos": "adj",
-            "meaning": "可渗透的"
+            "meaning": "可渗透的",
+            "level": "low"
           },
           {
             "word": "landfill",
             "ipa": "/ˈlændfɪl/",
             "pos": "n",
-            "meaning": "垃圾填埋"
+            "meaning": "垃圾填埋",
+            "level": "mid"
           },
           {
             "word": "stormwater",
             "ipa": "/ˈstɔːmwɔːtə/",
             "pos": "n",
-            "meaning": "雨水"
+            "meaning": "雨水",
+            "level": "low"
           },
           {
             "word": "rooftop",
             "ipa": "/ˈruːftɒp/",
             "pos": "n",
-            "meaning": "屋顶"
+            "meaning": "屋顶",
+            "level": "mid"
           }
         ],
         "image": "../outputs/13-city-and-architecture/generated-with-text/13-card-05-generated-text.png"
@@ -11356,97 +12891,118 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "commute",
             "ipa": "/kəˈmjuːt/",
             "pos": "v",
-            "meaning": "通勤"
+            "meaning": "通勤",
+            "level": "high",
+            "example": "A long daily commute significantly reduces people's quality of life."
           },
           {
             "word": "congestion",
             "ipa": "/kənˈdʒestʃən/",
             "pos": "n",
-            "meaning": "交通拥堵"
+            "meaning": "交通拥堵",
+            "level": "high",
+            "example": "Investing in public transport is the most effective way to reduce traffic congestion."
           },
           {
             "word": "fare",
             "ipa": "/feər/",
             "pos": "n",
-            "meaning": "票价"
+            "meaning": "票价",
+            "level": "mid"
           },
           {
             "word": "timetable",
             "ipa": "/ˈtaɪmˌteɪbəl/",
             "pos": "n",
-            "meaning": "时刻表"
+            "meaning": "时刻表",
+            "level": "mid"
           },
           {
             "word": "terminus",
             "ipa": "/ˈtɜːmɪnəs/",
             "pos": "n",
-            "meaning": "终点站"
+            "meaning": "终点站",
+            "level": "low"
           },
           {
             "word": "transit",
             "ipa": "/ˈtrænsɪt/",
             "pos": "n",
-            "meaning": "公交运输"
+            "meaning": "公交运输",
+            "level": "mid"
           },
           {
             "word": "route",
             "ipa": "/ruːt/",
             "pos": "n",
-            "meaning": "路线"
+            "meaning": "路线",
+            "level": "mid"
           },
           {
             "word": "platform",
             "ipa": "/ˈplætfɔːm/",
             "pos": "n",
-            "meaning": "站台"
+            "meaning": "站台",
+            "level": "high",
+            "example": "Social media platforms have become the main source of news for young people."
           },
           {
             "word": "shuttle",
             "ipa": "/ˈʃʌtəl/",
             "pos": "n",
-            "meaning": "穿梭巴士"
+            "meaning": "穿梭巴士",
+            "level": "mid"
           },
           {
             "word": "pedestrian",
             "ipa": "/pəˈdestriən/",
             "pos": "n",
-            "meaning": "行人"
+            "meaning": "行人",
+            "level": "high",
+            "example": "Pedestrian-friendly city centres encourage people to shop locally and drive less."
           },
           {
             "word": "intersection",
             "ipa": "/ˌɪntəˈsekʃən/",
             "pos": "n",
-            "meaning": "十字路口"
+            "meaning": "十字路口",
+            "level": "mid"
           },
           {
             "word": "connectivity",
             "ipa": "/ˌkɒnekˈtɪvɪti/",
             "pos": "n",
-            "meaning": "连通性"
+            "meaning": "连通性",
+            "level": "mid"
           },
           {
             "word": "overcrowded",
             "ipa": "/ˌoʊvəˈkraʊdɪd/",
             "pos": "adj",
-            "meaning": "过度拥挤的"
+            "meaning": "过度拥挤的",
+            "level": "high",
+            "example": "Overcrowded trains during rush hour make the daily commute exhausting."
           },
           {
             "word": "frequency",
             "ipa": "/ˈfriːkwənsi/",
             "pos": "n",
-            "meaning": "班次密度"
+            "meaning": "班次密度",
+            "level": "mid"
           },
           {
             "word": "network",
             "ipa": "/ˈnetwɜːrk/",
             "pos": "n",
-            "meaning": "交通网络"
+            "meaning": "交通网络",
+            "level": "mid"
           },
           {
             "word": "suburban",
             "ipa": "/səˈbɜːbən/",
             "pos": "adj",
-            "meaning": "郊区的"
+            "meaning": "郊区的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/14-transportation-and-transit/generated-with-text/14-card-01-generated-text.png"
@@ -11459,67 +13015,79 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "infrastructure",
             "ipa": "/ˈɪnfrəˌstrʌktʃər/",
             "pos": "n",
-            "meaning": "基础设施"
+            "meaning": "基础设施",
+            "level": "high",
+            "example": "Investment in public infrastructure creates jobs and stimulates long-term economic growth."
           },
           {
             "word": "motorway",
             "ipa": "/ˈmoʊtərweɪ/",
             "pos": "n",
-            "meaning": "高速公路"
+            "meaning": "高速公路",
+            "level": "mid"
           },
           {
             "word": "gridlock",
             "ipa": "/ˈɡrɪdlɒk/",
             "pos": "n",
-            "meaning": "严重堵车"
+            "meaning": "严重堵车",
+            "level": "mid"
           },
           {
             "word": "lane",
             "ipa": "/leɪn/",
             "pos": "n",
-            "meaning": "车道"
+            "meaning": "车道",
+            "level": "mid"
           },
           {
             "word": "toll",
             "ipa": "/toʊl/",
             "pos": "n",
-            "meaning": "通行费"
+            "meaning": "通行费",
+            "level": "mid"
           },
           {
             "word": "signage",
             "ipa": "/ˈsaɪnɪdʒ/",
             "pos": "n",
-            "meaning": "道路标识"
+            "meaning": "道路标识",
+            "level": "mid"
           },
           {
             "word": "junction",
             "ipa": "/ˈdʒʌŋkʃən/",
             "pos": "n",
-            "meaning": "交汇处"
+            "meaning": "交汇处",
+            "level": "mid"
           },
           {
             "word": "bypass",
             "ipa": "/ˈbaɪpæs/",
             "pos": "n",
-            "meaning": "绕行道"
+            "meaning": "绕行道",
+            "level": "mid"
           },
           {
             "word": "roundabout",
             "ipa": "/ˈraʊndəbaʊt/",
             "pos": "n",
-            "meaning": "环形路口"
+            "meaning": "环形路口",
+            "level": "mid"
           },
           {
             "word": "pavement",
             "ipa": "/ˈpeɪvmənt/",
             "pos": "n",
-            "meaning": "人行道"
+            "meaning": "人行道",
+            "level": "mid"
           },
           {
             "word": "detour",
             "ipa": "/ˈdiːtʊər/",
             "pos": "n",
-            "meaning": "绕行路线"
+            "meaning": "绕行路线",
+            "level": "mid"
           },
           {
             "word": "velocity",
@@ -11532,25 +13100,29 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "overtake",
             "ipa": "/ˌoʊvəˈteɪk/",
             "pos": "v",
-            "meaning": "超车"
+            "meaning": "超车",
+            "level": "mid"
           },
           {
             "word": "pothole",
             "ipa": "/ˈpɒthoʊl/",
             "pos": "n",
-            "meaning": "路面坑洞"
+            "meaning": "路面坑洞",
+            "level": "low"
           },
           {
             "word": "kerb",
             "ipa": "/kɜːb/",
             "pos": "n",
-            "meaning": "路缘石"
+            "meaning": "路缘石",
+            "level": "low"
           },
           {
             "word": "carriageway",
             "ipa": "/ˈkæriɪdʒweɪ/",
             "pos": "n",
-            "meaning": "行车道"
+            "meaning": "行车道",
+            "level": "low"
           }
         ],
         "image": "../outputs/14-transportation-and-transit/generated-with-text/14-card-02-generated-text.png"
@@ -11563,97 +13135,114 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "locomotive",
             "ipa": "/ˌloʊkəˈmoʊtɪv/",
             "pos": "n",
-            "meaning": "机车头"
+            "meaning": "机车头",
+            "level": "low"
           },
           {
             "word": "carriage",
             "ipa": "/ˈkæriɪdʒ/",
             "pos": "n",
-            "meaning": "车厢"
+            "meaning": "车厢",
+            "level": "mid"
           },
           {
             "word": "conductor",
             "ipa": "/kənˈdʌktər/",
             "pos": "n",
-            "meaning": "列车长"
+            "meaning": "列车长",
+            "level": "mid"
           },
           {
             "word": "punctuality",
             "ipa": "/ˌpʌŋktʃuˈælɪti/",
             "pos": "n",
-            "meaning": "准时性"
+            "meaning": "准时性",
+            "level": "mid"
           },
           {
             "word": "underground",
             "ipa": "/ˈʌndəɡraʊnd/",
             "pos": "n",
-            "meaning": "地铁"
+            "meaning": "地铁",
+            "level": "mid"
           },
           {
             "word": "elevated",
             "ipa": "/ˈelɪveɪtɪd/",
             "pos": "adj",
-            "meaning": "高架的"
+            "meaning": "高架的",
+            "level": "mid"
           },
           {
             "word": "commuter",
             "ipa": "/kəˈmjuːtər/",
             "pos": "n",
-            "meaning": "通勤者"
+            "meaning": "通勤者",
+            "level": "mid"
           },
           {
             "word": "viaduct",
             "ipa": "/ˈvaɪədʌkt/",
             "pos": "n",
-            "meaning": "高架桥"
+            "meaning": "高架桥",
+            "level": "low"
           },
           {
             "word": "freight",
             "ipa": "/freɪt/",
             "pos": "n",
-            "meaning": "货运"
+            "meaning": "货运",
+            "level": "high",
+            "example": "Shifting freight from trucks to trains would significantly reduce pollution."
           },
           {
             "word": "interchange",
             "ipa": "/ˈɪntətʃeɪndʒ/",
             "pos": "n",
-            "meaning": "换乘站"
+            "meaning": "换乘站",
+            "level": "mid"
           },
           {
             "word": "delay",
             "ipa": "/dɪˈleɪ/",
             "pos": "n",
-            "meaning": "延误"
+            "meaning": "延误",
+            "level": "mid"
           },
           {
             "word": "suspension",
             "ipa": "/səˈspenʃən/",
             "pos": "n",
-            "meaning": "停运"
+            "meaning": "停运",
+            "level": "mid"
           },
           {
             "word": "magnetic",
             "ipa": "/mæɡˈnetɪk/",
             "pos": "adj",
-            "meaning": "磁力的"
+            "meaning": "磁力的",
+            "level": "mid"
           },
           {
             "word": "high-speed",
             "ipa": "/ˌhaɪˈspiːd/",
             "pos": "adj",
-            "meaning": "高速的"
+            "meaning": "高速的",
+            "level": "mid"
           },
           {
             "word": "departure",
             "ipa": "/dɪˈpɑːrtʃər/",
             "pos": "n",
-            "meaning": "发车/出发"
+            "meaning": "发车/出发",
+            "level": "mid"
           },
           {
             "word": "signalling",
             "ipa": "/ˈsɪɡnəlɪŋ/",
             "pos": "n",
-            "meaning": "信号系统"
+            "meaning": "信号系统",
+            "level": "low"
           }
         ],
         "image": "../outputs/14-transportation-and-transit/generated-with-text/14-card-03-generated-text.png"
@@ -11666,97 +13255,115 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "terminal",
             "ipa": "/ˈtɜːmɪnəl/",
             "pos": "n",
-            "meaning": "航站楼"
+            "meaning": "航站楼",
+            "level": "mid"
           },
           {
             "word": "runway",
             "ipa": "/ˈrʌnweɪ/",
             "pos": "n",
-            "meaning": "跑道"
+            "meaning": "跑道",
+            "level": "mid"
           },
           {
             "word": "turbulence",
             "ipa": "/ˈtɜːbjələns/",
             "pos": "n",
-            "meaning": "颠簸气流"
+            "meaning": "颠簸气流",
+            "level": "mid"
           },
           {
             "word": "altitude",
             "ipa": "/ˈæltɪtjuːd/",
             "pos": "n",
-            "meaning": "飞行高度"
+            "meaning": "飞行高度",
+            "level": "mid"
           },
           {
             "word": "aviation",
             "ipa": "/ˌeɪviˈeɪʃən/",
             "pos": "n",
-            "meaning": "航空业"
+            "meaning": "航空业",
+            "level": "high",
+            "example": "The aviation industry is under growing pressure to cut carbon emissions."
           },
           {
             "word": "airspace",
             "ipa": "/ˈeərˌspeɪs/",
             "pos": "n",
-            "meaning": "领空"
+            "meaning": "领空",
+            "level": "low"
           },
           {
             "word": "taxiway",
             "ipa": "/ˈtæksiweɪ/",
             "pos": "n",
-            "meaning": "滑行道"
+            "meaning": "滑行道",
+            "level": "low"
           },
           {
             "word": "customs",
             "ipa": "/ˈkʌstəmz/",
             "pos": "n",
-            "meaning": "海关"
+            "meaning": "海关",
+            "level": "mid"
           },
           {
             "word": "immigration",
             "ipa": "/ˌɪmɪˈɡreɪʃən/",
             "pos": "n",
-            "meaning": "入境审查"
+            "meaning": "入境审查",
+            "level": "mid"
           },
           {
             "word": "charter",
             "ipa": "/ˈtʃɑːrtər/",
             "pos": "v./n",
-            "meaning": "包机"
+            "meaning": "包机",
+            "level": "low"
           },
           {
             "word": "boarding",
             "ipa": "/ˈbɔːrdɪŋ/",
             "pos": "n",
-            "meaning": "登机"
+            "meaning": "登机",
+            "level": "mid"
           },
           {
             "word": "layover",
             "ipa": "/ˈleɪˌoʊvər/",
             "pos": "n",
-            "meaning": "中转停留"
+            "meaning": "中转停留",
+            "level": "low"
           },
           {
             "word": "navigation",
             "ipa": "/ˌnævɪˈɡeɪʃən/",
             "pos": "n",
-            "meaning": "导航"
+            "meaning": "导航",
+            "level": "high",
+            "example": "Satellite navigation has made getting lost a thing of the past."
           },
           {
             "word": "clearance",
             "ipa": "/ˈklɪərəns/",
             "pos": "n",
-            "meaning": "放行许可"
+            "meaning": "放行许可",
+            "level": "mid"
           },
           {
             "word": "manifest",
             "ipa": "/ˈmænɪfest/",
             "pos": "n",
-            "meaning": "乘客清单"
+            "meaning": "乘客清单",
+            "level": "low"
           },
           {
             "word": "deregulation",
             "ipa": "/ˌdiːˌreɡjəˈleɪʃən/",
             "pos": "n",
-            "meaning": "放松管制"
+            "meaning": "放松管制",
+            "level": "mid"
           }
         ],
         "image": "../outputs/14-transportation-and-transit/generated-with-text/14-card-04-generated-text.png"
@@ -11777,43 +13384,53 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "electric",
             "ipa": "/ɪˈlektrɪk/",
             "pos": "adj",
-            "meaning": "电动的"
+            "meaning": "电动的",
+            "level": "high",
+            "example": "Governments are offering subsidies to encourage drivers to switch to electric cars."
           },
           {
             "word": "hybrid",
             "ipa": "/ˈhaɪbrɪd/",
             "pos": "adj./n",
-            "meaning": "混合动力的"
+            "meaning": "混合动力的",
+            "level": "mid"
           },
           {
             "word": "renewable",
             "ipa": "/rɪˈnjuːəbl/",
             "pos": "adj",
-            "meaning": "可再生的"
+            "meaning": "可再生的",
+            "level": "high",
+            "example": "Investing in renewable energy is essential for a sustainable future."
           },
           {
             "word": "carpool",
             "ipa": "/ˈkɑːrpuːl/",
             "pos": "v./n",
-            "meaning": "拼车"
+            "meaning": "拼车",
+            "level": "mid"
           },
           {
             "word": "decarbonise",
             "ipa": "/diːˈkɑːbənaɪz/",
             "pos": "v",
-            "meaning": "脱碳"
+            "meaning": "脱碳",
+            "level": "mid"
           },
           {
             "word": "autonomous",
             "ipa": "/ɔːˈtɒnəməs/",
             "pos": "adj",
-            "meaning": "自动驾驶的"
+            "meaning": "自动驾驶的",
+            "level": "high",
+            "example": "Autonomous vehicles could dramatically reduce the number of road accidents."
           },
           {
             "word": "micromobility",
             "ipa": "/ˌmaɪkroʊmoʊˈbɪlɪti/",
             "pos": "n",
-            "meaning": "微出行"
+            "meaning": "微出行",
+            "level": "low"
           },
           {
             "word": "subsidy",
@@ -11827,43 +13444,51 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "incentivise",
             "ipa": "/ɪnˈsentɪvaɪz/",
             "pos": "v",
-            "meaning": "激励推广"
+            "meaning": "激励推广",
+            "level": "mid"
           },
           {
             "word": "electrification",
             "ipa": "/ɪˌlektrɪfɪˈkeɪʃən/",
             "pos": "n",
-            "meaning": "电气化"
+            "meaning": "电气化",
+            "level": "mid"
           },
           {
             "word": "sustainable",
             "ipa": "/səˈsteɪnəbl/",
             "pos": "adj",
-            "meaning": "可持续的"
+            "meaning": "可持续的",
+            "level": "high",
+            "example": "Governments should promote sustainable development rather than short-term economic gain."
           },
           {
             "word": "cyclist",
             "ipa": "/ˈsaɪklɪst/",
             "pos": "n",
-            "meaning": "骑行者"
+            "meaning": "骑行者",
+            "level": "mid"
           },
           {
             "word": "pedestrianise",
             "ipa": "/pəˌdestriənaɪz/",
             "pos": "v",
-            "meaning": "改建步行街"
+            "meaning": "改建步行街",
+            "level": "low"
           },
           {
             "word": "zero-emission",
             "ipa": "/ˌzɪəroʊ ɪˈmɪʃən/",
             "pos": "adj",
-            "meaning": "零排放的"
+            "meaning": "零排放的",
+            "level": "mid"
           },
           {
             "word": "grid",
             "ipa": "/ɡrɪd/",
             "pos": "n",
-            "meaning": "电网"
+            "meaning": "电网",
+            "level": "mid"
           }
         ],
         "image": "../outputs/14-transportation-and-transit/generated-with-text/14-card-05-generated-text.png"
@@ -12126,91 +13751,107 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "judiciary",
             "ipa": "/dʒuːˈdɪʃiəri/",
             "pos": "n",
-            "meaning": "司法机构"
+            "meaning": "司法机构",
+            "level": "mid"
           },
           {
             "word": "plaintiff",
             "ipa": "/ˈpleɪntɪf/",
             "pos": "n",
-            "meaning": "原告"
+            "meaning": "原告",
+            "level": "mid"
           },
           {
             "word": "defendant",
             "ipa": "/dɪˈfendənt/",
             "pos": "n",
-            "meaning": "被告"
+            "meaning": "被告",
+            "level": "mid"
           },
           {
             "word": "prosecutor",
             "ipa": "/ˈprɒsɪkjuːtər/",
             "pos": "n",
-            "meaning": "检察官"
+            "meaning": "检察官",
+            "level": "mid"
           },
           {
             "word": "verdict",
             "ipa": "/ˈvɜːdɪkt/",
             "pos": "n",
-            "meaning": "裁决"
+            "meaning": "裁决",
+            "level": "mid"
           },
           {
             "word": "acquittal",
             "ipa": "/əˈkwɪtəl/",
             "pos": "n",
-            "meaning": "无罪开释"
+            "meaning": "无罪开释",
+            "level": "mid"
           },
           {
             "word": "conviction",
             "ipa": "/kənˈvɪkʃən/",
             "pos": "n",
-            "meaning": "定罪"
+            "meaning": "定罪",
+            "level": "high",
+            "example": "A criminal conviction can make it almost impossible to find employment."
           },
           {
             "word": "testimony",
             "ipa": "/ˈtestɪməni/",
             "pos": "n",
-            "meaning": "证词"
+            "meaning": "证词",
+            "level": "mid"
           },
           {
             "word": "subpoena",
             "ipa": "/səˈpiːnə/",
             "pos": "n",
-            "meaning": "传票"
+            "meaning": "传票",
+            "level": "low"
           },
           {
             "word": "impartial",
             "ipa": "/ɪmˈpɑːʃəl/",
             "pos": "adj",
-            "meaning": "公正的"
+            "meaning": "公正的",
+            "level": "mid"
           },
           {
             "word": "perjury",
             "ipa": "/ˈpɜːdʒəri/",
             "pos": "n",
-            "meaning": "伪证罪"
+            "meaning": "伪证罪",
+            "level": "low"
           },
           {
             "word": "injunction",
             "ipa": "/ɪnˈdʒʌŋkʃən/",
             "pos": "n",
-            "meaning": "禁令"
+            "meaning": "禁令",
+            "level": "low"
           },
           {
             "word": "deliberate",
             "ipa": "/dɪˈlɪbərət/",
             "pos": "adj",
-            "meaning": "故意的"
+            "meaning": "故意的",
+            "level": "mid"
           },
           {
             "word": "corroborate",
             "ipa": "/kəˈrɒbəreɪt/",
             "pos": "v",
-            "meaning": "证实"
+            "meaning": "证实",
+            "level": "low"
           },
           {
             "word": "jurisdiction",
             "ipa": "/ˌdʒʊərɪsˈdɪkʃən/",
             "pos": "n",
-            "meaning": "司法管辖"
+            "meaning": "司法管辖",
+            "level": "mid"
           }
         ],
         "image": "../outputs/15-law-and-crime/generated-with-text/15-card-01-generated-text.png"
@@ -12223,97 +13864,114 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "fraud",
             "ipa": "/frɔːd/",
             "pos": "n",
-            "meaning": "欺诈"
+            "meaning": "欺诈",
+            "level": "mid"
           },
           {
             "word": "embezzlement",
             "ipa": "/ɪmˈbezəlmənt/",
             "pos": "n",
-            "meaning": "挪用公款"
+            "meaning": "挪用公款",
+            "level": "low"
           },
           {
             "word": "burglary",
             "ipa": "/ˈbɜːɡləri/",
             "pos": "n",
-            "meaning": "入室盗窃"
+            "meaning": "入室盗窃",
+            "level": "mid"
           },
           {
             "word": "extortion",
             "ipa": "/ɪkˈstɔːʃən/",
             "pos": "n",
-            "meaning": "勒索"
+            "meaning": "勒索",
+            "level": "low"
           },
           {
             "word": "arson",
             "ipa": "/ˈɑːsən/",
             "pos": "n",
-            "meaning": "纵火罪"
+            "meaning": "纵火罪",
+            "level": "mid"
           },
           {
             "word": "trafficking",
             "ipa": "/ˈtræfɪkɪŋ/",
             "pos": "n",
-            "meaning": "贩运"
+            "meaning": "贩运",
+            "level": "high",
+            "example": "International cooperation is essential to stop the trafficking of endangered animals."
           },
           {
             "word": "homicide",
             "ipa": "/ˈhɒmɪsaɪd/",
             "pos": "n",
-            "meaning": "杀人罪"
+            "meaning": "杀人罪",
+            "level": "mid"
           },
           {
             "word": "vandalism",
             "ipa": "/ˈvændəlɪzəm/",
             "pos": "n",
-            "meaning": "故意破坏"
+            "meaning": "故意破坏",
+            "level": "mid"
           },
           {
             "word": "perpetrator",
             "ipa": "/ˈpɜːpətreɪtər/",
             "pos": "n",
-            "meaning": "犯罪者"
+            "meaning": "犯罪者",
+            "level": "mid"
           },
           {
             "word": "accomplice",
             "ipa": "/əˈkɒmplɪs/",
             "pos": "n",
-            "meaning": "同谋"
+            "meaning": "同谋",
+            "level": "mid"
           },
           {
             "word": "felony",
             "ipa": "/ˈfeləni/",
             "pos": "n",
-            "meaning": "重罪"
+            "meaning": "重罪",
+            "level": "mid"
           },
           {
             "word": "misdemeanor",
             "ipa": "/ˌmɪsdɪˈmiːnər/",
             "pos": "n",
-            "meaning": "轻罪"
+            "meaning": "轻罪",
+            "level": "low"
           },
           {
             "word": "premeditated",
             "ipa": "/priːˈmedɪteɪtɪd/",
             "pos": "adj",
-            "meaning": "预谋的"
+            "meaning": "预谋的",
+            "level": "mid"
           },
           {
             "word": "culpable",
             "ipa": "/ˈkʌlpəbl/",
             "pos": "adj",
-            "meaning": "有罪的"
+            "meaning": "有罪的",
+            "level": "low"
           },
           {
             "word": "larceny",
             "ipa": "/ˈlɑːsəni/",
             "pos": "n",
-            "meaning": "盗窃罪"
+            "meaning": "盗窃罪",
+            "level": "low"
           },
           {
             "word": "conspiracy",
             "ipa": "/kənˈspɪrəsi/",
             "pos": "n",
-            "meaning": "共谋"
+            "meaning": "共谋",
+            "level": "mid"
           }
         ],
         "image": "../outputs/15-law-and-crime/generated-with-text/15-card-02-generated-text.png"
@@ -12326,91 +13984,109 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "interrogation",
             "ipa": "/ɪnˌterəˈɡeɪʃən/",
             "pos": "n",
-            "meaning": "审讯"
+            "meaning": "审讯",
+            "level": "mid"
           },
           {
             "word": "surveillance",
             "ipa": "/səˈveɪləns/",
             "pos": "n",
-            "meaning": "监控"
+            "meaning": "监控",
+            "level": "high",
+            "example": "The spread of surveillance cameras raises serious concerns about privacy."
           },
           {
             "word": "forensic",
             "ipa": "/fəˈrenzɪk/",
             "pos": "adj",
-            "meaning": "法证的"
+            "meaning": "法证的",
+            "level": "mid"
           },
           {
             "word": "warrant",
             "ipa": "/ˈwɒrənt/",
             "pos": "n",
-            "meaning": "搜查令"
+            "meaning": "搜查令",
+            "level": "mid"
           },
           {
             "word": "custody",
             "ipa": "/ˈkʌstədi/",
             "pos": "n",
-            "meaning": "羁押"
+            "meaning": "羁押",
+            "level": "mid"
           },
           {
             "word": "apprehend",
             "ipa": "/ˌæprɪˈhend/",
             "pos": "v",
-            "meaning": "逮捕"
+            "meaning": "逮捕",
+            "level": "mid"
           },
           {
             "word": "detain",
             "ipa": "/dɪˈteɪn/",
             "pos": "v",
-            "meaning": "拘留"
+            "meaning": "拘留",
+            "level": "mid"
           },
           {
             "word": "confiscate",
             "ipa": "/ˈkɒnfɪskeɪt/",
             "pos": "v",
-            "meaning": "没收"
+            "meaning": "没收",
+            "level": "mid"
           },
           {
             "word": "informant",
             "ipa": "/ɪnˈfɔːmənt/",
             "pos": "n",
-            "meaning": "线人"
+            "meaning": "线人",
+            "level": "low"
           },
           {
             "word": "alibi",
             "ipa": "/ˈæləbaɪ/",
             "pos": "n",
-            "meaning": "不在场证明"
+            "meaning": "不在场证明",
+            "level": "mid"
           },
           {
             "word": "motive",
             "ipa": "/ˈməʊtɪv/",
             "pos": "n",
-            "meaning": "犯罪动机"
+            "meaning": "犯罪动机",
+            "level": "high",
+            "example": "Understanding the motive behind a crime is essential to preventing it."
           },
           {
             "word": "evidence",
             "ipa": "/ˈevɪdəns/",
             "pos": "n",
-            "meaning": "证据"
+            "meaning": "证据",
+            "level": "high",
+            "example": "There is strong evidence that harsher sentences do not reduce crime."
           },
           {
             "word": "incriminate",
             "ipa": "/ɪnˈkrɪmɪneɪt/",
             "pos": "v",
-            "meaning": "使入罪"
+            "meaning": "使入罪",
+            "level": "low"
           },
           {
             "word": "undercover",
             "ipa": "/ˌʌndəˈkʌvər/",
             "pos": "adj",
-            "meaning": "秘密的"
+            "meaning": "秘密的",
+            "level": "mid"
           },
           {
             "word": "patrol",
             "ipa": "/pəˈtrəʊl/",
             "pos": "n",
-            "meaning": "巡逻"
+            "meaning": "巡逻",
+            "level": "mid"
           }
         ],
         "image": "../outputs/15-law-and-crime/generated-with-text/15-card-03-generated-text.png"
@@ -12423,91 +14099,110 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "presumption",
             "ipa": "/prɪˈzʌmpʃən/",
             "pos": "n",
-            "meaning": "推定"
+            "meaning": "推定",
+            "level": "mid"
           },
           {
             "word": "litigation",
             "ipa": "/ˌlɪtɪˈɡeɪʃən/",
             "pos": "n",
-            "meaning": "诉讼"
+            "meaning": "诉讼",
+            "level": "mid"
           },
           {
             "word": "appeal",
             "ipa": "/əˈpiːl/",
             "pos": "n",
-            "meaning": "上诉"
+            "meaning": "上诉",
+            "level": "high",
+            "example": "The defendant lodged an appeal against what he saw as an unjust verdict."
           },
           {
             "word": "bail",
             "ipa": "/beɪl/",
             "pos": "n",
-            "meaning": "保释金"
+            "meaning": "保释金",
+            "level": "mid"
           },
           {
             "word": "attorney",
             "ipa": "/əˈtɜːni/",
             "pos": "n",
-            "meaning": "律师"
+            "meaning": "律师",
+            "level": "mid"
           },
           {
             "word": "plea",
             "ipa": "/pliː/",
             "pos": "n",
-            "meaning": "答辩"
+            "meaning": "答辩",
+            "level": "mid"
           },
           {
             "word": "exonerate",
             "ipa": "/ɪɡˈzɒnəreɪt/",
             "pos": "v",
-            "meaning": "免罪"
+            "meaning": "免罪",
+            "level": "low"
           },
           {
             "word": "mitigate",
             "ipa": "/ˈmɪtɪɡeɪt/",
             "pos": "v",
-            "meaning": "减轻"
+            "meaning": "减轻",
+            "level": "high",
+            "example": "Planting trees in urban areas can help mitigate the effects of air pollution."
           },
           {
             "word": "immunity",
             "ipa": "/ɪˈmjuːnɪti/",
             "pos": "n",
-            "meaning": "豁免权"
+            "meaning": "豁免权",
+            "level": "high",
+            "example": "Vaccines build immunity without exposing people to the full disease."
           },
           {
             "word": "indict",
             "ipa": "/ɪnˈdaɪt/",
             "pos": "v",
-            "meaning": "起诉"
+            "meaning": "起诉",
+            "level": "mid"
           },
           {
             "word": "arbitration",
             "ipa": "/ˌɑːbɪˈtreɪʃən/",
             "pos": "n",
-            "meaning": "仲裁"
+            "meaning": "仲裁",
+            "level": "mid"
           },
           {
             "word": "affidavit",
             "ipa": "/ˌæfɪˈdeɪvɪt/",
             "pos": "n",
-            "meaning": "宣誓书"
+            "meaning": "宣誓书",
+            "level": "low"
           },
           {
             "word": "settlement",
             "ipa": "/ˈsetlmənt/",
             "pos": "n",
-            "meaning": "和解"
+            "meaning": "和解",
+            "level": "high",
+            "example": "The two companies reached a settlement rather than going to court."
           },
           {
             "word": "allegation",
             "ipa": "/ˌæləˈɡeɪʃən/",
             "pos": "n",
-            "meaning": "指控"
+            "meaning": "指控",
+            "level": "mid"
           },
           {
             "word": "grievance",
             "ipa": "/ˈɡriːvəns/",
             "pos": "n",
-            "meaning": "申诉"
+            "meaning": "申诉",
+            "level": "mid"
           }
         ],
         "image": "../outputs/15-law-and-crime/generated-with-text/15-card-04-generated-text.png"
@@ -12520,97 +14215,117 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "incarceration",
             "ipa": "/ɪnˌkɑːsəˈreɪʃən/",
             "pos": "n",
-            "meaning": "监禁"
+            "meaning": "监禁",
+            "level": "mid"
           },
           {
             "word": "probation",
             "ipa": "/prəˈbeɪʃən/",
             "pos": "n",
-            "meaning": "缓刑"
+            "meaning": "缓刑",
+            "level": "mid"
           },
           {
             "word": "parole",
             "ipa": "/pəˈrəʊl/",
             "pos": "n",
-            "meaning": "假释"
+            "meaning": "假释",
+            "level": "mid"
           },
           {
             "word": "rehabilitation",
             "ipa": "/ˌriːhəˌbɪlɪˈteɪʃən/",
             "pos": "n",
-            "meaning": "改造"
+            "meaning": "改造",
+            "level": "high",
+            "example": "Effective rehabilitation reduces the likelihood that offenders will reoffend."
           },
           {
             "word": "deterrence",
             "ipa": "/dɪˈterəns/",
             "pos": "n",
-            "meaning": "威慑"
+            "meaning": "威慑",
+            "level": "high",
+            "example": "The main purpose of imprisonment should be deterrence, not revenge."
           },
           {
             "word": "retribution",
             "ipa": "/ˌretrɪˈbjuːʃən/",
             "pos": "n",
-            "meaning": "惩罚"
+            "meaning": "惩罚",
+            "level": "mid"
           },
           {
             "word": "restitution",
             "ipa": "/ˌrestɪˈtjuːʃən/",
             "pos": "n",
-            "meaning": "赔偿"
+            "meaning": "赔偿",
+            "level": "low"
           },
           {
             "word": "penalty",
             "ipa": "/ˈpenəlti/",
             "pos": "n",
-            "meaning": "刑罚"
+            "meaning": "刑罚",
+            "level": "high",
+            "example": "Some argue that the death penalty has no place in a civilised society."
           },
           {
             "word": "recidivism",
             "ipa": "/rɪˈsɪdɪvɪzəm/",
             "pos": "n",
-            "meaning": "累犯"
+            "meaning": "累犯",
+            "level": "low"
           },
           {
             "word": "penitentiary",
             "ipa": "/ˌpenɪˈtenʃəri/",
             "pos": "n",
-            "meaning": "监狱"
+            "meaning": "监狱",
+            "level": "low"
           },
           {
             "word": "remorse",
             "ipa": "/rɪˈmɔːs/",
             "pos": "n",
-            "meaning": "悔恨"
+            "meaning": "悔恨",
+            "level": "mid"
           },
           {
             "word": "amnesty",
             "ipa": "/ˈæmnɪsti/",
             "pos": "n",
-            "meaning": "特赦"
+            "meaning": "特赦",
+            "level": "mid"
           },
           {
             "word": "sentence",
             "ipa": "/ˈsentəns/",
             "pos": "n",
-            "meaning": "刑期"
+            "meaning": "刑期",
+            "level": "mid"
           },
           {
             "word": "commute",
             "ipa": "/kəˈmjuːt/",
             "pos": "v",
-            "meaning": "减刑"
+            "meaning": "减刑",
+            "level": "high",
+            "example": "A long daily commute significantly reduces people's quality of life."
           },
           {
             "word": "reformatory",
             "ipa": "/rɪˈfɔːmətəri/",
             "pos": "n",
-            "meaning": "教养所"
+            "meaning": "教养所",
+            "level": "low"
           },
           {
             "word": "clemency",
             "ipa": "/ˈklemənsɪ/",
             "pos": "n",
-            "meaning": "宽大处理"
+            "meaning": "宽大处理",
+            "level": "low"
           }
         ],
         "image": "../outputs/15-law-and-crime/generated-with-text/15-card-05-generated-text.png"
@@ -12835,73 +14550,90 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "commodity",
             "ipa": "/kəˈmɒd.ɪ.ti/",
             "pos": "n",
-            "meaning": "商品"
+            "meaning": "商品",
+            "level": "high",
+            "example": "Clean water is becoming as valuable a commodity as oil."
           },
           {
             "word": "tariff",
             "ipa": "/ˈtær.ɪf/",
             "pos": "n",
-            "meaning": "关税"
+            "meaning": "关税",
+            "level": "high",
+            "example": "High tariffs on imported goods ultimately raise prices for ordinary consumers."
           },
           {
             "word": "surplus",
             "ipa": "/ˈsɜː.pləs/",
             "pos": "n",
-            "meaning": "盈余"
+            "meaning": "盈余",
+            "level": "high",
+            "example": "Wealthy nations often destroy their food surplus while others face famine."
           },
           {
             "word": "deficit",
             "ipa": "/ˈdef.ɪ.sɪt/",
             "pos": "n",
-            "meaning": "赤字"
+            "meaning": "赤字",
+            "level": "mid"
           },
           {
             "word": "fluctuate",
             "ipa": "/ˈflʌk.tʃu.eɪt/",
             "pos": "v",
-            "meaning": "波动"
+            "meaning": "波动",
+            "level": "high",
+            "example": "Oil prices fluctuated dramatically throughout the second half of the year."
           },
           {
             "word": "negotiate",
             "ipa": "/nɪˈɡəʊ.ʃi.eɪt/",
             "pos": "v",
-            "meaning": "谈判"
+            "meaning": "谈判",
+            "level": "mid"
           },
           {
             "word": "embargo",
             "ipa": "/ɪmˈbɑː.ɡəʊ/",
             "pos": "n",
-            "meaning": "禁运"
+            "meaning": "禁运",
+            "level": "mid"
           },
           {
             "word": "quota",
             "ipa": "/ˈkwəʊ.tə/",
             "pos": "n",
-            "meaning": "配额"
+            "meaning": "配额",
+            "level": "mid"
           },
           {
             "word": "transaction",
             "ipa": "/trænˈzæk.ʃən/",
             "pos": "n",
-            "meaning": "交易"
+            "meaning": "交易",
+            "level": "mid"
           },
           {
             "word": "lucrative",
             "ipa": "/ˈluː.krə.tɪv/",
             "pos": "adj",
-            "meaning": "利润丰厚"
+            "meaning": "利润丰厚",
+            "level": "high",
+            "example": "Tourism has become the country's most lucrative industry."
           },
           {
             "word": "export",
             "ipa": "/ˈek.spɔːt/",
             "pos": "v./n",
-            "meaning": "出口"
+            "meaning": "出口",
+            "level": "mid"
           },
           {
             "word": "import",
             "ipa": "/ˈɪm.pɔːt/",
             "pos": "v./n",
-            "meaning": "进口"
+            "meaning": "进口",
+            "level": "mid"
           },
           {
             "word": "subsidy",
@@ -12915,25 +14647,29 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "bilateral",
             "ipa": "/ˌbaɪˈlæt.ər.əl/",
             "pos": "adj",
-            "meaning": "双边的"
+            "meaning": "双边的",
+            "level": "mid"
           },
           {
             "word": "leverage",
             "ipa": "/ˈliː.vər.ɪdʒ/",
             "pos": "n",
-            "meaning": "杠杆"
+            "meaning": "杠杆",
+            "level": "mid"
           },
           {
             "word": "procurement",
             "ipa": "/prəˈkjʊər.mənt/",
             "pos": "n",
-            "meaning": "采购"
+            "meaning": "采购",
+            "level": "low"
           },
           {
             "word": "intermediary",
             "ipa": "/ˌɪn.tərˈmiː.di.er.i/",
             "pos": "n",
-            "meaning": "中间商"
+            "meaning": "中间商",
+            "level": "mid"
           }
         ],
         "image": "../outputs/16-economics-business/generated-with-text/16-card-01-generated-text.png"
@@ -12946,79 +14682,96 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "entrepreneur",
             "ipa": "/ˌɒn.trə.prəˈnɜːr/",
             "pos": "n",
-            "meaning": "创业者"
+            "meaning": "创业者",
+            "level": "high",
+            "example": "Young entrepreneurs often struggle to secure funding for their ideas."
           },
           {
             "word": "venture",
             "ipa": "/ˈven.tʃər/",
             "pos": "n",
-            "meaning": "风险投资"
+            "meaning": "风险投资",
+            "level": "mid"
           },
           {
             "word": "stakeholder",
             "ipa": "/ˈsteɪkˌhəʊl.dər/",
             "pos": "n",
-            "meaning": "利益相关者"
+            "meaning": "利益相关者",
+            "level": "high",
+            "example": "Urban planning should involve every stakeholder, from residents to local businesses."
           },
           {
             "word": "incorporate",
             "ipa": "/ɪnˈkɔː.pər.eɪt/",
             "pos": "v",
-            "meaning": "注册成立"
+            "meaning": "注册成立",
+            "level": "mid"
           },
           {
             "word": "subsidiary",
             "ipa": "/səbˈsɪd.i.er.i/",
             "pos": "n",
-            "meaning": "子公司"
+            "meaning": "子公司",
+            "level": "mid"
           },
           {
             "word": "merger",
             "ipa": "/ˈmɜː.dʒər/",
             "pos": "n",
-            "meaning": "并购"
+            "meaning": "并购",
+            "level": "mid"
           },
           {
             "word": "acquisition",
             "ipa": "/ˌæk.wɪˈzɪʃ.ən/",
             "pos": "n",
-            "meaning": "收购"
+            "meaning": "收购",
+            "level": "mid"
           },
           {
             "word": "franchise",
             "ipa": "/ˈfræn.tʃaɪz/",
             "pos": "n",
-            "meaning": "特许经营"
+            "meaning": "特许经营",
+            "level": "mid"
           },
           {
             "word": "startup",
             "ipa": "/ˈstɑːt.ʌp/",
             "pos": "n",
-            "meaning": "初创企业"
+            "meaning": "初创企业",
+            "level": "high",
+            "example": "Governments often support technology startups through grants and tax breaks."
           },
           {
             "word": "scalable",
             "ipa": "/ˈskeɪ.lə.bəl/",
             "pos": "adj",
-            "meaning": "可扩展的"
+            "meaning": "可扩展的",
+            "level": "mid"
           },
           {
             "word": "revenue",
             "ipa": "/ˈrev.ə.njuː/",
             "pos": "n",
-            "meaning": "营业收入"
+            "meaning": "营业收入",
+            "level": "high",
+            "example": "The company's revenue doubled after it expanded into overseas markets."
           },
           {
             "word": "profitability",
             "ipa": "/ˌprɒf.ɪ.təˈbɪl.ɪ.ti/",
             "pos": "n",
-            "meaning": "盈利能力"
+            "meaning": "盈利能力",
+            "level": "mid"
           },
           {
             "word": "liability",
             "ipa": "/ˌlaɪ.əˈbɪl.ɪ.ti/",
             "pos": "n",
-            "meaning": "负债"
+            "meaning": "负债",
+            "level": "mid"
           },
           {
             "word": "equity",
@@ -13032,19 +14785,23 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "dividend",
             "ipa": "/ˈdɪv.ɪ.dend/",
             "pos": "n",
-            "meaning": "股息"
+            "meaning": "股息",
+            "level": "mid"
           },
           {
             "word": "turnover",
             "ipa": "/ˈtɜːn.əʊ.vər/",
             "pos": "n",
-            "meaning": "营业额"
+            "meaning": "营业额",
+            "level": "mid"
           },
           {
             "word": "outsource",
             "ipa": "/ˌaʊtˈsɔːs/",
             "pos": "v",
-            "meaning": "外包"
+            "meaning": "外包",
+            "level": "high",
+            "example": "Many firms outsource manufacturing to countries with lower labour costs."
           }
         ],
         "image": "../outputs/16-economics-business/generated-with-text/16-card-02-generated-text.png"
@@ -13057,103 +14814,123 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "portfolio",
             "ipa": "/pɔːtˈfəʊ.li.əʊ/",
             "pos": "n",
-            "meaning": "投资组合"
+            "meaning": "投资组合",
+            "level": "mid"
           },
           {
             "word": "diversify",
             "ipa": "/daɪˈvɜː.sɪ.faɪ/",
             "pos": "v",
-            "meaning": "多元化"
+            "meaning": "多元化",
+            "level": "high",
+            "example": "Economies that rely on a single industry should diversify to reduce risk."
           },
           {
             "word": "yield",
             "ipa": "/jiːld/",
             "pos": "n",
-            "meaning": "收益率"
+            "meaning": "收益率",
+            "level": "mid"
           },
           {
             "word": "volatile",
             "ipa": "/ˈvɒl.ə.taɪl/",
             "pos": "adj",
-            "meaning": "波动剧烈"
+            "meaning": "波动剧烈",
+            "level": "mid"
           },
           {
             "word": "speculation",
             "ipa": "/ˌspek.jʊˈleɪ.ʃən/",
             "pos": "n",
-            "meaning": "投机"
+            "meaning": "投机",
+            "level": "mid"
           },
           {
             "word": "hedge",
             "ipa": "/hedʒ/",
             "pos": "v",
-            "meaning": "对冲"
+            "meaning": "对冲",
+            "level": "low"
           },
           {
             "word": "liquidity",
             "ipa": "/lɪˈkwɪd.ɪ.ti/",
             "pos": "n",
-            "meaning": "流动性"
+            "meaning": "流动性",
+            "level": "mid"
           },
           {
             "word": "inflation",
             "ipa": "/ɪnˈfleɪ.ʃən/",
             "pos": "n",
-            "meaning": "通货膨胀"
+            "meaning": "通货膨胀",
+            "level": "high",
+            "example": "High inflation erodes the savings of ordinary households."
           },
           {
             "word": "depreciation",
             "ipa": "/dɪˌpriː.ʃiˈeɪ.ʃən/",
             "pos": "n",
-            "meaning": "贬值折旧"
+            "meaning": "贬值折旧",
+            "level": "mid"
           },
           {
             "word": "collateral",
             "ipa": "/kəˈlæt.ər.əl/",
             "pos": "n",
-            "meaning": "抵押品"
+            "meaning": "抵押品",
+            "level": "mid"
           },
           {
             "word": "mortgage",
             "ipa": "/ˈmɔː.ɡɪdʒ/",
             "pos": "n",
-            "meaning": "抵押贷款"
+            "meaning": "抵押贷款",
+            "level": "mid"
           },
           {
             "word": "amortize",
             "ipa": "/ˈæm.ə.taɪz/",
             "pos": "v",
-            "meaning": "分期偿还"
+            "meaning": "分期偿还",
+            "level": "low"
           },
           {
             "word": "compound",
             "ipa": "/ˈkɒm.paʊnd/",
             "pos": "adj",
-            "meaning": "复利的"
+            "meaning": "复利的",
+            "level": "mid"
           },
           {
             "word": "benchmark",
             "ipa": "/ˈbentʃ.mɑːk/",
             "pos": "n",
-            "meaning": "基准"
+            "meaning": "基准",
+            "level": "mid"
           },
           {
             "word": "asset",
             "ipa": "/ˈæs.et/",
             "pos": "n",
-            "meaning": "资产"
+            "meaning": "资产",
+            "level": "high",
+            "example": "For most families, their home is their single most valuable asset."
           },
           {
             "word": "debenture",
             "ipa": "/dɪˈben.tʃər/",
             "pos": "n",
-            "meaning": "债券"
+            "meaning": "债券",
+            "level": "low"
           },
           {
             "word": "arbitrage",
             "ipa": "/ˈɑː.bɪ.trɑːʒ/",
             "pos": "n",
-            "meaning": "套利"
+            "meaning": "套利",
+            "level": "low"
           }
         ],
         "image": "../outputs/16-economics-business/generated-with-text/16-card-03-generated-text.png"
@@ -13166,55 +14943,67 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "recession",
             "ipa": "/rɪˈseʃ.ən/",
             "pos": "n",
-            "meaning": "经济衰退"
+            "meaning": "经济衰退",
+            "level": "high",
+            "example": "During a recession, young graduates find it especially hard to secure jobs."
           },
           {
             "word": "austerity",
             "ipa": "/ɒˈster.ɪ.ti/",
             "pos": "n",
-            "meaning": "紧缩政策"
+            "meaning": "紧缩政策",
+            "level": "mid"
           },
           {
             "word": "monetary",
             "ipa": "/ˈmʌn.ɪ.tər.i/",
             "pos": "adj",
-            "meaning": "货币的"
+            "meaning": "货币的",
+            "level": "mid"
           },
           {
             "word": "fiscal",
             "ipa": "/ˈfɪs.kəl/",
             "pos": "adj",
-            "meaning": "财政的"
+            "meaning": "财政的",
+            "level": "mid"
           },
           {
             "word": "unemployment",
             "ipa": "/ˌʌn.ɪmˈplɔɪ.mənt/",
             "pos": "n",
-            "meaning": "失业"
+            "meaning": "失业",
+            "level": "high",
+            "example": "Automation could push unemployment to record levels in some industries."
           },
           {
             "word": "stimulus",
             "ipa": "/ˈstɪm.jʊ.ləs/",
             "pos": "n",
-            "meaning": "经济刺激"
+            "meaning": "经济刺激",
+            "level": "mid"
           },
           {
             "word": "protectionism",
             "ipa": "/prəˈtek.ʃən.ɪz.əm/",
             "pos": "n",
-            "meaning": "贸易保护主义"
+            "meaning": "贸易保护主义",
+            "level": "mid"
           },
           {
             "word": "globalization",
             "ipa": "/ˌɡləʊ.bəl.aɪˈzeɪ.ʃən/",
             "pos": "n",
-            "meaning": "全球化"
+            "meaning": "全球化",
+            "level": "high",
+            "example": "Globalization has brought cheaper goods but also greater economic inequality."
           },
           {
             "word": "stagnation",
             "ipa": "/stæɡˈneɪ.ʃən/",
             "pos": "n",
-            "meaning": "经济停滞"
+            "meaning": "经济停滞",
+            "level": "mid"
           },
           {
             "word": "inequality",
@@ -13228,43 +15017,54 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "productivity",
             "ipa": "/ˌprɒd.ʌkˈtɪv.ɪ.ti/",
             "pos": "n",
-            "meaning": "生产力"
+            "meaning": "生产力",
+            "level": "high",
+            "example": "Studies suggest that shorter working weeks can actually increase productivity."
           },
           {
             "word": "infrastructure",
             "ipa": "/ˈɪn.frəˌstrʌk.tʃər/",
             "pos": "n",
-            "meaning": "基础设施"
+            "meaning": "基础设施",
+            "level": "high",
+            "example": "Investment in public infrastructure creates jobs and stimulates long-term economic growth."
           },
           {
             "word": "deregulation",
             "ipa": "/ˌdiː.reg.jʊˈleɪ.ʃən/",
             "pos": "n",
-            "meaning": "放松管制"
+            "meaning": "放松管制",
+            "level": "mid"
           },
           {
             "word": "intervention",
             "ipa": "/ˌɪn.təˈven.ʃən/",
             "pos": "n",
-            "meaning": "政府干预"
+            "meaning": "政府干预",
+            "level": "high",
+            "example": "Early intervention in childhood can prevent many later health problems."
           },
           {
             "word": "aggregate",
             "ipa": "/ˈæɡ.rɪ.ɡət/",
             "pos": "adj",
-            "meaning": "总计"
+            "meaning": "总计",
+            "level": "mid"
           },
           {
             "word": "currency",
             "ipa": "/ˈkʌr.ən.si/",
             "pos": "n",
-            "meaning": "货币"
+            "meaning": "货币",
+            "level": "high",
+            "example": "A weak national currency makes imported goods more expensive."
           },
           {
             "word": "sovereign",
             "ipa": "/ˈsɒv.rɪn/",
             "pos": "adj",
-            "meaning": "主权的"
+            "meaning": "主权的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/16-economics-business/generated-with-text/16-card-04-generated-text.png"
@@ -13285,97 +15085,116 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "branding",
             "ipa": "/ˈbrænd.ɪŋ/",
             "pos": "n",
-            "meaning": "品牌塑造"
+            "meaning": "品牌塑造",
+            "level": "mid"
           },
           {
             "word": "niche",
             "ipa": "/niːʃ/",
             "pos": "n",
-            "meaning": "细分市场"
+            "meaning": "细分市场",
+            "level": "mid"
           },
           {
             "word": "penetrate",
             "ipa": "/ˈpen.ɪ.treɪt/",
             "pos": "v",
-            "meaning": "打入市场"
+            "meaning": "打入市场",
+            "level": "mid"
           },
           {
             "word": "saturate",
             "ipa": "/ˈsætʃ.ər.eɪt/",
             "pos": "v",
-            "meaning": "使饱和"
+            "meaning": "使饱和",
+            "level": "mid"
           },
           {
             "word": "endorse",
             "ipa": "/ɪnˈdɔːs/",
             "pos": "v",
-            "meaning": "代言"
+            "meaning": "代言",
+            "level": "mid"
           },
           {
             "word": "loyalty",
             "ipa": "/ˈlɔɪ.əl.ti/",
             "pos": "n",
-            "meaning": "忠诚度"
+            "meaning": "忠诚度",
+            "level": "mid"
           },
           {
             "word": "incentive",
             "ipa": "/ɪnˈsen.tɪv/",
             "pos": "n",
-            "meaning": "激励措施"
+            "meaning": "激励措施",
+            "level": "high",
+            "example": "Tax incentives encourage households to install solar panels."
           },
           {
             "word": "expenditure",
             "ipa": "/ɪkˈspen.dɪ.tʃər/",
             "pos": "n",
-            "meaning": "消费支出"
+            "meaning": "消费支出",
+            "level": "high",
+            "example": "Government expenditure on healthcare has risen sharply in recent years."
           },
           {
             "word": "elasticity",
             "ipa": "/ˌel.æˈstɪs.ɪ.ti/",
             "pos": "n",
-            "meaning": "价格弹性"
+            "meaning": "价格弹性",
+            "level": "low"
           },
           {
             "word": "disposable",
             "ipa": "/dɪˈspəʊ.zə.bəl/",
             "pos": "adj",
-            "meaning": "可支配的"
+            "meaning": "可支配的",
+            "level": "mid"
           },
           {
             "word": "monopoly",
             "ipa": "/məˈnɒp.ə.li/",
             "pos": "n",
-            "meaning": "垄断"
+            "meaning": "垄断",
+            "level": "high",
+            "example": "A monopoly allows a single company to charge unfairly high prices."
           },
           {
             "word": "oligopoly",
             "ipa": "/ˌɒl.ɪˈɡɒp.ə.li/",
             "pos": "n",
-            "meaning": "寡头垄断"
+            "meaning": "寡头垄断",
+            "level": "low"
           },
           {
             "word": "segment",
             "ipa": "/ˈseɡ.mənt/",
             "pos": "v",
-            "meaning": "细分"
+            "meaning": "细分",
+            "level": "mid"
           },
           {
             "word": "prototype",
             "ipa": "/ˈprəʊ.tə.taɪp/",
             "pos": "n",
-            "meaning": "原型产品"
+            "meaning": "原型产品",
+            "level": "mid"
           },
           {
             "word": "retailer",
             "ipa": "/ˈriː.teɪ.lər/",
             "pos": "n",
-            "meaning": "零售商"
+            "meaning": "零售商",
+            "level": "mid"
           },
           {
             "word": "wholesale",
             "ipa": "/ˈhəʊl.seɪl/",
             "pos": "adj./n",
-            "meaning": "批发"
+            "meaning": "批发",
+            "level": "mid"
           }
         ],
         "image": "../outputs/16-economics-business/generated-with-text/16-card-05-generated-text.png"
@@ -13638,97 +15457,115 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "electorate",
             "ipa": "/ɪˈlektərət/",
             "pos": "n",
-            "meaning": "选民"
+            "meaning": "选民",
+            "level": "mid"
           },
           {
             "word": "suffrage",
             "ipa": "/ˈsʌfrɪdʒ/",
             "pos": "n",
-            "meaning": "选举权"
+            "meaning": "选举权",
+            "level": "mid"
           },
           {
             "word": "constituency",
             "ipa": "/kənˈstɪtjuənsi/",
             "pos": "n",
-            "meaning": "选区"
+            "meaning": "选区",
+            "level": "mid"
           },
           {
             "word": "incumbent",
             "ipa": "/ɪnˈkʌmbənt/",
             "pos": "n",
-            "meaning": "现任者"
+            "meaning": "现任者",
+            "level": "mid"
           },
           {
             "word": "referendum",
             "ipa": "/ˌrefəˈrendəm/",
             "pos": "n",
-            "meaning": "公投"
+            "meaning": "公投",
+            "level": "high",
+            "example": "Major constitutional changes should be decided by a national referendum."
           },
           {
             "word": "ballot",
             "ipa": "/ˈbælət/",
             "pos": "n",
-            "meaning": "选票"
+            "meaning": "选票",
+            "level": "mid"
           },
           {
             "word": "campaign",
             "ipa": "/kæmˈpeɪn/",
             "pos": "n",
-            "meaning": "竞选运动"
+            "meaning": "竞选运动",
+            "level": "high",
+            "example": "The government launched a campaign to encourage healthier eating habits."
           },
           {
             "word": "manifesto",
             "ipa": "/ˌmænɪˈfestəʊ/",
             "pos": "n",
-            "meaning": "政党宣言"
+            "meaning": "政党宣言",
+            "level": "mid"
           },
           {
             "word": "plurality",
             "ipa": "/plʊˈrælɪti/",
             "pos": "n",
-            "meaning": "多数票"
+            "meaning": "多数票",
+            "level": "low"
           },
           {
             "word": "turnout",
             "ipa": "/ˈtɜːnaʊt/",
             "pos": "n",
-            "meaning": "投票率"
+            "meaning": "投票率",
+            "level": "mid"
           },
           {
             "word": "candidacy",
             "ipa": "/ˈkændɪdəsi/",
             "pos": "n",
-            "meaning": "候选资格"
+            "meaning": "候选资格",
+            "level": "low"
           },
           {
             "word": "scrutiny",
             "ipa": "/ˈskruːtɪni/",
             "pos": "n",
-            "meaning": "严密审查"
+            "meaning": "严密审查",
+            "level": "mid"
           },
           {
             "word": "coalition",
             "ipa": "/ˌkəʊəˈlɪʃn/",
             "pos": "n",
-            "meaning": "联合政府"
+            "meaning": "联合政府",
+            "level": "mid"
           },
           {
             "word": "bipartisan",
             "ipa": "/ˌbaɪˈpɑːtɪzən/",
             "pos": "adj",
-            "meaning": "两党合作的"
+            "meaning": "两党合作的",
+            "level": "low"
           },
           {
             "word": "polarisation",
             "ipa": "/ˌpəʊlərɪˈzeɪʃn/",
             "pos": "n",
-            "meaning": "两极分化"
+            "meaning": "两极分化",
+            "level": "mid"
           },
           {
             "word": "mandate",
             "ipa": "/ˈmændeɪt/",
             "pos": "n",
-            "meaning": "授权"
+            "meaning": "授权",
+            "level": "mid"
           }
         ],
         "image": "../outputs/17-government-and-politics/generated-with-text/17-card-01-generated-text.png"
@@ -13741,43 +15578,51 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "legislature",
             "ipa": "/ˈledʒɪslətʃə/",
             "pos": "n",
-            "meaning": "立法机构"
+            "meaning": "立法机构",
+            "level": "mid"
           },
           {
             "word": "parliament",
             "ipa": "/ˈpɑːləmənt/",
             "pos": "n",
-            "meaning": "议会"
+            "meaning": "议会",
+            "level": "mid"
           },
           {
             "word": "cabinet",
             "ipa": "/ˈkæbɪnɪt/",
             "pos": "n",
-            "meaning": "内阁"
+            "meaning": "内阁",
+            "level": "mid"
           },
           {
             "word": "bureaucracy",
             "ipa": "/bjʊəˈrɒkrəsi/",
             "pos": "n",
-            "meaning": "官僚体制"
+            "meaning": "官僚体制",
+            "level": "mid"
           },
           {
             "word": "judiciary",
             "ipa": "/dʒuːˈdɪʃɪəri/",
             "pos": "n",
-            "meaning": "司法部门"
+            "meaning": "司法部门",
+            "level": "mid"
           },
           {
             "word": "sovereignty",
             "ipa": "/ˈsɒvrənti/",
             "pos": "n",
-            "meaning": "主权"
+            "meaning": "主权",
+            "level": "high",
+            "example": "Some argue that global agreements threaten national sovereignty."
           },
           {
             "word": "jurisdiction",
             "ipa": "/ˌdʒʊərɪsˈdɪkʃn/",
             "pos": "n",
-            "meaning": "管辖权"
+            "meaning": "管辖权",
+            "level": "mid"
           },
           {
             "word": "accountability",
@@ -13791,49 +15636,57 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "constitutional",
             "ipa": "/ˌkɒnstɪˈtjuːʃənl/",
             "pos": "adj",
-            "meaning": "宪法的"
+            "meaning": "宪法的",
+            "level": "mid"
           },
           {
             "word": "ministry",
             "ipa": "/ˈmɪnɪstri/",
             "pos": "n",
-            "meaning": "部委"
+            "meaning": "部委",
+            "level": "mid"
           },
           {
             "word": "senator",
             "ipa": "/ˈsenətə/",
             "pos": "n",
-            "meaning": "参议员"
+            "meaning": "参议员",
+            "level": "mid"
           },
           {
             "word": "veto",
             "ipa": "/ˈviːtəʊ/",
             "pos": "n./v",
-            "meaning": "否决权"
+            "meaning": "否决权",
+            "level": "mid"
           },
           {
             "word": "impeachment",
             "ipa": "/ɪmˈpiːtʃmənt/",
             "pos": "n",
-            "meaning": "弹劾"
+            "meaning": "弹劾",
+            "level": "low"
           },
           {
             "word": "enact",
             "ipa": "/ɪˈnækt/",
             "pos": "v",
-            "meaning": "立法颁布"
+            "meaning": "立法颁布",
+            "level": "mid"
           },
           {
             "word": "amendment",
             "ipa": "/əˈmendmənt/",
             "pos": "n",
-            "meaning": "修正案"
+            "meaning": "修正案",
+            "level": "mid"
           },
           {
             "word": "administration",
             "ipa": "/ədˌmɪnɪˈstreɪʃn/",
             "pos": "n",
-            "meaning": "行政管理"
+            "meaning": "行政管理",
+            "level": "mid"
           }
         ],
         "image": "../outputs/17-government-and-politics/generated-with-text/17-card-02-generated-text.png"
@@ -13854,7 +15707,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "regulation",
             "ipa": "/ˌreɡjʊˈleɪʃn/",
             "pos": "n",
-            "meaning": "规定/条例"
+            "meaning": "规定/条例",
+            "level": "high",
+            "example": "Stricter regulation of the financial sector could prevent future crises."
           },
           {
             "word": "subsidy",
@@ -13868,13 +15723,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "austerity",
             "ipa": "/ɒˈsterɪti/",
             "pos": "n",
-            "meaning": "财政紧缩"
+            "meaning": "财政紧缩",
+            "level": "mid"
           },
           {
             "word": "fiscal",
             "ipa": "/ˈfɪskl/",
             "pos": "adj",
-            "meaning": "财政的"
+            "meaning": "财政的",
+            "level": "mid"
           },
           {
             "word": "welfare",
@@ -13888,31 +15745,41 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "infrastructure",
             "ipa": "/ˈɪnfrəstrʌktʃə/",
             "pos": "n",
-            "meaning": "基础设施"
+            "meaning": "基础设施",
+            "level": "high",
+            "example": "Investment in public infrastructure creates jobs and stimulates long-term economic growth."
           },
           {
             "word": "transparency",
             "ipa": "/trænsˈpærənsi/",
             "pos": "n",
-            "meaning": "透明度"
+            "meaning": "透明度",
+            "level": "high",
+            "example": "Greater transparency in government spending helps reduce corruption."
           },
           {
             "word": "corruption",
             "ipa": "/kəˈrʌpʃn/",
             "pos": "n",
-            "meaning": "腐败"
+            "meaning": "腐败",
+            "level": "high",
+            "example": "Corruption diverts public funds away from schools and hospitals."
           },
           {
             "word": "implement",
             "ipa": "/ˈɪmplɪment/",
             "pos": "v",
-            "meaning": "实施"
+            "meaning": "实施",
+            "level": "high",
+            "example": "It is one thing to design a policy and quite another to implement it effectively."
           },
           {
             "word": "allocate",
             "ipa": "/ˈæləkeɪt/",
             "pos": "v",
-            "meaning": "分配"
+            "meaning": "分配",
+            "level": "high",
+            "example": "Governments must decide how to allocate limited funds between schools and hospitals."
           },
           {
             "word": "reform",
@@ -13926,25 +15793,32 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "incentive",
             "ipa": "/ɪnˈsentɪv/",
             "pos": "n",
-            "meaning": "激励"
+            "meaning": "激励",
+            "level": "high",
+            "example": "Tax incentives encourage households to install solar panels."
           },
           {
             "word": "expenditure",
             "ipa": "/ɪkˈspendɪtʃə/",
             "pos": "n",
-            "meaning": "财政支出"
+            "meaning": "财政支出",
+            "level": "high",
+            "example": "Government expenditure on healthcare has risen sharply in recent years."
           },
           {
             "word": "revenue",
             "ipa": "/ˈrevənjuː/",
             "pos": "n",
-            "meaning": "税收/收入"
+            "meaning": "税收/收入",
+            "level": "high",
+            "example": "The company's revenue doubled after it expanded into overseas markets."
           },
           {
             "word": "deficit",
             "ipa": "/ˈdefɪsɪt/",
             "pos": "n",
-            "meaning": "赤字"
+            "meaning": "赤字",
+            "level": "mid"
           }
         ],
         "image": "../outputs/17-government-and-politics/generated-with-text/17-card-03-generated-text.png"
@@ -13957,97 +15831,116 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "democracy",
             "ipa": "/dɪˈmɒkrəsi/",
             "pos": "n",
-            "meaning": "民主制度"
+            "meaning": "民主制度",
+            "level": "high",
+            "example": "A healthy democracy depends on an informed and engaged electorate."
           },
           {
             "word": "totalitarianism",
             "ipa": "/ˌtəʊˌtælɪˈteərɪənɪzəm/",
             "pos": "n",
-            "meaning": "极权主义"
+            "meaning": "极权主义",
+            "level": "low"
           },
           {
             "word": "liberalism",
             "ipa": "/ˈlɪbərəlɪzəm/",
             "pos": "n",
-            "meaning": "自由主义"
+            "meaning": "自由主义",
+            "level": "mid"
           },
           {
             "word": "conservatism",
             "ipa": "/kənˈsɜːvətɪzəm/",
             "pos": "n",
-            "meaning": "保守主义"
+            "meaning": "保守主义",
+            "level": "mid"
           },
           {
             "word": "authoritarianism",
             "ipa": "/ɔːˌθɒrɪˈteərɪənɪzəm/",
             "pos": "n",
-            "meaning": "威权主义"
+            "meaning": "威权主义",
+            "level": "mid"
           },
           {
             "word": "populism",
             "ipa": "/ˈpɒpjʊlɪzəm/",
             "pos": "n",
-            "meaning": "民粹主义"
+            "meaning": "民粹主义",
+            "level": "mid"
           },
           {
             "word": "nationalism",
             "ipa": "/ˈnæʃnəlɪzəm/",
             "pos": "n",
-            "meaning": "民族主义"
+            "meaning": "民族主义",
+            "level": "mid"
           },
           {
             "word": "egalitarian",
             "ipa": "/ɪˌɡælɪˈteərɪən/",
             "pos": "adj",
-            "meaning": "平等主义的"
+            "meaning": "平等主义的",
+            "level": "low"
           },
           {
             "word": "oligarchy",
             "ipa": "/ˈɒlɪɡɑːki/",
             "pos": "n",
-            "meaning": "寡头政治"
+            "meaning": "寡头政治",
+            "level": "low"
           },
           {
             "word": "anarchism",
             "ipa": "/ˈænəkɪzəm/",
             "pos": "n",
-            "meaning": "无政府主义"
+            "meaning": "无政府主义",
+            "level": "low"
           },
           {
             "word": "federalism",
             "ipa": "/ˈfedərəlɪzəm/",
             "pos": "n",
-            "meaning": "联邦制"
+            "meaning": "联邦制",
+            "level": "low"
           },
           {
             "word": "ideology",
             "ipa": "/ˌaɪdɪˈɒlədʒi/",
             "pos": "n",
-            "meaning": "意识形态"
+            "meaning": "意识形态",
+            "level": "high",
+            "example": "Political decisions should be based on evidence rather than ideology."
           },
           {
             "word": "partisan",
             "ipa": "/ˈpɑːtɪzən/",
             "pos": "adj./n",
-            "meaning": "党派的"
+            "meaning": "党派的",
+            "level": "mid"
           },
           {
             "word": "centrist",
             "ipa": "/ˈsentrɪst/",
             "pos": "n./adj",
-            "meaning": "中间派"
+            "meaning": "中间派",
+            "level": "low"
           },
           {
             "word": "radical",
             "ipa": "/ˈrædɪkl/",
             "pos": "adj",
-            "meaning": "激进的"
+            "meaning": "激进的",
+            "level": "mid"
           },
           {
             "word": "pragmatic",
             "ipa": "/præɡˈmætɪk/",
             "pos": "adj",
-            "meaning": "务实的"
+            "meaning": "务实的",
+            "level": "high",
+            "example": "A pragmatic approach to policy often achieves more than a rigid one."
           }
         ],
         "image": "../outputs/17-government-and-politics/generated-with-text/17-card-04-generated-text.png"
@@ -14060,103 +15953,125 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "diplomacy",
             "ipa": "/dɪˈpləʊməsi/",
             "pos": "n",
-            "meaning": "外交"
+            "meaning": "外交",
+            "level": "high",
+            "example": "Patient diplomacy is usually more effective than the threat of force."
           },
           {
             "word": "sanction",
             "ipa": "/ˈsæŋkʃn/",
             "pos": "n./v",
-            "meaning": "制裁"
+            "meaning": "制裁",
+            "level": "mid"
           },
           {
             "word": "treaty",
             "ipa": "/ˈtriːti/",
             "pos": "n",
-            "meaning": "条约"
+            "meaning": "条约",
+            "level": "mid"
           },
           {
             "word": "multilateral",
             "ipa": "/ˌmʌltiˈlætərəl/",
             "pos": "adj",
-            "meaning": "多边的"
+            "meaning": "多边的",
+            "level": "mid"
           },
           {
             "word": "geopolitical",
             "ipa": "/ˌdʒiːəʊpəˈlɪtɪkl/",
             "pos": "adj",
-            "meaning": "地缘政治的"
+            "meaning": "地缘政治的",
+            "level": "mid"
           },
           {
             "word": "alliance",
             "ipa": "/əˈlaɪəns/",
             "pos": "n",
-            "meaning": "同盟"
+            "meaning": "同盟",
+            "level": "high",
+            "example": "The two nations formed a strong alliance to tackle climate change."
           },
           {
             "word": "bilateral",
             "ipa": "/ˌbaɪˈlætərəl/",
             "pos": "adj",
-            "meaning": "双边的"
+            "meaning": "双边的",
+            "level": "mid"
           },
           {
             "word": "ambassador",
             "ipa": "/æmˈbæsədə/",
             "pos": "n",
-            "meaning": "大使"
+            "meaning": "大使",
+            "level": "mid"
           },
           {
             "word": "espionage",
             "ipa": "/ˈespiənɑːʒ/",
             "pos": "n",
-            "meaning": "间谍活动"
+            "meaning": "间谍活动",
+            "level": "low"
           },
           {
             "word": "intervention",
             "ipa": "/ˌɪntəˈvenʃn/",
             "pos": "n",
-            "meaning": "干预"
+            "meaning": "干预",
+            "level": "high",
+            "example": "Early intervention in childhood can prevent many later health problems."
           },
           {
             "word": "humanitarian",
             "ipa": "/hjuːˌmænɪˈteərɪən/",
             "pos": "adj",
-            "meaning": "人道主义的"
+            "meaning": "人道主义的",
+            "level": "high",
+            "example": "The war triggered one of the worst humanitarian crises in decades."
           },
           {
             "word": "embargo",
             "ipa": "/ɪmˈbɑːɡəʊ/",
             "pos": "n",
-            "meaning": "禁运"
+            "meaning": "禁运",
+            "level": "mid"
           },
           {
             "word": "ratify",
             "ipa": "/ˈrætɪfaɪ/",
             "pos": "v",
-            "meaning": "批准/签署"
+            "meaning": "批准/签署",
+            "level": "mid"
           },
           {
             "word": "concession",
             "ipa": "/kənˈseʃn/",
             "pos": "n",
-            "meaning": "让步"
+            "meaning": "让步",
+            "level": "mid"
           },
           {
             "word": "hegemony",
             "ipa": "/hɪˈɡeməni/",
             "pos": "n",
-            "meaning": "霸权"
+            "meaning": "霸权",
+            "level": "low"
           },
           {
             "word": "détente",
             "ipa": "/deɪˈtɑːnt/",
             "pos": "n",
-            "meaning": "关系缓和"
+            "meaning": "关系缓和",
+            "level": "low"
           },
           {
             "word": "autonomy",
             "ipa": "/ɔːˈtɒnəmi/",
             "pos": "n",
-            "meaning": "自治权"
+            "meaning": "自治权",
+            "level": "high",
+            "example": "Giving employees greater autonomy often increases both morale and productivity."
           }
         ],
         "image": "../outputs/17-government-and-politics/generated-with-text/17-card-05-generated-text.png"
@@ -14381,97 +16296,115 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "broadcast",
             "ipa": "/ˈbrɔːdkæst/",
             "pos": "v",
-            "meaning": "广播"
+            "meaning": "广播",
+            "level": "mid"
           },
           {
             "word": "journalist",
             "ipa": "/ˈdʒɜːnəlɪst/",
             "pos": "n",
-            "meaning": "记者"
+            "meaning": "记者",
+            "level": "mid"
           },
           {
             "word": "correspondent",
             "ipa": "/ˌkɒrɪˈspɒndənt/",
             "pos": "n",
-            "meaning": "特派员"
+            "meaning": "特派员",
+            "level": "mid"
           },
           {
             "word": "editorial",
             "ipa": "/ˌedɪˈtɔːriəl/",
             "pos": "n",
-            "meaning": "社论"
+            "meaning": "社论",
+            "level": "mid"
           },
           {
             "word": "circulation",
             "ipa": "/ˌsɜːkjʊˈleɪʃən/",
             "pos": "n",
-            "meaning": "发行量"
+            "meaning": "发行量",
+            "level": "mid"
           },
           {
             "word": "headline",
             "ipa": "/ˈhedlaɪn/",
             "pos": "n",
-            "meaning": "头条标题"
+            "meaning": "头条标题",
+            "level": "mid"
           },
           {
             "word": "investigative",
             "ipa": "/ɪnˈvestɪɡətɪv/",
             "pos": "adj",
-            "meaning": "调查性的"
+            "meaning": "调查性的",
+            "level": "mid"
           },
           {
             "word": "scoop",
             "ipa": "/skuːp/",
             "pos": "n",
-            "meaning": "独家新闻"
+            "meaning": "独家新闻",
+            "level": "low"
           },
           {
             "word": "coverage",
             "ipa": "/ˈkʌvərɪdʒ/",
             "pos": "n",
-            "meaning": "新闻报道"
+            "meaning": "新闻报道",
+            "level": "high",
+            "example": "Round-the-clock news coverage can make rare events seem alarmingly common."
           },
           {
             "word": "footage",
             "ipa": "/ˈfʊtɪdʒ/",
             "pos": "n",
-            "meaning": "影像素材"
+            "meaning": "影像素材",
+            "level": "mid"
           },
           {
             "word": "anchor",
             "ipa": "/ˈæŋkər/",
             "pos": "n",
-            "meaning": "主播"
+            "meaning": "主播",
+            "level": "mid"
           },
           {
             "word": "censorship",
             "ipa": "/ˈsensəʃɪp/",
             "pos": "n",
-            "meaning": "审查制度"
+            "meaning": "审查制度",
+            "level": "high",
+            "example": "Government censorship of the press undermines the public's right to know."
           },
           {
             "word": "tabloid",
             "ipa": "/ˈtæblɔɪd/",
             "pos": "n",
-            "meaning": "小报"
+            "meaning": "小报",
+            "level": "mid"
           },
           {
             "word": "byline",
             "ipa": "/ˈbaɪlaɪn/",
             "pos": "n",
-            "meaning": "署名行"
+            "meaning": "署名行",
+            "level": "low"
           },
           {
             "word": "newsroom",
             "ipa": "/ˈnjuːzruːm/",
             "pos": "n",
-            "meaning": "新闻编辑室"
+            "meaning": "新闻编辑室",
+            "level": "low"
           },
           {
             "word": "dispatch",
             "ipa": "/dɪˈspætʃ/",
             "pos": "n",
-            "meaning": "急电报道"
+            "meaning": "急电报道",
+            "level": "low"
           }
         ],
         "image": "../outputs/18-media-and-communication/generated-with-text/18-card-01-generated-text.png"
@@ -14484,97 +16417,116 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "viral",
             "ipa": "/ˈvaɪərəl/",
             "pos": "adj",
-            "meaning": "病毒式传播的"
+            "meaning": "病毒式传播的",
+            "level": "mid"
           },
           {
             "word": "algorithm",
             "ipa": "/ˈælɡərɪðəm/",
             "pos": "n",
-            "meaning": "算法"
+            "meaning": "算法",
+            "level": "high",
+            "example": "Recommendation algorithms decide much of what we watch and read online."
           },
           {
             "word": "influencer",
             "ipa": "/ˈɪnfluənsər/",
             "pos": "n",
-            "meaning": "网红/意见领袖"
+            "meaning": "网红/意见领袖",
+            "level": "mid"
           },
           {
             "word": "engagement",
             "ipa": "/ɪnˈɡeɪdʒmənt/",
             "pos": "n",
-            "meaning": "互动率"
+            "meaning": "互动率",
+            "level": "mid"
           },
           {
             "word": "clickbait",
             "ipa": "/ˈklɪkbeɪt/",
             "pos": "n",
-            "meaning": "标题党内容"
+            "meaning": "标题党内容",
+            "level": "mid"
           },
           {
             "word": "hashtag",
             "ipa": "/ˈhæʃtæɡ/",
             "pos": "n",
-            "meaning": "话题标签"
+            "meaning": "话题标签",
+            "level": "mid"
           },
           {
             "word": "platform",
             "ipa": "/ˈplætfɔːm/",
             "pos": "n",
-            "meaning": "数字平台"
+            "meaning": "数字平台",
+            "level": "high",
+            "example": "Social media platforms have become the main source of news for young people."
           },
           {
             "word": "streaming",
             "ipa": "/ˈstriːmɪŋ/",
             "pos": "n",
-            "meaning": "流媒体"
+            "meaning": "流媒体",
+            "level": "mid"
           },
           {
             "word": "trending",
             "ipa": "/ˈtrendɪŋ/",
             "pos": "adj",
-            "meaning": "热门话题的"
+            "meaning": "热门话题的",
+            "level": "mid"
           },
           {
             "word": "follower",
             "ipa": "/ˈfɒləʊər/",
             "pos": "n",
-            "meaning": "粉丝"
+            "meaning": "粉丝",
+            "level": "mid"
           },
           {
             "word": "misinformation",
             "ipa": "/ˌmɪsɪnfəˈmeɪʃən/",
             "pos": "n",
-            "meaning": "错误信息"
+            "meaning": "错误信息",
+            "level": "high",
+            "example": "Social media has accelerated the spread of misinformation about health."
           },
           {
             "word": "polarise",
             "ipa": "/ˈpəʊləraɪz/",
             "pos": "v",
-            "meaning": "使两极分化"
+            "meaning": "使两极分化",
+            "level": "mid"
           },
           {
             "word": "feed",
             "ipa": "/fiːd/",
             "pos": "n",
-            "meaning": "信息流"
+            "meaning": "信息流",
+            "level": "mid"
           },
           {
             "word": "subscribe",
             "ipa": "/səbˈskraɪb/",
             "pos": "v",
-            "meaning": "订阅"
+            "meaning": "订阅",
+            "level": "mid"
           },
           {
             "word": "niche",
             "ipa": "/niːʃ/",
             "pos": "adj",
-            "meaning": "垂类细分的"
+            "meaning": "垂类细分的",
+            "level": "mid"
           },
           {
             "word": "curate",
             "ipa": "/ˈkjʊəreɪt/",
             "pos": "v",
-            "meaning": "策展筛选"
+            "meaning": "策展筛选",
+            "level": "mid"
           }
         ],
         "image": "../outputs/18-media-and-communication/generated-with-text/18-card-02-generated-text.png"
@@ -14587,13 +16539,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "objectivity",
             "ipa": "/ˌɒbdʒekˈtɪvɪti/",
             "pos": "n",
-            "meaning": "客观性"
+            "meaning": "客观性",
+            "level": "mid"
           },
           {
             "word": "impartial",
             "ipa": "/ɪmˈpɑːʃəl/",
             "pos": "adj",
-            "meaning": "公正的"
+            "meaning": "公正的",
+            "level": "mid"
           },
           {
             "word": "bias",
@@ -14607,19 +16561,23 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "credibility",
             "ipa": "/ˌkredɪˈbɪlɪti/",
             "pos": "n",
-            "meaning": "可信度"
+            "meaning": "可信度",
+            "level": "high",
+            "example": "A single fabricated story can destroy a newspaper's credibility overnight."
           },
           {
             "word": "fabrication",
             "ipa": "/ˌfæbrɪˈkeɪʃən/",
             "pos": "n",
-            "meaning": "捏造"
+            "meaning": "捏造",
+            "level": "mid"
           },
           {
             "word": "whistleblower",
             "ipa": "/ˈwɪsəlbləʊər/",
             "pos": "n",
-            "meaning": "举报人"
+            "meaning": "举报人",
+            "level": "mid"
           },
           {
             "word": "accountability",
@@ -14633,55 +16591,67 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "transparency",
             "ipa": "/trænsˈpærənsi/",
             "pos": "n",
-            "meaning": "透明度"
+            "meaning": "透明度",
+            "level": "high",
+            "example": "Greater transparency in government spending helps reduce corruption."
           },
           {
             "word": "retraction",
             "ipa": "/rɪˈtrækʃən/",
             "pos": "n",
-            "meaning": "撤稿声明"
+            "meaning": "撤稿声明",
+            "level": "low"
           },
           {
             "word": "plagiarism",
             "ipa": "/ˈpleɪdʒərɪzəm/",
             "pos": "n",
-            "meaning": "剽窃"
+            "meaning": "剽窃",
+            "level": "high",
+            "example": "Universities take plagiarism seriously and punish it severely."
           },
           {
             "word": "defamation",
             "ipa": "/ˌdefəˈmeɪʃən/",
             "pos": "n",
-            "meaning": "诽谤"
+            "meaning": "诽谤",
+            "level": "mid"
           },
           {
             "word": "sensationalism",
             "ipa": "/senˈseɪʃənəlɪzəm/",
             "pos": "n",
-            "meaning": "耸人听闻"
+            "meaning": "耸人听闻",
+            "level": "mid"
           },
           {
             "word": "source",
             "ipa": "/sɔːs/",
             "pos": "n",
-            "meaning": "消息来源"
+            "meaning": "消息来源",
+            "level": "mid"
           },
           {
             "word": "verify",
             "ipa": "/ˈverɪfaɪ/",
             "pos": "v",
-            "meaning": "核实"
+            "meaning": "核实",
+            "level": "mid"
           },
           {
             "word": "integrity",
             "ipa": "/ɪnˈteɡrɪti/",
             "pos": "n",
-            "meaning": "新闻诚信"
+            "meaning": "新闻诚信",
+            "level": "high",
+            "example": "Journalistic integrity requires reporters to verify facts before publishing."
           },
           {
             "word": "omission",
             "ipa": "/əˈmɪʃən/",
             "pos": "n",
-            "meaning": "信息遗漏"
+            "meaning": "信息遗漏",
+            "level": "mid"
           }
         ],
         "image": "../outputs/18-media-and-communication/generated-with-text/18-card-03-generated-text.png"
@@ -14694,85 +16664,103 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "propaganda",
             "ipa": "/ˌprɒpəˈɡændə/",
             "pos": "n",
-            "meaning": "宣传"
+            "meaning": "宣传",
+            "level": "high",
+            "example": "State-controlled media is often used as a tool of political propaganda."
           },
           {
             "word": "endorsement",
             "ipa": "/ɪnˈdɔːsmənt/",
             "pos": "n",
-            "meaning": "代言"
+            "meaning": "代言",
+            "level": "mid"
           },
           {
             "word": "campaign",
             "ipa": "/kæmˈpeɪn/",
             "pos": "n",
-            "meaning": "宣传活动"
+            "meaning": "宣传活动",
+            "level": "high",
+            "example": "The government launched a campaign to encourage healthier eating habits."
           },
           {
             "word": "slogan",
             "ipa": "/ˈsləʊɡən/",
             "pos": "n",
-            "meaning": "口号"
+            "meaning": "口号",
+            "level": "mid"
           },
           {
             "word": "brand",
             "ipa": "/brænd/",
             "pos": "n",
-            "meaning": "品牌"
+            "meaning": "品牌",
+            "level": "mid"
           },
           {
             "word": "persuasion",
             "ipa": "/pəˈsweɪʒən/",
             "pos": "n",
-            "meaning": "说服"
+            "meaning": "说服",
+            "level": "mid"
           },
           {
             "word": "narrative",
             "ipa": "/ˈnærətɪv/",
             "pos": "n",
-            "meaning": "叙事/宣传口径"
+            "meaning": "叙事/宣传口径",
+            "level": "high",
+            "example": "The media often promotes a single narrative and ignores opposing views."
           },
           {
             "word": "spin",
             "ipa": "/spɪn/",
             "pos": "n",
-            "meaning": "舆论包装"
+            "meaning": "舆论包装",
+            "level": "mid"
           },
           {
             "word": "rhetoric",
             "ipa": "/ˈretərɪk/",
             "pos": "n",
-            "meaning": "修辞/说辞"
+            "meaning": "修辞/说辞",
+            "level": "mid"
           },
           {
             "word": "testimonial",
             "ipa": "/ˌtestɪˈməʊniəl/",
             "pos": "n",
-            "meaning": "推荐证言"
+            "meaning": "推荐证言",
+            "level": "low"
           },
           {
             "word": "commercial",
             "ipa": "/kəˈmɜːʃəl/",
             "pos": "n",
-            "meaning": "商业广告"
+            "meaning": "商业广告",
+            "level": "high",
+            "example": "The old factory district has been transformed into a thriving commercial hub."
           },
           {
             "word": "subliminal",
             "ipa": "/sʌbˈlɪmɪnəl/",
             "pos": "adj",
-            "meaning": "潜意识的"
+            "meaning": "潜意识的",
+            "level": "low"
           },
           {
             "word": "airtime",
             "ipa": "/ˈeətaɪm/",
             "pos": "n",
-            "meaning": "播出时间"
+            "meaning": "播出时间",
+            "level": "low"
           },
           {
             "word": "exposure",
             "ipa": "/ɪkˈspəʊʒər/",
             "pos": "n",
-            "meaning": "曝光度"
+            "meaning": "曝光度",
+            "level": "mid"
           },
           {
             "word": "demographic",
@@ -14786,7 +16774,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "jingle",
             "ipa": "/ˈdʒɪŋɡəl/",
             "pos": "n",
-            "meaning": "广告歌曲"
+            "meaning": "广告歌曲",
+            "level": "low"
           }
         ],
         "image": "../outputs/18-media-and-communication/generated-with-text/18-card-04-generated-text.png"
@@ -14799,97 +16788,118 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "literacy",
             "ipa": "/ˈlɪtərəsi/",
             "pos": "n",
-            "meaning": "媒体素养"
+            "meaning": "媒体素养",
+            "level": "high",
+            "example": "Improving adult literacy is one of the most effective ways to reduce poverty."
           },
           {
             "word": "disinformation",
             "ipa": "/ˌdɪsɪnfəˈmeɪʃən/",
             "pos": "n",
-            "meaning": "蓄意虚假信息"
+            "meaning": "蓄意虚假信息",
+            "level": "mid"
           },
           {
             "word": "polarization",
             "ipa": "/ˌpəʊlərɪˈzeɪʃən/",
             "pos": "n",
-            "meaning": "两极分化"
+            "meaning": "两极分化",
+            "level": "mid"
           },
           {
             "word": "gatekeeping",
             "ipa": "/ˈɡeɪtkiːpɪŋ/",
             "pos": "n",
-            "meaning": "信息把关"
+            "meaning": "信息把关",
+            "level": "low"
           },
           {
             "word": "manipulate",
             "ipa": "/məˈnɪpjʊleɪt/",
             "pos": "v",
-            "meaning": "操控"
+            "meaning": "操控",
+            "level": "high",
+            "example": "Advertisers manipulate emotions to persuade consumers to buy."
           },
           {
             "word": "agenda",
             "ipa": "/əˈdʒendə/",
             "pos": "n",
-            "meaning": "媒体议程"
+            "meaning": "媒体议程",
+            "level": "mid"
           },
           {
             "word": "framing",
             "ipa": "/ˈfreɪmɪŋ/",
             "pos": "n",
-            "meaning": "议题框架"
+            "meaning": "议题框架",
+            "level": "mid"
           },
           {
             "word": "discourse",
             "ipa": "/ˈdɪskɔːs/",
             "pos": "n",
-            "meaning": "话语体系"
+            "meaning": "话语体系",
+            "level": "mid"
           },
           {
             "word": "stereotype",
             "ipa": "/ˈsteriətaɪp/",
             "pos": "n",
-            "meaning": "刻板印象"
+            "meaning": "刻板印象",
+            "level": "high",
+            "example": "Television advertising frequently reinforces outdated gender stereotypes."
           },
           {
             "word": "infodemic",
             "ipa": "/ˌɪnfəˈdemɪk/",
             "pos": "n",
-            "meaning": "信息疫情"
+            "meaning": "信息疫情",
+            "level": "low"
           },
           {
             "word": "desensitize",
             "ipa": "/diːˈsensɪtaɪz/",
             "pos": "v",
-            "meaning": "使麻木"
+            "meaning": "使麻木",
+            "level": "mid"
           },
           {
             "word": "consume",
             "ipa": "/kənˈsjuːm/",
             "pos": "v",
-            "meaning": "消费媒体内容"
+            "meaning": "消费媒体内容",
+            "level": "mid"
           },
           {
             "word": "awareness",
             "ipa": "/əˈweənəs/",
             "pos": "n",
-            "meaning": "媒体意识"
+            "meaning": "媒体意识",
+            "level": "high",
+            "example": "Documentaries can raise public awareness of important social issues."
           },
           {
             "word": "scrutiny",
             "ipa": "/ˈskruːtɪni/",
             "pos": "n",
-            "meaning": "严格审视"
+            "meaning": "严格审视",
+            "level": "mid"
           },
           {
             "word": "reinforce",
             "ipa": "/ˌriːɪnˈfɔːs/",
             "pos": "v",
-            "meaning": "强化偏见"
+            "meaning": "强化偏见",
+            "level": "high",
+            "example": "Advertising often reinforces stereotypes rather than challenging them."
           },
           {
             "word": "amplify",
             "ipa": "/ˈæmplɪfaɪ/",
             "pos": "v",
-            "meaning": "放大传播"
+            "meaning": "放大传播",
+            "level": "mid"
           }
         ],
         "image": "../outputs/18-media-and-communication/generated-with-text/18-card-05-generated-text.png"
@@ -15152,91 +17162,111 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "heritage",
             "ipa": "/ˈherɪtɪdʒ/",
             "pos": "n",
-            "meaning": "遗产"
+            "meaning": "遗产",
+            "level": "high",
+            "example": "Traditional festivals help pass cultural heritage on to younger generations."
           },
           {
             "word": "ancestral",
             "ipa": "/ænˈsestrəl/",
             "pos": "adj",
-            "meaning": "祖先的"
+            "meaning": "祖先的",
+            "level": "mid"
           },
           {
             "word": "indigenous",
             "ipa": "/ɪnˈdɪdʒɪnəs/",
             "pos": "adj",
-            "meaning": "土著的"
+            "meaning": "土著的",
+            "level": "high",
+            "example": "Indigenous communities possess invaluable knowledge about managing land sustainably."
           },
           {
             "word": "preserve",
             "ipa": "/prɪˈzɜːrv/",
             "pos": "v",
-            "meaning": "保护"
+            "meaning": "保护",
+            "level": "high",
+            "example": "It is our responsibility to preserve natural resources for future generations."
           },
           {
             "word": "artefact",
             "ipa": "/ˈɑːrtɪfækt/",
             "pos": "n",
-            "meaning": "人工制品"
+            "meaning": "人工制品",
+            "level": "mid"
           },
           {
             "word": "legacy",
             "ipa": "/ˈleɡəsi/",
             "pos": "n",
-            "meaning": "历史遗产"
+            "meaning": "历史遗产",
+            "level": "high",
+            "example": "The empire left a lasting legacy in the region's language and architecture."
           },
           {
             "word": "inscription",
             "ipa": "/ɪnˈskrɪpʃn/",
             "pos": "n",
-            "meaning": "铭文"
+            "meaning": "铭文",
+            "level": "mid"
           },
           {
             "word": "relic",
             "ipa": "/ˈrelɪk/",
             "pos": "n",
-            "meaning": "遗迹"
+            "meaning": "遗迹",
+            "level": "mid"
           },
           {
             "word": "ethnicity",
             "ipa": "/eθˈnɪsɪti/",
             "pos": "n",
-            "meaning": "族裔"
+            "meaning": "族裔",
+            "level": "mid"
           },
           {
             "word": "commemorate",
             "ipa": "/kəˈmeməreɪt/",
             "pos": "v",
-            "meaning": "纪念"
+            "meaning": "纪念",
+            "level": "mid"
           },
           {
             "word": "folklore",
             "ipa": "/ˈfoʊklɔːr/",
             "pos": "n",
-            "meaning": "民间传说"
+            "meaning": "民间传说",
+            "level": "mid"
           },
           {
             "word": "intact",
             "ipa": "/ɪnˈtækt/",
             "pos": "adj",
-            "meaning": "完整无损"
+            "meaning": "完整无损",
+            "level": "mid"
           },
           {
             "word": "custom",
             "ipa": "/ˈkʌstəm/",
             "pos": "n",
-            "meaning": "习俗"
+            "meaning": "习俗",
+            "level": "high",
+            "example": "Local customs often reveal a great deal about a community's values."
           },
           {
             "word": "antiquity",
             "ipa": "/ænˈtɪkwɪti/",
             "pos": "n",
-            "meaning": "古代"
+            "meaning": "古代",
+            "level": "mid"
           },
           {
             "word": "excavate",
             "ipa": "/ˈekskəveɪt/",
             "pos": "v",
-            "meaning": "挖掘"
+            "meaning": "挖掘",
+            "level": "mid"
           }
         ],
         "image": "../outputs/19-culture-and-traditions/generated-with-text/19-card-01-generated-text.png"
@@ -15249,91 +17279,107 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "ceremony",
             "ipa": "/ˈserɪməni/",
             "pos": "n",
-            "meaning": "典礼"
+            "meaning": "典礼",
+            "level": "mid"
           },
           {
             "word": "rite",
             "ipa": "/raɪt/",
             "pos": "n",
-            "meaning": "仪式"
+            "meaning": "仪式",
+            "level": "mid"
           },
           {
             "word": "initiation",
             "ipa": "/ɪˌnɪʃiˈeɪʃn/",
             "pos": "n",
-            "meaning": "入会仪式"
+            "meaning": "入会仪式",
+            "level": "mid"
           },
           {
             "word": "procession",
             "ipa": "/prəˈseʃn/",
             "pos": "n",
-            "meaning": "游行队伍"
+            "meaning": "游行队伍",
+            "level": "mid"
           },
           {
             "word": "festivity",
             "ipa": "/feˈstɪvɪti/",
             "pos": "n",
-            "meaning": "节庆活动"
+            "meaning": "节庆活动",
+            "level": "mid"
           },
           {
             "word": "solemn",
             "ipa": "/ˈsɒləm/",
             "pos": "adj",
-            "meaning": "庄严的"
+            "meaning": "庄严的",
+            "level": "mid"
           },
           {
             "word": "sacred",
             "ipa": "/ˈseɪkrɪd/",
             "pos": "adj",
-            "meaning": "神圣的"
+            "meaning": "神圣的",
+            "level": "mid"
           },
           {
             "word": "pilgrimage",
             "ipa": "/ˈpɪlɡrɪmɪdʒ/",
             "pos": "n",
-            "meaning": "朝圣之旅"
+            "meaning": "朝圣之旅",
+            "level": "mid"
           },
           {
             "word": "shrine",
             "ipa": "/ʃraɪn/",
             "pos": "n",
-            "meaning": "圣地"
+            "meaning": "圣地",
+            "level": "mid"
           },
           {
             "word": "chant",
             "ipa": "/tʃɑːnt/",
             "pos": "v",
-            "meaning": "吟唱"
+            "meaning": "吟唱",
+            "level": "mid"
           },
           {
             "word": "incense",
             "ipa": "/ˈɪnsens/",
             "pos": "n",
-            "meaning": "熏香"
+            "meaning": "熏香",
+            "level": "low"
           },
           {
             "word": "venerate",
             "ipa": "/ˈvenəreɪt/",
             "pos": "v",
-            "meaning": "崇拜"
+            "meaning": "崇拜",
+            "level": "low"
           },
           {
             "word": "ritual",
             "ipa": "/ˈrɪtʃuəl/",
             "pos": "n",
-            "meaning": "仪式"
+            "meaning": "仪式",
+            "level": "high",
+            "example": "Shared rituals strengthen the bonds within a community."
           },
           {
             "word": "devotion",
             "ipa": "/dɪˈvəʊʃn/",
             "pos": "n",
-            "meaning": "虔诚"
+            "meaning": "虔诚",
+            "level": "mid"
           },
           {
             "word": "consecrate",
             "ipa": "/ˈkɒnsɪkreɪt/",
             "pos": "v",
-            "meaning": "奉献神圣"
+            "meaning": "奉献神圣",
+            "level": "low"
           }
         ],
         "image": "../outputs/19-culture-and-traditions/generated-with-text/19-card-02-generated-text.png"
@@ -15346,91 +17392,107 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "mural",
             "ipa": "/ˈmjʊərəl/",
             "pos": "n",
-            "meaning": "壁画"
+            "meaning": "壁画",
+            "level": "mid"
           },
           {
             "word": "embroidery",
             "ipa": "/ɪmˈbrɔɪdəri/",
             "pos": "n",
-            "meaning": "刺绣"
+            "meaning": "刺绣",
+            "level": "low"
           },
           {
             "word": "artisan",
             "ipa": "/ˈɑːrtɪzæn/",
             "pos": "n",
-            "meaning": "工匠"
+            "meaning": "工匠",
+            "level": "mid"
           },
           {
             "word": "manuscript",
             "ipa": "/ˈmænjʊskrɪpt/",
             "pos": "n",
-            "meaning": "手稿"
+            "meaning": "手稿",
+            "level": "mid"
           },
           {
             "word": "mythology",
             "ipa": "/mɪˈθɒlədʒi/",
             "pos": "n",
-            "meaning": "神话"
+            "meaning": "神话",
+            "level": "mid"
           },
           {
             "word": "motif",
             "ipa": "/məʊˈtiːf/",
             "pos": "n",
-            "meaning": "主题图案"
+            "meaning": "主题图案",
+            "level": "mid"
           },
           {
             "word": "tapestry",
             "ipa": "/ˈtæpɪstri/",
             "pos": "n",
-            "meaning": "挂毯"
+            "meaning": "挂毯",
+            "level": "low"
           },
           {
             "word": "ballad",
             "ipa": "/ˈbæləd/",
             "pos": "n",
-            "meaning": "民谣"
+            "meaning": "民谣",
+            "level": "low"
           },
           {
             "word": "oral",
             "ipa": "/ˈɔːrəl/",
             "pos": "adj",
-            "meaning": "口头的"
+            "meaning": "口头的",
+            "level": "mid"
           },
           {
             "word": "weave",
             "ipa": "/wiːv/",
             "pos": "v",
-            "meaning": "编织"
+            "meaning": "编织",
+            "level": "mid"
           },
           {
             "word": "parable",
             "ipa": "/ˈpærəbl/",
             "pos": "n",
-            "meaning": "寓言故事"
+            "meaning": "寓言故事",
+            "level": "low"
           },
           {
             "word": "proverb",
             "ipa": "/ˈprɒvɜːrb/",
             "pos": "n",
-            "meaning": "谚语"
+            "meaning": "谚语",
+            "level": "mid"
           },
           {
             "word": "narrative",
             "ipa": "/ˈnærətɪv/",
             "pos": "n",
-            "meaning": "叙事"
+            "meaning": "叙事",
+            "level": "high",
+            "example": "The media often promotes a single narrative and ignores opposing views."
           },
           {
             "word": "symbolism",
             "ipa": "/ˈsɪmbəlɪzəm/",
             "pos": "n",
-            "meaning": "象征主义"
+            "meaning": "象征主义",
+            "level": "mid"
           },
           {
             "word": "carve",
             "ipa": "/kɑːrv/",
             "pos": "v",
-            "meaning": "雕刻"
+            "meaning": "雕刻",
+            "level": "mid"
           }
         ],
         "image": "../outputs/19-culture-and-traditions/generated-with-text/19-card-03-generated-text.png"
@@ -15443,43 +17505,54 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "bilingual",
             "ipa": "/baɪˈlɪŋɡwəl/",
             "pos": "adj",
-            "meaning": "双语的"
+            "meaning": "双语的",
+            "level": "mid"
           },
           {
             "word": "assimilation",
             "ipa": "/əˌsɪmɪˈleɪʃn/",
             "pos": "n",
-            "meaning": "同化"
+            "meaning": "同化",
+            "level": "high",
+            "example": "Forced assimilation erases the unique identity of minority cultures."
           },
           {
             "word": "minority",
             "ipa": "/maɪˈnɒrɪti/",
             "pos": "n",
-            "meaning": "少数族裔"
+            "meaning": "少数族裔",
+            "level": "high",
+            "example": "Governments should protect the languages of ethnic minority groups."
           },
           {
             "word": "linguistic",
             "ipa": "/lɪŋˈɡwɪstɪk/",
             "pos": "adj",
-            "meaning": "语言的"
+            "meaning": "语言的",
+            "level": "mid"
           },
           {
             "word": "endangered",
             "ipa": "/ɪnˈdeɪndʒərd/",
             "pos": "adj",
-            "meaning": "濒危的"
+            "meaning": "濒危的",
+            "level": "high",
+            "example": "Illegal hunting has pushed several endangered species to the brink of extinction."
           },
           {
             "word": "revitalise",
             "ipa": "/riːˈvaɪtəlaɪz/",
             "pos": "v",
-            "meaning": "复兴"
+            "meaning": "复兴",
+            "level": "mid"
           },
           {
             "word": "cohesion",
             "ipa": "/kəʊˈhiːʒn/",
             "pos": "n",
-            "meaning": "凝聚力"
+            "meaning": "凝聚力",
+            "level": "high",
+            "example": "A shared language strengthens social cohesion within a diverse society."
           },
           {
             "word": "solidarity",
@@ -15500,7 +17573,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "stereotype",
             "ipa": "/ˈsteriətaɪp/",
             "pos": "n",
-            "meaning": "刻板印象"
+            "meaning": "刻板印象",
+            "level": "high",
+            "example": "Television advertising frequently reinforces outdated gender stereotypes."
           },
           {
             "word": "diversity",
@@ -15514,25 +17589,32 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "integration",
             "ipa": "/ˌɪntɪˈɡreɪʃn/",
             "pos": "n",
-            "meaning": "融合"
+            "meaning": "融合",
+            "level": "high",
+            "example": "Successful integration requires effort from both immigrants and host communities."
           },
           {
             "word": "dialect",
             "ipa": "/ˈdaɪəlekt/",
             "pos": "n",
-            "meaning": "方言"
+            "meaning": "方言",
+            "level": "high",
+            "example": "Many regional dialects are disappearing as young people move to cities."
           },
           {
             "word": "identity",
             "ipa": "/aɪˈdentɪti/",
             "pos": "n",
-            "meaning": "身份认同"
+            "meaning": "身份认同",
+            "level": "mid"
           },
           {
             "word": "tolerance",
             "ipa": "/ˈtɒlərəns/",
             "pos": "n",
-            "meaning": "包容"
+            "meaning": "包容",
+            "level": "high",
+            "example": "A healthy society depends on mutual tolerance between people of different beliefs."
           }
         ],
         "image": "../outputs/19-culture-and-traditions/generated-with-text/19-card-04-generated-text.png"
@@ -15545,91 +17627,111 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "globalisation",
             "ipa": "/ˌɡloʊbəlaɪˈzeɪʃn/",
             "pos": "n",
-            "meaning": "全球化"
+            "meaning": "全球化",
+            "level": "high",
+            "example": "Globalisation has made cultures around the world increasingly similar."
           },
           {
             "word": "acculturation",
             "ipa": "/əˌkʌltʃəˈreɪʃn/",
             "pos": "n",
-            "meaning": "文化适应"
+            "meaning": "文化适应",
+            "level": "low"
           },
           {
             "word": "diaspora",
             "ipa": "/daɪˈæspərə/",
             "pos": "n",
-            "meaning": "侨民群体"
+            "meaning": "侨民群体",
+            "level": "mid"
           },
           {
             "word": "cosmopolitan",
             "ipa": "/ˌkɒzməˈpɒlɪtən/",
             "pos": "adj",
-            "meaning": "世界性的"
+            "meaning": "世界性的",
+            "level": "high",
+            "example": "Cosmopolitan cities attract talent from every corner of the world."
           },
           {
             "word": "hybridisation",
             "ipa": "/ˌhaɪbrɪdaɪˈzeɪʃn/",
             "pos": "n",
-            "meaning": "混合化"
+            "meaning": "混合化",
+            "level": "low"
           },
           {
             "word": "transmit",
             "ipa": "/trænsˈmɪt/",
             "pos": "v",
-            "meaning": "传递"
+            "meaning": "传递",
+            "level": "mid"
           },
           {
             "word": "erode",
             "ipa": "/ɪˈrəʊd/",
             "pos": "v",
-            "meaning": "侵蚀"
+            "meaning": "侵蚀",
+            "level": "high",
+            "example": "Globalisation can slowly erode distinctive local traditions."
           },
           {
             "word": "homogenisation",
             "ipa": "/həˌmɒdʒɪnaɪˈzeɪʃn/",
             "pos": "n",
-            "meaning": "同质化"
+            "meaning": "同质化",
+            "level": "low"
           },
           {
             "word": "adapt",
             "ipa": "/əˈdæpt/",
             "pos": "v",
-            "meaning": "适应"
+            "meaning": "适应",
+            "level": "high",
+            "example": "Companies that fail to adapt to technological change rarely survive for long."
           },
           {
             "word": "intercultural",
             "ipa": "/ˌɪntəˈkʌltʃərəl/",
             "pos": "adj",
-            "meaning": "跨文化的"
+            "meaning": "跨文化的",
+            "level": "mid"
           },
           {
             "word": "appropriation",
             "ipa": "/əˌprəʊpriˈeɪʃn/",
             "pos": "n",
-            "meaning": "文化挪用"
+            "meaning": "文化挪用",
+            "level": "mid"
           },
           {
             "word": "multiculturalism",
             "ipa": "/ˌmʌltiˈkʌltʃərəlɪzəm/",
             "pos": "n",
-            "meaning": "多元文化主义"
+            "meaning": "多元文化主义",
+            "level": "high",
+            "example": "Multiculturalism enriches a society by exposing people to new ideas and food."
           },
           {
             "word": "fusion",
             "ipa": "/ˈfjuːʒn/",
             "pos": "n",
-            "meaning": "文化融合"
+            "meaning": "文化融合",
+            "level": "mid"
           },
           {
             "word": "expatriate",
             "ipa": "/ɪkˈspætriət/",
             "pos": "n",
-            "meaning": "移居海外者"
+            "meaning": "移居海外者",
+            "level": "mid"
           },
           {
             "word": "borderless",
             "ipa": "/ˈbɔːrdərləs/",
             "pos": "adj",
-            "meaning": "无边界的"
+            "meaning": "无边界的",
+            "level": "low"
           }
         ],
         "image": "../outputs/19-culture-and-traditions/generated-with-text/19-card-05-generated-text.png"
@@ -15854,97 +17956,117 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "masterpiece",
             "ipa": "/ˈmɑːstəpiːs/",
             "pos": "n",
-            "meaning": "杰作"
+            "meaning": "杰作",
+            "level": "high",
+            "example": "The gallery's collection includes several masterpieces of Renaissance painting."
           },
           {
             "word": "portraiture",
             "ipa": "/ˈpɔːtrɪtʃə/",
             "pos": "n",
-            "meaning": "肖像画"
+            "meaning": "肖像画",
+            "level": "mid"
           },
           {
             "word": "abstract",
             "ipa": "/ˈæbstrækt/",
             "pos": "adj",
-            "meaning": "抽象的"
+            "meaning": "抽象的",
+            "level": "high",
+            "example": "Abstract art can be difficult to appreciate without some background knowledge."
           },
           {
             "word": "sculpture",
             "ipa": "/ˈskʌlptʃə/",
             "pos": "n",
-            "meaning": "雕塑"
+            "meaning": "雕塑",
+            "level": "mid"
           },
           {
             "word": "palette",
             "ipa": "/ˈpælɪt/",
             "pos": "n",
-            "meaning": "调色板"
+            "meaning": "调色板",
+            "level": "mid"
           },
           {
             "word": "pigment",
             "ipa": "/ˈpɪɡmənt/",
             "pos": "n",
-            "meaning": "颜料"
+            "meaning": "颜料",
+            "level": "mid"
           },
           {
             "word": "canvas",
             "ipa": "/ˈkænvəs/",
             "pos": "n",
-            "meaning": "画布"
+            "meaning": "画布",
+            "level": "mid"
           },
           {
             "word": "perspective",
             "ipa": "/pəˈspektɪv/",
             "pos": "n",
-            "meaning": "透视法"
+            "meaning": "透视法",
+            "level": "mid"
           },
           {
             "word": "fresco",
             "ipa": "/ˈfreskəʊ/",
             "pos": "n",
-            "meaning": "壁画"
+            "meaning": "壁画",
+            "level": "low"
           },
           {
             "word": "brushstroke",
             "ipa": "/ˈbrʌʃstrəʊk/",
             "pos": "n",
-            "meaning": "笔触"
+            "meaning": "笔触",
+            "level": "low"
           },
           {
             "word": "composition",
             "ipa": "/ˌkɒmpəˈzɪʃən/",
             "pos": "n",
-            "meaning": "构图"
+            "meaning": "构图",
+            "level": "high",
+            "example": "The photographer is famous for the striking composition of her images."
           },
           {
             "word": "easel",
             "ipa": "/ˈiːzəl/",
             "pos": "n",
-            "meaning": "画架"
+            "meaning": "画架",
+            "level": "low"
           },
           {
             "word": "figurative",
             "ipa": "/ˈfɪɡjərətɪv/",
             "pos": "adj",
-            "meaning": "具象的"
+            "meaning": "具象的",
+            "level": "mid"
           },
           {
             "word": "aesthetic",
             "ipa": "/iːsˈθetɪk/",
             "pos": "adj",
-            "meaning": "美学的"
+            "meaning": "美学的",
+            "level": "high",
+            "example": "Modern architecture is often criticised for prioritising function over aesthetic appeal."
           },
           {
             "word": "texture",
             "ipa": "/ˈtekstʃə/",
             "pos": "n",
-            "meaning": "质感"
+            "meaning": "质感",
+            "level": "mid"
           },
           {
             "word": "chiaroscuro",
             "ipa": "/kiˌɑːrəˈskʊərəʊ/",
             "pos": "n",
-            "meaning": "明暗对比"
+            "meaning": "明暗对比",
+            "level": "low"
           }
         ],
         "image": "../outputs/20-art-and-music/generated-with-text/20-card-01-generated-text.png"
@@ -15957,97 +18079,114 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "symphony",
             "ipa": "/ˈsɪmfəni/",
             "pos": "n",
-            "meaning": "交响乐"
+            "meaning": "交响乐",
+            "level": "mid"
           },
           {
             "word": "melody",
             "ipa": "/ˈmelədi/",
             "pos": "n",
-            "meaning": "旋律"
+            "meaning": "旋律",
+            "level": "mid"
           },
           {
             "word": "harmony",
             "ipa": "/ˈhɑːməni/",
             "pos": "n",
-            "meaning": "和声"
+            "meaning": "和声",
+            "level": "mid"
           },
           {
             "word": "rhythm",
             "ipa": "/ˈrɪðəm/",
             "pos": "n",
-            "meaning": "节奏"
+            "meaning": "节奏",
+            "level": "mid"
           },
           {
             "word": "tempo",
             "ipa": "/ˈtempəʊ/",
             "pos": "n",
-            "meaning": "节拍"
+            "meaning": "节拍",
+            "level": "mid"
           },
           {
             "word": "conductor",
             "ipa": "/kənˈdʌktə/",
             "pos": "n",
-            "meaning": "指挥"
+            "meaning": "指挥",
+            "level": "mid"
           },
           {
             "word": "orchestra",
             "ipa": "/ˈɔːkɪstrə/",
             "pos": "n",
-            "meaning": "管弦乐队"
+            "meaning": "管弦乐队",
+            "level": "mid"
           },
           {
             "word": "resonance",
             "ipa": "/ˈrezənəns/",
             "pos": "n",
-            "meaning": "共鸣"
+            "meaning": "共鸣",
+            "level": "mid"
           },
           {
             "word": "virtuoso",
             "ipa": "/ˌvɜːtʃuˈəʊsəʊ/",
             "pos": "n",
-            "meaning": "演奏大师"
+            "meaning": "演奏大师",
+            "level": "low"
           },
           {
             "word": "percussion",
             "ipa": "/pəˈkʌʃən/",
             "pos": "n",
-            "meaning": "打击乐器"
+            "meaning": "打击乐器",
+            "level": "mid"
           },
           {
             "word": "improvisation",
             "ipa": "/ɪmˌprɒvɪˈzeɪʃən/",
             "pos": "n",
-            "meaning": "即兴演奏"
+            "meaning": "即兴演奏",
+            "level": "high",
+            "example": "Jazz musicians value improvisation over rigid adherence to the score."
           },
           {
             "word": "acoustic",
             "ipa": "/əˈkuːstɪk/",
             "pos": "adj",
-            "meaning": "原声的"
+            "meaning": "原声的",
+            "level": "mid"
           },
           {
             "word": "chord",
             "ipa": "/kɔːd/",
             "pos": "n",
-            "meaning": "和弦"
+            "meaning": "和弦",
+            "level": "mid"
           },
           {
             "word": "aria",
             "ipa": "/ˈɑːrɪə/",
             "pos": "n",
-            "meaning": "咏叹调"
+            "meaning": "咏叹调",
+            "level": "low"
           },
           {
             "word": "crescendo",
             "ipa": "/krɪˈʃendəʊ/",
             "pos": "n",
-            "meaning": "渐强"
+            "meaning": "渐强",
+            "level": "low"
           },
           {
             "word": "ensemble",
             "ipa": "/ɒnˈsɒmbəl/",
             "pos": "n",
-            "meaning": "合奏团"
+            "meaning": "合奏团",
+            "level": "mid"
           }
         ],
         "image": "../outputs/20-art-and-music/generated-with-text/20-card-02-generated-text.png"
@@ -16060,97 +18199,113 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "choreography",
             "ipa": "/ˌkɒriˈɒɡrəfi/",
             "pos": "n",
-            "meaning": "编舞"
+            "meaning": "编舞",
+            "level": "mid"
           },
           {
             "word": "rehearsal",
             "ipa": "/rɪˈhɜːsəl/",
             "pos": "n",
-            "meaning": "排练"
+            "meaning": "排练",
+            "level": "mid"
           },
           {
             "word": "theatrical",
             "ipa": "/θɪˈætrɪkəl/",
             "pos": "adj",
-            "meaning": "戏剧的"
+            "meaning": "戏剧的",
+            "level": "mid"
           },
           {
             "word": "debut",
             "ipa": "/ˈdeɪbjuː/",
             "pos": "n",
-            "meaning": "首演"
+            "meaning": "首演",
+            "level": "mid"
           },
           {
             "word": "applause",
             "ipa": "/əˈplɔːz/",
             "pos": "n",
-            "meaning": "掌声"
+            "meaning": "掌声",
+            "level": "mid"
           },
           {
             "word": "ballet",
             "ipa": "/ˈbæleɪ/",
             "pos": "n",
-            "meaning": "芭蕾舞"
+            "meaning": "芭蕾舞",
+            "level": "mid"
           },
           {
             "word": "monologue",
             "ipa": "/ˈmɒnəlɒɡ/",
             "pos": "n",
-            "meaning": "独白"
+            "meaning": "独白",
+            "level": "mid"
           },
           {
             "word": "improvise",
             "ipa": "/ˈɪmprəvaɪz/",
             "pos": "v",
-            "meaning": "即兴表演"
+            "meaning": "即兴表演",
+            "level": "mid"
           },
           {
             "word": "protagonist",
             "ipa": "/prəˈtæɡənɪst/",
             "pos": "n",
-            "meaning": "主角"
+            "meaning": "主角",
+            "level": "mid"
           },
           {
             "word": "curtain",
             "ipa": "/ˈkɜːtən/",
             "pos": "n",
-            "meaning": "幕布"
+            "meaning": "幕布",
+            "level": "mid"
           },
           {
             "word": "ovation",
             "ipa": "/əʊˈveɪʃən/",
             "pos": "n",
-            "meaning": "喝彩"
+            "meaning": "喝彩",
+            "level": "low"
           },
           {
             "word": "stagecraft",
             "ipa": "/ˈsteɪdʒkrɑːft/",
             "pos": "n",
-            "meaning": "舞台技艺"
+            "meaning": "舞台技艺",
+            "level": "low"
           },
           {
             "word": "soloist",
             "ipa": "/ˈsəʊləʊɪst/",
             "pos": "n",
-            "meaning": "独奏者"
+            "meaning": "独奏者",
+            "level": "low"
           },
           {
             "word": "pantomime",
             "ipa": "/ˈpæntəmaɪm/",
             "pos": "n",
-            "meaning": "哑剧"
+            "meaning": "哑剧",
+            "level": "low"
           },
           {
             "word": "dramatic",
             "ipa": "/drəˈmætɪk/",
             "pos": "adj",
-            "meaning": "戏剧性的"
+            "meaning": "戏剧性的",
+            "level": "mid"
           },
           {
             "word": "auditorium",
             "ipa": "/ˌɔːdɪˈtɔːriəm/",
             "pos": "n",
-            "meaning": "礼堂"
+            "meaning": "礼堂",
+            "level": "mid"
           }
         ],
         "image": "../outputs/20-art-and-music/generated-with-text/20-card-03-generated-text.png"
@@ -16163,97 +18318,117 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "artifact",
             "ipa": "/ˈɑːtɪfækt/",
             "pos": "n",
-            "meaning": "文物"
+            "meaning": "文物",
+            "level": "mid"
           },
           {
             "word": "curator",
             "ipa": "/kjʊˈreɪtə/",
             "pos": "n",
-            "meaning": "策展人"
+            "meaning": "策展人",
+            "level": "mid"
           },
           {
             "word": "heritage",
             "ipa": "/ˈherɪtɪdʒ/",
             "pos": "n",
-            "meaning": "遗产"
+            "meaning": "遗产",
+            "level": "high",
+            "example": "Traditional festivals help pass cultural heritage on to younger generations."
           },
           {
             "word": "preservation",
             "ipa": "/ˌprezəˈveɪʃən/",
             "pos": "n",
-            "meaning": "保护"
+            "meaning": "保护",
+            "level": "high",
+            "example": "The preservation of ancient artworks requires careful control of temperature and light."
           },
           {
             "word": "restoration",
             "ipa": "/ˌrestəˈreɪʃən/",
             "pos": "n",
-            "meaning": "修复"
+            "meaning": "修复",
+            "level": "high",
+            "example": "The restoration of degraded wetlands can bring wildlife back within a few years."
           },
           {
             "word": "antiquity",
             "ipa": "/ænˈtɪkwɪti/",
             "pos": "n",
-            "meaning": "古迹"
+            "meaning": "古迹",
+            "level": "mid"
           },
           {
             "word": "exhibition",
             "ipa": "/ˌeksɪˈbɪʃən/",
             "pos": "n",
-            "meaning": "展览"
+            "meaning": "展览",
+            "level": "high",
+            "example": "The exhibition attracted record numbers of visitors from around the world."
           },
           {
             "word": "provenance",
             "ipa": "/ˈprɒvənəns/",
             "pos": "n",
-            "meaning": "来源"
+            "meaning": "来源",
+            "level": "low"
           },
           {
             "word": "inscription",
             "ipa": "/ɪnˈskrɪpʃən/",
             "pos": "n",
-            "meaning": "铭文"
+            "meaning": "铭文",
+            "level": "mid"
           },
           {
             "word": "relic",
             "ipa": "/ˈrelɪk/",
             "pos": "n",
-            "meaning": "遗迹"
+            "meaning": "遗迹",
+            "level": "mid"
           },
           {
             "word": "iconography",
             "ipa": "/ˌaɪkəˈnɒɡrəfi/",
             "pos": "n",
-            "meaning": "图像志"
+            "meaning": "图像志",
+            "level": "low"
           },
           {
             "word": "patronage",
             "ipa": "/ˈpeɪtrənɪdʒ/",
             "pos": "n",
-            "meaning": "资助"
+            "meaning": "资助",
+            "level": "mid"
           },
           {
             "word": "gallery",
             "ipa": "/ˈɡæləri/",
             "pos": "n",
-            "meaning": "画廊"
+            "meaning": "画廊",
+            "level": "mid"
           },
           {
             "word": "archivist",
             "ipa": "/ˈɑːkɪvɪst/",
             "pos": "n",
-            "meaning": "档案管理员"
+            "meaning": "档案管理员",
+            "level": "low"
           },
           {
             "word": "intangible",
             "ipa": "/ɪnˈtændʒɪbəl/",
             "pos": "adj",
-            "meaning": "非物质的"
+            "meaning": "非物质的",
+            "level": "mid"
           },
           {
             "word": "authenticate",
             "ipa": "/ɔːˈθentɪkeɪt/",
             "pos": "v",
-            "meaning": "鉴定真伪"
+            "meaning": "鉴定真伪",
+            "level": "mid"
           }
         ],
         "image": "../outputs/20-art-and-music/generated-with-text/20-card-04-generated-text.png"
@@ -16266,97 +18441,116 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "inspiration",
             "ipa": "/ˌɪnspɪˈreɪʃən/",
             "pos": "n",
-            "meaning": "灵感"
+            "meaning": "灵感",
+            "level": "high",
+            "example": "Many artists find inspiration in the landscapes of their childhood."
           },
           {
             "word": "innovation",
             "ipa": "/ˌɪnəˈveɪʃən/",
             "pos": "n",
-            "meaning": "创新"
+            "meaning": "创新",
+            "level": "high",
+            "example": "Innovation in green technology will be the key to solving the energy crisis."
           },
           {
             "word": "motif",
             "ipa": "/məʊˈtiːf/",
             "pos": "n",
-            "meaning": "主题纹样"
+            "meaning": "主题纹样",
+            "level": "mid"
           },
           {
             "word": "genre",
             "ipa": "/ˈʒɒnrə/",
             "pos": "n",
-            "meaning": "流派"
+            "meaning": "流派",
+            "level": "mid"
           },
           {
             "word": "medium",
             "ipa": "/ˈmiːdiəm/",
             "pos": "n",
-            "meaning": "媒介"
+            "meaning": "媒介",
+            "level": "mid"
           },
           {
             "word": "symbolism",
             "ipa": "/ˈsɪmbəlɪzəm/",
             "pos": "n",
-            "meaning": "象征主义"
+            "meaning": "象征主义",
+            "level": "mid"
           },
           {
             "word": "critique",
             "ipa": "/krɪˈtiːk/",
             "pos": "n",
-            "meaning": "评论"
+            "meaning": "评论",
+            "level": "high",
+            "example": "Learning to critique your own work is essential for any artist."
           },
           {
             "word": "contemporary",
             "ipa": "/kənˈtempərəri/",
             "pos": "adj",
-            "meaning": "当代的"
+            "meaning": "当代的",
+            "level": "mid"
           },
           {
             "word": "avant-garde",
             "ipa": "/ˌævɒnˈɡɑːd/",
             "pos": "adj",
-            "meaning": "前卫的"
+            "meaning": "前卫的",
+            "level": "low"
           },
           {
             "word": "prolific",
             "ipa": "/prəˈlɪfɪk/",
             "pos": "adj",
-            "meaning": "多产的"
+            "meaning": "多产的",
+            "level": "mid"
           },
           {
             "word": "evocative",
             "ipa": "/ɪˈvɒkətɪv/",
             "pos": "adj",
-            "meaning": "引人遐想的"
+            "meaning": "引人遐想的",
+            "level": "mid"
           },
           {
             "word": "manifesto",
             "ipa": "/ˌmænɪˈfestəʊ/",
             "pos": "n",
-            "meaning": "宣言"
+            "meaning": "宣言",
+            "level": "mid"
           },
           {
             "word": "retrospective",
             "ipa": "/ˌretrəˈspektɪv/",
             "pos": "n",
-            "meaning": "回顾展"
+            "meaning": "回顾展",
+            "level": "low"
           },
           {
             "word": "subversive",
             "ipa": "/səbˈvɜːsɪv/",
             "pos": "adj",
-            "meaning": "颠覆性的"
+            "meaning": "颠覆性的",
+            "level": "mid"
           },
           {
             "word": "transcendent",
             "ipa": "/trænˈsendənt/",
             "pos": "adj",
-            "meaning": "超越的"
+            "meaning": "超越的",
+            "level": "low"
           },
           {
             "word": "ephemeral",
             "ipa": "/ɪˈfemərəl/",
             "pos": "adj",
-            "meaning": "短暂的"
+            "meaning": "短暂的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/20-art-and-music/generated-with-text/20-card-05-generated-text.png"
@@ -16615,103 +18809,121 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "tournament",
             "ipa": "/ˈtʊənəmənt/",
             "pos": "n",
-            "meaning": "锦标赛"
+            "meaning": "锦标赛",
+            "level": "mid"
           },
           {
             "word": "championship",
             "ipa": "/ˈtʃæmpiənʃɪp/",
             "pos": "n",
-            "meaning": "冠军赛"
+            "meaning": "冠军赛",
+            "level": "mid"
           },
           {
             "word": "stadium",
             "ipa": "/ˈsteɪdiəm/",
             "pos": "n",
-            "meaning": "体育场"
+            "meaning": "体育场",
+            "level": "mid"
           },
           {
             "word": "spectator",
             "ipa": "/spekˈteɪtər/",
             "pos": "n",
-            "meaning": "观众"
+            "meaning": "观众",
+            "level": "mid"
           },
           {
             "word": "referee",
             "ipa": "/ˌrefəˈriː/",
             "pos": "n",
-            "meaning": "裁判"
+            "meaning": "裁判",
+            "level": "mid"
           },
           {
             "word": "foul",
             "ipa": "/faʊl/",
             "pos": "n",
-            "meaning": "犯规"
+            "meaning": "犯规",
+            "level": "mid"
           },
           {
             "word": "penalty",
             "ipa": "/ˈpenəlti/",
             "pos": "n",
-            "meaning": "点球/罚球"
+            "meaning": "点球/罚球",
+            "level": "high",
+            "example": "Some argue that the death penalty has no place in a civilised society."
           },
           {
             "word": "squad",
             "ipa": "/skwɒd/",
             "pos": "n",
-            "meaning": "阵容"
+            "meaning": "阵容",
+            "level": "mid"
           },
           {
             "word": "striker",
             "ipa": "/ˈstraɪkər/",
             "pos": "n",
-            "meaning": "前锋"
+            "meaning": "前锋",
+            "level": "low"
           },
           {
             "word": "midfielder",
             "ipa": "/ˈmɪdfiːldər/",
             "pos": "n",
-            "meaning": "中场"
+            "meaning": "中场",
+            "level": "low"
           },
           {
             "word": "qualify",
             "ipa": "/ˈkwɒlɪfaɪ/",
             "pos": "v",
-            "meaning": "晋级"
+            "meaning": "晋级",
+            "level": "mid"
           },
           {
             "word": "elimination",
             "ipa": "/ɪˌlɪmɪˈneɪʃn/",
             "pos": "n",
-            "meaning": "淘汰"
+            "meaning": "淘汰",
+            "level": "mid"
           },
           {
             "word": "draw",
             "ipa": "/drɔː/",
             "pos": "n",
-            "meaning": "平局"
+            "meaning": "平局",
+            "level": "mid"
           },
           {
             "word": "aggregate",
             "ipa": "/ˈæɡrɪɡət/",
             "pos": "n",
-            "meaning": "总比分"
+            "meaning": "总比分",
+            "level": "mid"
           },
           {
             "word": "fixture",
             "ipa": "/ˈfɪkstʃər/",
             "pos": "n",
-            "meaning": "赛程"
+            "meaning": "赛程",
+            "level": "low"
           },
           {
             "word": "anthem",
             "ipa": "/ˈænθəm/",
             "pos": "n",
-            "meaning": "国歌"
+            "meaning": "国歌",
+            "level": "mid"
           },
           {
             "word": "trophy",
             "ipa": "/ˈtrəʊfi/",
             "pos": "n",
-            "meaning": "奖杯"
+            "meaning": "奖杯",
+            "level": "mid"
           }
         ],
         "image": "../outputs/21-sports-and-fitness/generated-with-text/21-card-01-generated-text.png"
@@ -16724,97 +18936,116 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "camaraderie",
             "ipa": "/ˌkæməˈrɑːdəri/",
             "pos": "n",
-            "meaning": "友情/团结"
+            "meaning": "友情/团结",
+            "level": "low"
           },
           {
             "word": "patriotism",
             "ipa": "/ˈpætriətɪzəm/",
             "pos": "n",
-            "meaning": "爱国心"
+            "meaning": "爱国心",
+            "level": "mid"
           },
           {
             "word": "rivalry",
             "ipa": "/ˈraɪvlri/",
             "pos": "n",
-            "meaning": "竞争"
+            "meaning": "竞争",
+            "level": "mid"
           },
           {
             "word": "underdog",
             "ipa": "/ˈʌndədɒɡ/",
             "pos": "n",
-            "meaning": "弱队"
+            "meaning": "弱队",
+            "level": "mid"
           },
           {
             "word": "morale",
             "ipa": "/məˈrɑːl/",
             "pos": "n",
-            "meaning": "士气"
+            "meaning": "士气",
+            "level": "mid"
           },
           {
             "word": "momentum",
             "ipa": "/məˈmentəm/",
             "pos": "n",
-            "meaning": "势头"
+            "meaning": "势头",
+            "level": "mid"
           },
           {
             "word": "controversy",
             "ipa": "/ˈkɒntrəvɜːsi/",
             "pos": "n",
-            "meaning": "争议"
+            "meaning": "争议",
+            "level": "high",
+            "example": "The referee's decision sparked considerable controversy among fans."
           },
           {
             "word": "sportsmanship",
             "ipa": "/ˈspɔːtsmənʃɪp/",
             "pos": "n",
-            "meaning": "体育精神"
+            "meaning": "体育精神",
+            "level": "mid"
           },
           {
             "word": "chant",
             "ipa": "/tʃɑːnt/",
             "pos": "v/n",
-            "meaning": "口号/齐喊"
+            "meaning": "口号/齐喊",
+            "level": "mid"
           },
           {
             "word": "merchandise",
             "ipa": "/ˈmɜːtʃəndaɪz/",
             "pos": "n",
-            "meaning": "周边商品"
+            "meaning": "周边商品",
+            "level": "mid"
           },
           {
             "word": "broadcast",
             "ipa": "/ˈbrɔːdkɑːst/",
             "pos": "n/v",
-            "meaning": "转播"
+            "meaning": "转播",
+            "level": "mid"
           },
           {
             "word": "sponsor",
             "ipa": "/ˈspɒnsər/",
             "pos": "n/v",
-            "meaning": "赞助商"
+            "meaning": "赞助商",
+            "level": "high",
+            "example": "Major sporting events rely heavily on corporate sponsors for funding."
           },
           {
             "word": "viewership",
             "ipa": "/ˈvjuːəʃɪp/",
             "pos": "n",
-            "meaning": "收视率"
+            "meaning": "收视率",
+            "level": "low"
           },
           {
             "word": "bid",
             "ipa": "/bɪd/",
             "pos": "n/v",
-            "meaning": "申办"
+            "meaning": "申办",
+            "level": "mid"
           },
           {
             "word": "host",
             "ipa": "/həʊst/",
             "pos": "v/n",
-            "meaning": "举办/东道主"
+            "meaning": "举办/东道主",
+            "level": "mid"
           },
           {
             "word": "legacy",
             "ipa": "/ˈleɡəsi/",
             "pos": "n",
-            "meaning": "遗产/影响"
+            "meaning": "遗产/影响",
+            "level": "high",
+            "example": "The empire left a lasting legacy in the region's language and architecture."
           }
         ],
         "image": "../outputs/21-sports-and-fitness/generated-with-text/21-card-02-generated-text.png"
@@ -16827,103 +19058,127 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "athlete",
             "ipa": "/ˈæθliːt/",
             "pos": "n",
-            "meaning": "运动员"
+            "meaning": "运动员",
+            "level": "high",
+            "example": "Professional athletes are increasingly seen as role models for young people."
           },
           {
             "word": "endurance",
             "ipa": "/ɪnˈdjʊərəns/",
             "pos": "n",
-            "meaning": "耐力"
+            "meaning": "耐力",
+            "level": "high",
+            "example": "Long-distance running requires exceptional physical and mental endurance."
           },
           {
             "word": "agility",
             "ipa": "/əˈdʒɪləti/",
             "pos": "n",
-            "meaning": "敏捷"
+            "meaning": "敏捷",
+            "level": "mid"
           },
           {
             "word": "stamina",
             "ipa": "/ˈstæmɪnə/",
             "pos": "n",
-            "meaning": "体力"
+            "meaning": "体力",
+            "level": "mid"
           },
           {
             "word": "discipline",
             "ipa": "/ˈdɪsɪplɪn/",
             "pos": "n",
-            "meaning": "纪律/自律"
+            "meaning": "纪律/自律",
+            "level": "high",
+            "example": "Strict discipline in schools does not necessarily lead to better learning."
           },
           {
             "word": "regime",
             "ipa": "/reɪˈʒiːm/",
             "pos": "n",
-            "meaning": "训练计划"
+            "meaning": "训练计划",
+            "level": "mid"
           },
           {
             "word": "intensity",
             "ipa": "/ɪnˈtensəti/",
             "pos": "n",
-            "meaning": "强度"
+            "meaning": "强度",
+            "level": "mid"
           },
           {
             "word": "physique",
             "ipa": "/fɪˈziːk/",
             "pos": "n",
-            "meaning": "体格"
+            "meaning": "体格",
+            "level": "low"
           },
           {
             "word": "nutrition",
             "ipa": "/njuːˈtrɪʃn/",
             "pos": "n",
-            "meaning": "营养"
+            "meaning": "营养",
+            "level": "high",
+            "example": "Good nutrition in early childhood is essential for healthy development."
           },
           {
             "word": "supplement",
             "ipa": "/ˈsʌplɪmənt/",
             "pos": "n",
-            "meaning": "补充剂"
+            "meaning": "补充剂",
+            "level": "mid"
           },
           {
             "word": "rehabilitation",
             "ipa": "/ˌriːəˌbɪlɪˈteɪʃn/",
             "pos": "n",
-            "meaning": "康复"
+            "meaning": "康复",
+            "level": "high",
+            "example": "Effective rehabilitation reduces the likelihood that offenders will reoffend."
           },
           {
             "word": "ligament",
             "ipa": "/ˈlɪɡəmənt/",
             "pos": "n",
-            "meaning": "韧带"
+            "meaning": "韧带",
+            "level": "low"
           },
           {
             "word": "fatigue",
             "ipa": "/fəˈtiːɡ/",
             "pos": "n",
-            "meaning": "疲劳"
+            "meaning": "疲劳",
+            "level": "mid"
           },
           {
             "word": "perseverance",
             "ipa": "/ˌpɜːsɪˈvɪərəns/",
             "pos": "n",
-            "meaning": "毅力"
+            "meaning": "毅力",
+            "level": "high",
+            "example": "Success in any field depends on talent combined with sheer perseverance."
           },
           {
             "word": "benchmark",
             "ipa": "/ˈbentʃmɑːk/",
             "pos": "n",
-            "meaning": "基准"
+            "meaning": "基准",
+            "level": "mid"
           },
           {
             "word": "peak",
             "ipa": "/piːk/",
             "pos": "n/adj",
-            "meaning": "巅峰"
+            "meaning": "巅峰",
+            "level": "high",
+            "example": "House prices reached their peak in 2020 and have declined steadily ever since."
           },
           {
             "word": "warm-up",
             "ipa": "/ˈwɔːm ʌp/",
             "pos": "n",
-            "meaning": "热身"
+            "meaning": "热身",
+            "level": "mid"
           }
         ],
         "image": "../outputs/21-sports-and-fitness/generated-with-text/21-card-03-generated-text.png"
@@ -16936,49 +19191,61 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "doping",
             "ipa": "/ˈdəʊpɪŋ/",
             "pos": "n",
-            "meaning": "兴奋剂"
+            "meaning": "兴奋剂",
+            "level": "mid"
           },
           {
             "word": "integrity",
             "ipa": "/ɪnˈteɡrəti/",
             "pos": "n",
-            "meaning": "诚信"
+            "meaning": "诚信",
+            "level": "high",
+            "example": "Journalistic integrity requires reporters to verify facts before publishing."
           },
           {
             "word": "governance",
             "ipa": "/ˈɡʌvənəns/",
             "pos": "n",
-            "meaning": "治理"
+            "meaning": "治理",
+            "level": "mid"
           },
           {
             "word": "corruption",
             "ipa": "/kəˈrʌpʃn/",
             "pos": "n",
-            "meaning": "腐败"
+            "meaning": "腐败",
+            "level": "high",
+            "example": "Corruption diverts public funds away from schools and hospitals."
           },
           {
             "word": "commercialise",
             "ipa": "/kəˈmɜːʃəlaɪz/",
             "pos": "v",
-            "meaning": "商业化"
+            "meaning": "商业化",
+            "level": "mid"
           },
           {
             "word": "endorsement",
             "ipa": "/ɪnˈdɔːsmənt/",
             "pos": "n",
-            "meaning": "代言"
+            "meaning": "代言",
+            "level": "mid"
           },
           {
             "word": "lucrative",
             "ipa": "/ˈluːkrətɪv/",
             "pos": "adj",
-            "meaning": "利润丰厚的"
+            "meaning": "利润丰厚的",
+            "level": "high",
+            "example": "Tourism has become the country's most lucrative industry."
           },
           {
             "word": "revenue",
             "ipa": "/ˈrevənjuː/",
             "pos": "n",
-            "meaning": "收入"
+            "meaning": "收入",
+            "level": "high",
+            "example": "The company's revenue doubled after it expanded into overseas markets."
           },
           {
             "word": "grassroots",
@@ -16991,43 +19258,54 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "inclusion",
             "ipa": "/ɪnˈkluːʒn/",
             "pos": "n",
-            "meaning": "包容"
+            "meaning": "包容",
+            "level": "high",
+            "example": "Sport can promote the inclusion of people from different backgrounds."
           },
           {
             "word": "gender parity",
             "ipa": "/ˈdʒendə ˈpærəti/",
             "pos": "n",
-            "meaning": "性别平等"
+            "meaning": "性别平等",
+            "level": "mid"
           },
           {
             "word": "accessibility",
             "ipa": "/əkˌsesəˈbɪləti/",
             "pos": "n",
-            "meaning": "无障碍"
+            "meaning": "无障碍",
+            "level": "mid"
           },
           {
             "word": "regulation",
             "ipa": "/ˌreɡjʊˈleɪʃn/",
             "pos": "n",
-            "meaning": "规章"
+            "meaning": "规章",
+            "level": "high",
+            "example": "Stricter regulation of the financial sector could prevent future crises."
           },
           {
             "word": "transparency",
             "ipa": "/trænsˈpærənsi/",
             "pos": "n",
-            "meaning": "透明度"
+            "meaning": "透明度",
+            "level": "high",
+            "example": "Greater transparency in government spending helps reduce corruption."
           },
           {
             "word": "franchise",
             "ipa": "/ˈfræntʃaɪz/",
             "pos": "n",
-            "meaning": "特许经营权"
+            "meaning": "特许经营权",
+            "level": "mid"
           },
           {
             "word": "infrastructure",
             "ipa": "/ˈɪnfrəstrʌktʃər/",
             "pos": "n",
-            "meaning": "基础设施"
+            "meaning": "基础设施",
+            "level": "high",
+            "example": "Investment in public infrastructure creates jobs and stimulates long-term economic growth."
           }
         ],
         "image": "../outputs/21-sports-and-fitness/generated-with-text/21-card-04-generated-text.png"
@@ -17040,97 +19318,118 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "sedentary",
             "ipa": "/ˈsedntri/",
             "pos": "adj",
-            "meaning": "久坐的"
+            "meaning": "久坐的",
+            "level": "high",
+            "example": "A sedentary lifestyle greatly increases the risk of heart disease."
           },
           {
             "word": "obesity",
             "ipa": "/əʊˈbiːsəti/",
             "pos": "n",
-            "meaning": "肥胖"
+            "meaning": "肥胖",
+            "level": "high",
+            "example": "Childhood obesity has become a serious public health problem in many countries."
           },
           {
             "word": "cardiovascular",
             "ipa": "/ˌkɑːdiəʊˈvæskjʊlər/",
             "pos": "adj",
-            "meaning": "心血管的"
+            "meaning": "心血管的",
+            "level": "mid"
           },
           {
             "word": "metabolism",
             "ipa": "/məˈtæbəlɪzəm/",
             "pos": "n",
-            "meaning": "新陈代谢"
+            "meaning": "新陈代谢",
+            "level": "mid"
           },
           {
             "word": "flexibility",
             "ipa": "/ˌfleksəˈbɪləti/",
             "pos": "n",
-            "meaning": "柔韧性"
+            "meaning": "柔韧性",
+            "level": "high",
+            "example": "Flexibility in working hours helps parents balance careers and family life."
           },
           {
             "word": "aerobic",
             "ipa": "/eəˈrəʊbɪk/",
             "pos": "adj",
-            "meaning": "有氧的"
+            "meaning": "有氧的",
+            "level": "mid"
           },
           {
             "word": "physiology",
             "ipa": "/ˌfɪziˈɒlədʒi/",
             "pos": "n",
-            "meaning": "生理学"
+            "meaning": "生理学",
+            "level": "low"
           },
           {
             "word": "recreational",
             "ipa": "/ˌrekriˈeɪʃənl/",
             "pos": "adj",
-            "meaning": "休闲的"
+            "meaning": "休闲的",
+            "level": "high",
+            "example": "Cities should provide more recreational facilities for their residents."
           },
           {
             "word": "well-being",
             "ipa": "/ˌwel ˈbiːɪŋ/",
             "pos": "n",
-            "meaning": "幸福感"
+            "meaning": "幸福感",
+            "level": "high",
+            "example": "Regular exercise improves both physical health and mental well-being."
           },
           {
             "word": "adrenaline",
             "ipa": "/əˈdrenəlɪn/",
             "pos": "n",
-            "meaning": "肾上腺素"
+            "meaning": "肾上腺素",
+            "level": "mid"
           },
           {
             "word": "interval",
             "ipa": "/ˈɪntəvl/",
             "pos": "n",
-            "meaning": "间歇"
+            "meaning": "间歇",
+            "level": "mid"
           },
           {
             "word": "repetition",
             "ipa": "/ˌrepəˈtɪʃn/",
             "pos": "n",
-            "meaning": "重复/组数"
+            "meaning": "重复/组数",
+            "level": "mid"
           },
           {
             "word": "hydration",
             "ipa": "/haɪˈdreɪʃn/",
             "pos": "n",
-            "meaning": "补水"
+            "meaning": "补水",
+            "level": "low"
           },
           {
             "word": "posture",
             "ipa": "/ˈpɒstʃər/",
             "pos": "n",
-            "meaning": "体态"
+            "meaning": "体态",
+            "level": "mid"
           },
           {
             "word": "coordinate",
             "ipa": "/kəʊˈɔːdɪneɪt/",
             "pos": "v",
-            "meaning": "协调"
+            "meaning": "协调",
+            "level": "mid"
           },
           {
             "word": "amateur",
             "ipa": "/ˈæmətər/",
             "pos": "n/adj",
-            "meaning": "业余的"
+            "meaning": "业余的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/21-sports-and-fitness/generated-with-text/21-card-05-generated-text.png"
@@ -17270,103 +19569,121 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "staple",
             "ipa": "/ˈsteɪpl/",
             "pos": "n",
-            "meaning": "主食"
+            "meaning": "主食",
+            "level": "mid"
           },
           {
             "word": "legume",
             "ipa": "/ˈleɡjuːm/",
             "pos": "n",
-            "meaning": "豆类"
+            "meaning": "豆类",
+            "level": "low"
           },
           {
             "word": "poultry",
             "ipa": "/ˈpəʊltri/",
             "pos": "n",
-            "meaning": "家禽"
+            "meaning": "家禽",
+            "level": "mid"
           },
           {
             "word": "seafood",
             "ipa": "/ˈsiːfuːd/",
             "pos": "n",
-            "meaning": "海鲜"
+            "meaning": "海鲜",
+            "level": "mid"
           },
           {
             "word": "dairy",
             "ipa": "/ˈdeəri/",
             "pos": "n",
-            "meaning": "乳制品"
+            "meaning": "乳制品",
+            "level": "mid"
           },
           {
             "word": "grain",
             "ipa": "/ɡreɪn/",
             "pos": "n",
-            "meaning": "谷物"
+            "meaning": "谷物",
+            "level": "mid"
           },
           {
             "word": "herb",
             "ipa": "/hɜːb/",
             "pos": "n",
-            "meaning": "香草"
+            "meaning": "香草",
+            "level": "mid"
           },
           {
             "word": "spice",
             "ipa": "/spaɪs/",
             "pos": "n",
-            "meaning": "香料"
+            "meaning": "香料",
+            "level": "mid"
           },
           {
             "word": "condiment",
             "ipa": "/ˈkɒndɪmənt/",
             "pos": "n",
-            "meaning": "调味品"
+            "meaning": "调味品",
+            "level": "low"
           },
           {
             "word": "ingredient",
             "ipa": "/ɪnˈɡriːdiənt/",
             "pos": "n",
-            "meaning": "食材"
+            "meaning": "食材",
+            "level": "high",
+            "example": "Consumers increasingly want to know exactly what ingredients their food contains."
           },
           {
             "word": "delicacy",
             "ipa": "/ˈdelɪkəsi/",
             "pos": "n",
-            "meaning": "美食"
+            "meaning": "美食",
+            "level": "mid"
           },
           {
             "word": "protein",
             "ipa": "/ˈprəʊtiːn/",
             "pos": "n",
-            "meaning": "蛋白质"
+            "meaning": "蛋白质",
+            "level": "mid"
           },
           {
             "word": "fibre",
             "ipa": "/ˈfaɪbə/",
             "pos": "n",
-            "meaning": "纤维"
+            "meaning": "纤维",
+            "level": "mid"
           },
           {
             "word": "calorie",
             "ipa": "/ˈkæləri/",
             "pos": "n",
-            "meaning": "卡路里"
+            "meaning": "卡路里",
+            "level": "mid"
           },
           {
             "word": "portion",
             "ipa": "/ˈpɔːʃn/",
             "pos": "n",
-            "meaning": "份量"
+            "meaning": "份量",
+            "level": "mid"
           },
           {
             "word": "aroma",
             "ipa": "/əˈrəʊmə/",
             "pos": "n",
-            "meaning": "香气"
+            "meaning": "香气",
+            "level": "mid"
           },
           {
             "word": "texture",
             "ipa": "/ˈtekstʃə/",
             "pos": "n",
-            "meaning": "口感"
+            "meaning": "口感",
+            "level": "mid"
           }
         ],
         "image": "../outputs/22-food-and-diet/generated-with-text/22-card-01-generated-text.png"
@@ -17379,103 +19696,120 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "sauté",
             "ipa": "/ˈsəʊteɪ/",
             "pos": "v",
-            "meaning": "炒"
+            "meaning": "炒",
+            "level": "low"
           },
           {
             "word": "simmer",
             "ipa": "/ˈsɪmə/",
             "pos": "v",
-            "meaning": "慢炖"
+            "meaning": "慢炖",
+            "level": "low"
           },
           {
             "word": "roast",
             "ipa": "/rəʊst/",
             "pos": "v",
-            "meaning": "烤"
+            "meaning": "烤",
+            "level": "mid"
           },
           {
             "word": "marinate",
             "ipa": "/ˈmærɪneɪt/",
             "pos": "v",
-            "meaning": "腌制"
+            "meaning": "腌制",
+            "level": "low"
           },
           {
             "word": "garnish",
             "ipa": "/ˈɡɑːnɪʃ/",
             "pos": "v",
-            "meaning": "装饰"
+            "meaning": "装饰",
+            "level": "low"
           },
           {
             "word": "blanch",
             "ipa": "/blɑːntʃ/",
             "pos": "v",
-            "meaning": "焯水"
+            "meaning": "焯水",
+            "level": "low"
           },
           {
             "word": "mince",
             "ipa": "/mɪns/",
             "pos": "v",
-            "meaning": "切碎"
+            "meaning": "切碎",
+            "level": "low"
           },
           {
             "word": "knead",
             "ipa": "/niːd/",
             "pos": "v",
-            "meaning": "揉面"
+            "meaning": "揉面",
+            "level": "low"
           },
           {
             "word": "ferment",
             "ipa": "/fəˈment/",
             "pos": "v",
-            "meaning": "发酵"
+            "meaning": "发酵",
+            "level": "mid"
           },
           {
             "word": "caramelise",
             "ipa": "/ˈkærəməlaɪz/",
             "pos": "v",
-            "meaning": "焦糖化"
+            "meaning": "焦糖化",
+            "level": "low"
           },
           {
             "word": "infuse",
             "ipa": "/ɪnˈfjuːz/",
             "pos": "v",
-            "meaning": "浸泡"
+            "meaning": "浸泡",
+            "level": "low"
           },
           {
             "word": "reduce",
             "ipa": "/rɪˈdjuːs/",
             "pos": "v",
-            "meaning": "收汁"
+            "meaning": "收汁",
+            "level": "mid"
           },
           {
             "word": "whisk",
             "ipa": "/wɪsk/",
             "pos": "v",
-            "meaning": "搅打"
+            "meaning": "搅打",
+            "level": "low"
           },
           {
             "word": "season",
             "ipa": "/ˈsiːzn/",
             "pos": "v",
-            "meaning": "调味"
+            "meaning": "调味",
+            "level": "mid"
           },
           {
             "word": "drizzle",
             "ipa": "/ˈdrɪzl/",
             "pos": "v",
-            "meaning": "淋上"
+            "meaning": "淋上",
+            "level": "mid"
           },
           {
             "word": "dice",
             "ipa": "/daɪs/",
             "pos": "v",
-            "meaning": "切丁"
+            "meaning": "切丁",
+            "level": "low"
           },
           {
             "word": "baste",
             "ipa": "/beɪst/",
             "pos": "v",
-            "meaning": "涂抹油汁"
+            "meaning": "涂抹油汁",
+            "level": "low"
           }
         ],
         "image": "../outputs/22-food-and-diet/generated-with-text/22-card-02-generated-text.png"
@@ -17488,103 +19822,122 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "nutrient",
             "ipa": "/ˈnjuːtriənt/",
             "pos": "n",
-            "meaning": "营养素"
+            "meaning": "营养素",
+            "level": "mid"
           },
           {
             "word": "antioxidant",
             "ipa": "/ˌæntiˈɒksɪdənt/",
             "pos": "n",
-            "meaning": "抗氧化剂"
+            "meaning": "抗氧化剂",
+            "level": "mid"
           },
           {
             "word": "metabolism",
             "ipa": "/məˈtæbəlɪzəm/",
             "pos": "n",
-            "meaning": "新陈代谢"
+            "meaning": "新陈代谢",
+            "level": "mid"
           },
           {
             "word": "supplement",
             "ipa": "/ˈsʌplɪmənt/",
             "pos": "n",
-            "meaning": "补充剂"
+            "meaning": "补充剂",
+            "level": "mid"
           },
           {
             "word": "deficiency",
             "ipa": "/dɪˈfɪʃənsi/",
             "pos": "n",
-            "meaning": "缺乏"
+            "meaning": "缺乏",
+            "level": "mid"
           },
           {
             "word": "wholesome",
             "ipa": "/ˈhəʊlsəm/",
             "pos": "adj",
-            "meaning": "有益健康"
+            "meaning": "有益健康",
+            "level": "mid"
           },
           {
             "word": "organic",
             "ipa": "/ɔːˈɡænɪk/",
             "pos": "adj",
-            "meaning": "有机的"
+            "meaning": "有机的",
+            "level": "high",
+            "example": "Demand for organic produce has grown steadily as consumers become health-conscious."
           },
           {
             "word": "saturated",
             "ipa": "/ˈsætʃəreɪtɪd/",
             "pos": "adj",
-            "meaning": "饱和的"
+            "meaning": "饱和的",
+            "level": "mid"
           },
           {
             "word": "inflammation",
             "ipa": "/ˌɪnfləˈmeɪʃn/",
             "pos": "n",
-            "meaning": "炎症"
+            "meaning": "炎症",
+            "level": "mid"
           },
           {
             "word": "cholesterol",
             "ipa": "/kəˈlestərɒl/",
             "pos": "n",
-            "meaning": "胆固醇"
+            "meaning": "胆固醇",
+            "level": "mid"
           },
           {
             "word": "probiotic",
             "ipa": "/ˌprəʊbaɪˈɒtɪk/",
             "pos": "n",
-            "meaning": "益生菌"
+            "meaning": "益生菌",
+            "level": "low"
           },
           {
             "word": "hydration",
             "ipa": "/haɪˈdreɪʃn/",
             "pos": "n",
-            "meaning": "补水"
+            "meaning": "补水",
+            "level": "low"
           },
           {
             "word": "dietary",
             "ipa": "/ˈdaɪətəri/",
             "pos": "adj",
-            "meaning": "饮食的"
+            "meaning": "饮食的",
+            "level": "high",
+            "example": "Poor dietary habits are a leading cause of preventable illness."
           },
           {
             "word": "fortify",
             "ipa": "/ˈfɔːtɪfaɪ/",
             "pos": "v",
-            "meaning": "强化"
+            "meaning": "强化",
+            "level": "mid"
           },
           {
             "word": "carbohydrate",
             "ipa": "/ˌkɑːbəˈhaɪdreɪt/",
             "pos": "n",
-            "meaning": "碳水化合物"
+            "meaning": "碳水化合物",
+            "level": "mid"
           },
           {
             "word": "micronutrient",
             "ipa": "/ˈmaɪkrəʊnjuːtriənt/",
             "pos": "n",
-            "meaning": "微量营养素"
+            "meaning": "微量营养素",
+            "level": "low"
           },
           {
             "word": "caloric",
             "ipa": "/kəˈlɒrɪk/",
             "pos": "adj",
-            "meaning": "热量的"
+            "meaning": "热量的",
+            "level": "low"
           }
         ],
         "image": "../outputs/22-food-and-diet/generated-with-text/22-card-03-generated-text.png"
@@ -17597,103 +19950,122 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "gastronomy",
             "ipa": "/ɡæˈstrɒnəmi/",
             "pos": "n",
-            "meaning": "美食学"
+            "meaning": "美食学",
+            "level": "low"
           },
           {
             "word": "culinary",
             "ipa": "/ˈkʌlɪnəri/",
             "pos": "adj",
-            "meaning": "烹饪的"
+            "meaning": "烹饪的",
+            "level": "mid"
           },
           {
             "word": "palate",
             "ipa": "/ˈpælɪt/",
             "pos": "n",
-            "meaning": "味觉"
+            "meaning": "味觉",
+            "level": "mid"
           },
           {
             "word": "sommelier",
             "ipa": "/ˌsɒməˈljeɪ/",
             "pos": "n",
-            "meaning": "侍酒师"
+            "meaning": "侍酒师",
+            "level": "low"
           },
           {
             "word": "ambiance",
             "ipa": "/ˈæmbiəns/",
             "pos": "n",
-            "meaning": "氛围"
+            "meaning": "氛围",
+            "level": "mid"
           },
           {
             "word": "appetiser",
             "ipa": "/ˈæpɪtaɪzə/",
             "pos": "n",
-            "meaning": "开胃菜"
+            "meaning": "开胃菜",
+            "level": "low"
           },
           {
             "word": "entrée",
             "ipa": "/ˈɒntreɪ/",
             "pos": "n",
-            "meaning": "主菜"
+            "meaning": "主菜",
+            "level": "low"
           },
           {
             "word": "connoisseur",
             "ipa": "/ˌkɒnəˈsɜː/",
             "pos": "n",
-            "meaning": "鉴赏家"
+            "meaning": "鉴赏家",
+            "level": "low"
           },
           {
             "word": "artisan",
             "ipa": "/ˈɑːtɪzæn/",
             "pos": "adj",
-            "meaning": "手工的"
+            "meaning": "手工的",
+            "level": "mid"
           },
           {
             "word": "fusion",
             "ipa": "/ˈfjuːʒn/",
             "pos": "n",
-            "meaning": "融合料理"
+            "meaning": "融合料理",
+            "level": "mid"
           },
           {
             "word": "etiquette",
             "ipa": "/ˈetɪket/",
             "pos": "n",
-            "meaning": "礼仪"
+            "meaning": "礼仪",
+            "level": "mid"
           },
           {
             "word": "reservation",
             "ipa": "/ˌrezəˈveɪʃn/",
             "pos": "n",
-            "meaning": "预订"
+            "meaning": "预订",
+            "level": "mid"
           },
           {
             "word": "cuisine",
             "ipa": "/kwɪˈziːn/",
             "pos": "n",
-            "meaning": "菜系"
+            "meaning": "菜系",
+            "level": "high",
+            "example": "Local cuisine is one of the main reasons tourists visit the region."
           },
           {
             "word": "gourmet",
             "ipa": "/ˈɡʊəmeɪ/",
             "pos": "adj",
-            "meaning": "精致的"
+            "meaning": "精致的",
+            "level": "mid"
           },
           {
             "word": "savour",
             "ipa": "/ˈseɪvə/",
             "pos": "v",
-            "meaning": "细品"
+            "meaning": "细品",
+            "level": "mid"
           },
           {
             "word": "indulge",
             "ipa": "/ɪnˈdʌldʒ/",
             "pos": "v",
-            "meaning": "尽情享受"
+            "meaning": "尽情享受",
+            "level": "high",
+            "example": "It is fine to indulge in unhealthy food occasionally, provided the overall diet is balanced."
           },
           {
             "word": "delectable",
             "ipa": "/dɪˈlektəbl/",
             "pos": "adj",
-            "meaning": "美味的"
+            "meaning": "美味的",
+            "level": "low"
           }
         ],
         "image": "../outputs/22-food-and-diet/generated-with-text/22-card-04-generated-text.png"
@@ -17706,103 +20078,129 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "preservative",
             "ipa": "/prɪˈzɜːvətɪv/",
             "pos": "n",
-            "meaning": "防腐剂"
+            "meaning": "防腐剂",
+            "level": "high",
+            "example": "Preservatives extend shelf life but some consumers prefer to avoid them."
           },
           {
             "word": "additive",
             "ipa": "/ˈædɪtɪv/",
             "pos": "n",
-            "meaning": "添加剂"
+            "meaning": "添加剂",
+            "level": "high",
+            "example": "Many processed foods contain additives that offer no nutritional value."
           },
           {
             "word": "contamination",
             "ipa": "/kənˌtæmɪˈneɪʃn/",
             "pos": "n",
-            "meaning": "污染"
+            "meaning": "污染",
+            "level": "high",
+            "example": "Water contamination affects the health of entire communities downstream."
           },
           {
             "word": "pesticide",
             "ipa": "/ˈpestɪsaɪd/",
             "pos": "n",
-            "meaning": "农药"
+            "meaning": "农药",
+            "level": "high",
+            "example": "Excessive use of pesticides has poisoned soil and harmed pollinating insects."
           },
           {
             "word": "traceability",
             "ipa": "/ˌtreɪsəˈbɪlɪti/",
             "pos": "n",
-            "meaning": "可追溯性"
+            "meaning": "可追溯性",
+            "level": "low"
           },
           {
             "word": "hygiene",
             "ipa": "/ˈhaɪdʒiːn/",
             "pos": "n",
-            "meaning": "卫生"
+            "meaning": "卫生",
+            "level": "high",
+            "example": "Strict hygiene standards in restaurants protect the public from food poisoning."
           },
           {
             "word": "recall",
             "ipa": "/ˈriːkɔːl/",
             "pos": "n",
-            "meaning": "召回"
+            "meaning": "召回",
+            "level": "mid"
           },
           {
             "word": "regulation",
             "ipa": "/ˌreɡjʊˈleɪʃn/",
             "pos": "n",
-            "meaning": "法规"
+            "meaning": "法规",
+            "level": "high",
+            "example": "Stricter regulation of the financial sector could prevent future crises."
           },
           {
             "word": "allergen",
             "ipa": "/ˈælərdʒən/",
             "pos": "n",
-            "meaning": "过敏原"
+            "meaning": "过敏原",
+            "level": "mid"
           },
           {
             "word": "labelling",
             "ipa": "/ˈleɪblɪŋ/",
             "pos": "n",
-            "meaning": "标签"
+            "meaning": "标签",
+            "level": "mid"
           },
           {
             "word": "adulterate",
             "ipa": "/əˈdʌltəreɪt/",
             "pos": "v",
-            "meaning": "掺假"
+            "meaning": "掺假",
+            "level": "low"
           },
           {
             "word": "sustainable",
             "ipa": "/səˈsteɪnəbl/",
             "pos": "adj",
-            "meaning": "可持续的"
+            "meaning": "可持续的",
+            "level": "high",
+            "example": "Governments should promote sustainable development rather than short-term economic gain."
           },
           {
             "word": "biodegradable",
             "ipa": "/ˌbaɪəʊdɪˈɡreɪdəbl/",
             "pos": "adj",
-            "meaning": "可降解的"
+            "meaning": "可降解的",
+            "level": "mid"
           },
           {
             "word": "supply chain",
             "ipa": "/ˈsʌplaɪ tʃeɪn/",
             "pos": "n",
-            "meaning": "供应链"
+            "meaning": "供应链",
+            "level": "high",
+            "example": "The pandemic revealed how fragile global supply chains really are."
           },
           {
             "word": "certification",
             "ipa": "/ˌsɜːtɪfɪˈkeɪʃn/",
             "pos": "n",
-            "meaning": "认证"
+            "meaning": "认证",
+            "level": "mid"
           },
           {
             "word": "expiry",
             "ipa": "/ɪkˈspaɪəri/",
             "pos": "n",
-            "meaning": "过期"
+            "meaning": "过期",
+            "level": "mid"
           },
           {
             "word": "genetically modified",
             "ipa": "/dʒəˌnetɪkli ˈmɒdɪfaɪd/",
             "pos": "adj",
-            "meaning": "基因改造的"
+            "meaning": "基因改造的",
+            "level": "high",
+            "example": "Opinions remain deeply divided over the safety of genetically modified crops."
           }
         ],
         "image": "../outputs/22-food-and-diet/generated-with-text/22-card-05-generated-text.png"
@@ -17951,109 +20349,128 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "nuclear family",
             "ipa": "/ˈnjuːkliər ˈfæməli/",
             "pos": "n",
-            "meaning": "核心家庭"
+            "meaning": "核心家庭",
+            "level": "mid"
           },
           {
             "word": "extended family",
             "ipa": "/ɪkˈstendɪd ˈfæməli/",
             "pos": "n",
-            "meaning": "大家庭"
+            "meaning": "大家庭",
+            "level": "mid"
           },
           {
             "word": "patriarch",
             "ipa": "/ˈpeɪtriɑːk/",
             "pos": "n",
-            "meaning": "家长"
+            "meaning": "家长",
+            "level": "low"
           },
           {
             "word": "matriarch",
             "ipa": "/ˈmeɪtriɑːk/",
             "pos": "n",
-            "meaning": "女家长"
+            "meaning": "女家长",
+            "level": "low"
           },
           {
             "word": "sibling",
             "ipa": "/ˈsɪblɪŋ/",
             "pos": "n",
-            "meaning": "兄弟姐妹"
+            "meaning": "兄弟姐妹",
+            "level": "mid"
           },
           {
             "word": "offspring",
             "ipa": "/ˈɒfsprɪŋ/",
             "pos": "n",
-            "meaning": "后代"
+            "meaning": "后代",
+            "level": "high",
+            "example": "Parents naturally want to pass on their values to their offspring."
           },
           {
             "word": "kinship",
             "ipa": "/ˈkɪnʃɪp/",
             "pos": "n",
-            "meaning": "亲缘"
+            "meaning": "亲缘",
+            "level": "mid"
           },
           {
             "word": "lineage",
             "ipa": "/ˈlɪniɪdʒ/",
             "pos": "n",
-            "meaning": "血统"
+            "meaning": "血统",
+            "level": "mid"
           },
           {
             "word": "guardian",
             "ipa": "/ˈɡɑːdiən/",
             "pos": "n",
-            "meaning": "监护人"
+            "meaning": "监护人",
+            "level": "mid"
           },
           {
             "word": "breadwinner",
             "ipa": "/ˈbredwɪnər/",
             "pos": "n",
-            "meaning": "养家者"
+            "meaning": "养家者",
+            "level": "mid"
           },
           {
             "word": "custody",
             "ipa": "/ˈkʌstədi/",
             "pos": "n",
-            "meaning": "监护权"
+            "meaning": "监护权",
+            "level": "mid"
           },
           {
             "word": "adoptive",
             "ipa": "/əˈdɒptɪv/",
             "pos": "adj",
-            "meaning": "收养的"
+            "meaning": "收养的",
+            "level": "mid"
           },
           {
             "word": "estranged",
             "ipa": "/ɪˈstreɪndʒd/",
             "pos": "adj",
-            "meaning": "疏远的"
+            "meaning": "疏远的",
+            "level": "mid"
           },
           {
             "word": "clan",
             "ipa": "/klæn/",
             "pos": "n",
-            "meaning": "氏族"
+            "meaning": "氏族",
+            "level": "low"
           },
           {
             "word": "descendant",
             "ipa": "/dɪˈsendənt/",
             "pos": "n",
-            "meaning": "后裔"
+            "meaning": "后裔",
+            "level": "mid"
           },
           {
             "word": "ancestry",
             "ipa": "/ˈænsestri/",
             "pos": "n",
-            "meaning": "祖先"
+            "meaning": "祖先",
+            "level": "mid"
           },
           {
             "word": "hereditary",
             "ipa": "/həˈredɪtəri/",
             "pos": "adj",
-            "meaning": "遗传的"
+            "meaning": "遗传的",
+            "level": "mid"
           },
           {
             "word": "household",
             "ipa": "/ˈhaʊshəʊld/",
             "pos": "n",
-            "meaning": "家庭"
+            "meaning": "家庭",
+            "level": "mid"
           }
         ],
         "image": "../outputs/23-family-and-social-relationships/generated-with-text/23-card-01-generated-text.png"
@@ -18066,49 +20483,59 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "affection",
             "ipa": "/əˈfekʃən/",
             "pos": "n",
-            "meaning": "情感"
+            "meaning": "情感",
+            "level": "mid"
           },
           {
             "word": "attachment",
             "ipa": "/əˈtætʃmənt/",
             "pos": "n",
-            "meaning": "依恋"
+            "meaning": "依恋",
+            "level": "mid"
           },
           {
             "word": "devotion",
             "ipa": "/dɪˈvəʊʃən/",
             "pos": "n",
-            "meaning": "奉献"
+            "meaning": "奉献",
+            "level": "mid"
           },
           {
             "word": "reconciliation",
             "ipa": "/ˌrekənsɪliˈeɪʃən/",
             "pos": "n",
-            "meaning": "和解"
+            "meaning": "和解",
+            "level": "mid"
           },
           {
             "word": "compassion",
             "ipa": "/kəmˈpæʃən/",
             "pos": "n",
-            "meaning": "同情"
+            "meaning": "同情",
+            "level": "high",
+            "example": "A civilised society treats its most vulnerable members with compassion."
           },
           {
             "word": "intimacy",
             "ipa": "/ˈɪntɪməsi/",
             "pos": "n",
-            "meaning": "亲密"
+            "meaning": "亲密",
+            "level": "mid"
           },
           {
             "word": "cherish",
             "ipa": "/ˈtʃerɪʃ/",
             "pos": "v",
-            "meaning": "珍视"
+            "meaning": "珍视",
+            "level": "mid"
           },
           {
             "word": "empathy",
             "ipa": "/ˈempəθi/",
             "pos": "n",
-            "meaning": "共情"
+            "meaning": "共情",
+            "level": "high",
+            "example": "Reading fiction has been shown to increase empathy and improve social understanding."
           },
           {
             "word": "solidarity",
@@ -18121,49 +20548,59 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "unconditional",
             "ipa": "/ˌʌnkənˈdɪʃənəl/",
             "pos": "adj",
-            "meaning": "无条件的"
+            "meaning": "无条件的",
+            "level": "mid"
           },
           {
             "word": "resentment",
             "ipa": "/rɪˈzentmənt/",
             "pos": "n",
-            "meaning": "怨恨"
+            "meaning": "怨恨",
+            "level": "mid"
           },
           {
             "word": "forgiveness",
             "ipa": "/fəˈɡɪvnəs/",
             "pos": "n",
-            "meaning": "宽恕"
+            "meaning": "宽恕",
+            "level": "mid"
           },
           {
             "word": "loyalty",
             "ipa": "/ˈlɔɪəlti/",
             "pos": "n",
-            "meaning": "忠诚"
+            "meaning": "忠诚",
+            "level": "mid"
           },
           {
             "word": "nurture",
             "ipa": "/ˈnɜːtʃər/",
             "pos": "v",
-            "meaning": "养育"
+            "meaning": "养育",
+            "level": "high",
+            "example": "The debate over nature versus nurture remains central to psychology."
           },
           {
             "word": "bond",
             "ipa": "/bɒnd/",
             "pos": "n",
-            "meaning": "纽带"
+            "meaning": "纽带",
+            "level": "high",
+            "example": "Shared meals help strengthen the bond between family members."
           },
           {
             "word": "esteem",
             "ipa": "/ɪˈstiːm/",
             "pos": "n",
-            "meaning": "尊重"
+            "meaning": "尊重",
+            "level": "mid"
           },
           {
             "word": "mutual",
             "ipa": "/ˈmjuːtʃuəl/",
             "pos": "adj",
-            "meaning": "相互的"
+            "meaning": "相互的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/23-family-and-social-relationships/generated-with-text/23-card-02-generated-text.png"
@@ -18176,103 +20613,124 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "peer",
             "ipa": "/pɪər/",
             "pos": "n",
-            "meaning": "同龄人"
+            "meaning": "同龄人",
+            "level": "mid"
           },
           {
             "word": "acquaintance",
             "ipa": "/əˈkweɪntəns/",
             "pos": "n",
-            "meaning": "熟人"
+            "meaning": "熟人",
+            "level": "mid"
           },
           {
             "word": "mentor",
             "ipa": "/ˈmentɔːr/",
             "pos": "n",
-            "meaning": "导师"
+            "meaning": "导师",
+            "level": "mid"
           },
           {
             "word": "community",
             "ipa": "/kəˈmjuːnɪti/",
             "pos": "n",
-            "meaning": "社区"
+            "meaning": "社区",
+            "level": "high",
+            "example": "A strong sense of community makes people happier and more resilient."
           },
           {
             "word": "inclusion",
             "ipa": "/ɪnˈkluːʒən/",
             "pos": "n",
-            "meaning": "包容"
+            "meaning": "包容",
+            "level": "high",
+            "example": "Sport can promote the inclusion of people from different backgrounds."
           },
           {
             "word": "exclusion",
             "ipa": "/ɪkˈskluːʒən/",
             "pos": "n",
-            "meaning": "排斥"
+            "meaning": "排斥",
+            "level": "mid"
           },
           {
             "word": "networking",
             "ipa": "/ˈnetwɜːkɪŋ/",
             "pos": "n",
-            "meaning": "建立人脉"
+            "meaning": "建立人脉",
+            "level": "mid"
           },
           {
             "word": "camaraderie",
             "ipa": "/ˌkæməˈrɑːdəri/",
             "pos": "n",
-            "meaning": "友情"
+            "meaning": "友情",
+            "level": "low"
           },
           {
             "word": "fellowship",
             "ipa": "/ˈfeləʊʃɪp/",
             "pos": "n",
-            "meaning": "友爱"
+            "meaning": "友爱",
+            "level": "low"
           },
           {
             "word": "alliance",
             "ipa": "/əˈlaɪəns/",
             "pos": "n",
-            "meaning": "联盟"
+            "meaning": "联盟",
+            "level": "high",
+            "example": "The two nations formed a strong alliance to tackle climate change."
           },
           {
             "word": "reciprocity",
             "ipa": "/ˌresɪˈprɒsɪti/",
             "pos": "n",
-            "meaning": "互惠"
+            "meaning": "互惠",
+            "level": "mid"
           },
           {
             "word": "socialization",
             "ipa": "/ˌsəʊʃəlaɪˈzeɪʃən/",
             "pos": "n",
-            "meaning": "社会化"
+            "meaning": "社会化",
+            "level": "mid"
           },
           {
             "word": "outcast",
             "ipa": "/ˈaʊtkɑːst/",
             "pos": "n",
-            "meaning": "局外人"
+            "meaning": "局外人",
+            "level": "mid"
           },
           {
             "word": "comrade",
             "ipa": "/ˈkɒmreɪd/",
             "pos": "n",
-            "meaning": "同伴"
+            "meaning": "同伴",
+            "level": "low"
           },
           {
             "word": "tribe",
             "ipa": "/traɪb/",
             "pos": "n",
-            "meaning": "群体"
+            "meaning": "群体",
+            "level": "mid"
           },
           {
             "word": "cohesion",
             "ipa": "/kəʊˈhiːʒən/",
             "pos": "n",
-            "meaning": "凝聚力"
+            "meaning": "凝聚力",
+            "level": "high",
+            "example": "A shared language strengthens social cohesion within a diverse society."
           },
           {
             "word": "colleague",
             "ipa": "/ˈkɒliːɡ/",
             "pos": "n",
-            "meaning": "同事"
+            "meaning": "同事",
+            "level": "mid"
           }
         ],
         "image": "../outputs/23-family-and-social-relationships/generated-with-text/23-card-03-generated-text.png"
@@ -18285,25 +20743,33 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "generation gap",
             "ipa": "/ˌdʒenəˈreɪʃən ɡæp/",
             "pos": "n",
-            "meaning": "代沟"
+            "meaning": "代沟",
+            "level": "high",
+            "example": "Technology has widened the generation gap between parents and children."
           },
           {
             "word": "inheritance",
             "ipa": "/ɪnˈherɪtəns/",
             "pos": "n",
-            "meaning": "遗产"
+            "meaning": "遗产",
+            "level": "high",
+            "example": "Disputes over inheritance can tear families apart."
           },
           {
             "word": "legacy",
             "ipa": "/ˈleɡəsi/",
             "pos": "n",
-            "meaning": "遗留"
+            "meaning": "遗留",
+            "level": "high",
+            "example": "The empire left a lasting legacy in the region's language and architecture."
           },
           {
             "word": "upbringing",
             "ipa": "/ˈʌpbrɪŋɪŋ/",
             "pos": "n",
-            "meaning": "教养"
+            "meaning": "教养",
+            "level": "high",
+            "example": "A child's upbringing has a lasting influence on their values and behaviour."
           },
           {
             "word": "filial",
@@ -18316,73 +20782,88 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "discipline",
             "ipa": "/ˈdɪsɪplɪn/",
             "pos": "n",
-            "meaning": "管教"
+            "meaning": "管教",
+            "level": "high",
+            "example": "Strict discipline in schools does not necessarily lead to better learning."
           },
           {
             "word": "autonomy",
             "ipa": "/ɔːˈtɒnəmi/",
             "pos": "n",
-            "meaning": "自主"
+            "meaning": "自主",
+            "level": "high",
+            "example": "Giving employees greater autonomy often increases both morale and productivity."
           },
           {
             "word": "obedience",
             "ipa": "/əˈbiːdiəns/",
             "pos": "n",
-            "meaning": "服从"
+            "meaning": "服从",
+            "level": "mid"
           },
           {
             "word": "rebellion",
             "ipa": "/rɪˈbeljən/",
             "pos": "n",
-            "meaning": "反叛"
+            "meaning": "反叛",
+            "level": "mid"
           },
           {
             "word": "wisdom",
             "ipa": "/ˈwɪzdəm/",
             "pos": "n",
-            "meaning": "智慧"
+            "meaning": "智慧",
+            "level": "mid"
           },
           {
             "word": "nostalgia",
             "ipa": "/nɒˈstældʒə/",
             "pos": "n",
-            "meaning": "怀旧"
+            "meaning": "怀旧",
+            "level": "mid"
           },
           {
             "word": "heirloom",
             "ipa": "/ˈeərluːm/",
             "pos": "n",
-            "meaning": "传家宝"
+            "meaning": "传家宝",
+            "level": "low"
           },
           {
             "word": "ancestral",
             "ipa": "/ænˈsestrəl/",
             "pos": "adj",
-            "meaning": "祖先的"
+            "meaning": "祖先的",
+            "level": "mid"
           },
           {
             "word": "succession",
             "ipa": "/səkˈseʃən/",
             "pos": "n",
-            "meaning": "继承"
+            "meaning": "继承",
+            "level": "mid"
           },
           {
             "word": "tradition",
             "ipa": "/trəˈdɪʃən/",
             "pos": "n",
-            "meaning": "传统"
+            "meaning": "传统",
+            "level": "high",
+            "example": "Family traditions give children a strong sense of belonging."
           },
           {
             "word": "parental",
             "ipa": "/pəˈrentəl/",
             "pos": "adj",
-            "meaning": "父母的"
+            "meaning": "父母的",
+            "level": "mid"
           },
           {
             "word": "enduring",
             "ipa": "/ɪnˈdjʊərɪŋ/",
             "pos": "adj",
-            "meaning": "持久的"
+            "meaning": "持久的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/23-family-and-social-relationships/generated-with-text/23-card-04-generated-text.png"
@@ -18395,7 +20876,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "obligation",
             "ipa": "/ˌɒblɪˈɡeɪʃən/",
             "pos": "n",
-            "meaning": "义务"
+            "meaning": "义务",
+            "level": "high",
+            "example": "Many people feel a moral obligation to care for their ageing parents."
           },
           {
             "word": "caregiver",
@@ -18408,7 +20891,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "dependency",
             "ipa": "/dɪˈpendənsi/",
             "pos": "n",
-            "meaning": "依赖"
+            "meaning": "依赖",
+            "level": "mid"
           },
           {
             "word": "accountability",
@@ -18422,31 +20906,39 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "sacrifice",
             "ipa": "/ˈsækrɪfaɪs/",
             "pos": "n",
-            "meaning": "牺牲"
+            "meaning": "牺牲",
+            "level": "high",
+            "example": "Parents often make great sacrifices to give their children a better future."
           },
           {
             "word": "supportive",
             "ipa": "/səˈpɔːtɪv/",
             "pos": "adj",
-            "meaning": "支持的"
+            "meaning": "支持的",
+            "level": "high",
+            "example": "A supportive family environment helps children cope with academic pressure."
           },
           {
             "word": "mediation",
             "ipa": "/ˌmiːdiˈeɪʃən/",
             "pos": "n",
-            "meaning": "调解"
+            "meaning": "调解",
+            "level": "mid"
           },
           {
             "word": "compromise",
             "ipa": "/ˈkɒmprəmaɪz/",
             "pos": "n",
-            "meaning": "妥协"
+            "meaning": "妥协",
+            "level": "high",
+            "example": "Every successful relationship depends on a willingness to compromise."
           },
           {
             "word": "domestic",
             "ipa": "/dəˈmestɪk/",
             "pos": "adj",
-            "meaning": "家庭的"
+            "meaning": "家庭的",
+            "level": "mid"
           },
           {
             "word": "empowerment",
@@ -18459,43 +20951,52 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "equality",
             "ipa": "/ɪˈkwɒlɪti/",
             "pos": "n",
-            "meaning": "平等"
+            "meaning": "平等",
+            "level": "high",
+            "example": "Achieving true gender equality in the home remains a distant goal."
           },
           {
             "word": "hierarchy",
             "ipa": "/ˈhaɪərɑːki/",
             "pos": "n",
-            "meaning": "等级"
+            "meaning": "等级",
+            "level": "high",
+            "example": "Flat management structures are replacing the rigid hierarchy of traditional companies."
           },
           {
             "word": "reciprocal",
             "ipa": "/rɪˈsɪprəkəl/",
             "pos": "adj",
-            "meaning": "互惠的"
+            "meaning": "互惠的",
+            "level": "mid"
           },
           {
             "word": "provider",
             "ipa": "/prəˈvaɪdər/",
             "pos": "n",
-            "meaning": "供养者"
+            "meaning": "供养者",
+            "level": "mid"
           },
           {
             "word": "subordinate",
             "ipa": "/səˈbɔːdɪnət/",
             "pos": "adj",
-            "meaning": "从属的"
+            "meaning": "从属的",
+            "level": "mid"
           },
           {
             "word": "collaborative",
             "ipa": "/kəˈlæbərətɪv/",
             "pos": "adj",
-            "meaning": "协作的"
+            "meaning": "协作的",
+            "level": "mid"
           },
           {
             "word": "stewardship",
             "ipa": "/ˈstjuːədʃɪp/",
             "pos": "n",
-            "meaning": "管理职责"
+            "meaning": "管理职责",
+            "level": "low"
           }
         ],
         "image": "../outputs/23-family-and-social-relationships/generated-with-text/23-card-05-generated-text.png"
@@ -18630,19 +21131,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "excavation",
             "ipa": "/ˌekskəˈveɪʃən/",
             "pos": "n",
-            "meaning": "发掘"
+            "meaning": "发掘",
+            "level": "mid"
           },
           {
             "word": "stratum",
             "ipa": "/ˈstreɪtəm/",
             "pos": "n",
-            "meaning": "地层"
+            "meaning": "地层",
+            "level": "low"
           },
           {
             "word": "artifact",
             "ipa": "/ˈɑːtɪfækt/",
             "pos": "n",
-            "meaning": "文物"
+            "meaning": "文物",
+            "level": "mid"
           },
           {
             "word": "debris",
@@ -18656,73 +21160,85 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "sediment",
             "ipa": "/ˈsedɪmənt/",
             "pos": "n",
-            "meaning": "沉积物"
+            "meaning": "沉积物",
+            "level": "mid"
           },
           {
             "word": "archaeologist",
             "ipa": "/ˌɑːkiˈɒlədʒɪst/",
             "pos": "n",
-            "meaning": "考古学家"
+            "meaning": "考古学家",
+            "level": "mid"
           },
           {
             "word": "carbon dating",
             "ipa": "/ˈkɑːbən ˈdeɪtɪŋ/",
             "pos": "n.phr",
-            "meaning": "碳定年"
+            "meaning": "碳定年",
+            "level": "mid"
           },
           {
             "word": "unearthed",
             "ipa": "/ʌnˈɜːθt/",
             "pos": "v",
-            "meaning": "出土"
+            "meaning": "出土",
+            "level": "mid"
           },
           {
             "word": "intact",
             "ipa": "/ɪnˈtækt/",
             "pos": "adj",
-            "meaning": "完好的"
+            "meaning": "完好的",
+            "level": "mid"
           },
           {
             "word": "remnant",
             "ipa": "/ˈremnənt/",
             "pos": "n",
-            "meaning": "遗留物"
+            "meaning": "遗留物",
+            "level": "mid"
           },
           {
             "word": "fossilize",
             "ipa": "/ˈfɒsəlaɪz/",
             "pos": "v",
-            "meaning": "石化"
+            "meaning": "石化",
+            "level": "low"
           },
           {
             "word": "shard",
             "ipa": "/ʃɑːd/",
             "pos": "n",
-            "meaning": "陶片"
+            "meaning": "陶片",
+            "level": "low"
           },
           {
             "word": "mound",
             "ipa": "/maʊnd/",
             "pos": "n",
-            "meaning": "土丘"
+            "meaning": "土丘",
+            "level": "low"
           },
           {
             "word": "chronology",
             "ipa": "/krəˈnɒlədʒi/",
             "pos": "n",
-            "meaning": "年代学"
+            "meaning": "年代学",
+            "level": "mid"
           },
           {
             "word": "site",
             "ipa": "/saɪt/",
             "pos": "n",
-            "meaning": "遗址"
+            "meaning": "遗址",
+            "level": "mid"
           },
           {
             "word": "grid",
             "ipa": "/ɡrɪd/",
             "pos": "n",
-            "meaning": "方格"
+            "meaning": "方格",
+            "level": "mid"
           },
           {
             "word": "probe",
@@ -18742,97 +21258,118 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "civilization",
             "ipa": "/ˌsɪvəlaɪˈzeɪʃən/",
             "pos": "n",
-            "meaning": "文明"
+            "meaning": "文明",
+            "level": "high",
+            "example": "Ancient civilizations developed remarkable systems of writing and mathematics."
           },
           {
             "word": "dynasty",
             "ipa": "/ˈdɪnəsti/",
             "pos": "n",
-            "meaning": "王朝"
+            "meaning": "王朝",
+            "level": "mid"
           },
           {
             "word": "empire",
             "ipa": "/ˈempaɪər/",
             "pos": "n",
-            "meaning": "帝国"
+            "meaning": "帝国",
+            "level": "high",
+            "example": "The empire collapsed under the weight of its own military overspending."
           },
           {
             "word": "monarch",
             "ipa": "/ˈmɒnək/",
             "pos": "n",
-            "meaning": "君主"
+            "meaning": "君主",
+            "level": "mid"
           },
           {
             "word": "ritual",
             "ipa": "/ˈrɪtʃuəl/",
             "pos": "n",
-            "meaning": "仪式"
+            "meaning": "仪式",
+            "level": "high",
+            "example": "Shared rituals strengthen the bonds within a community."
           },
           {
             "word": "hieroglyphic",
             "ipa": "/ˌhaɪərəˈɡlɪfɪk/",
             "pos": "n",
-            "meaning": "象形文字"
+            "meaning": "象形文字",
+            "level": "low"
           },
           {
             "word": "monument",
             "ipa": "/ˈmɒnjumənt/",
             "pos": "n",
-            "meaning": "纪念碑"
+            "meaning": "纪念碑",
+            "level": "high",
+            "example": "Historic monuments attract tourists and preserve a nation's memory."
           },
           {
             "word": "inscription",
             "ipa": "/ɪnˈskrɪpʃən/",
             "pos": "n",
-            "meaning": "铭文"
+            "meaning": "铭文",
+            "level": "mid"
           },
           {
             "word": "mythology",
             "ipa": "/mɪˈθɒlədʒi/",
             "pos": "n",
-            "meaning": "神话"
+            "meaning": "神话",
+            "level": "mid"
           },
           {
             "word": "sovereign",
             "ipa": "/ˈsɒvrɪn/",
             "pos": "n./adj",
-            "meaning": "统治者"
+            "meaning": "统治者",
+            "level": "mid"
           },
           {
             "word": "conquest",
             "ipa": "/ˈkɒŋkwest/",
             "pos": "n",
-            "meaning": "征服"
+            "meaning": "征服",
+            "level": "mid"
           },
           {
             "word": "flourish",
             "ipa": "/ˈflʌrɪʃ/",
             "pos": "v",
-            "meaning": "繁荣"
+            "meaning": "繁荣",
+            "level": "high",
+            "example": "Trade allowed the port city to flourish for several centuries."
           },
           {
             "word": "antiquity",
             "ipa": "/ænˈtɪkwɪti/",
             "pos": "n",
-            "meaning": "古代"
+            "meaning": "古代",
+            "level": "mid"
           },
           {
             "word": "tribute",
             "ipa": "/ˈtrɪbjuːt/",
             "pos": "n",
-            "meaning": "贡品"
+            "meaning": "贡品",
+            "level": "mid"
           },
           {
             "word": "relic",
             "ipa": "/ˈrelɪk/",
             "pos": "n",
-            "meaning": "遗物"
+            "meaning": "遗物",
+            "level": "mid"
           },
           {
             "word": "pillar",
             "ipa": "/ˈpɪlər/",
             "pos": "n",
-            "meaning": "石柱"
+            "meaning": "石柱",
+            "level": "mid"
           }
         ],
         "image": "../outputs/24-history-and-archaeology/generated-with-text/24-card-02-generated-text.png"
@@ -18845,97 +21382,113 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "manuscript",
             "ipa": "/ˈmænjuskrɪpt/",
             "pos": "n",
-            "meaning": "手稿"
+            "meaning": "手稿",
+            "level": "mid"
           },
           {
             "word": "vessel",
             "ipa": "/ˈvesəl/",
             "pos": "n",
-            "meaning": "容器"
+            "meaning": "容器",
+            "level": "mid"
           },
           {
             "word": "figurine",
             "ipa": "/ˌfɪɡjəˈriːn/",
             "pos": "n",
-            "meaning": "小雕像"
+            "meaning": "小雕像",
+            "level": "low"
           },
           {
             "word": "pottery",
             "ipa": "/ˈpɒtəri/",
             "pos": "n",
-            "meaning": "陶器"
+            "meaning": "陶器",
+            "level": "mid"
           },
           {
             "word": "fresco",
             "ipa": "/ˈfreskəʊ/",
             "pos": "n",
-            "meaning": "壁画"
+            "meaning": "壁画",
+            "level": "low"
           },
           {
             "word": "mosaic",
             "ipa": "/məʊˈzeɪɪk/",
             "pos": "n",
-            "meaning": "马赛克画"
+            "meaning": "马赛克画",
+            "level": "mid"
           },
           {
             "word": "engraving",
             "ipa": "/ɪnˈɡreɪvɪŋ/",
             "pos": "n",
-            "meaning": "雕刻品"
+            "meaning": "雕刻品",
+            "level": "low"
           },
           {
             "word": "ornament",
             "ipa": "/ˈɔːnəmənt/",
             "pos": "n",
-            "meaning": "装饰品"
+            "meaning": "装饰品",
+            "level": "mid"
           },
           {
             "word": "coinage",
             "ipa": "/ˈkɔɪnɪdʒ/",
             "pos": "n",
-            "meaning": "硬币"
+            "meaning": "硬币",
+            "level": "low"
           },
           {
             "word": "textile",
             "ipa": "/ˈtekstaɪl/",
             "pos": "n",
-            "meaning": "纺织品"
+            "meaning": "纺织品",
+            "level": "mid"
           },
           {
             "word": "amulet",
             "ipa": "/ˈæmjulɪt/",
             "pos": "n",
-            "meaning": "护身符"
+            "meaning": "护身符",
+            "level": "low"
           },
           {
             "word": "chalice",
             "ipa": "/ˈtʃælɪs/",
             "pos": "n",
-            "meaning": "圣杯"
+            "meaning": "圣杯",
+            "level": "low"
           },
           {
             "word": "parchment",
             "ipa": "/ˈpɑːtʃmənt/",
             "pos": "n",
-            "meaning": "羊皮纸"
+            "meaning": "羊皮纸",
+            "level": "low"
           },
           {
             "word": "sarcophagus",
             "ipa": "/sɑːˈkɒfəɡəs/",
             "pos": "n",
-            "meaning": "石棺"
+            "meaning": "石棺",
+            "level": "low"
           },
           {
             "word": "totem",
             "ipa": "/ˈtəʊtəm/",
             "pos": "n",
-            "meaning": "图腾"
+            "meaning": "图腾",
+            "level": "low"
           },
           {
             "word": "relief",
             "ipa": "/rɪˈliːf/",
             "pos": "n",
-            "meaning": "浮雕"
+            "meaning": "浮雕",
+            "level": "mid"
           }
         ],
         "image": "../outputs/24-history-and-archaeology/generated-with-text/24-card-03-generated-text.png"
@@ -18948,97 +21501,118 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "preservation",
             "ipa": "/ˌprezəˈveɪʃən/",
             "pos": "n",
-            "meaning": "保存"
+            "meaning": "保存",
+            "level": "high",
+            "example": "The preservation of ancient artworks requires careful control of temperature and light."
           },
           {
             "word": "restoration",
             "ipa": "/ˌrestəˈreɪʃən/",
             "pos": "n",
-            "meaning": "修复"
+            "meaning": "修复",
+            "level": "high",
+            "example": "The restoration of degraded wetlands can bring wildlife back within a few years."
           },
           {
             "word": "conservation",
             "ipa": "/ˌkɒnsəˈveɪʃən/",
             "pos": "n",
-            "meaning": "保育"
+            "meaning": "保育",
+            "level": "high",
+            "example": "Wildlife conservation requires cooperation between governments, scientists and local communities."
           },
           {
             "word": "deterioration",
             "ipa": "/dɪˌtɪəriəˈreɪʃən/",
             "pos": "n",
-            "meaning": "损坏"
+            "meaning": "损坏",
+            "level": "mid"
           },
           {
             "word": "corrosion",
             "ipa": "/kəˈrəʊʒən/",
             "pos": "n",
-            "meaning": "腐蚀"
+            "meaning": "腐蚀",
+            "level": "low"
           },
           {
             "word": "heritage",
             "ipa": "/ˈherɪtɪdʒ/",
             "pos": "n",
-            "meaning": "遗产"
+            "meaning": "遗产",
+            "level": "high",
+            "example": "Traditional festivals help pass cultural heritage on to younger generations."
           },
           {
             "word": "curator",
             "ipa": "/kjʊˈreɪtər/",
             "pos": "n",
-            "meaning": "策展人"
+            "meaning": "策展人",
+            "level": "mid"
           },
           {
             "word": "archival",
             "ipa": "/ɑːˈkaɪvəl/",
             "pos": "adj",
-            "meaning": "档案的"
+            "meaning": "档案的",
+            "level": "low"
           },
           {
             "word": "authenticate",
             "ipa": "/ɔːˈθentɪkeɪt/",
             "pos": "v",
-            "meaning": "鉴定真伪"
+            "meaning": "鉴定真伪",
+            "level": "mid"
           },
           {
             "word": "forgery",
             "ipa": "/ˈfɔːdʒəri/",
             "pos": "n",
-            "meaning": "赝品"
+            "meaning": "赝品",
+            "level": "mid"
           },
           {
             "word": "consolidate",
             "ipa": "/kənˈsɒlɪdeɪt/",
             "pos": "v",
-            "meaning": "加固"
+            "meaning": "加固",
+            "level": "mid"
           },
           {
             "word": "humidity",
             "ipa": "/hjuːˈmɪdɪti/",
             "pos": "n",
-            "meaning": "湿度"
+            "meaning": "湿度",
+            "level": "high",
+            "example": "High humidity in summer makes the heat feel far more oppressive."
           },
           {
             "word": "inventory",
             "ipa": "/ˈɪnvəntri/",
             "pos": "n",
-            "meaning": "清单"
+            "meaning": "清单",
+            "level": "mid"
           },
           {
             "word": "provenance",
             "ipa": "/ˈprɒvənəns/",
             "pos": "n",
-            "meaning": "来源"
+            "meaning": "来源",
+            "level": "low"
           },
           {
             "word": "fragile",
             "ipa": "/ˈfrædʒaɪl/",
             "pos": "adj",
-            "meaning": "易碎的"
+            "meaning": "易碎的",
+            "level": "mid"
           },
           {
             "word": "patina",
             "ipa": "/ˈpætɪnə/",
             "pos": "n",
-            "meaning": "包浆"
+            "meaning": "包浆",
+            "level": "low"
           }
         ],
         "image": "../outputs/24-history-and-archaeology/generated-with-text/24-card-04-generated-text.png"
@@ -19051,37 +21625,46 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "hypothesis",
             "ipa": "/haɪˈpɒθəsɪs/",
             "pos": "n",
-            "meaning": "假说"
+            "meaning": "假说",
+            "level": "high",
+            "example": "New discoveries frequently overturn long-accepted historical hypotheses."
           },
           {
             "word": "evidence",
             "ipa": "/ˈevɪdəns/",
             "pos": "n",
-            "meaning": "证据"
+            "meaning": "证据",
+            "level": "high",
+            "example": "There is strong evidence that harsher sentences do not reduce crime."
           },
           {
             "word": "chronicle",
             "ipa": "/ˈkrɒnɪkəl/",
             "pos": "n",
-            "meaning": "编年史"
+            "meaning": "编年史",
+            "level": "mid"
           },
           {
             "word": "contemporary",
             "ipa": "/kənˈtempərəri/",
             "pos": "adj",
-            "meaning": "同时代的"
+            "meaning": "同时代的",
+            "level": "mid"
           },
           {
             "word": "primary source",
             "ipa": "/ˈpraɪməri sɔːs/",
             "pos": "n.phr",
-            "meaning": "第一手资料"
+            "meaning": "第一手资料",
+            "level": "mid"
           },
           {
             "word": "objective",
             "ipa": "/əbˈdʒektɪv/",
             "pos": "adj",
-            "meaning": "客观的"
+            "meaning": "客观的",
+            "level": "high",
+            "example": "It is difficult for any historian to remain completely objective."
           },
           {
             "word": "bias",
@@ -19095,55 +21678,68 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "interpret",
             "ipa": "/ɪnˈtɜːprɪt/",
             "pos": "v",
-            "meaning": "诠释"
+            "meaning": "诠释",
+            "level": "high",
+            "example": "Historians often interpret the same evidence in very different ways."
           },
           {
             "word": "verify",
             "ipa": "/ˈverɪfaɪ/",
             "pos": "v",
-            "meaning": "核实"
+            "meaning": "核实",
+            "level": "mid"
           },
           {
             "word": "decade",
             "ipa": "/ˈdekeɪd/",
             "pos": "n",
-            "meaning": "十年"
+            "meaning": "十年",
+            "level": "mid"
           },
           {
             "word": "epoch",
             "ipa": "/ˈiːpɒk/",
             "pos": "n",
-            "meaning": "纪元"
+            "meaning": "纪元",
+            "level": "low"
           },
           {
             "word": "legacy",
             "ipa": "/ˈleɡəsi/",
             "pos": "n",
-            "meaning": "遗产"
+            "meaning": "遗产",
+            "level": "high",
+            "example": "The empire left a lasting legacy in the region's language and architecture."
           },
           {
             "word": "commemorate",
             "ipa": "/kəˈmemərɪt/",
             "pos": "v",
-            "meaning": "纪念"
+            "meaning": "纪念",
+            "level": "mid"
           },
           {
             "word": "narrative",
             "ipa": "/ˈnærətɪv/",
             "pos": "n",
-            "meaning": "叙事"
+            "meaning": "叙事",
+            "level": "high",
+            "example": "The media often promotes a single narrative and ignores opposing views."
           },
           {
             "word": "propaganda",
             "ipa": "/ˌprɒpəˈɡændə/",
             "pos": "n",
-            "meaning": "宣传"
+            "meaning": "宣传",
+            "level": "high",
+            "example": "State-controlled media is often used as a tool of political propaganda."
           },
           {
             "word": "scrutinize",
             "ipa": "/ˈskruːtɪnaɪz/",
             "pos": "v",
-            "meaning": "审查"
+            "meaning": "审查",
+            "level": "mid"
           }
         ],
         "image": "../outputs/24-history-and-archaeology/generated-with-text/24-card-05-generated-text.png"
@@ -19298,7 +21894,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "proficiency",
             "ipa": "/prəˈfɪʃənsi/",
             "pos": "n",
-            "meaning": "熟练程度"
+            "meaning": "熟练程度",
+            "level": "high",
+            "example": "English proficiency has become essential for many well-paid careers."
           },
           {
             "word": "immersion",
@@ -19310,7 +21908,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "bilingual",
             "ipa": "/baɪˈlɪŋɡwəl/",
             "pos": "adj",
-            "meaning": "双语的"
+            "meaning": "双语的",
+            "level": "mid"
           },
           {
             "word": "vocabulary",
@@ -19334,7 +21933,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "dialect",
             "ipa": "/ˈdaɪəlekt/",
             "pos": "n",
-            "meaning": "方言"
+            "meaning": "方言",
+            "level": "high",
+            "example": "Many regional dialects are disappearing as young people move to cities."
           },
           {
             "word": "mother tongue",
@@ -19346,7 +21947,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "acquisition",
             "ipa": "/ˌækwɪˈzɪʃən/",
             "pos": "n",
-            "meaning": "习得"
+            "meaning": "习得",
+            "level": "mid"
           },
           {
             "word": "grammar",
@@ -19364,7 +21966,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "comprehension",
             "ipa": "/ˌkɒmprɪˈhenʃən/",
             "pos": "n",
-            "meaning": "理解力"
+            "meaning": "理解力",
+            "level": "mid"
           },
           {
             "word": "retain",
@@ -19376,13 +21979,16 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "innate",
             "ipa": "/ɪˈneɪt/",
             "pos": "adj",
-            "meaning": "天生的"
+            "meaning": "天生的",
+            "level": "high",
+            "example": "Some psychologists argue that the desire to learn is innate in every child."
           },
           {
             "word": "cognitive",
             "ipa": "/ˈkɒɡnətɪv/",
             "pos": "adj",
-            "meaning": "认知的"
+            "meaning": "认知的",
+            "level": "mid"
           },
           {
             "word": "multilingual",
@@ -19401,13 +22007,16 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "empathy",
             "ipa": "/ˈempəθi/",
             "pos": "n",
-            "meaning": "共情"
+            "meaning": "共情",
+            "level": "high",
+            "example": "Reading fiction has been shown to increase empathy and improve social understanding."
           },
           {
             "word": "rapport",
             "ipa": "/ræˈpɔː/",
             "pos": "n",
-            "meaning": "融洽关系"
+            "meaning": "融洽关系",
+            "level": "mid"
           },
           {
             "word": "candid",
@@ -19443,7 +22052,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "assertive",
             "ipa": "/əˈsɜːtɪv/",
             "pos": "adj",
-            "meaning": "自信直言的"
+            "meaning": "自信直言的",
+            "level": "mid"
           },
           {
             "word": "interrupt",
@@ -19497,7 +22107,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "feedback",
             "ipa": "/ˈfiːdbæk/",
             "pos": "n",
-            "meaning": "反馈"
+            "meaning": "反馈",
+            "level": "high",
+            "example": "Regular, constructive feedback helps students improve much faster."
           }
         ],
         "image": "../outputs/25-language-and-communication/generated-with-text/25-card-02-generated-text.png"
@@ -19522,19 +22134,25 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "extinct",
             "ipa": "/ɪkˈstɪŋkt/",
             "pos": "adj",
-            "meaning": "灭绝的"
+            "meaning": "灭绝的",
+            "level": "high",
+            "example": "Without urgent protection, many large mammals may become extinct within decades."
           },
           {
             "word": "endangered",
             "ipa": "/ɪnˈdeɪndʒəd/",
             "pos": "adj",
-            "meaning": "濒危的"
+            "meaning": "濒危的",
+            "level": "high",
+            "example": "Illegal hunting has pushed several endangered species to the brink of extinction."
           },
           {
             "word": "indigenous",
             "ipa": "/ɪnˈdɪdʒənəs/",
             "pos": "adj",
-            "meaning": "本土的"
+            "meaning": "本土的",
+            "level": "high",
+            "example": "Indigenous communities possess invaluable knowledge about managing land sustainably."
           },
           {
             "word": "translate",
@@ -19594,7 +22212,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "universal",
             "ipa": "/ˌjuːnɪˈvɜːsl/",
             "pos": "adj",
-            "meaning": "普遍的"
+            "meaning": "普遍的",
+            "level": "mid"
           },
           {
             "word": "diversity",
@@ -19608,7 +22227,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "preserve",
             "ipa": "/prɪˈzɜːv/",
             "pos": "v",
-            "meaning": "保护/保存"
+            "meaning": "保护/保存",
+            "level": "high",
+            "example": "It is our responsibility to preserve natural resources for future generations."
           }
         ],
         "image": "../outputs/25-language-and-communication/generated-with-text/25-card-03-generated-text.png"
@@ -19621,7 +22242,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "rhetoric",
             "ipa": "/ˈretərɪk/",
             "pos": "n",
-            "meaning": "修辞"
+            "meaning": "修辞",
+            "level": "mid"
           },
           {
             "word": "persuasive",
@@ -19669,7 +22291,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "monologue",
             "ipa": "/ˈmɒnəlɒɡ/",
             "pos": "n",
-            "meaning": "独白"
+            "meaning": "独白",
+            "level": "mid"
           },
           {
             "word": "audience",
@@ -19681,7 +22304,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "improvise",
             "ipa": "/ˈɪmprəvaɪz/",
             "pos": "v",
-            "meaning": "即兴发挥"
+            "meaning": "即兴发挥",
+            "level": "mid"
           },
           {
             "word": "concise",
@@ -19693,7 +22317,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "redundant",
             "ipa": "/rɪˈdʌndənt/",
             "pos": "adj",
-            "meaning": "冗余的"
+            "meaning": "冗余的",
+            "level": "mid"
           },
           {
             "word": "compelling",
@@ -19705,7 +22330,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "testimony",
             "ipa": "/ˈtestɪməni/",
             "pos": "n",
-            "meaning": "证词/证言"
+            "meaning": "证词/证言",
+            "level": "mid"
           },
           {
             "word": "podium",
@@ -19736,7 +22362,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "posture",
             "ipa": "/ˈpɒstʃər/",
             "pos": "n",
-            "meaning": "姿势"
+            "meaning": "姿势",
+            "level": "mid"
           },
           {
             "word": "eye contact",
@@ -19808,7 +22435,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "signal",
             "ipa": "/ˈsɪɡnəl/",
             "pos": "v./n",
-            "meaning": "示意/信号"
+            "meaning": "示意/信号",
+            "level": "mid"
           },
           {
             "word": "discern",
@@ -19820,7 +22448,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "mimicry",
             "ipa": "/ˈmɪmɪkri/",
             "pos": "n",
-            "meaning": "模仿"
+            "meaning": "模仿",
+            "level": "low"
           },
           {
             "word": "authentic",
@@ -20035,19 +22664,23 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "secluded",
             "ipa": "/sɪˈkluːdɪd/",
             "pos": "adj",
-            "meaning": "僻静的"
+            "meaning": "僻静的",
+            "level": "mid"
           },
           {
             "word": "picturesque",
             "ipa": "/ˌpɪktʃəˈresk/",
             "pos": "adj",
-            "meaning": "风景如画的"
+            "meaning": "风景如画的",
+            "level": "high",
+            "example": "The picturesque coastal town attracts millions of tourists every summer."
           },
           {
             "word": "coastline",
             "ipa": "/ˈkəʊstlaɪn/",
             "pos": "n",
-            "meaning": "海岸线"
+            "meaning": "海岸线",
+            "level": "mid"
           },
           {
             "word": "resort",
@@ -20059,7 +22692,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "pristine",
             "ipa": "/ˈprɪstiːn/",
             "pos": "adj",
-            "meaning": "原始纯净的"
+            "meaning": "原始纯净的",
+            "level": "high",
+            "example": "Strict regulations have kept the national park in pristine condition."
           },
           {
             "word": "wilderness",
@@ -20071,13 +22706,17 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "remote",
             "ipa": "/rɪˈməʊt/",
             "pos": "adj",
-            "meaning": "偏远的"
+            "meaning": "偏远的",
+            "level": "high",
+            "example": "Children in remote villages often have limited access to quality education."
           },
           {
             "word": "heritage",
             "ipa": "/ˈherɪtɪdʒ/",
             "pos": "n",
-            "meaning": "遗产"
+            "meaning": "遗产",
+            "level": "high",
+            "example": "Traditional festivals help pass cultural heritage on to younger generations."
           },
           {
             "word": "landmark",
@@ -20089,13 +22728,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "terrain",
             "ipa": "/təˈreɪn/",
             "pos": "n",
-            "meaning": "地形"
+            "meaning": "地形",
+            "level": "mid"
           },
           {
             "word": "metropolis",
             "ipa": "/məˈtrɒpəlɪs/",
             "pos": "n",
-            "meaning": "大都市"
+            "meaning": "大都市",
+            "level": "mid"
           },
           {
             "word": "scenic",
@@ -20125,7 +22766,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "panoramic",
             "ipa": "/ˌpænəˈræmɪk/",
             "pos": "adj",
-            "meaning": "全景的"
+            "meaning": "全景的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/26-tourism-and-leisure/generated-with-text/26-card-01-generated-text.png"
@@ -20174,7 +22816,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "venture",
             "ipa": "/ˈventʃə/",
             "pos": "v",
-            "meaning": "冒险前往"
+            "meaning": "冒险前往",
+            "level": "mid"
           },
           {
             "word": "souvenir",
@@ -20198,7 +22841,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "immerse",
             "ipa": "/ɪˈmɜːs/",
             "pos": "v",
-            "meaning": "沉浸"
+            "meaning": "沉浸",
+            "level": "mid"
           },
           {
             "word": "spontaneous",
@@ -20259,13 +22903,17 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "revenue",
             "ipa": "/ˈrevənjuː/",
             "pos": "n",
-            "meaning": "收入"
+            "meaning": "收入",
+            "level": "high",
+            "example": "The company's revenue doubled after it expanded into overseas markets."
           },
           {
             "word": "infrastructure",
             "ipa": "/ˈɪnfrəstrʌktʃə/",
             "pos": "n",
-            "meaning": "基础设施"
+            "meaning": "基础设施",
+            "level": "high",
+            "example": "Investment in public infrastructure creates jobs and stimulates long-term economic growth."
           },
           {
             "word": "exploit",
@@ -20277,7 +22925,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "congestion",
             "ipa": "/kənˈdʒestʃən/",
             "pos": "n",
-            "meaning": "拥堵"
+            "meaning": "拥堵",
+            "level": "high",
+            "example": "Investing in public transport is the most effective way to reduce traffic congestion."
           },
           {
             "word": "footfall",
@@ -20301,31 +22951,39 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "proliferate",
             "ipa": "/prəˈlɪfəreɪt/",
             "pos": "v",
-            "meaning": "激增"
+            "meaning": "激增",
+            "level": "mid"
           },
           {
             "word": "sustainable",
             "ipa": "/səˈsteɪnəbl/",
             "pos": "adj",
-            "meaning": "可持续的"
+            "meaning": "可持续的",
+            "level": "high",
+            "example": "Governments should promote sustainable development rather than short-term economic gain."
           },
           {
             "word": "livelihood",
             "ipa": "/ˈlaɪvlihʊd/",
             "pos": "n",
-            "meaning": "生计"
+            "meaning": "生计",
+            "level": "high",
+            "example": "Overfishing threatens the livelihood of millions who depend on the sea."
           },
           {
             "word": "dependency",
             "ipa": "/dɪˈpendənsi/",
             "pos": "n",
-            "meaning": "依赖"
+            "meaning": "依赖",
+            "level": "mid"
           },
           {
             "word": "regulation",
             "ipa": "/ˌreɡjuˈleɪʃn/",
             "pos": "n",
-            "meaning": "监管"
+            "meaning": "监管",
+            "level": "high",
+            "example": "Stricter regulation of the financial sector could prevent future crises."
           },
           {
             "word": "seasonal",
@@ -20369,7 +23027,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "serenity",
             "ipa": "/səˈrenəti/",
             "pos": "n",
-            "meaning": "宁静"
+            "meaning": "宁静",
+            "level": "low"
           },
           {
             "word": "rejuvenate",
@@ -20393,7 +23052,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "indulge",
             "ipa": "/ɪnˈdʌldʒ/",
             "pos": "v",
-            "meaning": "放纵享受"
+            "meaning": "放纵享受",
+            "level": "high",
+            "example": "It is fine to indulge in unhealthy food occasionally, provided the overall diet is balanced."
           },
           {
             "word": "pampered",
@@ -20411,13 +23072,16 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "leisure",
             "ipa": "/ˈleʒə/",
             "pos": "n",
-            "meaning": "休闲"
+            "meaning": "休闲",
+            "level": "mid"
           },
           {
             "word": "recreational",
             "ipa": "/ˌrekriˈeɪʃənl/",
             "pos": "adj",
-            "meaning": "娱乐的"
+            "meaning": "娱乐的",
+            "level": "high",
+            "example": "Cities should provide more recreational facilities for their residents."
           },
           {
             "word": "retreat",
@@ -20435,7 +23099,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "wellbeing",
             "ipa": "/welˈbiːɪŋ/",
             "pos": "n",
-            "meaning": "幸福感"
+            "meaning": "幸福感",
+            "level": "high",
+            "example": "Employers are becoming more aware of the importance of staff wellbeing."
           },
           {
             "word": "escapism",
@@ -20472,7 +23138,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "logistics",
             "ipa": "/ləˈdʒɪstɪks/",
             "pos": "n",
-            "meaning": "后勤安排"
+            "meaning": "后勤安排",
+            "level": "mid"
           },
           {
             "word": "budget",
@@ -20532,13 +23199,16 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "custom",
             "ipa": "/ˈkʌstəm/",
             "pos": "n",
-            "meaning": "习俗"
+            "meaning": "习俗",
+            "level": "high",
+            "example": "Local customs often reveal a great deal about a community's values."
           },
           {
             "word": "etiquette",
             "ipa": "/ˈetɪket/",
             "pos": "n",
-            "meaning": "礼仪"
+            "meaning": "礼仪",
+            "level": "mid"
           },
           {
             "word": "accustomed",
@@ -20556,7 +23226,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "perspective",
             "ipa": "/pəˈspektɪv/",
             "pos": "n",
-            "meaning": "视角"
+            "meaning": "视角",
+            "level": "mid"
           },
           {
             "word": "enrich",
@@ -20735,13 +23406,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "reserve",
             "ipa": "/rɪˈzɜːv/",
             "pos": "n",
-            "meaning": "储量"
+            "meaning": "储量",
+            "level": "mid"
           },
           {
             "word": "deposit",
             "ipa": "/dɪˈpɒzɪt/",
             "pos": "n",
-            "meaning": "矿藏"
+            "meaning": "矿藏",
+            "level": "mid"
           },
           {
             "word": "crude",
@@ -20753,7 +23426,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "excavate",
             "ipa": "/ˈekskəveɪt/",
             "pos": "v",
-            "meaning": "挖掘"
+            "meaning": "挖掘",
+            "level": "mid"
           },
           {
             "word": "extract",
@@ -20777,7 +23451,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "combustion",
             "ipa": "/kəmˈbʌstʃən/",
             "pos": "n",
-            "meaning": "燃烧"
+            "meaning": "燃烧",
+            "level": "mid"
           },
           {
             "word": "emission",
@@ -20815,7 +23490,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "deplete",
             "ipa": "/dɪˈpliːt/",
             "pos": "v",
-            "meaning": "耗尽"
+            "meaning": "耗尽",
+            "level": "high",
+            "example": "Overfishing has severely depleted fish stocks in many parts of the ocean."
           },
           {
             "word": "finite",
@@ -20834,7 +23511,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "renewable",
             "ipa": "/rɪˈnjuːəbl/",
             "pos": "adj",
-            "meaning": "可再生的"
+            "meaning": "可再生的",
+            "level": "high",
+            "example": "Investing in renewable energy is essential for a sustainable future."
           },
           {
             "word": "solar",
@@ -20848,13 +23527,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "photovoltaic",
             "ipa": "/ˌfəʊtəʊvɒlˈteɪɪk/",
             "pos": "adj",
-            "meaning": "光伏的"
+            "meaning": "光伏的",
+            "level": "low"
           },
           {
             "word": "turbine",
             "ipa": "/ˈtɜːbaɪn/",
             "pos": "n",
-            "meaning": "涡轮机"
+            "meaning": "涡轮机",
+            "level": "mid"
           },
           {
             "word": "wind farm",
@@ -20884,13 +23565,17 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "sustainable",
             "ipa": "/səˈsteɪnəbl/",
             "pos": "adj",
-            "meaning": "可持续的"
+            "meaning": "可持续的",
+            "level": "high",
+            "example": "Governments should promote sustainable development rather than short-term economic gain."
           },
           {
             "word": "harness",
             "ipa": "/ˈhɑːnɪs/",
             "pos": "v",
-            "meaning": "利用(能量)"
+            "meaning": "利用(能量)",
+            "level": "high",
+            "example": "If we can harness solar power efficiently, energy shortages could disappear."
           },
           {
             "word": "generate",
@@ -20902,7 +23587,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "grid",
             "ipa": "/ɡrɪd/",
             "pos": "n",
-            "meaning": "电网"
+            "meaning": "电网",
+            "level": "mid"
           },
           {
             "word": "capacity",
@@ -20914,7 +23600,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "intermittent",
             "ipa": "/ˌɪntəˈmɪtənt/",
             "pos": "adj",
-            "meaning": "间歇性的"
+            "meaning": "间歇性的",
+            "level": "mid"
           },
           {
             "word": "efficient",
@@ -20959,7 +23646,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "incentive",
             "ipa": "/ɪnˈsentɪv/",
             "pos": "n",
-            "meaning": "激励措施"
+            "meaning": "激励措施",
+            "level": "high",
+            "example": "Tax incentives encourage households to install solar panels."
           },
           {
             "word": "legislation",
@@ -20973,7 +23662,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "regulation",
             "ipa": "/ˌreɡjuˈleɪʃn/",
             "pos": "n",
-            "meaning": "监管"
+            "meaning": "监管",
+            "level": "high",
+            "example": "Stricter regulation of the financial sector could prevent future crises."
           },
           {
             "word": "carbon tax",
@@ -20985,7 +23676,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "target",
             "ipa": "/ˈtɑːɡɪt/",
             "pos": "n",
-            "meaning": "(排放)目标"
+            "meaning": "(排放)目标",
+            "level": "mid"
           },
           {
             "word": "phase out",
@@ -21003,7 +23695,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "infrastructure",
             "ipa": "/ˈɪnfrəstrʌktʃə/",
             "pos": "n",
-            "meaning": "基础设施"
+            "meaning": "基础设施",
+            "level": "high",
+            "example": "Investment in public infrastructure creates jobs and stimulates long-term economic growth."
           },
           {
             "word": "decarbonize",
@@ -21015,31 +23709,40 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "mandate",
             "ipa": "/ˈmændeɪt/",
             "pos": "n",
-            "meaning": "法令，强制令"
+            "meaning": "法令，强制令",
+            "level": "mid"
           },
           {
             "word": "tariff",
             "ipa": "/ˈtærɪf/",
             "pos": "n",
-            "meaning": "电价，关税"
+            "meaning": "电价，关税",
+            "level": "high",
+            "example": "High tariffs on imported goods ultimately raise prices for ordinary consumers."
           },
           {
             "word": "feasible",
             "ipa": "/ˈfiːzəbl/",
             "pos": "adj",
-            "meaning": "可行的"
+            "meaning": "可行的",
+            "level": "high",
+            "example": "It is not financially feasible for every family to own an electric car yet."
           },
           {
             "word": "viable",
             "ipa": "/ˈvaɪəbl/",
             "pos": "adj",
-            "meaning": "可行的"
+            "meaning": "可行的",
+            "level": "high",
+            "example": "Renewable energy is now a commercially viable alternative to fossil fuels."
           },
           {
             "word": "implement",
             "ipa": "/ˈɪmplɪment/",
             "pos": "v",
-            "meaning": "实施"
+            "meaning": "实施",
+            "level": "high",
+            "example": "It is one thing to design a policy and quite another to implement it effectively."
           },
           {
             "word": "accelerate",
@@ -21058,7 +23761,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "scarcity",
             "ipa": "/ˈskeəsəti/",
             "pos": "n",
-            "meaning": "稀缺"
+            "meaning": "稀缺",
+            "level": "high",
+            "example": "Water scarcity is likely to become a major source of conflict this century."
           },
           {
             "word": "depletion",
@@ -21088,7 +23793,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "stockpile",
             "ipa": "/ˈstɒkpaɪl/",
             "pos": "n",
-            "meaning": "储备"
+            "meaning": "储备",
+            "level": "mid"
           },
           {
             "word": "strategic",
@@ -21112,7 +23818,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "conserve",
             "ipa": "/kənˈsɜːv/",
             "pos": "v",
-            "meaning": "节约，保护"
+            "meaning": "节约，保护",
+            "level": "high",
+            "example": "Simple habits such as switching off lights help conserve energy at home."
           },
           {
             "word": "dwindle",
@@ -21142,13 +23850,17 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "allocate",
             "ipa": "/ˈæləkeɪt/",
             "pos": "v",
-            "meaning": "分配"
+            "meaning": "分配",
+            "level": "high",
+            "example": "Governments must decide how to allocate limited funds between schools and hospitals."
           },
           {
             "word": "equitable",
             "ipa": "/ˈekwɪtəbl/",
             "pos": "adj",
-            "meaning": "公平的"
+            "meaning": "公平的",
+            "level": "high",
+            "example": "An equitable distribution of resources is essential for social stability."
           },
           {
             "word": "hoard",
@@ -21179,13 +23891,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "insulation",
             "ipa": "/ˌɪnsjuˈleɪʃn/",
             "pos": "n",
-            "meaning": "隔热保温"
+            "meaning": "隔热保温",
+            "level": "mid"
           },
           {
             "word": "retrofit",
             "ipa": "/ˈretrəʊfɪt/",
             "pos": "v",
-            "meaning": "改造升级"
+            "meaning": "改造升级",
+            "level": "mid"
           },
           {
             "word": "appliance",
@@ -21203,7 +23917,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "household",
             "ipa": "/ˈhaʊshəʊld/",
             "pos": "n",
-            "meaning": "家庭"
+            "meaning": "家庭",
+            "level": "mid"
           },
           {
             "word": "footprint",
@@ -21227,7 +23942,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "offset",
             "ipa": "/ˈɒfset/",
             "pos": "v",
-            "meaning": "抵消"
+            "meaning": "抵消",
+            "level": "high",
+            "example": "Airlines allow passengers to offset the carbon emissions of their flights."
           },
           {
             "word": "curb",
@@ -21245,7 +23962,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "optimize",
             "ipa": "/ˈɒptɪmaɪz/",
             "pos": "v",
-            "meaning": "优化"
+            "meaning": "优化",
+            "level": "mid"
           },
           {
             "word": "prudent",
@@ -21466,13 +24184,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "coastline",
             "ipa": "/ˈkəʊstlaɪn/",
             "pos": "n",
-            "meaning": "海岸线"
+            "meaning": "海岸线",
+            "level": "mid"
           },
           {
             "word": "cliff",
             "ipa": "/klɪf/",
             "pos": "n",
-            "meaning": "悬崖"
+            "meaning": "悬崖",
+            "level": "mid"
           },
           {
             "word": "tide",
@@ -21508,7 +24228,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "submerge",
             "ipa": "/səbˈmɜːdʒ/",
             "pos": "v",
-            "meaning": "淹没"
+            "meaning": "淹没",
+            "level": "mid"
           },
           {
             "word": "depth",
@@ -21526,25 +24247,31 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "erosion",
             "ipa": "/ɪˈrəʊʒn/",
             "pos": "n",
-            "meaning": "侵蚀"
+            "meaning": "侵蚀",
+            "level": "high",
+            "example": "Deforestation accelerates soil erosion, making the land unsuitable for farming."
           },
           {
             "word": "sediment",
             "ipa": "/ˈsedɪmənt/",
             "pos": "n",
-            "meaning": "沉积物"
+            "meaning": "沉积物",
+            "level": "mid"
           },
           {
             "word": "vast",
             "ipa": "/vɑːst/",
             "pos": "adj",
-            "meaning": "广阔的"
+            "meaning": "广阔的",
+            "level": "high",
+            "example": "The vast majority of respondents supported stricter environmental regulations."
           },
           {
             "word": "turbulent",
             "ipa": "/ˈtɜːbjələnt/",
             "pos": "adj",
-            "meaning": "汹涌的"
+            "meaning": "汹涌的",
+            "level": "mid"
           },
           {
             "word": "buoyant",
@@ -21562,7 +24289,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "vessel",
             "ipa": "/ˈvesl/",
             "pos": "n",
-            "meaning": "船只"
+            "meaning": "船只",
+            "level": "mid"
           }
         ],
         "image": "../outputs/28-ocean-and-water/generated-with-text/28-card-01-generated-text.png"
@@ -21575,61 +24303,76 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "ecosystem",
             "ipa": "/ˈiːkəʊsɪstəm/",
             "pos": "n",
-            "meaning": "生态系统"
+            "meaning": "生态系统",
+            "level": "high",
+            "example": "Removing a single species can destabilise an entire ecosystem."
           },
           {
             "word": "species",
             "ipa": "/ˈspiːʃiːz/",
             "pos": "n",
-            "meaning": "物种"
+            "meaning": "物种",
+            "level": "high",
+            "example": "Thousands of species could disappear before scientists even discover them."
           },
           {
             "word": "coral",
             "ipa": "/ˈkɒrəl/",
             "pos": "n",
-            "meaning": "珊瑚"
+            "meaning": "珊瑚",
+            "level": "mid"
           },
           {
             "word": "bleaching",
             "ipa": "/ˈbliːtʃɪŋ/",
             "pos": "n",
-            "meaning": "白化"
+            "meaning": "白化",
+            "level": "mid"
           },
           {
             "word": "habitat",
             "ipa": "/ˈhæbɪtæt/",
             "pos": "n",
-            "meaning": "栖息地"
+            "meaning": "栖息地",
+            "level": "high",
+            "example": "Urban sprawl continues to destroy the natural habitat of countless animals."
           },
           {
             "word": "migratory",
             "ipa": "/maɪˈɡreɪtəri/",
             "pos": "adj",
-            "meaning": "迁徙的"
+            "meaning": "迁徙的",
+            "level": "mid"
           },
           {
             "word": "predator",
             "ipa": "/ˈpredətə/",
             "pos": "n",
-            "meaning": "捕食者"
+            "meaning": "捕食者",
+            "level": "mid"
           },
           {
             "word": "plankton",
             "ipa": "/ˈplæŋktən/",
             "pos": "n",
-            "meaning": "浮游生物"
+            "meaning": "浮游生物",
+            "level": "low"
           },
           {
             "word": "biodiversity",
             "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/",
             "pos": "n",
-            "meaning": "生物多样性"
+            "meaning": "生物多样性",
+            "level": "high",
+            "example": "Protecting biodiversity is just as urgent as tackling climate change."
           },
           {
             "word": "extinction",
             "ipa": "/ɪkˈstɪŋkʃn/",
             "pos": "n",
-            "meaning": "灭绝"
+            "meaning": "灭绝",
+            "level": "high",
+            "example": "Human activity is driving thousands of species towards extinction."
           },
           {
             "word": "thrive",
@@ -21641,7 +24384,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "endangered",
             "ipa": "/ɪnˈdeɪndʒəd/",
             "pos": "adj",
-            "meaning": "濒危的"
+            "meaning": "濒危的",
+            "level": "high",
+            "example": "Illegal hunting has pushed several endangered species to the brink of extinction."
           },
           {
             "word": "symbiotic",
@@ -21653,25 +24398,29 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "camouflage",
             "ipa": "/ˈkæməflɑːʒ/",
             "pos": "n",
-            "meaning": "伪装"
+            "meaning": "伪装",
+            "level": "mid"
           },
           {
             "word": "spawn",
             "ipa": "/spɔːn/",
             "pos": "v",
-            "meaning": "产卵"
+            "meaning": "产卵",
+            "level": "mid"
           },
           {
             "word": "fragile",
             "ipa": "/ˈfrædʒaɪl/",
             "pos": "adj",
-            "meaning": "脆弱的"
+            "meaning": "脆弱的",
+            "level": "mid"
           },
           {
             "word": "proliferate",
             "ipa": "/prəˈlɪfəreɪt/",
             "pos": "v",
-            "meaning": "大量繁殖"
+            "meaning": "大量繁殖",
+            "level": "mid"
           }
         ],
         "image": "../outputs/28-ocean-and-water/generated-with-text/28-card-02-generated-text.png"
@@ -21684,7 +24433,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "scarcity",
             "ipa": "/ˈskeəsəti/",
             "pos": "n",
-            "meaning": "短缺"
+            "meaning": "短缺",
+            "level": "high",
+            "example": "Water scarcity is likely to become a major source of conflict this century."
           },
           {
             "word": "reservoir",
@@ -21696,7 +24447,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "drought",
             "ipa": "/draʊt/",
             "pos": "n",
-            "meaning": "干旱"
+            "meaning": "干旱",
+            "level": "high",
+            "example": "Prolonged drought has forced thousands of farmers to leave their land."
           },
           {
             "word": "aquifer",
@@ -21732,13 +24485,17 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "contaminate",
             "ipa": "/kənˈtæmɪneɪt/",
             "pos": "v",
-            "meaning": "污染"
+            "meaning": "污染",
+            "level": "high",
+            "example": "Industrial waste has contaminated the region's drinking water for decades."
           },
           {
             "word": "deplete",
             "ipa": "/dɪˈpliːt/",
             "pos": "v",
-            "meaning": "耗尽"
+            "meaning": "耗尽",
+            "level": "high",
+            "example": "Overfishing has severely depleted fish stocks in many parts of the ocean."
           },
           {
             "word": "ration",
@@ -21750,7 +24507,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "arid",
             "ipa": "/ˈærɪd/",
             "pos": "adj",
-            "meaning": "干旱的"
+            "meaning": "干旱的",
+            "level": "mid"
           },
           {
             "word": "dwindling",
@@ -21762,7 +24520,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "sanitation",
             "ipa": "/ˌsænɪˈteɪʃn/",
             "pos": "n",
-            "meaning": "卫生设施"
+            "meaning": "卫生设施",
+            "level": "high",
+            "example": "Access to clean water and proper sanitation prevents millions of deaths each year."
           },
           {
             "word": "accessible",
@@ -21774,7 +24534,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "conserve",
             "ipa": "/kənˈsɜːv/",
             "pos": "v",
-            "meaning": "节约"
+            "meaning": "节约",
+            "level": "high",
+            "example": "Simple habits such as switching off lights help conserve energy at home."
           },
           {
             "word": "distribution",
@@ -21793,7 +24555,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "pollutant",
             "ipa": "/pəˈluːtənt/",
             "pos": "n",
-            "meaning": "污染物"
+            "meaning": "污染物",
+            "level": "high",
+            "example": "Vehicles are the largest source of airborne pollutants in urban areas."
           },
           {
             "word": "plastic",
@@ -21819,7 +24583,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "toxic",
             "ipa": "/ˈtɒksɪk/",
             "pos": "adj",
-            "meaning": "有毒的"
+            "meaning": "有毒的",
+            "level": "high",
+            "example": "Factories continue to release toxic chemicals into nearby rivers."
           },
           {
             "word": "acidification",
@@ -21837,7 +24603,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "sustainable",
             "ipa": "/səˈsteɪnəbl/",
             "pos": "adj",
-            "meaning": "可持续的"
+            "meaning": "可持续的",
+            "level": "high",
+            "example": "Governments should promote sustainable development rather than short-term economic gain."
           },
           {
             "word": "overfishing",
@@ -21849,13 +24617,16 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "quota",
             "ipa": "/ˈkwəʊtə/",
             "pos": "n",
-            "meaning": "配额"
+            "meaning": "配额",
+            "level": "mid"
           },
           {
             "word": "regulate",
             "ipa": "/ˈreɡjuleɪt/",
             "pos": "v",
-            "meaning": "监管"
+            "meaning": "监管",
+            "level": "high",
+            "example": "Governments are struggling to regulate the rapid growth of social media."
           },
           {
             "word": "restore",
@@ -21873,7 +24644,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "mitigate",
             "ipa": "/ˈmɪtɪɡeɪt/",
             "pos": "v",
-            "meaning": "缓解"
+            "meaning": "缓解",
+            "level": "high",
+            "example": "Planting trees in urban areas can help mitigate the effects of air pollution."
           },
           {
             "word": "legislation",
@@ -21918,7 +24691,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "infrastructure",
             "ipa": "/ˈɪnfrəstrʌktʃə/",
             "pos": "n",
-            "meaning": "基础设施"
+            "meaning": "基础设施",
+            "level": "high",
+            "example": "Investment in public infrastructure creates jobs and stimulates long-term economic growth."
           },
           {
             "word": "pipeline",
@@ -21936,13 +24711,16 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "filtration",
             "ipa": "/fɪlˈtreɪʃn/",
             "pos": "n",
-            "meaning": "过滤"
+            "meaning": "过滤",
+            "level": "mid"
           },
           {
             "word": "recycle",
             "ipa": "/riːˈsaɪkl/",
             "pos": "v",
-            "meaning": "回收利用"
+            "meaning": "回收利用",
+            "level": "high",
+            "example": "Governments should make it easier and cheaper for households to recycle."
           },
           {
             "word": "leakage",
@@ -21954,7 +24732,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "tariff",
             "ipa": "/ˈtærɪf/",
             "pos": "n",
-            "meaning": "水价"
+            "meaning": "水价",
+            "level": "high",
+            "example": "High tariffs on imported goods ultimately raise prices for ordinary consumers."
           },
           {
             "word": "subsidize",
@@ -21978,7 +24758,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "household",
             "ipa": "/ˈhaʊshəʊld/",
             "pos": "n",
-            "meaning": "家庭"
+            "meaning": "家庭",
+            "level": "mid"
           },
           {
             "word": "monitor",
@@ -21990,13 +24771,17 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "allocate",
             "ipa": "/ˈæləkeɪt/",
             "pos": "v",
-            "meaning": "分配"
+            "meaning": "分配",
+            "level": "high",
+            "example": "Governments must decide how to allocate limited funds between schools and hospitals."
           },
           {
             "word": "equitable",
             "ipa": "/ˈekwɪtəbl/",
             "pos": "adj",
-            "meaning": "公平的"
+            "meaning": "公平的",
+            "level": "high",
+            "example": "An equitable distribution of resources is essential for social stability."
           },
           {
             "word": "prioritize",
@@ -22169,7 +24954,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "textile",
             "ipa": "/ˈtekstaɪl/",
             "pos": "n",
-            "meaning": "纺织品"
+            "meaning": "纺织品",
+            "level": "mid"
           },
           {
             "word": "fabric",
@@ -22217,19 +25003,23 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "disposable",
             "ipa": "/dɪˈspəʊzəbl/",
             "pos": "adj",
-            "meaning": "一次性的"
+            "meaning": "一次性的",
+            "level": "mid"
           },
           {
             "word": "outsource",
             "ipa": "/ˌaʊtˈsɔːs/",
             "pos": "v",
-            "meaning": "外包"
+            "meaning": "外包",
+            "level": "high",
+            "example": "Many firms outsource manufacturing to countries with lower labour costs."
           },
           {
             "word": "synthetic",
             "ipa": "/sɪnˈθetɪk/",
             "pos": "adj",
-            "meaning": "合成的"
+            "meaning": "合成的",
+            "level": "mid"
           },
           {
             "word": "overproduction",
@@ -22241,7 +25031,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "wholesale",
             "ipa": "/ˈhəʊlseɪl/",
             "pos": "n",
-            "meaning": "批发"
+            "meaning": "批发",
+            "level": "mid"
           },
           {
             "word": "markup",
@@ -22253,7 +25044,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "supply chain",
             "ipa": "/səˈplaɪ tʃeɪn/",
             "pos": "n",
-            "meaning": "供应链"
+            "meaning": "供应链",
+            "level": "high",
+            "example": "The pandemic revealed how fragile global supply chains really are."
           },
           {
             "word": "cut corners",
@@ -22308,7 +25101,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "indulge",
             "ipa": "/ɪnˈdʌldʒ/",
             "pos": "v",
-            "meaning": "放纵"
+            "meaning": "放纵",
+            "level": "high",
+            "example": "It is fine to indulge in unhealthy food occasionally, provided the overall diet is balanced."
           },
           {
             "word": "splurge",
@@ -22326,13 +25121,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "discount",
             "ipa": "/ˈdɪskaʊnt/",
             "pos": "n",
-            "meaning": "折扣"
+            "meaning": "折扣",
+            "level": "mid"
           },
           {
             "word": "loyalty",
             "ipa": "/ˈlɔɪəlti/",
             "pos": "n",
-            "meaning": "忠诚度"
+            "meaning": "忠诚度",
+            "level": "mid"
           },
           {
             "word": "brand-conscious",
@@ -22405,19 +25202,24 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "upcycle",
             "ipa": "/ˈʌpsaɪkl/",
             "pos": "v",
-            "meaning": "升级再造"
+            "meaning": "升级再造",
+            "level": "low"
           },
           {
             "word": "recycle",
             "ipa": "/ˌriːˈsaɪkl/",
             "pos": "v",
-            "meaning": "回收利用"
+            "meaning": "回收利用",
+            "level": "high",
+            "example": "Governments should make it easier and cheaper for households to recycle."
           },
           {
             "word": "sustainable",
             "ipa": "/səˈsteɪnəbl/",
             "pos": "adj",
-            "meaning": "可持续的"
+            "meaning": "可持续的",
+            "level": "high",
+            "example": "Governments should promote sustainable development rather than short-term economic gain."
           },
           {
             "word": "eco-friendly",
@@ -22429,7 +25231,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "biodegradable",
             "ipa": "/ˌbaɪəʊdɪˈɡreɪdəbl/",
             "pos": "adj",
-            "meaning": "可生物降解的"
+            "meaning": "可生物降解的",
+            "level": "mid"
           },
           {
             "word": "dye",
@@ -22441,43 +25244,56 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "contaminate",
             "ipa": "/kənˈtæmɪneɪt/",
             "pos": "v",
-            "meaning": "污染"
+            "meaning": "污染",
+            "level": "high",
+            "example": "Industrial waste has contaminated the region's drinking water for decades."
           },
           {
             "word": "carbon footprint",
             "ipa": "/ˈkɑːbən ˈfʊtprɪnt/",
             "pos": "n",
-            "meaning": "碳足迹"
+            "meaning": "碳足迹",
+            "level": "high",
+            "example": "Individuals can reduce their carbon footprint by flying less and cycling more."
           },
           {
             "word": "landfill",
             "ipa": "/ˈlændfɪl/",
             "pos": "n",
-            "meaning": "垃圾填埋场"
+            "meaning": "垃圾填埋场",
+            "level": "mid"
           },
           {
             "word": "ethical",
             "ipa": "/ˈeθɪkl/",
             "pos": "adj",
-            "meaning": "道德的"
+            "meaning": "道德的",
+            "level": "high",
+            "example": "Consumers increasingly expect companies to source their materials in ethical ways."
           },
           {
             "word": "transparency",
             "ipa": "/trænsˈpærənsi/",
             "pos": "n",
-            "meaning": "透明度"
+            "meaning": "透明度",
+            "level": "high",
+            "example": "Greater transparency in government spending helps reduce corruption."
           },
           {
             "word": "circular economy",
             "ipa": "/ˈsɜːkjələ ɪˈkɒnəmi/",
             "pos": "n",
-            "meaning": "循环经济"
+            "meaning": "循环经济",
+            "level": "high",
+            "example": "A circular economy keeps materials in use for as long as possible, reducing waste."
           },
           {
             "word": "durable",
             "ipa": "/ˈdjʊərəbl/",
             "pos": "adj",
-            "meaning": "耐用的"
+            "meaning": "耐用的",
+            "level": "high",
+            "example": "Manufacturers should make products more durable to reduce electronic waste."
           },
           {
             "word": "capsule wardrobe",
@@ -22520,7 +25336,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "aesthetic",
             "ipa": "/iːsˈθetɪk/",
             "pos": "adj/n",
-            "meaning": "审美(的)"
+            "meaning": "审美(的)",
+            "level": "high",
+            "example": "Modern architecture is often criticised for prioritising function over aesthetic appeal."
           },
           {
             "word": "trendsetter",
@@ -22562,7 +25380,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "conformity",
             "ipa": "/kənˈfɔːmɪti/",
             "pos": "n",
-            "meaning": "从众"
+            "meaning": "从众",
+            "level": "high",
+            "example": "Peer pressure encourages conformity, which can stifle individual creativity."
           },
           {
             "word": "nonconformist",
@@ -22592,7 +25412,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "stereotype",
             "ipa": "/ˈsteriətaɪp/",
             "pos": "n",
-            "meaning": "刻板印象"
+            "meaning": "刻板印象",
+            "level": "high",
+            "example": "Television advertising frequently reinforces outdated gender stereotypes."
           },
           {
             "word": "authenticity",
@@ -22629,13 +25451,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "endorsement",
             "ipa": "/ɪnˈdɔːsmənt/",
             "pos": "n",
-            "meaning": "代言"
+            "meaning": "代言",
+            "level": "mid"
           },
           {
             "word": "influencer",
             "ipa": "/ˈɪnfluənsə/",
             "pos": "n",
-            "meaning": "网红，意见领袖"
+            "meaning": "网红，意见领袖",
+            "level": "mid"
           },
           {
             "word": "target audience",
@@ -22653,13 +25477,16 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "subliminal",
             "ipa": "/sʌbˈlɪmɪnl/",
             "pos": "adj",
-            "meaning": "潜意识的"
+            "meaning": "潜意识的",
+            "level": "low"
           },
           {
             "word": "campaign",
             "ipa": "/kæmˈpeɪn/",
             "pos": "n",
-            "meaning": "营销活动"
+            "meaning": "营销活动",
+            "level": "high",
+            "example": "The government launched a campaign to encourage healthier eating habits."
           },
           {
             "word": "gimmick",
@@ -22695,13 +25522,16 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "planned obsolescence",
             "ipa": "/plænd ˌɒbsəˈlesns/",
             "pos": "n",
-            "meaning": "计划性淘汰"
+            "meaning": "计划性淘汰",
+            "level": "mid"
           },
           {
             "word": "manipulate",
             "ipa": "/məˈnɪpjʊleɪt/",
             "pos": "v",
-            "meaning": "操纵"
+            "meaning": "操纵",
+            "level": "high",
+            "example": "Advertisers manipulate emotions to persuade consumers to buy."
           },
           {
             "word": "commodify",
@@ -22719,7 +25549,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "scrutinize",
             "ipa": "/ˈskruːtɪnaɪz/",
             "pos": "v",
-            "meaning": "仔细审查"
+            "meaning": "仔细审查",
+            "level": "mid"
           },
           {
             "word": "discern",
@@ -23774,7 +26605,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "algorithm",
             "ipa": "/ˈælɡərɪðəm/",
             "pos": "n",
-            "meaning": "算法"
+            "meaning": "算法",
+            "level": "high",
+            "example": "Recommendation algorithms decide much of what we watch and read online."
           },
           {
             "word": "neural network",
@@ -23786,13 +26619,17 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "automation",
             "ipa": "/ˌɔːtəˈmeɪʃn/",
             "pos": "n",
-            "meaning": "自动化"
+            "meaning": "自动化",
+            "level": "high",
+            "example": "Automation is expected to replace millions of routine jobs within a decade."
           },
           {
             "word": "autonomous",
             "ipa": "/ɔːˈtɒnəməs/",
             "pos": "adj",
-            "meaning": "自主的"
+            "meaning": "自主的",
+            "level": "high",
+            "example": "Autonomous vehicles could dramatically reduce the number of road accidents."
           },
           {
             "word": "simulate",
@@ -23806,7 +26643,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "cognitive",
             "ipa": "/ˈkɒɡnətɪv/",
             "pos": "adj",
-            "meaning": "认知的"
+            "meaning": "认知的",
+            "level": "mid"
           },
           {
             "word": "dataset",
@@ -23848,7 +26686,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "prototype",
             "ipa": "/ˈprəʊtətaɪp/",
             "pos": "n",
-            "meaning": "原型"
+            "meaning": "原型",
+            "level": "mid"
           },
           {
             "word": "breakthrough",
@@ -23897,7 +26736,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "recommendation",
             "ipa": "/ˌrekəmenˈdeɪʃn/",
             "pos": "n",
-            "meaning": "推荐"
+            "meaning": "推荐",
+            "level": "mid"
           },
           {
             "word": "facial recognition",
@@ -23939,19 +26779,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "scalable",
             "ipa": "/ˈskeɪləbl/",
             "pos": "adj",
-            "meaning": "可扩展的"
+            "meaning": "可扩展的",
+            "level": "mid"
           },
           {
             "word": "integrate",
             "ipa": "/ˈɪntɪɡreɪt/",
             "pos": "v",
-            "meaning": "整合"
+            "meaning": "整合",
+            "level": "mid"
           },
           {
             "word": "deploy",
             "ipa": "/dɪˈplɔɪ/",
             "pos": "v",
-            "meaning": "部署"
+            "meaning": "部署",
+            "level": "mid"
           },
           {
             "word": "real-time",
@@ -23963,13 +26806,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "logistics",
             "ipa": "/ləˈdʒɪstɪks/",
             "pos": "n",
-            "meaning": "物流"
+            "meaning": "物流",
+            "level": "mid"
           },
           {
             "word": "yield",
             "ipa": "/jiːld/",
             "pos": "n/v",
-            "meaning": "产出/产量"
+            "meaning": "产出/产量",
+            "level": "mid"
           }
         ],
         "image": "../outputs/SP01-artificial-intelligence/font-size-adjusted/SP01-card-02-font-slightly-larger.png"
@@ -23990,19 +26835,25 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "surveillance",
             "ipa": "/sɜːˈveɪləns/",
             "pos": "n",
-            "meaning": "监控"
+            "meaning": "监控",
+            "level": "high",
+            "example": "The spread of surveillance cameras raises serious concerns about privacy."
           },
           {
             "word": "privacy",
             "ipa": "/ˈprɪvəsi/",
             "pos": "n",
-            "meaning": "隐私"
+            "meaning": "隐私",
+            "level": "high",
+            "example": "Many users are willing to sacrifice privacy in exchange for free services."
           },
           {
             "word": "transparency",
             "ipa": "/trænsˈpærənsi/",
             "pos": "n",
-            "meaning": "透明度"
+            "meaning": "透明度",
+            "level": "high",
+            "example": "Greater transparency in government spending helps reduce corruption."
           },
           {
             "word": "accountability",
@@ -24016,7 +26867,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "ethical",
             "ipa": "/ˈeθɪkl/",
             "pos": "adj",
-            "meaning": "伦理的"
+            "meaning": "伦理的",
+            "level": "high",
+            "example": "Consumers increasingly expect companies to source their materials in ethical ways."
           },
           {
             "word": "consent",
@@ -24028,13 +26881,17 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "manipulate",
             "ipa": "/məˈnɪpjʊleɪt/",
             "pos": "v",
-            "meaning": "操纵"
+            "meaning": "操纵",
+            "level": "high",
+            "example": "Advertisers manipulate emotions to persuade consumers to buy."
           },
           {
             "word": "misinformation",
             "ipa": "/ˌmɪsɪnfəˈmeɪʃn/",
             "pos": "n",
-            "meaning": "虚假信息"
+            "meaning": "虚假信息",
+            "level": "high",
+            "example": "Social media has accelerated the spread of misinformation about health."
           },
           {
             "word": "deepfake",
@@ -24058,13 +26915,16 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "safeguard",
             "ipa": "/ˈseɪfɡɑːd/",
             "pos": "n/v",
-            "meaning": "保障措施"
+            "meaning": "保障措施",
+            "level": "high",
+            "example": "Strict laws are needed to safeguard children's data online."
           },
           {
             "word": "whistleblower",
             "ipa": "/ˈwɪslbləʊər/",
             "pos": "n",
-            "meaning": "举报人"
+            "meaning": "举报人",
+            "level": "mid"
           },
           {
             "word": "autonomous weapon",
@@ -24089,19 +26949,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "displacement",
             "ipa": "/dɪsˈpleɪsmənt/",
             "pos": "n",
-            "meaning": "替代/取代"
+            "meaning": "替代/取代",
+            "level": "mid"
           },
           {
             "word": "redundancy",
             "ipa": "/rɪˈdʌndənsi/",
             "pos": "n",
-            "meaning": "裁员/冗余"
+            "meaning": "裁员/冗余",
+            "level": "mid"
           },
           {
             "word": "upskill",
             "ipa": "/ˌʌpˈskɪl/",
             "pos": "v",
-            "meaning": "技能提升"
+            "meaning": "技能提升",
+            "level": "mid"
           },
           {
             "word": "reskill",
@@ -24119,19 +26982,24 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "productivity",
             "ipa": "/ˌprɒdʌkˈtɪvəti/",
             "pos": "n",
-            "meaning": "生产力"
+            "meaning": "生产力",
+            "level": "high",
+            "example": "Studies suggest that shorter working weeks can actually increase productivity."
           },
           {
             "word": "obsolete",
             "ipa": "/ˈɒbsəliːt/",
             "pos": "adj",
-            "meaning": "过时的"
+            "meaning": "过时的",
+            "level": "high",
+            "example": "Rapid technological change makes many skills obsolete within a few years."
           },
           {
             "word": "supplement",
             "ipa": "/ˈsʌplɪmənt/",
             "pos": "v",
-            "meaning": "补充/辅助"
+            "meaning": "补充/辅助",
+            "level": "mid"
           },
           {
             "word": "collaborate",
@@ -24143,7 +27011,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "adapt",
             "ipa": "/əˈdæpt/",
             "pos": "v",
-            "meaning": "适应"
+            "meaning": "适应",
+            "level": "high",
+            "example": "Companies that fail to adapt to technological change rarely survive for long."
           },
           {
             "word": "competitiveness",
@@ -24173,13 +27043,17 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "outsource",
             "ipa": "/ˈaʊtsɔːs/",
             "pos": "v",
-            "meaning": "外包"
+            "meaning": "外包",
+            "level": "high",
+            "example": "Many firms outsource manufacturing to countries with lower labour costs."
           },
           {
             "word": "vocational",
             "ipa": "/vəʊˈkeɪʃənl/",
             "pos": "adj",
-            "meaning": "职业技能的"
+            "meaning": "职业技能的",
+            "level": "high",
+            "example": "Vocational training deserves the same respect as academic education."
           }
         ],
         "image": "../outputs/SP01-artificial-intelligence/font-size-adjusted/SP01-card-04-font-slightly-larger.png"
@@ -24192,7 +27066,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "regulate",
             "ipa": "/ˈreɡjʊleɪt/",
             "pos": "v",
-            "meaning": "监管"
+            "meaning": "监管",
+            "level": "high",
+            "example": "Governments are struggling to regulate the rapid growth of social media."
           },
           {
             "word": "legislation",
@@ -24206,13 +27082,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "compliance",
             "ipa": "/kəmˈplaɪəns/",
             "pos": "n",
-            "meaning": "合规"
+            "meaning": "合规",
+            "level": "mid"
           },
           {
             "word": "governance",
             "ipa": "/ˈɡʌvənəns/",
             "pos": "n",
-            "meaning": "治理"
+            "meaning": "治理",
+            "level": "mid"
           },
           {
             "word": "consensus",
@@ -24224,13 +27102,17 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "stakeholder",
             "ipa": "/ˈsteɪkhəʊldər/",
             "pos": "n",
-            "meaning": "利益相关方"
+            "meaning": "利益相关方",
+            "level": "high",
+            "example": "Urban planning should involve every stakeholder, from residents to local businesses."
           },
           {
             "word": "intellectual property",
             "ipa": "/ˌɪntəˈlektʃuəl ˈprɒpəti/",
             "pos": "n",
-            "meaning": "知识产权"
+            "meaning": "知识产权",
+            "level": "high",
+            "example": "Weak intellectual property laws discourage companies from investing in innovation."
           },
           {
             "word": "copyright",
@@ -24242,7 +27124,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "disruptive",
             "ipa": "/dɪsˈrʌptɪv/",
             "pos": "adj",
-            "meaning": "颠覆性的"
+            "meaning": "颠覆性的",
+            "level": "mid"
           },
           {
             "word": "paradigm",
@@ -24254,13 +27137,17 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "sustainable",
             "ipa": "/səˈsteɪnəbl/",
             "pos": "adj",
-            "meaning": "可持续的"
+            "meaning": "可持续的",
+            "level": "high",
+            "example": "Governments should promote sustainable development rather than short-term economic gain."
           },
           {
             "word": "innovation",
             "ipa": "/ˌɪnəˈveɪʃn/",
             "pos": "n",
-            "meaning": "创新"
+            "meaning": "创新",
+            "level": "high",
+            "example": "Innovation in green technology will be the key to solving the energy crisis."
           },
           {
             "word": "inevitable",
@@ -24272,13 +27159,16 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "coexistence",
             "ipa": "/ˌkəʊɪɡˈzɪstəns/",
             "pos": "n",
-            "meaning": "共存"
+            "meaning": "共存",
+            "level": "high",
+            "example": "Peaceful coexistence between wildlife and expanding cities requires careful planning."
           },
           {
             "word": "benchmark",
             "ipa": "/ˈbentʃmɑːk/",
             "pos": "n/v",
-            "meaning": "基准/对标"
+            "meaning": "基准/对标",
+            "level": "mid"
           },
           {
             "word": "frontier",
@@ -24452,25 +27342,29 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "momentum",
             "ipa": "/məˈmentəm/",
             "pos": "n",
-            "meaning": "势头"
+            "meaning": "势头",
+            "level": "mid"
           },
           {
             "word": "spectator",
             "ipa": "/spekˈteɪtər/",
             "pos": "n",
-            "meaning": "观众"
+            "meaning": "观众",
+            "level": "mid"
           },
           {
             "word": "rivalry",
             "ipa": "/ˈraɪvəlri/",
             "pos": "n",
-            "meaning": "竞争"
+            "meaning": "竞争",
+            "level": "mid"
           },
           {
             "word": "percussion",
             "ipa": "/pəˈkʌʃn/",
             "pos": "n",
-            "meaning": "打击（鼓声）"
+            "meaning": "打击（鼓声）",
+            "level": "mid"
           },
           {
             "word": "cadence",
@@ -24500,7 +27394,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "commemorate",
             "ipa": "/kəˈmemərеɪt/",
             "pos": "v",
-            "meaning": "纪念"
+            "meaning": "纪念",
+            "level": "mid"
           },
           {
             "word": "festive",
@@ -24543,19 +27438,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "culinary",
             "ipa": "/ˈkʌlɪnəri/",
             "pos": "adj",
-            "meaning": "烹饪的"
+            "meaning": "烹饪的",
+            "level": "mid"
           },
           {
             "word": "delicacy",
             "ipa": "/ˈdelɪkəsi/",
             "pos": "n",
-            "meaning": "佳肴"
+            "meaning": "佳肴",
+            "level": "mid"
           },
           {
             "word": "marinate",
             "ipa": "/ˈmærɪneɪt/",
             "pos": "v",
-            "meaning": "腌制"
+            "meaning": "腌制",
+            "level": "low"
           },
           {
             "word": "savoury",
@@ -24573,7 +27471,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "infuse",
             "ipa": "/ɪnˈfjuːz/",
             "pos": "v",
-            "meaning": "浸泡/注入"
+            "meaning": "浸泡/注入",
+            "level": "low"
           },
           {
             "word": "steamed",
@@ -24609,7 +27508,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "savour",
             "ipa": "/ˈseɪvər/",
             "pos": "v",
-            "meaning": "细细品味"
+            "meaning": "细细品味",
+            "level": "mid"
           },
           {
             "word": "customary",
@@ -24628,25 +27528,31 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "heritage",
             "ipa": "/ˈherɪtɪdʒ/",
             "pos": "n",
-            "meaning": "文化遗产"
+            "meaning": "文化遗产",
+            "level": "high",
+            "example": "Traditional festivals help pass cultural heritage on to younger generations."
           },
           {
             "word": "ritual",
             "ipa": "/ˈrɪtʃuəl/",
             "pos": "n",
-            "meaning": "仪式"
+            "meaning": "仪式",
+            "level": "high",
+            "example": "Shared rituals strengthen the bonds within a community."
           },
           {
             "word": "folklore",
             "ipa": "/ˈfəʊklɔːr/",
             "pos": "n",
-            "meaning": "民间传说"
+            "meaning": "民间传说",
+            "level": "mid"
           },
           {
             "word": "ancestral",
             "ipa": "/ænˈsestrəl/",
             "pos": "adj",
-            "meaning": "祖先的"
+            "meaning": "祖先的",
+            "level": "mid"
           },
           {
             "word": "superstition",
@@ -24658,13 +27564,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "amulet",
             "ipa": "/ˈæmjʊlɪt/",
             "pos": "n",
-            "meaning": "护身符"
+            "meaning": "护身符",
+            "level": "low"
           },
           {
             "word": "sacred",
             "ipa": "/ˈseɪkrɪd/",
             "pos": "adj",
-            "meaning": "神圣的"
+            "meaning": "神圣的",
+            "level": "mid"
           },
           {
             "word": "purification",
@@ -24751,7 +27659,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "dynasty",
             "ipa": "/ˈdɪnəsti/",
             "pos": "n",
-            "meaning": "朝代"
+            "meaning": "朝代",
+            "level": "mid"
           },
           {
             "word": "tyranny",
@@ -24781,7 +27690,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "chronicle",
             "ipa": "/ˈkrɒnɪkl/",
             "pos": "n",
-            "meaning": "编年史"
+            "meaning": "编年史",
+            "level": "mid"
           },
           {
             "word": "virtue",
@@ -24793,7 +27703,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "sovereign",
             "ipa": "/ˈsɒvrɪn/",
             "pos": "n",
-            "meaning": "君主"
+            "meaning": "君主",
+            "level": "mid"
           },
           {
             "word": "banish",
@@ -24805,13 +27716,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "tributary",
             "ipa": "/ˈtrɪbjʊtəri/",
             "pos": "n",
-            "meaning": "支流"
+            "meaning": "支流",
+            "level": "low"
           },
           {
             "word": "mythology",
             "ipa": "/mɪˈθɒlədʒi/",
             "pos": "n",
-            "meaning": "神话传说"
+            "meaning": "神话传说",
+            "level": "mid"
           }
         ],
         "image": "../outputs/SP02-dragon-boat-festival/SP02-card-04.png"
@@ -24824,13 +27737,16 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "intangible",
             "ipa": "/ɪnˈtændʒɪbl/",
             "pos": "adj",
-            "meaning": "非物质的"
+            "meaning": "非物质的",
+            "level": "mid"
           },
           {
             "word": "preserve",
             "ipa": "/prɪˈzɜːv/",
             "pos": "v",
-            "meaning": "保护传承"
+            "meaning": "保护传承",
+            "level": "high",
+            "example": "It is our responsibility to preserve natural resources for future generations."
           },
           {
             "word": "solidarity",
@@ -24843,25 +27759,31 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "communal",
             "ipa": "/ˈkɒmjʊnl/",
             "pos": "adj",
-            "meaning": "共同体的"
+            "meaning": "共同体的",
+            "level": "mid"
           },
           {
             "word": "revitalise",
             "ipa": "/riːˈvaɪtəlaɪz/",
             "pos": "v",
-            "meaning": "振兴"
+            "meaning": "振兴",
+            "level": "mid"
           },
           {
             "word": "indigenous",
             "ipa": "/ɪnˈdɪdʒɪnəs/",
             "pos": "adj",
-            "meaning": "本土的"
+            "meaning": "本土的",
+            "level": "high",
+            "example": "Indigenous communities possess invaluable knowledge about managing land sustainably."
           },
           {
             "word": "transmission",
             "ipa": "/trænzˈmɪʃn/",
             "pos": "n",
-            "meaning": "传承"
+            "meaning": "传承",
+            "level": "high",
+            "example": "Wearing masks slows the transmission of airborne diseases."
           },
           {
             "word": "perpetuate",
@@ -24873,13 +27795,16 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "cohesion",
             "ipa": "/kəʊˈhiːʒn/",
             "pos": "n",
-            "meaning": "凝聚力"
+            "meaning": "凝聚力",
+            "level": "high",
+            "example": "A shared language strengthens social cohesion within a diverse society."
           },
           {
             "word": "festivity",
             "ipa": "/feˈstɪvɪti/",
             "pos": "n",
-            "meaning": "庆典活动"
+            "meaning": "庆典活动",
+            "level": "mid"
           },
           {
             "word": "inscribed",
@@ -24891,7 +27816,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "flourish",
             "ipa": "/ˈflʌrɪʃ/",
             "pos": "v",
-            "meaning": "繁荣"
+            "meaning": "繁荣",
+            "level": "high",
+            "example": "Trade allowed the port city to flourish for several centuries."
           },
           {
             "word": "assimilate",
@@ -24909,7 +27836,9 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "legacy",
             "ipa": "/ˈleɡəsi/",
             "pos": "n",
-            "meaning": "传承/遗产"
+            "meaning": "传承/遗产",
+            "level": "high",
+            "example": "The empire left a lasting legacy in the region's language and architecture."
           }
         ],
         "image": "../outputs/SP02-dragon-boat-festival/SP02-card-05.png"
