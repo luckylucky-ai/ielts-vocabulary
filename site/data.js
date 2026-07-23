@@ -28367,6 +28367,646 @@ window.IELTS_VOCAB_TOPICS = [
 ];
 window.IELTS_ESSAYS = [
   {
+    "slug": "preventive-health",
+    "group": "culture",
+    "task": "task2",
+    "taskType": "Agree / Disagree",
+    "title": "Prevention or Treatment",
+    "titleCn": "预防还是治疗",
+    "date": "2026-07-23",
+    "question": "Some people believe that governments should spend more money on preventing illness than on treatment and cure.\n\nTo what extent do you agree or disagree?",
+    "questionCn": "有人认为政府应把更多资金用于预防疾病，而非治疗与治愈。你在多大程度上同意或不同意？",
+    "stanceEn": "I strongly agree: prevention is both more humane and more cost-effective.",
+    "stanceCn": "我强烈同意：预防既更人道，也更划算。",
+    "paragraphs": [
+      "How best to allocate limited healthcare budgets is a question that concerns every modern society. While treatment will always be necessary, I strongly agree that governments should devote a greater share of funding to preventing illness, as this is both more humane and more cost-effective in the long run.",
+      "The most compelling argument for prioritising prevention is economic. Treating chronic diseases such as diabetes, heart conditions and certain cancers places an enormous financial burden on public health systems, often requiring years of expensive medication and hospital care. By contrast, relatively cheap preventive measures — such as vaccination programmes, health education and campaigns promoting a balanced diet and regular exercise — can stop many of these conditions from developing in the first place. Every dollar spent on prevention therefore tends to save far more in future treatment costs.",
+      "Beyond the financial case, prevention also improves people's quality of life. Illness that is avoided altogether spares individuals from pain, anxiety and the disruption of their working lives, whereas treatment, however advanced, often comes only after suffering has already begun. Encouraging healthier lifestyles and detecting problems early through routine screening allow people to remain active and productive for longer, which benefits society as a whole.",
+      "Admittedly, treatment can never be neglected, since existing patients and medical emergencies demand immediate attention. Nevertheless, a healthcare system that pours almost all of its resources into curing disease while doing little to prevent it is ultimately short-sighted. In conclusion, I firmly believe that greater investment in prevention is the wiser and more sustainable path, provided that essential treatment services are still maintained."
+    ],
+    "translation": [
+      "如何分配有限的医疗预算，是每个现代社会都关心的问题。虽然治疗永远是必要的，但我强烈同意政府应把更大比例的资金投入到预防疾病上，因为从长远看，这样做既更人道，也更划算。",
+      "支持优先预防的最有力理由是经济上的。治疗糖尿病、心脏病和某些癌症等慢性病，会给公共卫生系统带来巨大的财政负担，往往需要多年昂贵的药物和住院治疗。相比之下，相对廉价的预防措施——如疫苗接种项目、健康教育，以及倡导均衡饮食和规律运动的宣传——能从源头上阻止许多这类疾病的发生。因此，每一元用于预防的钱，往往能省下未来更多的治疗开支。",
+      "除了经济层面，预防还能改善人们的生活质量。被彻底避免的疾病让人免于痛苦、焦虑和工作生活的中断，而治疗无论多先进，往往都是在痛苦已经开始之后才到来。鼓励更健康的生活方式、通过常规筛查及早发现问题，能让人们更长久地保持活力与生产力，这对整个社会都有益。",
+      "诚然，治疗绝不能被忽视，因为现有病人和医疗急症都需要即时救治。然而，一个把几乎全部资源都倾注于治病、却几乎不投入预防的医疗体系，终究是目光短浅的。总之，我坚信加大对预防的投入是更明智、更可持续的道路，前提是必要的治疗服务仍然得到保障。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出预算分配 + 表明强烈同意",
+        "point": "预防更人道也更划算"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "经济论证",
+        "point": "慢性病治疗负担重，预防更省钱"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "生活质量论证",
+        "point": "避免疾病优于事后治疗"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "让步 + 重申立场",
+        "point": "加大预防，但保留必要治疗"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "healthcare budgets",
+        "cn": "医疗预算"
+      },
+      {
+        "en": "more cost-effective",
+        "cn": "更划算 / 更具成本效益"
+      },
+      {
+        "en": "chronic diseases",
+        "cn": "慢性病"
+      },
+      {
+        "en": "an enormous financial burden",
+        "cn": "巨大的财政负担"
+      },
+      {
+        "en": "public health systems",
+        "cn": "公共卫生系统"
+      },
+      {
+        "en": "preventive measures",
+        "cn": "预防措施"
+      },
+      {
+        "en": "vaccination programmes",
+        "cn": "疫苗接种项目"
+      },
+      {
+        "en": "a balanced diet and regular exercise",
+        "cn": "均衡饮食和规律运动"
+      },
+      {
+        "en": "quality of life",
+        "cn": "生活质量"
+      },
+      {
+        "en": "routine screening",
+        "cn": "常规筛查"
+      },
+      {
+        "en": "healthier lifestyles",
+        "cn": "更健康的生活方式"
+      },
+      {
+        "en": "short-sighted",
+        "cn": "目光短浅的"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "优先考虑",
+        "words": [
+          "prioritise",
+          "give priority to",
+          "put first"
+        ]
+      },
+      {
+        "sense": "减少 / 降低",
+        "words": [
+          "reduce",
+          "lower",
+          "cut down on"
+        ]
+      },
+      {
+        "sense": "昂贵的",
+        "words": [
+          "expensive",
+          "costly",
+          "high-cost"
+        ]
+      },
+      {
+        "sense": "有益于",
+        "words": [
+          "benefit",
+          "be good for",
+          "be beneficial to"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "明确\"强烈同意\"并回答 to what extent，给出经济与生活质量两条论证，让步后仍坚持立场"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "While / By contrast / Beyond the financial case / whereas / Admittedly / Nevertheless / In conclusion 衔接自然"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "chronic diseases、preventive measures、routine screening、cost-effective 等；prioritise / give priority to、reduce / lower 同义替换"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "让步（however advanced）、定语从句（that pours…）、被动与比较结构、条件（provided that…），准确多样"
+      }
+    ],
+    "ideas": [
+      "经济账：慢性病治疗昂贵，给公共卫生系统带来沉重负担。",
+      "预防便宜：疫苗、健康教育、饮食运动宣传成本低见效大。",
+      "投入回报：每一元预防省下未来更多治疗费用。",
+      "生活质量：避免疾病优于在痛苦之后再治疗。",
+      "早筛查：常规筛查及早发现，保持活力与生产力。",
+      "社会收益：更健康的人口对整个社会都有利。",
+      "让步：急症和现有病人仍需即时治疗，不能忽视。",
+      "最佳立场：加大预防投入，同时维持必要治疗服务。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "job-hopping",
+    "group": "society",
+    "task": "task2",
+    "taskType": "Advantages / Disadvantages",
+    "title": "Changing Jobs Frequently",
+    "titleCn": "频繁跳槽好不好",
+    "date": "2026-07-23",
+    "question": "Nowadays many people change their jobs several times during their working lives.\n\nDo the advantages of this trend outweigh the disadvantages?",
+    "questionCn": "如今许多人在职业生涯中会多次更换工作。这一趋势的优点是否大于缺点？",
+    "stanceEn": "The advantages clearly outweigh the disadvantages.",
+    "stanceCn": "优点明显大于缺点。",
+    "paragraphs": [
+      "In the past, it was common for people to spend their entire careers with a single employer, but today changing jobs several times has become the norm. Although this trend has some drawbacks, I believe its advantages clearly outweigh them.",
+      "There are two main disadvantages to consider. First, frequently switching employers can create a sense of instability, both financially and psychologically, as workers give up the security of a familiar role and a steady income. Second, employers may become reluctant to invest in training staff who are likely to leave, and a CV that shows constant movement can occasionally raise doubts about an applicant's commitment. These concerns, however, tend to matter less than they once did.",
+      "The benefits of job mobility are far more significant. Moving between roles allows employees to broaden their skills, gain diverse experience and discover which kind of work genuinely suits them, rather than remaining trapped in an unfulfilling position. Changing jobs is also one of the most reliable ways to secure higher pay and faster promotion, since external offers often exceed what a current employer is willing to provide. Just as importantly, exposure to different companies and management styles helps people build a professional network and adapt quickly to change — qualities that are highly valued in today's fast-moving economy.",
+      "In conclusion, while changing jobs frequently can bring a degree of uncertainty and may worry some employers, these disadvantages are outweighed by the gains in skills, income and career satisfaction. On balance, I regard this modern trend as a positive development for both individuals and the wider labour market."
+    ],
+    "translation": [
+      "过去，人们常常在同一个雇主那里度过整个职业生涯，但如今多次更换工作已成为常态。尽管这一趋势有一些弊端，我认为它的优点明显大于缺点。",
+      "有两个主要缺点值得考虑。第一，频繁更换雇主会带来一种不稳定感，无论在经济上还是心理上，因为员工放弃了熟悉岗位和稳定收入所带来的安全感。第二，雇主可能不太愿意去培训那些很可能离职的员工，而一份显示频繁变动的简历，偶尔也会让人怀疑应聘者的忠诚度。不过，这些顾虑如今已不像从前那么重要了。",
+      "工作流动的好处要显著得多。在不同岗位间转换，能让员工拓宽技能、积累多样经验，并发现哪种工作真正适合自己，而不是被困在一个没有成就感的职位上。跳槽也是获得更高薪酬和更快晋升最可靠的途径之一，因为外部的报价往往超过现任雇主愿意提供的水平。同样重要的是，接触不同的公司和管理风格，能帮助人们建立职业人脉、快速适应变化——而这些正是当今快节奏经济中备受重视的品质。",
+      "总之，尽管频繁跳槽会带来一定的不确定性，也可能让部分雇主担忧，但这些缺点被技能、收入与职业满意度上的收获所抵消。总体而言，我认为这一现代趋势对个人和更广阔的劳动力市场都是积极的发展。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "对比今昔 + 表明立场",
+        "point": "优点明显大于缺点"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "承认缺点",
+        "point": "不稳定感 + 雇主顾虑"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "展开优点",
+        "point": "技能、薪酬晋升、人脉适应力"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "权衡收束",
+        "point": "收获抵消缺点，趋势积极"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "their entire careers",
+        "cn": "整个职业生涯"
+      },
+      {
+        "en": "a sense of instability",
+        "cn": "不稳定感"
+      },
+      {
+        "en": "a steady income",
+        "cn": "稳定收入"
+      },
+      {
+        "en": "job mobility",
+        "cn": "工作流动性"
+      },
+      {
+        "en": "broaden their skills",
+        "cn": "拓宽技能"
+      },
+      {
+        "en": "diverse experience",
+        "cn": "多样的经验"
+      },
+      {
+        "en": "higher pay and faster promotion",
+        "cn": "更高薪酬和更快晋升"
+      },
+      {
+        "en": "management styles",
+        "cn": "管理风格"
+      },
+      {
+        "en": "build a professional network",
+        "cn": "建立职业人脉"
+      },
+      {
+        "en": "fast-moving economy",
+        "cn": "快节奏的经济"
+      },
+      {
+        "en": "career satisfaction",
+        "cn": "职业满意度"
+      },
+      {
+        "en": "the wider labour market",
+        "cn": "更广阔的劳动力市场"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "更换工作",
+        "words": [
+          "change jobs",
+          "switch employers",
+          "move between roles"
+        ]
+      },
+      {
+        "sense": "优点",
+        "words": [
+          "advantages",
+          "benefits",
+          "upsides"
+        ]
+      },
+      {
+        "sense": "提高 / 增加",
+        "words": [
+          "increase",
+          "boost",
+          "enhance"
+        ]
+      },
+      {
+        "sense": "重视",
+        "words": [
+          "value",
+          "prize",
+          "hold in high regard"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "直接回答 outweigh 之问，先客观列缺点再论证优点更重，明确给出\"利大于弊\"判断"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "First / Second / however / Just as importantly / while / On balance / In conclusion 逻辑清晰"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "job mobility、career satisfaction、faster promotion、fast-moving economy 等；change jobs / switch employers、value / prize 同义替换"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "让步（Although / while）、定语从句（who are likely to leave / that shows…）、破折号补充、比较结构，句式丰富"
+      }
+    ],
+    "ideas": [
+      "缺点一：频繁跳槽带来经济与心理上的不稳定感。",
+      "缺点二：雇主不愿培训易离职者，简历频繁变动引发忠诚度质疑。",
+      "优点一：多岗位历练拓宽技能、积累多样经验。",
+      "优点二：找到真正适合自己的工作，避免被困在无成就感岗位。",
+      "优点三：跳槽是加薪和快速晋升最可靠的途径之一。",
+      "优点四：接触不同公司与管理风格，建立职业人脉。",
+      "适应力：快节奏经济下，灵活应变的能力备受重视。",
+      "权衡立场：收获抵消不确定性，对个人和劳动力市场都积极。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "globalisation-culture",
+    "group": "culture",
+    "task": "task2",
+    "taskType": "Discussion + Opinion",
+    "title": "Globalisation and Local Culture",
+    "titleCn": "全球化与本土文化",
+    "date": "2026-07-23",
+    "question": "Some people think that globalisation and the spread of international brands are damaging local cultures and traditions. Others believe that globalisation brings people closer together.\n\nDiscuss both views and give your own opinion.",
+    "questionCn": "有人认为全球化和国际品牌的扩张正在损害本土文化与传统。另一些人认为全球化让人们更加紧密相连。讨论双方观点并给出你的看法。",
+    "stanceEn": "Globalisation poses real cultural risks, but the closer connection it brings is more valuable.",
+    "stanceCn": "全球化确有文化风险，但它带来的更紧密连接更有价值。",
+    "paragraphs": [
+      "Globalisation has transformed the way people around the world live, work and communicate, and opinions are divided over its cultural consequences. While some fear that it is eroding local traditions, others welcome the way it unites different societies. In my view, although globalisation does pose genuine risks to cultural diversity, its power to bring people closer together is ultimately more valuable.",
+      "Those who criticise globalisation argue that it promotes cultural homogenisation. As international brands, films and fast-food chains spread into every corner of the globe, distinctive local customs, languages and crafts can be pushed aside. Young people in particular may come to prefer imported products and Western lifestyles over their own heritage, and over time this can weaken the sense of identity that makes each community unique. These concerns are not without foundation.",
+      "On the other hand, globalisation also fosters mutual understanding and cooperation on an unprecedented scale. Through travel, trade and the internet, people are exposed to different cultures, which can broaden their horizons and reduce prejudice. Far from destroying local traditions, this exchange often allows them to reach a wider audience: a regional cuisine or a traditional festival can now attract admirers across the world. Moreover, global cooperation is essential for solving shared problems such as climate change and disease, which no single nation can tackle alone.",
+      "In conclusion, although globalisation can threaten cultural distinctiveness, I believe the greater interconnection it creates outweighs this drawback, particularly when governments and communities make a conscious effort to preserve their heritage. The ideal outcome is a world that is closely connected yet still rich in cultural variety."
+    ],
+    "translation": [
+      "全球化已经改变了世界各地人们生活、工作和交流的方式，而人们对它的文化影响意见不一。有人担心它正在侵蚀本土传统，另一些人则欢迎它把不同社会联结起来。在我看来，尽管全球化确实对文化多样性构成真正的风险，但它把人们拉得更近的力量最终更有价值。",
+      "批评全球化的人认为，它助长了文化同质化。随着国际品牌、影视和快餐连锁扩张到全球每一个角落，独具特色的本土习俗、语言和手工艺可能被挤到一边。尤其是年轻人，可能变得更偏爱进口产品和西方生活方式，而非自身的传统；久而久之，这会削弱那种让每个社区独一无二的身份认同感。这些担忧并非没有依据。",
+      "另一方面，全球化也以前所未有的规模促进了相互理解与合作。通过旅行、贸易和互联网，人们接触到不同的文化，这能开阔视野、减少偏见。这种交流非但没有摧毁本土传统，反而常常让它们触及更广的受众：一道地方菜肴或一个传统节日，如今能在全世界收获爱好者。此外，全球合作对于解决气候变化和疾病等共同问题至关重要，而这些问题没有任何单一国家能独自应对。",
+      "总之，尽管全球化可能威胁文化独特性，但我认为它所创造的更紧密的相互联系胜过这一弊端，尤其是当政府和社区有意识地努力保护自身遗产时。理想的结果是一个既紧密相连、又依然文化多元的世界。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出分歧 + 表明立场",
+        "point": "有风险，但连接更有价值"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "讨论\"损害文化\"一方",
+        "point": "文化同质化削弱身份认同"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "讨论\"拉近距离\"一方 + 我的观点",
+        "point": "促进理解、让传统触及更广受众"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "折中收束",
+        "point": "主动保护遗产下，连接胜过弊端"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "cultural diversity",
+        "cn": "文化多样性"
+      },
+      {
+        "en": "cultural homogenisation",
+        "cn": "文化同质化"
+      },
+      {
+        "en": "international brands",
+        "cn": "国际品牌"
+      },
+      {
+        "en": "the sense of identity",
+        "cn": "身份认同感"
+      },
+      {
+        "en": "mutual understanding",
+        "cn": "相互理解"
+      },
+      {
+        "en": "broaden their horizons",
+        "cn": "开阔视野"
+      },
+      {
+        "en": "reduce prejudice",
+        "cn": "减少偏见"
+      },
+      {
+        "en": "reach a wider audience",
+        "cn": "触及更广的受众"
+      },
+      {
+        "en": "global cooperation",
+        "cn": "全球合作"
+      },
+      {
+        "en": "climate change",
+        "cn": "气候变化"
+      },
+      {
+        "en": "cultural distinctiveness",
+        "cn": "文化独特性"
+      },
+      {
+        "en": "preserve their heritage",
+        "cn": "保护自身遗产"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "损害 / 削弱",
+        "words": [
+          "damage",
+          "erode",
+          "undermine"
+        ]
+      },
+      {
+        "sense": "促进",
+        "words": [
+          "foster",
+          "promote",
+          "encourage"
+        ]
+      },
+      {
+        "sense": "独特的",
+        "words": [
+          "distinctive",
+          "unique",
+          "characteristic"
+        ]
+      },
+      {
+        "sense": "保护",
+        "words": [
+          "preserve",
+          "protect",
+          "safeguard"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "讨论\"损害文化\"与\"拉近距离\"两方，明确表态\"连接更有价值但需主动保护\"，回应完整"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "While / On the other hand / Far from… / Moreover / In conclusion 对照与递进清晰"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "cultural homogenisation、cultural distinctiveness、mutual understanding、preserve their heritage 等；damage / erode、foster / promote 同义替换"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "让步（although）、定语从句（that makes each community unique / which no single nation…）、倒装式强调（Far from destroying…），句式高级准确"
+      }
+    ],
+    "ideas": [
+      "风险一：国际品牌与快餐扩张挤压本土习俗、语言、手工艺。",
+      "风险二：年轻人偏爱进口产品与西方生活方式，削弱身份认同。",
+      "好处一：旅行、贸易、互联网让人接触多元文化，开阔视野。",
+      "好处二：交流让本土文化触及更广受众，地方美食与节日走向世界。",
+      "好处三：气候变化、疾病等全球问题需要跨国合作解决。",
+      "平衡点：全球化未必摧毁传统，关键在于是否主动保护。",
+      "政策角色：政府与社区应有意识地保护文化遗产。",
+      "理想结果：既紧密相连又文化多元的世界。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "environment-responsibility",
+    "group": "nature",
+    "task": "task2",
+    "taskType": "Discussion + Opinion",
+    "title": "Who Should Protect the Environment",
+    "titleCn": "谁该为环境负责",
+    "date": "2026-07-23",
+    "question": "Some people believe that protecting the environment is the responsibility of individuals, while others argue that it should be handled by governments and large companies.\n\nDiscuss both views and give your own opinion.",
+    "questionCn": "有人认为保护环境是个人的责任，另一些人则认为应由政府和大公司来负责。讨论双方观点并给出你的看法。",
+    "stanceEn": "Individuals matter, but governments and large companies must take the leading role.",
+    "stanceCn": "个人有作用，但政府和大公司必须承担主要责任。",
+    "paragraphs": [
+      "Environmental degradation is one of the most pressing challenges of our time, and there is ongoing debate about who should bear the main responsibility for tackling it. While some maintain that ordinary individuals hold the key to a greener future, I would argue that governments and large corporations must take the leading role, even though personal effort remains important.",
+      "Those who emphasise individual responsibility point out that collective habits ultimately determine how much damage is done to the planet. Everyday choices, such as reducing energy consumption, cutting down on single-use plastics and using public transport, can significantly lower a household's carbon footprint. If millions of people adopted greener lifestyles, the cumulative effect would be considerable. From this perspective, waiting for authorities to act is simply an excuse for personal inaction.",
+      "However, I believe that individual efforts, while valuable, are far too limited to solve problems on a global scale. Major sources of pollution, such as heavy industry, power generation and large-scale agriculture, lie well beyond the control of any single citizen. Only governments can impose strict regulations, invest in renewable energy and penalise companies that pollute, while corporations have the financial and technological resources to redesign their products and supply chains. For instance, a nationwide ban on hazardous emissions achieves far more than the goodwill of individual consumers ever could.",
+      "In conclusion, although individuals should certainly adopt environmentally friendly habits, the primary responsibility must rest with governments and large companies. The most effective approach is one in which strong policy and corporate accountability create the conditions for individual action to make a genuine difference."
+    ],
+    "translation": [
+      "环境退化是我们这个时代最紧迫的挑战之一，关于究竟谁应承担治理的主要责任，一直存在争论。虽然有人认为普通个人掌握着通向更绿色未来的钥匙，但我认为政府和大企业必须发挥主导作用，尽管个人的努力依然重要。",
+      "强调个人责任的人指出，集体的习惯最终决定了地球受到多大的破坏。日常选择——比如减少能源消耗、少用一次性塑料制品、乘坐公共交通——能显著降低一个家庭的碳足迹。如果数以百万计的人都采取更环保的生活方式，累积效应将相当可观。从这个角度看，等待当局行动只是个人不作为的借口。",
+      "然而，我认为个人的努力虽然有价值，却远不足以解决全球规模的问题。主要的污染源，如重工业、发电和大规模农业，都远在任何单个公民的掌控之外。只有政府能够施加严格的法规、投资可再生能源并惩罚污染企业，而大公司则拥有重新设计产品和供应链的财力与技术。举例来说，一项全国性的有害排放禁令，其成效远超个体消费者的善意所能达到的。",
+      "总之，尽管个人当然应当养成环保习惯，但主要责任必须落在政府和大公司身上。最有效的做法是：用强有力的政策和企业问责，为个人行动真正发挥作用创造条件。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出争议 + 表明立场",
+        "point": "政府/企业主导，个人为辅"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "讨论\"个人责任\"一方",
+        "point": "日常习惯累积可降低碳足迹"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "讨论政府/企业 + 我的观点",
+        "point": "只有政策和企业能治理源头污染"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "折中收束",
+        "point": "政策+问责为个人行动创造条件"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "environmental degradation",
+        "cn": "环境退化"
+      },
+      {
+        "en": "bear the main responsibility",
+        "cn": "承担主要责任"
+      },
+      {
+        "en": "a household's carbon footprint",
+        "cn": "一个家庭的碳足迹"
+      },
+      {
+        "en": "single-use plastics",
+        "cn": "一次性塑料制品"
+      },
+      {
+        "en": "greener lifestyles",
+        "cn": "更环保的生活方式"
+      },
+      {
+        "en": "the cumulative effect",
+        "cn": "累积效应"
+      },
+      {
+        "en": "power generation",
+        "cn": "发电"
+      },
+      {
+        "en": "impose strict regulations",
+        "cn": "施加严格法规"
+      },
+      {
+        "en": "renewable energy",
+        "cn": "可再生能源"
+      },
+      {
+        "en": "hazardous emissions",
+        "cn": "有害排放"
+      },
+      {
+        "en": "corporate accountability",
+        "cn": "企业问责"
+      },
+      {
+        "en": "environmentally friendly habits",
+        "cn": "环保习惯"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "认为主张",
+        "words": [
+          "maintain that",
+          "argue that",
+          "point out that"
+        ]
+      },
+      {
+        "sense": "减少污染",
+        "words": [
+          "reduce pollution",
+          "curb pollution",
+          "cut emissions"
+        ]
+      },
+      {
+        "sense": "主要的",
+        "words": [
+          "main",
+          "primary",
+          "principal"
+        ]
+      },
+      {
+        "sense": "保护环境",
+        "words": [
+          "protect the environment",
+          "safeguard the environment",
+          "preserve the environment"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "讨论个人与政府/企业两方，明确表态\"政府企业主导、个人为辅\"，立场前后一致"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "While / From this perspective / However / For instance / In conclusion 层层推进"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "environmental degradation、carbon footprint、hazardous emissions、corporate accountability 等话题词；maintain / argue、reduce / curb 同义替换"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "让步状语（even though）、条件句（If millions of people…）、定语从句（in which…）、动名词并列，句式多样"
+      }
+    ],
+    "ideas": [
+      "个人层面：节能、少用塑料、绿色出行可降低碳足迹。",
+      "累积效应：数百万人的小改变叠加起来影响可观。",
+      "源头污染：重工业、发电、农业远超个人可控范围。",
+      "政策工具：只有政府能立法、征税、惩罚污染者。",
+      "企业资源：大公司有财力技术重塑产品与供应链。",
+      "反驳\"等政府\"：把责任全推给当局是不作为的借口。",
+      "最佳立场：政策与问责为个人行动创造有效条件。",
+      "反例警示：仅靠消费者善意远不如一纸全国禁令。"
+    ],
+    "images": []
+  },
+  {
     "slug": "subject-choice",
     "group": "education",
     "task": "task2",
