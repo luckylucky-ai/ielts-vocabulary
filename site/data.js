@@ -21888,7 +21888,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "fluency",
             "ipa": "/ˈfluːənsi/",
             "pos": "n",
-            "meaning": "流利程度"
+            "meaning": "流利程度",
+            "level": "mid"
           },
           {
             "word": "proficiency",
@@ -21902,7 +21903,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "immersion",
             "ipa": "/ɪˈmɜːʃən/",
             "pos": "n",
-            "meaning": "沉浸式学习"
+            "meaning": "沉浸式学习",
+            "level": "mid"
           },
           {
             "word": "bilingual",
@@ -21915,19 +21917,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "vocabulary",
             "ipa": "/vəˈkæbjələri/",
             "pos": "n",
-            "meaning": "词汇量"
+            "meaning": "词汇量",
+            "level": "high"
           },
           {
             "word": "articulate",
             "ipa": "/ɑːˈtɪkjuleɪt/",
             "pos": "v",
-            "meaning": "清晰表达"
+            "meaning": "清晰表达",
+            "level": "mid"
           },
           {
             "word": "accent",
             "ipa": "/ˈæksent/",
             "pos": "n",
-            "meaning": "口音"
+            "meaning": "口音",
+            "level": "mid"
           },
           {
             "word": "dialect",
@@ -21941,7 +21946,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "mother tongue",
             "ipa": "/ˈmʌðər tʌŋ/",
             "pos": "n.phr",
-            "meaning": "母语"
+            "meaning": "母语",
+            "level": "mid"
           },
           {
             "word": "acquisition",
@@ -21954,13 +21960,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "grammar",
             "ipa": "/ˈɡræmər/",
             "pos": "n",
-            "meaning": "语法"
+            "meaning": "语法",
+            "level": "high"
           },
           {
             "word": "pronunciation",
             "ipa": "/prəˌnʌnsiˈeɪʃən/",
             "pos": "n",
-            "meaning": "发音"
+            "meaning": "发音",
+            "level": "mid"
           },
           {
             "word": "comprehension",
@@ -21973,7 +21981,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "retain",
             "ipa": "/rɪˈteɪn/",
             "pos": "v",
-            "meaning": "记住/保持"
+            "meaning": "记住/保持",
+            "level": "mid"
           },
           {
             "word": "innate",
@@ -21994,7 +22003,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "multilingual",
             "ipa": "/ˌmʌltiˈlɪŋɡwəl/",
             "pos": "adj",
-            "meaning": "多语言的"
+            "meaning": "多语言的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/25-language-and-communication/generated-with-text/25-card-01-generated-text.png"
@@ -22022,31 +22032,36 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "candid",
             "ipa": "/ˈkændɪd/",
             "pos": "adj",
-            "meaning": "坦率的"
+            "meaning": "坦率的",
+            "level": "mid"
           },
           {
             "word": "ambiguous",
             "ipa": "/æmˈbɪɡjuəs/",
             "pos": "adj",
-            "meaning": "模糊的"
+            "meaning": "模糊的",
+            "level": "mid"
           },
           {
             "word": "eloquent",
             "ipa": "/ˈeləkwənt/",
             "pos": "adj",
-            "meaning": "雄辩的"
+            "meaning": "雄辩的",
+            "level": "mid"
           },
           {
             "word": "tactful",
             "ipa": "/ˈtæktfl/",
             "pos": "adj",
-            "meaning": "得体的"
+            "meaning": "得体的",
+            "level": "mid"
           },
           {
             "word": "blunt",
             "ipa": "/blʌnt/",
             "pos": "adj",
-            "meaning": "直率的"
+            "meaning": "直率的",
+            "level": "mid"
           },
           {
             "word": "assertive",
@@ -22059,49 +22074,57 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "interrupt",
             "ipa": "/ˌɪntəˈrʌpt/",
             "pos": "v",
-            "meaning": "打断"
+            "meaning": "打断",
+            "level": "mid"
           },
           {
             "word": "elaborate",
             "ipa": "/ɪˈlæbəreɪt/",
             "pos": "v",
-            "meaning": "详细说明"
+            "meaning": "详细说明",
+            "level": "mid"
           },
           {
             "word": "paraphrase",
             "ipa": "/ˈpærəfreɪz/",
             "pos": "v",
-            "meaning": "转述"
+            "meaning": "转述",
+            "level": "mid"
           },
           {
             "word": "convey",
             "ipa": "/kənˈveɪ/",
             "pos": "v",
-            "meaning": "传达"
+            "meaning": "传达",
+            "level": "high"
           },
           {
             "word": "misinterpret",
             "ipa": "/ˌmɪsɪnˈtɜːprɪt/",
             "pos": "v",
-            "meaning": "误解"
+            "meaning": "误解",
+            "level": "mid"
           },
           {
             "word": "discreet",
             "ipa": "/dɪˈskriːt/",
             "pos": "adj",
-            "meaning": "谨慎的"
+            "meaning": "谨慎的",
+            "level": "mid"
           },
           {
             "word": "sincere",
             "ipa": "/sɪnˈsɪər/",
             "pos": "adj",
-            "meaning": "真诚的"
+            "meaning": "真诚的",
+            "level": "mid"
           },
           {
             "word": "dialogue",
             "ipa": "/ˈdaɪəlɒɡ/",
             "pos": "n",
-            "meaning": "对话"
+            "meaning": "对话",
+            "level": "mid"
           },
           {
             "word": "feedback",
@@ -22122,13 +22145,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "linguistics",
             "ipa": "/lɪŋˈɡwɪstɪks/",
             "pos": "n",
-            "meaning": "语言学"
+            "meaning": "语言学",
+            "level": "mid"
           },
           {
             "word": "vernacular",
             "ipa": "/vəˈnækjələr/",
             "pos": "n",
-            "meaning": "本地语/方言"
+            "meaning": "本地语/方言",
+            "level": "low"
           },
           {
             "word": "extinct",
@@ -22158,55 +22183,64 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "translate",
             "ipa": "/trænsˈleɪt/",
             "pos": "v",
-            "meaning": "翻译"
+            "meaning": "翻译",
+            "level": "mid"
           },
           {
             "word": "interpreter",
             "ipa": "/ɪnˈtɜːprɪtər/",
             "pos": "n",
-            "meaning": "口译员"
+            "meaning": "口译员",
+            "level": "mid"
           },
           {
             "word": "literal",
             "ipa": "/ˈlɪtərəl/",
             "pos": "adj",
-            "meaning": "字面的"
+            "meaning": "字面的",
+            "level": "mid"
           },
           {
             "word": "nuance",
             "ipa": "/ˈnjuːɑːns/",
             "pos": "n",
-            "meaning": "细微差别"
+            "meaning": "细微差别",
+            "level": "mid"
           },
           {
             "word": "equivalent",
             "ipa": "/ɪˈkwɪvələnt/",
             "pos": "adj",
-            "meaning": "对等的"
+            "meaning": "对等的",
+            "level": "mid"
           },
           {
             "word": "colloquial",
             "ipa": "/kəˈləʊkwiəl/",
             "pos": "adj",
-            "meaning": "口语化的"
+            "meaning": "口语化的",
+            "level": "mid"
           },
           {
             "word": "idiom",
             "ipa": "/ˈɪdiəm/",
             "pos": "n",
-            "meaning": "习语"
+            "meaning": "习语",
+            "level": "mid"
           },
           {
             "word": "syntax",
             "ipa": "/ˈsɪntæks/",
             "pos": "n",
-            "meaning": "句法"
+            "meaning": "句法",
+            "level": "mid"
           },
           {
             "word": "etymology",
             "ipa": "/ˌetɪˈmɒlədʒi/",
             "pos": "n",
-            "meaning": "词源学"
+            "meaning": "词源学",
+            "level": "low"
           },
           {
             "word": "universal",
@@ -22249,43 +22283,50 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "persuasive",
             "ipa": "/pəˈsweɪsɪv/",
             "pos": "adj",
-            "meaning": "有说服力的"
+            "meaning": "有说服力的",
+            "level": "mid"
           },
           {
             "word": "coherent",
             "ipa": "/kəʊˈhɪərənt/",
             "pos": "adj",
-            "meaning": "连贯的"
+            "meaning": "连贯的",
+            "level": "mid"
           },
           {
             "word": "anecdote",
             "ipa": "/ˈænɪkdəʊt/",
             "pos": "n",
-            "meaning": "轶事"
+            "meaning": "轶事",
+            "level": "mid"
           },
           {
             "word": "emphasize",
             "ipa": "/ˈemfəsaɪz/",
             "pos": "v",
-            "meaning": "强调"
+            "meaning": "强调",
+            "level": "high"
           },
           {
             "word": "captivate",
             "ipa": "/ˈkæptɪveɪt/",
             "pos": "v",
-            "meaning": "吸引(注意力)"
+            "meaning": "吸引(注意力)",
+            "level": "mid"
           },
           {
             "word": "stammer",
             "ipa": "/ˈstæmər/",
             "pos": "v",
-            "meaning": "结巴"
+            "meaning": "结巴",
+            "level": "low"
           },
           {
             "word": "hesitate",
             "ipa": "/ˈhezɪteɪt/",
             "pos": "v",
-            "meaning": "犹豫"
+            "meaning": "犹豫",
+            "level": "mid"
           },
           {
             "word": "monologue",
@@ -22298,7 +22339,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "audience",
             "ipa": "/ˈɔːdiəns/",
             "pos": "n",
-            "meaning": "听众"
+            "meaning": "听众",
+            "level": "high"
           },
           {
             "word": "improvise",
@@ -22311,7 +22353,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "concise",
             "ipa": "/kənˈsaɪs/",
             "pos": "adj",
-            "meaning": "简明的"
+            "meaning": "简明的",
+            "level": "mid"
           },
           {
             "word": "redundant",
@@ -22324,7 +22367,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "compelling",
             "ipa": "/kəmˈpelɪŋ/",
             "pos": "adj",
-            "meaning": "引人入胜的"
+            "meaning": "引人入胜的",
+            "level": "mid"
           },
           {
             "word": "testimony",
@@ -22337,13 +22381,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "podium",
             "ipa": "/ˈpəʊdiəm/",
             "pos": "n",
-            "meaning": "讲台"
+            "meaning": "讲台",
+            "level": "mid"
           },
           {
             "word": "rehearse",
             "ipa": "/rɪˈhɜːs/",
             "pos": "v",
-            "meaning": "排练"
+            "meaning": "排练",
+            "level": "mid"
           }
         ],
         "image": "../outputs/25-language-and-communication/generated-with-text/25-card-04-generated-text.png"
@@ -22356,7 +22402,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "gesture",
             "ipa": "/ˈdʒestʃər/",
             "pos": "n",
-            "meaning": "手势"
+            "meaning": "手势",
+            "level": "mid"
           },
           {
             "word": "posture",
@@ -22369,67 +22416,78 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "eye contact",
             "ipa": "/aɪ ˈkɒntækt/",
             "pos": "n.phr",
-            "meaning": "眼神交流"
+            "meaning": "眼神交流",
+            "level": "mid"
           },
           {
             "word": "facial expression",
             "ipa": "/ˈfeɪʃl ɪkˈspreʃən/",
             "pos": "n.phr",
-            "meaning": "面部表情"
+            "meaning": "面部表情",
+            "level": "mid"
           },
           {
             "word": "subtle",
             "ipa": "/ˈsʌtl/",
             "pos": "adj",
-            "meaning": "微妙的"
+            "meaning": "微妙的",
+            "level": "mid"
           },
           {
             "word": "gaze",
             "ipa": "/ɡeɪz/",
             "pos": "n./v",
-            "meaning": "凝视"
+            "meaning": "凝视",
+            "level": "mid"
           },
           {
             "word": "frown",
             "ipa": "/fraʊn/",
             "pos": "v./n",
-            "meaning": "皱眉"
+            "meaning": "皱眉",
+            "level": "mid"
           },
           {
             "word": "nod",
             "ipa": "/nɒd/",
             "pos": "v./n",
-            "meaning": "点头"
+            "meaning": "点头",
+            "level": "mid"
           },
           {
             "word": "demeanor",
             "ipa": "/dɪˈmiːnər/",
             "pos": "n",
-            "meaning": "举止"
+            "meaning": "举止",
+            "level": "mid"
           },
           {
             "word": "intonation",
             "ipa": "/ˌɪntəˈneɪʃən/",
             "pos": "n",
-            "meaning": "语调"
+            "meaning": "语调",
+            "level": "mid"
           },
           {
             "word": "proximity",
             "ipa": "/prɒkˈsɪməti/",
             "pos": "n",
-            "meaning": "距离/邻近"
+            "meaning": "距离/邻近",
+            "level": "mid"
           },
           {
             "word": "cue",
             "ipa": "/kjuː/",
             "pos": "n",
-            "meaning": "暗示/信号"
+            "meaning": "暗示/信号",
+            "level": "mid"
           },
           {
             "word": "perceive",
             "ipa": "/pəˈsiːv/",
             "pos": "v",
-            "meaning": "察觉"
+            "meaning": "察觉",
+            "level": "high"
           },
           {
             "word": "signal",
@@ -22442,7 +22500,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "discern",
             "ipa": "/dɪˈsɜːn/",
             "pos": "v",
-            "meaning": "辨别"
+            "meaning": "辨别",
+            "level": "mid"
           },
           {
             "word": "mimicry",
@@ -22455,7 +22514,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "authentic",
             "ipa": "/ɔːˈθentɪk/",
             "pos": "adj",
-            "meaning": "真实的"
+            "meaning": "真实的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/25-language-and-communication/generated-with-text/25-card-05-generated-text.png"
@@ -22658,7 +22718,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "destination",
             "ipa": "/ˌdestɪˈneɪʃn/",
             "pos": "n",
-            "meaning": "目的地"
+            "meaning": "目的地",
+            "level": "mid"
           },
           {
             "word": "secluded",
@@ -22686,7 +22747,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "resort",
             "ipa": "/rɪˈzɔːt/",
             "pos": "n",
-            "meaning": "度假胜地"
+            "meaning": "度假胜地",
+            "level": "mid"
           },
           {
             "word": "pristine",
@@ -22700,7 +22762,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "wilderness",
             "ipa": "/ˈwɪldənəs/",
             "pos": "n",
-            "meaning": "荒野"
+            "meaning": "荒野",
+            "level": "mid"
           },
           {
             "word": "remote",
@@ -22722,7 +22785,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "landmark",
             "ipa": "/ˈlændmɑːk/",
             "pos": "n",
-            "meaning": "地标"
+            "meaning": "地标",
+            "level": "mid"
           },
           {
             "word": "terrain",
@@ -22742,25 +22806,29 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "scenic",
             "ipa": "/ˈsiːnɪk/",
             "pos": "adj",
-            "meaning": "风景优美的"
+            "meaning": "风景优美的",
+            "level": "mid"
           },
           {
             "word": "idyllic",
             "ipa": "/aɪˈdɪlɪk/",
             "pos": "adj",
-            "meaning": "田园诗般的"
+            "meaning": "田园诗般的",
+            "level": "mid"
           },
           {
             "word": "breathtaking",
             "ipa": "/ˈbreθteɪkɪŋ/",
             "pos": "adj",
-            "meaning": "令人惊叹的"
+            "meaning": "令人惊叹的",
+            "level": "mid"
           },
           {
             "word": "unspoiled",
             "ipa": "/ʌnˈspɔɪld/",
             "pos": "adj",
-            "meaning": "未被破坏的"
+            "meaning": "未被破坏的",
+            "level": "mid"
           },
           {
             "word": "panoramic",
@@ -22780,37 +22848,43 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "itinerary",
             "ipa": "/aɪˈtɪnərəri/",
             "pos": "n",
-            "meaning": "行程"
+            "meaning": "行程",
+            "level": "mid"
           },
           {
             "word": "excursion",
             "ipa": "/ɪkˈskɜːʃn/",
             "pos": "n",
-            "meaning": "短途旅行"
+            "meaning": "短途旅行",
+            "level": "mid"
           },
           {
             "word": "backpacking",
             "ipa": "/ˈbækpækɪŋ/",
             "pos": "n",
-            "meaning": "背包旅行"
+            "meaning": "背包旅行",
+            "level": "mid"
           },
           {
             "word": "sightseeing",
             "ipa": "/ˈsaɪtsiːɪŋ/",
             "pos": "n",
-            "meaning": "观光"
+            "meaning": "观光",
+            "level": "mid"
           },
           {
             "word": "wander",
             "ipa": "/ˈwɒndə/",
             "pos": "v",
-            "meaning": "漫步"
+            "meaning": "漫步",
+            "level": "mid"
           },
           {
             "word": "explore",
             "ipa": "/ɪkˈsplɔː/",
             "pos": "v",
-            "meaning": "探索"
+            "meaning": "探索",
+            "level": "high"
           },
           {
             "word": "venture",
@@ -22823,19 +22897,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "souvenir",
             "ipa": "/ˌsuːvəˈnɪə/",
             "pos": "n",
-            "meaning": "纪念品"
+            "meaning": "纪念品",
+            "level": "mid"
           },
           {
             "word": "guide",
             "ipa": "/ɡaɪd/",
             "pos": "n",
-            "meaning": "导游"
+            "meaning": "导游",
+            "level": "mid"
           },
           {
             "word": "embark",
             "ipa": "/ɪmˈbɑːk/",
             "pos": "v",
-            "meaning": "开始(旅程)"
+            "meaning": "开始(旅程)",
+            "level": "mid"
           },
           {
             "word": "immerse",
@@ -22848,37 +22925,43 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "spontaneous",
             "ipa": "/spɒnˈteɪniəs/",
             "pos": "adj",
-            "meaning": "自发的"
+            "meaning": "自发的",
+            "level": "mid"
           },
           {
             "word": "authentic",
             "ipa": "/ɔːˈθentɪk/",
             "pos": "adj",
-            "meaning": "真实地道的"
+            "meaning": "真实地道的",
+            "level": "mid"
           },
           {
             "word": "adventurous",
             "ipa": "/ədˈventʃərəs/",
             "pos": "adj",
-            "meaning": "爱冒险的"
+            "meaning": "爱冒险的",
+            "level": "mid"
           },
           {
             "word": "exotic",
             "ipa": "/ɪɡˈzɒtɪk/",
             "pos": "adj",
-            "meaning": "异域风情的"
+            "meaning": "异域风情的",
+            "level": "mid"
           },
           {
             "word": "leisurely",
             "ipa": "/ˈliːʒəli/",
             "pos": "adv",
-            "meaning": "悠闲地"
+            "meaning": "悠闲地",
+            "level": "mid"
           },
           {
             "word": "captivating",
             "ipa": "/ˈkæptɪveɪtɪŋ/",
             "pos": "adj",
-            "meaning": "迷人的"
+            "meaning": "迷人的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/26-tourism-and-leisure/generated-with-text/26-card-02-generated-text.png"
@@ -22891,13 +22974,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "overtourism",
             "ipa": "/ˌəʊvətʊˈrɪzəm/",
             "pos": "n",
-            "meaning": "过度旅游"
+            "meaning": "过度旅游",
+            "level": "mid"
           },
           {
             "word": "commodify",
             "ipa": "/kəˈmɒdɪfaɪ/",
             "pos": "v",
-            "meaning": "商品化"
+            "meaning": "商品化",
+            "level": "mid"
           },
           {
             "word": "revenue",
@@ -22919,7 +23004,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "exploit",
             "ipa": "/ɪkˈsplɔɪt/",
             "pos": "v",
-            "meaning": "开发利用"
+            "meaning": "开发利用",
+            "level": "high"
           },
           {
             "word": "congestion",
@@ -22933,19 +23019,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "footfall",
             "ipa": "/ˈfʊtfɔːl/",
             "pos": "n",
-            "meaning": "客流量"
+            "meaning": "客流量",
+            "level": "mid"
           },
           {
             "word": "degrade",
             "ipa": "/dɪˈɡreɪd/",
             "pos": "v",
-            "meaning": "使退化"
+            "meaning": "使退化",
+            "level": "mid"
           },
           {
             "word": "dilapidated",
             "ipa": "/dɪˈlæpɪdeɪtɪd/",
             "pos": "adj",
-            "meaning": "破败的"
+            "meaning": "破败的",
+            "level": "low"
           },
           {
             "word": "proliferate",
@@ -22989,13 +23078,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "seasonal",
             "ipa": "/ˈsiːzənl/",
             "pos": "adj",
-            "meaning": "季节性的"
+            "meaning": "季节性的",
+            "level": "high"
           },
           {
             "word": "authenticity",
             "ipa": "/ˌɔːθenˈtɪsəti/",
             "pos": "n",
-            "meaning": "真实性"
+            "meaning": "真实性",
+            "level": "mid"
           },
           {
             "word": "gentrification",
@@ -23015,13 +23106,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "unwind",
             "ipa": "/ʌnˈwaɪnd/",
             "pos": "v",
-            "meaning": "放松"
+            "meaning": "放松",
+            "level": "mid"
           },
           {
             "word": "tranquil",
             "ipa": "/ˈtræŋkwɪl/",
             "pos": "adj",
-            "meaning": "宁静的"
+            "meaning": "宁静的",
+            "level": "mid"
           },
           {
             "word": "serenity",
@@ -23034,19 +23127,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "rejuvenate",
             "ipa": "/rɪˈdʒuːvəneɪt/",
             "pos": "v",
-            "meaning": "使恢复活力"
+            "meaning": "使恢复活力",
+            "level": "mid"
           },
           {
             "word": "revitalize",
             "ipa": "/riːˈvaɪtəlaɪz/",
             "pos": "v",
-            "meaning": "使复苏"
+            "meaning": "使复苏",
+            "level": "mid"
           },
           {
             "word": "hammock",
             "ipa": "/ˈhæmək/",
             "pos": "n",
-            "meaning": "吊床"
+            "meaning": "吊床",
+            "level": "low"
           },
           {
             "word": "indulge",
@@ -23060,13 +23156,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "pampered",
             "ipa": "/ˈpæmpəd/",
             "pos": "adj",
-            "meaning": "被精心照顾的"
+            "meaning": "被精心照顾的",
+            "level": "mid"
           },
           {
             "word": "blissful",
             "ipa": "/ˈblɪsfl/",
             "pos": "adj",
-            "meaning": "极幸福的"
+            "meaning": "极幸福的",
+            "level": "low"
           },
           {
             "word": "leisure",
@@ -23087,13 +23185,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "retreat",
             "ipa": "/rɪˈtriːt/",
             "pos": "n",
-            "meaning": "静修处"
+            "meaning": "静修处",
+            "level": "low"
           },
           {
             "word": "laid-back",
             "ipa": "/ˌleɪd ˈbæk/",
             "pos": "adj",
-            "meaning": "悠闲随性的"
+            "meaning": "悠闲随性的",
+            "level": "mid"
           },
           {
             "word": "wellbeing",
@@ -23107,19 +23207,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "escapism",
             "ipa": "/ɪˈskeɪpɪzəm/",
             "pos": "n",
-            "meaning": "逃避现实"
+            "meaning": "逃避现实",
+            "level": "mid"
           },
           {
             "word": "downtime",
             "ipa": "/ˈdaʊntaɪm/",
             "pos": "n",
-            "meaning": "空闲时间"
+            "meaning": "空闲时间",
+            "level": "mid"
           },
           {
             "word": "relaxation",
             "ipa": "/ˌriːlækˈseɪʃn/",
             "pos": "n",
-            "meaning": "放松"
+            "meaning": "放松",
+            "level": "mid"
           }
         ],
         "image": "../outputs/26-tourism-and-leisure/generated-with-text/26-card-04-generated-text.png"
@@ -23132,7 +23235,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "wanderlust",
             "ipa": "/ˈwɒndəlʌst/",
             "pos": "n",
-            "meaning": "旅行的强烈渴望"
+            "meaning": "旅行的强烈渴望",
+            "level": "mid"
           },
           {
             "word": "logistics",
@@ -23145,55 +23249,64 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "budget",
             "ipa": "/ˈbʌdʒɪt/",
             "pos": "n",
-            "meaning": "预算"
+            "meaning": "预算",
+            "level": "high"
           },
           {
             "word": "flexible",
             "ipa": "/ˈfleksəbl/",
             "pos": "adj",
-            "meaning": "灵活的"
+            "meaning": "灵活的",
+            "level": "high"
           },
           {
             "word": "unforeseen",
             "ipa": "/ˌʌnfɔːˈsiːn/",
             "pos": "adj",
-            "meaning": "未预见的"
+            "meaning": "未预见的",
+            "level": "mid"
           },
           {
             "word": "navigate",
             "ipa": "/ˈnævɪɡeɪt/",
             "pos": "v",
-            "meaning": "应对，导航"
+            "meaning": "应对，导航",
+            "level": "high"
           },
           {
             "word": "accommodation",
             "ipa": "/əˌkɒməˈdeɪʃn/",
             "pos": "n",
-            "meaning": "住宿"
+            "meaning": "住宿",
+            "level": "high"
           },
           {
             "word": "hospitality",
             "ipa": "/ˌhɒspɪˈtæləti/",
             "pos": "n",
-            "meaning": "好客款待"
+            "meaning": "好客款待",
+            "level": "high"
           },
           {
             "word": "homestay",
             "ipa": "/ˈhəʊmsteɪ/",
             "pos": "n",
-            "meaning": "寄宿家庭"
+            "meaning": "寄宿家庭",
+            "level": "mid"
           },
           {
             "word": "diverse",
             "ipa": "/daɪˈvɜːs/",
             "pos": "adj",
-            "meaning": "多样的"
+            "meaning": "多样的",
+            "level": "high"
           },
           {
             "word": "cross-cultural",
             "ipa": "/ˌkrɒs ˈkʌltʃərəl/",
             "pos": "adj",
-            "meaning": "跨文化的"
+            "meaning": "跨文化的",
+            "level": "mid"
           },
           {
             "word": "custom",
@@ -23214,13 +23327,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "accustomed",
             "ipa": "/əˈkʌstəmd/",
             "pos": "adj",
-            "meaning": "习惯于"
+            "meaning": "习惯于",
+            "level": "mid"
           },
           {
             "word": "broaden",
             "ipa": "/ˈbrɔːdn/",
             "pos": "v",
-            "meaning": "拓宽(视野)"
+            "meaning": "拓宽(视野)",
+            "level": "high"
           },
           {
             "word": "perspective",
@@ -23233,7 +23348,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "enrich",
             "ipa": "/ɪnˈrɪtʃ/",
             "pos": "v",
-            "meaning": "丰富"
+            "meaning": "丰富",
+            "level": "mid"
           }
         ],
         "image": "../outputs/26-tourism-and-leisure/generated-with-text/26-card-05-generated-text.png"
@@ -23394,13 +23510,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "extraction",
             "ipa": "/ɪkˈstrækʃn/",
             "pos": "n",
-            "meaning": "开采"
+            "meaning": "开采",
+            "level": "mid"
           },
           {
             "word": "drilling",
             "ipa": "/ˈdrɪlɪŋ/",
             "pos": "n",
-            "meaning": "钻探"
+            "meaning": "钻探",
+            "level": "low"
           },
           {
             "word": "reserve",
@@ -23420,7 +23538,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "crude",
             "ipa": "/kruːd/",
             "pos": "adj",
-            "meaning": "未提炼的"
+            "meaning": "未提炼的",
+            "level": "low"
           },
           {
             "word": "excavate",
@@ -23433,19 +23552,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "extract",
             "ipa": "/ɪkˈstrækt/",
             "pos": "v",
-            "meaning": "提取"
+            "meaning": "提取",
+            "level": "high"
           },
           {
             "word": "non-renewable",
             "ipa": "/ˌnɒn rɪˈnjuːəbl/",
             "pos": "adj",
-            "meaning": "不可再生的"
+            "meaning": "不可再生的",
+            "level": "high"
           },
           {
             "word": "refinery",
             "ipa": "/rɪˈfaɪnəri/",
             "pos": "n",
-            "meaning": "炼油厂"
+            "meaning": "炼油厂",
+            "level": "low"
           },
           {
             "word": "combustion",
@@ -23466,25 +23588,29 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "byproduct",
             "ipa": "/ˈbaɪprɒdʌkt/",
             "pos": "n",
-            "meaning": "副产品"
+            "meaning": "副产品",
+            "level": "mid"
           },
           {
             "word": "hazardous",
             "ipa": "/ˈhæzədəs/",
             "pos": "adj",
-            "meaning": "危险的"
+            "meaning": "危险的",
+            "level": "mid"
           },
           {
             "word": "subsidence",
             "ipa": "/səbˈsaɪdns/",
             "pos": "n",
-            "meaning": "地面沉降"
+            "meaning": "地面沉降",
+            "level": "mid"
           },
           {
             "word": "carbon-intensive",
             "ipa": "/ˌkɑːbən ɪnˈtensɪv/",
             "pos": "adj",
-            "meaning": "高碳排放的"
+            "meaning": "高碳排放的",
+            "level": "low"
           },
           {
             "word": "deplete",
@@ -23498,7 +23624,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "finite",
             "ipa": "/ˈfaɪnaɪt/",
             "pos": "adj",
-            "meaning": "有限的"
+            "meaning": "有限的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/27-energy-and-resources/generated-with-text/27-card-01-generated-text.png"
@@ -23541,25 +23668,29 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "wind farm",
             "ipa": "/wɪnd fɑːm/",
             "pos": "n",
-            "meaning": "风电场"
+            "meaning": "风电场",
+            "level": "mid"
           },
           {
             "word": "hydropower",
             "ipa": "/ˈhaɪdrəʊpaʊə/",
             "pos": "n",
-            "meaning": "水力发电"
+            "meaning": "水力发电",
+            "level": "low"
           },
           {
             "word": "geothermal",
             "ipa": "/ˌdʒiːəʊˈθɜːml/",
             "pos": "adj",
-            "meaning": "地热的"
+            "meaning": "地热的",
+            "level": "low"
           },
           {
             "word": "biomass",
             "ipa": "/ˈbaɪəʊmæs/",
             "pos": "n",
-            "meaning": "生物质能"
+            "meaning": "生物质能",
+            "level": "low"
           },
           {
             "word": "sustainable",
@@ -23581,7 +23712,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "generate",
             "ipa": "/ˈdʒenəreɪt/",
             "pos": "v",
-            "meaning": "发电，产生"
+            "meaning": "发电，产生",
+            "level": "high"
           },
           {
             "word": "grid",
@@ -23594,7 +23726,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "capacity",
             "ipa": "/kəˈpæsəti/",
             "pos": "n",
-            "meaning": "容量"
+            "meaning": "容量",
+            "level": "high"
           },
           {
             "word": "intermittent",
@@ -23607,19 +23740,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "efficient",
             "ipa": "/ɪˈfɪʃnt/",
             "pos": "adj",
-            "meaning": "高效的"
+            "meaning": "高效的",
+            "level": "high"
           },
           {
             "word": "eco-friendly",
             "ipa": "/ˌiːkəʊ ˈfrendli/",
             "pos": "adj",
-            "meaning": "环保的"
+            "meaning": "环保的",
+            "level": "mid"
           },
           {
             "word": "clean",
             "ipa": "/kliːn/",
             "pos": "adj",
-            "meaning": "清洁的"
+            "meaning": "清洁的",
+            "level": "low"
           }
         ],
         "image": "../outputs/27-energy-and-resources/generated-with-text/27-card-02-generated-text.png"
@@ -23632,7 +23768,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "transition",
             "ipa": "/trænˈzɪʃn/",
             "pos": "n",
-            "meaning": "转型"
+            "meaning": "转型",
+            "level": "high"
           },
           {
             "word": "subsidy",
@@ -23670,7 +23807,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "carbon tax",
             "ipa": "/ˈkɑːbən tæks/",
             "pos": "n",
-            "meaning": "碳税"
+            "meaning": "碳税",
+            "level": "mid"
           },
           {
             "word": "target",
@@ -23683,13 +23821,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "phase out",
             "ipa": "/feɪz aʊt/",
             "pos": "v",
-            "meaning": "逐步淘汰"
+            "meaning": "逐步淘汰",
+            "level": "mid"
           },
           {
             "word": "investment",
             "ipa": "/ɪnˈvestmənt/",
             "pos": "n",
-            "meaning": "投资"
+            "meaning": "投资",
+            "level": "high"
           },
           {
             "word": "infrastructure",
@@ -23703,7 +23843,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "decarbonize",
             "ipa": "/diːˈkɑːbənaɪz/",
             "pos": "v",
-            "meaning": "去碳化"
+            "meaning": "去碳化",
+            "level": "low"
           },
           {
             "word": "mandate",
@@ -23748,7 +23889,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "accelerate",
             "ipa": "/əkˈseləreɪt/",
             "pos": "v",
-            "meaning": "加速"
+            "meaning": "加速",
+            "level": "high"
           }
         ],
         "image": "../outputs/27-energy-and-resources/generated-with-text/27-card-03-generated-text.png"
@@ -23769,25 +23911,29 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "depletion",
             "ipa": "/dɪˈpliːʃn/",
             "pos": "n",
-            "meaning": "枯竭"
+            "meaning": "枯竭",
+            "level": "mid"
           },
           {
             "word": "mining",
             "ipa": "/ˈmaɪnɪŋ/",
             "pos": "n",
-            "meaning": "采矿"
+            "meaning": "采矿",
+            "level": "mid"
           },
           {
             "word": "mineral",
             "ipa": "/ˈmɪnərəl/",
             "pos": "n",
-            "meaning": "矿产"
+            "meaning": "矿产",
+            "level": "mid"
           },
           {
             "word": "resource-rich",
             "ipa": "/rɪˈzɔːs rɪtʃ/",
             "pos": "adj",
-            "meaning": "资源丰富的"
+            "meaning": "资源丰富的",
+            "level": "low"
           },
           {
             "word": "stockpile",
@@ -23800,19 +23946,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "strategic",
             "ipa": "/strəˈtiːdʒɪk/",
             "pos": "adj",
-            "meaning": "战略性的"
+            "meaning": "战略性的",
+            "level": "mid"
           },
           {
             "word": "import-dependent",
             "ipa": "/ˈɪmpɔːt dɪˈpendənt/",
             "pos": "adj",
-            "meaning": "依赖进口的"
+            "meaning": "依赖进口的",
+            "level": "low"
           },
           {
             "word": "self-sufficient",
             "ipa": "/ˌself səˈfɪʃnt/",
             "pos": "adj",
-            "meaning": "自给自足的"
+            "meaning": "自给自足的",
+            "level": "mid"
           },
           {
             "word": "conserve",
@@ -23826,25 +23975,29 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "dwindle",
             "ipa": "/ˈdwɪndl/",
             "pos": "v",
-            "meaning": "逐渐减少"
+            "meaning": "逐渐减少",
+            "level": "mid"
           },
           {
             "word": "ration",
             "ipa": "/ˈræʃn/",
             "pos": "v",
-            "meaning": "配给"
+            "meaning": "配给",
+            "level": "low"
           },
           {
             "word": "overconsumption",
             "ipa": "/ˌəʊvəkənˈsʌmpʃn/",
             "pos": "n",
-            "meaning": "过度消耗"
+            "meaning": "过度消耗",
+            "level": "high"
           },
           {
             "word": "exhaustible",
             "ipa": "/ɪɡˈzɔːstəbl/",
             "pos": "adj",
-            "meaning": "可耗尽的"
+            "meaning": "可耗尽的",
+            "level": "low"
           },
           {
             "word": "allocate",
@@ -23866,7 +24019,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "hoard",
             "ipa": "/hɔːd/",
             "pos": "v",
-            "meaning": "囤积"
+            "meaning": "囤积",
+            "level": "mid"
           }
         ],
         "image": "../outputs/27-energy-and-resources/generated-with-text/27-card-04-generated-text.png"
@@ -23879,13 +24033,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "consumption",
             "ipa": "/kənˈsʌmpʃn/",
             "pos": "n",
-            "meaning": "消耗"
+            "meaning": "消耗",
+            "level": "high"
           },
           {
             "word": "efficiency",
             "ipa": "/ɪˈfɪʃnsi/",
             "pos": "n",
-            "meaning": "效率"
+            "meaning": "效率",
+            "level": "high"
           },
           {
             "word": "insulation",
@@ -23905,13 +24061,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "appliance",
             "ipa": "/əˈplaɪəns/",
             "pos": "n",
-            "meaning": "电器"
+            "meaning": "电器",
+            "level": "mid"
           },
           {
             "word": "thermostat",
             "ipa": "/ˈθɜːməstæt/",
             "pos": "n",
-            "meaning": "恒温器"
+            "meaning": "恒温器",
+            "level": "mid"
           },
           {
             "word": "household",
@@ -23924,19 +24082,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "footprint",
             "ipa": "/ˈfʊtprɪnt/",
             "pos": "n",
-            "meaning": "(碳)足迹"
+            "meaning": "(碳)足迹",
+            "level": "mid"
           },
           {
             "word": "surge",
             "ipa": "/sɜːdʒ/",
             "pos": "n",
-            "meaning": "(需求)激增"
+            "meaning": "(需求)激增",
+            "level": "mid"
           },
           {
             "word": "off-grid",
             "ipa": "/ˌɒf ˈɡrɪd/",
             "pos": "adj",
-            "meaning": "离网的"
+            "meaning": "离网的",
+            "level": "low"
           },
           {
             "word": "offset",
@@ -23950,13 +24111,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "curb",
             "ipa": "/kɜːb/",
             "pos": "v",
-            "meaning": "抑制，控制"
+            "meaning": "抑制，控制",
+            "level": "mid"
           },
           {
             "word": "wasteful",
             "ipa": "/ˈweɪstfl/",
             "pos": "adj",
-            "meaning": "浪费的"
+            "meaning": "浪费的",
+            "level": "mid"
           },
           {
             "word": "optimize",
@@ -23969,19 +24132,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "prudent",
             "ipa": "/ˈpruːdnt/",
             "pos": "adj",
-            "meaning": "审慎的"
+            "meaning": "审慎的",
+            "level": "mid"
           },
           {
             "word": "monitor",
             "ipa": "/ˈmɒnɪtə/",
             "pos": "v",
-            "meaning": "监测"
+            "meaning": "监测",
+            "level": "high"
           },
           {
             "word": "minimize",
             "ipa": "/ˈmɪnɪmaɪz/",
             "pos": "v",
-            "meaning": "最小化"
+            "meaning": "最小化",
+            "level": "mid"
           }
         ],
         "image": "../outputs/27-energy-and-resources/generated-with-text/27-card-05-generated-text.png"
@@ -24198,31 +24364,36 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "tide",
             "ipa": "/taɪd/",
             "pos": "n",
-            "meaning": "潮汐"
+            "meaning": "潮汐",
+            "level": "mid"
           },
           {
             "word": "current",
             "ipa": "/ˈkʌrənt/",
             "pos": "n",
-            "meaning": "洋流"
+            "meaning": "洋流",
+            "level": "low"
           },
           {
             "word": "reef",
             "ipa": "/riːf/",
             "pos": "n",
-            "meaning": "礁石"
+            "meaning": "礁石",
+            "level": "mid"
           },
           {
             "word": "trench",
             "ipa": "/trentʃ/",
             "pos": "n",
-            "meaning": "海沟"
+            "meaning": "海沟",
+            "level": "low"
           },
           {
             "word": "abyss",
             "ipa": "/əˈbɪs/",
             "pos": "n",
-            "meaning": "深渊"
+            "meaning": "深渊",
+            "level": "low"
           },
           {
             "word": "submerge",
@@ -24235,13 +24406,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "depth",
             "ipa": "/depθ/",
             "pos": "n",
-            "meaning": "深度"
+            "meaning": "深度",
+            "level": "mid"
           },
           {
             "word": "shoreline",
             "ipa": "/ˈʃɔːlaɪn/",
             "pos": "n",
-            "meaning": "海岸"
+            "meaning": "海岸",
+            "level": "low"
           },
           {
             "word": "erosion",
@@ -24277,13 +24450,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "buoyant",
             "ipa": "/ˈbɔɪənt/",
             "pos": "adj",
-            "meaning": "有浮力的"
+            "meaning": "有浮力的",
+            "level": "low"
           },
           {
             "word": "undulate",
             "ipa": "/ˈʌndjuleɪt/",
             "pos": "v",
-            "meaning": "起伏"
+            "meaning": "起伏",
+            "level": "low"
           },
           {
             "word": "vessel",
@@ -24378,7 +24553,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "thrive",
             "ipa": "/θraɪv/",
             "pos": "v",
-            "meaning": "繁荣生长"
+            "meaning": "繁荣生长",
+            "level": "high"
           },
           {
             "word": "endangered",
@@ -24392,7 +24568,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "symbiotic",
             "ipa": "/ˌsɪmbaɪˈɒtɪk/",
             "pos": "adj",
-            "meaning": "共生的"
+            "meaning": "共生的",
+            "level": "mid"
           },
           {
             "word": "camouflage",
@@ -24441,7 +24618,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "reservoir",
             "ipa": "/ˈrezəvwɑː/",
             "pos": "n",
-            "meaning": "水库"
+            "meaning": "水库",
+            "level": "mid"
           },
           {
             "word": "drought",
@@ -24455,31 +24633,36 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "aquifer",
             "ipa": "/ˈækwɪfə/",
             "pos": "n",
-            "meaning": "含水层"
+            "meaning": "含水层",
+            "level": "low"
           },
           {
             "word": "groundwater",
             "ipa": "/ˈɡraʊndwɔːtə/",
             "pos": "n",
-            "meaning": "地下水"
+            "meaning": "地下水",
+            "level": "mid"
           },
           {
             "word": "irrigation",
             "ipa": "/ˌɪrɪˈɡeɪʃn/",
             "pos": "n",
-            "meaning": "灌溉"
+            "meaning": "灌溉",
+            "level": "mid"
           },
           {
             "word": "desalination",
             "ipa": "/diːˌsælɪˈneɪʃn/",
             "pos": "n",
-            "meaning": "海水淡化"
+            "meaning": "海水淡化",
+            "level": "low"
           },
           {
             "word": "potable",
             "ipa": "/ˈpəʊtəbl/",
             "pos": "adj",
-            "meaning": "可饮用的"
+            "meaning": "可饮用的",
+            "level": "low"
           },
           {
             "word": "contaminate",
@@ -24501,7 +24684,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "ration",
             "ipa": "/ˈræʃn/",
             "pos": "v",
-            "meaning": "配给"
+            "meaning": "配给",
+            "level": "low"
           },
           {
             "word": "arid",
@@ -24514,7 +24698,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "dwindling",
             "ipa": "/ˈdwɪndlɪŋ/",
             "pos": "adj",
-            "meaning": "逐渐减少的"
+            "meaning": "逐渐减少的",
+            "level": "mid"
           },
           {
             "word": "sanitation",
@@ -24528,7 +24713,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "accessible",
             "ipa": "/əkˈsesəbl/",
             "pos": "adj",
-            "meaning": "可获取的"
+            "meaning": "可获取的",
+            "level": "high"
           },
           {
             "word": "conserve",
@@ -24542,7 +24728,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "distribution",
             "ipa": "/ˌdɪstrɪˈbjuːʃn/",
             "pos": "n",
-            "meaning": "分配"
+            "meaning": "分配",
+            "level": "high"
           }
         ],
         "image": "../outputs/28-ocean-and-water/generated-with-text/28-card-03-generated-text.png"
@@ -24563,7 +24750,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "plastic",
             "ipa": "/ˈplæstɪk/",
             "pos": "n",
-            "meaning": "塑料"
+            "meaning": "塑料",
+            "level": "mid"
           },
           {
             "word": "debris",
@@ -24577,7 +24765,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "oil spill",
             "ipa": "/ɔɪl spɪl/",
             "pos": "n",
-            "meaning": "石油泄漏"
+            "meaning": "石油泄漏",
+            "level": "low"
           },
           {
             "word": "toxic",
@@ -24591,13 +24780,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "acidification",
             "ipa": "/əˌsɪdɪfɪˈkeɪʃn/",
             "pos": "n",
-            "meaning": "酸化"
+            "meaning": "酸化",
+            "level": "low"
           },
           {
             "word": "marine reserve",
             "ipa": "/məˈriːn rɪˈzɜːv/",
             "pos": "n",
-            "meaning": "海洋保护区"
+            "meaning": "海洋保护区",
+            "level": "low"
           },
           {
             "word": "sustainable",
@@ -24611,7 +24802,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "overfishing",
             "ipa": "/ˌəʊvəˈfɪʃɪŋ/",
             "pos": "n",
-            "meaning": "过度捕捞"
+            "meaning": "过度捕捞",
+            "level": "mid"
           },
           {
             "word": "quota",
@@ -24632,13 +24824,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "restore",
             "ipa": "/rɪˈstɔː/",
             "pos": "v",
-            "meaning": "恢复"
+            "meaning": "恢复",
+            "level": "mid"
           },
           {
             "word": "degrade",
             "ipa": "/dɪˈɡreɪd/",
             "pos": "v",
-            "meaning": "降解，恶化"
+            "meaning": "降解，恶化",
+            "level": "mid"
           },
           {
             "word": "mitigate",
@@ -24660,13 +24854,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "accumulate",
             "ipa": "/əˈkjuːmjəleɪt/",
             "pos": "v",
-            "meaning": "累积"
+            "meaning": "累积",
+            "level": "mid"
           },
           {
             "word": "hazardous",
             "ipa": "/ˈhæzədəs/",
             "pos": "adj",
-            "meaning": "有害的"
+            "meaning": "有害的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/28-ocean-and-water/generated-with-text/28-card-04-generated-text.png"
@@ -24679,13 +24875,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "consumption",
             "ipa": "/kənˈsʌmpʃn/",
             "pos": "n",
-            "meaning": "消耗"
+            "meaning": "消耗",
+            "level": "high"
           },
           {
             "word": "utility",
             "ipa": "/juːˈtɪləti/",
             "pos": "n",
-            "meaning": "公用事业"
+            "meaning": "公用事业",
+            "level": "mid"
           },
           {
             "word": "infrastructure",
@@ -24699,13 +24897,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "pipeline",
             "ipa": "/ˈpaɪplaɪn/",
             "pos": "n",
-            "meaning": "管道"
+            "meaning": "管道",
+            "level": "mid"
           },
           {
             "word": "treatment",
             "ipa": "/ˈtriːtmənt/",
             "pos": "n",
-            "meaning": "处理"
+            "meaning": "处理",
+            "level": "high"
           },
           {
             "word": "filtration",
@@ -24726,7 +24926,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "leakage",
             "ipa": "/ˈliːkɪdʒ/",
             "pos": "n",
-            "meaning": "泄漏"
+            "meaning": "泄漏",
+            "level": "mid"
           },
           {
             "word": "tariff",
@@ -24740,19 +24941,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "subsidize",
             "ipa": "/ˈsʌbsɪdaɪz/",
             "pos": "v",
-            "meaning": "补贴"
+            "meaning": "补贴",
+            "level": "mid"
           },
           {
             "word": "efficient",
             "ipa": "/ɪˈfɪʃnt/",
             "pos": "adj",
-            "meaning": "高效的"
+            "meaning": "高效的",
+            "level": "high"
           },
           {
             "word": "wasteful",
             "ipa": "/ˈweɪstfl/",
             "pos": "adj",
-            "meaning": "浪费的"
+            "meaning": "浪费的",
+            "level": "mid"
           },
           {
             "word": "household",
@@ -24765,7 +24969,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "monitor",
             "ipa": "/ˈmɒnɪtə/",
             "pos": "v",
-            "meaning": "监测"
+            "meaning": "监测",
+            "level": "high"
           },
           {
             "word": "allocate",
@@ -24787,7 +24992,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "prioritize",
             "ipa": "/praɪˈɒrɪtaɪz/",
             "pos": "v",
-            "meaning": "优先考虑"
+            "meaning": "优先考虑",
+            "level": "high"
           }
         ],
         "image": "../outputs/28-ocean-and-water/generated-with-text/28-card-05-generated-text.png"
@@ -24948,7 +25154,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "garment",
             "ipa": "/ˈɡɑːmənt/",
             "pos": "n",
-            "meaning": "服装"
+            "meaning": "服装",
+            "level": "mid"
           },
           {
             "word": "textile",
@@ -24961,43 +25168,50 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "fabric",
             "ipa": "/ˈfæbrɪk/",
             "pos": "n",
-            "meaning": "布料"
+            "meaning": "布料",
+            "level": "mid"
           },
           {
             "word": "assembly line",
             "ipa": "/əˈsembli laɪn/",
             "pos": "n",
-            "meaning": "流水线"
+            "meaning": "流水线",
+            "level": "low"
           },
           {
             "word": "mass-produced",
             "ipa": "/ˌmæs prəˈdjuːst/",
             "pos": "adj",
-            "meaning": "大规模生产的"
+            "meaning": "大规模生产的",
+            "level": "mid"
           },
           {
             "word": "churn out",
             "ipa": "/tʃɜːn aʊt/",
             "pos": "v",
-            "meaning": "大量生产"
+            "meaning": "大量生产",
+            "level": "mid"
           },
           {
             "word": "sweatshop",
             "ipa": "/ˈswetʃɒp/",
             "pos": "n",
-            "meaning": "血汗工厂"
+            "meaning": "血汗工厂",
+            "level": "mid"
           },
           {
             "word": "exploit",
             "ipa": "/ɪkˈsplɔɪt/",
             "pos": "v",
-            "meaning": "剥削"
+            "meaning": "剥削",
+            "level": "high"
           },
           {
             "word": "labor-intensive",
             "ipa": "/ˈleɪbər ɪnˈtensɪv/",
             "pos": "adj",
-            "meaning": "劳动密集型的"
+            "meaning": "劳动密集型的",
+            "level": "low"
           },
           {
             "word": "disposable",
@@ -25025,7 +25239,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "overproduction",
             "ipa": "/ˌəʊvəprəˈdʌkʃn/",
             "pos": "n",
-            "meaning": "生产过剩"
+            "meaning": "生产过剩",
+            "level": "mid"
           },
           {
             "word": "wholesale",
@@ -25038,7 +25253,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "markup",
             "ipa": "/ˈmɑːkʌp/",
             "pos": "n",
-            "meaning": "加价"
+            "meaning": "加价",
+            "level": "mid"
           },
           {
             "word": "supply chain",
@@ -25052,13 +25268,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "cut corners",
             "ipa": "/kʌt ˈkɔːnəz/",
             "pos": "v",
-            "meaning": "偷工减料"
+            "meaning": "偷工减料",
+            "level": "mid"
           },
           {
             "word": "shoddy",
             "ipa": "/ˈʃɒdi/",
             "pos": "adj",
-            "meaning": "劣质的"
+            "meaning": "劣质的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/29-fashion-and-consumerism/generated-with-text/29-card-01-generated-text.png"
@@ -25071,31 +25289,36 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "consumerism",
             "ipa": "/kənˈsjuːmərɪzəm/",
             "pos": "n",
-            "meaning": "消费主义"
+            "meaning": "消费主义",
+            "level": "high"
           },
           {
             "word": "impulse buying",
             "ipa": "/ˈɪmpʌls ˈbaɪɪŋ/",
             "pos": "n",
-            "meaning": "冲动购物"
+            "meaning": "冲动购物",
+            "level": "mid"
           },
           {
             "word": "materialism",
             "ipa": "/məˈtɪəriəlɪzəm/",
             "pos": "n",
-            "meaning": "物质主义"
+            "meaning": "物质主义",
+            "level": "mid"
           },
           {
             "word": "retail therapy",
             "ipa": "/ˈriːteɪl ˈθerəpi/",
             "pos": "n",
-            "meaning": "购物疗法"
+            "meaning": "购物疗法",
+            "level": "mid"
           },
           {
             "word": "gratification",
             "ipa": "/ˌɡrætɪfɪˈkeɪʃn/",
             "pos": "n",
-            "meaning": "满足感"
+            "meaning": "满足感",
+            "level": "mid"
           },
           {
             "word": "indulge",
@@ -25109,13 +25332,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "splurge",
             "ipa": "/splɜːdʒ/",
             "pos": "v",
-            "meaning": "挥霍"
+            "meaning": "挥霍",
+            "level": "mid"
           },
           {
             "word": "bargain",
             "ipa": "/ˈbɑːɡɪn/",
             "pos": "n",
-            "meaning": "便宜货"
+            "meaning": "便宜货",
+            "level": "mid"
           },
           {
             "word": "discount",
@@ -25135,49 +25360,57 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "brand-conscious",
             "ipa": "/brænd ˈkɒnʃəs/",
             "pos": "adj",
-            "meaning": "品牌意识强的"
+            "meaning": "品牌意识强的",
+            "level": "mid"
           },
           {
             "word": "status symbol",
             "ipa": "/ˈsteɪtəs ˈsɪmbl/",
             "pos": "n",
-            "meaning": "身份象征"
+            "meaning": "身份象征",
+            "level": "mid"
           },
           {
             "word": "peer pressure",
             "ipa": "/pɪə ˈpreʃə/",
             "pos": "n",
-            "meaning": "同辈压力"
+            "meaning": "同辈压力",
+            "level": "mid"
           },
           {
             "word": "accumulate",
             "ipa": "/əˈkjuːmjəleɪt/",
             "pos": "v",
-            "meaning": "积累"
+            "meaning": "积累",
+            "level": "mid"
           },
           {
             "word": "clutter",
             "ipa": "/ˈklʌtə/",
             "pos": "n",
-            "meaning": "杂乱堆积物"
+            "meaning": "杂乱堆积物",
+            "level": "mid"
           },
           {
             "word": "hoarding",
             "ipa": "/ˈhɔːdɪŋ/",
             "pos": "n",
-            "meaning": "囤积"
+            "meaning": "囤积",
+            "level": "mid"
           },
           {
             "word": "debt",
             "ipa": "/det/",
             "pos": "n",
-            "meaning": "债务"
+            "meaning": "债务",
+            "level": "high"
           },
           {
             "word": "overspend",
             "ipa": "/ˌəʊvəˈspend/",
             "pos": "v",
-            "meaning": "超支消费"
+            "meaning": "超支消费",
+            "level": "mid"
           }
         ],
         "image": "../outputs/29-fashion-and-consumerism/generated-with-text/29-card-02-generated-text.png"
@@ -25190,13 +25423,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "secondhand",
             "ipa": "/ˌsekənd ˈhænd/",
             "pos": "adj",
-            "meaning": "二手的"
+            "meaning": "二手的",
+            "level": "mid"
           },
           {
             "word": "thrift store",
             "ipa": "/θrɪft stɔː/",
             "pos": "n",
-            "meaning": "二手商店"
+            "meaning": "二手商店",
+            "level": "mid"
           },
           {
             "word": "upcycle",
@@ -25225,7 +25460,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "eco-friendly",
             "ipa": "/ˌiːkəʊ ˈfrendli/",
             "pos": "adj",
-            "meaning": "环保的"
+            "meaning": "环保的",
+            "level": "mid"
           },
           {
             "word": "biodegradable",
@@ -25238,7 +25474,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "dye",
             "ipa": "/daɪ/",
             "pos": "n/v",
-            "meaning": "染料，染色"
+            "meaning": "染料，染色",
+            "level": "low"
           },
           {
             "word": "contaminate",
@@ -25299,19 +25536,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "capsule wardrobe",
             "ipa": "/ˈkæpsjuːl ˈwɔːdrəʊb/",
             "pos": "n",
-            "meaning": "精简衣橱"
+            "meaning": "精简衣橱",
+            "level": "mid"
           },
           {
             "word": "minimalism",
             "ipa": "/ˈmɪnɪməlɪzəm/",
             "pos": "n",
-            "meaning": "极简主义"
+            "meaning": "极简主义",
+            "level": "mid"
           },
           {
             "word": "mindful",
             "ipa": "/ˈmaɪndfl/",
             "pos": "adj",
-            "meaning": "有意识的"
+            "meaning": "有意识的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/29-fashion-and-consumerism/generated-with-text/29-card-03-generated-text.png"
@@ -25324,13 +25564,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "self-expression",
             "ipa": "/self ɪkˈspreʃn/",
             "pos": "n",
-            "meaning": "自我表达"
+            "meaning": "自我表达",
+            "level": "mid"
           },
           {
             "word": "individuality",
             "ipa": "/ˌɪndɪvɪdʒuˈæləti/",
             "pos": "n",
-            "meaning": "个性"
+            "meaning": "个性",
+            "level": "mid"
           },
           {
             "word": "aesthetic",
@@ -25344,37 +25586,43 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "trendsetter",
             "ipa": "/ˈtrendsetə/",
             "pos": "n",
-            "meaning": "潮流引领者"
+            "meaning": "潮流引领者",
+            "level": "mid"
           },
           {
             "word": "subculture",
             "ipa": "/ˈsʌbkʌltʃə/",
             "pos": "n",
-            "meaning": "亚文化"
+            "meaning": "亚文化",
+            "level": "mid"
           },
           {
             "word": "flamboyant",
             "ipa": "/flæmˈbɔɪənt/",
             "pos": "adj",
-            "meaning": "张扬的"
+            "meaning": "张扬的",
+            "level": "mid"
           },
           {
             "word": "understated",
             "ipa": "/ˌʌndəˈsteɪtɪd/",
             "pos": "adj",
-            "meaning": "低调的"
+            "meaning": "低调的",
+            "level": "mid"
           },
           {
             "word": "versatile",
             "ipa": "/ˈvɜːsətaɪl/",
             "pos": "adj",
-            "meaning": "百搭的"
+            "meaning": "百搭的",
+            "level": "mid"
           },
           {
             "word": "iconic",
             "ipa": "/aɪˈkɒnɪk/",
             "pos": "adj",
-            "meaning": "标志性的"
+            "meaning": "标志性的",
+            "level": "mid"
           },
           {
             "word": "conformity",
@@ -25388,25 +25636,29 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "nonconformist",
             "ipa": "/ˌnɒnkənˈfɔːmɪst/",
             "pos": "n",
-            "meaning": "不墨守成规的人"
+            "meaning": "不墨守成规的人",
+            "level": "low"
           },
           {
             "word": "accessorize",
             "ipa": "/əkˈsesəraɪz/",
             "pos": "v",
-            "meaning": "搭配饰品"
+            "meaning": "搭配饰品",
+            "level": "low"
           },
           {
             "word": "silhouette",
             "ipa": "/ˌsɪluˈet/",
             "pos": "n",
-            "meaning": "轮廓，剪影"
+            "meaning": "轮廓，剪影",
+            "level": "low"
           },
           {
             "word": "tailor",
             "ipa": "/ˈteɪlə/",
             "pos": "v/n",
-            "meaning": "剪裁，裁缝"
+            "meaning": "剪裁，裁缝",
+            "level": "mid"
           },
           {
             "word": "stereotype",
@@ -25420,19 +25672,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "authenticity",
             "ipa": "/ˌɔːθenˈtɪsəti/",
             "pos": "n",
-            "meaning": "真实性"
+            "meaning": "真实性",
+            "level": "mid"
           },
           {
             "word": "embody",
             "ipa": "/ɪmˈbɒdi/",
             "pos": "v",
-            "meaning": "体现"
+            "meaning": "体现",
+            "level": "mid"
           },
           {
             "word": "persona",
             "ipa": "/pəˈsəʊnə/",
             "pos": "n",
-            "meaning": "人设，形象"
+            "meaning": "人设，形象",
+            "level": "mid"
           }
         ],
         "image": "../outputs/29-fashion-and-consumerism/generated-with-text/29-card-04-generated-text.png"
@@ -25445,7 +25700,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "advertisement",
             "ipa": "/ədˈvɜːtɪsmənt/",
             "pos": "n",
-            "meaning": "广告"
+            "meaning": "广告",
+            "level": "high"
           },
           {
             "word": "endorsement",
@@ -25465,13 +25721,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "target audience",
             "ipa": "/ˈtɑːɡɪt ˈɔːdiəns/",
             "pos": "n",
-            "meaning": "目标受众"
+            "meaning": "目标受众",
+            "level": "mid"
           },
           {
             "word": "persuasive",
             "ipa": "/pəˈsweɪsɪv/",
             "pos": "adj",
-            "meaning": "有说服力的"
+            "meaning": "有说服力的",
+            "level": "mid"
           },
           {
             "word": "subliminal",
@@ -25492,31 +25750,36 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "gimmick",
             "ipa": "/ˈɡɪmɪk/",
             "pos": "n",
-            "meaning": "噱头"
+            "meaning": "噱头",
+            "level": "mid"
           },
           {
             "word": "entice",
             "ipa": "/ɪnˈtaɪs/",
             "pos": "v",
-            "meaning": "诱使"
+            "meaning": "诱使",
+            "level": "mid"
           },
           {
             "word": "disposable income",
             "ipa": "/dɪˈspəʊzəbl ˈɪnkʌm/",
             "pos": "n",
-            "meaning": "可支配收入"
+            "meaning": "可支配收入",
+            "level": "mid"
           },
           {
             "word": "purchasing power",
             "ipa": "/ˈpɜːtʃəsɪŋ ˈpaʊə/",
             "pos": "n",
-            "meaning": "购买力"
+            "meaning": "购买力",
+            "level": "mid"
           },
           {
             "word": "brand loyalty",
             "ipa": "/brænd ˈlɔɪəlti/",
             "pos": "n",
-            "meaning": "品牌忠诚度"
+            "meaning": "品牌忠诚度",
+            "level": "mid"
           },
           {
             "word": "planned obsolescence",
@@ -25537,13 +25800,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "commodify",
             "ipa": "/kəˈmɒdɪfaɪ/",
             "pos": "v",
-            "meaning": "商品化"
+            "meaning": "商品化",
+            "level": "mid"
           },
           {
             "word": "affluent",
             "ipa": "/ˈæfluənt/",
             "pos": "adj",
-            "meaning": "富裕的"
+            "meaning": "富裕的",
+            "level": "mid"
           },
           {
             "word": "scrutinize",
@@ -25556,7 +25821,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "discern",
             "ipa": "/dɪˈsɜːn/",
             "pos": "v",
-            "meaning": "辨别"
+            "meaning": "辨别",
+            "level": "mid"
           }
         ],
         "image": "../outputs/29-fashion-and-consumerism/generated-with-text/29-card-05-generated-text.png"
@@ -26613,7 +26879,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "neural network",
             "ipa": "/ˈnjʊərəl ˈnetwɜːk/",
             "pos": "n",
-            "meaning": "神经网络"
+            "meaning": "神经网络",
+            "level": "mid"
           },
           {
             "word": "automation",
@@ -26650,37 +26917,43 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "dataset",
             "ipa": "/ˈdeɪtəset/",
             "pos": "n",
-            "meaning": "数据集"
+            "meaning": "数据集",
+            "level": "mid"
           },
           {
             "word": "parameter",
             "ipa": "/pəˈræmɪtər/",
             "pos": "n",
-            "meaning": "参数"
+            "meaning": "参数",
+            "level": "low"
           },
           {
             "word": "iteration",
             "ipa": "/ˌɪtəˈreɪʃn/",
             "pos": "n",
-            "meaning": "迭代"
+            "meaning": "迭代",
+            "level": "mid"
           },
           {
             "word": "prediction",
             "ipa": "/prɪˈdɪkʃn/",
             "pos": "n",
-            "meaning": "预测"
+            "meaning": "预测",
+            "level": "mid"
           },
           {
             "word": "optimise",
             "ipa": "/ˈɒptɪmaɪz/",
             "pos": "v",
-            "meaning": "优化"
+            "meaning": "优化",
+            "level": "mid"
           },
           {
             "word": "pattern recognition",
             "ipa": "/ˈpætn rekəɡˈnɪʃn/",
             "pos": "n",
-            "meaning": "模式识别"
+            "meaning": "模式识别",
+            "level": "low"
           },
           {
             "word": "prototype",
@@ -26693,19 +26966,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "breakthrough",
             "ipa": "/ˈbreɪkθruː/",
             "pos": "n",
-            "meaning": "突破"
+            "meaning": "突破",
+            "level": "mid"
           },
           {
             "word": "exponential",
             "ipa": "/ˌekspəˈnenʃl/",
             "pos": "adj",
-            "meaning": "指数级的"
+            "meaning": "指数级的",
+            "level": "mid"
           },
           {
             "word": "computational",
             "ipa": "/ˌkɒmpjʊˈteɪʃənl/",
             "pos": "adj",
-            "meaning": "计算的"
+            "meaning": "计算的",
+            "level": "low"
           }
         ],
         "image": "../outputs/SP01-artificial-intelligence/font-size-adjusted/SP01-card-01-font-slightly-larger.png"
@@ -26718,19 +26994,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "chatbot",
             "ipa": "/ˈtʃætbɒt/",
             "pos": "n",
-            "meaning": "聊天机器人"
+            "meaning": "聊天机器人",
+            "level": "mid"
           },
           {
             "word": "diagnose",
             "ipa": "/ˌdaɪəɡˈnəʊz/",
             "pos": "v",
-            "meaning": "诊断"
+            "meaning": "诊断",
+            "level": "mid"
           },
           {
             "word": "personalise",
             "ipa": "/ˈpɜːsənəlaɪz/",
             "pos": "v",
-            "meaning": "个性化"
+            "meaning": "个性化",
+            "level": "mid"
           },
           {
             "word": "recommendation",
@@ -26743,37 +27022,43 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "facial recognition",
             "ipa": "/ˈfeɪʃl rekəɡˈnɪʃn/",
             "pos": "n",
-            "meaning": "人脸识别"
+            "meaning": "人脸识别",
+            "level": "mid"
           },
           {
             "word": "virtual assistant",
             "ipa": "/ˈvɜːtʃuəl əˈsɪstənt/",
             "pos": "n",
-            "meaning": "虚拟助手"
+            "meaning": "虚拟助手",
+            "level": "mid"
           },
           {
             "word": "translate",
             "ipa": "/trænzˈleɪt/",
             "pos": "v",
-            "meaning": "翻译"
+            "meaning": "翻译",
+            "level": "mid"
           },
           {
             "word": "generate",
             "ipa": "/ˈdʒenəreɪt/",
             "pos": "v",
-            "meaning": "生成"
+            "meaning": "生成",
+            "level": "high"
           },
           {
             "word": "streamline",
             "ipa": "/ˈstriːmlaɪn/",
             "pos": "v",
-            "meaning": "简化/提效"
+            "meaning": "简化/提效",
+            "level": "mid"
           },
           {
             "word": "precision",
             "ipa": "/prɪˈsɪʒn/",
             "pos": "n",
-            "meaning": "精准度"
+            "meaning": "精准度",
+            "level": "mid"
           },
           {
             "word": "scalable",
@@ -26800,7 +27085,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "real-time",
             "ipa": "/ˌrɪəl ˈtaɪm/",
             "pos": "adj",
-            "meaning": "实时的"
+            "meaning": "实时的",
+            "level": "mid"
           },
           {
             "word": "logistics",
@@ -26875,7 +27161,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "consent",
             "ipa": "/kənˈsent/",
             "pos": "n",
-            "meaning": "同意/许可"
+            "meaning": "同意/许可",
+            "level": "mid"
           },
           {
             "word": "manipulate",
@@ -26897,19 +27184,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "deepfake",
             "ipa": "/ˈdiːpfeɪk/",
             "pos": "n",
-            "meaning": "深度伪造"
+            "meaning": "深度伪造",
+            "level": "mid"
           },
           {
             "word": "exploit",
             "ipa": "/ɪkˈsplɔɪt/",
             "pos": "v",
-            "meaning": "利用/剥削"
+            "meaning": "利用/剥削",
+            "level": "high"
           },
           {
             "word": "dilemma",
             "ipa": "/dɪˈlemə/",
             "pos": "n",
-            "meaning": "两难困境"
+            "meaning": "两难困境",
+            "level": "high"
           },
           {
             "word": "safeguard",
@@ -26930,13 +27220,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "autonomous weapon",
             "ipa": "/ɔːˈtɒnəməs ˈwepən/",
             "pos": "n",
-            "meaning": "自主武器"
+            "meaning": "自主武器",
+            "level": "low"
           },
           {
             "word": "dystopian",
             "ipa": "/dɪsˈtəʊpiən/",
             "pos": "adj",
-            "meaning": "反乌托邦的"
+            "meaning": "反乌托邦的",
+            "level": "low"
           }
         ],
         "image": "../outputs/SP01-artificial-intelligence/font-size-adjusted/SP01-card-03-font-slightly-larger.png"
@@ -26970,13 +27262,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "reskill",
             "ipa": "/ˌriːˈskɪl/",
             "pos": "v",
-            "meaning": "技能转型"
+            "meaning": "技能转型",
+            "level": "mid"
           },
           {
             "word": "workforce",
             "ipa": "/ˈwɜːkfɔːs/",
             "pos": "n",
-            "meaning": "劳动力"
+            "meaning": "劳动力",
+            "level": "high"
           },
           {
             "word": "productivity",
@@ -27005,7 +27299,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "collaborate",
             "ipa": "/kəˈlæbəreɪt/",
             "pos": "v",
-            "meaning": "协作"
+            "meaning": "协作",
+            "level": "high"
           },
           {
             "word": "adapt",
@@ -27019,25 +27314,29 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "competitiveness",
             "ipa": "/kəmˈpetɪtɪvnəs/",
             "pos": "n",
-            "meaning": "竞争力"
+            "meaning": "竞争力",
+            "level": "mid"
           },
           {
             "word": "gig economy",
             "ipa": "/ɡɪɡ ɪˈkɒnəmi/",
             "pos": "n",
-            "meaning": "零工经济"
+            "meaning": "零工经济",
+            "level": "mid"
           },
           {
             "word": "freelance",
             "ipa": "/ˈfriːlɑːns/",
             "pos": "adj/v",
-            "meaning": "自由职业的"
+            "meaning": "自由职业的",
+            "level": "mid"
           },
           {
             "word": "entrepreneurial",
             "ipa": "/ˌɒntrəprəˈnɜːriəl/",
             "pos": "adj",
-            "meaning": "创业的"
+            "meaning": "创业的",
+            "level": "mid"
           },
           {
             "word": "outsource",
@@ -27096,7 +27395,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "consensus",
             "ipa": "/kənˈsensəs/",
             "pos": "n",
-            "meaning": "共识"
+            "meaning": "共识",
+            "level": "mid"
           },
           {
             "word": "stakeholder",
@@ -27118,7 +27418,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "copyright",
             "ipa": "/ˈkɒpiraɪt/",
             "pos": "n",
-            "meaning": "版权"
+            "meaning": "版权",
+            "level": "mid"
           },
           {
             "word": "disruptive",
@@ -27131,7 +27432,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "paradigm",
             "ipa": "/ˈpærədaɪm/",
             "pos": "n",
-            "meaning": "范式"
+            "meaning": "范式",
+            "level": "mid"
           },
           {
             "word": "sustainable",
@@ -27153,7 +27455,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "inevitable",
             "ipa": "/ɪnˈevɪtəbl/",
             "pos": "adj",
-            "meaning": "不可避免的"
+            "meaning": "不可避免的",
+            "level": "high"
           },
           {
             "word": "coexistence",
@@ -27174,7 +27477,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "frontier",
             "ipa": "/ˈfrʌntɪər/",
             "pos": "n",
-            "meaning": "前沿"
+            "meaning": "前沿",
+            "level": "mid"
           }
         ],
         "image": "../outputs/SP01-artificial-intelligence/font-size-adjusted/SP01-card-05-font-slightly-larger.png"
@@ -27323,7 +27627,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "synchronised",
             "ipa": "/ˈsɪŋkrənaɪzd/",
             "pos": "adj",
-            "meaning": "同步的"
+            "meaning": "同步的",
+            "level": "low"
           },
           {
             "word": "propulsion",
@@ -27336,7 +27641,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "vigorous",
             "ipa": "/ˈvɪɡərəs/",
             "pos": "adj",
-            "meaning": "激烈的"
+            "meaning": "激烈的",
+            "level": "mid"
           },
           {
             "word": "momentum",
@@ -27370,25 +27676,29 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "cadence",
             "ipa": "/ˈkeɪdns/",
             "pos": "n",
-            "meaning": "节奏"
+            "meaning": "节奏",
+            "level": "low"
           },
           {
             "word": "exhilarating",
             "ipa": "/ɪɡˈzɪlərеɪtɪŋ/",
             "pos": "adj",
-            "meaning": "令人振奋的"
+            "meaning": "令人振奋的",
+            "level": "low"
           },
           {
             "word": "coordination",
             "ipa": "/kəʊˌɔːdɪˈneɪʃn/",
             "pos": "n",
-            "meaning": "协调"
+            "meaning": "协调",
+            "level": "mid"
           },
           {
             "word": "competitive",
             "ipa": "/kəmˈpetɪtɪv/",
             "pos": "adj",
-            "meaning": "竞争性的"
+            "meaning": "竞争性的",
+            "level": "high"
           },
           {
             "word": "commemorate",
@@ -27401,19 +27711,22 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "festive",
             "ipa": "/ˈfestɪv/",
             "pos": "adj",
-            "meaning": "节日的"
+            "meaning": "节日的",
+            "level": "low"
           },
           {
             "word": "ceremonial",
             "ipa": "/ˌserɪˈməʊniəl/",
             "pos": "adj",
-            "meaning": "仪式性的"
+            "meaning": "仪式性的",
+            "level": "low"
           },
           {
             "word": "triumphant",
             "ipa": "/traɪˈʌmfənt/",
             "pos": "adj",
-            "meaning": "凯旋的"
+            "meaning": "凯旋的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/SP02-dragon-boat-festival/SP02-card-01.png"
@@ -27426,13 +27739,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "glutinous",
             "ipa": "/ˈɡluːtɪnəs/",
             "pos": "adj",
-            "meaning": "黏糯的"
+            "meaning": "黏糯的",
+            "level": "low"
           },
           {
             "word": "aromatic",
             "ipa": "/ˌærəˈmætɪk/",
             "pos": "adj",
-            "meaning": "芳香的"
+            "meaning": "芳香的",
+            "level": "mid"
           },
           {
             "word": "culinary",
@@ -27459,13 +27774,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "savoury",
             "ipa": "/ˈseɪvəri/",
             "pos": "adj",
-            "meaning": "咸鲜的"
+            "meaning": "咸鲜的",
+            "level": "mid"
           },
           {
             "word": "nourishing",
             "ipa": "/ˈnʌrɪʃɪŋ/",
             "pos": "adj",
-            "meaning": "滋养的"
+            "meaning": "滋养的",
+            "level": "mid"
           },
           {
             "word": "infuse",
@@ -27478,31 +27795,36 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "steamed",
             "ipa": "/stiːmd/",
             "pos": "adj",
-            "meaning": "蒸制的"
+            "meaning": "蒸制的",
+            "level": "mid"
           },
           {
             "word": "recipe",
             "ipa": "/ˈresɪpi/",
             "pos": "n",
-            "meaning": "食谱"
+            "meaning": "食谱",
+            "level": "mid"
           },
           {
             "word": "wrap",
             "ipa": "/ræp/",
             "pos": "v",
-            "meaning": "包裹"
+            "meaning": "包裹",
+            "level": "mid"
           },
           {
             "word": "symbolic",
             "ipa": "/sɪmˈbɒlɪk/",
             "pos": "adj",
-            "meaning": "象征性的"
+            "meaning": "象征性的",
+            "level": "mid"
           },
           {
             "word": "offering",
             "ipa": "/ˈɒfərɪŋ/",
             "pos": "n",
-            "meaning": "供品"
+            "meaning": "供品",
+            "level": "mid"
           },
           {
             "word": "savour",
@@ -27515,7 +27837,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "customary",
             "ipa": "/ˈkʌstəməri/",
             "pos": "adj",
-            "meaning": "习俗的"
+            "meaning": "习俗的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/SP02-dragon-boat-festival/SP02-card-02.png"
@@ -27558,7 +27881,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "superstition",
             "ipa": "/ˌsuːpəˈstɪʃn/",
             "pos": "n",
-            "meaning": "迷信"
+            "meaning": "迷信",
+            "level": "mid"
           },
           {
             "word": "amulet",
@@ -27578,25 +27902,29 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "purification",
             "ipa": "/ˌpjʊərɪfɪˈkeɪʃn/",
             "pos": "n",
-            "meaning": "净化"
+            "meaning": "净化",
+            "level": "mid"
           },
           {
             "word": "medicinal",
             "ipa": "/məˈdɪsɪnl/",
             "pos": "adj",
-            "meaning": "药用的"
+            "meaning": "药用的",
+            "level": "mid"
           },
           {
             "word": "fragrant",
             "ipa": "/ˈfreɪɡrənt/",
             "pos": "adj",
-            "meaning": "芳香的"
+            "meaning": "芳香的",
+            "level": "mid"
           },
           {
             "word": "revere",
             "ipa": "/rɪˈvɪər/",
             "pos": "v",
-            "meaning": "敬仰"
+            "meaning": "敬仰",
+            "level": "mid"
           },
           {
             "word": "solstice",
@@ -27616,13 +27944,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "expel",
             "ipa": "/ɪkˈspel/",
             "pos": "v",
-            "meaning": "驱除"
+            "meaning": "驱除",
+            "level": "low"
           },
           {
             "word": "harmonious",
             "ipa": "/hɑːˈməʊniəs/",
             "pos": "adj",
-            "meaning": "和谐的"
+            "meaning": "和谐的",
+            "level": "mid"
           }
         ],
         "image": "../outputs/SP02-dragon-boat-festival/SP02-card-03.png"
@@ -27635,25 +27965,29 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "patriot",
             "ipa": "/ˈpeɪtriət/",
             "pos": "n",
-            "meaning": "爱国者"
+            "meaning": "爱国者",
+            "level": "low"
           },
           {
             "word": "exile",
             "ipa": "/ˈeksaɪl/",
             "pos": "n",
-            "meaning": "流放"
+            "meaning": "流放",
+            "level": "low"
           },
           {
             "word": "lament",
             "ipa": "/ləˈment/",
             "pos": "v",
-            "meaning": "哀叹"
+            "meaning": "哀叹",
+            "level": "mid"
           },
           {
             "word": "allegiance",
             "ipa": "/əˈliːdʒəns/",
             "pos": "n",
-            "meaning": "忠诚"
+            "meaning": "忠诚",
+            "level": "low"
           },
           {
             "word": "dynasty",
@@ -27666,25 +28000,29 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "tyranny",
             "ipa": "/ˈtɪrəni/",
             "pos": "n",
-            "meaning": "暴政"
+            "meaning": "暴政",
+            "level": "low"
           },
           {
             "word": "persecution",
             "ipa": "/ˌpɜːsɪˈkjuːʃn/",
             "pos": "n",
-            "meaning": "迫害"
+            "meaning": "迫害",
+            "level": "low"
           },
           {
             "word": "immortalise",
             "ipa": "/ɪˈmɔːtəlaɪz/",
             "pos": "v",
-            "meaning": "使不朽"
+            "meaning": "使不朽",
+            "level": "mid"
           },
           {
             "word": "martyrdom",
             "ipa": "/ˈmɑːtədəm/",
             "pos": "n",
-            "meaning": "殉道"
+            "meaning": "殉道",
+            "level": "low"
           },
           {
             "word": "chronicle",
@@ -27697,7 +28035,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "virtue",
             "ipa": "/ˈvɜːtʃuː/",
             "pos": "n",
-            "meaning": "美德"
+            "meaning": "美德",
+            "level": "mid"
           },
           {
             "word": "sovereign",
@@ -27710,7 +28049,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "banish",
             "ipa": "/ˈbænɪʃ/",
             "pos": "v",
-            "meaning": "放逐"
+            "meaning": "放逐",
+            "level": "mid"
           },
           {
             "word": "tributary",
@@ -27789,7 +28129,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "perpetuate",
             "ipa": "/pəˈpetʃueɪt/",
             "pos": "v",
-            "meaning": "延续"
+            "meaning": "延续",
+            "level": "mid"
           },
           {
             "word": "cohesion",
@@ -27810,7 +28151,8 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "inscribed",
             "ipa": "/ɪnˈskraɪbd/",
             "pos": "adj",
-            "meaning": "列入名录的"
+            "meaning": "列入名录的",
+            "level": "low"
           },
           {
             "word": "flourish",
@@ -27824,13 +28166,15 @@ window.IELTS_VOCAB_TOPICS = [
             "word": "assimilate",
             "ipa": "/əˈsɪmɪleɪt/",
             "pos": "v",
-            "meaning": "融合/同化"
+            "meaning": "融合/同化",
+            "level": "mid"
           },
           {
             "word": "nationwide",
             "ipa": "/ˌneɪʃnˈwaɪd/",
             "pos": "adj",
-            "meaning": "全国性的"
+            "meaning": "全国性的",
+            "level": "mid"
           },
           {
             "word": "legacy",
