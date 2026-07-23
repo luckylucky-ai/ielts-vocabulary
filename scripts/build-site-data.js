@@ -307,6 +307,30 @@ const topics = fs
   })
   .filter((topic) => topic.cards.length);
 
+// ---------- 词频标签完整性检查 ----------
+// 每个单词的 level（高频/中频/低频）来自 word-meta.json。若有词缺 level，
+// 前端就不会显示频率标签。这里在构建时把缺失的词全部列出来提醒，
+// 补进 word-meta.json 后重新构建即可。
+{
+  const missing = [];
+  for (const topic of topics) {
+    for (const card of topic.cards) {
+      for (const word of card.words) {
+        if (!word.level) missing.push(`${topic.slug} / ${word.word}`);
+      }
+    }
+  }
+  if (missing.length) {
+    console.warn(
+      `\n⚠️  有 ${missing.length} 个词缺少 level（词频标签不会显示），请在 word-meta.json 补上：`,
+    );
+    for (const m of missing) console.warn(`   - ${m}`);
+    console.warn("");
+  } else {
+    console.log("✓ 所有单词都有词频 level 标签。");
+  }
+}
+
 // ---------- 写作范文 ----------
 // 笔记库是唯一数据源；本机构建时自动同步进仓库 essays/，其他环境直接用仓库内容
 const essaysSrc = "/Users/lucky/Documents/MyTreasure/My Treasure/雅思/IELTS-essay-visual-cards";
