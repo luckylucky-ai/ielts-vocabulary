@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IELTS Topic Studio · 话题式雅思备考</title>
-    <link rel="stylesheet" href="./styles.css?v=34fe8a65" />
+    <link rel="stylesheet" href="./styles.css?v=d0029513" />
   </head>
   <body>
     <main class="shell">
@@ -27,9 +27,21 @@
           <select id="voiceSelect" aria-label="选择发音"></select>
         </div>
 
-        <nav class="topic-nav" aria-label="选择话题">
-          <p class="topic-nav-label">话题</p>
-          <div class="topic-list" id="topicList"></div>
+        <nav class="topic-nav" aria-label="选择功能与话题">
+          <div class="func-switch" id="funcSwitch" role="tablist" aria-label="选择功能">
+            <button class="func-tab is-active" type="button" role="tab" data-func="vocab" aria-selected="true">
+              <i aria-hidden="true">📇</i><span>词汇</span>
+            </button>
+            <button class="func-tab" type="button" role="tab" data-func="reading" aria-selected="false">
+              <i aria-hidden="true">📖</i><span>阅读</span>
+            </button>
+            <button class="func-tab" type="button" role="tab" data-func="writing" aria-selected="false">
+              <i aria-hidden="true">✍️</i><span>写作</span>
+            </button>
+            <button class="func-tab" type="button" role="tab" data-func="speaking" aria-selected="false">
+              <i aria-hidden="true">🎤</i><span>口语</span>
+            </button>
+          </div>
         </nav>
 
         <div class="stats" id="stats"></div>
@@ -51,6 +63,7 @@
             <h2 id="pageTitle">雅思话题词汇卡片</h2>
             <div class="workbench-actions" id="workbenchActions"></div>
           </div>
+          <div class="vocab-filter" id="vocabFilter" hidden></div>
         </div>
 
 
@@ -255,6 +268,6 @@
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
     <script src="./data.js?v=58a0b801"></script>
-    <script src="./app.js?v=6b6bb0cf"></script>
+    <script src="./app.js?v=b5a56233"></script>
   </body>
 </html>

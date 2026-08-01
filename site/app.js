@@ -17,7 +17,11 @@ function savePrefs(patch) {
 
 const prefs = readPrefs();
 
+const FUNCTIONS = ["vocab", "reading", "writing", "speaking"];
+
 const state = {
+  activeFunction: FUNCTIONS.includes(prefs.activeFunction) ? prefs.activeFunction : "vocab",
+  activeGroup: "all",
   activeTopic: topics.some((topic) => topic.slug === prefs.activeTopic) ? prefs.activeTopic : "all",
   query: "",
   voices: [],
@@ -29,13 +33,19 @@ const state = {
   expandedGroup: prefs.expandedGroup || "",
 };
 
-// 恢复上次话题时展开它所在的主话题
-if (state.activeTopic !== "all") {
-  const activeGroup = topics.find((topic) => topic.slug === state.activeTopic)?.group;
-  if (activeGroup) state.expandedGroup = activeGroup;
+// 恢复大类筛选：优先跟随上次话题所属大类，否则用上次保存的大类
+{
+  const groupKeys = (window.IELTS_TOPIC_GROUPS || []).map((group) => group.key);
+  if (state.activeTopic !== "all") {
+    const group = topics.find((topic) => topic.slug === state.activeTopic)?.group;
+    if (group) state.activeGroup = group;
+  } else if (groupKeys.includes(prefs.activeGroup)) {
+    state.activeGroup = prefs.activeGroup;
+  }
 }
 
-const topicList = document.querySelector("#topicList");
+const funcSwitch = document.querySelector("#funcSwitch");
+const vocabFilter = document.querySelector("#vocabFilter");
 const gallery = document.querySelector("#gallery");
 const searchInput = document.querySelector("#searchInput");
 const pageTitle = document.querySelector("#pageTitle");
@@ -158,10 +168,32 @@ function cardMatches(card, query) {
 function filteredCards() {
   const query = normalize(state.query);
   return allCards().filter((card) => {
-    // 有搜索词时跨全部话题查找，避免"在当前话题里搜不到"的困惑
-    const topicOk = query ? true : state.activeTopic === "all" || card.topicSlug === state.activeTopic;
-    return topicOk && cardMatches(card, query);
+    if (query) return cardMatches(card, query); // 有搜索词时跨全部话题查找
+    if (state.activeTopic !== "all") return card.topicSlug === state.activeTopic;
+    if (state.activeGroup !== "all") return topicGroupOf(card.topicSlug) === state.activeGroup;
+    return true;
   });
+}
+
+// 当前筛选范围（话题 > 大类 > 全部）内的去重词表，供考试与词数统计使用
+function wordsForScope() {
+  let source;
+  if (state.activeTopic !== "all") source = topics.filter((topic) => topic.slug === state.activeTopic);
+  else if (state.activeGroup !== "all") source = topics.filter((topic) => topic.group === state.activeGroup);
+  else source = topics;
+  const seen = new Set();
+  return source.flatMap((topic) =>
+    topic.cards.flatMap((card) =>
+      card.words
+        .filter((word) => {
+          const key = word.word.toLowerCase();
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        })
+        .map((word) => ({ ...word, topicTitle: topic.title, cardTitle: card.subtitle })),
+    ),
+  );
 }
 
 function renderStats() {
@@ -200,60 +232,6 @@ function topicEnglish(topic) {
 
 function topicGroupOf(slug) {
   return topics.find((topic) => topic.slug === slug)?.group || "";
-}
-
-function renderTopicLink(topic) {
-  return `
-    <button class="topic-link ${topic.slug === state.activeTopic ? "is-active" : ""}" type="button" data-topic="${escapeHtml(
-      topic.slug,
-    )}">
-      <span>${escapeHtml(topic.title)}</span>
-      <em>${topic.count}</em>
-    </button>
-  `;
-}
-
-function renderTopics() {
-  const groups = window.IELTS_TOPIC_GROUPS || [];
-  const allRow = renderTopicLink({ slug: "all", title: "全部话题", count: allCards().length });
-
-  const groupRows = groups
-    .map((group) => {
-      const groupTopics = topics
-        .filter((topic) => topic.group === group.key)
-        .sort((a, b) => a.slug.localeCompare(b.slug)); // 第一轮排在 round2 前
-      const groupEssays = essays.filter((essay) => essay.group === group.key);
-      if (!groupTopics.length && !groupEssays.length) return "";
-      const cardCount = groupTopics.reduce((sum, topic) => sum + topic.cards.length, 0);
-      const expanded = state.expandedGroup === group.key;
-      const links = groupTopics
-        .map((topic) => renderTopicLink({ slug: topic.slug, title: topicLabel(topic), count: topic.cards.length }))
-        .join("");
-      const essayLinks = groupEssays
-        .map(
-          (essay) => `
-            <button class="essay-link" type="button" data-essay="${escapeHtml(essay.slug)}">
-              <span><i>范文</i>${escapeHtml(essay.titleCn || essay.title)}</span>
-              <em>Task 2</em>
-            </button>
-          `,
-        )
-        .join("");
-      const meta = `${groupTopics.length} 话题${groupEssays.length ? ` · ${groupEssays.length} 范文` : ""} · ${cardCount} 卡`;
-      return `
-        <div class="topic-group ${expanded ? "is-expanded" : ""}" data-group="${escapeHtml(group.key)}">
-          <button class="topic-group-head" type="button" data-group-toggle="${escapeHtml(group.key)}" aria-expanded="${expanded}">
-            <i class="topic-group-caret" aria-hidden="true"></i>
-            <span>${escapeHtml(group.title)}</span>
-            <em>${meta}</em>
-          </button>
-          <div class="topic-group-body" ${expanded ? "" : "hidden"}>${links}${essayLinks}</div>
-        </div>
-      `;
-    })
-    .join("");
-
-  topicList.innerHTML = allRow + groupRows;
 }
 
 function renderGallery() {
@@ -307,10 +285,192 @@ function renderGallery() {
     .join("");
 }
 
+// ---------- 功能优先导航 ----------
+const FUNCTION_META = {
+  vocab: { nav: "话题", title: "词汇卡片" },
+  reading: { nav: "阅读话题", title: "阅读练习" },
+  writing: { nav: "写作范文", title: "写作范文" },
+  speaking: { nav: "口语题", title: "口语练习" },
+};
+
+const allGroups = () => window.IELTS_TOPIC_GROUPS || [];
+
+function renderFuncTabs() {
+  funcSwitch.querySelectorAll(".func-tab").forEach((btn) => {
+    const on = btn.dataset.func === state.activeFunction;
+    btn.classList.toggle("is-active", on);
+    btn.setAttribute("aria-selected", on ? "true" : "false");
+  });
+}
+
+// 非词汇功能的主区域：分大类的目录卡片，点击进入对应练习
+function directorySection(title, cardsHtml) {
+  return `<section class="dir-section"><h3 class="dir-section-title">${escapeHtml(title)}</h3><div class="dir-grid">${cardsHtml}</div></section>`;
+}
+
+function dirCard(attrs, strong, sub, meta) {
+  return `<button class="dir-card" type="button" ${attrs}>
+    <strong>${escapeHtml(strong)}</strong>
+    ${sub ? `<span class="dir-card-sub">${escapeHtml(sub)}</span>` : ""}
+    ${meta ? `<em class="dir-card-meta">${escapeHtml(meta)}</em>` : ""}
+  </button>`;
+}
+
+function renderDirectory() {
+  const fn = state.activeFunction;
+  groupEyebrow.hidden = true;
+  workbenchActions.innerHTML = "";
+  gallery.classList.add("directory-mode");
+
+  let count = 0;
+  let sections = "";
+
+  if (fn === "reading") {
+    sections = allGroups()
+      .map((group) => {
+        const list = topics
+          .filter((topic) => topic.group === group.key && topic.reading)
+          .sort((a, b) => a.slug.localeCompare(b.slug));
+        if (!list.length) return "";
+        count += list.length;
+        const cards = list
+          .map((topic) =>
+            dirCard(`data-reading="${escapeHtml(topic.slug)}"`, topicLabel(topic), topicEnglish(topic), `${topic.reading.questionCount} 题`),
+          )
+          .join("");
+        return directorySection(group.title, cards);
+      })
+      .join("");
+  } else if (fn === "writing") {
+    sections = allGroups()
+      .map((group) => {
+        const list = essays.filter((essay) => essay.group === group.key);
+        if (!list.length) return "";
+        count += list.length;
+        const cards = list
+          .map((essay) =>
+            dirCard(`data-essay="${escapeHtml(essay.slug)}"`, essay.titleCn || essay.title, essay.title, `Task 2 · ${essay.taskType || ""}`.trim()),
+          )
+          .join("");
+        return directorySection(group.title, cards);
+      })
+      .join("");
+  } else if (fn === "speaking") {
+    const all = window.IELTS_SPEAKING || {};
+    sections = allGroups()
+      .map((group) => {
+        const list = all[group.key] || [];
+        if (!list.length) return "";
+        count += list.length;
+        const cards = list
+          .map((card, index) =>
+            dirCard(`data-speaking-group="${escapeHtml(group.key)}" data-speaking-index="${index}"`, card.title, card.cn || "", "Part 2"),
+          )
+          .join("");
+        return directorySection(group.title, cards);
+      })
+      .join("");
+  }
+
+  pageTitle.innerHTML =
+    `<span class="wb-title-cn">${escapeHtml(FUNCTION_META[fn].title)}</span>` +
+    `<span class="wb-title-en">${count} 项 · 点击进入</span>`;
+  gallery.innerHTML = sections || `<div class="empty">暂无内容。</div>`;
+}
+
+// 词汇主区标题：搜索 > 话题 > 大类 > 全部
+function renderVocabHeader() {
+  const query = normalize(state.query);
+  if (query) {
+    groupEyebrow.hidden = true;
+    pageTitle.textContent = `搜索结果 · ${filteredCards().length} 张（全部话题）`;
+    return;
+  }
+  if (state.activeTopic !== "all") {
+    const topic = topics.find((item) => item.slug === state.activeTopic);
+    const group = allGroups().find((g) => g.key === topic?.group);
+    groupEyebrow.hidden = !group;
+    if (group) groupEyebrow.textContent = group.title;
+    const en = topic ? topicEnglish(topic) : "";
+    pageTitle.innerHTML =
+      `<span class="wb-title-cn">${escapeHtml(topic ? topicLabel(topic) : "全部话题")}</span>` +
+      (en ? `<span class="wb-title-en">${escapeHtml(en)}</span>` : "");
+  } else if (state.activeGroup !== "all") {
+    const group = allGroups().find((g) => g.key === state.activeGroup);
+    groupEyebrow.hidden = true;
+    pageTitle.innerHTML =
+      `<span class="wb-title-cn">${escapeHtml(group?.title || "")}</span>` +
+      `<span class="wb-title-en">该大类全部卡片</span>`;
+  } else {
+    groupEyebrow.hidden = true;
+    pageTitle.innerHTML = `<span class="wb-title-cn">全部话题</span>`;
+  }
+}
+
+// 词汇顶部筛选栏：大类筛选 + 话题下拉 + 单词考试
+function renderVocabControls() {
+  const chips = [{ key: "all", title: "全部" }, ...allGroups()]
+    .map(
+      (group) =>
+        `<button class="vf-chip ${group.key === state.activeGroup ? "is-active" : ""}" type="button" data-group="${escapeHtml(
+          group.key,
+        )}">${escapeHtml(group.title)}</button>`,
+    )
+    .join("");
+
+  const scopeTopics = (state.activeGroup === "all" ? topics : topics.filter((topic) => topic.group === state.activeGroup))
+    .slice()
+    .sort((a, b) => a.slug.localeCompare(b.slug));
+  const allLabel = state.activeGroup === "all" ? "全部话题" : "该大类全部";
+  const options = [`<option value="all" ${state.activeTopic === "all" ? "selected" : ""}>${allLabel}</option>`]
+    .concat(
+      scopeTopics.map(
+        (topic) =>
+          `<option value="${escapeHtml(topic.slug)}" ${state.activeTopic === topic.slug ? "selected" : ""}>${escapeHtml(
+            topicLabel(topic),
+          )} · ${topic.cards.length} 卡</option>`,
+      ),
+    )
+    .join("");
+
+  const wordCount = wordsForScope().length;
+  vocabFilter.hidden = false;
+  vocabFilter.innerHTML = `
+    <div class="vf-chips">${chips}</div>
+    <div class="vf-row">
+      <label class="vf-select">
+        <span>话题</span>
+        <select id="vfTopic" aria-label="选择话题">${options}</select>
+      </label>
+      <button class="wb-action wb-exam" type="button" data-wb="exam">
+        <i class="wb-dot" aria-hidden="true"></i>单词考试<em>${wordCount} 词</em>
+      </button>
+    </div>
+  `;
+}
+
+function renderMain() {
+  if (state.activeFunction === "vocab") {
+    gallery.classList.remove("directory-mode");
+    workbenchActions.innerHTML = "";
+    renderVocabHeader();
+    if (normalize(state.query)) {
+      vocabFilter.hidden = true;
+      vocabFilter.innerHTML = "";
+    } else {
+      renderVocabControls();
+    }
+    renderGallery();
+  } else {
+    vocabFilter.hidden = true;
+    vocabFilter.innerHTML = "";
+    renderDirectory();
+  }
+}
+
 function render() {
-  renderTopics();
-  renderGallery();
-  renderWorkbench();
+  renderFuncTabs();
+  renderMain();
 }
 
 // 阅读练习是话题专属的：只在选中某个带阅读的话题时提供入口
@@ -334,74 +494,6 @@ function currentSpeaking() {
   }
   const topic = topics.find((item) => item.slug === state.activeTopic);
   return topic && groups[topic.group] ? groups[topic.group].map((card) => ({ ...card, group: topic.group })) : [];
-}
-
-// 话题工作台头部：话题名 + 该话题可练的技能动作
-function renderWorkbench() {
-  const query = normalize(state.query);
-  const topic = topics.find((item) => item.slug === state.activeTopic);
-  const group = topic ? (window.IELTS_TOPIC_GROUPS || []).find((g) => g.key === topic.group) : null;
-
-  if (query) {
-    groupEyebrow.hidden = true;
-    pageTitle.textContent = `搜索结果 · ${filteredCards().length} 张（全部话题）`;
-    workbenchActions.innerHTML = "";
-    return;
-  }
-
-  groupEyebrow.hidden = !group;
-  if (group) groupEyebrow.textContent = group.title;
-  if (state.activeTopic === "all" || !topic) {
-    pageTitle.innerHTML = `<span class="wb-title-cn">${state.activeTopic === "all" ? "全部话题" : "雅思话题词汇卡片"}</span>`;
-  } else {
-    const en = topicEnglish(topic);
-    pageTitle.innerHTML =
-      `<span class="wb-title-cn">${escapeHtml(topicLabel(topic))}</span>` +
-      (en ? `<span class="wb-title-en">${escapeHtml(en)}</span>` : "");
-  }
-
-  const wordCount = wordsForTopic().length;
-  const reading = currentReading();
-  const topicEssays = currentEssays();
-  const topicSpeaking = currentSpeaking();
-
-  // 子话题技能（词汇 / 阅读）
-  const topicActions = [
-    `<button class="wb-action wb-exam" type="button" data-wb="exam">
-      <i class="wb-dot" aria-hidden="true"></i>单词考试<em>${wordCount} 词</em>
-    </button>`,
-  ];
-  if (reading) {
-    topicActions.push(`<button class="wb-action wb-reading" type="button" data-wb="reading">
-      <i class="wb-dot" aria-hidden="true"></i>阅读练习<em>${reading.questionCount} 题</em>
-    </button>`);
-  }
-
-  // 大类共享技能（写作 / 口语），雅思按大话题出题
-  const sharedActions = [];
-  if (topicEssays.length) {
-    sharedActions.push(`<button class="wb-action wb-essay" type="button" data-wb="essay">
-      <i class="wb-dot" aria-hidden="true"></i>写作范文<em>${topicEssays.length} 篇</em>
-    </button>`);
-  }
-  if (topicSpeaking.length) {
-    sharedActions.push(`<button class="wb-action wb-speaking" type="button" data-wb="speaking">
-      <i class="wb-dot" aria-hidden="true"></i>口语练习<em>${topicSpeaking.length} 题</em>
-    </button>`);
-  }
-
-  // 一排展示；子话题技能与大类技能之间用竖线 + 说明分隔
-  const dividerTip = "写作、口语按大话题出题，同大类的子话题共享";
-  const divider = sharedActions.length
-    ? `<span class="wb-divider" title="${dividerTip}">大类共享</span>`
-    : "";
-  workbenchActions.innerHTML = topicActions.join("") + divider + sharedActions.join("");
-}
-
-function openEssayFromWorkbench() {
-  const list = currentEssays();
-  if (list.length === 1) openEssay(list[0].slug);
-  else if (list.length > 1) openEssayList();
 }
 
 const reducedMotionQuery = window.matchMedia?.("(prefers-reduced-motion: reduce)");
@@ -793,8 +885,13 @@ function normalizeAnswer(value) {
 }
 
 function quizTitle() {
-  const topic = topics.find((item) => item.slug === state.activeTopic);
-  return topic ? topic.title : "全部话题";
+  if (state.activeTopic !== "all") {
+    return topics.find((item) => item.slug === state.activeTopic)?.title || "全部话题";
+  }
+  if (state.activeGroup !== "all") {
+    return allGroups().find((group) => group.key === state.activeGroup)?.title || "全部话题";
+  }
+  return "全部话题";
 }
 
 function buildQuestion(word, mode, pool) {
@@ -830,7 +927,7 @@ function startQuiz(selectedWords, pool, fromMistakes = false) {
 }
 
 function startExam() {
-  const pool = wordsForTopic();
+  const pool = wordsForScope();
   if (pool.length < 4) {
     examBoard.innerHTML = `<p>这个话题词汇太少，暂时不能生成选择题。</p>`;
     return;
@@ -1141,8 +1238,12 @@ function renderReadingQuestions(reading) {
     .join("");
 }
 
-function openReading() {
-  const reading = currentReading();
+function openReadingBySlug(slug) {
+  const topic = topics.find((item) => item.slug === slug);
+  if (topic?.reading) openReadingData(topic.reading);
+}
+
+function openReadingData(reading) {
   if (!reading) return;
   state.reading = { data: reading, submitted: false };
   readingHeading.textContent = reading.title;
@@ -1582,6 +1683,26 @@ function openSpeaking() {
   document.body.classList.add("has-modal");
 }
 
+// 功能优先入口：直接打开某个大类的口语练习，可选定位到具体题
+function openSpeakingGroup(groupKey, index = -1) {
+  const all = window.IELTS_SPEAKING || {};
+  const list = (all[groupKey] || []).map((card) => ({ ...card, group: groupKey }));
+  if (!list.length) return;
+  speakingState.cards = list;
+  speakingState.activeIndex = -1;
+  const group = (window.IELTS_TOPIC_GROUPS || []).find((g) => g.key === groupKey);
+  speakingGroupTitle.textContent = group ? `${group.title} · 口语` : "口语练习";
+  renderSpeakingList();
+  resetSpeakingTranscript();
+  speakingState.seconds = 0;
+  updateTimerLabel();
+  speakingCue.innerHTML = `<p class="speaking-placeholder">从左侧选一道题，或点「随机一题」。</p>`;
+  selectSpeakingCard(index >= 0 ? index : Math.floor(Math.random() * list.length));
+  speakingModal.classList.add("is-open");
+  speakingModal.setAttribute("aria-hidden", "false");
+  document.body.classList.add("has-modal");
+}
+
 function closeSpeaking() {
   stopRecording();
   speakingModal.classList.remove("is-open");
@@ -1640,29 +1761,44 @@ function attachEvents() {
     if (tab) switchTipPay(tab.dataset.pay);
   });
 
-  topicList.addEventListener("click", (event) => {
-    const toggle = event.target.closest("[data-group-toggle]");
-    if (toggle) {
-      const key = toggle.dataset.groupToggle;
-      state.expandedGroup = state.expandedGroup === key ? "" : key;
-      savePrefs({ expandedGroup: state.expandedGroup });
-      renderTopics();
+  funcSwitch.addEventListener("click", (event) => {
+    const tab = event.target.closest(".func-tab");
+    if (!tab || tab.dataset.func === state.activeFunction) return;
+    state.activeFunction = tab.dataset.func;
+    savePrefs({ activeFunction: state.activeFunction });
+    // 切功能时清空搜索，避免跨功能残留
+    state.query = "";
+    searchInput.value = "";
+    render();
+  });
+
+  // 词汇顶部筛选栏：大类切换 / 单词考试
+  vocabFilter.addEventListener("click", (event) => {
+    const chip = event.target.closest(".vf-chip");
+    if (chip) {
+      if (chip.dataset.group === state.activeGroup) return;
+      state.activeGroup = chip.dataset.group;
+      state.activeTopic = "all"; // 换大类时回到「该大类全部」
+      state.quiz = null;
+      setExamActive(false);
+      savePrefs({ activeGroup: state.activeGroup, activeTopic: "all" });
+      renderMain();
+      renderExamIntro();
+      renderMistakes();
       return;
     }
+    if (event.target.closest('[data-wb="exam"]')) openExamDrawer();
+  });
 
-    const essayLink = event.target.closest(".essay-link");
-    if (essayLink) {
-      openEssay(essayLink.dataset.essay);
-      return;
-    }
-
-    const link = event.target.closest(".topic-link");
-    if (!link || link.dataset.topic === state.activeTopic) return;
-    state.activeTopic = link.dataset.topic;
+  // 话题下拉切换
+  vocabFilter.addEventListener("change", (event) => {
+    const select = event.target.closest("#vfTopic");
+    if (!select) return;
+    state.activeTopic = select.value;
     state.quiz = null;
     setExamActive(false);
     savePrefs({ activeTopic: state.activeTopic });
-    render();
+    renderMain();
     renderExamIntro();
     renderMistakes();
   });
@@ -1672,18 +1808,15 @@ function attachEvents() {
     clearTimeout(searchTimer);
     searchTimer = setTimeout(() => {
       state.query = event.target.value;
-      renderGallery();
-      renderWorkbench();
+      // 搜索始终作用于词汇卡片：有输入时自动切到词汇功能
+      if (state.query && state.activeFunction !== "vocab") {
+        state.activeFunction = "vocab";
+        savePrefs({ activeFunction: "vocab" });
+        render();
+      } else {
+        renderMain();
+      }
     }, 180);
-  });
-
-  workbenchActions.addEventListener("click", (event) => {
-    const btn = event.target.closest(".wb-action");
-    if (!btn) return;
-    if (btn.dataset.wb === "exam") openExamDrawer();
-    else if (btn.dataset.wb === "reading") openReading();
-    else if (btn.dataset.wb === "essay") openEssayFromWorkbench();
-    else if (btn.dataset.wb === "speaking") openSpeaking();
   });
 
   speakingClose.addEventListener("click", closeSpeaking);
@@ -1787,7 +1920,7 @@ function attachEvents() {
 
   readingClose.addEventListener("click", closeReading);
   readingSubmit.addEventListener("click", submitReading);
-  readingReset.addEventListener("click", () => openReading());
+  readingReset.addEventListener("click", () => openReadingData(state.reading?.data));
 
   // TFNG 选项单选
   readingQuestions.addEventListener("click", (event) => {
@@ -1870,6 +2003,16 @@ function attachEvents() {
   });
 
   gallery.addEventListener("click", (event) => {
+    // 目录模式：卡片进入对应练习
+    const dir = event.target.closest(".dir-card");
+    if (dir) {
+      if (dir.dataset.reading) openReadingBySlug(dir.dataset.reading);
+      else if (dir.dataset.essay) openEssay(dir.dataset.essay);
+      else if (dir.dataset.speakingGroup)
+        openSpeakingGroup(dir.dataset.speakingGroup, Number(dir.dataset.speakingIndex));
+      return;
+    }
+
     const button = event.target.closest(".word-button");
     if (button) {
       highlightImageWord(button);
@@ -2034,9 +2177,7 @@ function attachEvents() {
 
 migrateLegacyMistakes();
 renderStats();
-renderTopics();
-renderGallery();
-renderWorkbench();
+render();
 renderExamIntro();
 renderMistakes();
 loadVoices();
