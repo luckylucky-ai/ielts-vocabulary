@@ -28367,6 +28367,930 @@ window.IELTS_VOCAB_TOPICS = [
 ];
 window.IELTS_ESSAYS = [
   {
+    "slug": "social-media-communication",
+    "group": "tech",
+    "task": "task2",
+    "taskType": "Agree / Disagree",
+    "title": "Social Media and Communication",
+    "titleCn": "社交媒体与沟通能力",
+    "date": "2026-07-30",
+    "question": "Some people believe that the widespread use of social media has damaged people's ability to communicate effectively in real life.\n\nTo what extent do you agree or disagree?",
+    "questionCn": "有人认为社交媒体的广泛使用损害了人们在现实生活中有效沟通的能力。你在多大程度上同意或不同意？",
+    "stanceEn": "Careless use can weaken some people's social skills, but overall social media has expanded communication rather than damaged it.",
+    "stanceCn": "不加节制的使用会削弱部分人的社交能力，但整体上社交媒体扩展了沟通，而非损害了它。",
+    "paragraphs": [
+      "Social media platforms such as Instagram and WhatsApp have become deeply embedded in daily life, prompting concern that they are eroding our capacity to interact in person. Although I accept that excessive use can weaken the social skills of certain individuals, I largely disagree with the claim that social media has damaged human communication as a whole; on the contrary, it has expanded it in valuable ways.",
+      "Those who support this view argue that online interaction often replaces face-to-face interaction with brief, superficial exchanges. Because messages are typed rather than spoken, users lose the non-verbal cues, such as tone of voice and facial expression, that give a conversation its depth, and this can lead to frequent misunderstandings. Moreover, teenagers who spend hours scrolling through their feeds may retreat into their screens, which gradually contributes to social isolation and a decline in real-world confidence.",
+      "Nevertheless, I believe these problems stem from misuse rather than from the technology itself. For most people, social media strengthens communication instead of harming it: it allows them to maintain long-distance relationships, reconnect with old friends and broaden their social circles far beyond their immediate surroundings. Shy individuals, in particular, often find it easier to express themselves online before doing so in person. Ultimately, whether someone communicates well depends on their own habits and digital literacy, not on the mere existence of these platforms.",
+      "In conclusion, while heavy and careless use of social media can indeed harm the communication skills of a minority, I do not agree that it has damaged our ability to connect in general. Used sensibly, it enriches relationships rather than replacing them at the expense of genuine human contact."
+    ],
+    "translation": [
+      "Instagram、WhatsApp 等社交平台已深深融入日常生活，这引发了人们的担忧：它们正在侵蚀我们当面交流的能力。尽管我承认过度使用会削弱某些人的社交技能，但我在很大程度上不同意\"社交媒体整体上损害了人类沟通\"这一说法；恰恰相反，它以宝贵的方式拓展了沟通。",
+      "持这种观点的人认为，线上互动常常用简短、肤浅的交流取代了面对面交流。由于信息是打出来而非说出来的，使用者失去了赋予对话深度的非语言线索，比如语气和面部表情，这可能导致频繁的误解。此外，青少年花数小时刷动态，可能会退缩进自己的屏幕里，从而逐渐加剧社交孤立与现实自信的下降。",
+      "然而，我认为这些问题源于误用，而非技术本身。对大多数人来说，社交媒体加强了沟通而非损害了它：它让人们能够维系远距离关系、与老朋友重新联系，并把社交圈拓展到身边环境之外。尤其是内向的人，往往会觉得先在网上表达自己、再当面表达要更容易。归根结底，一个人是否善于沟通，取决于自身的习惯与数字素养，而非这些平台本身的存在。",
+      "总之，尽管过度且不加节制地使用社交媒体确实会损害少数人的沟通能力，但我并不认为它总体上损害了我们建立联系的能力。使用得当，它会丰富人际关系，而不是以牺牲真正的人际接触为代价去取代它们。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出争议 + 表明立场",
+        "point": "承认少数人受损，但整体不同意"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "让步：为什么有人认为它有害",
+        "point": "肤浅交流、失去非语言线索、社交孤立"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "反驳 + 我的观点",
+        "point": "拓展联系，问题在误用而非技术"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "重申立场",
+        "point": "用得当则丰富关系而非取代"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "deeply embedded in daily life",
+        "cn": "深深融入日常生活"
+      },
+      {
+        "en": "excessive use",
+        "cn": "过度使用"
+      },
+      {
+        "en": "face-to-face interaction",
+        "cn": "面对面交流"
+      },
+      {
+        "en": "superficial exchanges",
+        "cn": "肤浅的交流"
+      },
+      {
+        "en": "non-verbal cues",
+        "cn": "非语言线索"
+      },
+      {
+        "en": "social isolation",
+        "cn": "社交孤立"
+      },
+      {
+        "en": "stem from misuse",
+        "cn": "源于误用"
+      },
+      {
+        "en": "long-distance relationships",
+        "cn": "远距离关系"
+      },
+      {
+        "en": "broaden their social circles",
+        "cn": "拓展社交圈"
+      },
+      {
+        "en": "digital literacy",
+        "cn": "数字素养"
+      },
+      {
+        "en": "at the expense of",
+        "cn": "以牺牲……为代价"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "认为主张",
+        "words": [
+          "argue that",
+          "claim that",
+          "maintain that"
+        ]
+      },
+      {
+        "sense": "削弱能力",
+        "words": [
+          "weaken skills",
+          "erode skills",
+          "undermine skills"
+        ]
+      },
+      {
+        "sense": "加强联系",
+        "words": [
+          "strengthen communication",
+          "enhance communication",
+          "reinforce communication"
+        ]
+      },
+      {
+        "sense": "取决于",
+        "words": [
+          "depend on",
+          "rely on",
+          "hinge on"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "用\"很大程度不同意 + 让步\"明确回应 to what extent，立场贯穿全篇"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "Although / Moreover / Nevertheless / Ultimately / In conclusion 层层推进"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "non-verbal cues、social isolation、digital literacy 等话题词；argue/claim、weaken/erode 同义替换"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "让步状语（Although…）、定语从句（that give a conversation its depth）、分词状语（Used sensibly…）多样"
+      }
+    ],
+    "ideas": [
+      "反方立场：线上交流肤浅，用简短信息取代当面对话。",
+      "失去线索：文字缺少语气、表情等非语言信息，易生误解。",
+      "青少年风险：长时间刷屏可能加剧社交孤立、削弱现实自信。",
+      "正方核心：问题在误用而非技术本身。",
+      "拓展联系：维系远距离关系、重连旧友、拓宽社交圈。",
+      "内向友好：害羞的人常更容易先在线上表达自己。",
+      "决定因素：沟通好坏取决于个人习惯与数字素养。",
+      "平衡收束：用得当则丰富关系，而非取代真实接触。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "automation-employment",
+    "group": "tech",
+    "task": "task2",
+    "taskType": "Problem / Solution",
+    "title": "Automation and Employment",
+    "titleCn": "自动化与就业",
+    "date": "2026-07-29",
+    "question": "In many industries, automation and artificial intelligence are increasingly replacing human workers.\n\nWhat problems does this trend cause, and what measures could be taken to address them?",
+    "questionCn": "在许多行业，自动化和人工智能正越来越多地取代人类工人。这一趋势会带来哪些问题？可以采取什么措施来应对？",
+    "stanceEn": "Automation causes unemployment and inequality, but retraining and sound policy can manage these effects.",
+    "stanceCn": "自动化会造成失业与不平等，但再培训与合理政策能够化解这些影响。",
+    "paragraphs": [
+      "Rapid advances in automation and artificial intelligence are transforming the workplace, with machines now performing tasks once carried out by people. This trend, in my view, creates significant social challenges, but these can be managed through education and well-designed government policy.",
+      "The most obvious problem is job losses, particularly among low-skilled workers whose roles involve repetitive, routine tasks. Factory operatives, cashiers and call-centre staff are increasingly replaced by robots and software, which threatens to cause mass unemployment in certain sectors. A further consequence is widening income inequality: as the owners of technology grow wealthier while ordinary employees lose their livelihoods, the gap between rich and poor deepens. Left unaddressed, such disparities may fuel resentment and even social unrest.",
+      "Fortunately, several measures can soften these effects. The most important is investment in retraining programmes that help displaced workers acquire the skills demanded by a modern economy, such as coding, data analysis and healthcare. Schools, meanwhile, should place greater emphasis on creativity and interpersonal skills, which machines cannot easily replicate, so that future generations can keep pace with technological change. Governments can also strengthen the social safety net and offer tax incentives to companies that retain and upskill their staff rather than simply cutting jobs.",
+      "In conclusion, although automation inevitably brings unemployment and greater inequality, these problems are far from insoluble. With a strong commitment to lifelong learning and supportive public policy, societies can ensure that technological progress benefits the many rather than the few."
+    ],
+    "translation": [
+      "自动化和人工智能的迅猛发展正在重塑职场，机器如今在完成曾经由人来做的工作。在我看来，这一趋势带来了重大的社会挑战，但这些挑战可以通过教育与精心设计的政府政策来加以管理。",
+      "最明显的问题是失业，尤其是那些工作内容为重复性、常规性任务的低技能工人。工厂操作工、收银员和呼叫中心员工正越来越多地被机器人和软件取代，这有可能在某些行业造成大规模失业。另一个后果是收入不平等的加剧：当技术的所有者愈发富有、而普通雇员却失去生计时，贫富差距进一步扩大。若不加以应对，这类差距可能激起怨恨，甚至引发社会动荡。",
+      "所幸，有若干措施可以缓和这些影响。最重要的是投资于再培训项目，帮助被取代的工人掌握现代经济所需的技能，比如编程、数据分析和医疗护理。与此同时，学校应更加重视创造力和人际交往能力——这些是机器难以复制的——好让下一代能跟上技术变革的步伐。政府也可以加强社会保障网，并向那些愿意留用并提升员工技能、而非简单裁员的公司提供税收激励。",
+      "总之，尽管自动化不可避免地带来失业与更大的不平等，这些问题却远非无解。只要坚定地投入终身学习并配以有力的公共政策，社会就能确保技术进步惠及多数人，而非少数人。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "承认趋势 + 预告问题与对策",
+        "point": "挑战重大但可管理"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "问题",
+        "point": "低技能失业 + 收入不平等 + 社会动荡"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "对策",
+        "point": "再培训 + 教育转向软技能 + 政策激励"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "收束",
+        "point": "终身学习 + 政策使进步惠及多数"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "routine tasks",
+        "cn": "常规性任务"
+      },
+      {
+        "en": "low-skilled workers",
+        "cn": "低技能工人"
+      },
+      {
+        "en": "mass unemployment",
+        "cn": "大规模失业"
+      },
+      {
+        "en": "income inequality",
+        "cn": "收入不平等"
+      },
+      {
+        "en": "social unrest",
+        "cn": "社会动荡"
+      },
+      {
+        "en": "retraining programmes",
+        "cn": "再培训项目"
+      },
+      {
+        "en": "displaced workers",
+        "cn": "被取代的工人"
+      },
+      {
+        "en": "keep pace with",
+        "cn": "跟上……的步伐"
+      },
+      {
+        "en": "social safety net",
+        "cn": "社会保障网"
+      },
+      {
+        "en": "tax incentives",
+        "cn": "税收激励"
+      },
+      {
+        "en": "lifelong learning",
+        "cn": "终身学习"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "取代",
+        "words": [
+          "replace",
+          "displace",
+          "take over from"
+        ]
+      },
+      {
+        "sense": "造成失业",
+        "words": [
+          "cause unemployment",
+          "lead to job losses",
+          "result in redundancies"
+        ]
+      },
+      {
+        "sense": "缓解影响",
+        "words": [
+          "soften the effects",
+          "alleviate the impact",
+          "mitigate the effects"
+        ]
+      },
+      {
+        "sense": "投资于",
+        "words": [
+          "invest in",
+          "put money into",
+          "channel funds into"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "清晰分\"问题段+对策段\"，两问都充分回应并给出具体例子"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "The most obvious / A further consequence / Fortunately / meanwhile / In conclusion 路标清晰"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "income inequality、displaced workers、social safety net、tax incentives 等话题搭配"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "分词独立结构（Left unaddressed…）、定语从句（whose roles involve…）、目的状语（so that…）多样"
+      }
+    ],
+    "ideas": [
+      "核心问题：机器接手重复性工作，低技能岗位首当其冲。",
+      "连锁反应：技术所有者更富、普通雇员失业，贫富差距扩大。",
+      "极端后果：差距若不解决可能引发怨恨与社会动荡。",
+      "对策一：再培训帮被取代者转向编程、数据、医疗等新技能。",
+      "对策二：教育重创造力与人际能力，机器难以复制。",
+      "对策三：政府强化保障网、以税收激励鼓励留用与升级。",
+      "立场收束：技术进步应惠及多数而非少数。",
+      "常用反例：单纯裁员省成本，长期损害社会稳定。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "online-shopping",
+    "group": "society",
+    "task": "task2",
+    "taskType": "Two-part Question",
+    "title": "The Rise of Online Shopping",
+    "titleCn": "网购的兴起",
+    "date": "2026-07-28",
+    "question": "More and more people are buying products online instead of shopping in physical stores.\n\nWhy is this happening? Do you think it is a positive or negative development?",
+    "questionCn": "越来越多的人在网上购物，而不是去实体店。这是为什么？你认为这是积极的还是消极的发展？",
+    "stanceEn": "Convenience and lower prices drive the shift, and on balance it is a positive development.",
+    "stanceCn": "便利与更低的价格推动了这一转变，总体而言这是积极的发展。",
+    "paragraphs": [
+      "In recent years, a growing number of consumers have turned to the internet to purchase everything from groceries to furniture, rather than visiting physical stores. This shift is driven mainly by convenience and cost, and although it has some drawbacks, I regard it as a largely positive development.",
+      "The primary reason for this trend is the sheer convenience that online shopping offers. Instead of travelling to a shop, consumers can order goods at the click of a button and have them delivered to their door within days. Price is another powerful factor: online retailers usually have lower overheads than high-street shops, allowing them to offer more competitive prices, while websites make it effortless to compare products and read reviews before buying. For busy people with limited free time, these advantages are difficult to resist.",
+      "In my opinion, the benefits of this development outweigh its disadvantages. Online shopping gives people access to a wider selection of goods than any single town could stock, and it is especially valuable for the elderly or those living in remote areas. Admittedly, there are downsides: the closure of traditional high-street shops can hollow out town centres and cost jobs, while the endless deliveries and returns increase the carbon footprint of retail. Nonetheless, these problems can be reduced through greener logistics and by encouraging shops to develop their own online services.",
+      "In conclusion, the popularity of online shopping stems chiefly from its convenience and lower prices. While the decline of physical stores is a genuine concern, on balance I believe the greater choice and accessibility it brings make it a positive trend."
+    ],
+    "translation": [
+      "近年来，越来越多的消费者转向互联网购买从食品到家具的一切，而不再去实体店。这一转变主要由便利与成本推动，尽管它有一些弊端，但我认为它总体上是积极的发展。",
+      "这一趋势的首要原因，是网购所提供的极大便利。消费者无需专程去商店，只需点一下按钮就能下单，几天内商品便送货上门。价格是另一个有力因素：网络零售商的经营成本通常低于街边实体店，从而能提供更具竞争力的价格；同时，网站让人们在购买前轻松比较商品、查看评价。对于空闲时间有限的忙碌人群来说，这些优势难以抗拒。",
+      "在我看来，这一发展的好处大于坏处。网购让人们能接触到比任何单个城镇所能供应的更丰富的商品选择，对老年人或居住在偏远地区的人尤其有价值。诚然，也存在不利的一面：传统街边店铺的关闭会掏空市中心并造成失业，而无休止的配送与退货又增加了零售业的碳足迹。尽管如此，这些问题可以通过更环保的物流、以及鼓励店铺发展自己的线上服务来缓解。",
+      "总之，网购的流行主要源于它的便利和更低的价格。虽然实体店的衰落是一个切实的担忧，但总体而言，我相信它带来的更大选择与可及性使其成为一种积极的趋势。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "回应两问 + 表明立场",
+        "point": "便利与成本驱动，总体积极"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "回答\"为什么\"",
+        "point": "便利、成本低、易比价"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "评价积极/消极 + 我的观点",
+        "point": "选择更广、可及性高，弊端可缓解"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "收束",
+        "point": "承认实体店衰落，但总体积极"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "physical stores",
+        "cn": "实体店"
+      },
+      {
+        "en": "the sheer convenience",
+        "cn": "极大的便利"
+      },
+      {
+        "en": "at the click of a button",
+        "cn": "点一下按钮"
+      },
+      {
+        "en": "lower overheads",
+        "cn": "更低的经营成本"
+      },
+      {
+        "en": "high-street shops",
+        "cn": "街边实体店"
+      },
+      {
+        "en": "competitive prices",
+        "cn": "有竞争力的价格"
+      },
+      {
+        "en": "a wider selection",
+        "cn": "更丰富的选择"
+      },
+      {
+        "en": "remote areas",
+        "cn": "偏远地区"
+      },
+      {
+        "en": "carbon footprint",
+        "cn": "碳足迹"
+      },
+      {
+        "en": "on balance",
+        "cn": "总体而言"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "越来越多的",
+        "words": [
+          "a growing number of",
+          "an increasing number of",
+          "more and more"
+        ]
+      },
+      {
+        "sense": "便利",
+        "words": [
+          "convenience",
+          "ease",
+          "accessibility"
+        ]
+      },
+      {
+        "sense": "更便宜",
+        "words": [
+          "lower prices",
+          "cheaper prices",
+          "more competitive prices"
+        ]
+      },
+      {
+        "sense": "好处大于坏处",
+        "words": [
+          "the benefits outweigh the disadvantages",
+          "the advantages outweigh the drawbacks",
+          "the pros outweigh the cons"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "明确分别回答\"为什么\"与\"积极还是消极\"，并给出个人立场"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "The primary reason / another factor / In my opinion / Admittedly / Nonetheless / In conclusion 衔接清晰"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "lower overheads、a wider selection、carbon footprint 等话题搭配；便利与价格的多种表达"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "现在分词（allowing them to…）、比较结构（than any single town could stock）、让步（Admittedly…）多样"
+      }
+    ],
+    "ideas": [
+      "原因一：便利——足不出户点按钮下单、送货上门。",
+      "原因二：成本——网店成本低、价格更有竞争力、易比价看评价。",
+      "积极面：选择更广，惠及老年人与偏远地区居民。",
+      "消极面：实体店关闭掏空市中心、造成失业。",
+      "消极面：频繁配送退货增加碳足迹。",
+      "缓解办法：更环保的物流 + 鼓励实体店做线上。",
+      "立场：好处大于坏处，总体积极。",
+      "平衡表达：承认实体店衰落是真实担忧，再收在积极。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "economic-growth-environment",
+    "group": "nature",
+    "task": "task2",
+    "taskType": "Agree / Disagree",
+    "title": "Economic Growth and the Environment",
+    "titleCn": "经济增长与环境",
+    "date": "2026-07-27",
+    "question": "Some people argue that economic growth is the only way to reduce poverty, even if it harms the environment.\n\nTo what extent do you agree or disagree?",
+    "questionCn": "有人认为，经济增长是减少贫困的唯一途径，即便它会破坏环境。你在多大程度上同意或不同意？",
+    "stanceEn": "Growth matters for reducing poverty, but it is not the only way, and the environment should not be sacrificed.",
+    "stanceCn": "增长对减少贫困很重要，但它并非唯一途径，也不应以牺牲环境为代价。",
+    "paragraphs": [
+      "It is often claimed that boosting economic growth is the sole means of tackling poverty, even when this comes at the expense of the natural world. While I accept that a strong economy is essential for improving living standards, I disagree that growth is the only solution or that environmental damage is a price worth paying.",
+      "There is no doubt that economic expansion can lift people out of poverty. As industries grow, they create jobs, raise wages and generate the tax revenue that governments need to fund schools, hospitals and infrastructure. Countries such as China and South Korea have shown how rapid growth can transform the living standards of millions within a single generation. In this sense, dismissing the importance of economic development would be naive.",
+      "However, pursuing growth at any cost is both unnecessary and dangerous. Unchecked industrial activity leads to environmental degradation, from polluted rivers to deforestation, and it is usually the poor who suffer most, since they depend heavily on natural resources and cannot afford to protect themselves from disasters. Moreover, growth is not the only weapon against poverty: a fairer distribution of wealth, investment in education and access to healthcare are equally powerful. Crucially, modern green technology and renewable energy prove that economies can expand while limiting harm, making sustainable development a realistic goal.",
+      "In conclusion, although economic growth undeniably plays a vital part in reducing poverty, I do not believe it is the only route, nor that the environment should be sacrificed to achieve it. A wiser approach combines sustainable development with social policy to secure long-term prosperity for all."
+    ],
+    "translation": [
+      "人们常声称，推动经济增长是解决贫困的唯一手段，即使这是以牺牲自然界为代价。虽然我承认强大的经济对改善生活水平至关重要，但我不同意\"增长是唯一解决办法\"，也不同意\"破坏环境是值得付出的代价\"。",
+      "毫无疑问，经济扩张能够使人们摆脱贫困。随着产业发展，它们创造就业、提高工资，并带来政府用以兴办学校、医院和基础设施所需的税收。中国和韩国等国家已经证明，快速增长能在一代人之内改变数百万人的生活水平。从这个意义上说，否定经济发展的重要性是幼稚的。",
+      "然而，不惜一切代价追求增长既没有必要，也很危险。失控的工业活动会导致环境退化，从河流污染到森林砍伐，而受害最深的往往是穷人，因为他们高度依赖自然资源，也无力保护自己免受灾害。此外，增长并非对抗贫困的唯一武器：更公平的财富分配、对教育的投资、以及获得医疗的机会同样有力。尤为关键的是，现代绿色科技与可再生能源证明，经济可以在限制危害的同时增长，使可持续发展成为现实的目标。",
+      "总之，尽管经济增长无疑在减少贫困中扮演着至关重要的角色，但我并不认为它是唯一的途径，也不认为应为实现它而牺牲环境。更明智的做法，是将可持续发展与社会政策结合起来，为所有人谋求长远的繁荣。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出观点 + 表明立场",
+        "point": "承认增长重要，但反对\"唯一\"与\"牺牲环境\""
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "让步：增长确实能减贫",
+        "point": "创造就业、税收、改善生活水平"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "反驳 + 我的观点",
+        "point": "环境退害伤穷人，且有绿色/社会替代方案"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "折中收束",
+        "point": "可持续发展 + 社会政策谋长远繁荣"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "economic growth",
+        "cn": "经济增长"
+      },
+      {
+        "en": "living standards",
+        "cn": "生活水平"
+      },
+      {
+        "en": "lift people out of poverty",
+        "cn": "使人们摆脱贫困"
+      },
+      {
+        "en": "tax revenue",
+        "cn": "税收"
+      },
+      {
+        "en": "at any cost",
+        "cn": "不惜一切代价"
+      },
+      {
+        "en": "environmental degradation",
+        "cn": "环境退化"
+      },
+      {
+        "en": "natural resources",
+        "cn": "自然资源"
+      },
+      {
+        "en": "green technology",
+        "cn": "绿色科技"
+      },
+      {
+        "en": "renewable energy",
+        "cn": "可再生能源"
+      },
+      {
+        "en": "sustainable development",
+        "cn": "可持续发展"
+      },
+      {
+        "en": "long-term prosperity",
+        "cn": "长远的繁荣"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "认为主张",
+        "words": [
+          "claim that",
+          "argue that",
+          "contend that"
+        ]
+      },
+      {
+        "sense": "减少贫困",
+        "words": [
+          "reduce poverty",
+          "tackle poverty",
+          "alleviate poverty"
+        ]
+      },
+      {
+        "sense": "破坏环境",
+        "words": [
+          "harm the environment",
+          "damage the environment",
+          "degrade the environment"
+        ]
+      },
+      {
+        "sense": "至关重要的",
+        "words": [
+          "essential",
+          "vital",
+          "crucial"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "拆开\"唯一途径\"与\"牺牲环境\"两点分别反驳，立场清晰一致"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "There is no doubt / However / Moreover / Crucially / In conclusion 推进有序"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "environmental degradation、renewable energy、sustainable development 等话题词与同义替换"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "让步（While…）、原因状语（since…）、动名词主语（pursuing growth…）、not…nor 并列否定多样"
+      }
+    ],
+    "ideas": [
+      "让步：增长确能减贫——创造就业、提高工资、增加税收。",
+      "例证：中国、韩国一代人内改变数百万人生活水平。",
+      "反驳一：不惜代价的增长导致环境退化，穷人受害最深。",
+      "反驳二：穷人依赖自然资源、无力自保于灾害。",
+      "反驳三：减贫还有再分配、教育、医疗等同样有力的手段。",
+      "关键点：绿色科技与可再生能源让可持续发展可行。",
+      "立场：增长重要但非唯一，也不应牺牲环境。",
+      "收束：可持续发展 + 社会政策 = 长远繁荣。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "affordable-housing",
+    "group": "city",
+    "task": "task2",
+    "taskType": "Problem / Solution",
+    "title": "The Affordable Housing Crisis",
+    "titleCn": "住房难题",
+    "date": "2026-07-26",
+    "question": "In many large cities, ordinary people can no longer afford to buy or rent homes.\n\nWhat are the causes of this problem, and what solutions can you suggest?",
+    "questionCn": "在许多大城市，普通人已经买不起也租不起房。这个问题的原因是什么？你能提出哪些解决办法？",
+    "stanceEn": "Rising demand, speculation and stagnant wages cause the crisis, which public housing, taxes and better transport can ease.",
+    "stanceCn": "需求上升、投机和工资停滞造成了这一危机，而公共住房、税收与更好的交通能够缓解它。",
+    "paragraphs": [
+      "In many of the world's major cities, soaring house prices have put home ownership, and even renting, beyond the reach of average earners. This essay will examine the main causes of the housing crisis before proposing several practical solutions.",
+      "The fundamental cause is that demand for housing far outstrips supply. As people continue to move from the countryside to cities in search of work, the population of urban areas swells, yet the construction of new homes rarely keeps up. This imbalance is worsened by property speculation: wealthy investors buy multiple flats purely to profit from rising prices, leaving many vacant properties while genuine residents are priced out. At the same time, wages have stagnated in many countries, so ordinary workers see their disposable income shrink even as rents climb.",
+      "Several measures could ease the situation. Most importantly, governments should invest directly in social housing, building good-quality homes that are rented or sold at below-market rates to those on lower incomes. Speculation can be discouraged by imposing higher taxes on second homes and empty flats, which would return vacant properties to the market. In addition, improving public transport allows people to live in cheaper suburbs while still commuting to work, effectively expanding the supply of affordable housing.",
+      "In conclusion, the shortage of affordable housing results mainly from rising demand, speculation and stagnant incomes. Through a combination of public housing schemes, taxes on speculation and better transport links, governments can make cities liveable for ordinary people once again."
+    ],
+    "translation": [
+      "在世界上许多大城市，飞涨的房价已让购房、甚至租房都超出了普通收入者的承受范围。本文将先分析这一住房危机的主要原因，再提出若干切实可行的解决办法。",
+      "根本原因在于住房需求远远超过供给。随着人们为求职不断从乡村涌入城市，城区人口膨胀，而新房的建设却很少跟得上。房产投机使这种失衡雪上加霜：富有的投资者纯粹为了从涨价中获利而买下多套公寓，留下大量空置房产，与此同时真正的居民却被挤出市场。与此同时，许多国家的工资停滞不前，于是普通劳动者眼看着自己的可支配收入缩水，房租却在上涨。",
+      "有若干措施可以缓解这一局面。最重要的是，政府应直接投资于公共住房，建造质量良好的房屋，以低于市场的价格出租或出售给低收入者。可以通过对第二套房和空置公寓征收更高的税来抑制投机，从而促使空置房产重新回到市场。此外，改善公共交通能让人们住在更便宜的郊区、同时仍可通勤上班，等于扩大了可负担住房的供给。",
+      "总之，可负担住房的短缺主要源于需求上升、投机以及收入停滞。通过公共住房计划、针对投机的税收和更好的交通连接相结合，政府可以让城市重新成为普通人住得起的地方。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出问题 + 预告原因与对策",
+        "point": "房价超出普通人承受范围"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "原因",
+        "point": "供不应求 + 投机空置 + 工资停滞"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "对策",
+        "point": "公共住房 + 对投机征税 + 改善交通"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "收束",
+        "point": "三管齐下让城市重新可负担"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "soaring house prices",
+        "cn": "飞涨的房价"
+      },
+      {
+        "en": "home ownership",
+        "cn": "房屋所有权"
+      },
+      {
+        "en": "outstrips supply",
+        "cn": "超过供给"
+      },
+      {
+        "en": "property speculation",
+        "cn": "房产投机"
+      },
+      {
+        "en": "vacant properties",
+        "cn": "空置房产"
+      },
+      {
+        "en": "disposable income",
+        "cn": "可支配收入"
+      },
+      {
+        "en": "social housing",
+        "cn": "公共住房"
+      },
+      {
+        "en": "below-market rates",
+        "cn": "低于市场的价格"
+      },
+      {
+        "en": "public transport",
+        "cn": "公共交通"
+      },
+      {
+        "en": "affordable housing",
+        "cn": "可负担住房"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "供不应求",
+        "words": [
+          "demand outstrips supply",
+          "demand exceeds supply",
+          "demand outpaces supply"
+        ]
+      },
+      {
+        "sense": "房价",
+        "words": [
+          "house prices",
+          "property prices",
+          "housing costs"
+        ]
+      },
+      {
+        "sense": "缓解问题",
+        "words": [
+          "ease the situation",
+          "alleviate the problem",
+          "relieve the pressure"
+        ]
+      },
+      {
+        "sense": "投资于",
+        "words": [
+          "invest in",
+          "put money into",
+          "allocate funds to"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "原因段与对策段一一对应，每个对策针对一个原因"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "The fundamental cause / At the same time / Most importantly / In addition / In conclusion 结构清晰"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "property speculation、vacant properties、below-market rates 等话题搭配"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "分词状语（leaving many vacant properties…）、定语从句（that are rented or sold…）、让步（while still commuting）多样"
+      }
+    ],
+    "ideas": [
+      "原因一：城乡迁移使城市人口膨胀，建房跟不上，供不应求。",
+      "原因二：投机者囤房牟利，造成大量空置、居民被挤出。",
+      "原因三：工资停滞，可支配收入缩水而房租上涨。",
+      "对策一：政府直接投资公共住房，以低于市场价供给低收入者。",
+      "对策二：对二套房、空置房征税，逼空置房回归市场。",
+      "对策三：改善公共交通，让人住得起郊区、仍能通勤。",
+      "逻辑：每条对策对应一条原因，回应更有力。",
+      "收束：三管齐下让城市重新住得起。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "international-tourism",
+    "group": "culture",
+    "task": "task2",
+    "taskType": "Advantages / Disadvantages",
+    "title": "International Tourism",
+    "titleCn": "国际旅游",
+    "date": "2026-07-25",
+    "question": "International tourism has become one of the world's largest industries.\n\nDo the benefits of this development outweigh the drawbacks?",
+    "questionCn": "国际旅游已成为世界上最大的产业之一。这一发展的好处大于坏处吗？",
+    "stanceEn": "The economic and cultural benefits of tourism outweigh its environmental and cultural drawbacks.",
+    "stanceCn": "旅游的经济与文化收益，大于其在环境和文化方面的弊端。",
+    "paragraphs": [
+      "Over recent decades, international tourism has grown into one of the largest industries on the planet, with millions of people crossing borders each year for leisure. Although this boom has some negative consequences, I firmly believe that its benefits outweigh the drawbacks.",
+      "The most significant advantage is economic. Tourism creates employment opportunities on a huge scale, from hotel staff and tour guides to restaurant owners and taxi drivers, and it brings valuable foreign currency into local economies. In many developing regions, the income from visitors funds roads, airports and other infrastructure that residents also enjoy. Beyond economics, tourism promotes cultural exchange: when travellers experience unfamiliar customs and cuisines first-hand, stereotypes break down and mutual understanding between nations grows.",
+      "Nevertheless, unmanaged tourism can cause real harm. Popular destinations such as Venice and Bali increasingly suffer from over-tourism, where overcrowding, litter and environmental damage spoil the very attractions that draw visitors. There is also a risk that local traditions become commercialised, reduced to performances staged purely for tourists. However, these problems arise from poor management rather than tourism itself, and they can be limited through visitor caps, environmental regulations and a shift towards sustainable tourism.",
+      "In conclusion, while international tourism can strain the environment and dilute local cultures, these disadvantages are outweighed by its considerable economic and social benefits. With responsible planning, countries can enjoy the rewards of tourism without sacrificing their heritage."
+    ],
+    "translation": [
+      "近几十年来，国际旅游已发展成为地球上最大的产业之一，每年有数百万人跨越国界去休闲度假。尽管这一繁荣带来了一些负面后果，但我坚信它的好处大于坏处。",
+      "最重要的优势是经济上的。旅游业大规模地创造就业机会——从酒店员工、导游到餐馆老板和出租车司机——并为当地经济带来宝贵的外汇。在许多发展中地区，游客带来的收入还资助了道路、机场等基础设施，而这些设施居民同样受益。除了经济，旅游还促进文化交流：当旅行者亲身体验陌生的习俗与饮食时，刻板印象被打破，国家之间的相互理解也随之增进。",
+      "然而，缺乏管理的旅游也会造成实实在在的危害。威尼斯、巴厘岛等热门目的地日益饱受\"过度旅游\"之苦——拥挤、垃圾和环境破坏，恰恰毁掉了吸引游客的那些景点。此外还有一种风险：当地传统被商业化，沦为纯粹为游客上演的表演。不过，这些问题源于管理不善，而非旅游本身，可以通过游客限流、环境法规以及向可持续旅游转型来加以限制。",
+      "总之，尽管国际旅游会给环境带来压力、稀释当地文化，但这些弊端被它可观的经济与社会收益所抵消。只要负责任地规划，各国就能在不牺牲自身遗产的前提下享受旅游带来的回报。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出话题 + 表明立场",
+        "point": "承认有弊，但好处大于坏处"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "好处",
+        "point": "就业 + 外汇 + 基础设施 + 文化交流"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "坏处 + 反驳",
+        "point": "过度旅游、文化商业化，但源于管理不善"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "收束",
+        "point": "负责任规划下收益抵消弊端"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "international tourism",
+        "cn": "国际旅游"
+      },
+      {
+        "en": "employment opportunities",
+        "cn": "就业机会"
+      },
+      {
+        "en": "foreign currency",
+        "cn": "外汇"
+      },
+      {
+        "en": "cultural exchange",
+        "cn": "文化交流"
+      },
+      {
+        "en": "mutual understanding",
+        "cn": "相互理解"
+      },
+      {
+        "en": "over-tourism",
+        "cn": "过度旅游"
+      },
+      {
+        "en": "environmental damage",
+        "cn": "环境破坏"
+      },
+      {
+        "en": "local traditions",
+        "cn": "当地传统"
+      },
+      {
+        "en": "sustainable tourism",
+        "cn": "可持续旅游"
+      },
+      {
+        "en": "outweigh the drawbacks",
+        "cn": "大于坏处"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "促进",
+        "words": [
+          "promote",
+          "foster",
+          "encourage"
+        ]
+      },
+      {
+        "sense": "创造就业",
+        "words": [
+          "create jobs",
+          "generate employment",
+          "provide employment opportunities"
+        ]
+      },
+      {
+        "sense": "损害",
+        "words": [
+          "harm",
+          "damage",
+          "spoil"
+        ]
+      },
+      {
+        "sense": "著名的目的地",
+        "words": [
+          "popular destinations",
+          "famous destinations",
+          "renowned destinations"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "明确回答\"好处是否大于坏处\"，正反都谈并给出结论"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "The most significant / Beyond economics / Nevertheless / However / In conclusion 衔接自然"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "foreign currency、over-tourism、sustainable tourism 等话题搭配与同义替换"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "独立主格（with millions of people crossing borders…）、定语从句（that draw visitors）、被动（are outweighed by）多样"
+      }
+    ],
+    "ideas": [
+      "经济好处：大规模创造就业，带来外汇。",
+      "连带好处：游客收入资助道路、机场等基础设施，居民共享。",
+      "文化好处：亲身体验异域习俗，打破刻板印象、增进理解。",
+      "坏处一：热门地过度旅游，拥挤、垃圾、环境破坏。",
+      "坏处二：当地传统被商业化，沦为给游客的表演。",
+      "反驳：问题出在管理不善，而非旅游本身。",
+      "对策：游客限流、环境法规、向可持续旅游转型。",
+      "立场：负责任规划下，收益大于弊端。"
+    ],
+    "images": []
+  },
+  {
     "slug": "preventive-health",
     "group": "culture",
     "task": "task2",
