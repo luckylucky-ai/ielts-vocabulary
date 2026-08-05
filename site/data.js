@@ -28367,6 +28367,918 @@ window.IELTS_VOCAB_TOPICS = [
 ];
 window.IELTS_ESSAYS = [
   {
+    "slug": "space-exploration",
+    "group": "tech",
+    "task": "task2",
+    "taskType": "Agree / Disagree",
+    "title": "Space Exploration or Problems on Earth",
+    "titleCn": "太空探索与地球难题",
+    "date": "2026-08-03",
+    "question": "Some people believe that money spent on space exploration could be better used to solve problems on Earth.\n\nTo what extent do you agree or disagree?",
+    "questionCn": "有人认为，用于太空探索的资金若用来解决地球上的问题会更好。你在多大程度上同意或不同意？",
+    "stanceEn": "Earth's problems matter, but the practical rewards of space research justify the modest spending.",
+    "stanceCn": "地球的问题固然重要，但太空研究带来的实际回报，足以证明这笔不高的投入是值得的。",
+    "paragraphs": [
+      "It is sometimes argued that the vast sums invested in space exploration would be better spent tackling problems here on Earth, such as poverty and disease. Although I understand this concern, I largely disagree, because space research delivers practical benefits that ultimately improve life on our own planet.",
+      "Those who wish to redirect this money have a reasonable case. Millions of people still lack access to clean water, adequate healthcare and basic education, and these pressing problems could be eased with additional funding. Space missions, by contrast, are extraordinarily expensive, and critics argue that sending probes to distant planets does little to help ordinary citizens struggling to survive. From this viewpoint, exploring space can appear to be a costly luxury.",
+      "Nevertheless, I believe the benefits of space exploration justify the expense. Much of the technology we now take for granted, from satellite navigation and weather forecasting to advances in medicine and materials, originated as spin-off technologies from space programmes. Studying the universe also deepens our scientific knowledge and may one day prove essential for the long-term survival of humanity, should Earth's resources run out. Crucially, space budgets typically represent only a tiny fraction of national spending, so cutting them would barely dent the funds available for social needs.",
+      "In conclusion, while the money devoted to space exploration could in theory be redirected to problems on Earth, I do not agree that this would be wise. The scientific and practical rewards it generates, together with its modest cost, make continued investment thoroughly worthwhile."
+    ],
+    "translation": [
+      "人们有时会说，投入太空探索的巨额资金，若用来解决地球上的贫困、疾病等问题会更好。尽管我理解这种担忧，但我在很大程度上不同意，因为太空研究带来的实际益处，最终会改善我们自己星球上的生活。",
+      "希望把这笔钱另作他用的人有其合理之处。仍有数以百万计的人无法获得清洁的水、充足的医疗和基本的教育，这些紧迫的问题若有额外资金便可缓解。相比之下，太空任务花费极其高昂，批评者认为，向遥远的行星发射探测器对苦苦挣扎求生的普通民众几乎没有帮助。从这个角度看，探索太空似乎是一种昂贵的奢侈。",
+      "然而，我认为太空探索的益处足以证明这笔开支的合理性。我们如今习以为常的许多技术——从卫星导航、天气预报到医学与材料的进步——最初都是太空计划的衍生技术。研究宇宙也加深了我们的科学知识，并且一旦地球资源枯竭，或许有朝一日会对人类的长期存续至关重要。尤为关键的是，太空预算通常只占国家开支的极小一部分，削减它几乎无法给社会需求可用的资金增添多少。",
+      "总之，尽管理论上可以把用于太空探索的资金转投到地球上的问题，但我并不认为这是明智之举。它所产生的科学与实际回报，加之其并不高昂的成本，使持续投入完全值得。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出争议 + 表明立场",
+        "point": "理解担忧，但很大程度不同意"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "让步：为什么有人主张投地球",
+        "point": "民生紧迫、太空昂贵"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "反驳 + 我的观点",
+        "point": "衍生技术、科学知识、成本极低"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "收束",
+        "point": "回报加低成本使投入值得"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "space exploration",
+        "cn": "太空探索"
+      },
+      {
+        "en": "pressing problems",
+        "cn": "紧迫的问题"
+      },
+      {
+        "en": "satellite navigation",
+        "cn": "卫星导航"
+      },
+      {
+        "en": "weather forecasting",
+        "cn": "天气预报"
+      },
+      {
+        "en": "spin-off technologies",
+        "cn": "衍生技术"
+      },
+      {
+        "en": "scientific knowledge",
+        "cn": "科学知识"
+      },
+      {
+        "en": "long-term survival",
+        "cn": "长期存续"
+      },
+      {
+        "en": "a tiny fraction",
+        "cn": "极小一部分"
+      },
+      {
+        "en": "take for granted",
+        "cn": "习以为常"
+      },
+      {
+        "en": "social needs",
+        "cn": "社会需求"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "认为主张",
+        "words": [
+          "argue that",
+          "claim that",
+          "contend that"
+        ]
+      },
+      {
+        "sense": "解决问题",
+        "words": [
+          "tackle problems",
+          "address problems",
+          "deal with problems"
+        ]
+      },
+      {
+        "sense": "昂贵的",
+        "words": [
+          "expensive",
+          "costly",
+          "extraordinarily expensive"
+        ]
+      },
+      {
+        "sense": "益处",
+        "words": [
+          "benefits",
+          "rewards",
+          "advantages"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "让步对方观点后明确反驳，回应 to what extent，立场一致"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "Those who / by contrast / Nevertheless / Crucially / In conclusion 层层推进"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "spin-off technologies、satellite navigation、long-term survival 等话题搭配与同义替换"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "虚拟/倒装（should Earth's resources run out）、定语从句（that we now take for granted）、比较结构多样"
+      }
+    ],
+    "ideas": [
+      "反方立场：钱应先解决地球上的贫困、疾病、缺水等民生问题。",
+      "反方论据：太空任务极其昂贵，对普通人帮助有限。",
+      "正方一：卫星导航、天气预报等衍生技术源于太空计划。",
+      "正方二：研究宇宙加深科学知识，或关乎人类长期存续。",
+      "关键点：太空预算仅占国家开支极小一部分。",
+      "反驳逻辑：削减太空经费几乎无助于社会需求。",
+      "立场：科学与实际回报 + 低成本 = 值得持续投入。",
+      "平衡表达：承认地球问题紧迫，再收在\"投入值得\"。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "prison-sentences",
+    "group": "society",
+    "task": "task2",
+    "taskType": "Discussion + Opinion",
+    "title": "Longer Prison Sentences or Alternatives",
+    "titleCn": "加重刑期还是另寻他法",
+    "date": "2026-08-02",
+    "question": "Some people believe that the best way to reduce crime is to give longer prison sentences. Others, however, think there are better alternative ways to reduce crime.\n\nDiscuss both views and give your own opinion.",
+    "questionCn": "有人认为减少犯罪的最佳办法是加重刑期，另一些人则认为还有更好的替代办法。讨论双方观点并给出你的看法。",
+    "stanceEn": "Prison is needed for dangerous criminals, but tackling the causes of crime and rehabilitating offenders works better.",
+    "stanceCn": "危险罪犯需要监禁，但解决犯罪根源、改造罪犯的效果更好。",
+    "paragraphs": [
+      "Rising crime is a serious concern in many societies, and there is disagreement about how best to address it. While some maintain that longer prison sentences are the answer, others favour alternative approaches. In my view, although imprisonment is necessary for dangerous criminals, tackling the underlying causes of crime is far more effective.",
+      "Supporters of harsher punishment argue that longer prison sentences act as a deterrent, discouraging potential offenders who fear spending years behind bars. In addition, keeping criminals locked up for extended periods protects the public by physically preventing them from committing further offences. For violent or repeat offenders, this argument is particularly persuasive, since their removal from society undeniably makes communities safer in the short term.",
+      "However, I am convinced that prevention and rehabilitation offer more lasting solutions. Much crime stems from poverty, unemployment and deprived backgrounds, so investing in education, job creation and community programmes addresses the root causes rather than merely the symptoms. Prison, meanwhile, often fails to reform inmates and may even harden them, leading to high rates of reoffending once they are released. Alternatives such as community service, together with proper support to reintegrate into society, are usually more successful at turning offenders' lives around.",
+      "In conclusion, while lengthy sentences may be appropriate for the most serious crimes, I believe that reducing crime in the long run depends on tackling its social roots and rehabilitating offenders, rather than simply locking more people away for longer."
+    ],
+    "translation": [
+      "在许多社会，犯罪上升都是一个严重的问题，而人们对如何最好地应对它意见不一。有人坚持认为加重刑期是答案，另一些人则青睐替代办法。在我看来，尽管对危险罪犯而言监禁是必要的，但解决犯罪的深层原因要有效得多。",
+      "支持更严厉惩罚的人认为，更长的刑期能起到威慑作用，让害怕多年身陷囹圄的潜在罪犯望而却步。此外，将罪犯长期关押，能从物理上阻止他们再次作案，从而保护公众。对于暴力犯或惯犯，这一论点尤其有说服力，因为把他们从社会中隔离，短期内无疑会让社区更安全。",
+      "然而，我确信预防与改造能提供更持久的解决方案。许多犯罪源于贫困、失业和贫困的成长环境，因此投资于教育、创造就业和社区项目，是在解决根本原因，而非仅仅处理表象。与此同时，监狱往往无法改造犯人，甚至可能使其更加冷硬，导致他们一经释放便高比例重新犯罪。诸如社区服务，加上帮助罪犯重新融入社会的适当支持，通常更能让他们的人生走上正轨。",
+      "总之，尽管对最严重的罪行而言，长刑期或许恰当，但我认为，从长远看减少犯罪要靠解决其社会根源、改造罪犯，而非简单地把更多人关得更久。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出争议 + 表明立场",
+        "point": "监禁必要，但治本更有效"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "观点一：加重刑期",
+        "point": "威慑 + 隔离危险罪犯保护公众"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "观点二 + 我的观点",
+        "point": "治根源、重改造，监狱易致重犯"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "折中收束",
+        "point": "重罪可长刑，长远靠治本与改造"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "longer prison sentences",
+        "cn": "更长的刑期"
+      },
+      {
+        "en": "act as a deterrent",
+        "cn": "起威慑作用"
+      },
+      {
+        "en": "repeat offenders",
+        "cn": "惯犯"
+      },
+      {
+        "en": "the underlying causes",
+        "cn": "深层原因"
+      },
+      {
+        "en": "deprived backgrounds",
+        "cn": "贫困的成长环境"
+      },
+      {
+        "en": "the root causes",
+        "cn": "根本原因"
+      },
+      {
+        "en": "high rates of reoffending",
+        "cn": "高比例重新犯罪"
+      },
+      {
+        "en": "community service",
+        "cn": "社区服务"
+      },
+      {
+        "en": "reintegrate into society",
+        "cn": "重新融入社会"
+      },
+      {
+        "en": "protects the public",
+        "cn": "保护公众"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "认为主张",
+        "words": [
+          "maintain that",
+          "argue that",
+          "contend that"
+        ]
+      },
+      {
+        "sense": "减少犯罪",
+        "words": [
+          "reduce crime",
+          "cut crime",
+          "curb crime"
+        ]
+      },
+      {
+        "sense": "惩罚",
+        "words": [
+          "punishment",
+          "penalty",
+          "sanction"
+        ]
+      },
+      {
+        "sense": "有效的",
+        "words": [
+          "effective",
+          "successful",
+          "powerful"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "讨论\"加重刑期\"与\"替代办法\"两方，并明确个人立场"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "While / In addition / However / meanwhile / In conclusion 衔接清晰"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "act as a deterrent、the root causes、reintegrate into society 等法律犯罪话题搭配"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "让步（although…）、定语从句（who fear…）、分词状语（leading to…）多样"
+      }
+    ],
+    "ideas": [
+      "观点一论据：长刑期威慑潜在罪犯，害怕坐牢。",
+      "观点一论据：长期关押隔离危险罪犯，短期内社区更安全。",
+      "观点二论据：犯罪多源于贫困、失业、成长环境。",
+      "观点二论据：投资教育、就业、社区项目才是治本。",
+      "反驳监狱：难改造、甚至使人更冷硬，易致重犯。",
+      "替代方案：社区服务 + 帮助重新融入社会。",
+      "立场：重罪可长刑，但长远减犯罪靠治本与改造。",
+      "常用连接：短期安全 vs 长期解决，对比更有层次。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "zoos-animals",
+    "group": "nature",
+    "task": "task2",
+    "taskType": "Discussion + Opinion",
+    "title": "Should Zoos Be Closed Down",
+    "titleCn": "动物园该不该关闭",
+    "date": "2026-08-01",
+    "question": "Some people think that zoos are cruel and should be closed down. Others, however, believe that zoos are useful in protecting wild animals.\n\nDiscuss both views and give your own opinion.",
+    "questionCn": "有人认为动物园很残忍、应当关闭，另一些人则认为动物园对保护野生动物有用。讨论双方观点并给出你的看法。",
+    "stanceEn": "Badly run zoos can be cruel, but well-managed ones protect endangered species and should stay.",
+    "stanceCn": "管理不善的动物园确实残忍，但管理得当的动物园能保护濒危物种，应予保留。",
+    "paragraphs": [
+      "Zoos have long divided public opinion. While some regard them as cruel institutions that should be shut down, others see them as valuable centres for protecting wildlife. In my opinion, although poorly run zoos can indeed be inhumane, well-managed ones play an important role in conservation and should be preserved.",
+      "Those who oppose zoos argue that keeping animals in captivity is inherently cruel. Confined to small enclosures that bear little resemblance to their natural habitat, creatures such as elephants and big cats may suffer boredom, stress and abnormal behaviour. Critics contend that no cage, however comfortable, can replace the freedom of the wild, and that displaying animals purely for human entertainment is difficult to justify on ethical grounds.",
+      "On the other hand, I believe modern zoos offer significant benefits that outweigh these concerns. Many run breeding programmes for endangered species, some of which are on the brink of extinction and could not survive in the wild. Zoos also fund scientific research and, importantly, help to raise awareness among visitors, inspiring children in particular to care about conservation. Provided that animal welfare is given priority and enclosures imitate natural conditions, such institutions do far more good than harm.",
+      "In conclusion, while it is true that some zoos treat animals badly and deserve to be closed, I do not believe this applies to all of them. Responsible zoos make a genuine contribution to protecting endangered species and educating the public, and are therefore worth keeping."
+    ],
+    "translation": [
+      "长期以来，动物园一直让公众意见分歧。有人视其为应当关闭的残忍机构，另一些人则将其看作保护野生动物的宝贵中心。在我看来，尽管管理不善的动物园确实可能不人道，但管理得当的动物园在物种保护中发挥着重要作用，应予以保留。",
+      "反对动物园的人认为，把动物圈养起来本质上就是残忍的。被关在与其自然栖息地几乎毫无相似之处的小围栏里，象、大型猫科动物等可能出现无聊、压力和异常行为。批评者主张，无论笼子多么舒适，都无法取代野外的自由，而纯粹为了人类娱乐而展示动物，在伦理上也难以站得住脚。",
+      "另一方面，我认为现代动物园所带来的显著益处超过了这些担忧。许多动物园为濒危物种开展繁育项目，其中一些物种已濒临灭绝、无法在野外存活。动物园还资助科学研究，并且重要的是，帮助提升参观者的意识，尤其能激励孩子去关心物种保护。只要把动物福利放在首位、让围栏模拟自然环境，这类机构带来的益处便远大于危害。",
+      "总之，尽管确有一些动物园虐待动物、理应关闭，但我并不认为这适用于所有动物园。负责任的动物园在保护濒危物种和教育公众方面做出了真正的贡献，因此值得保留。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出争议 + 表明立场",
+        "point": "差的该关，好的应留"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "观点一：动物园残忍",
+        "point": "圈养违背天性、非自然、伦理存疑"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "观点二 + 我的观点",
+        "point": "繁育濒危、科研、教育与保护意识"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "折中收束",
+        "point": "负责任动物园贡献真实，值得保留"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "in captivity",
+        "cn": "圈养"
+      },
+      {
+        "en": "natural habitat",
+        "cn": "自然栖息地"
+      },
+      {
+        "en": "the freedom of the wild",
+        "cn": "野外的自由"
+      },
+      {
+        "en": "breeding programmes",
+        "cn": "繁育项目"
+      },
+      {
+        "en": "endangered species",
+        "cn": "濒危物种"
+      },
+      {
+        "en": "on the brink of extinction",
+        "cn": "濒临灭绝"
+      },
+      {
+        "en": "raise awareness",
+        "cn": "提升意识"
+      },
+      {
+        "en": "animal welfare",
+        "cn": "动物福利"
+      },
+      {
+        "en": "scientific research",
+        "cn": "科学研究"
+      },
+      {
+        "en": "do far more good than harm",
+        "cn": "益处远大于危害"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "认为主张",
+        "words": [
+          "argue that",
+          "contend that",
+          "maintain that"
+        ]
+      },
+      {
+        "sense": "保护",
+        "words": [
+          "protect",
+          "conserve",
+          "safeguard"
+        ]
+      },
+      {
+        "sense": "残忍的",
+        "words": [
+          "cruel",
+          "inhumane",
+          "harsh"
+        ]
+      },
+      {
+        "sense": "好处大于坏处",
+        "words": [
+          "the benefits outweigh the concerns",
+          "do more good than harm",
+          "the advantages outweigh the drawbacks"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "讨论\"残忍应关\"与\"保护有用\"两方，明确\"分情况保留\"立场"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "While / On the other hand / importantly / Provided that / In conclusion 衔接自然"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "in captivity、endangered species、on the brink of extinction、animal welfare 等话题词"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "分词前置（Confined to…）、让步（however comfortable）、条件（Provided that…）多样"
+      }
+    ],
+    "ideas": [
+      "观点一：圈养违背动物天性，围栏与栖息地相去甚远。",
+      "观点一：动物出现压力、异常行为，为娱乐展示伦理存疑。",
+      "观点一：再舒适的笼子也换不来野外的自由。",
+      "观点二：为濒危物种做繁育，有些已濒临灭绝、野外难存活。",
+      "观点二：资助科研、提升公众尤其孩子的保护意识。",
+      "前提条件：把动物福利放首位、围栏模拟自然。",
+      "立场：差的该关，负责任的动物园值得保留。",
+      "平衡表达：承认部分虐待动物，但不适用于全部。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "university-tuition",
+    "group": "education",
+    "task": "task2",
+    "taskType": "Agree / Disagree",
+    "title": "Should University Be Free for All",
+    "titleCn": "大学是否应对所有人免费",
+    "date": "2026-07-31",
+    "question": "Some people believe that university education should be free for all students, regardless of their financial background.\n\nTo what extent do you agree or disagree?",
+    "questionCn": "有人认为，无论家庭经济状况如何，大学教育都应对所有学生免费。你在多大程度上同意或不同意？",
+    "stanceEn": "No able student should be blocked by money, but free-for-all is unfair; means-tested support is better.",
+    "stanceCn": "不应有能力的学生因钱被挡在门外，但对所有人免费并不公平，按经济状况资助更好。",
+    "paragraphs": [
+      "Whether university should be free for everyone is a topic of ongoing debate. Some insist that higher education is a right that should be available to all, regardless of their financial background. While I agree that no capable student should be denied a degree because of money, I do not believe that education should be entirely free for all.",
+      "There are strong arguments in favour of free university education. Above all, it promotes equal opportunities, ensuring that talented young people from poor families can attend university and improve their prospects. This, in turn, encourages social mobility and reduces inequality. Society as a whole also benefits, since a well-educated population produces the skilled workforce that a modern economy needs to thrive.",
+      "Nevertheless, making higher education free for everyone raises serious problems. The cost would fall on the taxpayer, including many who never attend university, and abolishing tuition fees entirely would also subsidise wealthy families who can easily afford to pay. A fairer solution, in my view, is a means-tested system, in which the government covers the fees of low-income students through grants, while others contribute or repay affordable student loans after graduation. Such an approach widens access without wasting public money.",
+      "In conclusion, although I firmly support helping disadvantaged students, I disagree that university should be free for all. Targeting financial support at those who genuinely need it is both fairer and more sustainable than offering free education to everyone."
+    ],
+    "translation": [
+      "大学是否应对所有人免费，是一个持续争论的话题。有人坚持认为，高等教育是一项权利，应当人人可及，无论其家庭经济状况如何。虽然我同意，不应有能力的学生因为钱而被拒于学位之外，但我并不认为教育应对所有人完全免费。",
+      "支持大学教育免费的理由确实有力。首先，它促进机会平等，确保来自贫困家庭的优秀年轻人也能上大学、改善自己的前途。这进而推动社会流动、缩小不平等。整个社会同样受益，因为受过良好教育的人口能培养出现代经济繁荣所需的技术劳动力。",
+      "然而，让高等教育对所有人免费会带来严重问题。成本将落在纳税人身上，其中许多人从未上过大学；而完全取消学费还会补贴那些本可轻松负担的富裕家庭。在我看来，更公平的办法是按经济状况资助的制度：政府通过助学金承担低收入学生的学费，其余的人则出资，或在毕业后偿还负担得起的助学贷款。这种做法在不浪费公共资金的前提下扩大了入学机会。",
+      "总之，尽管我坚决支持帮助弱势学生，但我不同意大学应对所有人免费。把资助精准投向真正需要的人，比向所有人提供免费教育更公平，也更可持续。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出争议 + 表明立场",
+        "point": "不应因钱被挡，但反对全免"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "让步：免费的理由",
+        "point": "机会平等、社会流动、技术劳动力"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "反驳 + 我的观点",
+        "point": "纳税人负担、补贴富人，主张按需资助"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "折中收束",
+        "point": "精准资助比全免更公平可持续"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "higher education",
+        "cn": "高等教育"
+      },
+      {
+        "en": "regardless of their financial background",
+        "cn": "无论家庭经济状况"
+      },
+      {
+        "en": "equal opportunities",
+        "cn": "机会平等"
+      },
+      {
+        "en": "social mobility",
+        "cn": "社会流动"
+      },
+      {
+        "en": "skilled workforce",
+        "cn": "技术劳动力"
+      },
+      {
+        "en": "the taxpayer",
+        "cn": "纳税人"
+      },
+      {
+        "en": "tuition fees",
+        "cn": "学费"
+      },
+      {
+        "en": "a means-tested system",
+        "cn": "按经济状况资助的制度"
+      },
+      {
+        "en": "student loans",
+        "cn": "助学贷款"
+      },
+      {
+        "en": "widens access",
+        "cn": "扩大入学机会"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "认为主张",
+        "words": [
+          "insist that",
+          "argue that",
+          "believe that"
+        ]
+      },
+      {
+        "sense": "负担得起",
+        "words": [
+          "afford",
+          "can afford",
+          "be within reach of"
+        ]
+      },
+      {
+        "sense": "减少不平等",
+        "words": [
+          "reduce inequality",
+          "narrow the gap",
+          "close the gap"
+        ]
+      },
+      {
+        "sense": "公平的",
+        "words": [
+          "fair",
+          "equitable",
+          "just"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "明确\"部分同意、总体不同意\"，回应 to what extent，并给替代方案"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "Above all / in turn / Nevertheless / in my view / In conclusion 结构清晰"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "social mobility、means-tested system、student loans 等教育政策话题搭配"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "让步（While…）、定语从句（in which…）、动名词主语（making… free）多样"
+      }
+    ],
+    "ideas": [
+      "让步一：免费促进机会平等，穷家孩子也能上大学。",
+      "让步二：推动社会流动、缩小不平等。",
+      "让步三：受教育人口培养经济所需技术劳动力。",
+      "反驳一：成本落在纳税人身上，含许多没上大学的人。",
+      "反驳二：全免会补贴本可负担的富裕家庭。",
+      "折中方案：按经济状况资助——助学金 + 毕业后还贷。",
+      "立场：精准资助比全免更公平、更可持续。",
+      "平衡表达：坚决支持帮弱势，但反对\"对所有人免费\"。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "historic-buildings",
+    "group": "city",
+    "task": "task2",
+    "taskType": "Discussion + Opinion",
+    "title": "Preserve Old Buildings or Replace Them",
+    "titleCn": "老建筑：保护还是重建",
+    "date": "2026-07-31",
+    "question": "Some people think that old buildings should be protected and preserved, while others believe they should be replaced with new, modern ones.\n\nDiscuss both views and give your own opinion.",
+    "questionCn": "有人认为老建筑应受到保护与保存，另一些人则认为应用现代新建筑取而代之。讨论双方观点并给出你的看法。",
+    "stanceEn": "Historically significant buildings should be preserved, though ordinary old structures may be redeveloped.",
+    "stanceCn": "具有历史意义的建筑应予保护，但普通的老旧建筑可以重建。",
+    "paragraphs": [
+      "As cities expand, they often face a choice between preserving their old buildings and replacing them with modern structures. While some argue that outdated buildings should be demolished to make way for progress, others insist that they must be protected. In my opinion, historically significant buildings should be preserved, even though not every old structure deserves to be saved.",
+      "Those who favour redevelopment point to practical concerns. Old buildings are often expensive to maintain, and their high maintenance costs can be a burden on public funds. They may also lack modern facilities, waste valuable land in crowded city centres and fail to meet current safety standards. From this perspective, replacing them with efficient new buildings supports urban development and better serves a growing population.",
+      "However, I believe that buildings of genuine historical value should be protected. They form part of a nation's cultural heritage and give a city a sense of identity that glass towers cannot provide. Landmarks such as castles, temples and old town centres also serve as major tourist attractions, generating income and creating jobs. For these reasons, I would preserve and restore important historic buildings, while allowing ordinary, unremarkable ones to be redeveloped where necessary.",
+      "In conclusion, although modern buildings bring undeniable practical advantages, I do not think this justifies demolishing our architectural heritage. The wisest approach is to protect buildings of real historical importance while permitting sensible redevelopment elsewhere."
+    ],
+    "translation": [
+      "随着城市扩张，它们常常面临一个选择：是保护老建筑，还是用现代建筑取而代之。有人主张应拆除过时的建筑为进步让路，另一些人则坚持必须加以保护。在我看来，具有历史意义的建筑应予保存，尽管并非每一栋老建筑都值得保留。",
+      "支持重建的人指出了一些现实考量。老建筑往往维护起来昂贵，高昂的维护成本可能成为公共资金的负担。它们还可能缺乏现代设施，在拥挤的市中心占用宝贵的土地，且不符合当前的安全标准。从这个角度看，用高效的新建筑取代它们，能支持城市发展、更好地服务不断增长的人口。",
+      "然而，我认为真正具有历史价值的建筑应受到保护。它们是一个国家文化遗产的一部分，赋予城市一种玻璃高楼无法提供的身份认同感。城堡、庙宇和老城中心等地标，还是重要的旅游景点，能带来收入、创造就业。基于这些理由，我会保护并修复重要的历史建筑，同时在必要时允许那些普通、平凡的建筑被重建。",
+      "总之，尽管现代建筑带来了不可否认的现实优势，但我认为这并不足以成为拆除我们建筑遗产的理由。最明智的做法，是保护真正具有历史重要性的建筑，同时在别处允许合理的重建。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出争议 + 表明立场",
+        "point": "重要历史建筑保护，普通老建筑可重建"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "观点一：重建",
+        "point": "维护贵、缺设施、占地、不合安全标准"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "观点二 + 我的观点",
+        "point": "文化遗产、身份认同、旅游价值"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "折中收束",
+        "point": "保护重要历史建筑 + 别处合理重建"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "old buildings",
+        "cn": "老建筑"
+      },
+      {
+        "en": "maintenance costs",
+        "cn": "维护成本"
+      },
+      {
+        "en": "modern facilities",
+        "cn": "现代设施"
+      },
+      {
+        "en": "urban development",
+        "cn": "城市发展"
+      },
+      {
+        "en": "historical value",
+        "cn": "历史价值"
+      },
+      {
+        "en": "cultural heritage",
+        "cn": "文化遗产"
+      },
+      {
+        "en": "a sense of identity",
+        "cn": "身份认同感"
+      },
+      {
+        "en": "tourist attractions",
+        "cn": "旅游景点"
+      },
+      {
+        "en": "historic buildings",
+        "cn": "历史建筑"
+      },
+      {
+        "en": "safety standards",
+        "cn": "安全标准"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "认为主张",
+        "words": [
+          "argue that",
+          "insist that",
+          "contend that"
+        ]
+      },
+      {
+        "sense": "拆除",
+        "words": [
+          "demolish",
+          "knock down",
+          "tear down"
+        ]
+      },
+      {
+        "sense": "保护",
+        "words": [
+          "protect",
+          "preserve",
+          "safeguard"
+        ]
+      },
+      {
+        "sense": "现实的优势",
+        "words": [
+          "practical advantages",
+          "practical benefits",
+          "tangible benefits"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "讨论\"重建\"与\"保护\"两方，明确\"分建筑对待\"的个人立场"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "While / From this perspective / However / For these reasons / In conclusion 层层推进"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "maintenance costs、cultural heritage、a sense of identity、tourist attractions 等话题搭配"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "让步（even though）、定语从句（that glass towers cannot provide）、并列动词结构多样"
+      }
+    ],
+    "ideas": [
+      "观点一：老建筑维护成本高，成公共资金负担。",
+      "观点一：缺现代设施、占用市中心宝贵土地、不合安全标准。",
+      "观点一：用新建筑取代支持城市发展、服务增长人口。",
+      "观点二：老建筑是文化遗产，给城市身份认同感。",
+      "观点二：城堡、庙宇、老城中心是旅游景点，带来收入与就业。",
+      "立场：保护真正有历史价值的，普通的可重建。",
+      "折中逻辑：不是全保也不是全拆，按建筑价值分类对待。",
+      "平衡表达：承认现代建筑现实优势，再收在\"保护遗产\"。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "arts-funding",
+    "group": "culture",
+    "task": "task2",
+    "taskType": "Agree / Disagree",
+    "title": "Should Governments Fund the Arts",
+    "titleCn": "政府该不该资助艺术",
+    "date": "2026-07-31",
+    "question": "Some people think that governments should spend money on public services and facilities, but not on the arts, such as music and painting.\n\nTo what extent do you agree or disagree?",
+    "questionCn": "有人认为政府应把钱花在公共服务和设施上，而不是花在音乐、绘画等艺术上。你在多大程度上同意或不同意？",
+    "stanceEn": "Public services must come first, but the arts still deserve modest government funding.",
+    "stanceCn": "公共服务应放在首位，但艺术仍然值得政府适度资助。",
+    "paragraphs": [
+      "It is sometimes claimed that public money should be reserved for essential services and facilities rather than being spent on the arts, such as music and painting. Although I accept that basic services must come first, I disagree with the view that the arts do not deserve any government funding.",
+      "There is certainly logic behind prioritising public services. Hospitals, schools, roads and other essential services meet the fundamental needs of citizens, and in countries with limited budgets these must inevitably take precedence. When people lack adequate healthcare or education, spending large sums on art galleries and concerts can understandably seem like an indulgence the state cannot afford.",
+      "Nevertheless, I believe that funding the arts is far from a waste of money. Culture enriches people's lives, providing enjoyment and meaning that improve their overall quality of life and well-being. The arts also shape a nation's cultural identity and, in practical terms, generate significant economic benefits: museums, galleries and music festivals attract tourists and create employment. Since the arts usually require only a small proportion of national spending, supporting them need not come at the expense of vital services.",
+      "In conclusion, while I agree that public services should be the priority, I do not accept that governments should abandon the arts altogether. A modest investment in culture brings social and economic rewards that make it thoroughly worthwhile."
+    ],
+    "translation": [
+      "人们有时声称，公共资金应留给必要的服务和设施，而不是花在音乐、绘画等艺术上。尽管我承认基本服务必须优先，但我不同意\"艺术不值得政府任何资助\"这一观点。",
+      "优先考虑公共服务当然有其道理。医院、学校、道路等必要服务满足公民的基本需求，在预算有限的国家，这些必然要优先。当人们连充足的医疗或教育都缺乏时，把大笔钱花在美术馆和音乐会上，理所当然会显得像是国家负担不起的奢侈。",
+      "然而，我认为资助艺术远非浪费金钱。文化丰富人们的生活，提供改善其整体生活质量与幸福感的乐趣与意义。艺术还塑造一个国家的文化认同，并且从实际角度看能带来可观的经济效益：博物馆、美术馆和音乐节吸引游客、创造就业。由于艺术通常只需占用国家开支的极小一部分，支持它们并不必以牺牲重要服务为代价。",
+      "总之，尽管我同意公共服务应是优先事项，但我不接受政府应彻底放弃艺术。对文化的适度投入会带来社会与经济回报，使其完全值得。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出观点 + 表明立场",
+        "point": "承认基本服务优先，但反对不资助艺术"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "让步：为何先顾公共服务",
+        "point": "医疗教育等基本需求优先"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "反驳 + 我的观点",
+        "point": "丰富生活、文化认同、经济效益、成本极小"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "折中收束",
+        "point": "适度投入文化，回报值得"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "public services",
+        "cn": "公共服务"
+      },
+      {
+        "en": "essential services",
+        "cn": "必要服务"
+      },
+      {
+        "en": "take precedence",
+        "cn": "优先"
+      },
+      {
+        "en": "funding the arts",
+        "cn": "资助艺术"
+      },
+      {
+        "en": "enriches people's lives",
+        "cn": "丰富人们的生活"
+      },
+      {
+        "en": "quality of life",
+        "cn": "生活质量"
+      },
+      {
+        "en": "cultural identity",
+        "cn": "文化认同"
+      },
+      {
+        "en": "economic benefits",
+        "cn": "经济效益"
+      },
+      {
+        "en": "a small proportion",
+        "cn": "极小一部分"
+      },
+      {
+        "en": "at the expense of",
+        "cn": "以牺牲……为代价"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "认为主张",
+        "words": [
+          "claim that",
+          "argue that",
+          "maintain that"
+        ]
+      },
+      {
+        "sense": "优先",
+        "words": [
+          "take precedence",
+          "come first",
+          "be the priority"
+        ]
+      },
+      {
+        "sense": "丰富",
+        "words": [
+          "enrich",
+          "enhance",
+          "add to"
+        ]
+      },
+      {
+        "sense": "值得的",
+        "words": [
+          "worthwhile",
+          "worth it",
+          "valuable"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "让步\"公共服务优先\"后明确反驳，回应 to what extent，立场一致"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "certainly / When… / Nevertheless / in practical terms / In conclusion 衔接清晰"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "cultural identity、economic benefits、quality of life 等话题搭配与同义替换"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "让步（Although…）、定语从句（that improve…）、原因状语（Since…）多样"
+      }
+    ],
+    "ideas": [
+      "让步：医疗、教育、道路等基本服务满足公民核心需求，应优先。",
+      "让步：预算有限时，大笔投艺术显得像奢侈。",
+      "反驳一：文化丰富生活，提升幸福感与生活质量。",
+      "反驳二：艺术塑造国家文化认同。",
+      "反驳三：博物馆、音乐节带来经济效益——吸引游客、创造就业。",
+      "关键点：艺术只占国家开支极小一部分。",
+      "立场：公共服务优先，但不应彻底放弃艺术。",
+      "平衡表达：适度投入文化，社会与经济回报使其值得。"
+    ],
+    "images": []
+  },
+  {
     "slug": "social-media-communication",
     "group": "tech",
     "task": "task2",
