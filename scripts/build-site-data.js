@@ -233,15 +233,17 @@ function parseReading(topicSlug) {
       });
       const raw = bodyLines.join(" ");
       const segments = [];
-      // 填空标记：(10) ___ / 10 ___ / **10** ___
-      const regex = /(?:\*\*)?\(?(\d+)\)?(?:\*\*)?\s*_{2,}/g;
+      // 填空标记多种写法都支持：(10)__ / **10** ___ / ***(10)***___ /
+      // **10. \_\_\_**（转义下划线、数字后带句点） / **__(10)__**（下划线在数字两侧）
+      const regex = /\*{0,3}(?:\(?(\d+)\)?[.．]?\*{0,3}\s*[\\_]{2,}|[\\_]{2,}\(?(\d+)\)?[\\_]{2,})\*{0,3}/g;
       let lastIndex = 0;
       let m;
       while ((m = regex.exec(raw)) !== null) {
+        const num = Number(m[1] || m[2]);
         const before = raw.slice(lastIndex, m.index);
         if (before.trim()) segments.push({ text: cleanInline(before) });
-        segments.push({ blank: Number(m[1]) });
-        group.questions.push({ number: Number(m[1]), text: "" });
+        segments.push({ blank: num });
+        group.questions.push({ number: num, text: "" });
         lastIndex = regex.lastIndex;
       }
       const tail = raw.slice(lastIndex);

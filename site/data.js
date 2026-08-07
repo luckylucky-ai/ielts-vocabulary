@@ -888,31 +888,31 @@ window.IELTS_VOCAB_TOPICS = [
           ],
           "segments": [
             {
-              "text": "Rivers collect water from multiple tributaries across a single drainage area known as a **__"
+              "text": "Rivers collect water from multiple tributaries across a single drainage area known as a"
             },
             {
               "blank": 10
             },
             {
-              "text": "**. As water flows downstream, it carries **__"
+              "text": ". As water flows downstream, it carries"
             },
             {
               "blank": 11
             },
             {
-              "text": "** that is deposited along the banks, forming floodplains that are highly **__"
+              "text": "that is deposited along the banks, forming floodplains that are highly"
             },
             {
               "blank": 12
             },
             {
-              "text": "** and suitable for growing crops. Early communities used these plains for agriculture by learning to **__"
+              "text": "and suitable for growing crops. Early communities used these plains for agriculture by learning to"
             },
             {
               "blank": 13
             },
             {
-              "text": "** the land with river water. ---"
+              "text": "the land with river water. ---"
             }
           ]
         }
@@ -2464,31 +2464,31 @@ window.IELTS_VOCAB_TOPICS = [
           ],
           "segments": [
             {
-              "text": "The burning of fossil fuels has increased the concentration of greenhouse gases, causing global warming. In polar regions, **__"
+              "text": "The burning of fossil fuels has increased the concentration of greenhouse gases, causing global warming. In polar regions,"
             },
             {
               "blank": 10
             },
             {
-              "text": "** are melting faster than before, which raises **__"
+              "text": "are melting faster than before, which raises"
             },
             {
               "blank": 11
             },
             {
-              "text": "** levels around the world. Meanwhile, the clearing of forests, known as **__"
+              "text": "levels around the world. Meanwhile, the clearing of forests, known as"
             },
             {
               "blank": 12
             },
             {
-              "text": "**, removes natural systems that absorb carbon. Experts caution that environmental conditions will keep getting worse unless countries work together to **__"
+              "text": ", removes natural systems that absorb carbon. Experts caution that environmental conditions will keep getting worse unless countries work together to"
             },
             {
               "blank": 13
             },
             {
-              "text": "** the most harmful consequences. ---"
+              "text": "the most harmful consequences. ---"
             }
           ]
         }
@@ -19550,9 +19550,69 @@ window.IELTS_VOCAB_TOPICS = [
             "F",
             "G"
           ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "nutrition",
+              "explanation": "段落 E: \"Proper nutrition...fuels the body\" · 正确的营养为身体提供所需能量。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "fatigue",
+              "explanation": "段落 E: \"adequate hydration prevents the early onset of fatigue\" · 充分补水有助于延缓疲劳的发生。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "warm-up",
+              "explanation": "段落 E: \"Every session begins with a thorough warm-up to protect muscles\" · 每次训练从热身开始以保护肌肉。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "rehabilitation",
+              "explanation": "段落 E: \"a comprehensive rehabilitation programme is essential to restore the athlete's physique\" · 全面的康复计划帮助运动员恢复竞技状态。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "Professional athletes follow a structured training programme that develops their endurance, agility, and stamina. Correct"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "provides the energy the body requires, while staying properly hydrated helps delay the onset of"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": ". Each training session starts with a"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "to protect muscles from damage. When athletes sustain injuries, a thorough"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "programme helps them return to competition. ---"
+            }
+          ]
         }
       ],
-      "questionCount": 9
+      "questionCount": 13
     },
     "group": "culture"
   },
@@ -20330,9 +20390,69 @@ window.IELTS_VOCAB_TOPICS = [
               "text": "How nutrients and supplements support bodily function"
             }
           ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "regulation",
+              "explanation": "段落 E: \"Regulation mandates clear labelling of every additive and preservative\" · 政府法规要求清楚标注所有添加剂和防腐剂。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "expiry",
+              "explanation": "段落 E: \"products must display an expiry date\" · 产品必须标注过期日期。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "traceability",
+              "explanation": "段落 E: \"tracked through traceability systems designed to pinpoint the source\" · 通过可追溯性系统监控食品从农场到商店的全过程。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "recall",
+              "explanation": "段落 E: \"products found to be adulterated face immediate recall\" · 被发现掺假或污染的产品将面临立即召回。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "Food safety depends on rigorous oversight at every stage. Government"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "requires that all additives and preservatives be clearly listed on packaging. Products must carry an"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "date so consumers know when they are no longer safe to eat. The journey of food from farms to shops is monitored through"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "systems, and items found to have been contaminated or adulterated face an immediate"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": ". ---"
+            }
+          ]
         }
       ],
-      "questionCount": 9
+      "questionCount": 13
     },
     "group": "culture"
   },
@@ -21112,9 +21232,69 @@ window.IELTS_VOCAB_TOPICS = [
             "E",
             "F"
           ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "obedience",
+              "explanation": "段落 E: \"Older family members may value filial piety and obedience\" · 老一代看重孝顺和服从。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "autonomy",
+              "explanation": "段落 E: \"Younger members often prioritise personal autonomy\" · 年轻人追求个人自主权。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "mediation",
+              "explanation": "段落 E: \"Bridging this divide requires compromise and mediation\" · 弥合分歧需要妥协和调解。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "inheritance",
+              "explanation": "段落 E: \"family heirlooms serve as tangible reminders of inheritance and succession\" · 传家宝是代际传承的实物象征。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "Intergenerational conflict often centres on differing values. Older family members tend to emphasise"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "and respect for authority, while younger people seek greater personal"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": ". Resolving such disagreements demands both compromise and"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "— a willingness on each side to listen to the other. Family heirlooms function as physical symbols of"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "from one generation to the next. ---"
+            }
+          ]
         }
       ],
-      "questionCount": 9
+      "questionCount": 13
     },
     "group": "society"
   },
@@ -21869,9 +22049,69 @@ window.IELTS_VOCAB_TOPICS = [
               "text": "The material culture of ancient empires"
             }
           ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "grid",
+              "explanation": "段落 A: \"a measured grid is laid across the terrain to ensure that every object recovered can be mapped\" · 在地面上铺设方格网以精确定位每个发现物。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "stratum",
+              "explanation": "段落 A: \"each stratum of earth may represent a distinct period of human activity\" · 每一地层可能代表不同的历史时期。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "carbon",
+              "explanation": "段落 B: \"Carbon dating allows researchers to assign an approximate date to organic remnants\" · 碳定年帮助研究者确定有机遗留物的大致年代。注意空格后已有 \"dating\"，只需填 \"carbon\"。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "provenance",
+              "explanation": "段落 B: \"The provenance of each item — its documented chain of ownership — is scrutinised\" · 来源指每件物品的所有权记录链。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "Archaeological excavation proceeds methodically. A"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "is placed over the terrain so that every find can be precisely located. Earth is removed one"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "at a time, as each layer may correspond to a different historical period. In the laboratory,"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "dating helps researchers establish the approximate age of organic remains. Experts also check each artefact's documented ownership history, known as its"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": ", to ensure it has not been illegally obtained. ---"
+            }
+          ]
         }
       ],
-      "questionCount": 9
+      "questionCount": 13
     },
     "group": "culture"
   },
@@ -22699,9 +22939,69 @@ window.IELTS_VOCAB_TOPICS = [
               "explanation": "段落F指出\"an interpreter must navigate differences in syntax and cultural context to translate meaning faithfully\"，即翻译需要跨越文化与结构差异。A（逐字替换）被明确否定（\"rarely a matter of simple literal substitution\"），B和D都不准确。"
             }
           ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "posture",
+              "explanation": "段落D: \"Facial expression, gesture, and posture collectively form what scholars term the 'body language lexicon'\" · 题目说\"physical ___ and hand movements\"，hand movements 对应 gesture，physical ___ 对应 posture（姿势）。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "rhetoric",
+              "explanation": "段落E: \"The use of rhetoric — including strategic anecdotes and carefully timed pauses to emphasize key points\" · \"the art of persuasive language\" 对应 rhetoric（修辞），原文描述 rhetoric 包含策略性轶事和停顿来强调要点。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "testimony",
+              "explanation": "段落E: \"personal testimony lends credibility to the speaker's argument\" · \"personal ___ to build trust\" 对应 personal testimony lends credibility，credibility ≈ trust。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "nuance",
+              "explanation": "段落F: \"linguists developing digital archives that capture the nuance of each language's colloquial expressions\" · \"unique cultural ___ that cannot be captured through simple word-for-word translation\" 对应 nuance（细微差别），原文说 literal substitution 难以传达 nuance。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "Communication involves multiple layers beyond spoken language. In face-to-face interactions, a person's physical"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "and hand movements can reveal unspoken attitudes. Skilled public speakers use"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "— the art of persuasive language — to engage their listeners, and they support their arguments with personal"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "to build trust. At the global scale, linguists are working to preserve disappearing languages by documenting the unique cultural"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "that cannot be captured through simple word-for-word translation. ---"
+            }
+          ]
         }
       ],
-      "questionCount": 9
+      "questionCount": 13
     },
     "group": "education"
   },
@@ -23491,9 +23791,69 @@ window.IELTS_VOCAB_TOPICS = [
               "text": "Diverse travel styles and the search for authenticity"
             }
           ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "livelihoods",
+              "explanation": "段落D: \"Tourism undeniably supports local livelihoods\" · \"supporting local ___\" 直接对应原文 \"supports local livelihoods\"（生计）。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "dependency",
+              "explanation": "段落D: \"an excessive dependency on seasonal tourist flows leaves communities vulnerable\" · \"over-reliance\" ≈ \"excessive dependency\"，\"risky ___\" 对应 dependency。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "commodify",
+              "explanation": "段落C: \"chains that commodify cultural traditions, turning living customs into mass-produced souvenirs\" · \"mass production of goods has begun to ___ traditional crafts\" 对应 commodify（商品化）。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "gentrification",
+              "explanation": "段落C: \"The resulting gentrification displaces long-term residents\" · \"neighbourhood changes...push original residents out\" 对应 gentrification（士绅化）。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "Tourism provides clear economic advantages, particularly by supporting local"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": ". However, over-reliance on visitors who arrive only at certain times of year creates a risky"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "that can leave communities exposed during downturns. At popular cultural sites, mass production of goods has begun to"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "traditional crafts, and the resulting neighbourhood changes — often described as"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "— push original residents out of their homes. ---"
+            }
+          ]
         }
       ],
-      "questionCount": 9
+      "questionCount": 13
     },
     "group": "culture"
   },
@@ -24331,9 +24691,69 @@ window.IELTS_VOCAB_TOPICS = [
               "explanation": "段落E提到锂和钴\"are concentrated in a handful of resource-rich nations\"，引出geographic imbalance和import-dependent国家的困境。作者用这两种矿物来说明关键矿产的地理集中问题。"
             }
           ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "insulation",
+              "explanation": "段落F: \"improving insulation, upgrading old appliances, and programming a thermostat\" · \"Upgrading ___ in walls and roofs prevents heat loss\" 对应 insulation（隔热保温），安装在墙壁和屋顶防止热量散失。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "thermostat",
+              "explanation": "段落F: \"programming a thermostat to reduce heating during unoccupied hours\" · \"setting a ___ to lower temperatures when nobody is home\" 直接对应 thermostat（恒温器）。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "off-grid",
+              "explanation": "段落F: \"off-grid living powered by rooftop solar offers a way to offset personal emissions entirely\" · \"complete energy independence\" ≈ off-grid（离网的），\"personal solar systems\" ≈ \"rooftop solar\"。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "retrofit",
+              "explanation": "段落F: \"The retrofit of older buildings with modern insulation and double glazing represents one of the most cost-effective strategies available to minimize national energy demand\" · \"most affordable ways to lower...energy demand\" ≈ \"most cost-effective strategies...to minimize national energy demand\"，对应 retrofit（改造升级）。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "At the household level, energy use can be reduced through practical steps. Upgrading"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "in walls and roofs prevents heat loss, while setting a"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "to lower temperatures when nobody is home cuts unnecessary heating. Residents who want complete energy independence can adopt an"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "lifestyle powered by personal solar systems. The"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "of older buildings with modern materials is considered one of the most affordable ways to lower a country's overall energy demand. ---"
+            }
+          ]
         }
       ],
-      "questionCount": 9
+      "questionCount": 13
     },
     "group": "nature"
   },
@@ -25135,9 +25555,69 @@ window.IELTS_VOCAB_TOPICS = [
               "text": "Land-based water scarcity and its causes"
             }
           ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "aquifers",
+              "explanation": "段落D: \"Underground aquifers that supply groundwater to farms and cities are being depleted far faster than rainfall can replenish them\" · \"underground water-bearing rock layers\" 是 aquifer 的释义，\"emptied more quickly than nature can refill\" ≈ \"depleted far faster than rainfall can replenish\"。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "desalination",
+              "explanation": "段落E: \"Desalination plants along the coasts...convert seawater into potable drinking water, although the process is energy-intensive\" · \"convert seawater into safe drinking water\" ≈ \"convert seawater into potable drinking water\"，\"consumes significant energy\" ≈ \"energy-intensive\"。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "tariffs",
+              "explanation": "段落F: \"Setting appropriate water tariffs can discourage wasteful consumption\" · \"setting ___ at levels that discourage excessive consumption\" 直接对应原文 \"setting appropriate water tariffs can discourage wasteful consumption\"。wasteful ≈ excessive。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "meters",
+              "explanation": "段落F: \"Smart meters that monitor usage in real time allow authorities to identify leaks promptly\" · \"installing smart ___ that track usage in real time so that leaks can be found quickly\" 对应 \"Smart meters that monitor usage in real time...identify leaks promptly\"。track ≈ monitor, found quickly ≈ promptly。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "Freshwater supplies are under severe pressure in many regions. In dry areas, underground water-bearing rock layers known as"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "are being emptied more quickly than nature can refill them. Coastal"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "plants can convert seawater into safe drinking water, but the process consumes significant energy. Governments can reduce unnecessary water use by setting"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "at levels that discourage excessive consumption, and by installing smart"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "that track usage in real time so that leaks can be found quickly. ---"
+            }
+          ]
         }
       ],
-      "questionCount": 9
+      "questionCount": 13
     },
     "group": "nature"
   },
@@ -25968,9 +26448,69 @@ window.IELTS_VOCAB_TOPICS = [
               "text": "Corporate transparency and the minimalist movement"
             }
           ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose NO MORE THAN ONE WORD from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "biodegradable",
+              "explanation": "段落 F：\"Products made from **biodegradable** materials that do not contaminate waterways\" · 原文说可生物降解的材料不会污染水源，题目反向表述说便宜面料\"不容易分解\"是因为\"不是 biodegradable 的\"。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "landfill",
+              "explanation": "段落 B：\"unsold inventory frequently sent to **landfill** or incinerated\" · 原文明确说未售出的库存被送到垃圾填埋场，题目用 \"sites\" 搭配，答案只需填 landfill。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "secondhand",
+              "explanation": "段落 E：\"**Secondhand** clothing platforms have experienced a surge in popularity\" · 题目说\"从二手商店和网上转卖平台购买 _____ 衣服\"，对应原文 secondhand（二手的）。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "capsule",
+              "explanation": "段落 F：\"the concept of the **capsule wardrobe** — a small collection of durable, versatile pieces\" · 题目描述\"精心策划的持久单品小型衣橱\"即 capsule wardrobe，空格在 wardrobe 前，答案为 capsule。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "The fast fashion industry creates enormous environmental damage. Cheap synthetic fabrics and toxic dyes are used to reduce costs, but these materials are not easily broken down in the environment because they are not"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": ". Much of the unsold clothing ends up in"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "sites rather than being reused. In response, a growing number of consumers are choosing to purchase"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "clothing from thrift stores and online resale platforms. Fashion advocates also promote the concept of a small, carefully curated wardrobe of long-lasting items, known as a"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "wardrobe. ---"
+            }
+          ]
         }
       ],
-      "questionCount": 9
+      "questionCount": 13
     },
     "group": "culture"
   },
@@ -26852,9 +27392,69 @@ window.IELTS_VOCAB_TOPICS = [
               "explanation": "段落 E 一方面用 \"proven remarkably effective\"、\"renewed sense of empowerment\" 表达积极态度，另一方面以 \"Whether this wave of civic energy can translate into lasting change remains to be seen\" 表达不确定性，整体语气为\"谨慎乐观，但承认不确定性\"。"
             }
           ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose NO MORE THAN ONE WORD from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "dependency",
+              "explanation": "段落 B：\"the **dependency** ratio — the number of retirees relative to working-age adults\" · 题目描述与原文一致，空格前有定冠词 the，后有 ratio，答案为 dependency。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "isolation",
+              "explanation": "段落 B：\"the **isolation** experienced by those who live alone represents a significant public health concern\" · 题目说\"独居老人遭受 _____，已成为重大公共健康问题\"，对应原文 isolation（孤独/隔离）。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "filial",
+              "explanation": "段落 B：\"shifting attitudes toward **filial** responsibility\" · 题目说\"对 _____ 责任的社会态度变化\"，filial（孝顺的）修饰 duty/responsibility，对应原文 filial responsibility。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "dignity",
+              "explanation": "段落 B：\"how best to preserve the **dignity** of the ageing population\" · 题目说\"保护老年人的 _____ 已成为养老政策辩论的核心关注\"，对应原文 dignity（尊严）。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "The ageing of populations in many countries has created serious social and economic challenges. As people live longer, the"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "ratio — which measures the proportion of retirees to working adults — continues to rise. Many elderly people living alone suffer from"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": ", which has become a significant public health issue. Changing social attitudes toward"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "duty mean that younger generations increasingly question their obligation to care for ageing parents. Preserving the"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "of elderly citizens has become a central concern in debates about eldercare policy. ---"
+            }
+          ]
         }
       ],
-      "questionCount": 9
+      "questionCount": 13
     },
     "group": "society"
   },
@@ -27608,9 +28208,69 @@ window.IELTS_VOCAB_TOPICS = [
               "text": "Regulatory frameworks and the future of AI governance"
             }
           ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose NO MORE THAN ONE WORD from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "obsolete",
+              "explanation": "段落 D：\"As automation renders certain routine tasks **obsolete**\" · 题目说\"自动化可能使某些职位变得 _____\"，对应原文 obsolete（过时的/淘汰的）。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "vocational",
+              "explanation": "段落 D：\"**vocational** training programmes that prepare workers to adapt\" · 题目说\"通过接受 _____ 培训项目来提升新技能\"，对应原文 vocational（职业技能的）。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "collaborate",
+              "explanation": "段落 D：\"workers should learn to **collaborate** with intelligent systems\" · 题目说\"鼓励工人与智能系统 _____ 以提升效能\"，对应原文 collaborate（协作）。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "entrepreneurial",
+              "explanation": "段落 D：\"opened new **entrepreneurial** pathways\" · 题目说\"创造了新的 _____ 机会\"，对应原文 entrepreneurial（创业的）。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "The rapid growth of AI has significant implications for the job market. While automation may make some positions"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": ", workers can prepare themselves by undergoing"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "training programmes that teach new skills relevant to changing industries. Rather than competing with AI, workers are encouraged to"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "with intelligent systems to enhance their effectiveness. Meanwhile, the expansion of freelance work and the gig economy has created new"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "opportunities for those willing to work independently. ---"
+            }
+          ]
         }
       ],
-      "questionCount": 9
+      "questionCount": 13
     },
     "group": "tech"
   },
@@ -28358,9 +29018,69 @@ window.IELTS_VOCAB_TOPICS = [
               "explanation": "段落 E 的核心论点是：UNESCO 的国际认可（inscribed on the global stage）加上积极的保护努力（programmes to revitalise/preserve/perpetuate）正在帮助该节日延续，对应选项 B。选项 A（商业化失去原意）、C（只应在原产国庆祝）、D（年轻人不感兴趣）均与原文观点相悖。"
             }
           ]
+        },
+        {
+          "type": "summary",
+          "title": "Questions 10-13: Summary Completion",
+          "instruction": "Complete the summary below. Choose NO MORE THAN ONE WORD from the passage for each answer.",
+          "questions": [
+            {
+              "number": 10,
+              "text": "",
+              "answer": "intangible",
+              "explanation": "段落 E：\"Recognised by UNESCO as an **intangible** cultural heritage item\" · 题目说\"UNESCO 认可为 _____ 文化遗产\"，空格修饰 cultural heritage，答案为 intangible（非物质的）。"
+            },
+            {
+              "number": 11,
+              "text": "",
+              "answer": "revitalise",
+              "explanation": "段落 E：\"programmes designed to **revitalise** traditional practices\" · 题目说\"各种项目旨在 _____ 逐渐消失的传统习俗\"，revitalise（振兴/复兴）准确对应\"使衰落中的传统重获活力\"。"
+            },
+            {
+              "number": 12,
+              "text": "",
+              "answer": "transmission",
+              "explanation": "段落 E：\"ensure their **transmission** to younger generations\" · 题目说\"确保它们持续 _____ 给后代\"，transmission（传承/传递）表示代际知识传递。"
+            },
+            {
+              "number": 13,
+              "text": "",
+              "answer": "cohesion",
+              "explanation": "段落 E：\"preserving the communal bonds and social **cohesion** that the festival has long fostered\" · 题目说\"这些社区庆典加强了社会 _____\"，cohesion（凝聚力）对应\"社会纽带与团结\"。"
+            }
+          ],
+          "segments": [
+            {
+              "text": "The Dragon Boat Festival preserves customs that reflect centuries of tradition. UNESCO has recognised it as an example of"
+            },
+            {
+              "blank": 10
+            },
+            {
+              "text": "cultural heritage. Various programmes aim to"
+            },
+            {
+              "blank": 11
+            },
+            {
+              "text": "fading traditional practices and ensure their continued"
+            },
+            {
+              "blank": 12
+            },
+            {
+              "text": "to future generations. These communal celebrations strengthen social"
+            },
+            {
+              "blank": 13
+            },
+            {
+              "text": "and foster a shared sense of cultural identity. ---"
+            }
+          ]
         }
       ],
-      "questionCount": 9
+      "questionCount": 13
     },
     "group": "culture"
   }
