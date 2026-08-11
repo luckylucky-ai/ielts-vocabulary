@@ -21,6 +21,7 @@ const FUNCTIONS = ["vocab", "reading", "writing", "speaking"];
 
 const state = {
   activeFunction: FUNCTIONS.includes(prefs.activeFunction) ? prefs.activeFunction : "vocab",
+  writingTab: ["essays", "task2", "ideas", "task1"].includes(prefs.writingTab) ? prefs.writingTab : "essays",
   activeGroup: "all",
   activeTopic: topics.some((topic) => topic.slug === prefs.activeTopic) ? prefs.activeTopic : "all",
   query: "",
@@ -341,20 +342,6 @@ function renderDirectory() {
         return directorySection(group.title, cards);
       })
       .join("");
-  } else if (fn === "writing") {
-    sections = allGroups()
-      .map((group) => {
-        const list = essays.filter((essay) => essay.group === group.key);
-        if (!list.length) return "";
-        count += list.length;
-        const cards = list
-          .map((essay) =>
-            dirCard(`data-essay="${escapeHtml(essay.slug)}"`, essay.titleCn || essay.title, essay.title, `Task 2 · ${essay.taskType || ""}`.trim()),
-          )
-          .join("");
-        return directorySection(group.title, cards);
-      })
-      .join("");
   } else if (fn === "speaking") {
     const all = window.IELTS_SPEAKING || {};
     sections = allGroups()
@@ -376,6 +363,126 @@ function renderDirectory() {
     `<span class="wb-title-cn">${escapeHtml(FUNCTION_META[fn].title)}</span>` +
     `<span class="wb-title-en">${count} 项 · 点击进入</span>`;
   gallery.innerHTML = sections || `<div class="empty">暂无内容。</div>`;
+}
+
+// ---------- 写作：范文 + 题型攻略 + 观点库 + 小作文 ----------
+const WRITING_TABS = [
+  ["essays", "范文"],
+  ["task2", "Task 2 题型"],
+  ["ideas", "话题观点库"],
+  ["task1", "Task 1 题型"],
+];
+
+// 范文目录（按大类分组的卡片），供「范文」子标签复用
+function essaySectionsHtml() {
+  return allGroups()
+    .map((group) => {
+      const list = essays.filter((essay) => essay.group === group.key);
+      if (!list.length) return "";
+      const cards = list
+        .map((essay) =>
+          dirCard(`data-essay="${escapeHtml(essay.slug)}"`, essay.titleCn || essay.title, essay.title, `Task 2 · ${essay.taskType || ""}`.trim()),
+        )
+        .join("");
+      return directorySection(group.title, cards);
+    })
+    .join("");
+}
+
+function chips(items) {
+  return items.map((item) => `<em class="wg-chip">${escapeHtml(item)}</em>`).join("");
+}
+
+function guideTypeCard(type, cueLabel, cueText, extraTop) {
+  const steps = (type.structure || [])
+    .map((s) => `<div class="wg-step"><b>${escapeHtml(s.p)}</b><span>${escapeHtml(s.d)}</span></div>`)
+    .join("");
+  return `
+    <section class="wg-type">
+      <div class="wg-type-head">
+        <h3>${escapeHtml(type.cn)}</h3>
+        <span class="wg-type-en">${escapeHtml(type.en)}</span>
+      </div>
+      ${extraTop || ""}
+      <p class="wg-cue"><b>${cueLabel}</b>${escapeHtml(cueText)}</p>
+      <div class="wg-struct">${steps}</div>
+      ${type.connectors ? `<div class="wg-conn"><span class="wg-conn-label">连接词</span><div class="wg-chips">${chips(type.connectors)}</div></div>` : ""}
+      ${type.language ? `<div class="wg-langs">${(type.language || []).map((l) => `<div class="wg-langrow"><span class="wg-langrow-label">${escapeHtml(l.label)}</span><div class="wg-chips">${chips(l.items)}</div></div>`).join("")}</div>` : ""}
+      ${type.skeleton ? `<div class="wg-skeleton"><span class="wg-skeleton-label">英文骨架</span>${type.skeleton.map((line) => `<p>${escapeHtml(line)}</p>`).join("")}</div>` : ""}
+    </section>
+  `;
+}
+
+function task2GuideHtml() {
+  const t2 = (window.IELTS_WRITING_GUIDE || {}).task2 || { types: [], connectors: [] };
+  const intro = t2.intro ? `<p class="wg-intro">${escapeHtml(t2.intro)}</p>` : "";
+  const typeCards = (t2.types || [])
+    .map((type) => {
+      const cueEn = type.cueEn ? `<p class="wg-cue-en">“${escapeHtml(type.cueEn)}”</p>` : "";
+      const stance = type.stance ? `<p class="wg-stance"><b>🎯 立场　</b>${escapeHtml(type.stance)}</p>` : "";
+      return guideTypeCard(type, "📌 何时出现　", type.when || "", cueEn + stance);
+    })
+    .join("");
+  const bank = (t2.connectors || [])
+    .map((g) => `<div class="wg-langrow"><span class="wg-langrow-label">${escapeHtml(g.fn)}</span><div class="wg-chips">${chips(g.items)}</div></div>`)
+    .join("");
+  const bankSection = bank
+    ? `<section class="wg-type wg-connbank"><div class="wg-type-head"><h3>连接词库</h3><span class="wg-type-en">Linking Words by Function</span></div>${bank}</section>`
+    : "";
+  return intro + typeCards + bankSection;
+}
+
+function ideaBanksHtml() {
+  const banks = (window.IELTS_WRITING_GUIDE || {}).ideaBanks || [];
+  const intro = `<p class="wg-intro">常考话题的正反观点速记。写作时正反各取 1–2 点展开即可；有范文的可点右上角直达。</p>`;
+  const cards = banks
+    .map((b) => {
+      const list = (arr) => arr.map((x) => `<li><b>${escapeHtml(x.en)}</b><span>${escapeHtml(x.cn)}</span></li>`).join("");
+      const link = b.essaySlug
+        ? `<button class="wg-essay-link" type="button" data-essay="${escapeHtml(b.essaySlug)}">查看范文 ↗</button>`
+        : "";
+      return `
+        <section class="wg-idea">
+          <div class="wg-idea-head">
+            <div><h3>${escapeHtml(b.cn)}</h3><span class="wg-type-en">${escapeHtml(b.en)}</span></div>
+            ${link}
+          </div>
+          <div class="wg-idea-cols">
+            <div class="wg-col wg-pros"><h4>✔ 优点 / 正面</h4><ul>${list(b.pros || [])}</ul></div>
+            <div class="wg-col wg-cons"><h4>✘ 缺点 / 反面</h4><ul>${list(b.cons || [])}</ul></div>
+          </div>
+        </section>
+      `;
+    })
+    .join("");
+  return intro + cards;
+}
+
+function task1GuideHtml() {
+  const t1 = (window.IELTS_WRITING_GUIDE || {}).task1 || { types: [] };
+  const intro = t1.intro ? `<p class="wg-intro">${escapeHtml(t1.intro)}</p>` : "";
+  const cards = (t1.types || []).map((type) => guideTypeCard(type, "📌 描述重点　", type.focus || "")).join("");
+  return intro + cards;
+}
+
+function renderWriting() {
+  groupEyebrow.hidden = true;
+  workbenchActions.innerHTML = "";
+  gallery.classList.add("directory-mode");
+
+  const tab = state.writingTab;
+  const tabBar = `<div class="wg-tabs" role="tablist">${WRITING_TABS.map(
+    ([id, label]) => `<button class="wg-tab ${id === tab ? "is-active" : ""}" type="button" role="tab" data-wtab="${id}">${label}</button>`,
+  ).join("")}</div>`;
+
+  let body = "";
+  if (tab === "task2") body = task2GuideHtml();
+  else if (tab === "ideas") body = ideaBanksHtml();
+  else if (tab === "task1") body = task1GuideHtml();
+  else body = essaySectionsHtml() || `<div class="empty">暂无范文。</div>`;
+
+  pageTitle.innerHTML = `<span class="wb-title-cn">写作</span><span class="wb-title-en">Writing · 范文 · 题型 · 观点 · 小作文</span>`;
+  gallery.innerHTML = tabBar + `<div class="wg-body">${body}</div>`;
 }
 
 // 词汇主区标题：搜索 > 话题 > 大类 > 全部
@@ -464,7 +571,8 @@ function renderMain() {
   } else {
     vocabFilter.hidden = true;
     vocabFilter.innerHTML = "";
-    renderDirectory();
+    if (state.activeFunction === "writing") renderWriting();
+    else renderDirectory();
   }
 }
 
@@ -2003,6 +2111,24 @@ function attachEvents() {
   });
 
   gallery.addEventListener("click", (event) => {
+    // 写作二级标签切换
+    const wtab = event.target.closest(".wg-tab");
+    if (wtab) {
+      if (wtab.dataset.wtab !== state.writingTab) {
+        state.writingTab = wtab.dataset.wtab;
+        savePrefs({ writingTab: state.writingTab });
+        renderWriting();
+        gallery.scrollTop = 0;
+      }
+      return;
+    }
+    // 观点库里「查看范文」直达
+    const essayLink = event.target.closest(".wg-essay-link");
+    if (essayLink) {
+      openEssay(essayLink.dataset.essay);
+      return;
+    }
+
     // 目录模式：卡片进入对应练习
     const dir = event.target.closest(".dir-card");
     if (dir) {

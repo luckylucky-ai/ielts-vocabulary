@@ -514,7 +514,7 @@ function bustCache() {
   const indexPath = path.join(siteDir, "index.html");
   if (!fs.existsSync(indexPath)) return;
   let html = fs.readFileSync(indexPath, "utf8");
-  for (const asset of ["styles.css", "data.js", "app.js"]) {
+  for (const asset of ["styles.css", "data.js", "writing-guide.js", "app.js"]) {
     const assetPath = path.join(siteDir, asset);
     if (!fs.existsSync(assetPath)) continue;
     const hash = crypto.createHash("sha1").update(fs.readFileSync(assetPath)).digest("hex").slice(0, 8);

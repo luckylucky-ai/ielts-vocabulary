@@ -620,6 +620,306 @@ h2 {
   font-variant-numeric: tabular-nums;
 }
 
+/* ---------------- 写作指南 ---------------- */
+.wg-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.wg-tab {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.6);
+  color: #4b453a;
+  cursor: pointer;
+  font-size: 13.5px;
+  font-weight: 600;
+  padding: 7px 16px;
+  transition: background 140ms ease, color 140ms ease, border-color 140ms ease;
+}
+
+.wg-tab:hover {
+  color: var(--ink);
+  border-color: rgba(33, 29, 22, 0.24);
+}
+
+.wg-tab.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fdfaf2;
+  font-weight: 700;
+}
+
+.wg-body {
+  display: grid;
+  gap: 20px;
+}
+
+.wg-intro {
+  margin: -4px 0 2px;
+  padding: 12px 16px;
+  border-left: 3px solid var(--accent);
+  background: rgba(68, 96, 78, 0.06);
+  border-radius: 0 8px 8px 0;
+  color: #4b453a;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.wg-type {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--card);
+  padding: 20px 22px;
+}
+
+.wg-type-head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.wg-type-head h3 {
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.wg-type-en {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.wg-cue,
+.wg-stance {
+  margin: 8px 0;
+  color: #4b453a;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.wg-cue b,
+.wg-stance b {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.wg-cue-en {
+  margin: 6px 0;
+  color: var(--clay);
+  font-size: 14px;
+  font-style: italic;
+}
+
+.wg-struct {
+  display: grid;
+  gap: 8px;
+  margin: 14px 0;
+}
+
+.wg-step {
+  display: grid;
+  grid-template-columns: 76px 1fr;
+  gap: 12px;
+  align-items: start;
+  padding: 9px 12px;
+  border-radius: 8px;
+  background: rgba(33, 29, 23, 0.03);
+}
+
+.wg-step b {
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.wg-step span {
+  color: #4b453a;
+  font-size: 13.5px;
+  line-height: 1.55;
+}
+
+.wg-conn,
+.wg-langrow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.wg-conn-label,
+.wg-langrow-label {
+  flex: 0 0 auto;
+  min-width: 68px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.wg-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.wg-chip {
+  padding: 3px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--ink);
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.wg-langs {
+  display: grid;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+.wg-skeleton {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: rgba(95, 142, 150, 0.08);
+  border: 1px dashed rgba(95, 142, 150, 0.4);
+}
+
+.wg-skeleton-label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--teal);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.wg-skeleton p {
+  margin: 4px 0;
+  color: #3f4a4c;
+  font-size: 13.5px;
+  line-height: 1.55;
+  font-style: italic;
+}
+
+/* 观点库 */
+.wg-idea {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--card);
+  padding: 18px 20px;
+}
+
+.wg-idea-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.wg-idea-head h3 {
+  font-family: var(--serif);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.wg-essay-link {
+  flex: 0 0 auto;
+  border: 1px solid var(--border-strong, rgba(33, 29, 22, 0.28));
+  border-radius: 8px;
+  background: var(--card);
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 12.5px;
+  font-weight: 700;
+  padding: 6px 12px;
+  transition: border-color 140ms ease, background 140ms ease;
+}
+
+.wg-essay-link:hover {
+  border-color: var(--ink);
+  background: rgba(33, 29, 23, 0.045);
+}
+
+.wg-idea-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.wg-col h4 {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.wg-pros h4 {
+  color: var(--sage);
+}
+
+.wg-cons h4 {
+  color: var(--clay);
+}
+
+.wg-col ul {
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+.wg-col li {
+  padding: 9px 12px;
+  border-radius: 8px;
+  background: rgba(33, 29, 23, 0.03);
+}
+
+.wg-pros li {
+  box-shadow: inset 3px 0 0 rgba(122, 141, 114, 0.55);
+}
+
+.wg-cons li {
+  box-shadow: inset 3px 0 0 rgba(168, 101, 63, 0.5);
+}
+
+.wg-col li b {
+  display: block;
+  color: var(--ink);
+  font-size: 13.5px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.wg-col li span {
+  color: var(--muted);
+  font-size: 12.5px;
+}
+
+@media (max-width: 720px) {
+  .wg-idea-cols {
+    grid-template-columns: 1fr;
+  }
+  .wg-step {
+    grid-template-columns: 64px 1fr;
+  }
+}
+
 .vocab-card {
   position: relative;
   border: 1px solid var(--line);
