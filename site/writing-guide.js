@@ -164,6 +164,24 @@ window.IELTS_WRITING_GUIDE = {
       ],
     },
     {
+      id: "ai-solutionism", cn: "人工智能：热望与局限", en: "Artificial Intelligence — Hype vs Reality", group: "tech",
+      pros: [
+        { en: "May help cure diseases and speed up medical research", cn: "有望助力攻克疾病、加速医学研究" },
+        { en: "Accelerates innovation and boosts human creativity", cn: "加速创新、激发人类创造力" },
+        { en: "Excels at narrow, well-defined everyday tasks", cn: "擅长具体、界定清晰的日常任务" },
+        { en: "Processes vast datasets far beyond human capacity", cn: "处理远超人力的海量数据" },
+        { en: "Frees human experts to focus on judgement", cn: "把专家解放去做判断与决策" },
+      ],
+      cons: [
+        { en: "AI solutionism — the myth that more data solves everything", cn: "「AI 万能论」：以为数据够多就能解决一切" },
+        { en: "There is no single AI solution for every problem", cn: "没有能解决一切问题的万用 AI 方案" },
+        { en: "The public sector lacks the data infrastructure and talent to use it", cn: "公共部门缺乏可用的数据基础设施与人才" },
+        { en: "Highly vulnerable to adversarial attacks, yet security is overlooked", cn: "易受对抗性攻击，安全却常被忽视" },
+        { en: "Real-world deployment takes far longer than the hype suggests", cn: "真正落地远比炒作慢得多" },
+        { en: "Can amplify bias and lose trust — biased sentencing tools and IBM Watson for Oncology were abandoned", cn: "可能放大偏见、遭人不信任（有偏见的量刑工具、IBM Watson 肿瘤项目都被弃用）" },
+      ],
+    },
+    {
       id: "social-media", cn: "社交媒体", en: "Social Media", group: "tech", essaySlug: "social-media-communication",
       pros: [
         { en: "Keeps people connected across long distances", cn: "让人跨越距离保持联系" },
