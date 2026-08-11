@@ -316,6 +316,246 @@ window.IELTS_WRITING_GUIDE = {
         { en: "Promotes unrealistic body and lifestyle images", cn: "宣扬不切实际的身材与生活方式" },
       ],
     },
+    {
+      id: "crime-punishment", cn: "严厉惩罚 vs 预防改造", en: "Tough Punishment vs Prevention", group: "society", essaySlug: "prison-sentences",
+      pros: [
+        { en: "Longer sentences deter potential offenders", cn: "更长刑期威慑潜在罪犯" },
+        { en: "Removing dangerous criminals protects the public", cn: "隔离危险罪犯、保护公众" },
+        { en: "Firm punishment delivers justice for victims", cn: "严惩为受害者伸张正义" },
+        { en: "Clear consequences uphold the rule of law", cn: "明确后果维护法治" },
+      ],
+      cons: [
+        { en: "Prison often fails to reform and hardens offenders", cn: "监狱难改造、甚至使人更冷硬" },
+        { en: "High reoffending rates after release", cn: "出狱后重犯率高" },
+        { en: "Tackling root causes (poverty, education) works better", cn: "治理根源（贫困、教育）更有效" },
+        { en: "Rehabilitation and community service reintegrate offenders", cn: "改造与社区服务助其回归社会" },
+      ],
+    },
+    {
+      id: "climate-change", cn: "气候变化与清洁能源", en: "Climate Change & Clean Energy", group: "nature",
+      pros: [
+        { en: "Cuts greenhouse gases and slows global warming", cn: "减少温室气体、减缓全球变暖" },
+        { en: "Renewable energy is now cheap and creates jobs", cn: "可再生能源已便宜且创造就业" },
+        { en: "Reduces reliance on finite fossil fuels", cn: "降低对有限化石燃料的依赖" },
+        { en: "Improves air quality and public health", cn: "改善空气质量与公共健康" },
+      ],
+      cons: [
+        { en: "High upfront cost of new infrastructure", cn: "新基础设施前期成本高" },
+        { en: "Solar and wind are intermittent and need storage", cn: "风光间歇性、需储能" },
+        { en: "Job losses in traditional fossil-fuel industries", cn: "传统化石能源行业失业" },
+        { en: "Requires global cooperation that is hard to secure", cn: "需难以达成的全球合作" },
+      ],
+    },
+    {
+      id: "health-government", cn: "政府与公众健康", en: "Government & Public Health", group: "culture", essaySlug: "preventive-health",
+      pros: [
+        { en: "Prevention is cheaper than treating illness later", cn: "预防比日后治疗更省钱" },
+        { en: "Taxing junk food cuts obesity and disease", cn: "对垃圾食品征税可降低肥胖与疾病" },
+        { en: "Public campaigns promote healthier habits", cn: "公共宣传推广健康习惯" },
+        { en: "Eases the long-term burden on hospitals", cn: "减轻医院的长期负担" },
+      ],
+      cons: [
+        { en: "Diet and lifestyle are personal choices", cn: "饮食与生活方式是个人选择" },
+        { en: "Food taxes hit poorer families hardest", cn: "食品税对穷人打击最大" },
+        { en: "Governments have more urgent priorities", cn: "政府有更紧迫的优先事项" },
+        { en: "Heavy control feels like a nanny state", cn: "过度干预像保姆式国家" },
+      ],
+    },
+    {
+      id: "fitness-lifestyle", cn: "运动与久坐生活", en: "Exercise & Sedentary Lifestyles", group: "culture",
+      pros: [
+        { en: "Prevents obesity, heart disease and diabetes", cn: "预防肥胖、心脏病与糖尿病" },
+        { en: "Improves mental health and reduces stress", cn: "改善心理健康、缓解压力" },
+        { en: "Team sport builds discipline and friendships", cn: "团队运动培养自律与友谊" },
+        { en: "Lowers long-term healthcare costs", cn: "降低长期医疗成本" },
+      ],
+      cons: [
+        { en: "Desk jobs and screens keep people seated", cn: "办公室与屏幕让人久坐" },
+        { en: "Cars and lifts replace daily walking", cn: "汽车电梯取代日常步行" },
+        { en: "Long working hours leave little time to exercise", cn: "长工时挤占运动时间" },
+        { en: "Cheap fast food and convenience culture", cn: "廉价快餐与便利文化" },
+      ],
+    },
+    {
+      id: "subject-choice", cn: "大学专业：实用 vs 兴趣", en: "University: Vocational vs Academic", group: "education", essaySlug: "subject-choice",
+      pros: [
+        { en: "Job-focused subjects boost employability", cn: "就业导向的专业提升就业力" },
+        { en: "Meets the economy's demand for STEM skills", cn: "满足经济对理工技能的需求" },
+        { en: "Faster return on tuition investment", cn: "学费投资回报更快" },
+        { en: "Helps reduce graduate unemployment", cn: "有助减少毕业生失业" },
+      ],
+      cons: [
+        { en: "Arts and humanities build critical thinking", cn: "人文艺术培养批判性思维" },
+        { en: "Passion drives better results than pressure", cn: "兴趣比压力更能出成绩" },
+        { en: "Job markets change; broad education adapts", cn: "就业市场多变，通识更能适应" },
+        { en: "Society also needs artists and thinkers", cn: "社会也需要艺术家与思想者" },
+      ],
+    },
+    {
+      id: "free-university", cn: "大学是否应免费", en: "Free University Education", group: "education", essaySlug: "university-tuition",
+      pros: [
+        { en: "Equal opportunity regardless of family income", cn: "不论家庭收入的机会平等" },
+        { en: "Boosts social mobility and cuts inequality", cn: "提升社会流动、缩小不平等" },
+        { en: "A skilled population benefits the economy", cn: "高素质人口惠及整个经济" },
+        { en: "Graduates avoid huge student debt", cn: "毕业生不背巨额债务" },
+      ],
+      cons: [
+        { en: "Heavy burden on taxpayers who never attend", cn: "纳税人负担重，许多人没上过大学" },
+        { en: "Subsidises wealthy families who can pay", cn: "补贴本可负担的富裕家庭" },
+        { en: "Free places may lower motivation and quality", cn: "免费可能降低动力与质量" },
+        { en: "Means-tested support is fairer than free-for-all", cn: "按需资助比全免更公平" },
+      ],
+    },
+    {
+      id: "online-learning", cn: "在线学习 vs 传统课堂", en: "Online vs Classroom Learning", group: "education",
+      pros: [
+        { en: "Flexible — study anytime, anywhere", cn: "灵活：随时随地学习" },
+        { en: "Cheaper and reaches remote learners", cn: "更便宜、覆盖偏远学习者" },
+        { en: "Huge range of courses and recorded lessons", cn: "课程丰富、可回放" },
+        { en: "Learners progress at their own pace", cn: "按自己节奏学习" },
+      ],
+      cons: [
+        { en: "Face-to-face interaction aids understanding", cn: "面对面互动助理解" },
+        { en: "Classroom routine and discipline keep focus", cn: "课堂作息与纪律助专注" },
+        { en: "Immediate feedback from teachers", cn: "老师即时反馈" },
+        { en: "Social skills develop better in person", cn: "社交能力当面更易培养" },
+      ],
+    },
+    {
+      id: "work-life-balance", cn: "工作与生活平衡", en: "Work–Life Balance & Long Hours", group: "society",
+      pros: [
+        { en: "Rest boosts productivity and creativity", cn: "休息提升效率与创造力" },
+        { en: "Better mental and physical health", cn: "更好的身心健康" },
+        { en: "More time for family and community", cn: "更多时间陪家人与社区" },
+        { en: "Reduces burnout and staff turnover", cn: "减少倦怠与离职" },
+      ],
+      cons: [
+        { en: "Some jobs and deadlines demand long hours", cn: "有些工作与截止期需长时间投入" },
+        { en: "Overwork can raise short-term output and pay", cn: "加班短期提高产出与收入" },
+        { en: "Competitive economies pressure people to work more", cn: "竞争经济迫人多干" },
+        { en: "Technology extends the working day", cn: "技术延长了工作日" },
+      ],
+    },
+    {
+      id: "ageing-population", cn: "人口老龄化", en: "Ageing Population", group: "society",
+      pros: [
+        { en: "Longer, healthier lives are an achievement", cn: "更长寿更健康是人类成就" },
+        { en: "Experienced older workers and volunteers add value", cn: "有经验的老年劳动者与志愿者有价值" },
+        { en: "Grandparents provide childcare and support", cn: "祖辈提供育儿与家庭支持" },
+        { en: "A growing silver economy creates markets", cn: "银发经济创造新市场" },
+      ],
+      cons: [
+        { en: "Fewer workers must support more retirees", cn: "更少劳动者供养更多退休者" },
+        { en: "Rising pension and healthcare costs", cn: "养老金与医疗成本上升" },
+        { en: "Strain on hospitals and eldercare", cn: "医院与养老服务压力大" },
+        { en: "Labour shortages may slow the economy", cn: "劳动力短缺或拖慢经济" },
+      ],
+    },
+    {
+      id: "public-transport", cn: "公共交通 vs 私家车", en: "Public Transport vs Private Cars", group: "city", essaySlug: "traffic-congestion",
+      pros: [
+        { en: "Cuts congestion and saves commuting time", cn: "减少拥堵、节省通勤时间" },
+        { en: "Lowers emissions and air pollution", cn: "降低排放与空气污染" },
+        { en: "Cheaper for users than owning a car", cn: "比养车更省钱" },
+        { en: "Uses road and parking space efficiently", cn: "更高效利用道路与停车空间" },
+      ],
+      cons: [
+        { en: "Cars offer door-to-door convenience", cn: "私家车门到门便利、自由" },
+        { en: "Public transport is poor in rural areas", cn: "乡村公共交通差" },
+        { en: "Building transit systems is slow and costly", cn: "建轨道交通慢且贵" },
+        { en: "Essential for families and carrying goods", cn: "对家庭与运货必要" },
+      ],
+    },
+    {
+      id: "heritage-buildings", cn: "保护老建筑 vs 重建", en: "Preserving Old Buildings vs Redevelopment", group: "city", essaySlug: "historic-buildings",
+      pros: [
+        { en: "Preserves cultural heritage and identity", cn: "保存文化遗产与身份认同" },
+        { en: "Historic landmarks attract tourists", cn: "历史地标吸引游客" },
+        { en: "Connects people to their history", cn: "让人与历史相连" },
+        { en: "Adds character that modern towers lack", cn: "赋予现代高楼欠缺的韵味" },
+      ],
+      cons: [
+        { en: "Old buildings are costly to maintain", cn: "老建筑维护昂贵" },
+        { en: "They often lack modern facilities and safety", cn: "常缺现代设施与安全" },
+        { en: "They waste valuable land in crowded cities", cn: "在拥挤城市浪费宝贵土地" },
+        { en: "New buildings serve growing populations better", cn: "新建筑更好服务增长人口" },
+      ],
+    },
+    {
+      id: "parenting-children", cn: "孩子成长：父母 vs 社会影响", en: "Children: Parents vs Wider Influences", group: "society",
+      pros: [
+        { en: "Parents shape early values and behaviour", cn: "父母塑造早期价值观与行为" },
+        { en: "A stable home builds confidence and security", cn: "稳定家庭培养自信与安全感" },
+        { en: "Parents model habits children copy", cn: "父母是孩子模仿的榜样" },
+        { en: "Early parental support predicts later success", cn: "早期父母支持预示日后成功" },
+      ],
+      cons: [
+        { en: "Teachers and schools shape knowledge and discipline", cn: "老师与学校塑造知识与纪律" },
+        { en: "Peers strongly influence teenagers", cn: "同伴对青少年影响巨大" },
+        { en: "Media and the internet shape children's views", cn: "媒体与网络塑造孩子观念" },
+        { en: "Parents cannot control every outside factor", cn: "父母无法掌控一切外部因素" },
+      ],
+    },
+    {
+      id: "news-media", cn: "新闻媒体与名人文化", en: "News Media & Celebrity Culture", group: "culture",
+      pros: [
+        { en: "Keeps citizens informed and holds power to account", cn: "让公民知情、监督权力" },
+        { en: "Spreads awareness of important issues fast", cn: "快速传播重要议题" },
+        { en: "Educates and entertains a mass audience", cn: "教育并娱乐大众" },
+        { en: "Gives a platform to different views", cn: "为不同声音提供平台" },
+      ],
+      cons: [
+        { en: "Sensationalism and fake news mislead people", cn: "煽情与假新闻误导公众" },
+        { en: "Celebrity obsession sets poor role models", cn: "追星文化树立不良榜样" },
+        { en: "Constant bad news raises anxiety", cn: "负面新闻不断加剧焦虑" },
+        { en: "Media bias can manipulate public opinion", cn: "媒体偏见操纵舆论" },
+      ],
+    },
+    {
+      id: "government-spending", cn: "政府开支优先什么", en: "Government Spending Priorities", group: "society", essaySlug: "arts-funding",
+      pros: [
+        { en: "Arts, science and sport enrich life and identity", cn: "艺术、科研、体育丰富生活与认同" },
+        { en: "They boost tourism, jobs and national prestige", cn: "带动旅游、就业与国家声誉" },
+        { en: "Long-term research drives future breakthroughs", cn: "长期研究推动未来突破" },
+        { en: "A balanced society needs more than basics", cn: "平衡的社会不只需要基本温饱" },
+      ],
+      cons: [
+        { en: "Health, education and housing must come first", cn: "医疗、教育、住房应优先" },
+        { en: "Limited budgets force hard trade-offs", cn: "预算有限、须艰难取舍" },
+        { en: "Luxury spending seems unfair amid poverty", cn: "贫困之中投奢侈显不公" },
+        { en: "Some projects have uncertain payoffs", cn: "有些项目回报不确定" },
+      ],
+    },
+    {
+      id: "wealth-inequality", cn: "贫富差距与对外援助", en: "Wealth Inequality & Foreign Aid", group: "society",
+      pros: [
+        { en: "Reducing gaps lowers poverty, crime and unrest", cn: "缩小差距降低贫困、犯罪与动荡" },
+        { en: "Fairer societies are more stable and healthy", cn: "更公平的社会更稳定健康" },
+        { en: "Helping poorer nations is a moral duty", cn: "帮助贫国是道义责任" },
+        { en: "Aid can build long-term trade partners", cn: "援助能培养长期贸易伙伴" },
+      ],
+      cons: [
+        { en: "High taxes may discourage effort and investment", cn: "高税可能打击努力与投资" },
+        { en: "Aid can be wasted through corruption", cn: "援助或因腐败被浪费" },
+        { en: "Countries should fix their own problems first", cn: "国家应先解决本国问题" },
+        { en: "Some inequality rewards talent and hard work", cn: "一定程度的不平等奖励才干与努力" },
+      ],
+    },
+    {
+      id: "endangered-species", cn: "濒危动物保护", en: "Protecting Endangered Species", group: "nature", essaySlug: "zoos-animals",
+      pros: [
+        { en: "Every species plays a role in the ecosystem", cn: "每个物种在生态中都有作用" },
+        { en: "Biodiversity supports food, medicine and tourism", cn: "生物多样性支撑食物、医药与旅游" },
+        { en: "Humans have a moral duty to prevent extinction", cn: "人类有防止灭绝的道义责任" },
+        { en: "Lost species can never be recovered", cn: "灭绝的物种无法复原" },
+      ],
+      cons: [
+        { en: "Protection is expensive and can limit development", cn: "保护成本高、可能限制发展" },
+        { en: "Human needs for land and jobs may take priority", cn: "人类对土地与就业的需求或应优先" },
+        { en: "Poaching is hard to police globally", cn: "全球反盗猎难以执行" },
+        { en: "Some argue extinction is a natural process", cn: "有人认为灭绝是自然过程" },
+      ],
+    },
   ],
 
   // ---------------- Task 1 小作文题型 ----------------
