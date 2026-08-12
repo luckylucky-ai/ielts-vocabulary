@@ -30923,6 +30923,310 @@ window.IELTS_ESSAYS = [
     "images": []
   },
   {
+    "slug": "ai-society",
+    "group": "tech",
+    "task": "task2",
+    "taskType": "Discussion + Opinion",
+    "title": "Will AI Improve or Endanger Our Lives",
+    "titleCn": "AI 会改善还是危害生活",
+    "date": "2026-07-24",
+    "question": "Some people believe that the development of artificial intelligence will greatly improve human life, while others worry that it poses serious risks.\n\nDiscuss both views and give your own opinion.",
+    "questionCn": "有人认为人工智能的发展将极大改善人类生活，另一些人则担心它带来严重风险。讨论双方观点并给出你的看法。",
+    "stanceEn": "AI carries real risks, but if properly regulated its benefits outweigh them.",
+    "stanceCn": "AI 确有风险，但若监管得当，其益处大于风险。",
+    "paragraphs": [
+      "Artificial intelligence is advancing rapidly, and opinions are divided over whether it will improve our lives or endanger them. While the risks are real, I believe that, if properly regulated, AI will do more good than harm.",
+      "Those who welcome AI point to its enormous practical benefits. Intelligent systems can already assist with medical diagnosis, drive cars and analyse huge quantities of data in seconds, tasks that would take humans far longer. By taking over dangerous and repetitive work, AI can boost productivity and free people to focus on creative, human-centred roles. In everyday life, from translation apps to online recommendations, it offers convenience on a massive scale.",
+      "On the other hand, critics raise legitimate concerns. The most pressing is job displacement, as automation replaces workers in factories, offices and call centres. There are also worries about algorithmic bias, privacy and an unhealthy over-reliance on machines for decisions that require human judgement. Nevertheless, I believe these dangers stem from how AI is used rather than the technology itself. With appropriate regulation, ethical guidelines and investment in retraining, societies can enjoy the benefits while limiting the harm.",
+      "In conclusion, although the development of AI carries genuine risks, I am convinced that its advantages outweigh them, provided that governments and companies deploy it responsibly."
+    ],
+    "translation": [
+      "人工智能正在迅速发展，人们对它究竟会改善还是危害我们的生活意见不一。虽然风险真实存在，但我认为，只要监管得当，AI 带来的益处将大于危害。",
+      "欢迎 AI 的人指出它巨大的实际益处。智能系统如今已能辅助医学诊断、驾驶汽车，并在几秒内分析海量数据——这些任务人类要花长得多的时间。通过接手危险和重复性工作，AI 能够提高生产率，把人解放去从事创造性、以人为本的工作。在日常生活中，从翻译软件到在线推荐，它以极大的规模提供便利。",
+      "另一方面，批评者提出了合理的担忧。最紧迫的是就业被取代，自动化正取代工厂、办公室和呼叫中心的工人。人们还担心算法偏见、隐私，以及对机器在需要人类判断的决策上产生不健康的过度依赖。尽管如此，我认为这些危险源于使用 AI 的方式，而非技术本身。凭借适当的监管、伦理准则以及对再培训的投资，社会可以在享受益处的同时限制危害。",
+      "总之，尽管 AI 的发展带有真实的风险，但我确信，只要政府与企业负责任地部署它，其优势将超过这些风险。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出争议 + 表明立场",
+        "point": "有风险，但监管好则利大于弊"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "乐观一方",
+        "point": "诊断/驾驶/数据、提高生产率、便利"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "谨慎一方 + 我的观点",
+        "point": "失业、偏见、过度依赖，但可监管化解"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "折中收束",
+        "point": "负责任部署则优势超过风险"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "artificial intelligence",
+        "cn": "人工智能"
+      },
+      {
+        "en": "do more good than harm",
+        "cn": "益处大于危害"
+      },
+      {
+        "en": "medical diagnosis",
+        "cn": "医学诊断"
+      },
+      {
+        "en": "boost productivity",
+        "cn": "提高生产率"
+      },
+      {
+        "en": "on a massive scale",
+        "cn": "以极大的规模"
+      },
+      {
+        "en": "job displacement",
+        "cn": "就业被取代"
+      },
+      {
+        "en": "algorithmic bias",
+        "cn": "算法偏见"
+      },
+      {
+        "en": "over-reliance",
+        "cn": "过度依赖"
+      },
+      {
+        "en": "appropriate regulation",
+        "cn": "适当的监管"
+      },
+      {
+        "en": "ethical guidelines",
+        "cn": "伦理准则"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "认为主张",
+        "words": [
+          "believe that",
+          "argue that",
+          "contend that"
+        ]
+      },
+      {
+        "sense": "取代",
+        "words": [
+          "replace",
+          "take over",
+          "displace"
+        ]
+      },
+      {
+        "sense": "益处",
+        "words": [
+          "benefits",
+          "advantages",
+          "rewards"
+        ]
+      },
+      {
+        "sense": "担忧",
+        "words": [
+          "concerns",
+          "worries",
+          "reservations"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "讨论乐观与谨慎双方，并明确\"利大于弊\"的个人立场"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "While / On the other hand / Nevertheless / In conclusion 层层推进"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "medical diagnosis、job displacement、algorithmic bias 等话题搭配与同义替换"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "让步（although…）、条件（if properly regulated / provided that…）、定语从句多样"
+      }
+    ],
+    "ideas": [
+      "乐观面：辅助医学诊断、驾驶、秒级分析海量数据。",
+      "乐观面：接手危险重复工作，提高生产率、解放人力。",
+      "乐观面：翻译、推荐等日常便利，规模巨大。",
+      "谨慎面：自动化造成就业被取代。",
+      "谨慎面：算法偏见、隐私、对机器过度依赖。",
+      "反驳：危险源于使用方式而非技术本身。",
+      "对策：监管 + 伦理准则 + 再培训投资。",
+      "立场：负责任部署则优势超过风险。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "working-from-home",
+    "group": "society",
+    "task": "task2",
+    "taskType": "Advantages / Disadvantages",
+    "title": "Working from Home",
+    "titleCn": "远程办公",
+    "date": "2026-07-23",
+    "question": "More and more people are working from home rather than in a traditional office.\n\nDo the advantages of this trend outweigh the disadvantages?",
+    "questionCn": "越来越多的人在家办公，而不是在传统办公室工作。这一趋势的好处大于坏处吗？",
+    "stanceEn": "Despite some drawbacks, the time, cost and flexibility gains make the advantages greater.",
+    "stanceCn": "尽管有些弊端，但在时间、成本与灵活性上的收益使好处更大。",
+    "paragraphs": [
+      "In recent years, a growing number of employees have begun to work from home instead of travelling to a traditional office. Although this shift has certain drawbacks, I believe its advantages clearly outweigh them.",
+      "The most obvious benefit is the elimination of the daily commute. Working remotely saves employees hours of travelling and cuts transport costs, while fewer commuters also reduce carbon emissions. In addition, flexible schedules allow people to fit work around their personal lives, improving their work–life balance. Employers benefit too, since they can recruit from a wider talent pool rather than being limited to one city.",
+      "There are, of course, some disadvantages. Working alone at home can lead to social isolation and weaker teamwork, and constant distractions at home may reduce productivity. It can also blur the boundary between work and rest, so that employees struggle to switch off at the end of the day. However, these problems can be eased through occasional office meetings, clear daily routines and a reasonable degree of self-discipline.",
+      "In conclusion, while remote work is not without its challenges, the savings in time and money, together with greater flexibility, mean that its advantages outweigh the disadvantages for most workers."
+    ],
+    "translation": [
+      "近年来，越来越多的员工开始在家办公，而不再通勤去传统办公室。尽管这一转变有一定弊端，但我认为它的好处明显大于坏处。",
+      "最明显的益处是省去了每天的通勤。远程工作为员工省下数小时的路途、削减了交通开支，而通勤者减少也降低了碳排放。此外，弹性的时间安排让人们能把工作与个人生活相协调，改善了工作与生活的平衡。雇主同样受益，因为他们可以从更广的人才库招人，而不再局限于一座城市。",
+      "当然，也存在一些不利之处。独自在家工作可能导致社交孤立、团队协作变弱，而家中不断的干扰也可能降低效率。它还可能模糊工作与休息的界限，使员工到了一天结束时难以真正放松。不过，这些问题可以通过偶尔的线下会议、清晰的日常作息以及合理程度的自律来缓解。",
+      "总之，尽管远程工作并非没有挑战，但在时间与金钱上的节省，加上更大的灵活性，意味着对大多数员工而言，它的好处大于坏处。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出趋势 + 表明立场",
+        "point": "有弊，但好处明显更大"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "优点",
+        "point": "省通勤、降排放、平衡生活、扩大人才库"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "缺点 + 缓解",
+        "point": "孤立、干扰、界限模糊，但可缓解"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "权衡收束",
+        "point": "时间金钱与灵活性使好处更大"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "work from home",
+        "cn": "在家办公"
+      },
+      {
+        "en": "the daily commute",
+        "cn": "每天的通勤"
+      },
+      {
+        "en": "carbon emissions",
+        "cn": "碳排放"
+      },
+      {
+        "en": "work–life balance",
+        "cn": "工作与生活的平衡"
+      },
+      {
+        "en": "a wider talent pool",
+        "cn": "更广的人才库"
+      },
+      {
+        "en": "social isolation",
+        "cn": "社交孤立"
+      },
+      {
+        "en": "distractions at home",
+        "cn": "家中的干扰"
+      },
+      {
+        "en": "blur the boundary",
+        "cn": "模糊界限"
+      },
+      {
+        "en": "self-discipline",
+        "cn": "自律"
+      },
+      {
+        "en": "outweigh the disadvantages",
+        "cn": "好处大于坏处"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "好处",
+        "words": [
+          "advantages",
+          "benefits",
+          "upsides"
+        ]
+      },
+      {
+        "sense": "减少",
+        "words": [
+          "reduce",
+          "cut",
+          "lower"
+        ]
+      },
+      {
+        "sense": "灵活的",
+        "words": [
+          "flexible",
+          "adaptable",
+          "adjustable"
+        ]
+      },
+      {
+        "sense": "缓解",
+        "words": [
+          "ease",
+          "alleviate",
+          "mitigate"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "利弊都谈，并明确回答\"好处是否大于坏处\""
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "The most obvious / In addition / of course / However / In conclusion 衔接清晰"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "the daily commute、carbon emissions、a wider talent pool 等话题搭配"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "让步（Although…）、原因状语（since…）、结果状语（so that…）多样"
+      }
+    ],
+    "ideas": [
+      "优点：省去每天通勤，省时省钱。",
+      "优点：通勤减少，碳排放降低。",
+      "优点：弹性时间改善工作与生活平衡。",
+      "优点：雇主可从更广人才库招人。",
+      "缺点：社交孤立、团队协作变弱。",
+      "缺点：家中干扰降低效率、界限模糊难放松。",
+      "缓解：线下会议 + 清晰作息 + 自律。",
+      "立场：时间金钱与灵活性使好处大于坏处。"
+    ],
+    "images": []
+  },
+  {
     "slug": "preventive-health",
     "group": "culture",
     "task": "task2",
@@ -31559,6 +31863,1374 @@ window.IELTS_ESSAYS = [
       "反驳\"等政府\"：把责任全推给当局是不作为的借口。",
       "最佳立场：政策与问责为个人行动创造有效条件。",
       "反例警示：仅靠消费者善意远不如一纸全国禁令。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "advertising-consumerism",
+    "group": "culture",
+    "task": "task2",
+    "taskType": "Agree / Disagree",
+    "title": "Does Advertising Make Us Buy What We Do Not Need",
+    "titleCn": "广告是否让我们买不需要的东西",
+    "date": "2026-07-22",
+    "question": "Advertising encourages people to buy things they do not really need.\n\nTo what extent do you agree or disagree?",
+    "questionCn": "广告鼓励人们购买他们并不真正需要的东西。你在多大程度上同意或不同意？",
+    "stanceEn": "Advertising has some uses, but to a large extent it does push people towards unnecessary purchases.",
+    "stanceCn": "广告有一定作用，但在很大程度上确实推动人们进行不必要的购买。",
+    "paragraphs": [
+      "Advertising is everywhere in modern life, and it is often claimed that it pushes people to purchase goods they do not genuinely need. I largely agree with this view, although advertising does serve some useful purposes.",
+      "There are strong reasons to believe that advertising fuels unnecessary consumption. Advertisers deliberately create artificial wants by linking products to happiness, status and beauty, so that consumers buy for emotional rather than practical reasons. A carefully crafted brand image can make an ordinary item seem essential, encouraging impulse buying and a constant desire to keep up with others. As a result, many people spend their disposable income on things they rarely use.",
+      "On the other hand, it would be unfair to dismiss advertising entirely. It informs buyers about new products and genuine choices, allowing them to make informed decisions, and it funds free television, sport and online services. Nonetheless, these benefits do not change the fact that the main aim of most advertising is to maximise sales, and it often succeeds by persuading people to want more than they need.",
+      "In conclusion, while advertising has its uses, I agree to a large extent that it encourages people to buy unnecessary goods by manufacturing desires that did not previously exist."
+    ],
+    "translation": [
+      "广告在现代生活中无处不在，人们常声称它促使人们购买并不真正需要的商品。我在很大程度上同意这一观点，尽管广告确实有一些有用的作用。",
+      "有充分的理由相信广告助长了不必要的消费。广告商刻意制造虚假需求，把产品与幸福、地位和美貌挂钩，使消费者出于情感而非实用的理由去购买。精心打造的品牌形象能让一件普通商品显得不可或缺，从而助长冲动消费与不断攀比的欲望。结果，许多人把可支配收入花在很少使用的东西上。",
+      "另一方面，完全否定广告也不公平。它让消费者了解新产品与真实的选择，从而能做出明智的决定，并资助了免费的电视、体育和网络服务。尽管如此，这些好处并不能改变一个事实：大多数广告的主要目的是最大化销量，而它往往靠说服人们想要超出所需的东西来达成。",
+      "总之，尽管广告有其用处，但我在很大程度上同意：它通过制造原本并不存在的欲望，鼓励人们购买不必要的商品。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出观点 + 表明立场",
+        "point": "有用处，但很大程度同意"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "支持理由",
+        "point": "制造虚假需求、品牌形象、攀比冲动"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "让步对方 + 拉回",
+        "point": "提供信息，但主要目的是最大化销量"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "收束",
+        "point": "靠制造欲望促成不必要消费"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "unnecessary consumption",
+        "cn": "不必要的消费"
+      },
+      {
+        "en": "artificial wants",
+        "cn": "虚假需求"
+      },
+      {
+        "en": "brand image",
+        "cn": "品牌形象"
+      },
+      {
+        "en": "impulse buying",
+        "cn": "冲动消费"
+      },
+      {
+        "en": "keep up with others",
+        "cn": "与他人攀比"
+      },
+      {
+        "en": "disposable income",
+        "cn": "可支配收入"
+      },
+      {
+        "en": "make informed decisions",
+        "cn": "做出明智的决定"
+      },
+      {
+        "en": "maximise sales",
+        "cn": "最大化销量"
+      },
+      {
+        "en": "emotional rather than practical",
+        "cn": "出于情感而非实用"
+      },
+      {
+        "en": "to a large extent",
+        "cn": "在很大程度上"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "鼓励",
+        "words": [
+          "encourage",
+          "push",
+          "persuade"
+        ]
+      },
+      {
+        "sense": "制造",
+        "words": [
+          "create",
+          "manufacture",
+          "generate"
+        ]
+      },
+      {
+        "sense": "花钱",
+        "words": [
+          "spend money",
+          "part with money",
+          "splash out"
+        ]
+      },
+      {
+        "sense": "目的",
+        "words": [
+          "aim",
+          "goal",
+          "objective"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "明确\"很大程度同意\"，让步对方后回到立场，回应 to what extent"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "There are strong reasons / As a result / On the other hand / Nonetheless / In conclusion"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "artificial wants、impulse buying、maximise sales 等消费主义话题搭配"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "结果状语（so that…）、分词状语（allowing them to…）、让步（while…）多样"
+      }
+    ],
+    "ideas": [
+      "支持一：制造虚假需求，把产品和幸福、地位、美貌绑定。",
+      "支持二：情感而非实用驱动购买。",
+      "支持三：品牌形象让普通商品显得必需，引发冲动消费。",
+      "支持四：不断攀比，把可支配收入花在少用之物。",
+      "让步：广告也提供信息、助人做明智决定、资助免费服务。",
+      "拉回：主要目的仍是最大化销量。",
+      "立场：靠制造欲望促成不必要消费。",
+      "常用表达：manufacture desires that did not previously exist。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "renewable-energy",
+    "group": "nature",
+    "task": "task2",
+    "taskType": "Agree / Disagree",
+    "title": "Investing in Renewable Energy",
+    "titleCn": "投资可再生能源",
+    "date": "2026-07-21",
+    "question": "Some people believe that governments should invest more in renewable energy sources rather than continuing to rely on fossil fuels.\n\nTo what extent do you agree or disagree?",
+    "questionCn": "有人认为政府应更多投资可再生能源，而不是继续依赖化石燃料。你在多大程度上同意或不同意？",
+    "stanceEn": "Despite high initial costs, governments should prioritise renewable energy over fossil fuels.",
+    "stanceCn": "尽管前期成本高，政府仍应优先发展可再生能源而非化石燃料。",
+    "paragraphs": [
+      "There is growing debate about whether governments should shift their investment towards renewable energy rather than remaining dependent on fossil fuels. I strongly agree that a move to clean energy is both necessary and beneficial.",
+      "The most compelling reason is environmental. Burning fossil fuels is the largest source of greenhouse gas emissions, which drive climate change and damage public health through air pollution. Renewable sources such as solar and wind, by contrast, produce electricity with almost no emissions. Moreover, fossil fuels are finite resources that will eventually run out, whereas sunlight and wind are effectively limitless, giving countries greater energy security. The rapid growth of the sector also creates many green jobs.",
+      "Admittedly, switching to renewables has drawbacks. The upfront cost of building solar farms and wind turbines is high, and these sources are intermittent, generating no power when the sun does not shine or the wind drops. However, the price of clean technology has fallen dramatically, and improvements in battery storage are steadily solving the reliability problem. In the long run, these investments will prove far cheaper than the environmental cost of inaction.",
+      "In conclusion, although the transition requires significant initial spending, I firmly believe governments should prioritise renewable energy, because its environmental and economic benefits clearly outweigh those of fossil fuels."
+    ],
+    "translation": [
+      "关于政府是否应把投资转向可再生能源、而非继续依赖化石燃料，争论日益增多。我强烈同意：转向清洁能源既有必要，也有益处。",
+      "最有力的理由是环境方面。燃烧化石燃料是温室气体排放的最大来源，而温室气体排放推动气候变化，并通过空气污染损害公众健康。相比之下，太阳能、风能等可再生能源发电几乎不产生排放。此外，化石燃料是终将耗尽的有限资源，而阳光和风实际上是取之不尽的，能让各国获得更大的能源安全。该行业的快速发展还创造了大量绿色就业。",
+      "诚然，转向可再生能源也有弊端。建设太阳能电站和风力涡轮机的前期成本很高，而且这些能源具有间歇性——太阳不出、风力减弱时便无法发电。然而，清洁技术的价格已大幅下降，电池储能的进步也在稳步解决可靠性问题。从长远看，这些投资将远比无所作为的环境代价更为划算。",
+      "总之，尽管这一转型需要可观的前期投入，但我坚信政府应优先发展可再生能源，因为它在环境与经济上的益处明显超过化石燃料。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出争议 + 表明立场",
+        "point": "强烈同意转向清洁能源"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "支持理由",
+        "point": "减排、资源可持续、能源安全、绿色就业"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "让步弊端 + 反驳",
+        "point": "成本与间歇性，但技术降价、储能进步"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "收束",
+        "point": "环境与经济益处超过化石燃料"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "renewable energy",
+        "cn": "可再生能源"
+      },
+      {
+        "en": "fossil fuels",
+        "cn": "化石燃料"
+      },
+      {
+        "en": "greenhouse gas emissions",
+        "cn": "温室气体排放"
+      },
+      {
+        "en": "climate change",
+        "cn": "气候变化"
+      },
+      {
+        "en": "finite resources",
+        "cn": "有限资源"
+      },
+      {
+        "en": "energy security",
+        "cn": "能源安全"
+      },
+      {
+        "en": "green jobs",
+        "cn": "绿色就业"
+      },
+      {
+        "en": "upfront cost",
+        "cn": "前期成本"
+      },
+      {
+        "en": "intermittent",
+        "cn": "间歇性的"
+      },
+      {
+        "en": "in the long run",
+        "cn": "从长远看"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "依赖",
+        "words": [
+          "rely on",
+          "depend on",
+          "be dependent on"
+        ]
+      },
+      {
+        "sense": "减少排放",
+        "words": [
+          "cut emissions",
+          "reduce emissions",
+          "curb emissions"
+        ]
+      },
+      {
+        "sense": "优先",
+        "words": [
+          "prioritise",
+          "put first",
+          "give priority to"
+        ]
+      },
+      {
+        "sense": "益处",
+        "words": [
+          "benefits",
+          "advantages",
+          "gains"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "立场清晰（强烈同意），让步弊端后有力反驳，回应 to what extent"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "The most compelling / Moreover / Admittedly / However / In conclusion"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "greenhouse gas emissions、finite resources、energy security 等能源话题搭配"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "定语从句（which drive…）、对比（whereas…）、让步（although / Admittedly）多样"
+      }
+    ],
+    "ideas": [
+      "环境：燃烧化石燃料是温室气体最大来源，害健康。",
+      "可持续：化石燃料终将耗尽，风光取之不尽。",
+      "安全：可再生能源提升国家能源安全。",
+      "经济：行业快速增长创造绿色就业。",
+      "让步：前期成本高、风光间歇性。",
+      "反驳：清洁技术降价、储能进步解决可靠性。",
+      "长远：投资远比无所作为的环境代价便宜。",
+      "立场：环境与经济益处超过化石燃料。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "physical-activity",
+    "group": "culture",
+    "task": "task2",
+    "taskType": "Problem / Solution",
+    "title": "Why People Are Less Active",
+    "titleCn": "为何人们越来越不运动",
+    "date": "2026-07-20",
+    "question": "In many countries people are becoming less physically active.\n\nWhat are the causes of this, and what measures could be taken to encourage a healthier lifestyle?",
+    "questionCn": "在许多国家，人们的身体活动越来越少。原因是什么？可以采取哪些措施来鼓励更健康的生活方式？",
+    "stanceEn": "Inactivity stems from sedentary work and convenience, but planning, education and campaigns can reverse it.",
+    "stanceCn": "不运动源于久坐工作与生活便利，但城市规划、教育和宣传可以扭转它。",
+    "paragraphs": [
+      "In many parts of the world, people are far less physically active than in the past. This essay will examine the main causes of this trend before suggesting measures to promote a healthier lifestyle.",
+      "Several factors explain declining activity levels. The most significant is the rise of sedentary jobs: instead of manual labour, most people now sit at desks and stare at screens all day. Modern conveniences reinforce this, as cars and lifts replace walking and climbing stairs. In addition, long working hours leave little time or energy for exercise, while cheap fast food and endless screen time encourage people to relax indoors rather than move around.",
+      "Fortunately, several measures could reverse this trend. Governments should improve urban planning to make activity easier, building parks, footpaths and cycle lanes that encourage people to walk and cycle. Schools have a vital role too, and should devote more time to physical education so that children develop active habits early. Employers could offer gym memberships or standing desks, and public awareness campaigns could remind citizens of the dangers of inactivity.",
+      "In conclusion, falling activity levels are mainly caused by sedentary work and modern convenience, but through better urban planning, education and public campaigns, societies can encourage people to lead healthier, more active lives."
+    ],
+    "translation": [
+      "在世界上许多地方，人们的身体活动远比过去少。本文将先分析这一趋势的主要原因，再提出促进更健康生活方式的措施。",
+      "有若干因素可以解释活动量的下降。最重要的是久坐型工作的增多：大多数人如今不再从事体力劳动，而是整天坐在办公桌前盯着屏幕。现代的便利更强化了这一点——汽车和电梯取代了步行与爬楼。此外，长工时让人几乎没有时间或精力去运动，而廉价快餐和无休止的屏幕时间又促使人们待在室内放松，而不去活动。",
+      "所幸，有若干措施可以扭转这一趋势。政府应改善城市规划，让运动更方便，修建公园、步道和自行车道，鼓励人们步行和骑车。学校也扮演着关键角色，应投入更多时间上体育课，好让孩子从小养成运动习惯。雇主可以提供健身房会员或站立式办公桌，公共宣传活动也能提醒公民久坐不动的危害。",
+      "总之，活动量下降主要由久坐工作与现代便利造成，但通过更好的城市规划、教育与公共宣传，社会可以鼓励人们过上更健康、更有活力的生活。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "承认现象 + 预告原因与措施",
+        "point": "越来越不运动"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "原因",
+        "point": "久坐工作、便利设施、长工时、快餐屏幕"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "措施",
+        "point": "城市规划、学校体育、雇主激励、公共宣传"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "收束",
+        "point": "规划+教育+宣传促更健康生活"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "physically active",
+        "cn": "身体活跃的"
+      },
+      {
+        "en": "sedentary jobs",
+        "cn": "久坐型工作"
+      },
+      {
+        "en": "long working hours",
+        "cn": "长工时"
+      },
+      {
+        "en": "screen time",
+        "cn": "屏幕时间"
+      },
+      {
+        "en": "urban planning",
+        "cn": "城市规划"
+      },
+      {
+        "en": "cycle lanes",
+        "cn": "自行车道"
+      },
+      {
+        "en": "physical education",
+        "cn": "体育课"
+      },
+      {
+        "en": "active habits",
+        "cn": "运动习惯"
+      },
+      {
+        "en": "public awareness campaigns",
+        "cn": "公共宣传活动"
+      },
+      {
+        "en": "healthier lifestyle",
+        "cn": "更健康的生活方式"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "造成",
+        "words": [
+          "cause",
+          "lead to",
+          "result in"
+        ]
+      },
+      {
+        "sense": "鼓励",
+        "words": [
+          "encourage",
+          "promote",
+          "motivate"
+        ]
+      },
+      {
+        "sense": "减少",
+        "words": [
+          "decline",
+          "fall",
+          "drop"
+        ]
+      },
+      {
+        "sense": "重要的",
+        "words": [
+          "significant",
+          "major",
+          "crucial"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "原因段与措施段一一对应，两问都充分回答"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "The most significant / In addition / Fortunately / too / In conclusion 结构清晰"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "sedentary jobs、physical education、public awareness campaigns 等话题搭配"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "对比（instead of…）、目的状语（so that…）、定语从句（that encourage…）多样"
+      }
+    ],
+    "ideas": [
+      "原因一：久坐型工作增多，整天坐办公桌盯屏幕。",
+      "原因二：汽车电梯取代步行爬楼。",
+      "原因三：长工时挤占运动时间与精力。",
+      "原因四：廉价快餐 + 屏幕时间让人宅家。",
+      "措施一：城市规划——公园、步道、自行车道。",
+      "措施二：学校加大体育课，从小养成运动习惯。",
+      "措施三：雇主提供健身会员/站立办公桌。",
+      "措施四：公共宣传提醒久坐危害。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "online-education",
+    "group": "education",
+    "task": "task2",
+    "taskType": "Discussion + Opinion",
+    "title": "Is Online Learning as Effective as the Classroom",
+    "titleCn": "在线学习和课堂一样有效吗",
+    "date": "2026-07-19",
+    "question": "Some people believe that online learning is as effective as attending a traditional school or university, while others disagree.\n\nDiscuss both views and give your own opinion.",
+    "questionCn": "有人认为在线学习和上传统学校或大学一样有效，另一些人则不同意。讨论双方观点并给出你的看法。",
+    "stanceEn": "Online study has real strengths, but a traditional or blended approach is more effective for most learners.",
+    "stanceCn": "在线学习确有优势，但对大多数学习者而言，传统或混合式方式更有效。",
+    "paragraphs": [
+      "The rise of the internet has made online learning a serious alternative to traditional schools and universities. While some regard it as equally effective, others remain doubtful. In my opinion, although online study has clear strengths, a traditional or blended approach remains more effective for most learners.",
+      "Supporters of online learning highlight its flexibility and accessibility. Students can study at their own pace, revisit recorded lessons and access courses from anywhere, which is especially valuable for people in remote areas or those juggling work and family. Because it removes travel and lowers costs, distance learning has opened up education to millions who would otherwise miss out. For self-motivated adults, it can be just as effective as sitting in a lecture hall.",
+      "Nevertheless, I believe traditional education retains important advantages. Face-to-face interaction allows teachers to give immediate feedback and to notice when a student is struggling. The routine and discipline of a physical classroom help learners, particularly children, to stay focused, which explains why online courses often suffer from high drop-out rates. Schools also develop essential social skills that a screen cannot replicate. For these reasons, a blended approach that combines both methods is, in my view, the most effective.",
+      "In conclusion, while online learning is a powerful and convenient tool, I do not believe it can fully replace the classroom; combining the two offers the best of both worlds."
+    ],
+    "translation": [
+      "互联网的兴起使在线学习成为传统学校和大学的有力替代。有人认为它同样有效，另一些人则心存疑虑。在我看来，尽管在线学习有明显优势，但对大多数学习者而言，传统或混合式方式仍更有效。",
+      "在线学习的支持者强调其灵活性与可及性。学生可以按自己的节奏学习、回看录播课，并从任何地方访问课程，这对身处偏远地区、或要兼顾工作与家庭的人尤其有价值。由于免去通勤、降低成本，远程学习为数以百万计原本会错失机会的人打开了教育之门。对自我驱动力强的成年人来说，它可以和坐在讲堂里一样有效。",
+      "然而，我认为传统教育仍保有重要优势。面对面互动让老师能给予即时反馈，并察觉学生何时遇到困难。实体课堂的作息与纪律帮助学习者——尤其是孩子——保持专注，这也解释了为什么在线课程常有较高的辍学率。学校还培养屏幕无法复制的重要社交能力。基于这些理由，在我看来，将两者结合的混合式方式最为有效。",
+      "总之，尽管在线学习是一种强大而便利的工具，但我并不认为它能完全取代课堂；将两者结合才能兼得二者之长。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出争议 + 表明立场",
+        "point": "各有优势，混合式更有效"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "在线一方",
+        "point": "灵活、可及、自定节奏、利于成人"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "传统一方 + 我的观点",
+        "point": "面授反馈、纪律、社交，主张混合"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "折中收束",
+        "point": "结合两者兼得其长"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "online learning",
+        "cn": "在线学习"
+      },
+      {
+        "en": "at their own pace",
+        "cn": "按自己的节奏"
+      },
+      {
+        "en": "distance learning",
+        "cn": "远程学习"
+      },
+      {
+        "en": "self-motivated",
+        "cn": "自我驱动的"
+      },
+      {
+        "en": "face-to-face interaction",
+        "cn": "面对面互动"
+      },
+      {
+        "en": "immediate feedback",
+        "cn": "即时反馈"
+      },
+      {
+        "en": "a physical classroom",
+        "cn": "实体课堂"
+      },
+      {
+        "en": "drop-out rates",
+        "cn": "辍学率"
+      },
+      {
+        "en": "social skills",
+        "cn": "社交能力"
+      },
+      {
+        "en": "a blended approach",
+        "cn": "混合式方式"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "有效的",
+        "words": [
+          "effective",
+          "efficient",
+          "productive"
+        ]
+      },
+      {
+        "sense": "灵活",
+        "words": [
+          "flexibility",
+          "adaptability",
+          "freedom"
+        ]
+      },
+      {
+        "sense": "取代",
+        "words": [
+          "replace",
+          "substitute for",
+          "supersede"
+        ]
+      },
+      {
+        "sense": "结合",
+        "words": [
+          "combine",
+          "integrate",
+          "blend"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "讨论在线与传统两方，并给出\"混合式最有效\"的立场"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "While / Because / Nevertheless / For these reasons / In conclusion"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "distance learning、face-to-face interaction、drop-out rates 等话题搭配"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "定语从句（which explains why…）、原因状语（Because…）、让步（although…）多样"
+      }
+    ],
+    "ideas": [
+      "在线优势：可按自己节奏学、回看录播、随地访问。",
+      "在线优势：免通勤、降成本，惠及偏远与在职者。",
+      "在线优势：对自驱力强的成人可与讲堂一样有效。",
+      "传统优势：面授给即时反馈、能察觉学生困难。",
+      "传统优势：课堂纪律助专注，在线课辍学率高。",
+      "传统优势：培养屏幕无法复制的社交能力。",
+      "立场：混合式方式兼得两者之长。",
+      "常用表达：the best of both worlds。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "long-working-hours",
+    "group": "society",
+    "task": "task2",
+    "taskType": "Cause / Effect",
+    "title": "Working Longer Hours",
+    "titleCn": "工作时间越来越长",
+    "date": "2026-07-18",
+    "question": "In many countries, people are working longer hours and enjoying less free time.\n\nWhat are the causes of this, and what effects does it have on individuals and society?",
+    "questionCn": "在许多国家，人们工作时间越来越长、闲暇越来越少。原因是什么？它对个人和社会有什么影响？",
+    "stanceEn": "Economic pressure and technology drive long hours, which harm health, families and society.",
+    "stanceCn": "经济压力与技术导致长工时，损害健康、家庭与社会。",
+    "paragraphs": [
+      "In many societies, employees are spending more and more time at work and enjoying less leisure. This essay will explore the main reasons behind this trend and the effects it has on both individuals and society.",
+      "There are several causes of longer working hours. In today's competitive economy, job insecurity pushes people to work harder to prove their value and avoid redundancy. The rising cost of living forces many to take on extra shifts or second jobs simply to make ends meet. Furthermore, smartphones and email have created an always-on culture in which employees feel obliged to answer messages long after they have left the office.",
+      "The effects of this are largely negative. Constant overwork damages health, causing chronic stress, exhaustion and even burnout. It also harms family relationships, as parents have little time to spend with their children. On a wider scale, exhausted employees are actually less productive in the long term, and communities suffer when people are too busy to take part in social or voluntary activities. In short, the loss of a healthy work–life balance affects everyone.",
+      "In conclusion, longer working hours are driven mainly by economic pressure and technology, and they take a serious toll on health, families and society. Both employers and governments should therefore act to protect people's free time."
+    ],
+    "translation": [
+      "在许多社会，员工在工作上花的时间越来越多，享受的闲暇越来越少。本文将探讨这一趋势背后的主要原因，以及它对个人和社会的影响。",
+      "工作时间变长有若干原因。在当今竞争激烈的经济中，工作不稳定促使人们更努力工作，以证明自身价值、避免被裁。不断上涨的生活成本迫使许多人加班或兼职，只为维持生计。此外，智能手机和电子邮件造就了一种\"随时在线\"的文化，员工即便早已下班，仍觉得有义务回复消息。",
+      "这些影响大多是负面的。持续过度工作损害健康，导致慢性压力、疲惫，甚至倦怠。它也损害家庭关系，因为父母几乎没有时间陪伴孩子。从更大范围看，疲惫的员工其实从长远看效率更低，而当人们忙到无法参与社交或志愿活动时，社区也会受损。简言之，健康的工作与生活平衡一旦丧失，会影响每一个人。",
+      "总之，工作时间变长主要由经济压力与技术推动，并对健康、家庭和社会造成严重损害。因此，雇主与政府都应采取行动，保护人们的闲暇时间。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "承认现象 + 预告原因与影响",
+        "point": "工时变长、闲暇变少"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "原因",
+        "point": "工作不稳、生活成本、随时在线文化"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "影响",
+        "point": "健康、家庭、效率、社区皆受损"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "收束",
+        "point": "雇主与政府应保护闲暇"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "longer working hours",
+        "cn": "更长的工作时间"
+      },
+      {
+        "en": "job insecurity",
+        "cn": "工作不稳定"
+      },
+      {
+        "en": "the rising cost of living",
+        "cn": "不断上涨的生活成本"
+      },
+      {
+        "en": "make ends meet",
+        "cn": "维持生计"
+      },
+      {
+        "en": "an always-on culture",
+        "cn": "随时在线的文化"
+      },
+      {
+        "en": "chronic stress",
+        "cn": "慢性压力"
+      },
+      {
+        "en": "burnout",
+        "cn": "倦怠"
+      },
+      {
+        "en": "family relationships",
+        "cn": "家庭关系"
+      },
+      {
+        "en": "work–life balance",
+        "cn": "工作与生活平衡"
+      },
+      {
+        "en": "in the long term",
+        "cn": "从长远看"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "造成",
+        "words": [
+          "cause",
+          "lead to",
+          "bring about"
+        ]
+      },
+      {
+        "sense": "损害",
+        "words": [
+          "harm",
+          "damage",
+          "take a toll on"
+        ]
+      },
+      {
+        "sense": "迫使",
+        "words": [
+          "force",
+          "push",
+          "compel"
+        ]
+      },
+      {
+        "sense": "影响",
+        "words": [
+          "effects",
+          "impact",
+          "consequences"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "原因段与影响段清晰对应，两问都充分回答"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "There are several causes / Furthermore / On a wider scale / In short / In conclusion"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "job insecurity、always-on culture、chronic stress、burnout 等话题搭配"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "定语从句（in which…）、原因状语（as…）、结果分词（causing…）多样"
+      }
+    ],
+    "ideas": [
+      "原因一：竞争经济下工作不稳，努力自证以免被裁。",
+      "原因二：生活成本上涨，加班/兼职维持生计。",
+      "原因三：手机邮件造就\"随时在线\"文化。",
+      "影响一：慢性压力、疲惫、倦怠损害健康。",
+      "影响二：父母无暇陪孩子，家庭关系受损。",
+      "影响三：疲惫者长远效率更低。",
+      "影响四：无暇社交/志愿，社区受损。",
+      "立场：雇主与政府应保护闲暇时间。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "ageing-population",
+    "group": "society",
+    "task": "task2",
+    "taskType": "Problem / Solution",
+    "title": "An Ageing Population",
+    "titleCn": "人口老龄化",
+    "date": "2026-07-17",
+    "question": "In many countries the proportion of older people is steadily increasing.\n\nWhat problems does this cause, and what measures can be taken to address them?",
+    "questionCn": "在许多国家，老年人的比例正稳步上升。这会造成哪些问题？可以采取哪些措施来应对？",
+    "stanceEn": "Ageing strains public finances and health services, but retirement, population and health policies can make it sustainable.",
+    "stanceCn": "老龄化加重公共财政与医疗负担，但退休、人口与医疗政策能使之可持续。",
+    "paragraphs": [
+      "In many countries, people are living longer and having fewer children, so the proportion of older people is steadily rising. This ageing population creates significant challenges, but several measures can help societies cope.",
+      "The most serious problem is economic. As the number of retirees grows while the workforce shrinks, the dependency ratio worsens: fewer working adults must support more pensioners through their taxes. This puts enormous pressure on the pension system and drives up healthcare costs, since older people require more medical treatment. Hospitals and elderly care services can quickly become overstretched.",
+      "Nevertheless, governments can take practical steps to address these issues. Raising the retirement age would keep experienced employees in work for longer and reduce the burden on pensions. Encouraging a higher birth rate through childcare support, or welcoming younger immigrants, could replenish the workforce. In addition, investing in preventive healthcare and community care would help older citizens stay healthy and independent for longer, easing pressure on hospitals.",
+      "In conclusion, although an ageing population strains public finances and health services, sensible policies on retirement, population and healthcare can make the situation sustainable."
+    ],
+    "translation": [
+      "在许多国家，人们寿命更长、生育更少，因此老年人的比例正稳步上升。这种人口老龄化带来了重大挑战，但有若干措施能帮助社会应对。",
+      "最严重的问题是经济方面的。随着退休人数增加、劳动力萎缩，抚养比恶化：更少的在职成年人必须通过纳税供养更多的退休者。这给养老金制度带来巨大压力，并推高医疗成本，因为老年人需要更多的医疗。医院和养老服务很快就会不堪重负。",
+      "然而，政府可以采取切实的措施来应对这些问题。提高退休年龄能让有经验的员工工作更久，减轻养老金负担。通过育儿支持鼓励提高出生率，或接纳更年轻的移民，都可以补充劳动力。此外，投资于预防性医疗和社区照护，能帮助老年公民更长久地保持健康与独立，从而缓解医院压力。",
+      "总之，尽管人口老龄化加重了公共财政与医疗服务的负担，但在退休、人口与医疗方面明智的政策，可以让这一局面变得可持续。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "承认现象 + 预告问题与对策",
+        "point": "老年比例上升带来挑战"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "问题",
+        "point": "抚养比恶化、养老金与医疗成本、服务超载"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "对策",
+        "point": "延迟退休、提高出生率/移民、预防医疗"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "收束",
+        "point": "合理政策使局面可持续"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "ageing population",
+        "cn": "人口老龄化"
+      },
+      {
+        "en": "the proportion of older people",
+        "cn": "老年人的比例"
+      },
+      {
+        "en": "dependency ratio",
+        "cn": "抚养比"
+      },
+      {
+        "en": "the workforce",
+        "cn": "劳动力"
+      },
+      {
+        "en": "pension system",
+        "cn": "养老金制度"
+      },
+      {
+        "en": "healthcare costs",
+        "cn": "医疗成本"
+      },
+      {
+        "en": "retirement age",
+        "cn": "退休年龄"
+      },
+      {
+        "en": "birth rate",
+        "cn": "出生率"
+      },
+      {
+        "en": "elderly care",
+        "cn": "养老照护"
+      },
+      {
+        "en": "preventive healthcare",
+        "cn": "预防性医疗"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "增加",
+        "words": [
+          "increase",
+          "rise",
+          "grow"
+        ]
+      },
+      {
+        "sense": "减轻",
+        "words": [
+          "reduce",
+          "ease",
+          "relieve"
+        ]
+      },
+      {
+        "sense": "供养",
+        "words": [
+          "support",
+          "provide for",
+          "sustain"
+        ]
+      },
+      {
+        "sense": "措施",
+        "words": [
+          "measures",
+          "steps",
+          "policies"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "问题段与对策段一一对应，两问都充分回答"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "The most serious / As… / Nevertheless / In addition / In conclusion 结构清晰"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "dependency ratio、pension system、preventive healthcare 等话题搭配"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "时间/让步状语（As… while…）、条件（would…）、分词状语（easing…）多样"
+      }
+    ],
+    "ideas": [
+      "问题一：退休者增、劳动力减，抚养比恶化。",
+      "问题二：养老金压力大、医疗成本上升。",
+      "问题三：医院与养老服务不堪重负。",
+      "对策一：提高退休年龄，留住有经验员工。",
+      "对策二：育儿支持提高出生率，或引进年轻移民。",
+      "对策三：投资预防医疗与社区照护，助老人独立健康。",
+      "立场：合理政策使老龄化可持续。",
+      "背景成因：寿命更长 + 生育更少。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "children-upbringing",
+    "group": "society",
+    "task": "task2",
+    "taskType": "Discussion + Opinion",
+    "title": "Who Shapes Children's Behaviour",
+    "titleCn": "谁塑造孩子的行为",
+    "date": "2026-07-16",
+    "question": "Some people believe that parents are mainly responsible for their children's behaviour, while others think schools and society play a bigger role.\n\nDiscuss both views and give your own opinion.",
+    "questionCn": "有人认为父母主要为孩子的行为负责，另一些人则认为学校和社会作用更大。讨论双方观点并给出你的看法。",
+    "stanceEn": "Schools and society matter, but parents carry the greatest responsibility, especially in the early years.",
+    "stanceCn": "学校和社会有影响，但父母责任最大，尤其在幼年阶段。",
+    "paragraphs": [
+      "There is ongoing debate about who bears the main responsibility for children's behaviour. While some argue that parents are the decisive influence, others believe that schools and wider society matter just as much. In my view, parents play the primary role, though responsibility is ultimately shared.",
+      "Those who emphasise parents make a strong case. During the early years, children spend most of their time at home, where they absorb the moral values and habits of those around them. Parents act as the first and most powerful role models, and a stable home provides the security and guidance that shape a child's character. When parents are neglectful, children are far more likely to develop behavioural problems.",
+      "On the other hand, schools and society clearly exert a growing influence as children get older. Teachers instil discipline and knowledge, while peer pressure can strongly affect a teenager's choices, sometimes more than a parent's advice. The media and wider society also shape young people's attitudes and heroes. Nevertheless, I believe these forces build upon the foundation laid at home, which is why parental influence remains the most important.",
+      "In conclusion, although schools and society play a significant part in a child's development, I believe parents carry the greatest responsibility, especially in the crucial early years."
+    ],
+    "translation": [
+      "关于谁应为孩子的行为负主要责任，一直存在争论。有人主张父母是决定性的影响，另一些人则认为学校与更广泛的社会同样重要。在我看来，父母扮演主要角色，尽管责任最终是共担的。",
+      "强调父母的人理由充分。在幼年时期，孩子大部分时间在家里度过，会吸收身边人的道德价值观与习惯。父母是最初也是最有力的榜样，稳定的家庭提供塑造孩子性格所需的安全感与引导。当父母疏于照管时，孩子出现行为问题的可能性要大得多。",
+      "另一方面，随着孩子长大，学校与社会显然施加着越来越大的影响。老师灌输纪律与知识，而同伴压力对青少年选择的影响有时比父母的建议更大。媒体与更广泛的社会也塑造年轻人的态度与偶像。尽管如此，我认为这些力量是建立在家庭所奠定的基础之上的，这正是父母影响仍最重要的原因。",
+      "总之，尽管学校与社会在孩子成长中扮演重要角色，但我认为父母承担着最大的责任，尤其是在关键的幼年时期。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出争议 + 表明立场",
+        "point": "责任共担，但父母为主"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "父母一方",
+        "point": "幼年在家、价值观、榜样、稳定家庭"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "学校社会一方 + 我的观点",
+        "point": "老师、同伴、媒体，但建于家庭之上"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "折中收束",
+        "point": "父母责任最大，尤其幼年"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "children's behaviour",
+        "cn": "孩子的行为"
+      },
+      {
+        "en": "the early years",
+        "cn": "幼年时期"
+      },
+      {
+        "en": "moral values",
+        "cn": "道德价值观"
+      },
+      {
+        "en": "role models",
+        "cn": "榜样"
+      },
+      {
+        "en": "a stable home",
+        "cn": "稳定的家庭"
+      },
+      {
+        "en": "shape a child's character",
+        "cn": "塑造孩子的性格"
+      },
+      {
+        "en": "behavioural problems",
+        "cn": "行为问题"
+      },
+      {
+        "en": "peer pressure",
+        "cn": "同伴压力"
+      },
+      {
+        "en": "wider society",
+        "cn": "更广泛的社会"
+      },
+      {
+        "en": "parental influence",
+        "cn": "父母影响"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "认为主张",
+        "words": [
+          "argue that",
+          "believe that",
+          "contend that"
+        ]
+      },
+      {
+        "sense": "影响",
+        "words": [
+          "influence",
+          "affect",
+          "shape"
+        ]
+      },
+      {
+        "sense": "责任",
+        "words": [
+          "responsibility",
+          "duty",
+          "obligation"
+        ]
+      },
+      {
+        "sense": "塑造",
+        "words": [
+          "shape",
+          "mould",
+          "form"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "讨论父母与学校社会两方，并给出\"父母为主\"的立场"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "While / On the other hand / Nevertheless / which is why / In conclusion"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "moral values、peer pressure、parental influence 等家庭教育话题搭配"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "定语从句（where they absorb… / which is why…）、时间状语（as… get older）多样"
+      }
+    ],
+    "ideas": [
+      "父母一方：幼年多在家，吸收身边价值观与习惯。",
+      "父母一方：父母是最初最有力的榜样。",
+      "父母一方：稳定家庭提供塑造性格的安全与引导。",
+      "父母一方：父母疏于照管则易出行为问题。",
+      "社会一方：老师灌输纪律知识。",
+      "社会一方：同伴压力对青少年影响甚至超过父母。",
+      "社会一方：媒体与社会塑造态度与偶像。",
+      "立场：这些力量建于家庭基础之上，父母责任最大。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "news-media",
+    "group": "culture",
+    "task": "task2",
+    "taskType": "Agree / Disagree",
+    "title": "Is the News Media Too Influential",
+    "titleCn": "新闻媒体是否影响力过大",
+    "date": "2026-07-15",
+    "question": "Some people think that the news media has become far too influential in people's lives.\n\nTo what extent do you agree or disagree?",
+    "questionCn": "有人认为新闻媒体在人们生活中的影响力已变得过大。你在多大程度上同意或不同意？",
+    "stanceEn": "The media has real value, but to a large extent its influence over modern life has grown too powerful.",
+    "stanceCn": "媒体确有价值，但在很大程度上，它对现代生活的影响已变得过大。",
+    "paragraphs": [
+      "In the digital age, news reaches us constantly through television, websites and social media. Many argue that the news media now has an excessive influence over our lives, and I largely agree with this view, even though the media also plays a valuable role.",
+      "There are clear signs that media influence has become too great. Broadcasting news around the clock, outlets shape public opinion on everything from politics to fashion, and they can sway elections by choosing which stories to highlight. In the race for attention, many rely on sensationalism and even spread fake news, while an obsession with celebrity culture distracts people from serious issues. Constant exposure to alarming headlines can also fuel anxiety and a distorted view of the world.",
+      "It would, however, be wrong to condemn the media completely. A free press performs the essential function of informing citizens and holding power to account, exposing corruption that would otherwise remain hidden. It also helps to spread awareness of important causes. Nonetheless, these benefits do not outweigh the concern that, for many people, the media now shapes their opinions, emotions and even their sense of self to an unhealthy degree.",
+      "In conclusion, although the news media has genuine value, I agree to a large extent that its influence over modern life has grown too powerful."
+    ],
+    "translation": [
+      "在数字时代，新闻通过电视、网站和社交媒体不断向我们涌来。许多人认为新闻媒体如今对我们的生活影响过大，我在很大程度上同意这一观点，尽管媒体也发挥着有价值的作用。",
+      "有明显迹象表明媒体的影响力已经过大。全天候不间断播报新闻，媒体塑造着从政治到时尚的一切公众舆论，并能通过选择突出哪些报道来左右选举。在争夺注意力的过程中，许多媒体依赖煽情、甚至散布假新闻，而对名人文化的痴迷又使人们从严肃议题上分心。不断接触耸人听闻的标题，也会加剧焦虑，扭曲人们对世界的看法。",
+      "然而，完全谴责媒体也是不对的。自由的新闻界履行着告知公民、监督权力的重要职能，揭露那些否则将被隐藏的腐败。它也有助于传播对重要议题的关注。尽管如此，这些好处并不能抵消一个担忧：对许多人而言，媒体如今在以一种不健康的程度塑造着他们的观点、情绪，甚至自我认知。",
+      "总之，尽管新闻媒体确有真正的价值，但我在很大程度上同意：它对现代生活的影响已变得过于强大。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "引出观点 + 表明立场",
+        "point": "有价值，但很大程度同意影响过大"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "支持理由",
+        "point": "塑造舆论、煽情假新闻、追星、焦虑"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "让步对方 + 拉回",
+        "point": "告知与监督，但仍不足以抵消担忧"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "收束",
+        "point": "影响力已过于强大"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "the news media",
+        "cn": "新闻媒体"
+      },
+      {
+        "en": "around the clock",
+        "cn": "全天候地"
+      },
+      {
+        "en": "public opinion",
+        "cn": "公众舆论"
+      },
+      {
+        "en": "sensationalism",
+        "cn": "煽情"
+      },
+      {
+        "en": "fake news",
+        "cn": "假新闻"
+      },
+      {
+        "en": "celebrity culture",
+        "cn": "名人文化"
+      },
+      {
+        "en": "a free press",
+        "cn": "自由的新闻界"
+      },
+      {
+        "en": "holding power to account",
+        "cn": "监督权力"
+      },
+      {
+        "en": "spread awareness",
+        "cn": "传播关注"
+      },
+      {
+        "en": "to a large extent",
+        "cn": "在很大程度上"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "影响",
+        "words": [
+          "influence",
+          "sway",
+          "shape"
+        ]
+      },
+      {
+        "sense": "散布",
+        "words": [
+          "spread",
+          "circulate",
+          "disseminate"
+        ]
+      },
+      {
+        "sense": "揭露",
+        "words": [
+          "expose",
+          "reveal",
+          "uncover"
+        ]
+      },
+      {
+        "sense": "担忧",
+        "words": [
+          "concern",
+          "worry",
+          "reservation"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "明确\"很大程度同意\"，让步媒体价值后回到立场"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "There are clear signs / however / Nonetheless / In conclusion 层层推进"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "sensationalism、celebrity culture、hold power to account 等媒体话题搭配"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "分词状语（Broadcasting… / exposing…）、定语从句（that would otherwise…）、让步（although…）多样"
+      }
+    ],
+    "ideas": [
+      "支持一：全天候播报，塑造从政治到时尚的舆论。",
+      "支持二：选择突出哪些报道，可左右选举。",
+      "支持三：依赖煽情、散布假新闻。",
+      "支持四：追星文化令人从严肃议题分心。",
+      "支持五：耸动标题加剧焦虑、扭曲认知。",
+      "让步：自由新闻界告知公民、监督权力、揭露腐败。",
+      "拉回：好处不足以抵消\"过度塑造观点情绪\"的担忧。",
+      "立场：媒体影响力已过于强大。"
+    ],
+    "images": []
+  },
+  {
+    "slug": "wealth-gap",
+    "group": "society",
+    "task": "task2",
+    "taskType": "Problem / Solution",
+    "title": "The Widening Gap Between Rich and Poor",
+    "titleCn": "日益扩大的贫富差距",
+    "date": "2026-07-14",
+    "question": "The gap between the rich and the poor is becoming wider in many countries.\n\nWhat problems does this cause, and what measures can be taken to reduce the gap?",
+    "questionCn": "在许多国家，贫富之间的差距正日益扩大。这会造成哪些问题？可以采取哪些措施来缩小差距？",
+    "stanceEn": "A wide wealth gap harms mobility and stability, but fair taxation, public services and wage protection can narrow it.",
+    "stanceCn": "巨大的贫富差距损害流动性与稳定，但公平税收、公共服务与工资保护能缩小它。",
+    "paragraphs": [
+      "In many countries, the gap between the rich and the poor is steadily widening. This growing income inequality causes serious problems, but governments can take effective measures to narrow it.",
+      "A wide wealth gap has damaging consequences. When a large section of society struggles while a few enjoy enormous wealth, resentment builds, which can lead to rising crime and even social unrest. Inequality also limits social mobility: children from poor families often lack access to good education and healthcare, trapping them in the poverty trap for generations. In extreme cases, such divisions threaten political stability, as people lose faith in a system that seems unfair.",
+      "Fortunately, several measures can help reduce the gap. The most direct is progressive taxation, in which higher earners pay a larger share, allowing the government to redistribute wealth and fund public services. Investing this revenue in free education and healthcare gives poorer citizens a genuine chance to improve their lives. Introducing a fair minimum wage and a reliable social safety net would further protect the most vulnerable from falling into poverty.",
+      "In conclusion, the widening gap between rich and poor damages social mobility and stability, but through fairer taxation, strong public services and wage protection, governments can build a more equal society."
+    ],
+    "translation": [
+      "在许多国家，贫富之间的差距正稳步扩大。这种不断加剧的收入不平等造成了严重问题，但政府可以采取有效措施来缩小它。",
+      "巨大的贫富差距会带来破坏性的后果。当社会中很大一部分人苦苦挣扎、而少数人却坐拥巨额财富时，怨恨便会滋生，进而可能导致犯罪上升，甚至社会动荡。不平等还限制社会流动：贫困家庭的孩子往往无法获得良好的教育与医疗，使他们世代困于贫困陷阱。在极端情况下，这种分裂会威胁政治稳定，因为人们对一个看似不公的制度失去信心。",
+      "所幸，有若干措施能帮助缩小差距。最直接的是累进税制，即高收入者缴纳更大比例，使政府得以再分配财富、资助公共服务。把这笔收入投向免费教育与医疗，能给贫困公民一个真正改善生活的机会。引入合理的最低工资和可靠的社会保障网，则能进一步保护最脆弱的人免于陷入贫困。",
+      "总之，不断扩大的贫富差距损害社会流动与稳定，但通过更公平的税收、强有力的公共服务和工资保护，政府可以建设一个更平等的社会。"
+    ],
+    "structure": [
+      {
+        "paragraph": "Introduction",
+        "functionCn": "承认现象 + 预告问题与对策",
+        "point": "贫富差距扩大"
+      },
+      {
+        "paragraph": "Body 1",
+        "functionCn": "问题",
+        "point": "怨恨/动荡、流动性受限、贫困陷阱、政治不稳"
+      },
+      {
+        "paragraph": "Body 2",
+        "functionCn": "对策",
+        "point": "累进税、投资教育医疗、最低工资、保障网"
+      },
+      {
+        "paragraph": "Conclusion",
+        "functionCn": "收束",
+        "point": "公平税收+公共服务+工资保护建更平等社会"
+      }
+    ],
+    "phrases": [
+      {
+        "en": "the gap between the rich and the poor",
+        "cn": "贫富差距"
+      },
+      {
+        "en": "income inequality",
+        "cn": "收入不平等"
+      },
+      {
+        "en": "social unrest",
+        "cn": "社会动荡"
+      },
+      {
+        "en": "social mobility",
+        "cn": "社会流动"
+      },
+      {
+        "en": "the poverty trap",
+        "cn": "贫困陷阱"
+      },
+      {
+        "en": "progressive taxation",
+        "cn": "累进税制"
+      },
+      {
+        "en": "redistribute wealth",
+        "cn": "再分配财富"
+      },
+      {
+        "en": "public services",
+        "cn": "公共服务"
+      },
+      {
+        "en": "minimum wage",
+        "cn": "最低工资"
+      },
+      {
+        "en": "social safety net",
+        "cn": "社会保障网"
+      }
+    ],
+    "synonyms": [
+      {
+        "sense": "扩大",
+        "words": [
+          "widen",
+          "grow",
+          "increase"
+        ]
+      },
+      {
+        "sense": "缩小",
+        "words": [
+          "reduce",
+          "narrow",
+          "close"
+        ]
+      },
+      {
+        "sense": "导致",
+        "words": [
+          "lead to",
+          "cause",
+          "result in"
+        ]
+      },
+      {
+        "sense": "保护",
+        "words": [
+          "protect",
+          "safeguard",
+          "shield"
+        ]
+      }
+    ],
+    "scoring": [
+      {
+        "dimension": "Task Response 任务回应",
+        "detail": "问题段与对策段一一对应，两问都充分回答"
+      },
+      {
+        "dimension": "Coherence & Cohesion 连贯衔接",
+        "detail": "When… / also / Fortunately / The most direct / In conclusion 结构清晰"
+      },
+      {
+        "dimension": "Lexical Resource 词汇",
+        "detail": "income inequality、the poverty trap、progressive taxation、social safety net 等话题搭配"
+      },
+      {
+        "dimension": "Grammatical Range 语法",
+        "detail": "定语从句（in which… / that seems unfair）、分词状语（trapping… / allowing…）多样"
+      }
+    ],
+    "ideas": [
+      "问题一：多数挣扎、少数暴富，滋生怨恨与犯罪/动荡。",
+      "问题二：穷家孩子缺教育医疗，世代困于贫困陷阱。",
+      "问题三：社会流动受限。",
+      "问题四：制度显不公，威胁政治稳定。",
+      "对策一：累进税制，让高收入者多缴、再分配财富。",
+      "对策二：投资免费教育与医疗，给穷人改善机会。",
+      "对策三：合理最低工资 + 可靠社会保障网。",
+      "立场：公平税收+公共服务+工资保护建更平等社会。"
     ],
     "images": []
   },

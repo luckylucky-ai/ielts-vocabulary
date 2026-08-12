@@ -164,7 +164,7 @@ window.IELTS_WRITING_GUIDE = {
       ],
     },
     {
-      id: "ai-solutionism", cn: "人工智能：热望与局限", en: "Artificial Intelligence — Hype vs Reality", group: "tech",
+      id: "ai-solutionism", cn: "人工智能：热望与局限", en: "Artificial Intelligence — Hype vs Reality", group: "tech", essaySlug: "ai-society",
       pros: [
         { en: "May help cure diseases and speed up medical research", cn: "有望助力攻克疾病、加速医学研究" },
         { en: "Accelerates innovation and boosts human creativity", cn: "加速创新、激发人类创造力" },
@@ -197,7 +197,7 @@ window.IELTS_WRITING_GUIDE = {
       ],
     },
     {
-      id: "remote-work", cn: "远程办公 / 居家学习", en: "Working & Studying from Home", group: "society",
+      id: "remote-work", cn: "远程办公 / 居家学习", en: "Working & Studying from Home", group: "society", essaySlug: "working-from-home",
       pros: [
         { en: "Saves commuting time and transport costs", cn: "省下通勤时间与交通成本" },
         { en: "Flexible schedule improves work–life balance", cn: "弹性时间改善工作与生活平衡" },
@@ -302,7 +302,7 @@ window.IELTS_WRITING_GUIDE = {
       ],
     },
     {
-      id: "advertising", cn: "广告与消费主义", en: "Advertising & Consumerism", group: "culture",
+      id: "advertising", cn: "广告与消费主义", en: "Advertising & Consumerism", group: "culture", essaySlug: "advertising-consumerism",
       pros: [
         { en: "Informs buyers about new products and choices", cn: "让消费者了解新产品与选择" },
         { en: "Funds free media, sport and entertainment", cn: "资助免费的媒体、体育与娱乐" },
@@ -332,7 +332,7 @@ window.IELTS_WRITING_GUIDE = {
       ],
     },
     {
-      id: "climate-change", cn: "气候变化与清洁能源", en: "Climate Change & Clean Energy", group: "nature",
+      id: "climate-change", cn: "气候变化与清洁能源", en: "Climate Change & Clean Energy", group: "nature", essaySlug: "renewable-energy",
       pros: [
         { en: "Cuts greenhouse gases and slows global warming", cn: "减少温室气体、减缓全球变暖" },
         { en: "Renewable energy is now cheap and creates jobs", cn: "可再生能源已便宜且创造就业" },
@@ -362,7 +362,7 @@ window.IELTS_WRITING_GUIDE = {
       ],
     },
     {
-      id: "fitness-lifestyle", cn: "运动与久坐生活", en: "Exercise & Sedentary Lifestyles", group: "culture",
+      id: "fitness-lifestyle", cn: "运动与久坐生活", en: "Exercise & Sedentary Lifestyles", group: "culture", essaySlug: "physical-activity",
       pros: [
         { en: "Prevents obesity, heart disease and diabetes", cn: "预防肥胖、心脏病与糖尿病" },
         { en: "Improves mental health and reduces stress", cn: "改善心理健康、缓解压力" },
@@ -407,7 +407,7 @@ window.IELTS_WRITING_GUIDE = {
       ],
     },
     {
-      id: "online-learning", cn: "在线学习 vs 传统课堂", en: "Online vs Classroom Learning", group: "education",
+      id: "online-learning", cn: "在线学习 vs 传统课堂", en: "Online vs Classroom Learning", group: "education", essaySlug: "online-education",
       pros: [
         { en: "Flexible — study anytime, anywhere", cn: "灵活：随时随地学习" },
         { en: "Cheaper and reaches remote learners", cn: "更便宜、覆盖偏远学习者" },
@@ -422,7 +422,7 @@ window.IELTS_WRITING_GUIDE = {
       ],
     },
     {
-      id: "work-life-balance", cn: "工作与生活平衡", en: "Work–Life Balance & Long Hours", group: "society",
+      id: "work-life-balance", cn: "工作与生活平衡", en: "Work–Life Balance & Long Hours", group: "society", essaySlug: "long-working-hours",
       pros: [
         { en: "Rest boosts productivity and creativity", cn: "休息提升效率与创造力" },
         { en: "Better mental and physical health", cn: "更好的身心健康" },
@@ -437,7 +437,7 @@ window.IELTS_WRITING_GUIDE = {
       ],
     },
     {
-      id: "ageing-population", cn: "人口老龄化", en: "Ageing Population", group: "society",
+      id: "ageing-population", cn: "人口老龄化", en: "Ageing Population", group: "society", essaySlug: "ageing-population",
       pros: [
         { en: "Longer, healthier lives are an achievement", cn: "更长寿更健康是人类成就" },
         { en: "Experienced older workers and volunteers add value", cn: "有经验的老年劳动者与志愿者有价值" },
@@ -482,7 +482,7 @@ window.IELTS_WRITING_GUIDE = {
       ],
     },
     {
-      id: "parenting-children", cn: "孩子成长：父母 vs 社会影响", en: "Children: Parents vs Wider Influences", group: "society",
+      id: "parenting-children", cn: "孩子成长：父母 vs 社会影响", en: "Children: Parents vs Wider Influences", group: "society", essaySlug: "children-upbringing",
       pros: [
         { en: "Parents shape early values and behaviour", cn: "父母塑造早期价值观与行为" },
         { en: "A stable home builds confidence and security", cn: "稳定家庭培养自信与安全感" },
@@ -497,7 +497,7 @@ window.IELTS_WRITING_GUIDE = {
       ],
     },
     {
-      id: "news-media", cn: "新闻媒体与名人文化", en: "News Media & Celebrity Culture", group: "culture",
+      id: "news-media", cn: "新闻媒体与名人文化", en: "News Media & Celebrity Culture", group: "culture", essaySlug: "news-media",
       pros: [
         { en: "Keeps citizens informed and holds power to account", cn: "让公民知情、监督权力" },
         { en: "Spreads awareness of important issues fast", cn: "快速传播重要议题" },
@@ -527,7 +527,7 @@ window.IELTS_WRITING_GUIDE = {
       ],
     },
     {
-      id: "wealth-inequality", cn: "贫富差距与对外援助", en: "Wealth Inequality & Foreign Aid", group: "society",
+      id: "wealth-inequality", cn: "贫富差距与对外援助", en: "Wealth Inequality & Foreign Aid", group: "society", essaySlug: "wealth-gap",
       pros: [
         { en: "Reducing gaps lowers poverty, crime and unrest", cn: "缩小差距降低贫困、犯罪与动荡" },
         { en: "Fairer societies are more stable and healthy", cn: "更公平的社会更稳定健康" },
